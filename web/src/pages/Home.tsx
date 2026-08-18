@@ -46,7 +46,7 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <span className="hero__eyebrow">ARTIGO</span>
-        <h1>You Shall Not Pass: Gatekeeping na Agência Câmara de Notícias</h1>
+        <h1>You Shall Not Pass: Usando LLMs para Avaliar o Gatekeeping na Agência Câmara de Notícias</h1>
         <p className="hero__lead">
           Explorando quais critérios e valores orientam a seleção de dados e participantes nas matérias jornalísticas produzidas pela Agência Câmara sobre
           audiências públicas na Câmara dos Deputados.
