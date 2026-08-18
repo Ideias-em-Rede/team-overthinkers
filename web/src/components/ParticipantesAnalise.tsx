@@ -20,6 +20,7 @@ import type {
 } from "../types";
 import MethodInfo from "./MethodInfo";
 import { MATERIA_METHOD, TRANSCRICAO_METHOD } from "../methodology";
+import "./ParticipantesAnalise.css";
 
 const NAVY = "#003366";
 const BLUE = "#0077b6";
