@@ -1,0 +1,51 @@
+{
+  "id": 1,
+  "source": "llm",
+  "modelo": "gpt-4o-mini",
+  "valores_noticia": {
+    "atualidade": {
+      "presente": true,
+      "evidencia": "Na tarde de ontem, a Comissão de Relações Exteriores e de Defesa Nacional da Câmara dos Deputados realizou uma audiência pública..."
+    },
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "importancia": {
+      "presente": true,
+      "evidencia": "ressaltando a importância do debate sobre um tema que, segundo ele, 'ganhou as manchetes do mundo inteiro'."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "as denúncias sobre a censura na rede social X revelam uma situação de abuso por parte do Judiciário..."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A audiência pública gerou um intenso debate entre os parlamentares, com alguns defendendo a necessidade de regulamentação..."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Entre os convidados estavam Michael Shellenberger, Eli Vieira Araujo, David Ágape e Glenn Greenwald..."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "curiosidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "dramaticidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "surpresa": {
+      "presente": false,
+      "evidencia": null
+    },
+    "raridade": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

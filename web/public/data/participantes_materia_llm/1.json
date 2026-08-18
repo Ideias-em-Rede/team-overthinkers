@@ -1,0 +1,72 @@
+{
+  "id": 1,
+  "source": "llm",
+  "metodo": "llm",
+  "modelo": "gpt-4o-mini",
+  "descricao": "Extração via LLM (OpenAI). O modelo identifica pessoas nomeadas, cargo (quando explicitado), número de menções e citações diretas atribuídas. Requer verificação humana em amostra por ser probabilística.",
+  "totais": {
+    "num_participantes": 7,
+    "num_citacoes_diretas": 11
+  },
+  "participantes": [
+    {
+      "nome": "Marcel van Hattem",
+      "cargo": "Deputado",
+      "mencoes": 3,
+      "citacoes_diretas": [
+        "lamentando a ausência de um representante da plataforma X e defendendo a continuidade do debate sobre a censura."
+      ]
+    },
+    {
+      "nome": "Lucas Redecker",
+      "cargo": "presidente da Comissão",
+      "mencoes": 3,
+      "citacoes_diretas": [
+        "dando início aos trabalhos agradecendo a presença dos convidados e ressaltando a importância do debate sobre um tema que, segundo ele, \"ganhou as manchetes do mundo inteiro\".",
+        "encerrou a audiência agradecendo a todos os participantes e convocando uma nova reunião para discutir outros temas relevantes relacionados à Defesa Nacional."
+      ]
+    },
+    {
+      "nome": "Eli Vieira Araujo",
+      "cargo": null,
+      "mencoes": 2,
+      "citacoes_diretas": [
+        "criticou a utilização de termos como \"fake news\" e \"discurso de ódio\", argumentando que esses conceitos não estão tipificados como crimes na legislação brasileira.",
+        "defendeu um modelo amplo de liberdade de expressão, semelhante ao dos Estados Unidos, e alertou para abusos de poder por parte de autoridades que, segundo ele, têm violado direitos constitucionais."
+      ]
+    },
+    {
+      "nome": "David Ágape",
+      "cargo": null,
+      "mencoes": 2,
+      "citacoes_diretas": [
+        "destacou que as denúncias sobre a censura na rede social X revelam uma situação de abuso por parte do Judiciário, mencionando ordens judiciais que teriam exigido a entrega de dados de usuários sem a devida autorização.",
+        "criticou a atuação do Tribunal Superior Eleitoral (TSE) e do Supremo Tribunal Federal (STF) em relação à censura de conteúdos e usuários."
+      ]
+    },
+    {
+      "nome": "Glenn Greenwald",
+      "cargo": null,
+      "mencoes": 2,
+      "citacoes_diretas": [
+        "enfatizou que o sistema de censura no Brasil é mais extremo do que em outros países democráticos.",
+        "apresentou um documento de uma ordem de censura emitida pelo Ministro Alexandre de Moraes, que, segundo ele, foi mantido em sigilo e impediu que os afetados soubessem das acusações contra eles."
+      ]
+    },
+    {
+      "nome": "Michael Shellenberger",
+      "cargo": null,
+      "mencoes": 2,
+      "citacoes_diretas": [
+        "encerrou as exposições ressaltando a importância da liberdade de expressão e alertando para os perigos de um sistema que tenta controlar o que as pessoas podem dizer.",
+        "fez uma analogia com a Inquisição, questionando a legitimidade de um sistema que busca punir opiniões e erros humanos."
+      ]
+    },
+    {
+      "nome": "Alexandre de Moraes",
+      "cargo": "Ministro",
+      "mencoes": 1,
+      "citacoes_diretas": []
+    }
+  ]
+}

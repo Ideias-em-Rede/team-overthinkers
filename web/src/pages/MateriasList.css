@@ -1,0 +1,122 @@
+.materias__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.materias__head h1 {
+  margin-bottom: 0.2rem;
+}
+.materias__head .muted {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.materias__controls {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.materias__controls input,
+.materias__controls select {
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.55rem 0.75rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--text);
+  font-family: inherit;
+}
+.materias__controls input {
+  min-width: 280px;
+}
+.materias__controls input:focus,
+.materias__controls select:focus {
+  outline: 2px solid var(--blue);
+  outline-offset: -1px;
+  border-color: var(--blue);
+}
+
+.materia-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.materia-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.15rem;
+  height: 100%;
+  color: var(--text);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+.materia-card:hover {
+  border-color: var(--navy);
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.materia-card__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.materia-card h3 {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0;
+  color: var(--navy);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materia-card__sub {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materia-card__assunto {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.materia-card__assunto strong {
+  color: var(--navy);
+}
+
+.materia-card__footer {
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
