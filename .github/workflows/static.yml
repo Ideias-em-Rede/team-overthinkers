@@ -37,8 +37,6 @@ jobs:
 
       - name: Build
         working-directory: web
-        env:
-          VITE_BASE: /${{ github.event.repository.name }}/
         run: npm run build
 
       - name: SPA fallback (copy index.html to 404.html)
