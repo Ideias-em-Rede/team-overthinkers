@@ -144,6 +144,10 @@ rabbitmq-data/
 # ActiveMQ
 activemq-data/
 
+# Dataset externo (clonado separadamente).
+# Ver README pra instruções de clone se for rodar a pipeline.
+PublicHearingBR/
+
 # SageMath parsed files
 *.sage.py
 
