@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       <section className="rqs">
-        <h2>Perguntas de pesquisa</h2>
+        <h2>Questões de pesquisa</h2>
         <div className="rq-grid">
           <article className="rq-card">
             <span className="badge">RQ1</span>
