@@ -147,8 +147,6 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
-
-./PublicHearingBR/
 # Environments
 .env
 .envrc
