@@ -50,7 +50,7 @@ SPEECH_RE = re.compile(
 
 A expressão regular procura os **cabeçalhos de fala** presentes na transcrição, identificados por `O SR.` ou `A SRA.`, e usa esses cabeçalhos para identificar o participante e delimitar o conteúdo associado a ele.
 
-Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada.
+Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada: **team-overthinkers/dataset/transcricao_reorganizada/jsons**.
 
 ---
 
@@ -65,5 +65,7 @@ Após a estruturação da transcrição em blocos de fala por participante, o se
 * quantidade de falas e palavras de cada participante;
 * quantidade de falas e palavras de cada partido;
 * quantidade de falas e palavras de cada estado.
+
+Esses metadados ficam salvos em **team-overthinkers/dataset/transcricao_reorganizada/metadados**.
 
 Essa estrutura constitui a base para as etapas posteriores de análise e para o cruzamento entre a **transcrição** e a **notícia jornalística**.
