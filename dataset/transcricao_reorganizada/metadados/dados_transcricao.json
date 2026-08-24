@@ -1,0 +1,533 @@
+{
+  "1": {
+    "resumo": {
+      "quantidade_participantes": 17,
+      "genero": {
+        "SR.": 15,
+        "SRA.": 2
+      },
+      "partidos": {
+        "PSDB": {
+          "participantes": 1,
+          "falas": 112,
+          "palavras": 2166
+        },
+        "PT": {
+          "participantes": 2,
+          "falas": 35,
+          "palavras": 1355
+        },
+        "NOVO": {
+          "participantes": 2,
+          "falas": 73,
+          "palavras": 4359
+        },
+        "PL": {
+          "participantes": 7,
+          "falas": 63,
+          "palavras": 2842
+        },
+        "PP": {
+          "participantes": 1,
+          "falas": 8,
+          "palavras": 414
+        }
+      },
+      "estados": {
+        "RS": {
+          "participantes": 4,
+          "falas": 191,
+          "palavras": 6927
+        },
+        "SP": {
+          "participantes": 4,
+          "falas": 52,
+          "palavras": 2279
+        },
+        "PI": {
+          "participantes": 1,
+          "falas": 11,
+          "palavras": 291
+        },
+        "RN": {
+          "participantes": 1,
+          "falas": 10,
+          "palavras": 421
+        },
+        "PR": {
+          "participantes": 1,
+          "falas": 9,
+          "palavras": 380
+        },
+        "DF": {
+          "participantes": 1,
+          "falas": 8,
+          "palavras": 410
+        },
+        "ES": {
+          "participantes": 1,
+          "falas": 10,
+          "palavras": 428
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Lucas Redecker",
+        "genero": "SR.",
+        "partido": "PSDB",
+        "estado": "RS",
+        "quantidade_falas": 112,
+        "quantidade_palavras": 2166
+      },
+      {
+        "nome": "ARLINDO CHINAGLIA",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "SP",
+        "quantidade_falas": 24,
+        "quantidade_palavras": 1064
+      },
+      {
+        "nome": "ELI VIEIRA ARAUJO JÚNIOR",
+        "genero": "SR.",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 35,
+        "quantidade_palavras": 1865
+      },
+      {
+        "nome": "DAVID ÁGAPE",
+        "genero": "SR.",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 49,
+        "quantidade_palavras": 2774
+      },
+      {
+        "nome": "GLENN EDWARD GREENWALD",
+        "genero": "SR.",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 43,
+        "quantidade_palavras": 2587
+      },
+      {
+        "nome": "MICHAEL SHELLENBERGER",
+        "genero": "SR.",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 16,
+        "quantidade_palavras": 1115
+      },
+      {
+        "nome": "MARCEL VAN HATTEM",
+        "genero": "SR.",
+        "partido": "NOVO",
+        "estado": "RS",
+        "quantidade_falas": 60,
+        "quantidade_palavras": 3902
+      },
+      {
+        "nome": "FLORENTINO NETO",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "PI",
+        "quantidade_falas": 11,
+        "quantidade_palavras": 291
+      },
+      {
+        "nome": "GENERAL GIRÃO",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "RN",
+        "quantidade_falas": 10,
+        "quantidade_palavras": 421
+      },
+      {
+        "nome": "MARIO FRIAS",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "SP",
+        "quantidade_falas": 8,
+        "quantidade_palavras": 417
+      },
+      {
+        "nome": "LUIZ PHILIPPE DE ORLEANS E BRAGANÇA",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "SP",
+        "quantidade_falas": 7,
+        "quantidade_palavras": 341
+      },
+      {
+        "nome": "FILIPE BARROS",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "PR",
+        "quantidade_falas": 9,
+        "quantidade_palavras": 380
+      },
+      {
+        "nome": "MARCELO MORAES",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "RS",
+        "quantidade_falas": 11,
+        "quantidade_palavras": 445
+      },
+      {
+        "nome": "BIA KICIS",
+        "genero": "SRA.",
+        "partido": "PL",
+        "estado": "DF",
+        "quantidade_falas": 8,
+        "quantidade_palavras": 410
+      },
+      {
+        "nome": "AFONSO HAMM",
+        "genero": "SR.",
+        "partido": "PP",
+        "estado": "RS",
+        "quantidade_falas": 8,
+        "quantidade_palavras": 414
+      },
+      {
+        "nome": "ADRIANA VENTURA",
+        "genero": "SRA.",
+        "partido": "NOVO",
+        "estado": "SP",
+        "quantidade_falas": 13,
+        "quantidade_palavras": 457
+      },
+      {
+        "nome": "GILVAN DA FEDERAL",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "ES",
+        "quantidade_falas": 10,
+        "quantidade_palavras": 428
+      }
+    ]
+  },
+  "2": {
+    "resumo": {
+      "quantidade_participantes": 25,
+      "genero": {
+        "SR.": 24,
+        "SRA.": 1
+      },
+      "partidos": {
+        "UNIÃO": {
+          "participantes": 4,
+          "falas": 117,
+          "palavras": 3443
+        },
+        "PL": {
+          "participantes": 3,
+          "falas": 50,
+          "palavras": 2006
+        },
+        "CIDADANIA": {
+          "participantes": 1,
+          "falas": 11,
+          "palavras": 645
+        },
+        "PP": {
+          "participantes": 2,
+          "falas": 42,
+          "palavras": 1838
+        },
+        "PT": {
+          "participantes": 8,
+          "falas": 72,
+          "palavras": 3986
+        },
+        "PDT": {
+          "participantes": 3,
+          "falas": 26,
+          "palavras": 1439
+        },
+        "PODE": {
+          "participantes": 1,
+          "falas": 11,
+          "palavras": 528
+        },
+        "PSB": {
+          "participantes": 1,
+          "falas": 10,
+          "palavras": 675
+        }
+      },
+      "estados": {
+        "MG": {
+          "participantes": 6,
+          "falas": 141,
+          "palavras": 4681
+        },
+        "DF": {
+          "participantes": 1,
+          "falas": 15,
+          "palavras": 550
+        },
+        "SP": {
+          "participantes": 2,
+          "falas": 21,
+          "palavras": 1164
+        },
+        "TO": {
+          "participantes": 1,
+          "falas": 30,
+          "palavras": 1077
+        },
+        "BA": {
+          "participantes": 2,
+          "falas": 34,
+          "palavras": 1480
+        },
+        "PR": {
+          "participantes": 3,
+          "falas": 24,
+          "palavras": 1099
+        },
+        "PI": {
+          "participantes": 1,
+          "falas": 5,
+          "palavras": 324
+        },
+        "CE": {
+          "participantes": 1,
+          "falas": 12,
+          "palavras": 652
+        },
+        "AP": {
+          "participantes": 2,
+          "falas": 12,
+          "palavras": 664
+        },
+        "RO": {
+          "participantes": 1,
+          "falas": 15,
+          "palavras": 751
+        },
+        "PE": {
+          "participantes": 1,
+          "falas": 10,
+          "palavras": 675
+        },
+        "RN": {
+          "participantes": 1,
+          "falas": 8,
+          "palavras": 682
+        },
+        "RJ": {
+          "participantes": 1,
+          "falas": 12,
+          "palavras": 761
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Rodrigo de Castro",
+        "genero": "SR.",
+        "partido": "UNIÃO",
+        "estado": "MG",
+        "quantidade_falas": 93,
+        "quantidade_palavras": 1909
+      },
+      {
+        "nome": "BIA KICIS",
+        "genero": "SRA.",
+        "partido": "PL",
+        "estado": "DF",
+        "quantidade_falas": 15,
+        "quantidade_palavras": 550
+      },
+      {
+        "nome": "MINISTRO ALEXANDRE SILVEIRA DE OLIVEIRA",
+        "genero": "SR.",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 147,
+        "quantidade_palavras": 12771
+      },
+      {
+        "nome": "LUIZ CARLOS CIOCCHI",
+        "genero": "SR.",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 49,
+        "quantidade_palavras": 2750
+      },
+      {
+        "nome": "ARNALDO JARDIM",
+        "genero": "SR.",
+        "partido": "CIDADANIA",
+        "estado": "SP",
+        "quantidade_falas": 11,
+        "quantidade_palavras": 645
+      },
+      {
+        "nome": "VICENTINHO JÚNIOR",
+        "genero": "SR.",
+        "partido": "PP",
+        "estado": "TO",
+        "quantidade_falas": 30,
+        "quantidade_palavras": 1077
+      },
+      {
+        "nome": "ODAIR CUNHA",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "MG",
+        "quantidade_falas": 15,
+        "quantidade_palavras": 814
+      },
+      {
+        "nome": "LEO PRATES",
+        "genero": "SR.",
+        "partido": "PDT",
+        "estado": "BA",
+        "quantidade_falas": 14,
+        "quantidade_palavras": 775
+      },
+      {
+        "nome": "PADRE JOÃO",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "MG",
+        "quantidade_falas": 7,
+        "quantidade_palavras": 476
+      },
+      {
+        "nome": "TADEU VENERI",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "PR",
+        "quantidade_falas": 11,
+        "quantidade_palavras": 514
+      },
+      {
+        "nome": "IGOR TIMO",
+        "genero": "SR.",
+        "partido": "PODE",
+        "estado": "MG",
+        "quantidade_falas": 11,
+        "quantidade_palavras": 528
+      },
+      {
+        "nome": "MERLONG SOLANO",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "PI",
+        "quantidade_falas": 5,
+        "quantidade_palavras": 324
+      },
+      {
+        "nome": "DANILO FORTE",
+        "genero": "SR.",
+        "partido": "UNIÃO",
+        "estado": "CE",
+        "quantidade_falas": 12,
+        "quantidade_palavras": 652
+      },
+      {
+        "nome": "JOSENILDO",
+        "genero": "SR.",
+        "partido": "PDT",
+        "estado": "AP",
+        "quantidade_falas": 8,
+        "quantidade_palavras": 227
+      },
+      {
+        "nome": "CARLOS ZARATTINI",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "SP",
+        "quantidade_falas": 10,
+        "quantidade_palavras": 519
+      },
+      {
+        "nome": "JOÃO CARLOS BACELAR",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "BA",
+        "quantidade_falas": 20,
+        "quantidade_palavras": 705
+      },
+      {
+        "nome": "WELTER",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "PR",
+        "quantidade_falas": 9,
+        "quantidade_palavras": 385
+      },
+      {
+        "nome": "LEONARDO MONTEIRO",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "MG",
+        "quantidade_falas": 8,
+        "quantidade_palavras": 557
+      },
+      {
+        "nome": "CORONEL CHRISÓSTOMO",
+        "genero": "SR.",
+        "partido": "PL",
+        "estado": "RO",
+        "quantidade_falas": 15,
+        "quantidade_palavras": 751
+      },
+      {
+        "nome": "PEDRO CAMPOS",
+        "genero": "SR.",
+        "partido": "PSB",
+        "estado": "PE",
+        "quantidade_falas": 10,
+        "quantidade_palavras": 675
+      },
+      {
+        "nome": "PAULO GUEDES",
+        "genero": "SR.",
+        "partido": "PT",
+        "estado": "MG",
+        "quantidade_falas": 7,
+        "quantidade_palavras": 397
+      },
+      {
+        "nome": "BENES LEOCÁDIO",
+        "genero": "SR.",
+        "partido": "UNIÃO",
+        "estado": "RN",
+        "quantidade_falas": 8,
+        "quantidade_palavras": 682
+      },
+      {
+        "nome": "JULIO LOPES",
+        "genero": "SR.",
+        "partido": "PP",
+        "estado": "RJ",
+        "quantidade_falas": 12,
+        "quantidade_palavras": 761
+      },
+      {
+        "nome": "GERALDO MENDES",
+        "genero": "SR.",
+        "partido": "UNIÃO",
+        "estado": "PR",
+        "quantidade_falas": 4,
+        "quantidade_palavras": 200
+      },
+      {
+        "nome": "DORINALDO MALAFAIA",
+        "genero": "SR.",
+        "partido": "PDT",
+        "estado": "AP",
+        "quantidade_falas": 4,
+        "quantidade_palavras": 437
+      }
+    ]
+  }
+}

@@ -27,11 +27,12 @@ def carregar_transcricao_json(target_id: int) -> dict:
 
 def carregar_metadados_existentes() -> dict:
     """
-    Lê o JSON único de metadados (todas as audiências já processadas).
-    Se ainda não existir (primeira vez rodando), começa vazio.
+    Lê o JSON único de metadados (todas as audiências já processadas),
+    indexado por id. Se ainda não existir (primeira vez rodando),
+    começa vazio.
     """
     if not METADADOS_JSON_PATH.exists():
-        return {"resumo_geral": {}, "audiencias": {}}
+        return {}
 
     with METADADOS_JSON_PATH.open("r", encoding="utf-8") as f:
         return json.load(f)
@@ -67,24 +68,6 @@ def montar_resumo(participantes: list[dict]) -> dict:
         "partidos": _agrupar_por(participantes, "partido"),
         "estados": _agrupar_por(participantes, "estado"),
     }
-
-
-def montar_resumo_geral(audiencias: dict) -> dict:
-    """
-    Calcula o resumo cruzando TODAS as audiências já processadas —
-    reaproveita montar_resumo, só que sobre a soma dos participantes
-    de cada audiência em vez de uma única.
-    """
-    todos_participantes = [
-        participante
-        for audiencia in audiencias.values()
-        for participante in audiencia["participantes"]
-    ]
-
-    resumo = montar_resumo(todos_participantes)
-    resumo["quantidade_audiencias"] = len(audiencias)
-
-    return resumo
 
 
 def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: int) -> str:
@@ -165,14 +148,21 @@ def main():
     path_markdown = salvar_metadados_em_markdown(tabela, target_id)
     print(f"Metadados (markdown) salvos em: {path_markdown}")
 
-    # Insere/atualiza a entrada desta audiência no JSON único e
-    # recalcula o resumo geral em cima de todas as audiências.
+    # O JSON de metadados guarda só os dados estruturais (nome, gênero,
+    # partido, estado, contagens) — o texto das falas em si já mora no
+    # jsons/transcricao_ID.json gerado pelo script 01, não precisa
+    # duplicar aqui.
+    participantes_sem_falas = [
+        {chave: valor for chave, valor in p.items() if chave != "falas"}
+        for p in participantes
+    ]
+
+    # Insere/atualiza a entrada desta audiência no JSON único.
     dados_completos = carregar_metadados_existentes()
-    dados_completos["audiencias"][str(target_id)] = {
+    dados_completos[str(target_id)] = {
         "resumo": resumo,
-        "participantes": participantes,
+        "participantes": participantes_sem_falas,
     }
-    dados_completos["resumo_geral"] = montar_resumo_geral(dados_completos["audiencias"])
 
     path_json = salvar_metadados_em_json(dados_completos)
     print(f"Metadados (json) salvos em: {path_json}")
