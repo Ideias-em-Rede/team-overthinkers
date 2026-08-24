@@ -4,10 +4,7 @@ import json
 import re
 import sys
 
-from utils.salvar_dados import (
-    salvar_transcricao_em_json,
-    salvar_transcricao_em_markdown,
-)
+from utils.salvar_dados import salvar_transcricao_em_json
 
 
 DATASET = "/home/joaopedro/Documents/team-overthinkers/dataset/PublicHearingBR_LDS.jsonl"
@@ -64,12 +61,12 @@ def resolver_participante(match: re.Match) -> dict:
         "nome": nome,
         "partido": partido,
         "estado": estado,
-        "partido_uf_bruto": partido_uf,  # usado só para montar o título do markdown
+        "partido_uf_bruto": partido_uf,  # usado internamente para o agrupamento
     }
 
 
 def montar_titulo(participante: dict) -> str:
-    """Título do bloco no markdown: 'SR./SRA. NOME(PARTIDO - UF)'."""
+    """Título usado internamente para agrupar as falas por participante."""
     titulo = f"{participante['genero']} {participante['nome']}"
     if participante["partido_uf_bruto"]:
         titulo += f"({participante['partido_uf_bruto']})"
@@ -111,27 +108,7 @@ def main():
 
         grouped[titulo]["falas"].extend(falas)
 
-    # --- Markdown ---
-    markdown_lines = [f"# Audiência ID {target_id}", ""]
-
-    for titulo, dados in grouped.items():
-        markdown_lines.append(f"## {titulo}")
-        markdown_lines.append("")
-
-        for fala in dados["falas"]:
-            markdown_lines.append(f"- {fala}")
-
-        markdown_lines.append("")
-
-    transcricao_reorganizada_md = "\n".join(markdown_lines).rstrip() + "\n"
-
-    path_md = salvar_transcricao_em_markdown(transcricao_reorganizada_md, target_id)
-    print(f"Transcrição salva em markdown: {path_md}")
-
     # --- JSON ---
-    # Mesmos dados já extraídos acima, só reestruturados como registros
-    # (sem o título de markdown e o partido_uf bruto, que são detalhes
-    # só de apresentação).
     participantes = [
         {
             "nome": dados["nome"],
@@ -140,7 +117,9 @@ def main():
             "estado": dados["estado"],
             "falas": dados["falas"],
             "quantidade_falas": len(dados["falas"]),
-            "quantidade_palavras": sum(len(fala.split()) for fala in dados["falas"]),
+            "quantidade_palavras": sum(
+                len(fala.split()) for fala in dados["falas"]
+            ),
         }
         for dados in grouped.values()
     ]
@@ -150,7 +129,10 @@ def main():
         "participantes": participantes,
     }
 
-    path_json = salvar_transcricao_em_json(transcricao_reorganizada_json, target_id)
+    path_json = salvar_transcricao_em_json(
+        transcricao_reorganizada_json,
+        target_id,
+    )
     print(f"Transcrição salva em json: {path_json}")
 
 
