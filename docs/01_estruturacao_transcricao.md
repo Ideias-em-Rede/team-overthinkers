@@ -1,17 +1,16 @@
 # Estruturação da Transcrição
 
 ---
-
 ## Objetivo
 
 A primeira etapa do pipeline consiste em **estruturar as transcrições das audiências públicas** do dataset `PublicHearingBR_LDS.jsonl`. Para isso, utilizamos expressões regulares para identificar os participantes e seus respectivos blocos de fala e, em seguida, organizamos os metadados extraídos.
 
 ---
-
 ## Pipeline
 
 ```mermaid
 flowchart TD
+
     A[PublicHearingBR_LDS.jsonl] --> B[01_regex_transcricao.py]
 
     B --> C[transcricao_ID.json]
@@ -19,6 +18,7 @@ flowchart TD
     C --> D[02_capturar_metadados_da_transcricao.py]
 
     D --> E[Metadados em Markdown]
+
     D --> F[Metadados em JSON consolidado]
 ```
 
@@ -27,7 +27,6 @@ O primeiro script reorganiza cada audiência a partir do seu `id`, identificando
 O segundo script utiliza o JSON estruturado para gerar metadados sobre os participantes, considerando gênero, partidos, estados, quantidade de falas e quantidade de palavras. Os resultados são armazenados em **Markdown** e em um **JSON consolidado**.
 
 ---
-
 ## Expressão Regular — Script 01
 
 ### Em uma linha
@@ -50,10 +49,11 @@ SPEECH_RE = re.compile(
 
 A expressão regular procura os **cabeçalhos de fala** presentes na transcrição, identificados por `O SR.` ou `A SRA.`, e usa esses cabeçalhos para identificar o participante e delimitar o conteúdo associado a ele.
 
-Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada: **team-overthinkers/dataset/transcricao_reorganizada/jsons**.
+Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada em:
+
+`team-overthinkers/dataset/transcricao_reorganizada/jsons`
 
 ---
-
 ## Metadados — Script 02
 
 Após a estruturação da transcrição em blocos de fala por participante, o segundo script identifica e organiza os seguintes metadados:
@@ -66,6 +66,33 @@ Após a estruturação da transcrição em blocos de fala por participante, o se
 * quantidade de falas e palavras de cada partido;
 * quantidade de falas e palavras de cada estado.
 
-Esses metadados ficam salvos em **team-overthinkers/dataset/transcricao_reorganizada/metadados**.
+Esses metadados ficam salvos em:
+
+`team-overthinkers/dataset/transcricao_reorganizada/metadados`
 
 Essa estrutura constitui a base para as etapas posteriores de análise e para o cruzamento entre a **transcrição** e a **notícia jornalística**.
+
+---
+## Decisões de Estrutura e Armazenamento
+
+A transcrição reorganizada é armazenada em **arquivos JSON individuais, um para cada audiência**, em vez de um único arquivo contendo todas as transcrições.
+
+Essa escolha foi feita porque cada audiência constitui uma unidade independente de processamento e análise. A separação permite:
+
+* processar ou reprocessar uma audiência individualmente;
+* localizar e inspecionar com facilidade eventuais problemas de estruturação;
+* evitar a necessidade de carregar ou reescrever todas as transcrições quando apenas uma audiência for modificada;
+* manter os arquivos de texto estruturado separados dos dados agregados.
+
+Os metadados, por outro lado, são mantidos em um **JSON consolidado**, pois possuem natureza agregada e são utilizados como uma visão geral das audiências processadas.
+
+Dessa forma, a organização dos dados segue a lógica:
+
+```text
+Transcrições reorganizadas
+→ um JSON por audiência
+
+Metadados
+→ um JSON consolidado
+→ arquivos Markdowns para facilitar visualização dos metadados
+```
