@@ -4,8 +4,10 @@ import json
 import re
 import sys
 
-from utils.salvar_transcricao import salvar_transcricao
-from utils.capturar_metadados import capturar_metadados
+from utils.salvar_dados import (
+    salvar_transcricao_em_json,
+    salvar_transcricao_em_markdown,
+)
 
 
 DATASET = "/home/joaopedro/Documents/team-overthinkers/dataset/PublicHearingBR_LDS.jsonl"
@@ -27,6 +29,53 @@ CARGOS = {
 }
 
 
+def resolver_participante(match: re.Match) -> dict:
+    """
+    A partir de um match de SPEECH_RE, resolve os dados do participante:
+    gênero, nome, partido e estado (quando disponíveis).
+    """
+    genero = "SR." if match.group("gender") == "O SR." else "SRA."
+    speaker = match.group("speaker").strip()
+    meta = (match.group("meta") or "").strip()
+
+    # Se o cabeçalho for um cargo, como:
+    # PRESIDENTE (Lucas Redecker. Bloco/PSDB - RS)
+    # usamos o nome real e separamos o partido/estado do meta.
+    nome = speaker
+    partido_uf = meta
+
+    if meta and "." in meta and speaker.upper() in CARGOS:
+        nome, partido_uf = (parte.strip() for parte in meta.split(".", 1))
+
+    # Só tratamos como "PARTIDO - UF" quando há esse separador. Alguns
+    # cabeçalhos trazem apelidos ou observações entre parênteses (ex.:
+    # "(MESTRE CHICO)", "(Manifestação em língua estrangeira...)"), que
+    # não são partido/estado.
+    partido = None
+    estado = None
+    if " - " in partido_uf:
+        partido_bruto, estado = (
+            parte.strip() for parte in partido_uf.rsplit(" - ", 1)
+        )
+        partido = re.sub(r"^Bloco/", "", partido_bruto).strip()
+
+    return {
+        "genero": genero,
+        "nome": nome,
+        "partido": partido,
+        "estado": estado,
+        "partido_uf_bruto": partido_uf,  # usado só para montar o título do markdown
+    }
+
+
+def montar_titulo(participante: dict) -> str:
+    """Título do bloco no markdown: 'SR./SRA. NOME(PARTIDO - UF)'."""
+    titulo = f"{participante['genero']} {participante['nome']}"
+    if participante["partido_uf_bruto"]:
+        titulo += f"({participante['partido_uf_bruto']})"
+    return titulo
+
+
 def main():
     if len(sys.argv) != 2:
         raise ValueError(f"Uso: python {sys.argv[0]} <id>")
@@ -45,65 +94,64 @@ def main():
     grouped = {}
 
     for match in SPEECH_RE.finditer(row["transcricao"]):
-        genero = "SR." if match.group("gender") == "O SR." else "SRA."
-        speaker = match.group("speaker").strip()
-        meta = (match.group("meta") or "").strip()
+        participante = resolver_participante(match)
+        titulo = montar_titulo(participante)
         fala = match.group("fala").strip()
 
-        # Se o cabeçalho for um cargo, como:
-        # PRESIDENTE (Lucas Redecker. Bloco/PSDB - RS)
-        # usamos o nome real e separamos o partido/estado do meta.
-        nome = speaker
-        partido_uf = meta
-
-        if meta and "." in meta and speaker.upper() in CARGOS:
-            nome, partido_uf = (parte.strip() for parte in meta.split(".", 1))
-
-        # Título do bloco: "SR."/"SRA." + nome + "(PARTIDO - UF)",
-        # quando houver essa informação.
-        participant = f"{genero} {nome}"
-        if partido_uf:
-            participant += f"({partido_uf})"
-
-        if participant not in grouped:
-            grouped[participant] = {
-                "falas": []
-            }
+        if titulo not in grouped:
+            grouped[titulo] = {**participante, "falas": []}
 
         # Cada parágrafo da transcrição original é tratado
         # como um turno de fala separado.
         falas = [
-            trecho.strip()
+            re.sub(r"\s+", " ", trecho).strip()
             for trecho in re.split(r"\n\s*\n+", fala)
             if trecho.strip()
         ]
 
-        grouped[participant]["falas"].extend(falas)
+        grouped[titulo]["falas"].extend(falas)
 
-    markdown_lines = [
-        f"# Audiência ID {target_id}",
-        ""
-    ]
+    # --- Markdown ---
+    markdown_lines = [f"# Audiência ID {target_id}", ""]
 
-    for participant, data in grouped.items():
-        markdown_lines.append(f"## {participant}")
+    for titulo, dados in grouped.items():
+        markdown_lines.append(f"## {titulo}")
         markdown_lines.append("")
 
-        for fala in data["falas"]:
-            # Remove quebras de linha e espaços duplicados
-            # para cada fala ocupar uma única linha.
-            fala = re.sub(r"\s+", " ", fala).strip()
+        for fala in dados["falas"]:
             markdown_lines.append(f"- {fala}")
 
         markdown_lines.append("")
 
-    transcricao_reorganizada = "\n".join(markdown_lines).rstrip() + "\n"
+    transcricao_reorganizada_md = "\n".join(markdown_lines).rstrip() + "\n"
 
-    path = salvar_transcricao(transcricao_reorganizada, target_id)
-    print(f"Transcrição salva em markdown: {path}")
+    path_md = salvar_transcricao_em_markdown(transcricao_reorganizada_md, target_id)
+    print(f"Transcrição salva em markdown: {path_md}")
 
-    path_metadados = capturar_metadados(transcricao_reorganizada, target_id)
-    print(f"Metadados salvos em: {path_metadados}")
+    # --- JSON ---
+    # Mesmos dados já extraídos acima, só reestruturados como registros
+    # (sem o título de markdown e o partido_uf bruto, que são detalhes
+    # só de apresentação).
+    participantes = [
+        {
+            "nome": dados["nome"],
+            "genero": dados["genero"],
+            "partido": dados["partido"],
+            "estado": dados["estado"],
+            "falas": dados["falas"],
+            "quantidade_falas": len(dados["falas"]),
+            "quantidade_palavras": sum(len(fala.split()) for fala in dados["falas"]),
+        }
+        for dados in grouped.values()
+    ]
+
+    transcricao_reorganizada_json = {
+        "id": target_id,
+        "participantes": participantes,
+    }
+
+    path_json = salvar_transcricao_em_json(transcricao_reorganizada_json, target_id)
+    print(f"Transcrição salva em json: {path_json}")
 
 
 if __name__ == "__main__":

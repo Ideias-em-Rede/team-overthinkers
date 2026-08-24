@@ -1,0 +1,182 @@
+#!/usr/bin/env python3
+
+import json
+import sys
+from pathlib import Path
+
+from utils.salvar_dados import (
+    METADADOS_JSON_PATH,
+    salvar_metadados_em_json,
+    salvar_metadados_em_markdown,
+)
+
+
+JSON_TRANSCRICOES_DIR = Path(
+    "/home/joaopedro/Documents/team-overthinkers/dataset/"
+    "transcricao_reorganizada/jsons"
+)
+
+
+def carregar_transcricao_json(target_id: int) -> dict:
+    """Lê o JSON estruturado (participantes + falas) gerado pelo script 01."""
+    path = JSON_TRANSCRICOES_DIR / f"transcricao_{target_id}.json"
+
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def carregar_metadados_existentes() -> dict:
+    """
+    Lê o JSON único de metadados (todas as audiências já processadas).
+    Se ainda não existir (primeira vez rodando), começa vazio.
+    """
+    if not METADADOS_JSON_PATH.exists():
+        return {"resumo_geral": {}, "audiencias": {}}
+
+    with METADADOS_JSON_PATH.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _agrupar_por(participantes: list[dict], chave: str) -> dict:
+    """Agrega falas/palavras/participantes por partido ou por estado."""
+    grupos: dict[str, dict] = {}
+
+    for p in participantes:
+        valor = p[chave]
+        if not valor:
+            continue
+
+        grupo = grupos.setdefault(
+            valor, {"participantes": 0, "falas": 0, "palavras": 0}
+        )
+        grupo["participantes"] += 1
+        grupo["falas"] += p["quantidade_falas"]
+        grupo["palavras"] += p["quantidade_palavras"]
+
+    return grupos
+
+
+def montar_resumo(participantes: list[dict]) -> dict:
+    """Calcula o resumo agregado (gênero, partido, estado) a partir dos participantes."""
+    homens = sum(1 for p in participantes if p["genero"] == "SR.")
+    mulheres = sum(1 for p in participantes if p["genero"] == "SRA.")
+
+    return {
+        "quantidade_participantes": len(participantes),
+        "genero": {"SR.": homens, "SRA.": mulheres},
+        "partidos": _agrupar_por(participantes, "partido"),
+        "estados": _agrupar_por(participantes, "estado"),
+    }
+
+
+def montar_resumo_geral(audiencias: dict) -> dict:
+    """
+    Calcula o resumo cruzando TODAS as audiências já processadas —
+    reaproveita montar_resumo, só que sobre a soma dos participantes
+    de cada audiência em vez de uma única.
+    """
+    todos_participantes = [
+        participante
+        for audiencia in audiencias.values()
+        for participante in audiencia["participantes"]
+    ]
+
+    resumo = montar_resumo(todos_participantes)
+    resumo["quantidade_audiencias"] = len(audiencias)
+
+    return resumo
+
+
+def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: int) -> str:
+    """Monta o markdown final com o resumo geral e as tabelas de metadados."""
+    partidos = sorted(resumo["partidos"])
+    estados = sorted(resumo["estados"])
+
+    linhas = [
+        f"# Metadados da Audiência ID {target_id}",
+        "",
+        "## Resumo geral",
+        "",
+        "| Métrica | Valor |",
+        "|---|---|",
+        f"| Quantidade de participantes | {resumo['quantidade_participantes']} |",
+        f"| Homens (SR.) | {resumo['genero']['SR.']} |",
+        f"| Mulheres (SRA.) | {resumo['genero']['SRA.']} |",
+        f"| Quantidade de partidos | {len(partidos)} |",
+        f"| Partidos | {', '.join(partidos) if partidos else '-'} |",
+        f"| Quantidade de estados | {len(estados)} |",
+        f"| Estados | {', '.join(estados) if estados else '-'} |",
+        "",
+        "## Falas e palavras por participante",
+        "",
+        "| Participante | Gênero | Partido | Estado | Falas | Palavras |",
+        "|---|---|---|---|---|---|",
+    ]
+
+    for p in participantes:
+        linhas.append(
+            f"| {p['nome']} | {p['genero']} | {p['partido'] or '-'} | "
+            f"{p['estado'] or '-'} | {p['quantidade_falas']} | {p['quantidade_palavras']} |"
+        )
+
+    linhas += [
+        "",
+        "## Falas e palavras por partido",
+        "",
+        "| Partido | Participantes | Falas | Palavras |",
+        "|---|---|---|---|",
+    ]
+
+    for partido in partidos:
+        agg = resumo["partidos"][partido]
+        linhas.append(
+            f"| {partido} | {agg['participantes']} | {agg['falas']} | {agg['palavras']} |"
+        )
+
+    linhas += [
+        "",
+        "## Falas e palavras por estado",
+        "",
+        "| Estado | Participantes | Falas | Palavras |",
+        "|---|---|---|---|",
+    ]
+
+    for estado in estados:
+        agg = resumo["estados"][estado]
+        linhas.append(
+            f"| {estado} | {agg['participantes']} | {agg['falas']} | {agg['palavras']} |"
+        )
+
+    return "\n".join(linhas).rstrip() + "\n"
+
+
+def main():
+    if len(sys.argv) != 2:
+        raise ValueError(f"Uso: python {sys.argv[0]} <id>")
+
+    target_id = int(sys.argv[1])
+
+    transcricao = carregar_transcricao_json(target_id)
+    participantes = transcricao["participantes"]
+
+    resumo = montar_resumo(participantes)
+
+    tabela = montar_tabela_markdown(participantes, resumo, target_id)
+    path_markdown = salvar_metadados_em_markdown(tabela, target_id)
+    print(f"Metadados (markdown) salvos em: {path_markdown}")
+
+    # Insere/atualiza a entrada desta audiência no JSON único e
+    # recalcula o resumo geral em cima de todas as audiências.
+    dados_completos = carregar_metadados_existentes()
+    dados_completos["audiencias"][str(target_id)] = {
+        "resumo": resumo,
+        "participantes": participantes,
+    }
+    dados_completos["resumo_geral"] = montar_resumo_geral(dados_completos["audiencias"])
+
+    path_json = salvar_metadados_em_json(dados_completos)
+    print(f"Metadados (json) salvos em: {path_json}")
+
+
+if __name__ == "__main__":
+    main()
