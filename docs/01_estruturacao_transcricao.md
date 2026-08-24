@@ -27,15 +27,39 @@ O primeiro script reorganiza cada audiência a partir do seu `id`, identificando
 O segundo script utiliza o JSON estruturado para gerar metadados sobre os participantes, considerando gênero, partidos, estados, quantidade de falas e quantidade de palavras. Os resultados são armazenados em **Markdown** e em um **JSON consolidado**.
 
 ---
-## Expressão Regular — Script 01
+## Script 01 — Estruturação da Transcrição
 
-### Em uma linha
+O script 01 organiza a transcrição original em **blocos de fala separados por participante**.
+
+### Execução
+
+Execute o comando:
+
+```bash
+python3 -m scripts.01_regex_transcricao ID
+```
+
+Substitua `ID` pelo identificador da audiência que deseja processar. Por exemplo, para processar a audiência de ID `01`:
+
+```bash
+python3 -m scripts.01_regex_transcricao 01
+```
+
+O resultado é salvo em:
+
+```text
+team-overthinkers/dataset/transcricao_reorganizada/jsons
+```
+
+### Expressão Regular
+
+#### Em uma linha
 
 ```regex
 (?ms)^(?P<gender>O SR\.|A SRA\.)\s+(?P<speaker>[^\r\n(]+?)(?:\s*\((?P<meta>[^)\r\n]*)\))?\s*[-–—]\s*(?P<fala>.*?)(?=^(?:O SR\.|A SRA\.)\s+|\Z)
 ```
 
-### Versão utilizada no código
+#### Versão utilizada no código
 
 ```python
 SPEECH_RE = re.compile(
@@ -47,16 +71,14 @@ SPEECH_RE = re.compile(
 )
 ```
 
-A expressão regular procura os **cabeçalhos de fala** presentes na transcrição, identificados por `O SR.` ou `A SRA.`, e usa esses cabeçalhos para identificar o participante e delimitar o conteúdo associado a ele.
+A expressão regular procura os **cabeçalhos de fala** presentes na transcrição, identificados por `O SR.` ou `A SRA.`, e utiliza esses cabeçalhos para identificar o participante e delimitar o conteúdo associado a ele.
 
-Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada em:
-
-`team-overthinkers/dataset/transcricao_reorganizada/jsons`
+Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada.
 
 ---
-## Metadados — Script 02
+## Script 02 — Estruturação dos Metadados
 
-Após a estruturação da transcrição em blocos de fala por participante, o segundo script identifica e organiza os seguintes metadados:
+Após a estruturação da transcrição em blocos de fala por participante, o script 02 identifica e organiza os seguintes metadados:
 
 * quantidade de participantes;
 * gênero;
@@ -66,9 +88,25 @@ Após a estruturação da transcrição em blocos de fala por participante, o se
 * quantidade de falas e palavras de cada partido;
 * quantidade de falas e palavras de cada estado.
 
-Esses metadados ficam salvos em:
+### Execução
 
-`team-overthinkers/dataset/transcricao_reorganizada/metadados`
+Execute o comando:
+
+```bash
+python3 -m scripts.02_capturar_metadados_da_transcricao ID
+```
+
+Substitua `ID` pelo identificador da audiência correspondente. Por exemplo:
+
+```bash
+python3 -m scripts.02_capturar_metadados_da_transcricao 01
+```
+
+Os metadados ficam salvos em:
+
+```text
+team-overthinkers/dataset/transcricao_reorganizada/metadados
+```
 
 Essa estrutura constitui a base para as etapas posteriores de análise e para o cruzamento entre a **transcrição** e a **notícia jornalística**.
 
@@ -84,15 +122,15 @@ Essa escolha foi feita porque cada audiência constitui uma unidade independente
 * evitar a necessidade de carregar ou reescrever todas as transcrições quando apenas uma audiência for modificada;
 * manter os arquivos de texto estruturado separados dos dados agregados.
 
-Os metadados, por outro lado, são mantidos em um **JSON consolidado**, pois possuem natureza agregada e são utilizados como uma visão geral das audiências processadas.
+Os metadados, por outro lado, são mantidos em um **JSON consolidado**, pois possuem natureza agregada e funcionam como uma visão geral das audiências processadas. Além disso, são gerados arquivos **Markdown** por audiência para facilitar a visualização e inspeção desses metadados.
 
 Dessa forma, a organização dos dados segue a lógica:
 
 ```text
 Transcrições reorganizadas
-→ um JSON por audiência
+└── um JSON por audiência
 
 Metadados
-→ um JSON consolidado
-→ arquivos Markdowns para facilitar visualização dos metadados
+├── um JSON consolidado
+└── arquivos Markdown por audiência
 ```
