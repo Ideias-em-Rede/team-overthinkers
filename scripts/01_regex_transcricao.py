@@ -7,7 +7,7 @@ import sys
 from utils.salvar_dados import salvar_transcricao_em_json
 
 
-DATASET = "/home/joaopedro/Documents/team-overthinkers/dataset/PublicHearingBR_LDS.jsonl"
+DATASET = "YOUR PATH"
 
 SPEECH_RE = re.compile(
     r"(?ms)^(?P<gender>O SR\.|A SRA\.)\s+"
@@ -50,6 +50,7 @@ def resolver_participante(match: re.Match) -> dict:
     # não são partido/estado.
     partido = None
     estado = None
+
     if " - " in partido_uf:
         partido_bruto, estado = (
             parte.strip() for parte in partido_uf.rsplit(" - ", 1)
@@ -61,15 +62,17 @@ def resolver_participante(match: re.Match) -> dict:
         "nome": nome,
         "partido": partido,
         "estado": estado,
-        "partido_uf_bruto": partido_uf,  # usado internamente para o agrupamento
+        "partido_uf_bruto": partido_uf,
     }
 
 
 def montar_titulo(participante: dict) -> str:
     """Título usado internamente para agrupar as falas por participante."""
     titulo = f"{participante['genero']} {participante['nome']}"
+
     if participante["partido_uf_bruto"]:
         titulo += f"({participante['partido_uf_bruto']})"
+
     return titulo
 
 
@@ -93,20 +96,20 @@ def main():
     for match in SPEECH_RE.finditer(row["transcricao"]):
         participante = resolver_participante(match)
         titulo = montar_titulo(participante)
-        fala = match.group("fala").strip()
+
+        # Cada match da regex corresponde a um bloco de fala.
+        fala = re.sub(r"\s+", " ", match.group("fala")).strip()
+
+        if not fala:
+            continue
 
         if titulo not in grouped:
-            grouped[titulo] = {**participante, "falas": []}
+            grouped[titulo] = {
+                **participante,
+                "falas": [],
+            }
 
-        # Cada parágrafo da transcrição original é tratado
-        # como um turno de fala separado.
-        falas = [
-            re.sub(r"\s+", " ", trecho).strip()
-            for trecho in re.split(r"\n\s*\n+", fala)
-            if trecho.strip()
-        ]
-
-        grouped[titulo]["falas"].extend(falas)
+        grouped[titulo]["falas"].append(fala)
 
     # --- JSON ---
     participantes = [
@@ -133,6 +136,7 @@ def main():
         transcricao_reorganizada_json,
         target_id,
     )
+
     print(f"Transcrição salva em json: {path_json}")
 
 
