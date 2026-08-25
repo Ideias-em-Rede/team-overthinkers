@@ -7,7 +7,7 @@ import sys
 from utils.salvar_dados import salvar_transcricao_em_json
 
 
-DATASET = "YOUR PATH"
+DATASET = " YOUR PATH "
 
 SPEECH_RE = re.compile(
     r"(?ms)^(?P<gender>O SR\.|A SRA\.)\s+"
