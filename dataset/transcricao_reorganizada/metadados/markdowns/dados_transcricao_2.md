@@ -5,8 +5,8 @@
 | Métrica | Valor |
 |---|---|
 | Quantidade de participantes | 25 |
-| Homens (SR.) | 24 |
-| Mulheres (SRA.) | 1 |
+| Homens | 24 |
+| Mulheres | 1 |
 | Quantidade de partidos | 8 |
 | Partidos | CIDADANIA, PDT, PL, PODE, PP, PSB, PT, UNIÃO |
 | Quantidade de estados | 13 |
@@ -16,59 +16,59 @@
 
 | Participante | Gênero | Partido | Estado | Falas | Palavras |
 |---|---|---|---|---|---|
-| Rodrigo de Castro | SR. | UNIÃO | MG | 93 | 1909 |
-| BIA KICIS | SRA. | PL | DF | 15 | 550 |
-| MINISTRO ALEXANDRE SILVEIRA DE OLIVEIRA | SR. | - | - | 147 | 12771 |
-| LUIZ CARLOS CIOCCHI | SR. | - | - | 49 | 2750 |
-| ARNALDO JARDIM | SR. | CIDADANIA | SP | 11 | 645 |
-| VICENTINHO JÚNIOR | SR. | PP | TO | 30 | 1077 |
-| ODAIR CUNHA | SR. | PT | MG | 15 | 814 |
-| LEO PRATES | SR. | PDT | BA | 14 | 775 |
-| PADRE JOÃO | SR. | PT | MG | 7 | 476 |
-| TADEU VENERI | SR. | PT | PR | 11 | 514 |
-| IGOR TIMO | SR. | PODE | MG | 11 | 528 |
-| MERLONG SOLANO | SR. | PT | PI | 5 | 324 |
-| DANILO FORTE | SR. | UNIÃO | CE | 12 | 652 |
-| JOSENILDO | SR. | PDT | AP | 8 | 227 |
-| CARLOS ZARATTINI | SR. | PT | SP | 10 | 519 |
-| JOÃO CARLOS BACELAR | SR. | PL | BA | 20 | 705 |
-| WELTER | SR. | PT | PR | 9 | 385 |
-| LEONARDO MONTEIRO | SR. | PT | MG | 8 | 557 |
-| CORONEL CHRISÓSTOMO | SR. | PL | RO | 15 | 751 |
-| PEDRO CAMPOS | SR. | PSB | PE | 10 | 675 |
-| PAULO GUEDES | SR. | PT | MG | 7 | 397 |
-| BENES LEOCÁDIO | SR. | UNIÃO | RN | 8 | 682 |
-| JULIO LOPES | SR. | PP | RJ | 12 | 761 |
-| GERALDO MENDES | SR. | UNIÃO | PR | 4 | 200 |
-| DORINALDO MALAFAIA | SR. | PDT | AP | 4 | 437 |
+| Rodrigo de Castro | masculino | UNIÃO | MG | 42 | 1909 |
+| BIA KICIS | feminino | PL | DF | 4 | 550 |
+| MINISTRO ALEXANDRE SILVEIRA DE OLIVEIRA | masculino | - | - | 18 | 12771 |
+| LUIZ CARLOS CIOCCHI | masculino | - | - | 9 | 2750 |
+| ARNALDO JARDIM | masculino | CIDADANIA | SP | 2 | 645 |
+| VICENTINHO JÚNIOR | masculino | PP | TO | 11 | 1077 |
+| ODAIR CUNHA | masculino | PT | MG | 2 | 814 |
+| LEO PRATES | masculino | PDT | BA | 3 | 775 |
+| PADRE JOÃO | masculino | PT | MG | 2 | 476 |
+| TADEU VENERI | masculino | PT | PR | 3 | 514 |
+| IGOR TIMO | masculino | PODE | MG | 1 | 528 |
+| MERLONG SOLANO | masculino | PT | PI | 1 | 324 |
+| DANILO FORTE | masculino | UNIÃO | CE | 2 | 652 |
+| JOSENILDO | masculino | PDT | AP | 6 | 227 |
+| CARLOS ZARATTINI | masculino | PT | SP | 1 | 519 |
+| JOÃO CARLOS BACELAR | masculino | PL | BA | 2 | 705 |
+| WELTER | masculino | PT | PR | 1 | 385 |
+| LEONARDO MONTEIRO | masculino | PT | MG | 1 | 557 |
+| CORONEL CHRISÓSTOMO | masculino | PL | RO | 2 | 751 |
+| PEDRO CAMPOS | masculino | PSB | PE | 1 | 675 |
+| PAULO GUEDES | masculino | PT | MG | 2 | 397 |
+| BENES LEOCÁDIO | masculino | UNIÃO | RN | 1 | 682 |
+| JULIO LOPES | masculino | PP | RJ | 6 | 761 |
+| GERALDO MENDES | masculino | UNIÃO | PR | 1 | 200 |
+| DORINALDO MALAFAIA | masculino | PDT | AP | 1 | 437 |
 
 ## Falas e palavras por partido
 
 | Partido | Participantes | Falas | Palavras |
 |---|---|---|---|
-| CIDADANIA | 1 | 11 | 645 |
-| PDT | 3 | 26 | 1439 |
-| PL | 3 | 50 | 2006 |
-| PODE | 1 | 11 | 528 |
-| PP | 2 | 42 | 1838 |
-| PSB | 1 | 10 | 675 |
-| PT | 8 | 72 | 3986 |
-| UNIÃO | 4 | 117 | 3443 |
+| CIDADANIA | 1 | 2 | 645 |
+| PDT | 3 | 10 | 1439 |
+| PL | 3 | 8 | 2006 |
+| PODE | 1 | 1 | 528 |
+| PP | 2 | 17 | 1838 |
+| PSB | 1 | 1 | 675 |
+| PT | 8 | 13 | 3986 |
+| UNIÃO | 4 | 46 | 3443 |
 
 ## Falas e palavras por estado
 
 | Estado | Participantes | Falas | Palavras |
 |---|---|---|---|
-| AP | 2 | 12 | 664 |
-| BA | 2 | 34 | 1480 |
-| CE | 1 | 12 | 652 |
-| DF | 1 | 15 | 550 |
-| MG | 6 | 141 | 4681 |
-| PE | 1 | 10 | 675 |
-| PI | 1 | 5 | 324 |
-| PR | 3 | 24 | 1099 |
-| RJ | 1 | 12 | 761 |
-| RN | 1 | 8 | 682 |
-| RO | 1 | 15 | 751 |
-| SP | 2 | 21 | 1164 |
-| TO | 1 | 30 | 1077 |
+| AP | 2 | 7 | 664 |
+| BA | 2 | 5 | 1480 |
+| CE | 1 | 2 | 652 |
+| DF | 1 | 4 | 550 |
+| MG | 6 | 50 | 4681 |
+| PE | 1 | 1 | 675 |
+| PI | 1 | 1 | 324 |
+| PR | 3 | 5 | 1099 |
+| RJ | 1 | 6 | 761 |
+| RN | 1 | 1 | 682 |
+| RO | 1 | 2 | 751 |
+| SP | 2 | 3 | 1164 |
+| TO | 1 | 11 | 1077 |

@@ -5,8 +5,8 @@
 | Métrica | Valor |
 |---|---|
 | Quantidade de participantes | 17 |
-| Homens (SR.) | 15 |
-| Mulheres (SRA.) | 2 |
+| Homens | 15 |
+| Mulheres | 2 |
 | Quantidade de partidos | 5 |
 | Partidos | NOVO, PL, PP, PSDB, PT |
 | Quantidade de estados | 7 |
@@ -16,42 +16,42 @@
 
 | Participante | Gênero | Partido | Estado | Falas | Palavras |
 |---|---|---|---|---|---|
-| Lucas Redecker | SR. | PSDB | RS | 112 | 2166 |
-| ARLINDO CHINAGLIA | SR. | PT | SP | 24 | 1064 |
-| ELI VIEIRA ARAUJO JÚNIOR | SR. | - | - | 35 | 1865 |
-| DAVID ÁGAPE | SR. | - | - | 49 | 2774 |
-| GLENN EDWARD GREENWALD | SR. | - | - | 43 | 2587 |
-| MICHAEL SHELLENBERGER | SR. | - | - | 16 | 1115 |
-| MARCEL VAN HATTEM | SR. | NOVO | RS | 60 | 3902 |
-| FLORENTINO NETO | SR. | PT | PI | 11 | 291 |
-| GENERAL GIRÃO | SR. | PL | RN | 10 | 421 |
-| MARIO FRIAS | SR. | PL | SP | 8 | 417 |
-| LUIZ PHILIPPE DE ORLEANS E BRAGANÇA | SR. | PL | SP | 7 | 341 |
-| FILIPE BARROS | SR. | PL | PR | 9 | 380 |
-| MARCELO MORAES | SR. | PL | RS | 11 | 445 |
-| BIA KICIS | SRA. | PL | DF | 8 | 410 |
-| AFONSO HAMM | SR. | PP | RS | 8 | 414 |
-| ADRIANA VENTURA | SRA. | NOVO | SP | 13 | 457 |
-| GILVAN DA FEDERAL | SR. | PL | ES | 10 | 428 |
+| Lucas Redecker | masculino | PSDB | RS | 33 | 2166 |
+| ARLINDO CHINAGLIA | masculino | PT | SP | 5 | 1064 |
+| ELI VIEIRA ARAUJO JÚNIOR | masculino | - | - | 2 | 1865 |
+| DAVID ÁGAPE | masculino | - | - | 4 | 2774 |
+| GLENN EDWARD GREENWALD | masculino | - | - | 4 | 2587 |
+| MICHAEL SHELLENBERGER | masculino | - | - | 2 | 1115 |
+| MARCEL VAN HATTEM | masculino | NOVO | RS | 3 | 3902 |
+| FLORENTINO NETO | masculino | PT | PI | 1 | 291 |
+| GENERAL GIRÃO | masculino | PL | RN | 2 | 421 |
+| MARIO FRIAS | masculino | PL | SP | 1 | 417 |
+| LUIZ PHILIPPE DE ORLEANS E BRAGANÇA | masculino | PL | SP | 1 | 341 |
+| FILIPE BARROS | masculino | PL | PR | 2 | 380 |
+| MARCELO MORAES | masculino | PL | RS | 1 | 445 |
+| BIA KICIS | feminino | PL | DF | 1 | 410 |
+| AFONSO HAMM | masculino | PP | RS | 1 | 414 |
+| ADRIANA VENTURA | feminino | NOVO | SP | 1 | 457 |
+| GILVAN DA FEDERAL | masculino | PL | ES | 1 | 428 |
 
 ## Falas e palavras por partido
 
 | Partido | Participantes | Falas | Palavras |
 |---|---|---|---|
-| NOVO | 2 | 73 | 4359 |
-| PL | 7 | 63 | 2842 |
-| PP | 1 | 8 | 414 |
-| PSDB | 1 | 112 | 2166 |
-| PT | 2 | 35 | 1355 |
+| NOVO | 2 | 4 | 4359 |
+| PL | 7 | 9 | 2842 |
+| PP | 1 | 1 | 414 |
+| PSDB | 1 | 33 | 2166 |
+| PT | 2 | 6 | 1355 |
 
 ## Falas e palavras por estado
 
 | Estado | Participantes | Falas | Palavras |
 |---|---|---|---|
-| DF | 1 | 8 | 410 |
-| ES | 1 | 10 | 428 |
-| PI | 1 | 11 | 291 |
-| PR | 1 | 9 | 380 |
-| RN | 1 | 10 | 421 |
-| RS | 4 | 191 | 6927 |
-| SP | 4 | 52 | 2279 |
+| DF | 1 | 1 | 410 |
+| ES | 1 | 1 | 428 |
+| PI | 1 | 1 | 291 |
+| PR | 1 | 2 | 380 |
+| RN | 1 | 2 | 421 |
+| RS | 4 | 38 | 6927 |
+| SP | 4 | 8 | 2279 |

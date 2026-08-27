@@ -59,18 +59,25 @@ def _agrupar_por(participantes: list[dict], chave: str) -> dict:
 
 def montar_resumo(participantes: list[dict]) -> dict:
     """Calcula o resumo agregado (gênero, partido, estado) a partir dos participantes."""
-    homens = sum(1 for p in participantes if p["genero"] == "SR.")
-    mulheres = sum(1 for p in participantes if p["genero"] == "SRA.")
+    homens = sum(1 for p in participantes if p["genero"] == "masculino")
+    mulheres = sum(1 for p in participantes if p["genero"] == "feminino")
 
     return {
         "quantidade_participantes": len(participantes),
-        "genero": {"SR.": homens, "SRA.": mulheres},
+        "genero": {
+            "masculino": homens,
+            "feminino": mulheres,
+        },
         "partidos": _agrupar_por(participantes, "partido"),
         "estados": _agrupar_por(participantes, "estado"),
     }
 
 
-def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: int) -> str:
+def montar_tabela_markdown(
+    participantes: list[dict],
+    resumo: dict,
+    target_id: int,
+) -> str:
     """Monta o markdown final com o resumo geral e as tabelas de metadados."""
     partidos = sorted(resumo["partidos"])
     estados = sorted(resumo["estados"])
@@ -83,8 +90,8 @@ def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: i
         "| Métrica | Valor |",
         "|---|---|",
         f"| Quantidade de participantes | {resumo['quantidade_participantes']} |",
-        f"| Homens (SR.) | {resumo['genero']['SR.']} |",
-        f"| Mulheres (SRA.) | {resumo['genero']['SRA.']} |",
+        f"| Homens | {resumo['genero']['masculino']} |",
+        f"| Mulheres | {resumo['genero']['feminino']} |",
         f"| Quantidade de partidos | {len(partidos)} |",
         f"| Partidos | {', '.join(partidos) if partidos else '-'} |",
         f"| Quantidade de estados | {len(estados)} |",
@@ -99,7 +106,8 @@ def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: i
     for p in participantes:
         linhas.append(
             f"| {p['nome']} | {p['genero']} | {p['partido'] or '-'} | "
-            f"{p['estado'] or '-'} | {p['quantidade_falas']} | {p['quantidade_palavras']} |"
+            f"{p['estado'] or '-'} | {p['quantidade_falas']} | "
+            f"{p['quantidade_palavras']} |"
         )
 
     linhas += [
@@ -113,7 +121,8 @@ def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: i
     for partido in partidos:
         agg = resumo["partidos"][partido]
         linhas.append(
-            f"| {partido} | {agg['participantes']} | {agg['falas']} | {agg['palavras']} |"
+            f"| {partido} | {agg['participantes']} | "
+            f"{agg['falas']} | {agg['palavras']} |"
         )
 
     linhas += [
@@ -127,7 +136,8 @@ def montar_tabela_markdown(participantes: list[dict], resumo: dict, target_id: i
     for estado in estados:
         agg = resumo["estados"][estado]
         linhas.append(
-            f"| {estado} | {agg['participantes']} | {agg['falas']} | {agg['palavras']} |"
+            f"| {estado} | {agg['participantes']} | "
+            f"{agg['falas']} | {agg['palavras']} |"
         )
 
     return "\n".join(linhas).rstrip() + "\n"

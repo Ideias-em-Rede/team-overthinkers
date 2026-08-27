@@ -7,7 +7,7 @@ import sys
 from utils.salvar_dados import salvar_transcricao_em_json
 
 
-DATASET = " YOUR PATH "
+DATASET = "dataset/PublicHearingBR_LDS.jsonl"
 
 SPEECH_RE = re.compile(
     r"(?ms)^(?P<gender>O SR\.|A SRA\.)\s+"
@@ -17,43 +17,45 @@ SPEECH_RE = re.compile(
     r"(?P<fala>.*?)(?=^(?:O SR\.|A SRA\.)\s+|\Z)"
 )
 
-CARGOS = {
-    "PRESIDENTE",
-    "RELATOR",
-    "RELATORA",
-    "COORDENADOR",
-    "COORDENADORA",
-}
-
 
 def resolver_participante(match: re.Match) -> dict:
     """
     A partir de um match de SPEECH_RE, resolve os dados do participante:
     gênero, nome, partido e estado (quando disponíveis).
     """
-    genero = "SR." if match.group("gender") == "O SR." else "SRA."
+    genero = (
+        "masculino"
+        if match.group("gender") == "O SR."
+        else "feminino"
+    )
+
     speaker = match.group("speaker").strip()
     meta = (match.group("meta") or "").strip()
 
-    # Se o cabeçalho for um cargo, como:
-    # PRESIDENTE (Lucas Redecker. Bloco/PSDB - RS)
-    # usamos o nome real e separamos o partido/estado do meta.
     nome = speaker
     partido_uf = meta
 
-    if meta and "." in meta and speaker.upper() in CARGOS:
-        nome, partido_uf = (parte.strip() for parte in meta.split(".", 1))
+    # Quando o cabeçalho traz um cargo antes dos parênteses,
+    # como:
+    # PRESIDENTE (Lucas Redecker. Bloco/PSDB - RS)
+    #
+    # usamos o conteúdo antes do primeiro ponto do meta como nome.
+    if meta and "." in meta:
+        nome, partido_uf = (
+            parte.strip()
+            for parte in meta.split(".", 1)
+        )
 
-    # Só tratamos como "PARTIDO - UF" quando há esse separador. Alguns
-    # cabeçalhos trazem apelidos ou observações entre parênteses (ex.:
-    # "(MESTRE CHICO)", "(Manifestação em língua estrangeira...)"), que
-    # não são partido/estado.
     partido = None
     estado = None
 
+    # Só tratamos como "PARTIDO - UF" quando há esse separador.
+    # Outros conteúdos entre parênteses não são interpretados
+    # como partido/estado.
     if " - " in partido_uf:
         partido_bruto, estado = (
-            parte.strip() for parte in partido_uf.rsplit(" - ", 1)
+            parte.strip()
+            for parte in partido_uf.rsplit(" - ", 1)
         )
         partido = re.sub(r"^Bloco/", "", partido_bruto).strip()
 
@@ -121,7 +123,8 @@ def main():
             "falas": dados["falas"],
             "quantidade_falas": len(dados["falas"]),
             "quantidade_palavras": sum(
-                len(fala.split()) for fala in dados["falas"]
+                len(fala.split())
+                for fala in dados["falas"]
             ),
         }
         for dados in grouped.values()
