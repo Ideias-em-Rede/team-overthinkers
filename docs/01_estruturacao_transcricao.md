@@ -17,14 +17,12 @@ flowchart TD
 
     C --> D[02_capturar_metadados_da_transcricao.py]
 
-    D --> E[Metadados em Markdown]
-
-    D --> F[Metadados em JSON consolidado]
+    D --> E[dados_transcricao.json]
 ```
 
-O primeiro script reorganiza cada audiência a partir do seu `id`, identificando os participantes e suas respectivas falas. Ao final, os dados da transcrição reorganizada são armazenados **apenas em JSON**.
+O primeiro script reorganiza cada audiência a partir do seu `id`, identificando os participantes e suas respectivas falas. Ao final, os dados da transcrição reorganizada são armazenados em um **JSON** para cada audiência.
 
-O segundo script utiliza o JSON estruturado para gerar metadados sobre os participantes, considerando gênero, partidos, estados, quantidade de falas e quantidade de palavras. Os resultados são armazenados em **Markdown** e em um **JSON consolidado**.
+O segundo script utiliza o JSON estruturado para gerar metadados sobre os participantes, considerando gênero, partidos, estados, quantidade de falas e quantidade de palavras. Os resultados são armazenados em um **JSON consolidado**, que armazena todos os metadados, separados pelo ID de cada audiência.
 
 ---
 ## Script 01 — Estruturação da Transcrição
@@ -73,7 +71,9 @@ SPEECH_RE = re.compile(
 
 A expressão regular procura os **cabeçalhos de fala** presentes na transcrição, identificados por `O SR.` ou `A SRA.`, e utiliza esses cabeçalhos para identificar o participante e delimitar o conteúdo associado a ele.
 
-Depois dessa identificação, cada participante passa a ter um **bloco de fala**, que reúne suas falas ao longo da audiência. Esses dados são então organizados e armazenados no JSON da transcrição reorganizada.
+Depois dessa identificação, cada ocorrência capturada pela expressão regular corresponde a um **bloco de fala**, que começa no cabeçalho de um participante e termina quando começa o próximo bloco de fala ou quando a transcrição chega ao fim.
+
+Os dados são então organizados e armazenados no JSON da transcrição reorganizada.
 
 ---
 ## Script 02 — Estruturação dos Metadados
@@ -102,10 +102,16 @@ Substitua `ID` pelo identificador da audiência correspondente. Por exemplo:
 python3 -m scripts.02_capturar_metadados_da_transcricao 01
 ```
 
-Os metadados ficam salvos em:
+Os metadados são armazenados em:
 
 ```text
 team-overthinkers/dataset/transcricao_reorganizada/metadados
+```
+
+O resultado principal é o arquivo:
+
+```text
+dados_transcricao.json
 ```
 
 Essa estrutura constitui a base para as etapas posteriores de análise e para o cruzamento entre a **transcrição** e a **notícia jornalística**.
@@ -122,7 +128,7 @@ Essa escolha foi feita porque cada audiência constitui uma unidade independente
 * evitar a necessidade de carregar ou reescrever todas as transcrições quando apenas uma audiência for modificada;
 * manter os arquivos de texto estruturado separados dos dados agregados.
 
-Os metadados, por outro lado, são mantidos em um **JSON consolidado**, pois possuem natureza agregada e funcionam como uma visão geral das audiências processadas. Além disso, são gerados arquivos **Markdown** por audiência para facilitar a visualização e inspeção desses metadados.
+Os metadados, por outro lado, são mantidos em um **JSON consolidado**, pois possuem natureza agregada e funcionam como uma visão geral das audiências processadas. Essa estrutura também facilita o uso posterior dos dados em análises estatísticas e no processamento com ferramentas como Pandas.
 
 Dessa forma, a organização dos dados segue a lógica:
 
@@ -131,6 +137,5 @@ Transcrições reorganizadas
 └── um JSON por audiência
 
 Metadados
-├── um JSON consolidado
-└── arquivos Markdown por audiência
+└── um JSON consolidado
 ```
