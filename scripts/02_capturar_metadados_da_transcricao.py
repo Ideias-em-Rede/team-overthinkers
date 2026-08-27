@@ -7,7 +7,6 @@ from pathlib import Path
 from utils.salvar_dados import (
     METADADOS_JSON_PATH,
     salvar_metadados_em_json,
-    salvar_metadados_em_markdown,
 )
 
 
@@ -48,12 +47,19 @@ def _agrupar_por(participantes: list[dict], chave: str) -> dict:
 
     for p in participantes:
         valor = p[chave]
+
         if not valor:
             continue
 
         grupo = grupos.setdefault(
-            valor, {"participantes": 0, "falas": 0, "palavras": 0}
+            valor,
+            {
+                "participantes": 0,
+                "falas": 0,
+                "palavras": 0,
+            },
         )
+
         grupo["participantes"] += 1
         grupo["falas"] += p["quantidade_falas"]
         grupo["palavras"] += p["quantidade_palavras"]
@@ -62,9 +68,16 @@ def _agrupar_por(participantes: list[dict], chave: str) -> dict:
 
 
 def montar_resumo(participantes: list[dict]) -> dict:
-    """Calcula o resumo agregado (gênero, partido, estado) a partir dos participantes."""
-    homens = sum(1 for p in participantes if p["genero"] == "masculino")
-    mulheres = sum(1 for p in participantes if p["genero"] == "feminino")
+    """Calcula o resumo agregado de gênero, partido e estado."""
+    homens = sum(
+        1 for p in participantes
+        if p["genero"] == "masculino"
+    )
+
+    mulheres = sum(
+        1 for p in participantes
+        if p["genero"] == "feminino"
+    )
 
     return {
         "quantidade_participantes": len(participantes),
@@ -75,76 +88,6 @@ def montar_resumo(participantes: list[dict]) -> dict:
         "partidos": _agrupar_por(participantes, "partido"),
         "estados": _agrupar_por(participantes, "estado"),
     }
-
-
-def montar_tabela_markdown(
-    participantes: list[dict],
-    resumo: dict,
-    target_id: int,
-) -> str:
-    """Monta o markdown final com o resumo geral e as tabelas de metadados."""
-    partidos = sorted(resumo["partidos"])
-    estados = sorted(resumo["estados"])
-
-    linhas = [
-        f"# Metadados da Audiência ID {target_id}",
-        "",
-        "## Resumo geral",
-        "",
-        "| Métrica | Valor |",
-        "|---|---|",
-        f"| Quantidade de participantes | {resumo['quantidade_participantes']} |",
-        f"| Homens | {resumo['genero']['masculino']} |",
-        f"| Mulheres | {resumo['genero']['feminino']} |",
-        f"| Quantidade de partidos | {len(partidos)} |",
-        f"| Partidos | {', '.join(partidos) if partidos else '-'} |",
-        f"| Quantidade de estados | {len(estados)} |",
-        f"| Estados | {', '.join(estados) if estados else '-'} |",
-        "",
-        "## Falas e palavras por participante",
-        "",
-        "| Participante | Gênero | Partido | Estado | Falas | Palavras |",
-        "|---|---|---|---|---|---|",
-    ]
-
-    for p in participantes:
-        linhas.append(
-            f"| {p['nome']} | {p['genero']} | {p['partido'] or '-'} | "
-            f"{p['estado'] or '-'} | {p['quantidade_falas']} | "
-            f"{p['quantidade_palavras']} |"
-        )
-
-    linhas += [
-        "",
-        "## Falas e palavras por partido",
-        "",
-        "| Partido | Participantes | Falas | Palavras |",
-        "|---|---|---|---|",
-    ]
-
-    for partido in partidos:
-        agg = resumo["partidos"][partido]
-        linhas.append(
-            f"| {partido} | {agg['participantes']} | "
-            f"{agg['falas']} | {agg['palavras']} |"
-        )
-
-    linhas += [
-        "",
-        "## Falas e palavras por estado",
-        "",
-        "| Estado | Participantes | Falas | Palavras |",
-        "|---|---|---|---|",
-    ]
-
-    for estado in estados:
-        agg = resumo["estados"][estado]
-        linhas.append(
-            f"| {estado} | {agg['participantes']} | "
-            f"{agg['falas']} | {agg['palavras']} |"
-        )
-
-    return "\n".join(linhas).rstrip() + "\n"
 
 
 def main():
@@ -158,27 +101,29 @@ def main():
 
     resumo = montar_resumo(participantes)
 
-    tabela = montar_tabela_markdown(participantes, resumo, target_id)
-    path_markdown = salvar_metadados_em_markdown(tabela, target_id)
-    print(f"Metadados (markdown) salvos em: {path_markdown}")
-
-    # O JSON de metadados guarda só os dados estruturais (nome, gênero,
-    # partido, estado, contagens) — o texto das falas em si já mora no
-    # jsons/transcricao_ID.json gerado pelo script 01, não precisa
-    # duplicar aqui.
+    # O JSON de metadados guarda apenas os dados estruturais
+    # (nome, gênero, partido, estado e contagens).
+    # O texto das falas permanece no JSON da transcrição
+    # gerado pelo script 01.
     participantes_sem_falas = [
-        {chave: valor for chave, valor in p.items() if chave != "falas"}
+        {
+            chave: valor
+            for chave, valor in p.items()
+            if chave != "falas"
+        }
         for p in participantes
     ]
 
     # Insere/atualiza a entrada desta audiência no JSON único.
     dados_completos = carregar_metadados_existentes()
+
     dados_completos[str(target_id)] = {
         "resumo": resumo,
         "participantes": participantes_sem_falas,
     }
 
     path_json = salvar_metadados_em_json(dados_completos)
+
     print(f"Metadados (json) salvos em: {path_json}")
 
 
