@@ -11,9 +11,13 @@ from utils.salvar_dados import (
 )
 
 
-JSON_TRANSCRICOES_DIR = Path(
-    "/home/joaopedro/Documents/team-overthinkers/dataset/"
-    "transcricao_reorganizada/jsons"
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+JSON_TRANSCRICOES_DIR = (
+    BASE_DIR
+    / "dataset"
+    / "transcricao_reorganizada"
+    / "jsons"
 )
 
 
