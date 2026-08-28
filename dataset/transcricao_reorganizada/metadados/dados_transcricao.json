@@ -1,0 +1,921 @@
+{
+  "1": {
+    "resumo": {
+      "quantidade_participantes": 17,
+      "genero": {
+        "masculino": 15,
+        "feminino": 2
+      },
+      "partidos": {
+        "PSDB": {
+          "participantes": 1,
+          "falas": 33,
+          "palavras": 2166
+        },
+        "PT": {
+          "participantes": 2,
+          "falas": 6,
+          "palavras": 1355
+        },
+        "NOVO": {
+          "participantes": 2,
+          "falas": 4,
+          "palavras": 4359
+        },
+        "PL": {
+          "participantes": 7,
+          "falas": 9,
+          "palavras": 2842
+        },
+        "PP": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 414
+        }
+      },
+      "estados": {
+        "RS": {
+          "participantes": 4,
+          "falas": 38,
+          "palavras": 6927
+        },
+        "SP": {
+          "participantes": 4,
+          "falas": 8,
+          "palavras": 2279
+        },
+        "PI": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 291
+        },
+        "RN": {
+          "participantes": 1,
+          "falas": 2,
+          "palavras": 421
+        },
+        "PR": {
+          "participantes": 1,
+          "falas": 2,
+          "palavras": 380
+        },
+        "DF": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 410
+        },
+        "ES": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 428
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Lucas Redecker",
+        "genero": "masculino",
+        "partido": "PSDB",
+        "estado": "RS",
+        "quantidade_falas": 33,
+        "quantidade_palavras": 2166
+      },
+      {
+        "nome": "ARLINDO CHINAGLIA",
+        "genero": "masculino",
+        "partido": "PT",
+        "estado": "SP",
+        "quantidade_falas": 5,
+        "quantidade_palavras": 1064
+      },
+      {
+        "nome": "ELI VIEIRA ARAUJO JÚNIOR",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1865
+      },
+      {
+        "nome": "DAVID ÁGAPE",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 4,
+        "quantidade_palavras": 2774
+      },
+      {
+        "nome": "GLENN EDWARD GREENWALD",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 4,
+        "quantidade_palavras": 2587
+      },
+      {
+        "nome": "MICHAEL SHELLENBERGER",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1115
+      },
+      {
+        "nome": "MARCEL VAN HATTEM",
+        "genero": "masculino",
+        "partido": "NOVO",
+        "estado": "RS",
+        "quantidade_falas": 3,
+        "quantidade_palavras": 3902
+      },
+      {
+        "nome": "FLORENTINO NETO",
+        "genero": "masculino",
+        "partido": "PT",
+        "estado": "PI",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 291
+      },
+      {
+        "nome": "GENERAL GIRÃO",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "RN",
+        "quantidade_falas": 2,
+        "quantidade_palavras": 421
+      },
+      {
+        "nome": "MARIO FRIAS",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "SP",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 417
+      },
+      {
+        "nome": "LUIZ PHILIPPE DE ORLEANS E BRAGANÇA",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "SP",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 341
+      },
+      {
+        "nome": "FILIPE BARROS",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "PR",
+        "quantidade_falas": 2,
+        "quantidade_palavras": 380
+      },
+      {
+        "nome": "MARCELO MORAES",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "RS",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 445
+      },
+      {
+        "nome": "BIA KICIS",
+        "genero": "feminino",
+        "partido": "PL",
+        "estado": "DF",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 410
+      },
+      {
+        "nome": "AFONSO HAMM",
+        "genero": "masculino",
+        "partido": "PP",
+        "estado": "RS",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 414
+      },
+      {
+        "nome": "ADRIANA VENTURA",
+        "genero": "feminino",
+        "partido": "NOVO",
+        "estado": "SP",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 457
+      },
+      {
+        "nome": "GILVAN DA FEDERAL",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "ES",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 428
+      }
+    ]
+  },
+  "10": {
+    "resumo": {
+      "quantidade_participantes": 16,
+      "genero": {
+        "masculino": 16,
+        "feminino": 0
+      },
+      "partidos": {
+        "PSB": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 247
+        },
+        "PL": {
+          "participantes": 1,
+          "falas": 37,
+          "palavras": 2389
+        },
+        "PT": {
+          "participantes": 1,
+          "falas": 3,
+          "palavras": 175
+        }
+      },
+      "estados": {
+        "PE": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 247
+        },
+        "AM": {
+          "participantes": 1,
+          "falas": 37,
+          "palavras": 2389
+        },
+        "SP": {
+          "participantes": 1,
+          "falas": 3,
+          "palavras": 175
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Lucas Ramos",
+        "genero": "masculino",
+        "partido": "PSB",
+        "estado": "PE",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 247
+      },
+      {
+        "nome": "Capitão Alberto Neto",
+        "genero": "masculino",
+        "partido": "PL",
+        "estado": "AM",
+        "quantidade_falas": 37,
+        "quantidade_palavras": 2389
+      },
+      {
+        "nome": "CARLOS AUGUSTO SIMÕES GONÇALVEZ JÚNIOR",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 15,
+        "quantidade_palavras": 5593
+      },
+      {
+        "nome": "RAFAEL BALDI",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 946
+      },
+      {
+        "nome": "Alfredinho",
+        "genero": "masculino",
+        "partido": "PT",
+        "estado": "SP",
+        "quantidade_falas": 3,
+        "quantidade_palavras": 175
+      },
+      {
+        "nome": "RODRIGO SARAIVA MARINHO",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 5,
+        "quantidade_palavras": 1218
+      },
+      {
+        "nome": "RENATO DE SOUSA CORREIA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1070
+      },
+      {
+        "nome": "ALEX SANDER MOREIRA GONÇALVES",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1164
+      },
+      {
+        "nome": "HENRIQUE LIAN",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 954
+      },
+      {
+        "nome": "MÁRIO AVELINO",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 1680
+      },
+      {
+        "nome": "EDISON JOÃO COSTA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1434
+      },
+      {
+        "nome": "CLÓVIS ROBERTO SCHERER",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 4,
+        "quantidade_palavras": 1395
+      },
+      {
+        "nome": "SIMÃO LUIZ KOVALSKI",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 937
+      },
+      {
+        "nome": "EDUARDO LOPES",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1329
+      },
+      {
+        "nome": "ELSON RIBEIRO PÓVOA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 1100
+      },
+      {
+        "nome": "VLADIMIR ISZLAJI",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 484
+      }
+    ]
+  },
+  "100": {
+    "resumo": {
+      "quantidade_participantes": 16,
+      "genero": {
+        "masculino": 7,
+        "feminino": 9
+      },
+      "partidos": {
+        "UNIÃO": {
+          "participantes": 3,
+          "falas": 42,
+          "palavras": 3685
+        },
+        "NOVO": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 973
+        }
+      },
+      "estados": {
+        "GO": {
+          "participantes": 1,
+          "falas": 40,
+          "palavras": 3350
+        },
+        "RS": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 973
+        },
+        "MT": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 294
+        },
+        "MA": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 41
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Silvye Alves",
+        "genero": "feminino",
+        "partido": "UNIÃO",
+        "estado": "GO",
+        "quantidade_falas": 40,
+        "quantidade_palavras": 3350
+      },
+      {
+        "nome": "ARISTIDES MOURA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 5,
+        "quantidade_palavras": 1451
+      },
+      {
+        "nome": "TAÍS NIFFINEGGER",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 6,
+        "quantidade_palavras": 2286
+      },
+      {
+        "nome": "ERIKA KAROLINE DE CASTRO SABINO DE OLIVEIRA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 5,
+        "quantidade_palavras": 2488
+      },
+      {
+        "nome": "RODRIGO SANTANA DOS SANTOS",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 4,
+        "quantidade_palavras": 1758
+      },
+      {
+        "nome": "ROSELI FARIA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1666
+      },
+      {
+        "nome": "GEORGE NEVES LODDER",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 7,
+        "quantidade_palavras": 3502
+      },
+      {
+        "nome": "MARCEL VAN HATTEM",
+        "genero": "masculino",
+        "partido": "NOVO",
+        "estado": "RS",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 973
+      },
+      {
+        "nome": "CRISTINA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 141
+      },
+      {
+        "nome": "WALLY SAMYA NOGUEIRA BARROS NOLETO",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 474
+      },
+      {
+        "nome": "WALLACE VIEIRA DA SILVA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 174
+      },
+      {
+        "nome": "GISELA SIMONA",
+        "genero": "feminino",
+        "partido": "UNIÃO",
+        "estado": "MT",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 294
+      },
+      {
+        "nome": "PEDRO LUCAS FERNANDES",
+        "genero": "masculino",
+        "partido": "UNIÃO",
+        "estado": "MA",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 41
+      },
+      {
+        "nome": "SUSAN LUCENA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 324
+      },
+      {
+        "nome": "ANA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 136
+      },
+      {
+        "nome": "RICARDO FERNANDO GUIMARÃES",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 237
+      }
+    ]
+  },
+  "150": {
+    "resumo": {
+      "quantidade_participantes": 6,
+      "genero": {
+        "masculino": 5,
+        "feminino": 1
+      },
+      "partidos": {
+        "PSD": {
+          "participantes": 1,
+          "falas": 11,
+          "palavras": 1494
+        }
+      },
+      "estados": {
+        "PR": {
+          "participantes": 1,
+          "falas": 11,
+          "palavras": 1494
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Luisa Canziani",
+        "genero": "feminino",
+        "partido": "PSD",
+        "estado": "PR",
+        "quantidade_falas": 11,
+        "quantidade_palavras": 1494
+      },
+      {
+        "nome": "JEAN ROBERT BATANA FERREIRA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 899
+      },
+      {
+        "nome": "LUCIANO VALENTIM RECHIUTI",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 2425
+      },
+      {
+        "nome": "HENRIQUE LINS DE BARROS",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 995
+      },
+      {
+        "nome": "CLÁUDIO GOMIDE",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 6,
+        "quantidade_palavras": 886
+      },
+      {
+        "nome": "RICARDO MAGALHÃES",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 458
+      }
+    ]
+  },
+  "200": {
+    "resumo": {
+      "quantidade_participantes": 10,
+      "genero": {
+        "masculino": 5,
+        "feminino": 5
+      },
+      "partidos": {
+        "PT": {
+          "participantes": 1,
+          "falas": 20,
+          "palavras": 3309
+        },
+        "PDT": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 253
+        }
+      },
+      "estados": {
+        "DF": {
+          "participantes": 1,
+          "falas": 20,
+          "palavras": 3309
+        },
+        "AP": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 253
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Erika Kokay",
+        "genero": "feminino",
+        "partido": "PT",
+        "estado": "DF",
+        "quantidade_falas": 20,
+        "quantidade_palavras": 3309
+      },
+      {
+        "nome": "ARTHUR DE ALMEIDA MEDEIROS",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 842
+      },
+      {
+        "nome": "WOLNEI CAUMO",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1105
+      },
+      {
+        "nome": "GENILZA VALENTE",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 4,
+        "quantidade_palavras": 1160
+      },
+      {
+        "nome": "NADJA WALÉRIA VILELA CAMARA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1989
+      },
+      {
+        "nome": "ROBERTO RODRIGUES FILHO",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1098
+      },
+      {
+        "nome": "EDUARDO SANTANA CORDEIRO",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 1196
+      },
+      {
+        "nome": "CARLOS GROPEN JÚNIOR",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1719
+      },
+      {
+        "nome": "DJANE DA SILVA BENTO",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1582
+      },
+      {
+        "nome": "PROFESSORA GORETH",
+        "genero": "feminino",
+        "partido": "PDT",
+        "estado": "AP",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 253
+      }
+    ]
+  },
+  "206": {
+    "resumo": {
+      "quantidade_participantes": 18,
+      "genero": {
+        "masculino": 7,
+        "feminino": 11
+      },
+      "partidos": {
+        "PT": {
+          "participantes": 2,
+          "falas": 24,
+          "palavras": 4699
+        }
+      },
+      "estados": {
+        "MG": {
+          "participantes": 1,
+          "falas": 23,
+          "palavras": 4188
+        },
+        "PR": {
+          "participantes": 1,
+          "falas": 1,
+          "palavras": 511
+        }
+      }
+    },
+    "participantes": [
+      {
+        "nome": "Dandara",
+        "genero": "feminino",
+        "partido": "PT",
+        "estado": "MG",
+        "quantidade_falas": 23,
+        "quantidade_palavras": 4188
+      },
+      {
+        "nome": "CARLOS ABICALIL",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 1698
+      },
+      {
+        "nome": "ONÉSIO SOARES AMARAL",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1454
+      },
+      {
+        "nome": "NILMA LINO GOMES",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1277
+      },
+      {
+        "nome": "CAROL DARTORA",
+        "genero": "feminino",
+        "partido": "PT",
+        "estado": "PR",
+        "quantidade_falas": 1,
+        "quantidade_palavras": 511
+      },
+      {
+        "nome": "BRUNA BRELAZ",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1104
+      },
+      {
+        "nome": "DOUGLAS BELCHIOR",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1253
+      },
+      {
+        "nome": "MARIA DO ROSARIO FIGUEIREDO TRIPODI",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1024
+      },
+      {
+        "nome": "MÁRCIA REGINA DE LIMA SILVA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 879
+      },
+      {
+        "nome": "RAUL DE PAIVA SANTOS",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 595
+      },
+      {
+        "nome": "ELIEL BENITES",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 569
+      },
+      {
+        "nome": "JADE BEATRIZ",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 482
+      },
+      {
+        "nome": "ROGEAN VINÍCIUS SANTOS SOARES",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 427
+      },
+      {
+        "nome": "DELTON APARECIDO FELIPE",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 810
+      },
+      {
+        "nome": "LICINIA MARIA CORREA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1113
+      },
+      {
+        "nome": "MARTA LICIA TELES BRITO DE JESUS",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 919
+      },
+      {
+        "nome": "MARIA PÁSCOA SARMENTO",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 764
+      },
+      {
+        "nome": "JOSELENE FERREIRA MOTA",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 1,
+        "quantidade_palavras": 1116
+      }
+    ]
+  }
+}
