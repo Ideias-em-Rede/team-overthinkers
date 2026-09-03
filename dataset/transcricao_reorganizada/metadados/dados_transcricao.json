@@ -4291,7 +4291,7 @@
         "feminino": 1
       },
       "partidos": {
-        "Paulo Fernando. Bloco/REPUBLICANOS": {
+        "REPUBLICANOS": {
           "participantes": 1,
           "falas": 23,
           "palavras": 2033
@@ -4307,9 +4307,9 @@
     },
     "participantes": [
       {
-        "nome": "Prof",
+        "nome": "Prof. Paulo Fernando",
         "genero": "masculino",
-        "partido": "Paulo Fernando. Bloco/REPUBLICANOS",
+        "partido": "REPUBLICANOS",
         "estado": "DF",
         "quantidade_falas": 23,
         "quantidade_palavras": 2033
@@ -5648,7 +5648,7 @@
         "feminino": 1
       },
       "partidos": {
-        "Zacharias Calil. Bloco/UNIÃO": {
+        "UNIÃO": {
           "participantes": 1,
           "falas": 9,
           "palavras": 1462
@@ -5684,9 +5684,9 @@
     },
     "participantes": [
       {
-        "nome": "Dr",
+        "nome": "Dr. Zacharias Calil",
         "genero": "masculino",
-        "partido": "Zacharias Calil. Bloco/UNIÃO",
+        "partido": "UNIÃO",
         "estado": "GO",
         "quantidade_falas": 9,
         "quantidade_palavras": 1462
@@ -6192,7 +6192,7 @@
           "falas": 4,
           "palavras": 1067
         },
-        "Paulo Fernando. Bloco/REPUBLICANOS": {
+        "REPUBLICANOS": {
           "participantes": 1,
           "falas": 6,
           "palavras": 400
@@ -6253,9 +6253,9 @@
         "quantidade_palavras": 1720
       },
       {
-        "nome": "Prof",
+        "nome": "Prof. Paulo Fernando",
         "genero": "masculino",
-        "partido": "Paulo Fernando. Bloco/REPUBLICANOS",
+        "partido": "REPUBLICANOS",
         "estado": "DF",
         "quantidade_falas": 6,
         "quantidade_palavras": 400
@@ -8485,7 +8485,7 @@
           "falas": 8,
           "palavras": 3239
         },
-        "Luiz Ovando. PP": {
+        "PP": {
           "participantes": 1,
           "falas": 12,
           "palavras": 1598
@@ -8554,9 +8554,9 @@
         "quantidade_palavras": 1879
       },
       {
-        "nome": "Dr",
+        "nome": "Dr. Luiz Ovando",
         "genero": "masculino",
-        "partido": "Luiz Ovando. PP",
+        "partido": "PP",
         "estado": "MS",
         "quantidade_falas": 12,
         "quantidade_palavras": 1598
@@ -8986,7 +8986,7 @@
         "feminino": 2
       },
       "partidos": {
-        "Zacharias Calil. UNIÃO": {
+        "UNIÃO": {
           "participantes": 1,
           "falas": 25,
           "palavras": 1680
@@ -9002,9 +9002,9 @@
     },
     "participantes": [
       {
-        "nome": "Dr",
+        "nome": "Dr. Zacharias Calil",
         "genero": "masculino",
-        "partido": "Zacharias Calil. UNIÃO",
+        "partido": "UNIÃO",
         "estado": "GO",
         "quantidade_falas": 25,
         "quantidade_palavras": 1680
@@ -9707,7 +9707,7 @@
         "feminino": 2
       },
       "partidos": {
-        "Zacharias Calil. UNIÃO": {
+        "UNIÃO": {
           "participantes": 1,
           "falas": 22,
           "palavras": 1491
@@ -9723,9 +9723,9 @@
     },
     "participantes": [
       {
-        "nome": "Dr",
+        "nome": "Dr. Zacharias Calil",
         "genero": "masculino",
-        "partido": "Zacharias Calil. UNIÃO",
+        "partido": "UNIÃO",
         "estado": "GO",
         "quantidade_falas": 22,
         "quantidade_palavras": 1491
@@ -10699,7 +10699,7 @@
         "quantidade_palavras": 424
       },
       {
-        "nome": "DR",
+        "nome": "JORGE",
         "genero": "masculino",
         "partido": null,
         "estado": null,
@@ -12393,7 +12393,7 @@
         "quantidade_palavras": 878
       },
       {
-        "nome": "Manifestação em língua estrangeira",
+        "nome": "JULISSA MANTILLA FALCÓN",
         "genero": "feminino",
         "partido": null,
         "estado": null,
@@ -13403,9 +13403,9 @@
   },
   "99": {
     "resumo": {
-      "quantidade_participantes": 23,
+      "quantidade_participantes": 22,
       "genero": {
-        "masculino": 15,
+        "masculino": 14,
         "feminino": 8
       },
       "partidos": {
@@ -13513,12 +13513,12 @@
         "quantidade_palavras": 1790
       },
       {
-        "nome": "Manifestação em língua estrangeira",
+        "nome": "QAIS MAROUF KHEIRO SHQAIR",
         "genero": "masculino",
         "partido": null,
         "estado": null,
-        "quantidade_falas": 1,
-        "quantidade_palavras": 124
+        "quantidade_falas": 2,
+        "quantidade_palavras": 737
       },
       {
         "nome": "ABILIO BRUNINI",
@@ -13527,14 +13527,6 @@
         "estado": "MT",
         "quantidade_falas": 9,
         "quantidade_palavras": 1182
-      },
-      {
-        "nome": "QAIS MAROUF KHEIRO SHQAIR",
-        "genero": "masculino",
-        "partido": null,
-        "estado": null,
-        "quantidade_falas": 1,
-        "quantidade_palavras": 613
       },
       {
         "nome": "INTÉRPRETE",
@@ -14686,15 +14678,10 @@
         "feminino": 1
       },
       "partidos": {
-        "Zacharias Calil. Bloco/UNIÃO": {
-          "participantes": 1,
-          "falas": 17,
-          "palavras": 1935
-        },
         "UNIÃO": {
-          "participantes": 1,
-          "falas": 1,
-          "palavras": 97
+          "participantes": 2,
+          "falas": 18,
+          "palavras": 2032
         }
       },
       "estados": {
@@ -14712,9 +14699,9 @@
     },
     "participantes": [
       {
-        "nome": "Dr",
+        "nome": "Dr. Zacharias Calil",
         "genero": "masculino",
-        "partido": "Zacharias Calil. Bloco/UNIÃO",
+        "partido": "UNIÃO",
         "estado": "GO",
         "quantidade_falas": 17,
         "quantidade_palavras": 1935
@@ -15586,10 +15573,10 @@
   },
   "111": {
     "resumo": {
-      "quantidade_participantes": 11,
+      "quantidade_participantes": 13,
       "genero": {
         "masculino": 6,
-        "feminino": 5
+        "feminino": 7
       },
       "partidos": {
         "SOLIDARIEDADE": {
@@ -15662,8 +15649,8 @@
         "genero": "feminino",
         "partido": null,
         "estado": null,
-        "quantidade_falas": 7,
-        "quantidade_palavras": 6852
+        "quantidade_falas": 2,
+        "quantidade_palavras": 1928
       },
       {
         "nome": "RODRIGO ROSSO MARQUES",
@@ -15674,12 +15661,28 @@
         "quantidade_palavras": 6
       },
       {
+        "nome": "INTÉRPRETE",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 2,
+        "quantidade_palavras": 2510
+      },
+      {
         "nome": "MAGNO PRADO GAMA PRATES",
         "genero": "masculino",
         "partido": null,
         "estado": null,
         "quantidade_falas": 2,
         "quantidade_palavras": 6
+      },
+      {
+        "nome": "INTÉRPRETE",
+        "genero": "feminino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 3,
+        "quantidade_palavras": 2414
       },
       {
         "nome": "NÍDIA REGINA LIMEIRA DE SÁ",
@@ -19840,7 +19843,7 @@
         "feminino": 2
       },
       "partidos": {
-        "Paulo Fernando. Bloco/REPUBLICANOS": {
+        "REPUBLICANOS": {
           "participantes": 1,
           "falas": 28,
           "palavras": 2078
@@ -19856,9 +19859,9 @@
     },
     "participantes": [
       {
-        "nome": "Prof",
+        "nome": "Prof. Paulo Fernando",
         "genero": "masculino",
-        "partido": "Paulo Fernando. Bloco/REPUBLICANOS",
+        "partido": "REPUBLICANOS",
         "estado": "DF",
         "quantidade_falas": 28,
         "quantidade_palavras": 2078
@@ -25616,7 +25619,7 @@
         "quantidade_palavras": 1784
       },
       {
-        "nome": "Manifestação em língua estrangeira",
+        "nome": "MARK BUSE",
         "genero": "masculino",
         "partido": null,
         "estado": null,
@@ -25832,7 +25835,7 @@
         "feminino": 4
       },
       "partidos": {
-        "Zacharias Calil. Bloco/UNIÃO": {
+        "UNIÃO": {
           "participantes": 1,
           "falas": 15,
           "palavras": 1582
@@ -25848,9 +25851,9 @@
     },
     "participantes": [
       {
-        "nome": "Dr",
+        "nome": "Dr. Zacharias Calil",
         "genero": "masculino",
-        "partido": "Zacharias Calil. Bloco/UNIÃO",
+        "partido": "UNIÃO",
         "estado": "GO",
         "quantidade_falas": 15,
         "quantidade_palavras": 1582
@@ -26866,9 +26869,9 @@
   },
   "187": {
     "resumo": {
-      "quantidade_participantes": 20,
+      "quantidade_participantes": 19,
       "genero": {
-        "masculino": 13,
+        "masculino": 12,
         "feminino": 7
       },
       "partidos": {
@@ -26877,15 +26880,10 @@
           "falas": 12,
           "palavras": 3186
         },
-        "Paulo Fernando. Bloco/REPUBLICANOS": {
-          "participantes": 1,
-          "falas": 16,
-          "palavras": 1067
-        },
         "REPUBLICANOS": {
           "participantes": 1,
-          "falas": 1,
-          "palavras": 298
+          "falas": 17,
+          "palavras": 1365
         }
       },
       "estados": {
@@ -26895,7 +26893,7 @@
           "palavras": 3186
         },
         "DF": {
-          "participantes": 2,
+          "participantes": 1,
           "falas": 17,
           "palavras": 1365
         }
@@ -26967,12 +26965,12 @@
         "quantidade_palavras": 1066
       },
       {
-        "nome": "Prof",
+        "nome": "Prof. Paulo Fernando",
         "genero": "masculino",
-        "partido": "Paulo Fernando. Bloco/REPUBLICANOS",
+        "partido": "REPUBLICANOS",
         "estado": "DF",
-        "quantidade_falas": 16,
-        "quantidade_palavras": 1067
+        "quantidade_falas": 17,
+        "quantidade_palavras": 1365
       },
       {
         "nome": "WANDERLEY DA ROCHA",
@@ -27005,14 +27003,6 @@
         "estado": null,
         "quantidade_falas": 2,
         "quantidade_palavras": 1156
-      },
-      {
-        "nome": "PROF. PAULO FERNANDO",
-        "genero": "masculino",
-        "partido": "REPUBLICANOS",
-        "estado": "DF",
-        "quantidade_falas": 1,
-        "quantidade_palavras": 298
       },
       {
         "nome": "MARLETE QUEIROZ REYS",
@@ -27859,9 +27849,9 @@
   },
   "195": {
     "resumo": {
-      "quantidade_participantes": 3,
+      "quantidade_participantes": 4,
       "genero": {
-        "masculino": 2,
+        "masculino": 3,
         "feminino": 1
       },
       "partidos": {
@@ -27889,20 +27879,28 @@
         "quantidade_palavras": 1916
       },
       {
-        "nome": "Manifestação em língua estrangeira",
+        "nome": "ASSIMAKIS KOMNINOS",
         "genero": "masculino",
         "partido": null,
         "estado": null,
-        "quantidade_falas": 10,
-        "quantidade_palavras": 5048
+        "quantidade_falas": 4,
+        "quantidade_palavras": 2571
+      },
+      {
+        "nome": "JORGE PADILLA",
+        "genero": "masculino",
+        "partido": null,
+        "estado": null,
+        "quantidade_falas": 4,
+        "quantidade_palavras": 2074
       },
       {
         "nome": "KRISZTIAN KATONA",
         "genero": "masculino",
         "partido": null,
         "estado": null,
-        "quantidade_falas": 1,
-        "quantidade_palavras": 1885
+        "quantidade_falas": 3,
+        "quantidade_palavras": 2288
       }
     ]
   },
