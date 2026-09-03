@@ -18,7 +18,7 @@ O script deve atuar exclusivamente sobre os metadados já estruturados na etapa 
 ---
 ## Origem dos dados
 
-O script utiliza como entrada o arquivo:
+O script (scripts/03_analisar_metadados.py) utiliza como entrada o arquivo:
 
 ```text
 team-overthinkers/dataset/transcricao_reorganizada/metadados/dados_transcricao.json
@@ -38,6 +38,14 @@ A estrutura contém informações sobre:
 
 Nesta etapa, serão utilizados apenas os dados necessários para as análises de **partido, estado e gênero**.
 
+### Fonte da agregação: lista `participantes`, não `resumo`
+
+Cada audiência no `dados_transcricao.json` contém dois blocos: `resumo` (com sub-blocos `genero`, `partidos` e `estados`) e `participantes` (a lista individual de cada pessoa).
+
+**O bloco `resumo.partidos` e `resumo.estados` não deve ser usado como fonte da agregação.** Esses sub-blocos, no arquivo de origem, já omitem os participantes cujo `partido` ou `estado` é `null` — ou seja, não é possível reconstruir a categoria `NAO_INFORMADO` a partir deles, e usá-los como fonte fará com que as somas de integridade (ver seção correspondente) não fechem.
+
+O script deve, portanto, iterar sobre a lista `participantes` de cada audiência e agregar diretamente os campos `genero`, `partido`, `estado`, `quantidade_falas` e `quantidade_palavras` de cada participante. 
+
 ---
 ## Regras gerais
 
@@ -45,17 +53,22 @@ O script deve seguir as seguintes regras:
 
 1. Ler todas as audiências presentes em `dados_transcricao.json`.
 2. Utilizar o `id` da audiência como identificador.
-3. Utilizar os valores de `quantidade_falas` já presentes nos metadados, sem recalculá-los.
-4. Não reprocessar o texto das transcrições.
-5. Não realizar novas inferências sobre partido, estado ou gênero.
-6. Quando `partido`, `estado` ou `genero` possuir valor `null`, utilizar a categoria:
+3. Agregar a partir da lista `participantes` de cada audiência (ver seção acima) — nunca a partir do bloco `resumo`.
+4. Utilizar os valores de `quantidade_falas` e `quantidade_palavras` já presentes nos metadados, sem recalculá-los.
+5. Não reprocessar o texto das transcrições.
+6. Não realizar novas inferências sobre partido, estado ou gênero.
+7. Quando `partido`, `estado` ou `genero` possuir valor `null`, utilizar a categoria:
 
 ```text
 NAO_INFORMADO
 ```
 
-7. A categoria `NAO_INFORMADO` deve participar normalmente das agregações e dos cálculos de porcentagem.
-8. Todas as porcentagens devem ser calculadas em relação ao total da respectiva audiência.
+8. A categoria `NAO_INFORMADO` deve participar normalmente das agregações e dos cálculos de porcentagem.
+9. Todas as porcentagens devem ser calculadas em relação ao total da respectiva audiência.
+
+### Nota sobre `NAO_INFORMADO`
+
+No dataset atual, `partido` e `estado` são `null` em cerca de **64% dos participantes** — a maioria são jornalistas, especialistas e convidados sem mandato parlamentar, que naturalmente não têm partido ou UF associados. Isso significa que `NAO_INFORMADO` será, na prática, a categoria **majoritária** (não uma exceção rara) nas tabelas de partido e estado da maior parte das audiências. Isso é esperado e correto — não é um sinal de erro no processamento. Já em `genero`, o campo está 100% preenchido no dataset atual.
 
 ---
 ## Tabela de Partidos
@@ -76,8 +89,8 @@ A tabela deve conter exatamente os seguintes campos:
 * `partido`;
 * `quantidade_participantes_do_partido_na_audiencia`;
 * `porcentagem_participantes_do_partido_sobre_total_participantes_audiencia`;
-* `porcentagem_falas_do_partido_sobre_total_falas_audiencia`.
-
+* `porcentagem_falas_do_partido_sobre_total_falas_audiencia`;
+* `porcentagem_palavras_do_partido_sobre_total_palavras_audiencia`.
 
 ### Fórmulas
 
@@ -101,6 +114,17 @@ quantidade_falas_do_partido_na_audiencia
 porcentagem_falas_do_partido_sobre_total_falas_audiencia
 = quantidade_falas_do_partido_na_audiencia
   / quantidade_total_de_falas_na_audiencia
+```
+
+```text
+quantidade_palavras_do_partido_na_audiencia
+= soma de quantidade_palavras dos participantes associados ao partido
+```
+
+```text
+porcentagem_palavras_do_partido_sobre_total_palavras_audiencia
+= quantidade_palavras_do_partido_na_audiencia
+  / quantidade_total_de_palavras_na_audiencia
 ```
 
 As porcentagens devem ser representadas como valores entre `0` e `1`.
@@ -130,7 +154,8 @@ A tabela deve conter exatamente os seguintes campos:
 * `estado`;
 * `quantidade_participantes_do_estado_na_audiencia`;
 * `porcentagem_participantes_do_estado_sobre_total_participantes_audiencia`;
-* `porcentagem_falas_do_estado_sobre_total_falas_audiencia`.
+* `porcentagem_falas_do_estado_sobre_total_falas_audiencia`;
+* `porcentagem_palavras_do_estado_sobre_total_palavras_audiencia`.
 
 ### Fórmulas
 
@@ -154,6 +179,17 @@ quantidade_falas_do_estado_na_audiencia
 porcentagem_falas_do_estado_sobre_total_falas_audiencia
 = quantidade_falas_do_estado_na_audiencia
   / quantidade_total_de_falas_na_audiencia
+```
+
+```text
+quantidade_palavras_do_estado_na_audiencia
+= soma de quantidade_palavras dos participantes associados ao estado
+```
+
+```text
+porcentagem_palavras_do_estado_sobre_total_palavras_audiencia
+= quantidade_palavras_do_estado_na_audiencia
+  / quantidade_total_de_palavras_na_audiencia
 ```
 
 As porcentagens devem ser representadas como valores entre `0` e `1`.
@@ -183,7 +219,8 @@ A tabela deve conter exatamente os seguintes campos:
 * `genero`;
 * `quantidade_participantes_do_genero_na_audiencia`;
 * `porcentagem_participantes_do_genero_sobre_total_participantes_audiencia`;
-* `porcentagem_falas_do_genero_sobre_total_falas_audiencia`.
+* `porcentagem_falas_do_genero_sobre_total_falas_audiencia`;
+* `porcentagem_palavras_do_genero_sobre_total_palavras_audiencia`.
 
 ### Fórmulas
 
@@ -207,6 +244,17 @@ quantidade_falas_do_genero_na_audiencia
 porcentagem_falas_do_genero_sobre_total_falas_audiencia
 = quantidade_falas_do_genero_na_audiencia
   / quantidade_total_de_falas_na_audiencia
+```
+
+```text
+quantidade_palavras_do_genero_na_audiencia
+= soma de quantidade_palavras dos participantes associados ao gênero
+```
+
+```text
+porcentagem_palavras_do_genero_sobre_total_palavras_audiencia
+= quantidade_palavras_do_genero_na_audiencia
+  / quantidade_total_de_palavras_na_audiencia
 ```
 
 As porcentagens devem ser representadas como valores entre `0` e `1`.
@@ -235,40 +283,28 @@ Para cada audiência, os agregados devem preservar os totais existentes nos meta
 Na tabela de partidos:
 
 ```text
-soma(quantidade_participantes_do_partido_na_audiencia)
-= quantidade_total_de_participantes_na_audiencia
-```
-
-```text
-soma(quantidade_falas_do_partido_na_audiencia)
-= quantidade_total_de_falas_na_audiencia
+soma(quantidade_participantes_do_partido_na_audiencia) = quantidade_total_de_participantes_na_audiencia
+soma(quantidade_falas_do_partido_na_audiencia)         = quantidade_total_de_falas_na_audiencia
+soma(quantidade_palavras_do_partido_na_audiencia)      = quantidade_total_de_palavras_na_audiencia
 ```
 
 Na tabela de estados:
 
 ```text
-soma(quantidade_participantes_do_estado_na_audiencia)
-= quantidade_total_de_participantes_na_audiencia
-```
-
-```text
-soma(quantidade_falas_do_estado_na_audiencia)
-= quantidade_total_de_falas_na_audiencia
+soma(quantidade_participantes_do_estado_na_audiencia) = quantidade_total_de_participantes_na_audiencia
+soma(quantidade_falas_do_estado_na_audiencia)         = quantidade_total_de_falas_na_audiencia
+soma(quantidade_palavras_do_estado_na_audiencia)      = quantidade_total_de_palavras_na_audiencia
 ```
 
 Na tabela de gênero:
 
 ```text
-soma(quantidade_participantes_do_genero_na_audiencia)
-= quantidade_total_de_participantes_na_audiencia
+soma(quantidade_participantes_do_genero_na_audiencia) = quantidade_total_de_participantes_na_audiencia
+soma(quantidade_falas_do_genero_na_audiencia)         = quantidade_total_de_falas_na_audiencia
+soma(quantidade_palavras_do_genero_na_audiencia)      = quantidade_total_de_palavras_na_audiencia
 ```
 
-```text
-soma(quantidade_falas_do_genero_na_audiencia)
-= quantidade_total_de_falas_na_audiencia
-```
-
-A inclusão da categoria `NAO_INFORMADO` garante que participantes sem partido, estado ou gênero informado não sejam excluídos dessas agregações.
+A inclusão da categoria `NAO_INFORMADO` garante que participantes sem partido, estado ou gênero informado não sejam excluídos dessas agregações. Como essas somas usam a lista `participantes` como fonte (e não `resumo.partidos`/`resumo.estados`, que já vêm sem os `null`), a integridade só se sustenta se a regra da seção "Fonte da agregação" for seguida.
 
 ---
 ## Utilização dos dados
@@ -282,33 +318,20 @@ A partir delas, será possível investigar:
 * distribuição dos participantes por gênero;
 * distribuição das falas por partido;
 * distribuição das falas por estado;
-* distribuição das falas por gênero.
+* distribuição das falas por gênero;
+* distribuição das palavras por partido, estado e gênero — uma medida complementar à quantidade de falas, útil para distinguir participantes com poucas falas longas de participantes com muitas falas curtas.
 
 Essas informações servirão como **linha de base para as etapas posteriores da pesquisa**.
 
-Esta etapa possui caráter exclusivamente **descritivo e exploratório**. Ela não busca, isoladamente, identificar viés jornalístico.
+Esta etapa possui caráter exclusivamente **descritivo e exploratório**, no nível de cada audiência individual. Uma eventual visão agregada entre as 206 audiências (por exemplo, em quantas audiências cada partido apareceu, ou sua fala média percentual ao longo do corpus) fica fora do escopo desta etapa e pode ser tratada separadamente, caso necessário.
+
+Ela não busca, isoladamente, identificar viés jornalístico.
 
 ---
-## Relação com as etapas seguintes
+## Como executar
 
-A análise dos metadados tem como função caracterizar a participação existente nas audiências e estabelecer uma referência quantitativa para a análise posterior.
+O script disponível em **scripts/03_analisar_metadados.py**, pode ser executado com o comando:
 
-O fluxo da pesquisa passa a ser:
-
-```text
-Transcrição original
-        ↓
-Estruturação da transcrição
-        ↓
-Captura dos metadados
-        ↓
-Análise dos metadados
-        ↓
-Estruturação das notícias
-        ↓
-Comparação notícia × transcrição
-        ↓
-Análise de seleção e possíveis vieses
+```shell
+python3 -m scripts.03_analisar_metadados
 ```
-
-Os resultados desta etapa fornecerão a referência necessária para avaliar posteriormente como os participantes e grupos presentes nas audiências são representados na cobertura jornalística.
