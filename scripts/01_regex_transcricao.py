@@ -66,11 +66,34 @@ def resolver_participante(match: re.Match) -> dict:
     #
     # PRESIDENTE (Lucas Redecker. Bloco/PSDB - RS)
     #
-    # usamos o conteúdo antes do primeiro ponto do meta como nome.
-    if meta and "." in meta:
+    # o conteúdo do parênteses segue o padrão "Nome. Partido - UF"
+    # e usamos o texto antes do ponto como nome.
+    #
+    # Exigimos também a presença de " - " para confirmar que é
+    # esse o padrão, porque o parênteses às vezes traz outra coisa
+    # com ponto, sem ser "Nome. Partido - UF" — por exemplo uma
+    # anotação como:
+    #
+    # (Manifestação em língua estrangeira. Tradução não Simultânea.)
+    #
+    # Sem essa checagem, esse tipo de conteúdo era tratado como se
+    # fosse o nome do participante, sobrescrevendo o nome real.
+    #
+    # Dividimos no ÚLTIMO ponto (e não no primeiro) porque o nome
+    # pode vir precedido de um título abreviado com ponto, como em:
+    #
+    # PRESIDENTE (Dr. Zacharias Calil. Bloco/UNIÃO - GO)
+    #
+    # Dividir no primeiro ponto faz "Dr" virar o nome e
+    # "Zacharias Calil. Bloco/UNIÃO" virar o partido — poluindo a
+    # tabela de partidos com uma categoria falsa. O trecho de
+    # partido/UF nunca contém ponto, então dividir no último ponto
+    # é seguro tanto para esse caso quanto para o caso comum
+    # (sem título), sem alterar o resultado antigo.
+    if meta and " - " in meta and "." in meta:
         nome, partido_uf = (
             parte.strip()
-            for parte in meta.split(".", 1)
+            for parte in meta.rsplit(".", 1)
         )
 
     partido = None
@@ -96,8 +119,45 @@ def resolver_participante(match: re.Match) -> dict:
         "nome": nome,
         "partido": partido,
         "estado": estado,
-        "partido_uf_bruto": partido_uf,
+        # Conteúdo original do parênteses, preservado sem qualquer
+        # processamento. Usado apenas para o agrupamento (ver
+        # `usa_meta_como_identificador`), nunca é exposto no JSON
+        # final.
+        "meta_bruto": meta,
     }
+
+
+def usa_meta_como_identificador(participante: dict) -> bool:
+    """
+    Indica se o conteúdo bruto do parênteses deve compor a chave de
+    agrupamento, além de nome/gênero/partido/estado.
+
+    Isso é necessário para rótulos de cargo genéricos que não são o
+    nome de uma pessoa específica, como "INTÉRPRETE". Nesses casos,
+    o parênteses não traz "Nome. Partido - UF", mas sim o nome de
+    quem está de fato falando, por exemplo:
+
+    A SRA. INTÉRPRETE(SANDRA PATRÍCIA DE FARIA DO NASCIMENTO) - ...
+    A SRA. INTÉRPRETE(ADRIANA LOPES) - ...
+
+    Sem usar esse conteúdo no agrupamento, intérpretes diferentes
+    eram todos agrupados como se fossem uma única pessoa chamada
+    "INTÉRPRETE".
+
+    Não usamos o conteúdo do parênteses quando ele contém "." ou
+    " - ": esses casos já foram tratados como "Nome. Partido - UF"
+    (ver `resolver_participante`) ou correspondem a uma anotação
+    sobre a fala em si — como "Manifestação em língua estrangeira.
+    Tradução não Simultânea." — que não identifica uma pessoa e não
+    deve ser usada para diferenciar participantes.
+    """
+    meta = participante["meta_bruto"]
+
+    return (
+        bool(meta)
+        and " - " not in meta
+        and "." not in meta
+    )
 
 
 def montar_chave_agrupamento(participante: dict) -> tuple:
@@ -110,12 +170,19 @@ def montar_chave_agrupamento(participante: dict) -> tuple:
 
     O nome original continua sendo preservado nos dados finais.
     """
-    return (
+    chave = [
         normalizar_texto(participante["nome"]),
         normalizar_texto(participante["genero"]),
         normalizar_texto(participante["partido"] or ""),
         normalizar_texto(participante["estado"] or ""),
-    )
+    ]
+
+    if usa_meta_como_identificador(participante):
+        chave.append(
+            normalizar_texto(participante["meta_bruto"])
+        )
+
+    return tuple(chave)
 
 
 def main():
