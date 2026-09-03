@@ -22,6 +22,7 @@
         "Sim, fique à vontade.",
         "Quando o senhor me avisa que isso ocorrerá um pouco mais à frente, eu peço que se preocupe um pouco mais com o horário, por favor.",
         "Serão dados 5 minutos.",
+        "Muito obrigado, Sr. Henrique Jager, do INEEP. Agradeço sua contribuição. Quero cumprimentar o Deputado Marco Brasil, do meu querido Estado do Paraná. Seja bem-vindo e fique à vontade!",
         "O prazer é nosso. Passo a palavra agora ao Sr. Deyvid Souza Bacelar da Silva, da FUP, Federação Única dos Petroleiros. Fique à vontade, Sr. Deyvid.",
         "Deputado, primeiro, a Casa é nossa, dos Deputados. E V.Exa. está chegando agora, é normal. Mas esclareço que os Deputados sempre terão prioridade para falar, porque a Casa, conforme eu disse, é nossa. Como é de praxe, vamos ouvir o Deyvid Bacelar, depois, ouviremos o outro convidado, e aí nós abriremos a palavra, quando V.Exa., se quiser, poderá...",
         "Não, não...é só para...",
@@ -35,8 +36,8 @@
         "Obrigado, Sr. Deyvid Souza Bacelar da Silva. Eu passo a palavra agora, por 3 minutos, ao Sr. Mario Alberto Dal Zot, da ANAPETRO.",
         "Antes de finalizar os trabalhos, quero agradecer a presença de todos e de todas. Nada mais havendo a tratar, encerro os trabalhos, convocando os senhores membros para reunião deliberativa extraordinária a ser realizada amanhã, dia 29 de junho, às 9h30min, no Plenário nº 5. Está encerrada a audiência pública. Muito obrigado."
       ],
-      "quantidade_falas": 27,
-      "quantidade_palavras": 1862
+      "quantidade_falas": 28,
+      "quantidade_palavras": 1890
     },
     {
       "nome": "OMAR PICHETH",
@@ -71,17 +72,6 @@
       ],
       "quantidade_falas": 10,
       "quantidade_palavras": 4459
-    },
-    {
-      "nome": "ENIO VERRI",
-      "genero": "masculino",
-      "partido": "PT",
-      "estado": "PR",
-      "falas": [
-        "Muito obrigado, Sr. Henrique Jager, do INEEP. Agradeço sua contribuição. Quero cumprimentar o Deputado Marco Brasil, do meu querido Estado do Paraná. Seja bem-vindo e fique à vontade!"
-      ],
-      "quantidade_falas": 1,
-      "quantidade_palavras": 28
     },
     {
       "nome": "MARCO BRASIL",

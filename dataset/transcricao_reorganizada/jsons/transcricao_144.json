@@ -267,10 +267,11 @@
       "estado": "RJ",
       "falas": [
         "Obrigado, Deputado. Ministro, eu nunca vi um Ministro, numa audiência pública, ser unanimidade — não é, Deputado Bebeto? —, da Esquerda, da Direita e do Centro. Então, V.Exa. está de parabéns pela gestão que tem conduzido, pela competência, pela simpatia, pelo carisma e pela sensibilidade de atender a todos. V.Exa. não faz distinção entre as pessoas. V.Exa. quer que o Brasil avance e está no caminho certo. Eu quero que os Ministros copiem e colem de V.Exa., porque com certeza assim o Brasil vai longe. Passo a palavra agora para o nosso Ministro e depois passarei a palavra para a nossa Deputada Helena. Obrigado, Ministro.",
-        "Não entendi bem o que aconteceu, mas peço, por gentileza, aos colegas que não cortem a fala do Ministro. Digo isso porque há Deputados que chegaram aqui às 8 horas da manhã para se inscreverem e querem falar. O tempo de V.Exa. será retomado."
+        "Não entendi bem o que aconteceu, mas peço, por gentileza, aos colegas que não cortem a fala do Ministro. Digo isso porque há Deputados que chegaram aqui às 8 horas da manhã para se inscreverem e querem falar. O tempo de V.Exa. será retomado.",
+        "Presidente, quero apenas saudar o nosso Prefeito de Duas Barras, Dr. Fabrício, do MDB, que veio até aqui para ver o nosso Ministro do MDB. Obrigado, Prefeito. Um abraço! Obrigado, Presidente."
       ],
-      "quantidade_falas": 2,
-      "quantidade_palavras": 149
+      "quantidade_falas": 3,
+      "quantidade_palavras": 180
     },
     {
       "nome": "MAX LEMOS",
@@ -319,17 +320,6 @@
       ],
       "quantidade_falas": 1,
       "quantidade_palavras": 484
-    },
-    {
-      "nome": "GUTEMBERG REIS",
-      "genero": "masculino",
-      "partido": "MDB",
-      "estado": "RJ",
-      "falas": [
-        "Presidente, quero apenas saudar o nosso Prefeito de Duas Barras, Dr. Fabrício, do MDB, que veio até aqui para ver o nosso Ministro do MDB. Obrigado, Prefeito. Um abraço! Obrigado, Presidente."
-      ],
-      "quantidade_falas": 1,
-      "quantidade_palavras": 31
     },
     {
       "nome": "MÁRCIO CORREA",
