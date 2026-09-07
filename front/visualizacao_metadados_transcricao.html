@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Participação nas Audiências Públicas</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --card-bg: #ffffff;
+    --border: #e2ddd0;
+    --text: #2b2620;
+    --text-muted: #6b6357;
+    --accent: #2c3e50;
+    --accent-light: #34495e;
+    --tab-inactive-bg: #ffffff;
+    --tab-inactive-text: #4a4438;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px 16px 60px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; font-weight: 700; }
+  .subtitle { color: var(--text-muted); font-size: 14px; margin: 0 0 20px; }
+  hr.top { border: none; border-top: 2px solid var(--accent); margin: 0 0 20px; }
+
+  .status-box {
+    background: #fff8e1; border: 1px solid #e8d9a0; border-radius: 8px;
+    padding: 14px 16px; font-size: 14px; margin-bottom: 20px; display: none;
+  }
+  .status-box.error { background: #fdecea; border-color: #f3b9b4; }
+  .status-box input[type=file] { margin-top: 8px; }
+
+  .tab-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+  .tab-group { display: flex; flex-wrap: wrap; gap: 8px; }
+  button.tab {
+    border: 1px solid var(--border);
+    background: var(--tab-inactive-bg);
+    color: var(--tab-inactive-text);
+    padding: 9px 16px;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background .12s, color .12s;
+  }
+  button.tab:hover { background: #f1ede3; }
+  button.tab.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .tabs-line {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 10px; margin-bottom: 14px;
+  }
+
+  .scope-row {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .scope-row input[type=range] { flex: 1; min-width: 140px; }
+  .scope-row input[type=number] {
+    width: 64px; padding: 6px; border: 1px solid var(--border); border-radius: 6px;
+    font-size: 14px; text-align: center;
+  }
+  .scope-meta { color: var(--text-muted); font-size: 13px; margin: 4px 0 16px; }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 22px 24px 18px;
+  }
+
+  .bar-row { display: flex; align-items: center; margin-bottom: 10px; }
+  .bar-label {
+    width: 130px; flex-shrink: 0; font-size: 13px; color: var(--text);
+    text-align: right; padding-right: 10px; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .bar-track { flex: 1; position: relative; height: 22px; }
+  .bar-fill {
+    position: absolute; left: 0; top: 0; height: 100%; border-radius: 3px;
+    display: flex; align-items: center;
+    transition: width .35s ease;
+  }
+  .bar-value {
+    margin-left: 8px; font-size: 12.5px; color: var(--text-muted); white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .bar-fill-wrap { display: flex; align-items: center; flex: 1 1 auto; min-width: 0; position: relative; height: 100%; }
+
+  .axis-row { display: flex; margin: 4px 0 0 140px; font-size: 11.5px; color: var(--text-muted); }
+
+  .nota {
+    margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--border);
+    font-size: 13px; color: var(--text-muted); line-height: 1.55;
+  }
+  .nota b { color: var(--text); }
+  .nota-informado { margin-bottom: 10px; }
+
+  .empty-state {
+    text-align: center; color: var(--text-muted); padding: 30px 10px; font-size: 14px;
+  }
+  footer.attrib {
+    text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Participação nas audiências públicas</h1>
+  <p class="subtitle" id="subtitle">Carregando metadados…</p>
+  <hr class="top">
+
+  <div id="statusBox" class="status-box"></div>
+
+  <div class="tabs-line">
+    <div class="tab-group" id="dimTabs">
+      <button class="tab active" data-dim="partido">Partido</button>
+      <button class="tab" data-dim="estado">Estado</button>
+      <button class="tab" data-dim="genero">Gênero</button>
+    </div>
+    <div class="tab-group" id="metricTabs">
+      <button class="tab active" data-metric="participantes">% de participantes</button>
+      <button class="tab" data-metric="falas">% de falas</button>
+      <button class="tab" data-metric="palavras">% de palavras</button>
+    </div>
+  </div>
+
+  <div class="tab-group" id="scopeTabs" style="margin-bottom:10px;">
+    <button class="tab active" data-scope="completo">Corpus completo</button>
+    <button class="tab" data-scope="especifica">Audiência específica</button>
+  </div>
+
+  <div id="scopeControls" style="display:none;">
+    <div class="scope-row">
+      <input type="range" id="audienciaSlider" min="1" max="1" value="1">
+      <input type="number" id="audienciaNumber" min="1" max="1" value="1">
+      <span style="font-size:13px;color:var(--text-muted);">de <span id="totalAudiencias">–</span></span>
+    </div>
+  </div>
+  <p class="scope-meta" id="scopeMeta"></p>
+
+  <div class="card">
+    <div id="chartArea"></div>
+  </div>
+
+  <div class="nota" id="notaArea"></div>
+
+  <footer class="attrib">Visualização gerada a partir de dados_transcricao.json — projeto Ideias em Rede / PublicHearingBR.</footer>
+</div>
+
+<script>
+(function () {
+  const DATA_PATH = "../dataset/transcricao_reorganizada/metadados/dados_transcricao.json";
+
+  const PALETTE = [
+    "#3b6ea5", "#c07a2c", "#7a9c59", "#a3475a", "#6a5390",
+    "#4a8a8a", "#b5893a", "#5c7ab5", "#8a5a3b", "#5a9c7a",
+    "#a55a8a", "#7a7a3b", "#3b8ab5", "#b56a4a", "#5a5a9c",
+    "#8ab53b", "#c05a5a", "#3ba58a", "#9c7a5a", "#5a8ac0",
+    "#a5893b", "#7a3b8a", "#3b9c5a", "#b53b6a", "#5a7a3b",
+    "#3b5a9c", "#c0913b"
+  ];
+  const colorCache = {};
+  function colorFor(name) {
+    if (colorCache[name]) return colorCache[name];
+    let hash = 0;
+    for (let i = 0; i < name.length; i++) hash = (hash * 31 + name.charCodeAt(i)) >>> 0;
+    const c = PALETTE[hash % PALETTE.length];
+    colorCache[name] = c;
+    return c;
+  }
+  const NAO_INFORMADO_COLOR = "#b8ae98";
+
+  let RAW = null;          // { "1": {...}, "2": {...}, ... }
+  let IDS = [];             // sorted numeric ids as strings
+  let state = { dim: "partido", metric: "participantes", scope: "completo", audienciaIdx: 0 };
+
+  function setStatus(msg, isError) {
+    const box = document.getElementById("statusBox");
+    box.style.display = "block";
+    box.className = "status-box" + (isError ? " error" : "");
+    box.innerHTML = msg;
+  }
+  function clearStatus() {
+    document.getElementById("statusBox").style.display = "none";
+  }
+
+  function loadFromPath() {
+    fetch(DATA_PATH)
+      .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(json => { onDataLoaded(json); })
+      .catch(err => { offerManualLoad(err); });
+  }
+
+  function offerManualLoad(err) {
+    setStatus(
+      "Não foi possível carregar automaticamente <code>" + DATA_PATH + "</code> " +
+      "(" + (err && err.message ? err.message : "erro de rede") + "). " +
+      "Isso costuma acontecer quando o HTML é aberto diretamente do disco (protocolo <code>file://</code> " +
+      "bloqueia o carregamento do JSON) — sirva a pasta com um servidor local " +
+      "(ex.: <code>python3 -m http.server</code>) ou selecione o arquivo manualmente abaixo." +
+      "<br><input type='file' id='manualFile' accept='application/json'>",
+      true
+    );
+    document.getElementById("manualFile").addEventListener("change", function (e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function (ev) {
+        try {
+          const json = JSON.parse(ev.target.result);
+          onDataLoaded(json);
+        } catch (parseErr) {
+          setStatus("O arquivo selecionado não é um JSON válido: " + parseErr.message, true);
+        }
+      };
+      reader.readAsText(file, "UTF-8");
+    });
+  }
+
+  function onDataLoaded(json) {
+    RAW = json;
+    IDS = Object.keys(RAW).sort((a, b) => Number(a) - Number(b));
+    clearStatus();
+    document.getElementById("subtitle").textContent =
+      IDS.length + " audiências da Câmara dos Deputados, por partido, estado e gênero dos participantes.";
+
+    const slider = document.getElementById("audienciaSlider");
+    const number = document.getElementById("audienciaNumber");
+    slider.max = IDS.length;
+    number.max = IDS.length;
+    document.getElementById("totalAudiencias").textContent = IDS.length;
+
+    render();
+  }
+
+  // ---- Aggregation -------------------------------------------------------
+
+  function emptyAgg() {
+    return { total: 0, informadoTotal: 0, categorias: {} };
+  }
+
+  function addParticipante(agg, p, dim) {
+    let key;
+    if (dim === "genero") key = p.genero || null;
+    else if (dim === "partido") key = p.partido || null;
+    else key = p.estado || null;
+
+    const w = { participantes: 1, falas: p.quantidade_falas || 0, palavras: p.quantidade_palavras || 0 };
+
+    ["participantes", "falas", "palavras"].forEach(m => {
+      agg.total = agg.total || { participantes: 0, falas: 0, palavras: 0 };
+      agg.total[m] += w[m];
+    });
+
+    if (key === null || key === undefined) {
+      agg.informadoTotal = agg.informadoTotal || { participantes: 0, falas: 0, palavras: 0 };
+      ["participantes", "falas", "palavras"].forEach(m => agg.informadoTotal[m] += w[m]);
+      return;
+    }
+    if (!agg.categorias[key]) agg.categorias[key] = { participantes: 0, falas: 0, palavras: 0 };
+    ["participantes", "falas", "palavras"].forEach(m => agg.categorias[key][m] += w[m]);
+  }
+
+  function buildAggregate(dim, scope, audienciaIdx) {
+    const agg = { total: { participantes: 0, falas: 0, palavras: 0 },
+                  informadoTotal: { participantes: 0, falas: 0, palavras: 0 },
+                  categorias: {} };
+    if (scope === "completo") {
+      IDS.forEach(id => {
+        const aud = RAW[id];
+        (aud.participantes || []).forEach(p => addParticipante(agg, p, dim));
+      });
+    } else {
+      const id = IDS[audienciaIdx];
+      const aud = RAW[id];
+      (aud.participantes || []).forEach(p => addParticipante(agg, p, dim));
+    }
+    return agg;
+  }
+
+  // ---- Rendering -----------------------------------------------------------
+
+  function render() {
+    if (!RAW) return;
+
+    // scope meta text
+    let metaText = "";
+    if (state.scope === "completo") {
+      let totalPart = 0, totalFalas = 0, totalPalavras = 0;
+      IDS.forEach(id => {
+        (RAW[id].participantes || []).forEach(p => {
+          totalPart += 1;
+          totalFalas += p.quantidade_falas || 0;
+          totalPalavras += p.quantidade_palavras || 0;
+        });
+      });
+      metaText = totalPart + " participantes · " + totalFalas + " falas · " + totalPalavras.toLocaleString("pt-BR") + " palavras (todas as " + IDS.length + " audiências)";
+      document.getElementById("scopeControls").style.display = "none";
+    } else {
+      document.getElementById("scopeControls").style.display = "block";
+      const id = IDS[state.audienciaIdx];
+      const aud = RAW[id];
+      let tPart = (aud.participantes || []).length;
+      let tFalas = 0, tPalavras = 0;
+      (aud.participantes || []).forEach(p => { tFalas += p.quantidade_falas || 0; tPalavras += p.quantidade_palavras || 0; });
+      metaText = tPart + " participantes · " + tFalas + " falas · " + tPalavras.toLocaleString("pt-BR") + " palavras · audiência #" + id;
+    }
+    document.getElementById("scopeMeta").textContent = metaText;
+
+    const agg = buildAggregate(state.dim, state.scope, state.audienciaIdx);
+    const metric = state.metric;
+    const totalForMetric = agg.total[metric];
+    const informadoForMetric = agg.informadoTotal[metric];
+
+    // build sorted category list (excluding null/"não informado")
+    const rows = Object.keys(agg.categorias).map(key => {
+      const val = agg.categorias[key][metric];
+      const pct = totalForMetric > 0 ? (val / totalForMetric) * 100 : 0;
+      return { key, val, pct };
+    }).sort((a, b) => b.pct - a.pct);
+
+    renderChart(rows);
+
+    // "não informado" note — only relevant for partido/estado (genero has no nulls in this dataset)
+    const notaArea = document.getElementById("notaArea");
+    notaArea.innerHTML = "";
+    if (state.dim !== "genero" && totalForMetric > 0) {
+      const pctInformado = (informadoForMetric / totalForMetric) * 100;
+      if (pctInformado > 0.05) {
+        const p = document.createElement("div");
+        p.className = "nota-informado";
+        p.innerHTML = "<b>Não informado: " + pctInformado.toFixed(1) + "%</b> — esse percentual não aparece no gráfico acima. " +
+          "Ele é alto porque boa parte das audiências reúne jornalistas e convidados especialistas na temática, " +
+          "que não têm " + (state.dim === "partido" ? "partido" : "estado") + " associado nos registros da Câmara.";
+        notaArea.appendChild(p);
+      }
+    }
+  }
+
+  function renderChart(rows) {
+    const area = document.getElementById("chartArea");
+    area.innerHTML = "";
+
+    if (rows.length === 0) {
+      const div = document.createElement("div");
+      div.className = "empty-state";
+      div.textContent = "Sem dados para esta combinação de filtros.";
+      area.appendChild(div);
+      return;
+    }
+
+    const maxPct = Math.max(...rows.map(r => r.pct), 0.001);
+
+    rows.forEach(r => {
+      const row = document.createElement("div");
+      row.className = "bar-row";
+
+      const label = document.createElement("div");
+      label.className = "bar-label";
+      label.textContent = r.key;
+      label.title = r.key;
+
+      const track = document.createElement("div");
+      track.className = "bar-track";
+
+      const fillWrap = document.createElement("div");
+      fillWrap.className = "bar-fill-wrap";
+
+      const fill = document.createElement("div");
+      fill.className = "bar-fill";
+      const widthPct = (r.pct / maxPct) * 100;
+      fill.style.width = widthPct + "%";
+      fill.style.background = colorFor(r.key);
+      fill.style.height = "100%";
+
+      const value = document.createElement("span");
+      value.className = "bar-value";
+      value.textContent = r.pct.toFixed(1) + "%";
+
+      fillWrap.appendChild(fill);
+      track.appendChild(fillWrap);
+      track.appendChild(value);
+      Object.assign(track.style, { display: "flex", alignItems: "center" });
+
+      row.appendChild(label);
+      row.appendChild(track);
+      area.appendChild(row);
+    });
+  }
+
+  // ---- Event wiring ----------------------------------------------------
+
+  document.getElementById("dimTabs").addEventListener("click", e => {
+    const btn = e.target.closest("button.tab");
+    if (!btn) return;
+    document.querySelectorAll("#dimTabs .tab").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    state.dim = btn.dataset.dim;
+    render();
+  });
+
+  document.getElementById("metricTabs").addEventListener("click", e => {
+    const btn = e.target.closest("button.tab");
+    if (!btn) return;
+    document.querySelectorAll("#metricTabs .tab").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    state.metric = btn.dataset.metric;
+    render();
+  });
+
+  document.getElementById("scopeTabs").addEventListener("click", e => {
+    const btn = e.target.closest("button.tab");
+    if (!btn) return;
+    document.querySelectorAll("#scopeTabs .tab").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    state.scope = btn.dataset.scope;
+    render();
+  });
+
+  function syncAudiencia(idx) {
+    state.audienciaIdx = Math.max(0, Math.min(IDS.length - 1, idx));
+    document.getElementById("audienciaSlider").value = state.audienciaIdx + 1;
+    document.getElementById("audienciaNumber").value = state.audienciaIdx + 1;
+    render();
+  }
+  document.getElementById("audienciaSlider").addEventListener("input", e => syncAudiencia(Number(e.target.value) - 1));
+  document.getElementById("audienciaNumber").addEventListener("input", e => syncAudiencia(Number(e.target.value) - 1));
+
+  loadFromPath();
+})();
+</script>
+</body>
+</html>
