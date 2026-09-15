@@ -3,29 +3,30 @@ Análise de gatekeeping editorial: cruzamento entre quem fala nas audiências
 públicas da Câmara dos Deputados e quem é citado nas matérias do jornal da
 Câmara sobre essas mesmas audiências.
 
-Produz três achados estatisticamente testados:
+Este script FORMALIZA e TESTA três hipóteses definidas a priori, a partir de
+uma fase exploratória anterior sobre os mesmos dados. Cada achado abaixo é
+reportado como um teste de hipótese nula (H0) com seu p-valor — a
+interpretação substantiva do resultado (o que isso significa para o
+gatekeeping editorial) é uma leitura do paper, não uma afirmação do script.
 
-  1. Existe um filtro de seleção editorial real, e ele não é redutível a
-     "quem falou mais" (Mann-Whitney U + taxa de coincidência top-falante
-     vs. top-citado por audiência).
-  2. Convidados/especialistas externos recebem mais opiniões atribuídas na
-     matéria do que os próprios deputados, mesmo controlando pelo volume de
-     fala (Mann-Whitney U + regressão OLS).
-  3. Existe assimetria partidária em quem ganha destaque textual (título /
-     subtítulo / início) entre os já citados, com o PL sistematicamente
-     sub-representado em destaque (qui-quadrado global + PL vs. resto +
-     regressão logística de robustez para o PSOL).
+  1. H0: a quantidade de palavras faladas não difere entre participantes
+     citados e não citados na matéria (Mann-Whitney U).
+  2. H0: a quantidade de opiniões atribuídas não difere entre
+     convidados/especialistas e deputados, controlando pelo volume de fala
+     (Mann-Whitney U + regressão OLS).
+  3. H0: a posição de destaque no texto (título/subtítulo/início vs. corpo)
+     é independente do partido — testada de forma global (qui-quadrado
+     entre os partidos com N>=15 citações) e isolando PL vs. o restante.
 
 Reprodutibilidade: nenhuma etapa usa aleatoriedade, amostragem ou modelos de
 linguagem. A normalização de nomes e a matching transcrição<->notícia são
 funções puras e determinísticas; os testes estatísticos (scipy/statsmodels)
-são determinísticos dado o mesmo input. A única heurística do pipeline é o
-dicionário de palavras-chave usado para classificar o tema de cada audiência
-(ver TEMAS abaixo) — não é usada nos achados 1 e 2, e no achado 3 aparece só
-como variável de controle na regressão de robustez do PSOL.
+são determinísticos dado o mesmo input. Rodar este script duas vezes sobre
+os mesmos dados produz exatamente os mesmos números — isso é esperado e
+desejável para reprodutibilidade, não uma fraqueza do método.
 
 Uso:
-    python scripts/analise_gatekeeping.py
+    python -m scripts.04_analise_gatekeepers_noticias_reais
 
 Deve ser rodado a partir da raiz do repositório (ou de qualquer lugar — os
 caminhos de entrada/saída são resolvidos relativos à raiz do repo,
@@ -50,7 +51,7 @@ from scipy import stats
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TRANSCRICAO_PATH = REPO_ROOT / "dataset" / "transcricao_reorganizada" / "metadados" / "dados_transcricao.json"
 NOTICIAS_PATH = REPO_ROOT / "dataset" / "noticias_reorganizadas" / "noticias.json"
-OUTPUT_DIR = REPO_ROOT / "gatekeepers"
+OUTPUT_DIR = REPO_ROOT / "gatekeepers" / "humano"
 
 # ---------------------------------------------------------------------------
 # Normalização de nomes (determinística, sem decisão manual caso a caso)
@@ -90,62 +91,6 @@ def match_envolvido(nome_key: str, envolvidos_by_norm: dict):
     return None
 
 
-# ---------------------------------------------------------------------------
-# Classificação temática por palavra-chave (heurística, documentada;
-# usada apenas como variável de controle na regressão de robustez do
-# achado 3 — não sustenta sozinha nenhum achado)
-# ---------------------------------------------------------------------------
-TEMAS = {
-    "Judiciario/Censura/Liberdade de expressao": [
-        "censura", "moraes", "judiciario", "liberdade de expressao",
-        "ativismo judicial", "stf", "poder judiciario", "judicializacao",
-    ],
-    "Economia/Trabalho/Fiscal": [
-        "fgts", "tributaria", "orcament", "criptomoeda", "banco central",
-        "imposto", "trabalh", "emprego", "consignado", "fiscal", "divida",
-        "financ", "loteria", "economia",
-    ],
-    "Direitos humanos/Minorias/Inclusao": [
-        "autismo", "deficien", "indigena", "racismo", "negro", "mulher",
-        "genero", "lgbt", "direitos human", "violencia contra", "crianca",
-        "idoso", "quilombola",
-    ],
-    "Meio ambiente/Desastres/Clima": [
-        "seca", "desertific", "barragem", "mineradora", "clima",
-        "ambiental", "desmatamento", "socioambiental", "enchente", "temporal",
-    ],
-    "Saude": ["vacin", "saude", "covid", "sus ", "medicamento", "hospital"],
-    "Seguranca publica/Crime": [
-        "seguranca publica", "crime", "policia", "violencia", "homicidio",
-        "mortes violentas",
-    ],
-    "Educacao": ["educa", "escola", "ensino", "professor", "universidade", "capes"],
-    "Tecnologia/IA/Telecom": [
-        "inteligencia artificial", " ia ", "tecnolog", "telecom", "anatel",
-        "e-commerce", "internet", "rede social", "plataform",
-    ],
-    "Transporte/Infraestrutura": [
-        "transito", "velocidade", "rodovia", "transporte", "infraestrutura",
-        "aviacao", "passagens", "123milhas",
-    ],
-    "Politica/Eleicoes/Institucional": [
-        "eleic", "partido politico", "congresso", "camara dos deputados",
-        "reforma politica", "cpi ", "ministro", "governo federal",
-    ],
-}
-
-
-def normalize_text(s: str) -> str:
-    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
-
-
-def classify_tema(assunto: str) -> str:
-    a = normalize_text(assunto)
-    scores = {tema: sum(1 for kw in kws if kw in a) for tema, kws in TEMAS.items()}
-    scores = {t: s for t, s in scores.items() if s > 0}
-    return max(scores, key=scores.get) if scores else "Outros"
-
-
 def is_destaque(posicao_no_texto) -> bool:
     return posicao_no_texto in ("titulo", "subtitulo", "inicio")
 
@@ -177,7 +122,6 @@ def carregar_e_cruzar(transcricao_path: Path, noticias_path: Path):
         if noticia is None:
             continue
 
-        tema = classify_tema(noticia["assunto"])
         envolvidos = noticia.get("envolvidos", [])
         total_envolvidos += len(envolvidos)
         envolvidos_by_norm = {normalize_name(e["nome"]): e for e in envolvidos}
@@ -189,7 +133,6 @@ def carregar_e_cruzar(transcricao_path: Path, noticias_path: Path):
 
             rows.append({
                 "hearing_id": hearing_id,
-                "tema": tema,
                 "nome_canon": canon_map.get(nome_key, p["nome"]),
                 "nome_key": nome_key,
                 "genero": p.get("genero"),
@@ -220,7 +163,7 @@ def carregar_e_cruzar(transcricao_path: Path, noticias_path: Path):
 
 
 # ---------------------------------------------------------------------------
-# Achado 1: filtro de seleção real e não-mecânico
+# Achado 1: H0 = volume de fala nao difere entre citados e nao-citados
 # ---------------------------------------------------------------------------
 def achado_1_filtro_de_selecao(rows: list) -> dict:
     covered = [r for r in rows if r["covered"]]
@@ -252,32 +195,39 @@ def achado_1_filtro_de_selecao(rows: list) -> dict:
             coincidencias += 1
 
     return {
-        "descricao": "Filtro de selecao editorial existe e nao e mecanico",
+        "hipotese_testada": (
+            "H0: a quantidade de palavras faladas nao difere entre "
+            "participantes citados e nao citados na materia "
+            "(Mann-Whitney U, unilateral: citados > nao citados)"
+        ),
         "n_total": n,
         "n_cobertos": k,
         "taxa_cobertura": round(p, 4),
         "ic95_taxa_cobertura": [round(p - 1.96 * se, 4), round(p + 1.96 * se, 4)],
-        "mediana_palavras_cobertos": stats.tmean([r["quantidade_palavras"] for r in covered]) and
-                                       sorted(r["quantidade_palavras"] for r in covered)[len(covered)//2],
-        "mediana_palavras_nao_cobertos": sorted(r["quantidade_palavras"] for r in notcov)[len(notcov)//2],
+        "mediana_palavras_cobertos": sorted(r["quantidade_palavras"] for r in covered)[len(covered) // 2],
+        "mediana_palavras_nao_cobertos": sorted(r["quantidade_palavras"] for r in notcov)[len(notcov) // 2],
         "mannwhitney_U": u_stat,
-        "mannwhitney_p": p_val,
-        "audiencias_com_2plus_cobertos": audiencias_elegiveis,
-        "coincidencia_top_falante_top_citado": coincidencias,
-        "pct_coincidencia": round(100 * coincidencias / audiencias_elegiveis, 1),
+        "p_valor": p_val,
+        "rejeita_h0_a_5pct": bool(p_val < 0.05),
+        "estatistica_descritiva_adicional": {
+            "descricao": "entre audiencias com >=2 pessoas citadas na materia, frequencia com que quem mais falou tambem foi quem mais foi citado",
+            "audiencias_com_2plus_cobertos": audiencias_elegiveis,
+            "coincidencia_top_falante_top_citado": coincidencias,
+            "pct_coincidencia": round(100 * coincidencias / audiencias_elegiveis, 1),
+        },
     }
 
 
 # ---------------------------------------------------------------------------
-# Achado 2: convidados/especialistas recebem mais opinioes atribuidas
-# do que deputados, mesmo controlando pelo volume de fala
+# Achado 2: H0 = opinioes atribuidas nao diferem entre convidados e
+# deputados, controlando por volume de fala
 # ---------------------------------------------------------------------------
 def achado_2_convidados_vs_deputados(rows: list) -> dict:
     covered = [r for r in rows if r["covered"]]
     deputados = [r for r in covered if r["partido"]]
     convidados = [r for r in covered if not r["partido"]]
 
-    u_stat, p_val = stats.mannwhitneyu(
+    u_stat, p_val_mw = stats.mannwhitneyu(
         [r["quantidade_opinioes"] for r in convidados],
         [r["quantidade_opinioes"] for r in deputados],
         alternative="greater",
@@ -288,9 +238,15 @@ def achado_2_convidados_vs_deputados(rows: list) -> dict:
     df["log_palavras"] = (df["quantidade_palavras"] + 1).apply(math.log)
     modelo = smf.ols("quantidade_opinioes ~ is_convidado + log_palavras", data=df).fit()
     ic = modelo.conf_int().loc["is_convidado"]
+    p_val_ols = modelo.pvalues["is_convidado"]
 
     return {
-        "descricao": "Convidados/especialistas recebem mais opinioes atribuidas que deputados, controlando por volume de fala",
+        "hipotese_testada": (
+            "H0: a quantidade de opinioes atribuidas na materia nao difere "
+            "entre convidados/especialistas e deputados, controlando pelo "
+            "volume de fala (regressao OLS: quantidade_opinioes ~ "
+            "is_convidado + log_palavras)"
+        ),
         "n_deputados_cobertos": len(deputados),
         "n_convidados_cobertos": len(convidados),
         "media_opinioes_deputados": sum(r["quantidade_opinioes"] for r in deputados) / len(deputados),
@@ -298,15 +254,16 @@ def achado_2_convidados_vs_deputados(rows: list) -> dict:
         "media_palavras_deputados": sum(r["quantidade_palavras"] for r in deputados) / len(deputados),
         "media_palavras_convidados": sum(r["quantidade_palavras"] for r in convidados) / len(convidados),
         "mannwhitney_U": u_stat,
-        "mannwhitney_p": p_val,
+        "mannwhitney_p": p_val_mw,
         "ols_coef_is_convidado": modelo.params["is_convidado"],
-        "ols_p_is_convidado": modelo.pvalues["is_convidado"],
+        "p_valor": p_val_ols,
+        "rejeita_h0_a_5pct": bool(p_val_ols < 0.05),
         "ols_ic95_is_convidado": [ic[0], ic[1]],
     }
 
 
 # ---------------------------------------------------------------------------
-# Achado 3: assimetria partidaria em destaque textual (+ robustez PSOL)
+# Achado 3: H0 = destaque textual e independente do partido
 # ---------------------------------------------------------------------------
 def achado_3_destaque_partidario(rows: list) -> dict:
     covered_com_partido = [r for r in rows if r["covered"] and r["partido"]]
@@ -333,25 +290,25 @@ def achado_3_destaque_partidario(rows: list) -> dict:
     logor = math.log(odds_ratio)
     ic_or = [math.exp(logor - 1.96 * se_logor), math.exp(logor + 1.96 * se_logor)]
 
-    # Robustez: PSOL segue com chance maior de ser citado mesmo controlando
-    # tema da audiencia e volume de fala (regressao logistica)
-    df = pd.DataFrame(rows)
-    df["covered_bin"] = df["covered"].astype(int)
-    df["is_psol"] = (df["partido"] == "PSOL").astype(int)
-    df["log_palavras"] = (df["quantidade_palavras"] + 1).apply(math.log)
-    modelo = smf.logit("covered_bin ~ is_psol + log_palavras + C(tema)", data=df).fit(disp=0)
-    ic_psol = modelo.conf_int().loc["is_psol"]
-
     return {
-        "descricao": "Assimetria partidaria em quem ganha destaque textual entre os ja citados; PL sub-representado em destaque",
+        "hipotese_testada_global": (
+            "H0: a posicao de destaque no texto (titulo/subtitulo/inicio "
+            "vs. corpo) e independente do partido (qui-quadrado de "
+            "independencia, partidos com N>=15 citacoes)"
+        ),
         "partidos_analisados_n15plus": labels,
         "tabela_destaque_por_partido": dict(zip(labels, [
             {"destaque": t[0], "total": t[0] + t[1], "pct": round(100 * t[0] / (t[0] + t[1]), 1)}
             for t in tabela
         ])),
         "chi2_global": chi2_global,
-        "p_global": p_global,
+        "p_valor_global": p_global,
         "dof_global": dof,
+        "rejeita_h0_global_a_5pct": bool(p_global < 0.05),
+        "hipotese_testada_pl_vs_resto": (
+            "H0: a taxa de destaque do PL nao difere da taxa de destaque "
+            "do restante dos partidos (qui-quadrado 2x2)"
+        ),
         "pl_destaque": a,
         "pl_total": a + b,
         "pl_pct_destaque": round(100 * a / (a + b), 1),
@@ -359,12 +316,10 @@ def achado_3_destaque_partidario(rows: list) -> dict:
         "resto_total": c + d,
         "resto_pct_destaque": round(100 * c / (c + d), 1),
         "chi2_pl_vs_resto": chi2_pl,
-        "p_pl_vs_resto": p_pl,
+        "p_valor_pl_vs_resto": p_pl,
+        "rejeita_h0_pl_vs_resto_a_5pct": bool(p_pl < 0.05),
         "odds_ratio_pl": odds_ratio,
         "ic95_odds_ratio_pl": ic_or,
-        "robustez_psol_odds_ratio": math.exp(modelo.params["is_psol"]),
-        "robustez_psol_p": modelo.pvalues["is_psol"],
-        "robustez_psol_ic95": [math.exp(ic_psol[0]), math.exp(ic_psol[1])],
     }
 
 

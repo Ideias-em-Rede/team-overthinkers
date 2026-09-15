@@ -1,0 +1,116 @@
+{
+  "matching": {
+    "total_registros_fala": 2564,
+    "pessoas_canonicas_distintas": 1906,
+    "total_envolvidos_em_noticias": 1037,
+    "envolvidos_sem_correspondencia_no_transcript": 54,
+    "pct_envolvidos_sem_correspondencia": 5.2
+  },
+  "achado_1_filtro_de_selecao": {
+    "hipotese_testada": "H0: a quantidade de palavras faladas nao difere entre participantes citados e nao citados na materia (Mann-Whitney U, unilateral: citados > nao citados)",
+    "n_total": 2564,
+    "n_cobertos": 987,
+    "taxa_cobertura": 0.3849,
+    "ic95_taxa_cobertura": [
+      0.3661,
+      0.4038
+    ],
+    "mediana_palavras_cobertos": 1663,
+    "mediana_palavras_nao_cobertos": 759,
+    "mannwhitney_U": 1224848.5,
+    "p_valor": 1.0822745996743472e-132,
+    "rejeita_h0_a_5pct": true,
+    "estatistica_descritiva_adicional": {
+      "descricao": "entre audiencias com >=2 pessoas citadas na materia, frequencia com que quem mais falou tambem foi quem mais foi citado",
+      "audiencias_com_2plus_cobertos": 203,
+      "coincidencia_top_falante_top_citado": 93,
+      "pct_coincidencia": 45.8
+    }
+  },
+  "achado_2_convidados_vs_deputados": {
+    "hipotese_testada": "H0: a quantidade de opinioes atribuidas na materia nao difere entre convidados/especialistas e deputados, controlando pelo volume de fala (regressao OLS: quantidade_opinioes ~ is_convidado + log_palavras)",
+    "n_deputados_cobertos": 329,
+    "n_convidados_cobertos": 658,
+    "media_opinioes_deputados": 1.9817629179331306,
+    "media_opinioes_convidados": 2.4285714285714284,
+    "media_palavras_deputados": 2183.5896656534956,
+    "media_palavras_convidados": 2062.727963525836,
+    "mannwhitney_U": 128621.0,
+    "mannwhitney_p": 2.1274072429970968e-07,
+    "ols_coef_is_convidado": 0.4635330777400541,
+    "p_valor": 2.0559393516657668e-08,
+    "rejeita_h0_a_5pct": true,
+    "ols_ic95_is_convidado": [
+      0.3026445848628415,
+      0.6244215706172667
+    ]
+  },
+  "achado_3_destaque_partidario": {
+    "hipotese_testada_global": "H0: a posicao de destaque no texto (titulo/subtitulo/inicio vs. corpo) e independente do partido (qui-quadrado de independencia, partidos com N>=15 citacoes)",
+    "partidos_analisados_n15plus": [
+      "PT",
+      "PL",
+      "UNIÃO",
+      "REPUBLICANOS",
+      "PSD",
+      "PP",
+      "PSOL"
+    ],
+    "tabela_destaque_por_partido": {
+      "PT": {
+        "destaque": 10,
+        "total": 80,
+        "pct": 12.5
+      },
+      "PL": {
+        "destaque": 3,
+        "total": 51,
+        "pct": 5.9
+      },
+      "UNIÃO": {
+        "destaque": 9,
+        "total": 24,
+        "pct": 37.5
+      },
+      "REPUBLICANOS": {
+        "destaque": 5,
+        "total": 22,
+        "pct": 22.7
+      },
+      "PSD": {
+        "destaque": 7,
+        "total": 21,
+        "pct": 33.3
+      },
+      "PP": {
+        "destaque": 2,
+        "total": 17,
+        "pct": 11.8
+      },
+      "PSOL": {
+        "destaque": 7,
+        "total": 32,
+        "pct": 21.9
+      }
+    },
+    "chi2_global": 17.748261698064166,
+    "p_valor_global": 0.006893081057099536,
+    "dof_global": 6,
+    "rejeita_h0_global_a_5pct": true,
+    "hipotese_testada_pl_vs_resto": "H0: a taxa de destaque do PL nao difere da taxa de destaque do restante dos partidos (qui-quadrado 2x2)",
+    "pl_destaque": 3,
+    "pl_total": 51,
+    "pl_pct_destaque": 5.9,
+    "resto_destaque": 53,
+    "resto_total": 278,
+    "resto_pct_destaque": 19.1,
+    "chi2_pl_vs_resto": 4.409854525881555,
+    "p_valor_pl_vs_resto": 0.035731888154362026,
+    "rejeita_h0_pl_vs_resto_a_5pct": true,
+    "odds_ratio_pl": 0.2653301886792453,
+    "ic95_odds_ratio_pl": [
+      0.07958012082304501,
+      0.8846444098910847
+    ]
+  }
+}
