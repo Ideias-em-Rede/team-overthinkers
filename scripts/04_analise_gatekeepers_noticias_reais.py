@@ -17,6 +17,9 @@ gatekeeping editorial) é uma leitura do paper, não uma afirmação do script.
   3. H0: a posição de destaque no texto (título/subtítulo/início vs. corpo)
      é independente do partido — testada de forma global (qui-quadrado
      entre os partidos com N>=15 citações) e isolando PL vs. o restante.
+  4. H0: a população da UF do deputado não influencia a probabilidade de
+     ele ser citado na matéria, controlando pelo volume de fala (regressão
+     logística com a população oficial do Censo IBGE 2022 por estado).
 
 Reprodutibilidade: nenhuma etapa usa aleatoriedade, amostragem ou modelos de
 linguagem. A normalização de nomes e a matching transcrição<->notícia são
@@ -52,6 +55,19 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 TRANSCRICAO_PATH = REPO_ROOT / "dataset" / "transcricao_reorganizada" / "metadados" / "dados_transcricao.json"
 NOTICIAS_PATH = REPO_ROOT / "dataset" / "noticias_reorganizadas" / "noticias.json"
 OUTPUT_DIR = REPO_ROOT / "gatekeepers" / "humano"
+
+# População residente por UF — Censo Demográfico IBGE 2022 (resultados
+# oficiais, primeiro apuramento). Fonte: IBGE, divulgação de 28/06/2023.
+# Usada como variável explicativa fixa (nao muda entre execucoes do script).
+POPULACAO_UF_CENSO_2022 = {
+    "SP": 44420459, "MG": 20538718, "RJ": 16054524, "BA": 14136417,
+    "PR": 11443208, "RS": 10880506, "PE": 9058155, "CE": 8791688,
+    "PA": 8116132, "SC": 7609601, "GO": 7055228, "MA": 6775152,
+    "PB": 3974495, "AM": 3941175, "ES": 3833486, "MT": 3658813,
+    "RN": 3302406, "PI": 3269200, "AL": 3127511, "DF": 2817068,
+    "MS": 2756700, "SE": 2209558, "RO": 1581016, "TO": 1511459,
+    "AC": 830026, "AP": 733508, "RR": 636303,
+}
 
 # ---------------------------------------------------------------------------
 # Normalização de nomes (determinística, sem decisão manual caso a caso)
@@ -324,6 +340,73 @@ def achado_3_destaque_partidario(rows: list) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Achado 4: H0 = populacao da UF nao influencia a probabilidade de cobertura
+# ---------------------------------------------------------------------------
+def achado_4_populacao_uf(rows: list) -> dict:
+    deputados_com_uf = [
+        r for r in rows
+        if r["partido"] and r["estado"] in POPULACAO_UF_CENSO_2022
+    ]
+
+    df = pd.DataFrame(deputados_com_uf)
+    df["covered_bin"] = df["covered"].astype(int)
+    df["log_palavras"] = (df["quantidade_palavras"] + 1).apply(math.log)
+    df["populacao_uf"] = df["estado"].map(POPULACAO_UF_CENSO_2022)
+    df["log_populacao_uf"] = df["populacao_uf"].apply(math.log)
+
+    modelo = smf.logit("covered_bin ~ log_populacao_uf + log_palavras", data=df).fit(disp=0)
+    p_val = modelo.pvalues["log_populacao_uf"]
+    ic = modelo.conf_int().loc["log_populacao_uf"]
+
+    # tabela de cobertura por UF (apenas para leitura/grafico; UFs com N>=10)
+    por_uf = defaultdict(list)
+    for r in deputados_com_uf:
+        por_uf[r["estado"]].append(1 if r["covered"] else 0)
+
+    tabela_uf = {
+        uf: {
+            "populacao": POPULACAO_UF_CENSO_2022[uf],
+            "n": len(vals),
+            "pct_cobertura": round(100 * sum(vals) / len(vals), 1),
+        }
+        for uf, vals in por_uf.items() if len(vals) >= 10
+    }
+    # ordenada da maior para a menor populacao, pra facilitar leitura do grafico
+    tabela_uf = dict(sorted(tabela_uf.items(), key=lambda kv: -kv[1]["populacao"]))
+    menor_n_na_tabela = min(v["n"] for v in tabela_uf.values())
+
+    rejeita_h0 = bool(p_val < 0.05)
+    classificacao = "nao_significativo_o_suficiente_para_afirmar" if rejeita_h0 else "nao_significativo"
+
+    return {
+        "hipotese_testada": (
+            "H0: a populacao da UF do deputado nao influencia a "
+            "probabilidade de ele ser citado na materia, controlando pelo "
+            "volume de fala (regressao logistica: covered ~ "
+            "log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)"
+        ),
+        "n_deputados_com_uf": len(deputados_com_uf),
+        "n_ufs_analisadas": len(por_uf),
+        "coef_log_populacao_uf": modelo.params["log_populacao_uf"],
+        "p_valor": p_val,
+        "rejeita_h0_a_5pct": rejeita_h0,
+        "odds_ratio_log_populacao_uf": math.exp(modelo.params["log_populacao_uf"]),
+        "ic95_odds_ratio": [math.exp(ic[0]), math.exp(ic[1])],
+        "classificacao": classificacao,
+        "tabela_cobertura_por_uf": tabela_uf,
+        "observacao": (
+            "efeito estatisticamente significativo (p<0.05), mas a tabela "
+            f"de cobertura por UF mostra estados com N pequeno (a partir de "
+            f"{menor_n_na_tabela} deputados) entre os que mais contrastam em "
+            "cobertura — antes de tratar este achado como definitivo, "
+            "recomenda-se uma checagem de robustez (ex.: refazer o modelo "
+            "excluindo os estados de cobertura mais extrema) para verificar "
+            "se o efeito nao depende de poucos casos"
+        ),
+    }
+
+
+# ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
 def main():
@@ -339,6 +422,7 @@ def main():
         "achado_1_filtro_de_selecao": achado_1_filtro_de_selecao(rows),
         "achado_2_convidados_vs_deputados": achado_2_convidados_vs_deputados(rows),
         "achado_3_destaque_partidario": achado_3_destaque_partidario(rows),
+        "achado_4_populacao_uf": achado_4_populacao_uf(rows),
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

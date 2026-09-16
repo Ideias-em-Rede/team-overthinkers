@@ -155,6 +155,26 @@
 
   .chart-block { margin: 4px 0 14px; }
 
+  .chart-header {
+    display: grid;
+    grid-template-columns: 168px 1fr 64px;
+    gap: 10px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+
+  .chart-header span {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .chart-header span:first-child { text-align: right; }
+  .chart-header span:last-child { text-align: right; white-space: nowrap; }
+
   .secondary-line {
     font-size: 12.5px;
     color: var(--muted);
@@ -204,6 +224,11 @@
     color: #2f5a3e;
   }
 
+  .decision-pill.caution {
+    background: #f7ecd0;
+    color: #8a6416;
+  }
+
   footer.page-footer {
     text-align: center;
     margin-top: 26px;
@@ -212,7 +237,7 @@
   }
 
   @media (max-width: 560px) {
-    .bar-row {
+    .bar-row, .chart-header {
       grid-template-columns: 110px 1fr 54px;
     }
     .stat-footer {
@@ -232,6 +257,7 @@
     <button class="tab-btn active" data-tab="selecao">Seleção</button>
     <button class="tab-btn" data-tab="convidados">Convidados vs. Deputados</button>
     <button class="tab-btn" data-tab="destaque">Destaque partidário</button>
+    <button class="tab-btn" data-tab="uf">Porte da UF</button>
   </div>
 
   <!-- TESTE 1 -->
@@ -243,6 +269,7 @@
       </div>
 
       <div class="chart-block">
+        <div class="chart-header"><span>Grupo</span><span></span><span>Mediana palavras</span></div>
         <div class="bar-row">
           <div class="bar-label">Citados na matéria</div>
           <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
@@ -283,6 +310,7 @@
       </div>
 
       <div class="chart-block">
+        <div class="chart-header"><span>Grupo</span><span></span><span>Média opiniões</span></div>
         <div class="bar-row">
           <div class="bar-label">Convidados/especialistas</div>
           <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
@@ -322,7 +350,10 @@
         A posição de destaque no texto (título/subtítulo/início) depende do partido (qui-quadrado de independência, partidos com N≥15 citações).
       </div>
 
-      <div class="chart-block" id="destaqueChart"></div>
+      <div class="chart-block">
+        <div class="chart-header"><span>Partido</span><span></span><span>% destaque</span></div>
+        <div id="destaqueChart"></div>
+      </div>
       <p class="secondary-line">% de citações que aparecem em título, subtítulo ou início da matéria, por partido.</p>
       <p class="secondary-line">PL isolado vs. restante: <strong>5,9%</strong> vs. <strong>19,1%</strong> de destaque (odds ratio = 0,27; IC95% 0,08–0,88; p = 0,036).</p>
 
@@ -338,6 +369,39 @@
         <div class="stat-item">
           <div class="stat-value"><span class="decision-pill reject">Hipótese sustentada</span></div>
           <div class="stat-label">pelos dados (5%)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTE 4 -->
+  <div class="panel" id="panel-uf">
+    <div class="card">
+      <div class="h0-box">
+        <span class="h0-tag">Hipótese testada</span><br>
+        Deputados de estados mais populosos têm maior probabilidade de serem citados na matéria, mesmo controlando pelo volume de fala (regressão logística; população = Censo IBGE 2022).
+      </div>
+
+      <div class="chart-block">
+        <div class="chart-header"><span>UF</span><span></span><span>% cobertura</span></div>
+        <div id="ufChart"></div>
+      </div>
+      <p class="secondary-line">% de cobertura por UF, da maior para a menor.</p>
+      <p class="secondary-line">
+        <strong>Ressalva:</strong> o efeito é estatisticamente significativo (p = 0,017), mas os estados que mais contrastam em cobertura — RR, AP, MA — têm N pequeno (10 a 18 deputados cada). Não é um padrão estável de "estado maior = mais cobertura" ao longo de toda a escala: SP, MG e BA ficam todas perto de 42–43%, e Pará, apesar do porte, tem só 17,9%. Antes de tratar como achado definitivo, recomenda-se checagem de robustez (refazer o modelo sem os estados de cobertura mais extrema).
+      </p>
+
+      <div class="stat-footer">
+        <div class="stat-item">
+          <div class="stat-value">913 / 27 UFs</div>
+          <div class="stat-label">N deputados / UFs</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">p = 0,017</div>
+          <div class="stat-label">p-valor</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value"><span class="decision-pill caution">Não é significativo suficiente para afirmar</span></div>
         </div>
       </div>
     </div>
@@ -360,6 +424,36 @@
     { partido: "PP",           pct: 11.8, n: 17 },
     { partido: "PL",           pct: 5.9,  n: 51 }
   ];
+
+  // Cobertura por UF (partidos/deputados com N>=10), ordenada da UF mais
+  // populosa para a menos populosa. As 3 marcadas "destacar" sao as que
+  // mais puxam a significancia do teste (ver observacao no resultados.json).
+  const COBERTURA_POR_UF = [
+    { uf: "SP", pct: 43.2 }, { uf: "MG", pct: 42.1 }, { uf: "RJ", pct: 35.7 },
+    { uf: "BA", pct: 43.4 }, { uf: "PR", pct: 30.2 }, { uf: "RS", pct: 33.3 },
+    { uf: "PE", pct: 40.0 }, { uf: "CE", pct: 39.4 }, { uf: "PA", pct: 17.9 },
+    { uf: "SC", pct: 40.6 }, { uf: "GO", pct: 50.0 }, { uf: "MA", pct: 11.1, destacar: true },
+    { uf: "PB", pct: 31.2 }, { uf: "AM", pct: 50.0 }, { uf: "ES", pct: 39.3 },
+    { uf: "MT", pct: 26.3 }, { uf: "RN", pct: 37.5 }, { uf: "PI", pct: 63.6 },
+    { uf: "AL", pct: 28.6 }, { uf: "DF", pct: 40.0 }, { uf: "MS", pct: 21.1 },
+    { uf: "AP", pct: 11.1, destacar: true }, { uf: "RR", pct: 8.3, destacar: true }
+  ];
+
+  function renderUfChart() {
+    const dadosOrdenados = [...COBERTURA_POR_UF].sort((a, b) => b.pct - a.pct);
+    const maxPct = Math.max(...dadosOrdenados.map(d => d.pct));
+    const html = dadosOrdenados.map(d => {
+      const widthPct = (d.pct / maxPct) * 100;
+      return `
+        <div class="bar-row">
+          <div class="bar-label">${d.uf}</div>
+          <div class="bar-track"><div class="bar-fill${d.destacar ? " warn" : ""}" style="width:${widthPct}%"></div></div>
+          <div class="bar-value">${d.pct.toLocaleString("pt-BR", {minimumFractionDigits:1, maximumFractionDigits:1})}%</div>
+        </div>
+      `;
+    }).join("");
+    document.getElementById("ufChart").innerHTML = html;
+  }
 
   function renderDestaqueChart() {
     const maxPct = Math.max(...DESTAQUE_POR_PARTIDO.map(d => d.pct));
@@ -390,6 +484,7 @@
   }
 
   renderDestaqueChart();
+  renderUfChart();
   setupTabs();
 })();
 </script>

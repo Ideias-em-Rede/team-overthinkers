@@ -112,5 +112,137 @@
       0.07958012082304501,
       0.8846444098910847
     ]
+  },
+  "achado_4_populacao_uf": {
+    "hipotese_testada": "H0: a populacao da UF do deputado nao influencia a probabilidade de ele ser citado na materia, controlando pelo volume de fala (regressao logistica: covered ~ log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)",
+    "n_deputados_com_uf": 913,
+    "n_ufs_analisadas": 27,
+    "coef_log_populacao_uf": 0.21153539660018358,
+    "p_valor": 0.017399787535961088,
+    "rejeita_h0_a_5pct": true,
+    "odds_ratio_log_populacao_uf": 1.235573699962927,
+    "ic95_odds_ratio": [
+      1.0378978796466012,
+      1.470898436135057
+    ],
+    "classificacao": "nao_significativo_o_suficiente_para_afirmar",
+    "tabela_cobertura_por_uf": {
+      "SP": {
+        "populacao": 44420459,
+        "n": 111,
+        "pct_cobertura": 43.2
+      },
+      "MG": {
+        "populacao": 20538718,
+        "n": 95,
+        "pct_cobertura": 42.1
+      },
+      "RJ": {
+        "populacao": 16054524,
+        "n": 112,
+        "pct_cobertura": 35.7
+      },
+      "BA": {
+        "populacao": 14136417,
+        "n": 53,
+        "pct_cobertura": 43.4
+      },
+      "PR": {
+        "populacao": 11443208,
+        "n": 43,
+        "pct_cobertura": 30.2
+      },
+      "RS": {
+        "populacao": 10880506,
+        "n": 75,
+        "pct_cobertura": 33.3
+      },
+      "PE": {
+        "populacao": 9058155,
+        "n": 30,
+        "pct_cobertura": 40.0
+      },
+      "CE": {
+        "populacao": 8791688,
+        "n": 33,
+        "pct_cobertura": 39.4
+      },
+      "PA": {
+        "populacao": 8116132,
+        "n": 28,
+        "pct_cobertura": 17.9
+      },
+      "SC": {
+        "populacao": 7609601,
+        "n": 32,
+        "pct_cobertura": 40.6
+      },
+      "GO": {
+        "populacao": 7055228,
+        "n": 30,
+        "pct_cobertura": 50.0
+      },
+      "MA": {
+        "populacao": 6775152,
+        "n": 18,
+        "pct_cobertura": 11.1
+      },
+      "PB": {
+        "populacao": 3974495,
+        "n": 16,
+        "pct_cobertura": 31.2
+      },
+      "AM": {
+        "populacao": 3941175,
+        "n": 10,
+        "pct_cobertura": 50.0
+      },
+      "ES": {
+        "populacao": 3833486,
+        "n": 28,
+        "pct_cobertura": 39.3
+      },
+      "MT": {
+        "populacao": 3658813,
+        "n": 19,
+        "pct_cobertura": 26.3
+      },
+      "RN": {
+        "populacao": 3302406,
+        "n": 16,
+        "pct_cobertura": 37.5
+      },
+      "PI": {
+        "populacao": 3269200,
+        "n": 11,
+        "pct_cobertura": 63.6
+      },
+      "AL": {
+        "populacao": 3127511,
+        "n": 14,
+        "pct_cobertura": 28.6
+      },
+      "DF": {
+        "populacao": 2817068,
+        "n": 60,
+        "pct_cobertura": 40.0
+      },
+      "MS": {
+        "populacao": 2756700,
+        "n": 19,
+        "pct_cobertura": 21.1
+      },
+      "AP": {
+        "populacao": 733508,
+        "n": 18,
+        "pct_cobertura": 11.1
+      },
+      "RR": {
+        "populacao": 636303,
+        "n": 12,
+        "pct_cobertura": 8.3
+      }
+    },
+    "observacao": "efeito estatisticamente significativo (p<0.05), mas a tabela de cobertura por UF mostra estados com N pequeno (a partir de 10 deputados) entre os que mais contrastam em cobertura — antes de tratar este achado como definitivo, recomenda-se uma checagem de robustez (ex.: refazer o modelo excluindo os estados de cobertura mais extrema) para verificar se o efeito nao depende de poucos casos"
   }
 }
