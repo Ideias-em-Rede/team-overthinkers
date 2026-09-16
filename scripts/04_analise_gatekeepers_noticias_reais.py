@@ -1,39 +1,108 @@
 """
 Análise de gatekeeping editorial: cruzamento entre quem fala nas audiências
-públicas da Câmara dos Deputados e quem é citado nas matérias do jornal da
-Câmara sobre essas mesmas audiências.
+públicas da Câmara dos Deputados (dados_transcricao.json) e quem é citado
+nas matérias do jornal da Câmara sobre essas mesmas audiências
+(noticias.json). Ambos os arquivos de entrada são agregados por metadado
+(contagens, posição no texto, partido, UF etc.) — este script não analisa o
+texto corrido das falas nem da matéria, só a camada de metadados, por
+enquanto restrita às notícias reais (não geradas por IA).
 
-Este script FORMALIZA e TESTA três hipóteses definidas a priori, a partir de
-uma fase exploratória anterior sobre os mesmos dados. Cada achado abaixo é
-reportado como um teste de hipótese nula (H0) com seu p-valor — a
-interpretação substantiva do resultado (o que isso significa para o
-gatekeeping editorial) é uma leitura do paper, não uma afirmação do script.
+O QUE O SCRIPT FAZ, PASSO A PASSO
+----------------------------------
+1. Carrega os dois JSONs de entrada.
+2. Normaliza nomes (acentos, caixa, títulos como "Deputado"/"Dr.") pra
+   deduplicar grafias diferentes da mesma pessoa.
+3. Cruza cada participante da transcrição com o correspondente "envolvido"
+   da matéria (match exato por nome normalizado, com fallback por
+   sobreposição de >=2 tokens do nome), gerando uma linha por
+   participante-por-audiência com: se foi citado ou não (`covered`),
+   quantas menções recebeu, quantas opiniões foram atribuídas a ele e em
+   que posição do texto apareceu.
+4. Roda 4 testes de hipótese (um por achado) sobre essa tabela cruzada.
+5. Salva a tabela cruzada e os resultados dos 4 testes em
+   gatekeepers/humano/.
 
-  1. H0: a quantidade de palavras faladas não difere entre participantes
-     citados e não citados na matéria (Mann-Whitney U).
-  2. H0: a quantidade de opiniões atribuídas não difere entre
-     convidados/especialistas e deputados, controlando pelo volume de fala
-     (Mann-Whitney U + regressão OLS).
-  3. H0: a posição de destaque no texto (título/subtítulo/início vs. corpo)
-     é independente do partido — testada de forma global (qui-quadrado
-     entre os partidos com N>=15 citações) e isolando PL vs. o restante.
-  4. H0: a população da UF do deputado não influencia a probabilidade de
-     ele ser citado na matéria, controlando pelo volume de fala (regressão
-     logística com a população oficial do Censo IBGE 2022 por estado).
+COMO CADA HIPÓTESE É TESTADA (achado -> pergunta -> teste estatístico)
+------------------------------------------------------------------------
+Cada achado é formalizado como uma hipótese de pesquisa afirmativa (H1),
+definida a priori a partir de uma fase exploratória anterior sobre os
+mesmos dados. O script reporta o p-valor do teste estatístico que avalia
+se os dados sustentam essa hipótese — a leitura substantiva do resultado
+(o que isso significa para o gatekeeping editorial) é do paper, não do
+script. Estatisticamente, cada teste roda por trás uma hipótese nula de
+"não há diferença/associação" e a compara ao p-valor de corte de 5%; o
+script reporta o resultado já em termos da hipótese afirmativa (H1)
+correspondente, e não da nula, para deixar a leitura direta.
 
-Reprodutibilidade: nenhuma etapa usa aleatoriedade, amostragem ou modelos de
-linguagem. A normalização de nomes e a matching transcrição<->notícia são
-funções puras e determinísticas; os testes estatísticos (scipy/statsmodels)
-são determinísticos dado o mesmo input. Rodar este script duas vezes sobre
-os mesmos dados produz exatamente os mesmos números — isso é esperado e
+  ACHADO 1 — Existe filtro de seleção, e ele não é só "quem fala mais"?
+    H1: participantes citados na matéria falam significativamente mais
+    palavras do que os não citados.
+    Teste: Mann-Whitney U (unilateral: citados > não citados) — não
+    paramétrico, apropriado porque a distribuição de palavras faladas é
+    assimétrica (poucos falam muito, a maioria fala pouco).
+    Estatística descritiva complementar (não é teste de hipótese): entre
+    audiências com 2+ pessoas citadas, frequência com que quem mais falou
+    também foi quem mais apareceu na matéria — mede se a seleção é
+    redutível ao volume de fala ou se há um filtro editorial adicional.
+
+  ACHADO 2 — Convidados/especialistas recebem mais espaço de opinião do
+  que deputados, mesmo controlando pelo volume de fala?
+    H1: convidados/especialistas recebem mais opiniões atribuídas na
+    matéria do que deputados, mesmo controlando pelo volume de fala.
+    Teste: Mann-Whitney U (comparação bruta) + regressão OLS
+    (quantidade_opinioes ~ is_convidado + log_palavras) — a regressão é o
+    teste que sustenta a conclusão, porque isola o efeito de "ser
+    convidado" do efeito de "falar mais".
+
+  ACHADO 3 — A posição de destaque no texto (título/subtítulo/início vs.
+  corpo) depende do partido?
+    H1 (global): a posição de destaque no texto depende do partido.
+    Teste: qui-quadrado de independência entre os partidos com N>=15
+    citações na matéria.
+    H1 (PL vs. resto): o PL recebe menos destaque textual do que o
+    restante dos partidos.
+    Teste: qui-quadrado 2x2 isolando PL vs. todos os outros partidos
+    somados, com odds ratio e IC95% — feito à parte do teste global porque
+    foi o contraste mais forte identificado na fase exploratória.
+
+  ACHADO 4 — A população da UF do deputado influencia a probabilidade de
+  ele ser citado na matéria?
+    H1: deputados de estados mais populosos têm maior probabilidade de
+    serem citados na matéria, mesmo controlando pelo volume de fala.
+    Teste: regressão logística (covered ~ log_populacao_uf + log_palavras),
+    com população oficial do Censo IBGE 2022 por estado (constante fixa no
+    script, não recalculada).
+    IMPORTANTE: o teste dá suporte a essa hipótese (p<0,05), mas o script
+    também calcula a cobertura por UF e sinaliza no campo "observacao" que
+    os estados que mais contrastam têm N pequeno (a partir de ~10
+    deputados) — ou seja, apesar de estatisticamente significativo, o
+    achado é classificado como "nao_significativo_o_suficiente_para_afirmar"
+    até que uma checagem de robustez (fora do escopo deste script) confirme
+    que o efeito não depende de poucos casos.
+
+REPRODUTIBILIDADE
+------------------
+Nenhuma etapa usa aleatoriedade, amostragem ou modelos de linguagem. A
+normalização de nomes e a matching transcrição<->notícia são funções puras
+e determinísticas; os testes estatísticos (scipy/statsmodels) são
+determinísticos dado o mesmo input. Rodar este script duas vezes sobre os
+mesmos dados produz exatamente os mesmos números — isso é esperado e
 desejável para reprodutibilidade, não uma fraqueza do método.
 
-Uso:
+USO
+----
     python -m scripts.04_analise_gatekeepers_noticias_reais
 
 Deve ser rodado a partir da raiz do repositório (ou de qualquer lugar — os
 caminhos de entrada/saída são resolvidos relativos à raiz do repo,
 calculada a partir da localização deste próprio arquivo).
+
+ENTRADA / SAÍDA
+-----------------
+Entrada: dataset/transcricao_reorganizada/metadados/dados_transcricao.json
+         dataset/noticias_reorganizadas/noticias.json
+Saída:   gatekeepers/humano/rows_cruzados.json  (tabela cruzada completa)
+         gatekeepers/humano/resultados.json     (os 4 achados com estatísticas)
 """
 
 import json
@@ -212,8 +281,8 @@ def achado_1_filtro_de_selecao(rows: list) -> dict:
 
     return {
         "hipotese_testada": (
-            "H0: a quantidade de palavras faladas nao difere entre "
-            "participantes citados e nao citados na materia "
+            "Participantes citados na materia falam significativamente "
+            "mais palavras do que os nao citados "
             "(Mann-Whitney U, unilateral: citados > nao citados)"
         ),
         "n_total": n,
@@ -224,7 +293,7 @@ def achado_1_filtro_de_selecao(rows: list) -> dict:
         "mediana_palavras_nao_cobertos": sorted(r["quantidade_palavras"] for r in notcov)[len(notcov) // 2],
         "mannwhitney_U": u_stat,
         "p_valor": p_val,
-        "rejeita_h0_a_5pct": bool(p_val < 0.05),
+        "hipotese_sustentada_a_5pct": bool(p_val < 0.05),
         "estatistica_descritiva_adicional": {
             "descricao": "entre audiencias com >=2 pessoas citadas na materia, frequencia com que quem mais falou tambem foi quem mais foi citado",
             "audiencias_com_2plus_cobertos": audiencias_elegiveis,
@@ -258,9 +327,9 @@ def achado_2_convidados_vs_deputados(rows: list) -> dict:
 
     return {
         "hipotese_testada": (
-            "H0: a quantidade de opinioes atribuidas na materia nao difere "
-            "entre convidados/especialistas e deputados, controlando pelo "
-            "volume de fala (regressao OLS: quantidade_opinioes ~ "
+            "Convidados/especialistas recebem mais opinioes atribuidas na "
+            "materia do que deputados, mesmo controlando pelo volume de "
+            "fala (regressao OLS: quantidade_opinioes ~ "
             "is_convidado + log_palavras)"
         ),
         "n_deputados_cobertos": len(deputados),
@@ -273,7 +342,7 @@ def achado_2_convidados_vs_deputados(rows: list) -> dict:
         "mannwhitney_p": p_val_mw,
         "ols_coef_is_convidado": modelo.params["is_convidado"],
         "p_valor": p_val_ols,
-        "rejeita_h0_a_5pct": bool(p_val_ols < 0.05),
+        "hipotese_sustentada_a_5pct": bool(p_val_ols < 0.05),
         "ols_ic95_is_convidado": [ic[0], ic[1]],
     }
 
@@ -308,8 +377,8 @@ def achado_3_destaque_partidario(rows: list) -> dict:
 
     return {
         "hipotese_testada_global": (
-            "H0: a posicao de destaque no texto (titulo/subtitulo/inicio "
-            "vs. corpo) e independente do partido (qui-quadrado de "
+            "A posicao de destaque no texto (titulo/subtitulo/inicio "
+            "vs. corpo) depende do partido (qui-quadrado de "
             "independencia, partidos com N>=15 citacoes)"
         ),
         "partidos_analisados_n15plus": labels,
@@ -320,10 +389,10 @@ def achado_3_destaque_partidario(rows: list) -> dict:
         "chi2_global": chi2_global,
         "p_valor_global": p_global,
         "dof_global": dof,
-        "rejeita_h0_global_a_5pct": bool(p_global < 0.05),
+        "hipotese_sustentada_global_a_5pct": bool(p_global < 0.05),
         "hipotese_testada_pl_vs_resto": (
-            "H0: a taxa de destaque do PL nao difere da taxa de destaque "
-            "do restante dos partidos (qui-quadrado 2x2)"
+            "O PL recebe menos destaque textual do que o restante dos "
+            "partidos (qui-quadrado 2x2)"
         ),
         "pl_destaque": a,
         "pl_total": a + b,
