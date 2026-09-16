@@ -355,7 +355,10 @@
         <div id="destaqueChart"></div>
       </div>
       <p class="secondary-line">% de citações que aparecem em título, subtítulo ou início da matéria, por partido.</p>
-      <p class="secondary-line">PL isolado vs. restante: <strong>5,9%</strong> vs. <strong>19,1%</strong> de destaque (odds ratio = 0,27; IC95% 0,08–0,88; p = 0,036).</p>
+      <p class="secondary-line">PL isolado vs. restante: <strong>5,9%</strong> vs. <strong>19,1%</strong> de destaque (odds ratio = 0,27; IC95% 0,08 a 0,88; p = 0,036).</p>
+      <p class="secondary-line">
+        <strong>Ressalva:</strong> o resultado é nominalmente significativo, mas o contraste PL vs. resto foi escolhido depois de observar os dados (o PL foi o partido mais extremo entre os 7 analisados), sem correção para múltiplas comparações. As células envolvidas também são pequenas (3 casos de destaque no PL) e não há controle por outras variáveis, como tipo ou tema da matéria. Recomenda-se tratar como hipótese a investigar, não como achado confirmado.
+      </p>
 
       <div class="stat-footer">
         <div class="stat-item">
@@ -367,8 +370,7 @@
           <div class="stat-label">p-valor (global)</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value"><span class="decision-pill reject">Hipótese sustentada</span></div>
-          <div class="stat-label">pelos dados (5%)</div>
+          <div class="stat-value"><span class="decision-pill caution">Não é significativo suficiente para afirmar</span></div>
         </div>
       </div>
     </div>
@@ -415,6 +417,9 @@
   // Dados embutidos (estáticos) a partir de gatekeepers/humano/resultados.json.
   // Para atualizar este HTML apos rodar o script de novo, substitua os
   // valores abaixo pelos novos numeros do resultados.json.
+  // O contraste PL vs. resto (ver ressalva no painel) foi escolhido apos
+  // observar os dados, sem correcao para multiplas comparacoes; tratar
+  // como hipotese a investigar, nao como achado confirmado.
   const DESTAQUE_POR_PARTIDO = [
     { partido: "UNIÃO",        pct: 37.5, n: 24 },
     { partido: "PSD",          pct: 33.3, n: 21 },
