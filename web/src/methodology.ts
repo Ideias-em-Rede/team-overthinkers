@@ -4,7 +4,7 @@
 export const TRANSCRICAO_METHOD = {
   tipo: "regex",
   descricao:
-    "Extração determinística por regex sobre o formato padronizado da transcrição da Câmara. Não usa LLM. Aceita marcadores 'O SR.' (masculino) e 'A SRA.' (feminino) — o padrão original só reconhecia o masculino, descartando silenciosamente falas de participantes mulheres.",
+    "Extração determinística por regex sobre o formato padronizado da transcrição da Câmara. Não usa LLM. Aceita marcadores 'O SR.' (masculino) e 'A SRA.' (feminino).",
   regex: String.raw`(?:O\s+SR\.|A\s+SRA\.)\s+(.+?)(?:\((.*?)\))?\s*-\s*(.*?)(?=\n(?:O\s+SR\.|A\s+SRA\.)\s+|\Z)`,
   origem: "scripts/extrai_participantes_transcricao.py",
 } as const;
@@ -49,22 +49,18 @@ MATÉRIA:
 export const VALORES_METHOD = {
   tipo: "llm",
   descricao:
-    "O LLM identifica quais dos 11 valores-notícia clássicos estão presentes no texto e a evidência textual correspondente. Não infere gatekeeping — essa análise é feita cruzando valores com quem foi selecionado.",
+    "O LLM DeepSeek V3 identifica quais dos 7 valores-notícia estão presentes no texto e a evidência textual correspondente. Não infere gatekeeping — essa análise é feita cruzando valores com quem foi selecionado.",
   prompt: `Analise a notícia abaixo e identifique quais valores-notícia estão presentes no texto.
 
 Use exclusivamente os seguintes critérios:
 
-- atualidade: o acontecimento é recente ou está relacionado a algo que está acontecendo no momento?
-- proximidade: o acontecimento possui proximidade geográfica, social ou cultural com o público?
-- importância: o acontecimento possui relevância institucional ou social?
-- impacto: o acontecimento pode produzir consequências relevantes para pessoas, grupos ou instituições?
-- conflito: há disputa, oposição, crítica, acusação ou divergência entre participantes?
-- proeminência: envolve pessoas ou instituições de elevada relevância pública?
-- novidade: apresenta algo novo, recente ou uma mudança em relação ao que existia anteriormente?
-- curiosidade: apresenta algum elemento que desperta curiosidade ou interesse por ser incomum?
-- dramaticidade: apresenta elementos de tensão, gravidade ou forte carga emocional?
-- surpresa: apresenta algo inesperado ou contrário às expectativas?
-- raridade: apresenta um acontecimento incomum ou excepcional?
+Proximidade: O impacto geográfico ou cultural do acontecimento em relação ao cotidiano e à vida do público-alvo
+Proeminência: O envolvimento de pessoas conhecidas, elites, celebridades, instituições influentes ou autoridades governamentais
+Impacto: A importância, magnitude ou gravidade das repercussões que o evento terá diretamente sobre a vida dos cidadãos e da sociedade civil
+Conflito: Disputas, tensões, desentendimentos e debates que envolvem forças políticas, sociais ou institucionais opostas
+Novidade: Fatos fora do comum, bizarros, inesperados ou que rompem de alguma forma com a normalidade cotidiana
+Interesse: O potencial de capturar a atenção, despertar a curiosidade ou responder a uma necessidade real do público
+Sensacionalismo: Aspectos dramáticos, sexuais ou chocantes estrategicamente explorados para maximizar a audiência
 
 Para cada critério, responda:
 - "presente": true ou false
@@ -74,9 +70,19 @@ Não infira informações que não estejam na notícia.
 Não considere a importância do acontecimento apenas porque ele ocorreu em uma audiência pública.
 Não considere um critério presente apenas porque ele poderia ser aplicado ao acontecimento. Deve existir evidência no texto.
 
-Retorne exclusivamente JSON válido, sem explicações adicionais.
+Retorne exclusivamente JSON válido, sem explicações adicionais. Use exatamente as chaves abaixo, nesta ordem.
 
-Formato: { "atualidade": { "presente": true, "evidencia": "..." }, ... }
+Formato:
+
+{
+  "proximidade": { "presente": true, "evidencia": "..." },
+  "proeminencia": { "presente": true, "evidencia": "..." },
+  "impacto": { "presente": true, "evidencia": "..." },
+  "conflito": { "presente": true, "evidencia": "..." },
+  "novidade": { "presente": true, "evidencia": "..." },
+  "interesse": { "presente": true, "evidencia": "..." },
+  "sensacionalismo": { "presente": false, "evidencia": null }
+}
 
 NOTÍCIA:
 {{NOTICIA}}`,

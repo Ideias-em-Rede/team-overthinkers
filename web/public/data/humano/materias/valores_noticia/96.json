@@ -1,0 +1,36 @@
+{
+  "id": 96,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido em audiência da Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Eduardo Barbosa (PSDB-MG), que é médico, aponta o risco de se estigmatizar a pessoa que tenha o diagnóstico do transtorno"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "pessoas com TDAH passariam a ter direito à assistência do Estado, como garantia de diagnóstico precoce, tratamento e medicação adequados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Debatedores divergiram sobre a proposta que equipara o Transtorno do Déficit de Atenção com Hiperatividade (TDAH) ao transtorno do espectro autista"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Proposta institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH)"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A família não aceita. Os pais, alguns não aceitam que a criança nasceu com essas necessidades especiais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

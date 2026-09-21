@@ -1,0 +1,36 @@
+{
+  "id": 155,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Mais orçamento para as políticas públicas para a população madura, garantia de financiamento para as Instituições de Longa Permanência (ILPIs) e a consolidação da rede de centros-dias"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Durante o debate, o presidente da Comissão de Defesa dos Direitos da Pessoa Idosa, deputado Aliel Machado (PV-PR)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele busca garantir a dignidade dos idosos em áreas como saúde, educação, cultura, lazer, trabalho, previdência social e habitação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles reclamaram que a Convenção Interamericana de Proteção dos Direitos Humanos dos Idosos, aprovada em assembleia da Organização dos Estados Americanos (OEA) em junho de 2015, ainda não foi ratificada pelo Brasil"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Lei traz conquistas como filas preferenciais, direito acompanhante em internações e rapidez na restituição do IR"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

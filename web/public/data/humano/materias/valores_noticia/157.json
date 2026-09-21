@@ -1,0 +1,36 @@
+{
+  "id": 157,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O problema é que, muitas vezes, essas particularidades tornam os remédios das terapias gênicas inacessíveis à maior parte da população."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representante do Ministério da Saúde na audiência pública, Daniela Cerqueira informou que cinco produtos estão registrados no País"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A desoneração tributária, já que os impostos chegam a representar 46,5% dos custos, é uma das soluções apontadas para diminuir os preços dos remédios para as doenças raras"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele reivindicou que as discussões sobre os preços dos medicamentos para as terapias gênicas englobem todos os segmentos interessados."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Um projeto de lei em análise na Câmara permite a adoção de critérios diferenciados para os medicamentos que modificam geneticamente as células do corpo humano"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele explicou ainda que, se aplicada nos primeiros meses de vida, essa medicação pode significar cura e uma vida normal."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

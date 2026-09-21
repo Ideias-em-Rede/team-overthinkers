@@ -1,0 +1,36 @@
+{
+  "id": 40,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O professor Bernardino Teixeira, que desenvolve um projeto de estímulo ao judô na Secretaria de Educação do Distrito Federal"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi tratado em audiência pública da Comissão do Esporte da Câmara, a pedido do deputado Márcio Marinho (Republicanos-BA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo ele, o judô está dando uma nova perspectiva de vida para os alunos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "“Muitas vezes o professor é obrigado a tirar do bolso dele, a arrumar o espaço dele, construir o dojô [local do ensino]"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Debatedores defenderam nesta terça-feira (8) políticas públicas para levar as artes marciais às escolas brasileiras"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

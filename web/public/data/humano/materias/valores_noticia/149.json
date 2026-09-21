@@ -1,0 +1,36 @@
+{
+  "id": 149,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O assunto foi tema de audiência pública realizada quarta-feira na Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi tema de audiência pública realizada quarta-feira na Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados, a pedido do deputado Alexandre Lindenmeyer (PT-RS)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Um desafio que deverá ser enfrentado na elaboração dessas políticas públicas será lidar com a grande desigualdade social entre as regiões do País"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O desafio mais imediato para o Executivo é o financiamento da Previdência"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Especialistas em demografia alertaram para a necessidade de uma relevante reestruturação do Estado"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "É importante que o Estado brasileiro se prepare, com ações de curto, médio e longo prazos, para uma outra realidade demográfica"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

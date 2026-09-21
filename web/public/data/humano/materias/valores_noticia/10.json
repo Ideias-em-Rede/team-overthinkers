@@ -1,0 +1,36 @@
+{
+  "id": 10,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O saque-aniversário, criado em 2019, permite que o trabalhador saque uma parte do seu saldo de FGTS no seu aniversário"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O secretário de Proteção ao Trabalhador do Ministério do Trabalho e Emprego, Carlos Augusto Simões"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A estimativa é que, até 2030, essa modalidade de saque vai consumir R$ 262 bilhões, valor que daria para financiar 1,3 milhão de moradias"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Para o presidente da Câmara Brasileira da Indústria da Construção, Renato Correia, o saque-aniversário pode inviabilizar o financiamento de moradias para famílias de baixa renda"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Ministério do Trabalho e Emprego informou que pretende acabar com o saque-aniversário do Fundo de Garantia do Tempo de Serviço (FGTS) e, em seu lugar, criar um empréstimo consignado ao trabalhador por meio do E-Social"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A ideia é que o trabalhador escolha a melhor oferta de taxas de juros entre 80 bancos e faça o empréstimo por meio de aplicativo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

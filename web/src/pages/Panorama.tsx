@@ -38,17 +38,13 @@ const PARTY_COLORS: Record<string, string> = {
 };
 
 const LABELS: Record<string, string> = {
-  atualidade: "Atualidade",
   proximidade: "Proximidade",
-  importancia: "Importância",
+  proeminencia: "Proeminência",
   impacto: "Impacto",
   conflito: "Conflito",
-  proeminencia: "Proeminência",
   novidade: "Novidade",
-  curiosidade: "Curiosidade",
-  dramaticidade: "Dramaticidade",
-  surpresa: "Surpresa",
-  raridade: "Raridade",
+  interesse: "Interesse",
+  sensacionalismo: "Sensacionalismo",
 };
 const ORDER = Object.keys(LABELS);
 
@@ -114,9 +110,9 @@ export default function Panorama() {
   useEffect(() => {
     Promise.all([
       fetch(`/data/materias/${ID}.json`).then((r) => r.json()),
-      fetch(`/data/materia_llm/${ID}.json`).then((r) => r.json()),
+      fetch(`/data/materia_llm/openai/${ID}.json`).then((r) => r.json()),
       fetch(`/data/valores_noticia/${ID}.json`).then((r) => r.json()),
-      fetch(`/data/valores_noticia_llm/${ID}.json`).then((r) => r.json()),
+      fetch(`/data/valores_noticia_llm/openai/${ID}.json`).then((r) => r.json()),
       fetch(`/data/participantes_transcricao/${ID}.json`).then((r) => r.json()),
       fetch(`/data/participantes_materia/${ID}.json`).then((r) => r.json()),
       fetch(`/data/participantes_materia_llm/${ID}.json`).then((r) => r.json()),

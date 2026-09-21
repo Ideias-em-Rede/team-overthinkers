@@ -1,0 +1,36 @@
+{
+  "id": 15,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A obrigatoriedade da aplicação da vacina contra a Covid-19 em crianças de 6 meses a 5 anos a partir do ano que vem"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ministério da Saúde confirmou inclusão da vacina no calendário nacional"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "existem casos de hospitalização e óbitos por Covid-19 entre menores de 19 anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados de oposição protestam contra obrigatoriedade de vacinação contra Covid em crianças"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A obrigatoriedade da aplicação da vacina contra a Covid-19 em crianças de 6 meses a 5 anos a partir do ano que vem"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A maioria dos deputados que participaram da audiência, todos de oposição, reivindicou que a obrigatoriedade da vacina seja revista"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

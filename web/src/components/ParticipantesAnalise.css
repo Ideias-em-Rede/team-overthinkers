@@ -5,6 +5,132 @@
   border-radius: var(--radius);
   padding: 1.5rem 1.75rem;
 }
+.pa--embedded {
+  margin-top: 0;
+}
+
+.pa__editor-line {
+  margin: 0 0 0.85rem;
+  font-size: 0.92rem;
+}
+.pa__editor-line strong {
+  color: var(--navy);
+}
+
+.pa__subsection {
+  margin-top: 1.5rem;
+}
+.pa--embedded > .pa__subsection:first-of-type,
+.pa--embedded > .pa__row:first-of-type {
+  margin-top: 1rem;
+}
+.pa__subsection-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.85rem;
+}
+.pa__subsection-head h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.175rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.pa__row {
+  margin-top: 1.5rem;
+}
+.pa__row--split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.5rem;
+}
+.pa__row--split > .pa__subsection {
+  margin-top: 0;
+  min-width: 0;
+}
+@media (max-width: 900px) {
+  .pa__row--split {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pa__mock-flag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.15rem 0.5rem;
+  background: #fff8ec;
+  color: #b45309;
+  border: 1px solid #fde68a;
+  border-radius: 999px;
+}
+
+.pa__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.pa__aggregate {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  background: #fafbfd;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.pa__aggregate-head {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+.pa__aggregate-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.35rem 0.75rem;
+}
+.pa__aggregate-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.88rem;
+}
+.pa__aggregate-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.pa__aggregate-label {
+  color: var(--text);
+  font-weight: 500;
+}
+.pa__aggregate-value {
+  margin-left: auto;
+  color: var(--navy);
+  font-weight: 600;
+}
+.pa__aggregate-legend {
+  margin: 0.65rem 0 0;
+  font-size: 0.75rem;
+  text-align: right;
+}
 
 .pa__head {
   display: flex;
@@ -15,7 +141,7 @@
 .pa__head h2 {
   margin: 0;
   color: var(--navy);
-  font-size: 1.25rem;
+  font-size: 1.375rem;
 }
 
 .pa__methods {
@@ -188,7 +314,7 @@
 .pa__chart-head h3 {
   margin: 0;
   color: var(--navy);
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 .pa__chart-head .muted {
   font-size: 0.8rem;

@@ -1,0 +1,36 @@
+{
+  "id": 109,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O plano vai identificar as áreas sujeitas a riscos de desastres no País e criar um gerenciamento de riscos integrado com os estados e os municípios."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Integração e do Desenvolvimento Regional, Waldez Góes, disse nesta quarta-feira (10) que o Plano Nacional de Proteção e Defesa Civil (PNPDC) deverá ser entregue no início do segundo semestre."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O ministro disse que o plano vai trazer melhorias na governança e no atendimento às populações que vivem em áreas de risco ou enfrentam desastres naturais."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Brasil possui hoje perto de 2 mil municípios em situação de emergência ou de calamidade pública no Brasil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

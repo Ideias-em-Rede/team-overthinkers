@@ -1,0 +1,36 @@
+{
+  "id": 45,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a demarcação de terras só ocorrerá dentro dos programas oficiais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "retomar a demarcação de terras para assentamentos da reforma agrária e em áreas indígenas e quilombolas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ricardo Salles questionou Paulo Teixeira sobre um acórdão do Tribunal de Contas da União (TCU)"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "o governo Lula vai retomar a demarcação de terras"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Até o agro quer a reforma agrária, para distensionar os conflitos no campo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

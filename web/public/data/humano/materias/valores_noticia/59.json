@@ -1,0 +1,36 @@
+{
+  "id": 59,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os pescadores da região que foi contaminada, nos estados de Minas Gerais e Espírito Santo, sofrem até hoje com os impactos causados pela tragédia."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão Externa da Câmara dos Deputados sobre Fiscalização dos Rompimentos de Barragens e Repactuação ouviu nesta terça-feira (18) representantes de pescadores atingidos pelo rompimento da barragem do Fundão, em Mariana (MG), em 2015"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As atividades de pesca no Rio Doce foram suspensas e desde então a maioria dos pescadores não recebeu indenizações."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os pescadores da região que foi contaminada, nos estados de Minas Gerais e Espírito Santo, sofrem até hoje com os impactos causados pela tragédia."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os pescadores da região que foi contaminada, nos estados de Minas Gerais e Espírito Santo, sofrem até hoje com os impactos causados pela tragédia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

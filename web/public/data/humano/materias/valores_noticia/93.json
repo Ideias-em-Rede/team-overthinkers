@@ -1,0 +1,36 @@
+{
+  "id": 93,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Flávia Morais (PDT-GO) ressaltou que as escolas técnicas são a porta de entrada do jovem brasileiro no mercado de trabalho"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O PL 6494/19 é de autoria do ex-deputado João H. Campos (PE), com o apoio de diversos parlamentares. O texto conta com a relatoria da deputada Tabata Amaral (PSB-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Especialistas em educação apresentaram sugestões para aprimorar o texto do projeto de lei que autoriza as instituições de ensino superior a aproveitar os créditos obtidos por estudante na educação profissional técnica"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O educador Francisco Aparecido Cordão criticou a artigo da proposta que impõe o limite de 400 horas/aula a serem aproveitadas pelas universidades."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Coordenador da Rede de Ensino, Pesquisa e Extensão da Educação Profissional e Tecnológica Pública da Bahia, Antônio Almerico Biondi destacou que é preciso haver uma maior integração entre as instituições de ensino e o mercado de trabalho."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

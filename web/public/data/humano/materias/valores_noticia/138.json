@@ -1,0 +1,36 @@
+{
+  "id": 138,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "“Muitas vezes a gente faz um cadastro e imediatamente nosso telefone já está tocando com uma outra empresa que a gente não fez o cadastro oferecendo algum tipo de serviço, ou mandando e-mail ou mandando SMS, importunando inclusive o dia-a-dia do cidadão que está trabalhando”"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O diretor-presidente da Agência Nacional de Proteção de Dados (ANPD), Waldemar Gonçalves Ortunho Júnior, pediu que o governo aprove concurso público para a agência"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“O governo precisa olhar a ANPD e ver a necessidade de uma carreira própria, de um fortalecimento, de um concurso público, para que esta atividade que nós já fazemos, possamos fazer de forma mais repetitiva. Ou seja, não só uma sanção a cada mês, mas 10, 20, tantas quantas forem necessárias, diante das demandas que nós recebemos”"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Questionado pelo deputado Caio Vianna (PSD-RJ), que propôs o debate, o presidente da ANPD disse que o órgão até hoje aplicou apenas 3 sanções"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Então, isso é uma questão que a gente precisa avançar, precisa ter apoio deste Parlamento para que a ANPD possa desenvolver esse trabalho com cada vez mais eficiência, para que a gente possa proteger os cidadãos brasileiros dessas investidas e proteger os seus dados também”"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

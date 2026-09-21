@@ -1,0 +1,36 @@
+{
+  "id": 53,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay (PT-DF) se comprometeu a levar a proposta ao Ministério da Educação."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em debate sobre inclusão por meio da arte, promovido pela Comissão de Defesa das Pessoas com Deficiência da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para que a acessibilidade seja efetiva, os produtores devem recorrer à consultoria com as próprias pessoas com deficiência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Renata também reclamou da dificuldade que pessoas com deficiência encontram quando concorrem a financiamento por meio dos editais de fomento à cultura."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela defende que a cidade seja universal e possibilite o acesso a toda ela e, em particular, à cultura."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 62,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A PAF é uma doença rara que se caracteriza pelo acúmulo de um tipo específico de proteína, a amiloidose, em tecidos e órgãos, causando perda de peso, cansaço, formigamentos e dormência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidente da Associação Brasileira de Paramiloidose (ABPAR), Liana Ferronato destacou que, em todos os casos, o início imediato do tratamento é essencial para impedir o avanço da doença."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo ela, por ser multissistêmica, afetando os sistemas nervoso central e periférico, além de coração, sistema gastrointestinal, olhos e rins, quando não tratada, pode levar a óbito no período de 2 a 10 anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A representante do governo federal explicou ainda que a incorporação de tecnologias ao SUS leva em conta aspectos clínicos, econômicos, organizacionais e dos pacientes, mas reiterou a conclusão da Conitec de não recomendar a incorporação das novas drogas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Debatedores defenderam nesta terça-feira (29), em seminário promovido pela Comissão de Defesa dos Direitos das Pessoas com Deficiência na Câmara dos Deputados, a oferta gratuita no Sistema Único de Saúde (SUS) dos medicamentos Tegsedi e Onpatrro, indicados para as fases mais avançadas da polineuropatia amiloidótica familiar (PAF) ou paramiloidose."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

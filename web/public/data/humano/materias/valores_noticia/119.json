@@ -1,0 +1,36 @@
+{
+  "id": 119,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "75% dos feminicídios registrados na capital do País ocorreram dentro de casa"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de debate na Câmara dos Deputados sobre o papel da perícia na investigação dos crimes de feminicídio"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "É imprescindível que os peritos estejam familiarizados com o tipo penal. Eles precisam saber o que é violência de gênero, o que é machismo estrutural, o que é misoginia"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Brasil ocupa o quinto lugar no ranking de países que mais matam mulheres de forma violenta no mundo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Especialistas defendem inclusão de questões de gênero na formação de peritos criminais"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "No total, o País registrou 3.858 assassinatos de mulheres"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

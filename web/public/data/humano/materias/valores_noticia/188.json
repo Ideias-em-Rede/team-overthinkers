@@ -1,0 +1,36 @@
+{
+  "id": 188,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "As mulheres já são maioria entre os titulados na pós-graduação no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Coordenadora-geral de Popularização da Ciência e Tecnologia do Ministério da Ciência, Tecnologia e Inovação (MCTCI), Luana Bonone"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "embora as mulheres sejam maioria nas bolsas, os valores totais aprovados por projeto podem chegar a quantias até 60% menores"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Por que hoje formamos mais mulheres com os níveis mais altos de titulação do País e elas continuam sendo pouco absorvidas nas universidades?"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O programa foi criado em 2012, mas passou a ter alcance nacional em 2023"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Por que as doutoras tituladas geralmente recebem uma menor remuneração do que os homens no emprego formal?"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

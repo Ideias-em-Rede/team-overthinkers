@@ -1,0 +1,36 @@
+{
+  "id": 143,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Fraudes envolvendo vazamento de dados bancários são classificadas como uma 'epidemia' no País"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa do Consumidor da Câmara dos Deputados ouviu especialistas nesta quinta-feira (26)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O coordenador da Comissão dos Direitos do Consumidor da Associação Nacional das Defensoras e Defensores Públicos (Anadep), Antônio Carlos Cintra, disse que o golpe de maior impacto é aquele no qual o aposentado é levado a fazer um empréstimo consignado sem saber"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os participantes da audiência pública relataram várias falhas que têm possibilitado a prática desse golpes, como vazamento de dados bancários, baixa punição para o crime de estelionato e ausência de ação dos bancos na prevenção de fraudes"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O delegado citou pesquisa da empresa de segurança Fortinet que coloca o Brasil em segundo lugar em tentativas de golpes na América Latina"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

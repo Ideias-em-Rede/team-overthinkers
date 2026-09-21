@@ -1,0 +1,36 @@
+{
+  "id": 108,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes dos setores de eventos, turismo e serviços defenderam nesta quarta-feira (10), na Câmara dos Deputados, a manutenção do Programa Emergencial de Retomada do Setor de Eventos (Perse)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidente do Conselho de Administração da Associação Brasileira de Operadores de Turismo, Fabiano Camargo lembrou que, ao contrário do que vem sendo anunciado, o setor ainda não se recuperou."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“O fim desse programa representará uma retirada de algo entre R$ 120 bilhões e R$ 244 bilhões da economia”, alertou."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles criticaram a decisão do governo federal de acabar progressivamente com o programa por meio da Medida Provisória 1202/23."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O programa permite que as empresas beneficiadas renegociem dívidas tributárias e não-tributárias com desconto de até 70% e prazo de 145 meses para pagar, além de reduzir a zero, até 2026, as alíquotas de PIS, Cofins, CSLL e do Imposto de Renda da Pessoa Jurídica (IRPJ)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

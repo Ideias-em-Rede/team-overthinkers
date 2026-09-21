@@ -1,0 +1,36 @@
+{
+  "id": 67,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "De 2012 a 2021, foram registradas 23 mil mortes no mercado de trabalho formal no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Debatedores ouvidos nesta quinta-feira (25) pela Comissão de Direitos Humanos e Minorias da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "É uma tragédia que, além de impactar o próprio trabalhador, vai impactar também a vida da família e também os cofres públicos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Segundo os debatedores, um dos impasses para receber indenização é a dificuldade em comprovar o nexo causal entre a lesão e o trabalho"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A ideia é proteger esses profissionais que, lesionados, muitas vezes são demitidos com a justificativa de impossibilidade de executar a função"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

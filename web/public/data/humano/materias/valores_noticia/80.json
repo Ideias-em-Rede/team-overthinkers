@@ -1,0 +1,36 @@
+{
+  "id": 80,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Augusto Coutinho (Republicanos-PE) informou nesta terça-feira (28) que apresentará substitutivo a uma proposta do Poder Executivo que trata do lobby junto ao poder público"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Com a proposta, a ideia do governo é “permitir maior efetividade na repressão às condutas reprováveis”, como forma de contribuir para a aceitação do Brasil na Organização para Cooperação e Desenvolvimento Econômico (OCDE)"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mas o PL 4391/21, da forma como está, recebeu apoio apenas dos representantes do governo"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os debatedores afirmaram na Comissão de Trabalho que normas são necessárias para assegurar transparência e isonomia no relacionamento dos diversos atores com o poder público"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

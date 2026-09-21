@@ -1,0 +1,36 @@
+{
+  "id": 112,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Motoristas de aplicativo não conseguiram chegar a um acordo, em audiência da Comissão de Legislação Participativa da Câmara dos Deputados nesta quinta-feira (21), sobre o projeto do governo que garante à categoria um pacote de direitos trabalhistas e previdenciários"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da Federação dos Motoristas por Aplicativos do Brasil, Paulo Xavier, afirmou que a categoria quer autonomia e defendeu a rejeição integral da proposta do Executivo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A proposta do governo estabelece que o valor por hora trabalhada por aplicativo seja distribuído em 25% para remuneração e 75% para cobertura de custos, o que serviria de indenização para cobrir despesas com uso do telefone celular, combustível, manutenção do veículo, seguro e impostos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Motoristas de aplicativo não conseguiram chegar a um acordo, em audiência da Comissão de Legislação Participativa da Câmara dos Deputados nesta quinta-feira (21), sobre o projeto do governo que garante à categoria um pacote de direitos trabalhistas e previdenciários"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O projeto tem o slogan de que seria um autônomo com direitos. Não, na verdade, é um subordinado sem direitos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

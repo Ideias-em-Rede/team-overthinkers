@@ -1,0 +1,36 @@
+{
+  "id": 6,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "150 mil consumidores que viajariam agora em 2023 sejam ressarcidos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ramiro Madureira, disse nesta quarta-feira (6) à Comissão Parlamentar de Inquérito (CPI) das Pirâmides Financeiras"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "150 mil consumidores que viajariam agora em 2023 sejam ressarcidos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "movimentos de antecipação de créditos por parte de bancos e outros financiadores"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a empresa teve que suspender a emissão de passagens aéreas da linha promocional"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "150 mil consumidores que viajariam agora em 2023 sejam ressarcidos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

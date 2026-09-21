@@ -1,0 +1,36 @@
+{
+  "id": 184,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Esse foi um pedido da diretora de Inovação da Confederação Nacional da Indústria (CNI), Gianna Sagazio."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Também melhora a competitividade das empresas, fortalece as universidades, gera riqueza e empregos e promove o desenvolvimento econômico e social."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Isso dificulta, em grande parte, a aplicação efetiva do marco legal. Os órgãos de controle que não absorveram esse espírito da lei"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Criando uma sinergia entre esses setores muito importante para que a gente possa chegar ao produto final, que é a tecnologia e inovação"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

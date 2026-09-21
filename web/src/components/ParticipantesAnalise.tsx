@@ -19,6 +19,7 @@ import type {
   ParticipantesTranscricaoFile,
 } from "../types";
 import MethodInfo from "./MethodInfo";
+import BrazilMap from "./BrazilMap";
 import { MATERIA_METHOD, TRANSCRICAO_METHOD } from "../methodology";
 import "./ParticipantesAnalise.css";
 
@@ -43,6 +44,7 @@ const PARTY_COLORS: Record<string, string> = {
 interface Props {
   materiaId: number;
   editor: "humano" | "llm";
+  embedded?: boolean;
 }
 
 interface Row {
@@ -85,6 +87,35 @@ function match(rowNome: string, listNomes: string[]): string | null {
   return null;
 }
 
+function hashStr(s: string): number {
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+const MOCK_UFS = ["SP", "MG", "RJ", "RS", "BA", "PR", "PE", "CE", "DF", "GO"];
+const MOCK_UF_WEIGHTS = [22, 15, 12, 9, 9, 8, 7, 7, 6, 5];
+const MOCK_UF_CUMULATIVE = MOCK_UF_WEIGHTS.reduce<number[]>((acc, w) => {
+  acc.push((acc[acc.length - 1] ?? 0) + w);
+  return acc;
+}, []);
+const MOCK_UF_TOTAL = MOCK_UF_CUMULATIVE[MOCK_UF_CUMULATIVE.length - 1];
+
+function mockGenero(nome: string): "Feminino" | "Masculino" {
+  return hashStr("g:" + nome) % 100 < 28 ? "Feminino" : "Masculino";
+}
+
+function mockUF(nome: string): string {
+  const pick = hashStr("uf:" + nome) % MOCK_UF_TOTAL;
+  const idx = MOCK_UF_CUMULATIVE.findIndex((c) => pick < c);
+  return MOCK_UFS[idx === -1 ? 0 : idx];
+}
+
+const GENDER_COLORS: Record<string, string> = {
+  Feminino: "#c026d3",
+  Masculino: "#0369a1",
+};
+
 function classifyGroup(
   partidoEstado: string | null,
   cargo: string | null
@@ -110,7 +141,7 @@ const URL_MATERIA_BY_EDITOR = {
   llm: (id: number) => `/data/participantes_materia_llm/${id}.json`,
 };
 
-export default function ParticipantesAnalise({ materiaId, editor }: Props) {
+export default function ParticipantesAnalise({ materiaId, editor, embedded = false }: Props) {
   const [tr, setTr] = useState<ParticipantesTranscricaoFile | null>(null);
   const [ma, setMa] = useState<ParticipantesMateriaFile | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "absent">("loading");
@@ -272,46 +303,91 @@ export default function ParticipantesAnalise({ materiaId, editor }: Props) {
     new Set(rows.filter((r) => r.palavras > 0).map((r) => r.grupo))
   );
 
-  return (
-    <section className={`pa pa--${editor}`}>
-      <header className="pa__head">
-        <h2>Participantes: quem falou vs. quem virou notícia</h2>
-        <p className="muted pa__subtitle">
-          Editor ativo: <strong>{editorLabel}</strong>. Compara quem falou na
-          audiência (regex sobre a transcrição) com quem foi selecionado por
-          este editor.
-        </p>
-        <div className="pa__methods">
-          <div className="pa__method pa__method--regex">
-            <strong>Transcrição</strong>
-            <span>método: regex determinístico</span>
-            <span className="muted">
-              cobertura {(tr.cobertura.proporcao * 100).toFixed(1)}%
-            </span>
-            <MethodInfo
-              descricao={TRANSCRICAO_METHOD.descricao}
-              code={TRANSCRICAO_METHOD.regex}
-              codeLabel="padrão regex"
-              origem={TRANSCRICAO_METHOD.origem}
-            />
-          </div>
-          <div className={`pa__method pa__method--${editor}`}>
-            <strong>Seleção editorial</strong>
-            <span>{editor === "humano" ? "por Agência Câmara" : `por LLM (${ma.modelo})`}</span>
-            <span className="muted">
-              {editor === "humano" ? "extração LLM sobre matéria humana" : "extração LLM sobre matéria LLM"}
-            </span>
-            <MethodInfo
-              descricao={MATERIA_METHOD.descricao}
-              code={MATERIA_METHOD.prompt}
-              codeLabel="prompt"
-              origem={MATERIA_METHOD.origem}
-              parametros={MATERIA_METHOD.parametros}
-            />
-          </div>
-        </div>
-      </header>
+  const audienceRows = rows.filter((r) => r.origem !== "so_materia");
 
+  const partidoAgg = (() => {
+    const map = new Map<string, { grupo: string; naAudiencia: number; citados: number; color: string }>();
+    for (const r of audienceRows) {
+      const cur = map.get(r.grupo) ?? {
+        grupo: r.grupo,
+        naAudiencia: 0,
+        citados: 0,
+        color: r.grupoColor,
+      };
+      cur.naAudiencia += 1;
+      if (r.citado) cur.citados += 1;
+      map.set(r.grupo, cur);
+    }
+    return Array.from(map.values()).sort((a, b) => b.naAudiencia - a.naAudiencia);
+  })();
+
+  const generoAgg = (() => {
+    const map = new Map<string, { genero: string; naAudiencia: number; citados: number; color: string }>();
+    for (const r of audienceRows) {
+      const g = mockGenero(r.nome);
+      const cur = map.get(g) ?? {
+        genero: g,
+        naAudiencia: 0,
+        citados: 0,
+        color: GENDER_COLORS[g] ?? "#6b7a8f",
+      };
+      cur.naAudiencia += 1;
+      if (r.citado) cur.citados += 1;
+      map.set(g, cur);
+    }
+    return ["Feminino", "Masculino"]
+      .map((k) => map.get(k))
+      .filter((v): v is NonNullable<typeof v> => !!v);
+  })();
+
+  const ufAgg = (() => {
+    const map = new Map<string, { uf: string; naAudiencia: number; citados: number }>();
+    for (const r of audienceRows) {
+      const u = mockUF(r.nome);
+      const cur = map.get(u) ?? { uf: u, naAudiencia: 0, citados: 0 };
+      cur.naAudiencia += 1;
+      if (r.citado) cur.citados += 1;
+      map.set(u, cur);
+    }
+    return Array.from(map.values()).sort((a, b) => b.naAudiencia - a.naAudiencia);
+  })();
+
+  const methodsBlock = (
+    <div className="pa__methods">
+      <div className="pa__method pa__method--regex">
+        <strong>Transcrição</strong>
+        <span>método: regex determinístico</span>
+        <span className="muted">
+          cobertura {(tr.cobertura.proporcao * 100).toFixed(1)}%
+        </span>
+        <MethodInfo
+          descricao={TRANSCRICAO_METHOD.descricao}
+          code={TRANSCRICAO_METHOD.regex}
+          codeLabel="padrão regex"
+          origem={TRANSCRICAO_METHOD.origem}
+        />
+      </div>
+      <div className={`pa__method pa__method--${editor}`}>
+        <strong>Seleção editorial</strong>
+        <span>{editor === "humano" ? "por Agência Câmara" : `por LLM (${ma.modelo})`}</span>
+        <span className="muted">
+          {editor === "humano"
+            ? "extração LLM sobre matéria humana"
+            : "extração LLM sobre matéria LLM"}
+        </span>
+        <MethodInfo
+          descricao={MATERIA_METHOD.descricao}
+          code={MATERIA_METHOD.prompt}
+          codeLabel="prompt"
+          origem={MATERIA_METHOD.origem}
+          parametros={MATERIA_METHOD.parametros}
+        />
+      </div>
+    </div>
+  );
+
+  const participacaoBody = (
+    <>
       <div className="pa__stats">
         <Stat
           value={totalAudiencia}
@@ -408,46 +484,6 @@ export default function ParticipantesAnalise({ materiaId, editor }: Props) {
 
       <div className="pa__chart">
         <div className="pa__chart-head">
-          <h3>Volume de fala na audiência (palavras)</h3>
-          <span className="muted">
-            Cor = partido/grupo. Barras esmaecidas = não citados pelo editor {editor}.
-          </span>
-        </div>
-        <ResponsiveContainer width="100%" height={Math.max(320, barData.length * 30)}>
-          <BarChart
-            data={barData}
-            layout="vertical"
-            margin={{ top: 8, right: 24, bottom: 8, left: 8 }}
-          >
-            <CartesianGrid strokeDasharray="3 3" stroke="#e5e9f0" horizontal={false} />
-            <XAxis type="number" stroke="#6b7a8f" fontSize={12} />
-            <YAxis
-              type="category"
-              dataKey="nome"
-              stroke="#6b7a8f"
-              fontSize={11}
-              width={180}
-              interval={0}
-            />
-            <Tooltip
-              cursor={{ fill: "rgba(0,51,102,0.04)" }}
-              content={<BarTooltip />}
-            />
-            <Bar dataKey="palavras" radius={[0, 4, 4, 0]}>
-              {barData.map((d, i) => (
-                <Cell
-                  key={i}
-                  fill={d.color}
-                  fillOpacity={d.citado ? 1 : 0.38}
-                />
-              ))}
-            </Bar>
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-
-      <div className="pa__chart">
-        <div className="pa__chart-head">
           <h3>Fala na audiência × menções na matéria</h3>
           <span className="muted">
             Cada ponto é um participante.
@@ -496,7 +532,173 @@ export default function ParticipantesAnalise({ materiaId, editor }: Props) {
           </ScatterChart>
         </ResponsiveContainer>
       </div>
+    </>
+  );
+
+  const partidoBody = (
+    <div className="pa__chart">
+      <div className="pa__chart-head">
+        <h3 className="pa__sr-only">Volume de fala por participante</h3>
+        <span className="muted">
+          Cor = partido/grupo. Barras esmaecidas = não citados pelo editor {editor}.
+        </span>
+      </div>
+      <ResponsiveContainer width="100%" height={Math.max(320, barData.length * 30)}>
+        <BarChart
+          data={barData}
+          layout="vertical"
+          margin={{ top: 8, right: 24, bottom: 8, left: 8 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" stroke="#e5e9f0" horizontal={false} />
+          <XAxis type="number" stroke="#6b7a8f" fontSize={12} />
+          <YAxis
+            type="category"
+            dataKey="nome"
+            stroke="#6b7a8f"
+            fontSize={11}
+            width={180}
+            interval={0}
+          />
+          <Tooltip
+            cursor={{ fill: "rgba(0,51,102,0.04)" }}
+            content={<BarTooltip />}
+          />
+          <Bar dataKey="palavras" radius={[0, 4, 4, 0]}>
+            {barData.map((d, i) => (
+              <Cell
+                key={i}
+                fill={d.color}
+                fillOpacity={d.citado ? 1 : 0.38}
+              />
+            ))}
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+      {partidoAgg.length > 0 && (
+        <div className="pa__aggregate">
+          <div className="pa__aggregate-head">Totais por partido / grupo</div>
+          <ul className="pa__aggregate-list">
+            {partidoAgg.map((p) => (
+              <li key={p.grupo}>
+                <span
+                  className="pa__aggregate-dot"
+                  style={{ background: p.color }}
+                />
+                <span className="pa__aggregate-label">{p.grupo}</span>
+                <span className="pa__aggregate-value">
+                  {p.citados}<span className="muted"> / {p.naAudiencia}</span>
+                </span>
+              </li>
+            ))}
+          </ul>
+          <p className="pa__aggregate-legend muted">citados / na audiência</p>
+        </div>
+      )}
+    </div>
+  );
+
+  const generoBody = (
+    <div className="pa__chart">
+      <div className="pa__chart-head">
+        <span className="pa__mock-flag">dados de exemplo</span>
+        <span className="muted">
+          Distribuição por gênero entre quem participou da audiência e quem foi citado pelo editor {editor}.
+        </span>
+      </div>
+      <ResponsiveContainer width="100%" height={220}>
+        <BarChart
+          data={generoAgg}
+          margin={{ top: 8, right: 16, bottom: 8, left: 8 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" stroke="#e5e9f0" />
+          <XAxis dataKey="genero" stroke="#6b7a8f" fontSize={12} />
+          <YAxis stroke="#6b7a8f" fontSize={12} allowDecimals={false} />
+          <Tooltip cursor={{ fill: "rgba(0,51,102,0.04)" }} content={<AggTooltip />} />
+          <Legend verticalAlign="top" iconType="circle" wrapperStyle={{ fontSize: 12 }} />
+          <Bar dataKey="naAudiencia" name="na audiência" fill={GRAY} radius={[4, 4, 0, 0]} />
+          <Bar dataKey="citados" name={`citados por ${editor}`} fill={editorColor} radius={[4, 4, 0, 0]} />
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  );
+
+  const ufBody = (
+    <div className="pa__chart">
+      <div className="pa__chart-head">
+        <span className="pa__mock-flag">dados de exemplo</span>
+        <span className="muted">
+          Distribuição por unidade federativa entre quem foi citado pelo editor {editor}.
+          Intensidade da cor = número de citados; UFs em cinza claro não têm participantes nesta matéria.
+        </span>
+      </div>
+      <BrazilMap data={ufAgg} editorColor={editorColor} editor={editor} />
+    </div>
+  );
+
+  return (
+    <section className={`pa pa--${editor} ${embedded ? "pa--embedded" : ""}`}>
+      {!embedded && (
+        <header className="pa__head">
+          <h2>Participantes: quem falou vs. quem virou notícia</h2>
+          <p className="muted pa__subtitle">
+            Editor ativo: <strong>{editorLabel}</strong>. Compara quem falou na
+            audiência (regex sobre a transcrição) com quem foi selecionado por
+            este editor.
+          </p>
+          {methodsBlock}
+        </header>
+      )}
+
+      {embedded && (
+        <p className="muted pa__editor-line">
+          Editor ativo: <strong>{editorLabel}</strong>.
+        </p>
+      )}
+      {embedded && methodsBlock}
+
+      <div className="pa__subsection">
+        <div className="pa__subsection-head">
+          <h3>Participação</h3>
+        </div>
+        {participacaoBody}
+      </div>
+
+      <div className="pa__row pa__row--split">
+        <div className="pa__subsection">
+          <div className="pa__subsection-head">
+            <h3>Partido / Bloco</h3>
+          </div>
+          {partidoBody}
+        </div>
+        <div className="pa__subsection">
+          <div className="pa__subsection-head">
+            <h3>Gênero</h3>
+          </div>
+          {generoBody}
+        </div>
+      </div>
+
+      <div className="pa__subsection">
+        <div className="pa__subsection-head">
+          <h3>UF</h3>
+        </div>
+        {ufBody}
+      </div>
     </section>
+  );
+}
+
+function AggTooltip({ active, payload, label }: any) {
+  if (!active || !payload?.length) return null;
+  return (
+    <div className="pa-tooltip">
+      <strong>{label}</strong>
+      {payload.map((p: any) => (
+        <div key={p.dataKey}>
+          {p.name}: {p.value}
+        </div>
+      ))}
+    </div>
   );
 }
 

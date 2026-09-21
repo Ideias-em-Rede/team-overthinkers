@@ -1,0 +1,36 @@
+{
+  "id": 64,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O turismo religioso está entre as modalidades que mais cresceu durante a pandemia de Covid-19"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão de Turismo, deputado Rodrigo Coelho (Pode-SC)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O turismo religioso, no âmbito do turismo cultural, gera emprego e renda"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O turismo religioso movimenta em todo o mundo 16 bilhões de euros ao ano"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

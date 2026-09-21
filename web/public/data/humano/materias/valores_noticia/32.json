@@ -1,0 +1,36 @@
+{
+  "id": 32,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Debatedores ouvidos nesta terça-feira (31) pela Comissão de Direitos Humanos da Câmara dos Deputados reclamaram do excesso de burocracia no acolhimento de refugiados e migrantes que chegam ao Brasil em situação de vulnerabilidade."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Para a coordenadora-geral de Promoção dos Direitos de Migrantes, Refugiados e Apátridas do Ministério dos Direitos Humanos, Clarissa Teixeira, o Brasil avançou ao passar do Estatuto do Estrangeiro para a Lei de Migração"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Precisamos avançar com o acesso às políticas públicas, mas sobretudo com a permanência, com políticas de continuidade. Olhar para o migrante como um patrimônio cultural e histórico, e não como um problema"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Defensora pública do estado de São Paulo, Amanda Pilon Barsoumian reclamou da exclusão dos imigrantes de cargos do serviço público, ainda que tenham seus diplomas reconhecidos por instituições brasileiras e sejam aprovados em concurso público."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Nesse esforço, foram ouvidas mais de 200 organizações da sociedade civil, na maioria de migrantes."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

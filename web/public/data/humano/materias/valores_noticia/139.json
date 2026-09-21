@@ -1,0 +1,36 @@
+{
+  "id": 139,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Defensores públicos e entidades ligadas aos povos indígenas denunciaram na Câmara dos Deputados nesta terça-feira (7) o preconceito e o racismo contra indígenas presos no País."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Célia Xakriabá (Psol-MG), que propôs a realização da audiência, também citou violações de direitos de indígenas no sistema carcerário brasileiro e sugeriu uma consulta pública sobre uma lei prisional específica para os indígenas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essa invisibilidade faz com que nós tenhamos chegado a esta data sem que haja uma legislação específica tratando sobre povos indígenas no sistema penitenciário"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela relatou ainda casos de preconceito e racismo por parte da polícia contra guaranis e kaiovás."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O assunto foi tema de audiência pública na Comissão da Amazônia e dos Povos Originários e Tradicionais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

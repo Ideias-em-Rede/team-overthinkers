@@ -1,0 +1,36 @@
+{
+  "id": 163,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A sugestão foi apresentada durante audiência pública realizada nessa quinta-feira (21) sobre a educação de meninas e mulheres negras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Educadora ouvida pela Comissão de Educação da Câmara dos Deputados sugeriu a criação de um grupo de trabalho para avaliar a elaboração de leis com diretrizes educacionais sobre a questão racial."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para Amarílis, o combate ao racismo deve começar já na creche. “Muitas vezes é a creche que ajuda as mulheres negras a acessarem o mercado de trabalho, e, sobretudo, é na creche, muitas vezes, que as crianças negras vão ter acesso à alimentação e aos estímulos pedagógicos necessários.”"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A diretora de Educação e Pesquisa do Geledés (instituto de defesa dos direitos da mulher negra), Suelaine Carneiro, apresentou pesquisa mostrando que as meninas negras foram as mais prejudicadas na vida escolar na pandemia de Covid-19."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A coordenadora-geral da Diretoria de Políticas de Ações Afirmativas do Ministério da Igualdade Racial, Natália Neris, apresentou à comissão um programa inédito direcionado exclusivamente a mulheres cientistas negras, indígenas, quilombolas e ciganas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A professora de Direito e pesquisadora Amarílis Costa disse que ficou evidente na reunião a diferença abissal na educação entre meninas brancas e negras."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

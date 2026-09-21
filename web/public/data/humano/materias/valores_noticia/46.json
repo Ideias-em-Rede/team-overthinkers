@@ -1,0 +1,36 @@
+{
+  "id": 46,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Hoje, apenas 23% do território agrícola nacional está conectado"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Zé Silva (Solidariedade-MG) quer garantir a aplicação de recursos do Fust para a conexão do meio rural à internet"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Um ano que a gente atrasar no 5G, e nós já atrasamos pelo menos um ano e meio, a gente perdeu 10 anos de competitividade do agro"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente Jair Bolsonaro vetou o trecho da lei que prevê o uso de recursos do Fundo para políticas de inovação tecnológica no meio rural, coordenadas pela Agência Nacional de Assistência Técnica e Extensão Rural (Anater), mas o veto foi derrubado pelo Congresso"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Lei aprovada em 2020 pelo Congresso (14.109/20) passou a permitir o uso dos recursos do Fust para projetos de banda larga"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela destacou que, quando se eleva a conectividade, aumenta a inovação no setor e, logo, o valor da produção bruta agropecuária"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

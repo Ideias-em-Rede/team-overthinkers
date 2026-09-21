@@ -1,0 +1,36 @@
+{
+  "id": 83,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Estimativas apontam que 222 mil brasileiros vivem nas ruas sem acesso a serviços básicos de saúde, educação, identificação civil e cidadania."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O defensor público da União Renan Sotto Mayor destacou a “centralidade do papel da moradia” para a solução desses problemas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O acesso à moradia é condição central para a superação da série de violações de direitos à qual estão submetidas as populações de rua."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os debatedores ainda manifestaram preocupação com o fim do prazo da decisão judicial (ADPF 828) que restringe remoções e despejos forçados durante a pandemia."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A nova metodologia citada é o Housing First, ou Moradia Primeiro, que não se baseia na residência como propriedade, mas como serviço para pessoas que não têm condições de pagar por ela."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O número ainda é baseado em dados de 2020, mas foi visivelmente ampliado durante a pandemia de Covid-19."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

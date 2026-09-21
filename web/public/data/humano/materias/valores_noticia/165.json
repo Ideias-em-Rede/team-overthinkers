@@ -1,0 +1,36 @@
+{
+  "id": 165,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a inclusão das despesas escolares com uniformes, merenda e transporte no Fundo de Manutenção da Educação Básica"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O relator da Lei de Diretrizes Orçamentárias (LDO) de 2024 (PLN 4/23), deputado Danilo Forte (União-CE)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a meta fiscal do governo de zerar o déficit das contas públicas no ano que vem é muito “ambiciosa”, já que o País vem registrando queda na arrecadação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Nós temos pouco tempo para votar matérias que muitas vezes são impopulares e que a gente percebe claramente que não têm a simpatia do Parlamento brasileiro com relação a aumento de tributos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "o estímulo ao empreendedorismo feminino como uma das prioridades da LDO de 2024"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

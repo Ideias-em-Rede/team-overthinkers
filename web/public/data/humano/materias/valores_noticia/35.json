@@ -1,0 +1,36 @@
+{
+  "id": 35,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Para que as mudanças possam valer para as eleições municipais de 2024"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública do grupo de trabalho da minirreforma eleitoral"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Com isso, haveria 45 dias a mais para o julgamento da regularidade das candidaturas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Esse prazo extremamente curto, segundo o professor, provoca o que chama de “terceiro turno das eleições”, com o questionamento das decisões da Justiça Eleitoral."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Como solução, o professor Agra sugere que as convenções partidárias ocorram entre 1º e 20 de junho dos anos eleitorais, com o fim do período de registro dos candidatos em 1º de julho."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Para Samara Castro, os bancos de dados devem conter informações como nome de quem pagou a propaganda, conteúdo veiculado e valor gasto, que deveriam ser guardadas por pelo menos um ano."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 97,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O setor, ressaltou ele, representa 18% do PIB industrial e 3% do PIB total brasileiro, gerando quase R$ 80 bilhões em tributos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Vicentinho informou que já obteve o apoio do presidente do Congresso, senador Rodrigo Pacheco (PSD-MG), e da Câmara, Arthur Lira (PP-AL), para a criação de uma comissão mista que discutirá a indústria nacional, principalmente a automobilística."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A saída da empresa impactou mais de 6 mil trabalhadores direitos. E, quando se faz o cálculo multiplicador, são mais de 120 mil postos de trabalho fechados, considerando os segmentos de autopeças, fornecedores e terceiros"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Sindicalistas e empresários do setor automotivo cobraram do governo federal nesta quinta-feira (25), em audiência pública na Câmara dos Deputados, uma política de desenvolvimento industrial mais efetiva para o País."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O setor, ressaltou ele, representa 18% do PIB industrial e 3% do PIB total brasileiro, gerando quase R$ 80 bilhões em tributos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

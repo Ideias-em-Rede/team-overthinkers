@@ -1,0 +1,36 @@
+{
+  "id": 95,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A intenção é garantir bem-estar animal, transparência nos rótulos das indústrias e redução de riscos de difusão de novas zoonoses."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Também participou do debate a zoóloga e epidemióloga Cynthia Schuck, que dirige uma plataforma (Welfare Footprint Project) voltada ao cálculo de bem-estar animal na produção de alimentos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O resultado tem sido a proliferação de bactérias super-resistentes, que também afetam os humanos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Cynthia Schuck criticou a produção intensiva que confina aves e suínos para produção em escala, com manejo em ambientes estressantes de pouca luz natural, baixa qualidade de ar e seleção genética focada na produtividade."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ela lembrou que uma nova doença infecciosa é reconhecida no mundo a cada quatro meses e que 75% dessas novas doenças têm origem em animais, como no caso da recente pandemia de Covid-19."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A ONG Alianima apresentou o que chama de “números exorbitantes” de animais na pecuária brasileira: são 5,6 bilhões de frangos e 45,7 milhões de suínos abatidos por ano, 113,9 milhões de galinhas alojadas na indústria de ovos e 860 mil toneladas de peixes criados em piscicultura por ano."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

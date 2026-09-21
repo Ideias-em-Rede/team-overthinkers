@@ -1,0 +1,36 @@
+{
+  "id": 23,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O biometano é produzido a partir da purificação de gás obtido da decomposição de resíduos orgânicos, como lixo, esgoto e até restos agropecuários"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido na Comissão de Minas e Energia, a pedido do deputado Hugo Leal (PSD-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Quanto mais nós utilizamos o gás natural para os veículos pesados, menos dependência nós vamos ter do diesel importado"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O biometano é produzido a partir da purificação do biogás"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Hugo Leal avalia que o mercado de biometano já é uma realidade no País, apesar de ser pouco conhecido da população, e precisa ser dinamizado"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

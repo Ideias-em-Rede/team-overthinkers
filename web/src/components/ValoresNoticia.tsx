@@ -5,17 +5,30 @@ import { VALORES_METHOD } from "../methodology";
 import "./ValoresNoticia.css";
 
 const LABELS: Record<string, string> = {
-  atualidade: "Atualidade",
   proximidade: "Proximidade",
-  importancia: "Importância",
+  proeminencia: "Proeminência",
   impacto: "Impacto",
   conflito: "Conflito",
-  proeminencia: "Proeminência",
   novidade: "Novidade",
-  curiosidade: "Curiosidade",
-  dramaticidade: "Dramaticidade",
-  surpresa: "Surpresa",
-  raridade: "Raridade",
+  interesse: "Interesse",
+  sensacionalismo: "Sensacionalismo",
+};
+
+const DESCRIPTIONS: Record<string, string> = {
+  proximidade:
+    "O impacto geográfico ou cultural do acontecimento em relação ao cotidiano e à vida do público-alvo.",
+  proeminencia:
+    "O envolvimento de pessoas conhecidas, elites, celebridades, instituições influentes ou autoridades governamentais.",
+  impacto:
+    "A importância, magnitude ou gravidade das repercussões que o evento terá diretamente sobre a vida dos cidadãos e da sociedade civil.",
+  conflito:
+    "Disputas, tensões, desentendimentos e debates que envolvem forças políticas, sociais ou institucionais opostas.",
+  novidade:
+    "Fatos fora do comum, bizarros, inesperados ou que rompem de alguma forma com a normalidade cotidiana.",
+  interesse:
+    "O potencial de capturar a atenção, despertar a curiosidade ou responder a uma necessidade real do público.",
+  sensacionalismo:
+    "Aspectos dramáticos, sexuais ou chocantes estrategicamente explorados para maximizar a audiência.",
 };
 
 const ORDER = Object.keys(LABELS);
@@ -23,36 +36,53 @@ const ORDER = Object.keys(LABELS);
 interface Props {
   materiaId: number;
   source: "humano" | "llm";
+  generator?: string | null;
+  embedded?: boolean;
 }
 
-const URL_BY_SOURCE = {
-  humano: (id: number) => `/data/valores_noticia/${id}.json`,
-  llm: (id: number) => `/data/valores_noticia_llm/${id}.json`,
+const BASE_URL_BY_SOURCE = {
+  humano: "/data/valores_noticia",
+  llm: "/data/valores_noticia_llm",
 };
 
-export default function ValoresNoticia({ materiaId, source }: Props) {
+export default function ValoresNoticia({
+  materiaId,
+  source,
+  generator = null,
+  embedded = false,
+}: Props) {
   const [data, setData] = useState<ValoresNoticiaFile | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "absent">("loading");
 
   useEffect(() => {
+    let cancelled = false;
     setStatus("loading");
     setData(null);
-    fetch(URL_BY_SOURCE[source](materiaId))
-      .then((r) => {
-        if (r.status === 404) {
-          setStatus("absent");
-          return null;
-        }
-        return r.json();
-      })
-      .then((d: ValoresNoticiaFile | null) => {
-        if (d) {
-          setData(d);
-          setStatus("ready");
-        }
-      })
-      .catch(() => setStatus("absent"));
-  }, [materiaId, source]);
+
+    if (source === "llm" && !generator) {
+      setStatus("absent");
+      return;
+    }
+
+    const base = BASE_URL_BY_SOURCE[source];
+    const url =
+      source === "llm"
+        ? `${base}/${generator}/${materiaId}.json`
+        : `${base}/${materiaId}.json`;
+
+    fetch(url)
+      .then((r) => (r.ok ? (r.json() as Promise<ValoresNoticiaFile>) : null))
+      .catch(() => null)
+      .then((d) => {
+        if (cancelled) return;
+        setData(d);
+        setStatus(d ? "ready" : "absent");
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [materiaId, source, generator]);
 
   if (status === "absent") return null;
   if (status === "loading" || !data) {
@@ -73,15 +103,16 @@ export default function ValoresNoticia({ materiaId, source }: Props) {
   });
 
   return (
-    <section className={`valores valores--${source}`}>
+    <section className={`valores valores--${source} ${embedded ? "valores--embedded" : ""}`}>
       <header className="valores__head">
         <div>
-          <h2>Valores-notícia identificados</h2>
+          {!embedded && <h2>Valores-notícia identificados</h2>}
           <p className="muted valores__note">
             {source === "humano"
               ? "Sobre a matéria publicada pela Agência Câmara."
               : "Sobre a matéria gerada por LLM a partir da transcrição."}{" "}
-            Análise por LLM ({data.modelo}). Base: critérios clássicos de noticiabilidade.
+            Base: critérios clássicos de noticiabilidade. Extração por DeepSeek ·{" "}
+            {data.modelo}.
           </p>
           <MethodInfo
             descricao={VALORES_METHOD.descricao}
@@ -110,18 +141,43 @@ export default function ValoresNoticia({ materiaId, source }: Props) {
       </div>
 
       <div className="valores__grid">
-        {ordered.map(([key, v]) => (
-          <div key={key} className={`valor ${v.presente ? "valor--on" : "valor--off"}`}>
-            <div className="valor__row">
-              <span className="valor__dot" aria-hidden="true" />
-              <span className="valor__name">{LABELS[key] ?? key}</span>
-              <span className="valor__flag">{v.presente ? "presente" : "ausente"}</span>
+        {ordered.map(([key, v]) => {
+          const descricao = DESCRIPTIONS[key];
+          return (
+            <div key={key} className={`valor ${v.presente ? "valor--on" : "valor--off"}`}>
+              <div className="valor__row">
+                <span
+                  className="valor__status"
+                  aria-hidden="true"
+                  data-state={v.presente ? "on" : "off"}
+                >
+                  {v.presente ? "✓" : "–"}
+                </span>
+                <span className="valor__name">{LABELS[key] ?? key}</span>
+                <span className="valor__actions">
+                  {descricao && (
+                    <span
+                      className="valor__info"
+                      tabIndex={0}
+                      role="button"
+                      aria-label={`O que é ${LABELS[key] ?? key}: ${descricao}`}
+                    >
+                      <span aria-hidden="true">i</span>
+                      <span className="valor__tooltip" role="tooltip">
+                        <strong>{LABELS[key] ?? key}</strong>
+                        {descricao}
+                      </span>
+                    </span>
+                  )}
+                  <span className="valor__flag">{v.presente ? "presente" : "ausente"}</span>
+                </span>
+              </div>
+              {v.presente && v.evidencia && (
+                <blockquote className="valor__evidence">"{v.evidencia}"</blockquote>
+              )}
             </div>
-            {v.presente && v.evidencia && (
-              <blockquote className="valor__evidence">"{v.evidencia}"</blockquote>
-            )}
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

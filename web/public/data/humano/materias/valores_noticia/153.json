@@ -1,0 +1,36 @@
+{
+  "id": 153,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro da Secretaria de Comunicação Social da Presidência da República, Paulo Pimenta, anunciou nesta terça-feira (17) que a linha de crédito do BNDES criada para socorrer cidades do Rio Grande do Sul afetadas pelas enchentes vai ser estendida para grandes empresas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Secretaria de Comunicação Social da Presidência da República, Paulo Pimenta, anunciou nesta terça-feira (17) que a linha de crédito do BNDES criada para socorrer cidades do Rio Grande do Sul afetadas pelas enchentes vai ser estendida para grandes empresas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Góes reforçou que o governo federal deve injetar mais de R$ 1 bilhão de recursos no estado, entre créditos extraordinários para recuperação habitacional e adiantamento de dinheiro do FGTS."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a reunião, diversos prefeitos de cidades gaúchas atingidas pelas enchentes reclamaram da burocracia para liberação do dinheiro destinado à recuperação da economia local."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O ministro da Secretaria de Comunicação Social da Presidência da República, Paulo Pimenta, anunciou nesta terça-feira (17) que a linha de crédito do BNDES criada para socorrer cidades do Rio Grande do Sul afetadas pelas enchentes vai ser estendida para grandes empresas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Marcel van Hattem (Novo-RS) informou que os parlamentares vão se reunir ainda hoje para solucionar questões técnicas para viabilizar o envio do recurso."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

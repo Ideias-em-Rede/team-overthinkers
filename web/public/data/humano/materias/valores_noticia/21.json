@@ -1,0 +1,36 @@
+{
+  "id": 21,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Esses valores chegam a programas como o Fies [Fundo de Financiamento Estudantil], então o estudante o brasileiro que está lá estudando ou tem seu filho no Fies está sendo beneficiado por essa arrecadação"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Secretária adjunta de Prêmios e Apostas do Ministério da Fazenda, Simone Vicentini informou que o tema da subsidiária já vem sendo discutido internamente pelo banco desde 2018"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo Juvandia Moreira, em 2023, dos R$ 23,4 bilhões arrecadados com loterias da Caixa, R$ 9,2 bilhões retornaram para a sociedade na forma de investimentos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de trabalhadores da Caixa e de empresas lotéricas criticaram nesta quarta-feira (03), em audiência pública na Câmara dos Deputados, a possível transferência das operações de loterias do banco para uma filial a ser criada com essa finalidade"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os empregados argumentaram que a criação de uma subsidiária para as loterias facilitaria a privatização dessas operações, que são, hoje, uma exclusividade da Caixa"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 63,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado Denis Bezerra (PSB-CE), que propôs a audiência pública, chamou atenção para o fato de os idosos representarem em breve ¼ da população brasileira"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidente da Frente Nacional de Fortalecimento das Ilpis, Karla Giacomin lamentou as dificuldades enfrentadas pelos brasileiros idosos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essa visão a gente só vai conseguir mudar, de fato, a partir do momento em que os parlamentares e o Executivo forem efetivamente cobrados pela população"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vejuse de Oliveira, que representou a Associação Cearense Pró-Idosos (Acepi), também apontou as carências no atendimento público a idosos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Entidades de defesa dos idosos cobram mais atenção do Estado com instituições de longa permanência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

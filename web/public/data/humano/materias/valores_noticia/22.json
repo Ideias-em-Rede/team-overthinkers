@@ -1,0 +1,36 @@
+{
+  "id": 22,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo dados do Ministério do Desenvolvimento, Indústria e Comércio, em 2022, o e-commerce brasileiro atingiu um faturamento de R$ 262 bilhões. Smartphones, televisões, roupas e calçados foram as principais compras dos brasileiros."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados ouviu nesta terça-feira (20) sugestões do setor de e-commerce para aprimorar a legislação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo o painel, em 3 anos, o e-commerce movimentou quase meio trilhão de reais no Brasil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mas ele não entende como problema a isenção de impostos para compras de até 50 dólares que existe no Brasil, sendo inclusive esse limite menor do que o praticado por outros países. O problema, acredita, é o mau uso da ferramenta de forma intencional e a impossibilidade de controle, que não deve ser feito penalizando o consumidor."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Segundo dados do Ministério do Desenvolvimento, Indústria e Comércio, em 2022, o e-commerce brasileiro atingiu um faturamento de R$ 262 bilhões. Smartphones, televisões, roupas e calçados foram as principais compras dos brasileiros."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

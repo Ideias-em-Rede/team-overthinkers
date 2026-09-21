@@ -1,0 +1,36 @@
+{
+  "id": 9,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo Kenio Lima, qualquer território em que a população com mais de 60 anos ultrapassa os 15% do total deve ser considerado envelhecido. 'O Brasil tem 15,8% pelo último Censo Demográfico, já é mais do que isso', lembrou."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública na Câmara dos Deputados, realizada nesta terça-feira (7), defenderam análise criteriosa do candidato, mas entendem não haver fundamento legal para solicitar o documento."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A juíza Monize Marques, coordenadora da Central Judicial do Idoso no Distrito Federal, afirmou que a certidão não deveria ser obrigatória para os cuidadores, mas defendeu a análise do empregador sobre a pertinência do documento."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Debatedores avaliaram como questionável a exigência de certidões de antecedentes criminais para a contratação de cuidador de idoso."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A proposta de Pinheirinho foi apensada ao Projeto de Lei 343/24, da deputada Coronel Fernanda (PL-MT), que institui, no Ministério da Justiça e Segurança Pública, uma central para a consulta pública de antecedentes criminais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

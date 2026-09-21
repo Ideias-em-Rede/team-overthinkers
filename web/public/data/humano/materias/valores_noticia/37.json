@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo a Pesquisa Nacional por Amostra de Domicílios de 2022 (Pnad Contínua), são 18,6 milhões de pessoas com alguma deficiência no País."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O secretário nacional de Paradesporto, Fábio de Araújo, reclamou do orçamento de pouco mais de R$ 1,8 milhão para este ano"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para os debatedores, incentivar a atividade esportiva entre os brasileiros com deficiência é promover cidadania."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O secretário nacional de Paradesporto, Fábio de Araújo, reclamou do orçamento de pouco mais de R$ 1,8 milhão para este ano"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele também divulgou pesquisa da Universidade Federal do Paraná mostrando que 75,38% dos municípios brasileiros não têm projetos esportivos para pessoas com deficiência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

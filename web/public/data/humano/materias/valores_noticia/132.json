@@ -1,0 +1,36 @@
+{
+  "id": 132,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Estima-se que cerca 2 mil municípios brasileiros não tenham serviços de radiodifusão sonora atualmente"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O anúncio foi feito pela diretora do Departamento de Radiodifusão Pública, Comunitária e Estatal do ministério, Daniela Schettino, em audiência da Comissão de Comunicação da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O nosso desejo é que se tenha, pelo menos, uma rádio comunitária em cada município do País"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Uma das queixas é a proibição de as comunitárias usarem a sigla FM, sob o argumento de se evitar conflito com as emissoras comerciais"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Ministério das Comunicações prepara a divulgação do Plano Nacional de Outorga (PNO)"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "As rádios comunitárias têm baixa potência e prestam serviços de informação e utilidade pública para um bairro ou vila"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 31,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O plano já formou cerca de 62 mil docentes nos estados, municípios e Distrito Federal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Especialistas defenderam nesta quinta-feira (9), na Câmara dos Deputados, a transformação do Plano Nacional de Formação de Professores da Educação Básica (Parfor), um dos programas do Ministério da Educação (MEC), em política de Estado, de caráter permanente."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para a presidente da Associação Nacional pela Formação dos Profissionais da Educação (Anfope), Suzane Gonçalves, o Parfor precisa se constituir como o braço de uma política de estado para a educação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência pública alguns especialistas criticaram ainda o MEC por estar discutindo mudanças no Parfor sem a participação de entidades educacionais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente do Fórum Nacional de Coordenadores Institucionais do Parfor, Mark Clark Assen, apontou como um dos entraves do plano de formação desses profissionais a existência de muitos professores temporários na educação básica dos estados e municípios."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 72,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "em 2021 foram resgatados 310 trabalhadores em situação análoga à de trabalho escravo em 20 fazendas de Minas Gerais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Diretor-adjunto do Sindicato Nacional dos Auditores Fiscais do Trabalho, Lucas da Silva"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a responsabilização de grandes empresas nacionais e multinacionais que contratam empresas praticantes de trabalho escravo é essencial para prevenir o problema"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Segundo eles, é melhor ter trabalhadores com empregos e sem direitos, ou com menos direitos, do que desempregados"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Lei similar foi aprovada na França em 2017 e já existe um projeto em tramitação na Câmara que trata dos direitos humanos nas empresas (PL 572/22)"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Como denunciar"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

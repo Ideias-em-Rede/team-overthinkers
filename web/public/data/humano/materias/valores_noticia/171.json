@@ -1,0 +1,36 @@
+{
+  "id": 171,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Nísia Trindade prevê R$ 7,4 bilhões de investimentos em atenção primária até 2026 e outros R$ 13,8 bilhões em atenção especializada"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A ministra da Saúde, Nísia Trindade, rebateu uma série de polêmicas com a oposição ao governo federal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Nísia Trindade prevê R$ 7,4 bilhões de investimentos em atenção primária até 2026 e outros R$ 13,8 bilhões em atenção especializada"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Osmar Terra (MDB-RS), por exemplo, questionou a criação de um grupo de trabalho interministerial para analisar desinformações publicadas em redes sociais por médicos e outros profissionais de saúde"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Nísia Trindade prevê R$ 7,4 bilhões de investimentos em atenção primária até 2026 e outros R$ 13,8 bilhões em atenção especializada"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Nísia Trindade prevê R$ 7,4 bilhões de investimentos em atenção primária até 2026 e outros R$ 13,8 bilhões em atenção especializada"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

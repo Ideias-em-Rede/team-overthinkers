@@ -1,0 +1,36 @@
+{
+  "id": 189,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A intenção de Ortiz é elaborar um texto que garanta competitividade, promoção da concorrência, para fomentar inovação, crescimento econômico e direitos dos consumidores e empreendedores."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "As empresas Spotify e Mercado Livre pediram mudanças no teor do projeto que regulamenta os mercados digitais (PL 2768/22), em discussão na Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A intenção de Ortiz é elaborar um texto que garanta competitividade, promoção da concorrência, para fomentar inovação, crescimento econômico e direitos dos consumidores e empreendedores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Spotify é concorrente da Apple Music, mas depende da loja virtual da própria Apple, que exige que certos aplicativos paguem uma taxa de 30% pelo uso de seu sistema de venda de aplicativos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A intenção de Ortiz é elaborar um texto que garanta competitividade, promoção da concorrência, para fomentar inovação, crescimento econômico e direitos dos consumidores e empreendedores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

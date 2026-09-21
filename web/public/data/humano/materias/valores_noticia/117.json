@@ -1,0 +1,36 @@
+{
+  "id": 117,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Desde 2018 moradores de cinco bairros de Maceió que se encontram nas proximidades das minas foram retirados de suas casas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão externa que investiga o colapso do solo em bairros de Maceió, deputado Alfredo Gaspar (União-AL), questionou em audiência pública nesta terça-feira (12) o representante do Instituto do Meio Ambiente (IMA) de Alagoas, Ricardo César de Barros Oliveira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Mais de 60 mil pessoas foram atingidas diretamente pelas remoções."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Na opinião do deputado, a Braskem foi criminosa e a ANM, omissa."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O incidente de domingo foi o mais recente de uma série de problemas decorrentes da mineração de sal-gema pela empresa Braskem na capital alagoana."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Marx Beltrão (PP-AL) disse não acreditar que a Braskem agiu sozinha."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

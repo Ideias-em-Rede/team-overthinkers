@@ -1,0 +1,36 @@
+{
+  "id": 38,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, realizada pela Comissão de Turismo, debateu o Projeto de Lei 1378/19 do deputado Carlos Gomes (Republicanos-RS), que concede isenção de Imposto sobre Produtos Industrializados (IPI) ao vinho produzido em 23 municípios da Serra Gaúcha, no Rio Grande do Sul."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública na Câmara dos Deputados defenderam a criação da Zona Franca da Uva e do Vinho nesta quarta-feira (16)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo os debatedores, enquanto outros países oferecem benefícios fiscais aos produtores de vinho, no Brasil a tributação é responsável por 60% do preço final do produto."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O vinho brasileiro foi usado como moeda de troca em muitos acordos internacionais, principalmente com nossos países irmãos do Mercosul, e isso causou, para nós produtores brasileiros, uma situação completamente desfavorável dentro do mercado"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Uma alternativa para conseguir regras tributárias mais favoráveis seria classificar o vinho como alimento, como defenderam os debatedores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

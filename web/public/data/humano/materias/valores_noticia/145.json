@@ -1,0 +1,36 @@
+{
+  "id": 145,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro da Justiça e Segurança Pública, Flávio Dino, destacou nesta quarta-feira (25), em debate na Câmara dos Deputados, os resultados preliminares do governo Lula na segurança pública e no combate a organizações criminosas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Justiça e Segurança Pública, Flávio Dino, destacou nesta quarta-feira (25), em debate na Câmara dos Deputados, os resultados preliminares do governo Lula na segurança pública e no combate a organizações criminosas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A Polícia Federal já apreendeu R$ 2,29 bilhões do narcotráfico, ante os R$ 216 milhões confiscados em 2022, uma alta de 960% em relação ao ano passado."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a reunião, parlamentares ligados à segurança pública buscaram abordar outros temas, o que gerou vários bate-bocas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Polícia Federal já apreendeu R$ 2,29 bilhões do narcotráfico, ante os R$ 216 milhões confiscados em 2022, uma alta de 960% em relação ao ano passado."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro da Justiça e Segurança Pública, Flávio Dino, destacou nesta quarta-feira (25), em debate na Câmara dos Deputados, os resultados preliminares do governo Lula na segurança pública e no combate a organizações criminosas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

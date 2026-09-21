@@ -1,0 +1,36 @@
+{
+  "id": 125,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Apenas 30% das secretarias de Educação de estados e municípios exigem curso de gestão escolar para o cargo de diretor."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A informação é de estudo da associação civil sem fins lucrativos Dados para um Debate Democrático na Educação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os diretores representam o segundo fator que mais impacta na qualidade da educação, atrás apenas dos professores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado foi procurado por diretores que estavam preocupados com a qualidade da formação oferecida na seleção, com questões de múltipla escolha fora da realidade do cotidiano de um diretor."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A seleção e a formação de diretores escolares foram debatidas pela Comissão de Educação nesta quinta-feira."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

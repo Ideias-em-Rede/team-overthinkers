@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O tema foi discutido pela Comissão de Constituição e Justiça nesta quarta-feira (6), a pedido do presidente da comissão, deputado Rui Falcão (PT-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O ativismo judicial é alvo de constante discussão pelo Congresso Nacional e é, por exemplo, uma das justificativas para proposta recentemente aprovada pelo Senado (PEC 8/21), pendente de análise pela Câmara, que limita decisões individuais no Supremo Tribunal Federal e em outros tribunais superiores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Participantes de debate na Câmara discordaram a respeito do chamado ativismo judicial, que ocorre quando o Poder Judiciário interfere em prerrogativas dos Poderes Legislativo ou Executivo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ativismo judicial é alvo de constante discussão pelo Congresso Nacional e é, por exemplo, uma das justificativas para proposta recentemente aprovada pelo Senado (PEC 8/21), pendente de análise pela Câmara, que limita decisões individuais no Supremo Tribunal Federal e em outros tribunais superiores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 55,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Essa regra está em vigor desde a Emenda Constitucional 103, a qual estabelece que, havendo déficit atuarial nas contas da Previdência Social, a contribuição dos inativos pode incidir sobre valores que excedam o salário mínimo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Questionada no Supremo Tribunal Federal (STF) por meio de 12 ações diretas de inconstitucionalidade, a regra atual recebeu voto favorável do ministro relator, Luís Roberto Barroso."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essa emenda autoriza que servidores públicos que recebem abaixo do teto do INSS possam ser confiscados, retirando de seus salários até 14%."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Debatedores criticaram nesta segunda-feira (24), em audiência pública na Comissão de Administração e Serviço Público da Câmara dos Deputados, a cobrança de contribuição previdenciária de servidores públicos aposentados e pensionistas sobre valores que superem um salário mínimo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Essa emenda autoriza que servidores públicos que recebem abaixo do teto do INSS possam ser confiscados, retirando de seus salários até 14%."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

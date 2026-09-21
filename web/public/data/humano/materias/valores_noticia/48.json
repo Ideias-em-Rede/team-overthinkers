@@ -1,0 +1,36 @@
+{
+  "id": 48,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Proposta que proíbe a união de pessoas do mesmo sexo é criticada em audiência pública"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Pastor Eurico (PL-PE)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "proíbe que relações entre pessoas do mesmo sexo equiparem-se a casamento ou entidade familiar"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Relator rebateu acusações de fundamentalismo religioso"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Proposta que proíbe a união de pessoas do mesmo sexo é criticada em audiência pública"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

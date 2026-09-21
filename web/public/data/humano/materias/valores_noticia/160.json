@@ -1,0 +1,36 @@
+{
+  "id": 160,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O número de crianças com deficiência que frequentam a educação infantil regular duplicou, de 2006 para 2022, conforme levantamento da Pesquisa Nacional por Amostra de Domicílios Contínua (Pnad)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Especialistas e ativistas dos direitos das pessoas com deficiência apontaram, durante debate na Câmara dos Deputados nesta segunda-feira (2)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Eles avaliaram que é preciso retomar a política pública de inclusão que foi iniciada pelo Ministério da Educação em 2008, mas perdeu força a partir de 2020 no governo do ex-presidente Jair Bolsonaro"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Negra e com deficiência, a representante da Coalizão Brasileira pela Educação Inclusiva, Luciana Viegas, acredita que o atual modelo de educação pública está 'falido' e precisa ser repensado"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "É muito difícil você falar de um processo educacional emancipatório quando há falta de comida na mesa"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

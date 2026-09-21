@@ -1,0 +1,36 @@
+{
+  "id": 61,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de entidades industriais defenderam nesta quarta-feira (30) uma política industrial que ataque os principais problemas apontados pelo setor, como tributação excessiva e complexa, crédito caro, ausência de mão de obra qualificada e de estímulo à exportação."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente-executivo da Associação Nacional dos Fabricantes Produtos Eletroeletrônicos (Eletros), Jorge Nascimento, defendeu uma série de medidas para melhorar o ambiente de negócios, como a reforma administrativa e ações de geração de emprego e renda."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre 2006 e 2021, a participação da indústria brasileira caiu de 2,58% para 1,28% da produção mundial. Para os debatedores, essa situação pode se agravar se o País não seguir o exemplo de outras nações, que aprovaram nos últimos anos planos ambiciosos de desenvolvimento industrial."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "“Hoje nós temos um Plano Safra [para a agropecuária], mas não temos um Plano Indústria. O governo deixou ao relento as indústrias”, criticou o deputado Alexis Fonteyne (Novo-SP), que destacou a necessidade de uma reforma tributária."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“De fato, a gente precisa de uma reforma tributária que atenda ao Brasil como um todo. Não é só uma reforma que simplifique [tributos], mas uma que não onere ainda mais a indústria, não onere ainda mais o consumidor – esse é um ponto importante”, declarou Nascimento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

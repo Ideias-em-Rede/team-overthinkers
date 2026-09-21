@@ -1,0 +1,36 @@
+{
+  "id": 185,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Há locais em que a coleta é realizada em apenas 24% dos bebês com até 7 dias de vida; em outros, esse percentual de cobertura fica próximo a 90%"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em debate promovido na terça-feira (29) pela Comissão de Saúde da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O teste do pezinho é feito a partir da coleta de sangue no calcanhar dos recém-nascidos para identificar doenças metabólicas, genéticas e infecciosas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Há locais em que a coleta é realizada em apenas 24% dos bebês com até 7 dias de vida; em outros, esse percentual de cobertura fica próximo a 90%"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Desde o ano passado, está em vigor a Lei 14.154/21, que ampliou para mais de 50 o número de doenças que poderão ser rastreadas pelo teste do pezinho feito pelo SUS"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O teste do pezinho é feito a partir da coleta de sangue no calcanhar dos recém-nascidos para identificar doenças metabólicas, genéticas e infecciosas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

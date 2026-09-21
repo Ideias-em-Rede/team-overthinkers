@@ -62,6 +62,7 @@ export interface ParticipantesMateriaFile {
 
 export interface MateriaLlmFile {
   id: number;
+  generator?: string;
   modelo: string;
   temperature: number;
   prompt: string;

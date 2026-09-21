@@ -1,0 +1,36 @@
+{
+  "id": 74,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "os desafios do Brasil para garantir a aplicação plena do Estatuto da Criança e do Adolescente (ECA)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Debatedores apontaram nesta segunda-feira (11), em audiência pública na Comissão de Legislação Participativa da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o ECA ainda é visto por especialistas como letra morta na garantia dos direitos à vida, à saúde, à alimentação e à educação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Crianças e adolescentes não foram escutados"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Considerado o maior sistema de proteção de crianças e adolescentes do planeta pela Organização das Nações Unidas (ONU)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

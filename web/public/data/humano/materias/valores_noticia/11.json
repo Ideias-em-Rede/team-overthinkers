@@ -1,0 +1,36 @@
+{
+  "id": 11,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Mais de 5 milhões de pessoas estão em área de seca extrema ou severa, segundo o Centro Nacional de Monitoramento e Alertas de Desastres Naturais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública na Comissão de Meio Ambiente da Câmara dos Deputados, nesta quinta-feira (14), cientistas e gestores públicos reforçaram os alertas de seca severa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Mais de 5 milhões de pessoas estão em área de seca extrema ou severa"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Nos últimos 60 anos, houve aumento de cerca de 80 mil quilômetros quadrados no semiárido brasileiro"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A região Nordeste, que já havia enfrentado o mais longo período de seca da história entre 2012 e 2018, sofre agora com a combinação dos efeitos do fenômeno El Niño e das mudanças climáticas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

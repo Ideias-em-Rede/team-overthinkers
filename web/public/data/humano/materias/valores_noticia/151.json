@@ -1,0 +1,36 @@
+{
+  "id": 151,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Brasil, só 15% dos presos estão matriculados na Educação de Jovens e Adultos, apesar de que quase 47% deles não tenham concluído o ensino fundamental."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do governo e deputados participaram de debate na Câmara nesta terça-feira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A educação é fundamental para que as pessoas possam acessar seus direitos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay (PT-DF) criticou a situação atual em que, ao invés de ampliar o acesso à educação, os governos estão se empenhando em colocar grades nas salas de aula."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "É importante o estabelecimento de metas para ampliar o acesso à educação, que ainda é muito pequeno."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

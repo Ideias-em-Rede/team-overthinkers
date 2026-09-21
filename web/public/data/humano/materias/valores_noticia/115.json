@@ -1,0 +1,36 @@
+{
+  "id": 115,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo a Confederação Nacional dos Municípios, 93% das cidades brasileiras enfrentaram desastre natural entre 2013 e 2022."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Cientistas apontaram quadro de “colapso climático” no planeta e cobraram medidas concretas no Brasil, durante audiência pública nesta terça-feira (5) da Comissão Especial de Prevenção e Auxílio a Desastres Naturais da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Astrini lembrou que os últimos oito anos foram os mais quentes da história, segundo a Organização Meteorológica Mundial (OMN)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Diante do aquecimento global em velocidade acima da esperada e do pouco avanço em acordos internacionais, eles mostraram a urgência de descarbonização, reflorestamento e monitoramento dos biomas, a fim de enfrentar a sucessão de eventos extremos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Estamos presenciando aumento de temperatura nos oceanos como a gente nunca viu."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Doutor em ciências atmosféricas, o físico Alexandre Araújo da Costa comparou a atual elevada concentração de gases do efeito estufa a bombas atômicas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

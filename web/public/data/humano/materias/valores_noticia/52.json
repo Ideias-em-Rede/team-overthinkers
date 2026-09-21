@@ -1,0 +1,36 @@
+{
+  "id": 52,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "episódio que aconteceu no início de março envolvendo alunas de uma faculdade de Bauru, no interior de São Paulo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Secretário Nacional de Promoção e Defesa dos Direitos da Pessoa Idosa, Alexandre da Silva"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a discriminação compromete a qualidade de vida dos idosos e é o primeiro passo para a violência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Três colegas publicaram vídeos na internet zombando da estudante Patricia Linares por ela estar cursando Biomedicina com mais de 40 anos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Um informe mundial da Organização Mundial da Saúde (OMS) sobre etarismo mostra que uma em cada duas pessoas já sofreu algum tipo de discriminação por causa da idade"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

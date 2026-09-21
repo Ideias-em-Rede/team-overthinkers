@@ -1,0 +1,36 @@
+{
+  "id": 70,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a possiblidade de instalação de quatro usinas termelétricas flutuantes (em navios) e de linhas de transmissão de energia elétrica sobre as águas da Baía de Sepetiba, na Zona Oeste do Rio de Janeiro"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputados e ambientalistas demonstraram preocupação nesta quarta-feira (3), em audiência pública na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "as temelétricas têm potencial para elevar a temperatura das águas no local em até 15º C, o que, segundo ela, ameaçaria a vida de diversas espécies"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados e ambientalistas criticam instalação de termelétricas no RJ sem estudos ambientais"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a possiblidade de instalação de quatro usinas termelétricas flutuantes (em navios) e de linhas de transmissão de energia elétrica sobre as águas da Baía de Sepetiba"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a instalação das termelétricas desconsidera aspectos como a supressão de áreas de Mata Atlântica, a atividade de pescadores artesanais na região e a fauna local"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

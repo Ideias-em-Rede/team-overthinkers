@@ -1,0 +1,36 @@
+{
+  "id": 78,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O nosso município é muito dependente da SIX. A perda da unidade vai corresponder a aproximadamente 40% dos impostos do município."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Henrique Jager, economista e pesquisador do Instituto de Estudos Estratégicos de Petróleo, Gás Natural e Biocombustíveis (Ineep)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A perda da unidade vai corresponder a aproximadamente 40% dos impostos do município."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O processo de venda foi direcionado para essa empresa que participou, de 2007 até 2012, do processo de internacionalização do Petrosix, recebendo informações privilegiadas, chegando até a espionagem industrial"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O xisto é um mineral em forma de rocha argilosa que, quando submetido a altas temperaturas, produz um tipo não convencional de petróleo, do qual se extraem combustíveis como gás liquefeito, óleo diesel e gasolina."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}
