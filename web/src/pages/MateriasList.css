@@ -75,6 +75,18 @@
   font-size: 0.8rem;
 }
 
+.materia-card__tema {
+  align-self: flex-start;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--navy);
+  background: var(--blue-soft);
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+}
+
 .materia-card h3 {
   font-size: 1rem;
   line-height: 1.35;

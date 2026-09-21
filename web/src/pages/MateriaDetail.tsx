@@ -1,69 +1,106 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import type { MateriaDetail as MateriaDetailT, MateriaLlmFile } from "../types";
-import ValoresNoticia from "../components/ValoresNoticia";
-import ParticipantesAnalise from "../components/ParticipantesAnalise";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import BrazilMapCount, { type UfCount } from "../components/BrazilMapCount";
+import type {
+  MateriaDetail as MateriaDetailT,
+  MateriaEnvolvidosEntry,
+  ResumoTranscricaoEntry,
+  ResumoTranscricaoMap,
+  TemaEntry,
+  TemasMap,
+  ValoresNoticiaFile,
+} from "../types";
 import "./MateriaDetail.css";
 
-type Tab = "humano" | "llm";
+const VALOR_LABELS: Record<string, string> = {
+  proximidade: "Proximidade",
+  proeminencia: "Proeminência",
+  impacto: "Impacto",
+  conflito: "Conflito",
+  novidade: "Novidade",
+  interesse: "Interesse",
+  sensacionalismo: "Sensacionalismo",
+};
 
-const GENERATORS: { id: string; label: string }[] = [
-  { id: "openai", label: "OpenAI" },
-  { id: "gemini", label: "Gemini" },
-  { id: "anthropic", label: "Anthropic" },
-  { id: "deepseek", label: "DeepSeek" },
-];
+const PARTY_COLORS: Record<string, string> = {
+  PT: "#d1442c",
+  PL: "#2d7d46",
+  NOVO: "#f19c1f",
+  PP: "#1e5aa8",
+  PSDB: "#0077b6",
+  MDB: "#8e44ad",
+  UNIÃO: "#c0392b",
+  PSD: "#16a085",
+  REPUBLICANOS: "#5b6dcd",
+  PSB: "#e67e22",
+  PDT: "#c62828",
+  PCdoB: "#b71c1c",
+  SOLIDARIEDADE: "#455a64",
+  PODE: "#7b1fa2",
+  AVANTE: "#00838f",
+  CIDADANIA: "#ef6c00",
+};
+
+interface PageData {
+  materia: MateriaDetailT;
+  valores: ValoresNoticiaFile;
+  envolvidos: MateriaEnvolvidosEntry | null;
+  resumo: ResumoTranscricaoEntry | null;
+  tema: TemaEntry | null;
+}
 
 export default function MateriaDetail() {
   const { id } = useParams<{ id: string }>();
-  const [materia, setMateria] = useState<MateriaDetailT | null>(null);
-  const [llmByGenerator, setLlmByGenerator] = useState<Record<string, MateriaLlmFile>>({});
-  const [selectedGenerator, setSelectedGenerator] = useState<string | null>(null);
+  const [data, setData] = useState<PageData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [showTranscricao, setShowTranscricao] = useState(false);
-  const [tab, setTab] = useState<Tab>("humano");
 
   useEffect(() => {
     if (!id) return;
     let cancelled = false;
-    setMateria(null);
-    setLlmByGenerator({});
-    setSelectedGenerator(null);
+    setData(null);
     setError(null);
     setShowTranscricao(false);
-    setTab("humano");
 
-    fetch(`/data/materias/${id}.json`)
-      .then((r) => {
+    Promise.all([
+      fetch(`/data/humano/materias/materias/${id}.json`).then((r) => {
         if (!r.ok) throw new Error(`Matéria #${id} não encontrada`);
-        return r.json();
+        return r.json() as Promise<MateriaDetailT>;
+      }),
+      fetch(`/data/humano/materias/valores_noticia/${id}.json`).then((r) =>
+        r.ok ? (r.json() as Promise<ValoresNoticiaFile>) : Promise.reject(new Error("valores_noticia ausente"))
+      ),
+      fetch(`/data/humano/materias/participantes/participantes.json`).then((r) =>
+        r.ok ? (r.json() as Promise<MateriaEnvolvidosEntry[]>) : Promise.resolve([] as MateriaEnvolvidosEntry[])
+      ),
+      fetch(`/data/humano/transcricoes/resumo/resumo_transcricao.json`).then((r) =>
+        r.ok ? (r.json() as Promise<ResumoTranscricaoMap>) : Promise.resolve({} as ResumoTranscricaoMap)
+      ),
+      fetch(`/data/humano/transcricoes/temas/temas_audiencias.json`).then((r) =>
+        r.ok ? (r.json() as Promise<TemasMap>) : Promise.resolve({} as TemasMap)
+      ),
+    ])
+      .then(([materia, valores, envolvidos, resumo, temas]) => {
+        if (cancelled) return;
+        setData({
+          materia,
+          valores,
+          envolvidos: envolvidos.find((e) => e.id === materia.id) ?? null,
+          resumo: resumo[String(materia.id)] ?? null,
+          tema: temas[String(materia.id)] ?? null,
+        });
       })
-      .then((d) => {
-        if (!cancelled) setMateria(d);
-      })
-      .catch((e) => {
-        if (!cancelled) setError(e.message);
-      });
-
-    Promise.all(
-      GENERATORS.map(async ({ id: gid }) => {
-        try {
-          const r = await fetch(`/data/materia_llm/${gid}/${id}.json`);
-          if (!r.ok) return null;
-          const d = (await r.json()) as MateriaLlmFile;
-          return [gid, d] as const;
-        } catch {
-          return null;
-        }
-      })
-    ).then((results) => {
-      if (cancelled) return;
-      const map: Record<string, MateriaLlmFile> = {};
-      for (const r of results) if (r) map[r[0]] = r[1];
-      setLlmByGenerator(map);
-      const first = GENERATORS.find(({ id: gid }) => map[gid])?.id ?? null;
-      setSelectedGenerator(first);
-    });
+      .catch((e) => !cancelled && setError(e.message));
 
     return () => {
       cancelled = true;
@@ -73,115 +110,136 @@ export default function MateriaDetail() {
   if (error) {
     return (
       <div className="detail">
-        <Link to="/materias" className="btn ghost">
-          ← Voltar para matérias
-        </Link>
+        <Link to="/materias" className="btn ghost detail__back">← Voltar para matérias</Link>
         <div className="empty">{error}</div>
       </div>
     );
   }
 
-  if (!materia) return <div className="loading">Carregando matéria…</div>;
+  if (!data) return <div className="loading">Carregando matéria…</div>;
 
-  const availableGenerators = GENERATORS.filter(({ id: gid }) => llmByGenerator[gid]);
-  const hasLlm = availableGenerators.length > 0 && !!selectedGenerator;
-  const activeTab: Tab = hasLlm ? tab : "humano";
-  const llm = selectedGenerator ? llmByGenerator[selectedGenerator] : null;
+  const { materia, valores, envolvidos, resumo, tema } = data;
+  const totalOpinioes = envolvidos
+    ? envolvidos.envolvidos.reduce((a, e) => a + e.quantidade_opinioes, 0)
+    : null;
 
   return (
     <article className="detail">
-      <Link to="/materias" className="btn ghost detail__back">
-        ← Voltar para matérias
-      </Link>
+      <Link to="/materias" className="btn ghost detail__back">← Voltar para matérias</Link>
 
-      {hasLlm && (
-        <div className="tabs">
-          <TabBtn
-            active={activeTab === "humano"}
-            onClick={() => setTab("humano")}
-            icon="📰"
-            title="Matéria humana"
-            sub="Agência Câmara"
-          />
-          <TabBtn
-            active={activeTab === "llm"}
-            onClick={() => setTab("llm")}
-            icon="🤖"
-            title="Matéria gerada por LLM"
-            sub={llm ? `${llm.modelo} · sobre a transcrição` : "sobre a transcrição"}
-          />
+      {/* 1) Título */}
+      <header className="detail__head">
+        <div className="detail__meta">
+          <span className="badge">#{materia.id}</span>
+          {materia.data && (
+            <span className="muted">
+              {materia.data}
+              {materia.hora ? ` · ${materia.hora}` : ""}
+            </span>
+          )}
+          {tema?.tema && <span className="badge badge--tema">{tema.tema}</span>}
         </div>
-      )}
-
-      <section className="detail__section detail__section--materia">
-        <div className="detail__section-head">
-          <span className="detail__section-eyebrow">Matéria</span>
-        </div>
-        {activeTab === "llm" && availableGenerators.length > 0 && (
-          <div className="detail__generator-toolbar">
-            <label className="detail__generator">
-              <span className="detail__generator-label">Modelo Gerador</span>
-              <select
-                className="detail__generator-select"
-                value={selectedGenerator ?? ""}
-                onChange={(e) => setSelectedGenerator(e.target.value)}
-              >
-                {availableGenerators.map(({ id: gid, label }) => {
-                  const d = llmByGenerator[gid];
-                  return (
-                    <option key={gid} value={gid}>
-                      {label} · {d.modelo}
-                    </option>
-                  );
-                })}
-              </select>
-            </label>
-          </div>
+        <h1>{materia.titulo}</h1>
+        {materia.subtitulo && <p className="detail__sub">{materia.subtitulo}</p>}
+        {(tema?.assunto || materia.assunto) && (
+          <p className="detail__assunto">
+            <strong>Assunto:</strong> {tema?.assunto ?? materia.assunto}
+          </p>
         )}
-        {activeTab === "humano" ? (
-          <ArticleHumano materia={materia} />
+      </header>
+
+      {/* 2) Matéria */}
+      <section className="detail__section">
+        <h2 className="detail__section-title">Matéria</h2>
+        <div className="detail__body">
+          {materia.corpo.split(/\n\s*\n/).map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
+        </div>
+      </section>
+
+      {/* 3) Cards de números gerais */}
+      <section className="detail__kpis">
+        <KpiCard
+          label="Participantes na audiência"
+          value={resumo?.resumo.quantidade_participantes ?? "—"}
+        />
+        <KpiCard
+          label="Mencionados na matéria"
+          value={envolvidos?.envolvidos.length ?? "—"}
+        />
+        <KpiCard
+          label="Mulheres na audiência"
+          value={
+            tema
+              ? `${tema.quantidade_mulheres} (${tema.porcentagem_mulheres.toFixed(1)}%)`
+              : "—"
+          }
+        />
+        <KpiCard
+          label="Opiniões atribuídas"
+          value={totalOpinioes ?? "—"}
+        />
+      </section>
+
+      {/* 4) Valores-notícia */}
+      <section className="detail__section">
+        <h2 className="detail__section-title">Valores-notícia</h2>
+        <p className="detail__section-sub muted">
+          Critérios de noticiabilidade identificados na matéria (DeepSeek-V3).
+        </p>
+        <ValoresList valores={valores} />
+      </section>
+
+      {/* 5) Distribuições */}
+      <section className="detail__section">
+        <h2 className="detail__section-title">Distribuição na audiência</h2>
+        <p className="detail__section-sub muted">
+          Perfil dos participantes na transcrição (regex).
+        </p>
+        {resumo ? (
+          <div className="detail__dists-stack">
+            <div className="dist-row">
+              <ColumnBar
+                titulo="Por gênero"
+                data={[
+                  { k: "Homens", v: resumo.resumo.genero.masculino, color: "var(--navy)" },
+                  { k: "Mulheres", v: resumo.resumo.genero.feminino, color: "#c94f7c" },
+                ]}
+              />
+              <ColumnBar
+                titulo="Por partido"
+                data={Object.entries(resumo.resumo.partidos)
+                  .map(([k, v]) => ({
+                    k,
+                    v: v.participantes,
+                    color: PARTY_COLORS[k] ?? "var(--blue)",
+                  }))
+                  .sort((a, b) => b.v - a.v)}
+              />
+            </div>
+            <MapaEstados data={resumo.resumo.estados} />
+          </div>
         ) : (
-          llm && <ArticleLlm llm={llm} />
+          <p className="muted">Sem dados de resumo para esta audiência.</p>
         )}
       </section>
 
-      <section className="detail__section detail__section--selecao">
-        <div className="detail__section-head">
-          <span className="detail__section-eyebrow">Seleção jornalística</span>
-        </div>
-
-        <div className="detail__subgroup">
-          <div className="detail__subgroup-head">
-            <h2>Valores-notícia</h2>
-            <p className="detail__subgroup-intro">
-              Critérios tradicionalmente utilizados para explicar a seleção de
-              acontecimentos jornalísticos.
-            </p>
-          </div>
-          <ValoresNoticia
-            materiaId={materia.id}
-            source={activeTab}
-            generator={activeTab === "llm" ? selectedGenerator : null}
-            embedded
-          />
-        </div>
-
-        <div className="detail__subgroup">
-          <div className="detail__subgroup-head">
-            <h2>Padrões de seleção</h2>
-            <p className="detail__subgroup-intro">
-              Características analisadas para investigar quem aparece na
-              notícia e quanto espaço recebe.
-            </p>
-          </div>
-          <ParticipantesAnalise
-            materiaId={materia.id}
-            editor={activeTab}
-            embedded
-          />
-        </div>
+      {/* 6) Mencionados na matéria (accordion) */}
+      <section className="detail__section">
+        <h2 className="detail__section-title">Mencionados na matéria</h2>
+        <p className="detail__section-sub muted">
+          Nomes citados na matéria com suas opiniões (DeepSeek-V3). Clique para
+          expandir.
+        </p>
+        {envolvidos && envolvidos.envolvidos.length > 0 ? (
+          <MencionadosAccordion envolvidos={envolvidos.envolvidos} />
+        ) : (
+          <p className="muted">Nenhum mencionado identificado.</p>
+        )}
       </section>
 
+      {/* 7) Transcrição */}
       <section className="detail__transcricao-section">
         <div className="detail__transcricao-head">
           <h2>Transcrição da audiência</h2>
@@ -201,86 +259,176 @@ export default function MateriaDetail() {
   );
 }
 
-function TabBtn({
-  active,
-  onClick,
-  icon,
-  title,
-  sub,
+function KpiCard({
+  label,
+  value,
 }: {
-  active: boolean;
-  onClick: () => void;
-  icon: string;
-  title: string;
-  sub: string;
+  label: string;
+  value: string | number;
 }) {
   return (
-    <button
-      className={`tabs__tab ${active ? "tabs__tab--active" : ""}`}
-      onClick={onClick}
-    >
-      <span className="tabs__icon">{icon}</span>
-      <span>
-        <strong>{title}</strong>
-        <span className="tabs__sub">{sub}</span>
-      </span>
-    </button>
+    <div className="kpi">
+      <div className="kpi__value">{value}</div>
+      <div className="kpi__label">{label}</div>
+    </div>
   );
 }
 
-function ArticleHumano({ materia }: { materia: MateriaDetailT }) {
+function ValoresList({ valores }: { valores: ValoresNoticiaFile }) {
+  const entries = Object.entries(VALOR_LABELS).map(([k, label]) => {
+    const v = valores.valores_noticia[k];
+    return { k, label, presente: !!v?.presente, evidencia: v?.evidencia ?? null };
+  });
   return (
-    <>
-      <header className="detail__head">
-        <div className="detail__meta">
-          <span className="badge">#{materia.id}</span>
-          {materia.data && (
-            <span className="muted">
-              {materia.data}
-              {materia.hora ? ` · ${materia.hora}` : ""}
+    <div className="valores-grid">
+      {entries.map(({ k, label, presente, evidencia }) => (
+        <div key={k} className={`valor-card ${presente ? "on" : "off"}`}>
+          <div className="valor-card__head">
+            <span className="valor-card__label">{label}</span>
+            <span className={`valor-card__status ${presente ? "on" : "off"}`}>
+              {presente ? "presente" : "ausente"}
             </span>
+          </div>
+          {presente && evidencia ? (
+            <p className="valor-card__evidencia">{evidencia}</p>
+          ) : (
+            <p className="valor-card__evidencia valor-card__evidencia--empty muted">
+              Sem evidência.
+            </p>
           )}
         </div>
-        <h1>{materia.titulo}</h1>
-        {materia.subtitulo && <p className="detail__sub">{materia.subtitulo}</p>}
-      </header>
-      <div className="detail__body">
-        {materia.corpo.split(/\n\s*\n/).map((p, i) => (
-          <p key={i}>{p}</p>
-        ))}
-      </div>
-    </>
+      ))}
+    </div>
   );
 }
 
-function ArticleLlm({ llm }: { llm: MateriaLlmFile }) {
-  return (
-    <>
-      <header className="detail__head detail__head--llm">
-        <div className="detail__meta">
-          <span className="badge badge--llm">gerada por LLM</span>
-          <span className="muted">
-            {llm.modelo} · temperatura {llm.temperature}
-          </span>
+interface ColumnBarDatum {
+  k: string;
+  v: number;
+  color: string;
+}
+
+function ColumnBar({ titulo, data }: { titulo: string; data: ColumnBarDatum[] }) {
+  const total = data.reduce((a, d) => a + d.v, 0);
+  if (!data.length) {
+    return (
+      <div className="dist">
+        <div className="dist__head">
+          <h3 className="dist__title">{titulo}</h3>
         </div>
-        <p className="detail__llm-note">
-          Texto produzido por LLM a partir da transcrição da audiência, sem
-          contato com a versão humana.
-        </p>
-      </header>
-      <div className="detail__body">
-        {llm.materia_llm.split(/\n\s*\n/).map((p, i) => (
-          <p key={i} dangerouslySetInnerHTML={{ __html: renderLite(p) }} />
-        ))}
+        <p className="muted">Sem dados.</p>
       </div>
-    </>
+    );
+  }
+  return (
+    <div className="dist">
+      <div className="dist__head">
+        <h3 className="dist__title">{titulo}</h3>
+        <span className="muted">
+          {total} participantes · {data.length} categorias
+        </span>
+      </div>
+      <ResponsiveContainer width="100%" height={220}>
+        <BarChart data={data} margin={{ top: 8, right: 8, bottom: 4, left: 0 }}>
+          <CartesianGrid stroke="#eef2f7" vertical={false} />
+          <XAxis
+            dataKey="k"
+            stroke="#6b7a8f"
+            fontSize={12}
+            tickLine={false}
+            interval={0}
+            angle={data.length > 5 ? -30 : 0}
+            textAnchor={data.length > 5 ? "end" : "middle"}
+            height={data.length > 5 ? 60 : 24}
+          />
+          <YAxis
+            stroke="#6b7a8f"
+            fontSize={12}
+            tickLine={false}
+            allowDecimals={false}
+          />
+          <Tooltip
+            cursor={{ fill: "rgba(0,119,182,0.06)" }}
+            contentStyle={{
+              border: "1px solid #e1e5ec",
+              borderRadius: 8,
+              fontSize: 12,
+            }}
+            formatter={(v) => [String(v), "participantes"]}
+          />
+          <Bar dataKey="v" radius={[4, 4, 0, 0]}>
+            {data.map((d) => (
+              <Cell key={d.k} fill={d.color} />
+            ))}
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
   );
 }
 
-function renderLite(text: string): string {
-  const escaped = text
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-  return escaped.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+function MapaEstados({
+  data,
+}: {
+  data: Record<string, { participantes: number; falas: number; palavras: number }>;
+}) {
+  const items: UfCount[] = useMemo(
+    () =>
+      Object.entries(data).map(([uf, v]) => ({
+        uf,
+        count: v.participantes,
+        extra: { falas: v.falas, palavras: v.palavras.toLocaleString("pt-BR") },
+      })),
+    [data]
+  );
+  const total = items.reduce((a, i) => a + i.count, 0);
+
+  return (
+    <div className="dist">
+      <div className="dist__head">
+        <h3 className="dist__title">Por estado</h3>
+        <span className="muted">
+          {total} participantes · {items.length} UFs representadas
+        </span>
+      </div>
+      {items.length > 0 ? (
+        <BrazilMapCount data={items} color="#003366" label="participantes" />
+      ) : (
+        <p className="muted">Sem dados.</p>
+      )}
+    </div>
+  );
+}
+
+function MencionadosAccordion({
+  envolvidos,
+}: {
+  envolvidos: MateriaEnvolvidosEntry["envolvidos"];
+}) {
+  const ordered = [...envolvidos].sort((a, b) => b.mencoes - a.mencoes);
+  return (
+    <div className="mencionados">
+      {ordered.map((e) => (
+        <details key={e.nome} className="mencionado">
+          <summary className="mencionado__summary">
+            <span className="mencionado__nome">{e.nome}</span>
+            <span className="mencionado__stats muted">
+              {e.mencoes} menç. · {e.quantidade_opinioes} opinião
+              {e.quantidade_opinioes === 1 ? "" : "ões"} · {e.posicao_no_texto}
+            </span>
+            <span className="mencionado__chev" aria-hidden>▾</span>
+          </summary>
+          {e.opinioes.length > 0 ? (
+            <ul className="mencionado__opinioes">
+              {e.opinioes.map((o, i) => (
+                <li key={i}>{o}</li>
+              ))}
+            </ul>
+          ) : (
+            <p className="muted mencionado__empty">Sem opiniões registradas.</p>
+          )}
+        </details>
+      ))}
+    </div>
+  );
 }
