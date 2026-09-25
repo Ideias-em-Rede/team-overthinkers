@@ -1,0 +1,36 @@
+{
+  "id": 68,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "150 mil brasileiros são diagnosticados com retinopatia diabética anualmente"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados, em conjunto com a Comissão de Seguridade Social e Família"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "80% dos casos de cegueira poderiam ser evitados com prevenção e tratamento adequados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Pirolo questionou a inclusão do medicamento Avastin no protocolo sem consulta pública e alertou para os efeitos colaterais do seu uso off-label"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi interativa e transmitida pelo portal e-Democracia"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

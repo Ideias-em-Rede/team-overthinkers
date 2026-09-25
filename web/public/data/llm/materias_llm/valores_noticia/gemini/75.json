@@ -1,0 +1,36 @@
+{
+  "id": 75,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Medida Provisória (MP) nº 1.116/2022, que institui o Programa Emprega + Mulheres e Jovens"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Bia Kicis (PL-DF), contou com a participação de representantes do governo, do judiciário, do Ministério Público, de sindicatos, de entidades empresariais e da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre as medidas, destacou o reembolso-creche para pais com filhos de até 5 anos, a possibilidade de saque do FGTS para despesas com creche e qualificação, a flexibilização do regime de trabalho para pais e mães, e a criação do Selo Emprega + Mulher para reconhecer boas práticas empresariais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Por outro lado, a MP recebeu críticas contundentes. Adriane Reis de Araújo, do Ministério Público do Trabalho (MPT), argumentou que uma medida provisória não é o meio adequado para tratar de relações de trabalho"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Medida Provisória (MP) nº 1.116/2022, que institui o Programa Emprega + Mulheres e Jovens"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi encerrada pela Deputada Bia Kicis devido ao início da Ordem do Dia no plenário da Câmara, que impediu o debate das perguntas enviadas pelo público"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

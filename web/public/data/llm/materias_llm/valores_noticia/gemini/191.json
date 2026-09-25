@@ -1,0 +1,36 @@
+{
+  "id": 191,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo Deputado Bruno Ganem (PODE-SP), reuniu especialistas e representantes de ministérios para discutir os impactos e as oportunidades do tema para o Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta pelo Deputado Bruno Ganem, que destacou a importância do requerimento de autoria do Deputado Nilto Tatto (PT-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela citou que acordos internacionais, como o entre União Europeia e Mercosul, já incluem cláusulas sobre o tema que podem se tornar barreiras comerciais."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Resolução Nexus, aprovada em 2022, reconheceu oficialmente a interdependência entre as áreas e solicita que os países-membros realizem estudos para embasar um relatório global."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela apresentou dados do PNUMA e do IPCC sobre a crise climática, afirmando que os sistemas alimentares são responsáveis por um terço das emissões globais de gases de efeito estufa."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

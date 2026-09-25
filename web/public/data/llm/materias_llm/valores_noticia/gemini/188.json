@@ -1,0 +1,36 @@
+{
+  "id": 188,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Uma audiência pública conjunta da Comissão de Defesa dos Direitos da Mulher e da Comissão de Ciência, Tecnologia e Inovação debateu nesta quarta-feira os desafios e a luta por direitos das mulheres na carreira científica."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Conduzida pela deputada Ana Pimentel (PT-MG), a reunião contou com a participação de representantes do governo, de agências de fomento, universidades e entidades da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "dados apontam que doutoras no mercado de trabalho formal recebem remuneração menor que os homens"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O assédio moral e sexual no ambiente acadêmico também foi citado como uma barreira"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Dalila Andrade Oliveira anunciou que o CNPq prepara uma chamada de R$ 100 milhões para projetos destinados a meninas nas ciências exatas, engenharias e computação"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A maternidade foi apontada como um dos principais fatores que impactam a carreira das cientistas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

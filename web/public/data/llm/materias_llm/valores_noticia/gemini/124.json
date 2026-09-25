@@ -1,0 +1,36 @@
+{
+  "id": 124,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente do Instituto Nacional de Colonização e Reforma Agrária (INCRA), César Fernando Schiavon Aldrighi, e a diretora do Ministério do Desenvolvimento Agrário e Agricultura Familiar (MDA), Shirley Anny Abreu do Nascimento, prestaram esclarecimentos a pedido da deputada Coronel Fernanda (PL-MT)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada também questionou Aldrighi sobre a situação da superintendência do INCRA em Mato Grosso, que, segundo ela, não possui sede e cujo superintendente estaria atendendo no gabinete de um deputado estadual do PT."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A deputada Coronel Fernanda iniciou o debate questionando se o INCRA participou da elaboração do decreto, o que foi confirmado por Aldrighi. A parlamentar expressou preocupação sobre a nova regra que impede a regularização em áreas sobrepostas a florestas públicas e sobre a definição do termo 'floresta em pé', temendo prejuízos aos produtores."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O presidente do INCRA explicou que, por essas novas checagens ainda não estarem automatizadas, o órgão emitiu um ofício interno em 5 de outubro determinando o 'sobrestamento temporário' dos processos."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Uma audiência pública realizada na Câmara dos Deputados debateu os impactos do Decreto nº 11.688, de 5 de setembro de 2023, que altera as regras para a regularização fundiária de áreas rurais da União na Amazônia Legal."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

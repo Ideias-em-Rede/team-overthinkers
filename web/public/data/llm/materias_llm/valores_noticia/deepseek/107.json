@@ -1,0 +1,36 @@
+{
+  "id": 107,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os coordenadores estaduais presentes, representando Acre, Alagoas, Maranhão, Minas Gerais, Paraná, Rio Grande do Sul, Rio de Janeiro, São Paulo e Salvador, relataram os desafios enfrentados em seus territórios, que variam entre enchentes, secas, deslizamentos e granizo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Gilson Daniel (PODE-ES), autor do requerimento da audiência e presidente da sessão, destacou a importância da integração entre os entes federativos e do fortalecimento do financiamento para ações de prevenção."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre as demandas comuns, foram destacadas a necessidade de modernização e ampliação da rede de radares meteorológicos, a efetiva implantação do sistema de alerta por cell broadcast, a desburocratização dos repasses de recursos emergenciais e a regulamentação de fontes permanentes de financiamento, especialmente para o Fundo Especial para Calamidades Públicas (FUNCAP)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Sosthenes Macêdo, diretor-geral da Defesa Civil de Salvador e presidente do Fórum Nacional de Secretários e Dirigentes da Defesa Civil das Capitais, criticou a falta de recursos para políticas preventivas e habitacionais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os coordenadores também concordaram sobre a importância de se criar uma 'cultura de risco' na população."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

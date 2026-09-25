@@ -1,0 +1,36 @@
+{
+  "id": 149,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O segmento de pessoas idosas é o que mais cresce no país, representando cerca de 15% da população."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da Mesa o Secretário Nacional dos Direitos da Pessoa Idosa, Alexandre da Silva; o Diretor Substituto do Departamento de Proteção Social Especial e Coordenador-Geral de Áreas Transversais, Multissetoriais e Participação Social do Ministério do Planejamento e Orçamento, Danyel Iório de Lima; e o Secretário de Relações de Trabalho, Mobilização e Inserção Profissional da Federação Nacional dos Arquitetos e Urbanistas (FNA), Matheus Guerra Cotta."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele listou implicações como a crescente demanda por serviços de saúde e cuidado, o financiamento da Previdência Social e a necessidade de inclusão de pessoas no mercado formal de trabalho."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Michel Saad, Vice-Presidente da Comissão do Idoso da OAB/RJ, questionou os valores orçamentários específicos para políticas da pessoa idosa e defendeu os tecnólogos em gerontologia."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Vladimir Milton Pomar alertou para a iminência de uma 'crise populacional' em algumas regiões do país, especialmente no Sul, com pequenos municípios podendo ter até 50% de seu eleitorado composto por idosos em 15 anos."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi convocado por meio do Requerimento nº 38, de 2023, de autoria do presidente da Comissão, deputado Alexandre Lindenmeyer (PT-RS)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

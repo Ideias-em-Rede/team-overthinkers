@@ -1,0 +1,36 @@
+{
+  "id": 113,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial da Câmara dos Deputados que estuda formas de prevenção e auxílio a desastres e calamidades naturais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo presidente do colegiado, deputado Leo Prates (PDT-BA), e conduzida pelo relator, deputado Gilson Daniel (PODE-ES)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O principal desafio da comissão é criar um 'arcabouço legal' para proteger as populações vulneráveis em eventos como enchentes e secas"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O recurso pode ser usado para manter alojamentos provisórios em locais como escolas e ginásios, mas também para opções mais humanizadas, como o aluguel de casas, hotéis e pousadas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

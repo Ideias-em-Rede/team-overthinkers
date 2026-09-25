@@ -1,0 +1,36 @@
+{
+  "id": 184,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram presencialmente e virtualmente representantes do MCTI, BNDES, CNPq, FINEP, CNI, ANPEI, TECNOPUC, SBPC e CONFAP, entre outros atores do ecossistema de inovação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "necessidade de maior financiamento para P,D&I (vários oradores mencionaram o patamar atual próximo a 1% do PIB e metas superiores, como 2%)"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "discutir a integração entre governo, universidades e empresas — o chamado modelo da 'tríplice hélice' — e medidas para transformar produção de conhecimento em inovação no país."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

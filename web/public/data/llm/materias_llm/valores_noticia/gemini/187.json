@@ -1,0 +1,36 @@
+{
+  "id": 187,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes das comunidades ciganas trouxeram suas demandas e relatos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Luizianne Lins, autora do requerimento para a audiência, abriu a sessão destacando que o projeto, originário do Senado, aguarda a instalação de uma Comissão Especial na Câmara."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele mencionou a violência policial como um problema que afeta todos os ciganos, independentemente da condição econômica, e sugeriu a inclusão da população cigana no programa Minha Casa, Minha Vida."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Claudio Domingos Iovanovitchi, da Associação de Preservação da Cultura Cigana (APRECI), criticou a ausência de dados do IBGE sobre a população cigana, o que, segundo ele, dificulta a formulação de políticas públicas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Edvalda Bispo dos Santos Viana, cigana Calin da Bahia, falou sobre a dificuldade de inserção social e a violência enfrentada, especialmente a policial."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

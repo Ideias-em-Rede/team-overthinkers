@@ -1,0 +1,36 @@
+{
+  "id": 148,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "o javali hoje está presente em mais de 2.000 municípios"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "a Comissão de Agricultura, Pecuária e Abastecimento e Desenvolvimento Rural da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "perdas de até R$ 42 bilhões em caso de um surto de peste suína"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "a suspensão temporária do Sistema de Informação de Manejo de Fauna (SIMAF) pelo IBAMA foi um ponto central do debate"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "os riscos que representam para o país"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

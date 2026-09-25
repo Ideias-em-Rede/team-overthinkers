@@ -1,0 +1,36 @@
+{
+  "id": 83,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Entre os pontos centrais levantados pelos expositores estiveram a 'invisibilidade' da população em situação de rua e suas consequências, a falta de dados nacionais sólidos, a insuficiência de políticas habitacionais específicas e a necessidade de priorizar o acesso à moradia como porta de entrada para outros direitos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes do Judiciário, do Ministério da Mulher, da Família e dos Direitos Humanos, de agências da ONU, das defensorias públicas, de universidades, de conselhos de direitos humanos e de movimentos sociais ligados à população em situação de rua."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Também foi destacada a desproporção racial: um censo do Distrito Federal apontou que 71,1% das pessoas em situação de rua no DF se declararam negras."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Defensores públicos e organizações alertaram para riscos imediatos. Ronan Figueiredo e Renan Sotto Mayor destacaram a gravidade da invisibilidade e da pobreza extrema, pediram a aprovação do PL 5.740/2016 e alertaram para o fim do prazo de impedimento de remoções e despejos relacionado à ADPF 828."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Markinhus Souza, do Movimento de Meninos e Meninas de Rua, destacou o 'impacto violento da invisibilidade', especialmente sobre crianças e adolescentes, e chamou atenção para o tema dos filhos de pessoas encarceradas como fator que pode levar crianças às ruas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

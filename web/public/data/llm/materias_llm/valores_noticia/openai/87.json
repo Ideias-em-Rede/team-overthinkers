@@ -1,0 +1,36 @@
+{
+  "id": 87,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Projeto de Lei Complementar (PLP) 12/2024, que regulamenta a relação de trabalho intermediado por empresas operadoras de aplicativos de transporte"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião — convocada pelo presidente da comissão, deputado Josenildo (PDT-AP) — reuniu representantes do Governo, das plataformas, de associações e sindicatos de motoristas, do Ministério Público do Trabalho e parlamentares"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O objetivo do PLP como inserir trabalhadores de aplicativo na proteção previdenciária"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Várias lideranças de associações e sindicatos de motoristas criticaram pontos centrais do PLP 12, sobretudo a vedação ao MEI e o modelo de retenção proposto"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Brasil tem cobertura previdenciária para cerca de 70% da população economicamente ativa; representantes citaram estimativas de que há aproximadamente 1,5 milhão a 2,1 milhões de motoristas por aplicativo no país"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

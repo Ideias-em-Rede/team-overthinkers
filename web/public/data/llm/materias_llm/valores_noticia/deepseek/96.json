@@ -1,0 +1,36 @@
+{
+  "id": 96,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi solicitado pelo Requerimento nº 91, de 2021, de autoria do deputado Fábio Trad (PSD-MS), que presidiu os trabalhos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele também pleiteou o fornecimento gratuito de medicamentos psicoestimulantes pelo poder público, citando o alto custo do tratamento."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eduardo Barbosa (PSDB-MG), médico, reconheceu a importância de políticas públicas para o TDAH, mas expressou cautela sobre incluir o transtorno no rol de deficiências, argumentando que isso poderia levar a estigmatização."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O evento, transmitido ao vivo pela internet, contou com a participação de especialistas, representantes de institutos e associações, e uma mãe de adolescente com TDAH."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

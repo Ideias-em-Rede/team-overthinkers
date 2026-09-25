@@ -1,0 +1,36 @@
+{
+  "id": 189,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Foram convidados a expor representantes do Spotify, do Mercado Livre, da Conexis Brasil Digital (que reúne empresas de telecomunicações) e do Conselho Administrativo de Defesa Econômica (CADE)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ortiz disse que a iniciativa busca ouvir várias partes interessadas para subsidiar a análise do PL 2.768/2022 e identificar impactos, barreiras à entrada, práticas anticompetitivas e estratégias para promover concorrência nos mercados digitais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rocha relatou experiências de dificuldades com a Apple, citando restrições da App Store sobre processamento de assinaturas e comunicação com usuários"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Any Ortiz afirmou que a série de audiências públicas e um seminário futuro visam aprofundar o debate e ampliar a participação de outros atores que não puderam ser convidados nesta rodada, com o objetivo de subsidiar a atuação do Legislativo sobre a regulamentação dos mercados digitais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 151,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou audiência pública para debater a inclusão, no Plano Nacional de Educação (PNE), da educação especializada no sistema prisional e a ampliação de vagas escolares nos espaços de privação de liberdade."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ampliar a oferta de EJA (fundamental e médio) em todos os estabelecimentos penais, com formação específica para docentes e diretrizes nacionais em regime de colaboração."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Seletividade no acesso às vagas educacionais, com decisões informais vinculadas a facções, e discriminação contra mulheres e pessoas LGBTQIA+ no acesso à escola e ao trabalho."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Brasil tem 839.672 pessoas presas, segundo dados citados pela representante da Campanha Nacional pelo Direito à Educação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

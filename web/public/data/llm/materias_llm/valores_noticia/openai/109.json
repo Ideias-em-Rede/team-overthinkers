@@ -1,0 +1,36 @@
+{
+  "id": 109,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Integração e do Desenvolvimento Regional, Waldez Góes, apresentou na manhã desta terça-feira (data da audiência) os planos e projetos do Ministério em audiência pública da Comissão de Integração Nacional e Desenvolvimento Regional da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Giuseppe afirmou que a carteira de investimentos do novo PAC conduzida pela Secretaria alcança 15,6 bilhões de reais."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro Waldez Góes e seus subordinados explicaram a abrangência das atribuições do Ministério e programas em curso, destacando, entre outros pontos: - Políticas públicas sob responsabilidade do Ministério: proteção e defesa civil; desenvolvimento regional; desenvolvimento de fronteiras; ordenamento territorial; segurança hídrica; e fundos e instrumentos financeiros."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

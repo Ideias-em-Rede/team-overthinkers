@@ -1,0 +1,36 @@
+{
+  "id": 32,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "dificuldade de saque de benefícios sociais por ausência de documentação brasileira com foto, exigência de CPF para programas como o Bolsa Família"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou nesta tarde uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "regularizar imigrantes em situação irregular"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "problemas práticos de acesso a direitos: dificuldade de saque de benefícios sociais por ausência de documentação brasileira com foto"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater os desafios da regularização migratória e o acesso a direitos pela população migrante no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

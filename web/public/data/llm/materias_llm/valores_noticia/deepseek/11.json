@@ -1,0 +1,36 @@
+{
+  "id": 11,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a seca e a crise ambiental e social que afetam a região Nordeste em 2024"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "mais de 5 milhões de pessoas impactadas e 106 municípios em condição de seca severa"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas à burocracia para decretação de situação de emergência e à pouca atenção dada ao potencial da Caatinga"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "previsões que indicam uma leve melhoria nas chuvas apenas a partir da quarta semana de janeiro"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate sobre tecnologias desenvolvidas para a região, como cisternas, barragens subterrâneas e culturas adaptadas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

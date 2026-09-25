@@ -1,0 +1,36 @@
+{
+  "id": 29,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "67% das crianças e 85% dos adolescentes assassinados no país são negros"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "construção de um pacto republicano pela redução dos homicídios de jovens negros no Brasil"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "alertou para a existência de um grupo dentro do Congresso que 'odeia os direitos humanos'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "anunciou o lançamento do Plano Juventude Negra Viva para dezembro"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu a construção de um pacto republicano pela redução dos homicídios de jovens negros no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

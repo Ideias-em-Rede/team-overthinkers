@@ -1,0 +1,36 @@
+{
+  "id": 115,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "especialmente, no território brasileiro"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputado Leo Prates (PDT-BA), e presidida durante a audiência pelo autor do requerimento, deputado Tarcísio Motta (PSOL-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "necessidade de um arcabouço legal para proteção dos mais pobres"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "tensões entre exigências ambientais e necessidades locais na Amazônia"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a Amazônia virou uma fonte de carbono"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

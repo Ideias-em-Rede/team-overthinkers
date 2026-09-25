@@ -1,0 +1,36 @@
+{
+  "id": 184,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou uma audiência pública para discutir a importância da integração entre governo, academia e empresas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "sua aplicação no Brasil pode transformar conhecimento em riqueza, competitividade e empregos"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a necessidade de um diálogo com os órgãos de controle para garantir a segurança jurídica dos gestores públicos na aplicação do Marco Legal da Inovação"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

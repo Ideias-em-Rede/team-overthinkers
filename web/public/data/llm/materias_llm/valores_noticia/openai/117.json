@@ -1,0 +1,36 @@
+{
+  "id": 117,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Comissão da Câmara realiza audiência sobre afundamento do solo em Maceió"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião teve a presença de representantes da Agência Nacional de Mineração (ANM), do Serviço Geológico do Brasil (CPRM), do Instituto do Meio Ambiente de Alagoas (IMA), da Secretaria Nacional de Proteção e Defesa Civil e das Defesas Civis estadual e municipal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "deliberar requerimentos para acompanhamento e fiscalização dos danos sociais, ambientais e econômicos decorrentes do afundamento"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Parlamentares e técnicos debateram divergências sobre prazos e alcance das vistorias e documentos apresentados pela empresa ao longo dos anos"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "no dia do colapso observou‑se drenagem de água da lagoa para a cavidade e a formação de um redemoinho"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Membros da Comissão enfatizaram pedidos de apuração e responsabilização por parte do Ministério Público Federal e da Polícia Federal"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

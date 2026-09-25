@@ -1,0 +1,36 @@
+{
+  "id": 105,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Vanessa Pirolo, consultora da Coalizão Vozes do Advocacy, apresentou dados alarmantes sobre as filas de espera no estado de São Paulo, citando esperas de até 13 meses em Presidente Prudente e 272 dias em São José do Rio Preto para uma primeira consulta com oftalmologista."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Saúde da Câmara dos Deputados realizou uma audiência pública para debater os desafios no tratamento de pacientes com Edema Macular Diabético (EMD) no Sistema Único de Saúde (SUS)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a revisão dos protocolos clínicos e um sistema de financiamento que cubra os custos de medicamentos e procedimentos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela apontou uma falha no financiamento de tratamentos, como a injeção de antiangiogênico, cujo valor pactuado de R$ 627 não cobriria o custo real de R$ 1.090, desestimulando a oferta do procedimento."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Arnaldo Bordon, presidente da Sociedade Brasileira de Retina e Vítreo, reforçou que 95% dos casos de perda de visão pela doença são evitáveis com tratamento no tempo certo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

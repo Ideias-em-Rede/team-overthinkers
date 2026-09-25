@@ -1,42 +1,44 @@
-"""Gera uma matéria jornalística a partir da TRANSCRIÇÃO usando múltiplos LLMs.
+"""Gera uma matéria jornalística a partir da TRANSCRIÇÃO usando LLMs.
 
-Objetivo: RQ3 — comparar valores-notícia e seleção de participantes entre
-a matéria produzida pela Agência Câmara (humana) e a produzida por diferentes
-LLMs sobre a mesma transcrição.
+Objetivo: RQ2/RQ3 — comparar valores-notícia e seleção de participantes
+entre a matéria produzida pela Agência Câmara (humana) e a produzida por
+diferentes LLMs sobre a mesma transcrição.
 
 O prompt é deliberadamente NEUTRO: pede apenas para redigir uma matéria
 jornalística factual. Sem instruções de estilo, tamanho ou ângulo — pra
 não contaminar o experimento com viés do prompt.
 
-Provedores suportados:
-    - openai      (SDK openai, default gpt-4o-mini)
-    - gemini      (SDK openai contra endpoint compatível do Google,
-                   default gemini-2.5-flash)
-    - anthropic   (opcional) SDK anthropic, default claude-haiku-4-5
-    - deepseek    (opcional) SDK openai contra https://api.deepinfra.com/v1/openai,
-                   default deepseek-ai/DeepSeek-V3.1
+Provedores:
+    - openai      SDK openai (default gpt-5-mini)
+    - gemini      SDK openai contra endpoint compatível do Google
+                  (default gemini-2.5-pro)
+    - deepseek    SDK openai contra https://api.deepinfra.com/v1/openai
+                  (default deepseek-ai/DeepSeek-V3.1)
 
-Provedores "opcionais" são pulados com um aviso se a API key não estiver
-configurada — não precisa alterar o código quando a chave chegar.
+Provedores são pulados com um aviso se a API key não estiver configurada.
 
 Uso:
     python3 scripts/gerar_materia_llm.py --id 1
     python3 scripts/gerar_materia_llm.py --id 1 --providers openai,gemini
+    python3 scripts/gerar_materia_llm.py --all
+    python3 scripts/gerar_materia_llm.py --all --limit 5
     python3 scripts/gerar_materia_llm.py --id 1 --force
 
-Saída: web/public/data/materia_llm/{generator}/{id}.json
+Entrada: web/public/data/humano/materias/materias/{id}.json
+Saída:   web/public/data/llm/materias_llm/{provider}/{id}.json
 """
 
 import argparse
 import json
 import os
 import sys
+import time
 import traceback
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-MATERIAS_DIR = ROOT / "web" / "public" / "data" / "materias"
-OUT_DIR = ROOT / "web" / "public" / "data" / "materia_llm"
+MATERIAS_DIR = ROOT / "web" / "public" / "data" / "humano" / "materias" / "materias"
+OUT_DIR = ROOT / "web" / "public" / "data" / "llm" / "materias_llm"
 TEMPERATURE = 0.3
 
 PROMPT_TEMPLATE = """A partir da transcrição da audiência pública abaixo, redija uma matéria jornalística factual sobre o que aconteceu.
@@ -71,21 +73,15 @@ PROVIDERS = {
         "sdk": "openai",
         "base_url": None,
         "api_key_env": "OPENAI_API_KEY",
-        "default_model": "gpt-4o-mini",
+        "default_model": "gpt-5-mini",
         "model_env": "MATERIA_OPENAI_MODEL",
     },
     "gemini": {
         "sdk": "openai",
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
         "api_key_env": "GEMINI_API_KEY",
-        "default_model": "gemini-2.5-flash",
+        "default_model": "gemini-2.5-pro",
         "model_env": "MATERIA_GEMINI_MODEL",
-    },
-    "anthropic": {
-        "sdk": "anthropic",
-        "api_key_env": "ANTHROPIC_API_KEY",
-        "default_model": "claude-haiku-4-5-20251001",
-        "model_env": "MATERIA_ANTHROPIC_MODEL",
     },
     "deepseek": {
         "sdk": "openai",
@@ -111,26 +107,23 @@ def call_openai_compat(provider: str, model: str, prompt: str) -> str:
         kwargs["base_url"] = cfg["base_url"]
     client = OpenAI(**kwargs)
 
-    resp = client.chat.completions.create(
-        model=model,
-        temperature=TEMPERATURE,
-        messages=[{"role": "user", "content": prompt}],
-    )
+    try:
+        resp = client.chat.completions.create(
+            model=model,
+            temperature=TEMPERATURE,
+            messages=[{"role": "user", "content": prompt}],
+        )
+    except Exception as e:
+        # Alguns modelos novos da OpenAI (série o1/o3/gpt-5) travam o
+        # temperature em 1.0 — retry sem o parâmetro.
+        if "temperature" in str(e).lower() or "Unsupported value" in str(e):
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+            )
+        else:
+            raise
     return resp.choices[0].message.content or ""
-
-
-def call_anthropic(provider: str, model: str, prompt: str) -> str:
-    from anthropic import Anthropic
-
-    cfg = PROVIDERS[provider]
-    client = Anthropic(api_key=os.environ[cfg["api_key_env"]])
-    resp = client.messages.create(
-        model=model,
-        max_tokens=4096,
-        temperature=TEMPERATURE,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return resp.content[0].text if resp.content else ""
 
 
 def run_provider(provider: str, prompt: str) -> dict:
@@ -141,18 +134,17 @@ def run_provider(provider: str, prompt: str) -> dict:
     model = resolve_model(provider)
     if cfg["sdk"] == "openai":
         texto = call_openai_compat(provider, model, prompt)
-    elif cfg["sdk"] == "anthropic":
-        texto = call_anthropic(provider, model, prompt)
     else:
         raise RuntimeError(f"SDK desconhecido para {provider}: {cfg['sdk']}")
 
     return {"model": model, "texto": texto.strip()}
 
 
-def process(materia_id: int, providers: list, force: bool) -> None:
+def process_one(materia_id: int, providers: list, force: bool) -> None:
     src = MATERIAS_DIR / f"{materia_id}.json"
     if not src.exists():
-        sys.exit(f"Matéria #{materia_id} não encontrada em {src}.")
+        print(f"[warn] matéria #{materia_id} não encontrada em {src} — pulando.")
+        return
 
     materia = json.loads(src.read_text(encoding="utf-8"))
     transcricao = materia["transcricao"]
@@ -164,13 +156,14 @@ def process(materia_id: int, providers: list, force: bool) -> None:
         out = provider_dir / f"{materia_id}.json"
 
         if out.exists() and not force:
-            print(f"[skip] {provider}: já existe ({out})")
+            print(f"[skip] #{materia_id} {provider}: já existe")
             continue
 
+        t0 = time.time()
         try:
             result = run_provider(provider, prompt)
         except Exception as e:
-            print(f"[fail] {provider}: {e}")
+            print(f"[fail] #{materia_id} {provider}: {e}")
             if os.environ.get("DEBUG"):
                 traceback.print_exc()
             continue
@@ -186,8 +179,22 @@ def process(materia_id: int, providers: list, force: bool) -> None:
         out.write_text(
             json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
         )
-        n = len(result["texto"])
-        print(f"[ok]   {provider}: escrito {out} ({n} caracteres · {len(result['texto'].split())} palavras)")
+        dt = time.time() - t0
+        n_chars = len(result["texto"])
+        n_words = len(result["texto"].split())
+        print(
+            f"[ok]   #{materia_id} {provider}: {n_chars} chars · {n_words} palavras · {dt:.1f}s"
+        )
+
+
+def all_ids() -> list:
+    ids = []
+    for p in MATERIAS_DIR.glob("*.json"):
+        try:
+            ids.append(int(p.stem))
+        except ValueError:
+            pass
+    return sorted(ids)
 
 
 def parse_providers(arg: str) -> list:
@@ -202,15 +209,32 @@ def parse_providers(arg: str) -> list:
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--id", type=int, default=1, help="ID da matéria (default: 1)")
+    p.add_argument("--id", type=int, help="ID da matéria (ex: 1)")
+    p.add_argument("--all", action="store_true", help="Processa todas as matérias")
+    p.add_argument("--limit", type=int, help="Limita o número de matérias no --all")
     p.add_argument(
         "--providers",
         default="all",
-        help="Lista separada por vírgula (openai, gemini, anthropic, deepseek) "
-        "ou 'all' (default: all — pula os que não tiverem API key)",
+        help=(
+            "Lista separada por vírgula (openai, gemini, deepseek) ou 'all' "
+            "(default: all — pula os que não tiverem API key)"
+        ),
     )
     p.add_argument("--force", action="store_true", help="Reprocessa mesmo se já existe")
     args = p.parse_args()
 
+    if not args.id and not args.all:
+        sys.exit("Informe --id N ou --all")
+
     providers = parse_providers(args.providers)
-    process(args.id, providers, args.force)
+
+    if args.all:
+        ids = all_ids()
+        if args.limit:
+            ids = ids[: args.limit]
+        print(f"[batch] {len(ids)} matérias × {len(providers)} providers")
+        for i, mid in enumerate(ids, 1):
+            print(f"\n── [{i}/{len(ids)}] matéria #{mid} ──")
+            process_one(mid, providers, args.force)
+    else:
+        process_one(args.id, providers, args.force)

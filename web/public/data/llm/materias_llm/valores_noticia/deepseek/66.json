@@ -1,0 +1,36 @@
+{
+  "id": 66,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele também destacou o papel do fundo no financiamento da habitação popular e do saneamento básico."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da CTASP, deputado Paulo Ramos (PDT-RJ), fez um retrospecto histórico do fundo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A decisão do STF, se favorável aos trabalhadores, teria um impacto financeiro colossal, estimado por Avelino em R$ 700 bilhões nos últimos 23 anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mario Avelino apresentou as que considera as três principais ameaças à sustentabilidade do FGTS: o Governo Federal, o Congresso Nacional e a rentabilidade do fundo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele alertou que isso pode esvaziar o fundo e deixar o trabalhador sem recursos em momentos de necessidade real, como demissão ou doença."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

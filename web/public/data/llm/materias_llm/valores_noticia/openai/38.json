@@ -1,0 +1,36 @@
+{
+  "id": 38,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "especialmente no Rio Grande do Sul"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta pelo presidente da sessão, deputado Romero Rodrigues"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Benefícios econômicos e turísticos: Deborah (APROVALE) defendeu o projeto como instrumento para reduzir a carga tributária sobre vinhos, sucos de uva e espumantes comercializados na área da zona franca"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Riscos e preocupações tributárias: Daniel Panizzi (UVIBRA) alertou para o risco de aumento do descaminho caso haja elevação da carga tributária no setor"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "proposta de criação da “Zona Franca da Uva e do Vinho”"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Benefícios econômicos e turísticos: Deborah (APROVALE) defendeu o projeto como instrumento para reduzir a carga tributária sobre vinhos, sucos de uva e espumantes comercializados na área da zona franca"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 105,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Citou exemplos como Presidente Prudente (SP), com fila de 13 meses, São José do Rio Preto (SP) com 272 dias de espera para a primeira consulta com oftalmologista, e Araçatuba (SP) com 17.963 pacientes na fila."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram presentes como convidados Vanessa Pirolo, consultora da Coalizão Vozes do Advocacy; César Magalhães, representante da Associação Retina Brasil; Dr. Fernando Malerbi, coordenador do Departamento de Doenças Oculares da Sociedade Brasileira de Diabetes; Dr. Arnaldo Bordon, presidente da Sociedade Brasileira de Retina e Vítreo; Dr. Mauro Goldbaum, diretor de Relações Internacionais do Conselho Brasileiro de Oftalmologia; e Roney Pereira Pinto, diretor-geral da Central Estadual de Medicamentos de Alto Custo Juarez Barbosa (CEMAC) de Goiás."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele enfatizou a necessidade de revisão dos protocolos clínicos e de um sistema de financiamento adequado para medicamentos e procedimentos no SUS."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou a falta de respostas do Ministério da Saúde e defendeu a necessidade de investimento em prevenção."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A reunião foi transmitida ao vivo pelo canal da Câmara dos Deputados no YouTube e contou com a presença do deputado Rafael Simoes (UNIÃO-MG), que também é diabético e destacou a importância da discussão para alertar o governo sobre a gravidade da situação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 61,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Sidney Leite (PSD-AM), contou com a participação de representantes da Confederação Nacional da Indústria (CNI), da Associação Brasileira da Indústria de Máquinas e Equipamentos (ABIMAQ), da Associação Brasileira da Indústria Química (ABIQUIM) e da Associação Nacional de Fabricantes de Produtos Eletroeletrônicos (ELETROS)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que o resultado dos trabalhos será encaminhado à equipe de transição do novo governo, às Mesas Diretoras da Câmara e do Senado, ao BNDES e a outras instituições."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Deputado Otto Alencar Filho (PSD-BA) manifestou sua posição contrária ao Projeto de Decreto Legislativo (PDL) 575, que visa alterar as regras de interesse público em defesa comercial."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Representando a CNI, Marcos Borges de Castro apresentou um documento intitulado 'plano de retomada da indústria', que está sendo elaborado pela confederação e também será entregue à equipe de transição."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

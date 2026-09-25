@@ -1,0 +1,36 @@
+{
+  "id": 83,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes do poder público, do sistema de justiça, de organismos internacionais e de movimentos sociais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi conduzido pelo presidente da comissão, deputado Orlando Silva (PCdoB-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou que o número é provavelmente maior. Ele enfatizou a importância da Resolução CNJ nº 425/2021, que institui a Política Nacional Judicial de Atenção a Pessoas em Situação de Rua, e defendeu um trabalho em rede com o Parlamento."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ronan Figueiredo, defensor público do DF, alertou para o risco de despejos em massa com o fim da ADPF 828, que impediu remoções durante a pandemia, e citou que mais de 140 mil famílias estão ameaçadas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida pelas redes sociais da Câmara e pelo portal e-Democracia, que permanece aberto para receber contribuições da sociedade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

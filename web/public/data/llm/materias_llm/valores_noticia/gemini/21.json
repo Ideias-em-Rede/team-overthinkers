@@ -1,0 +1,36 @@
+{
+  "id": 21,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião foi solicitada pelos deputados Tadeu Veneri (PT-PR) e Erika Kokay (PT-DF)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Simone Aparecida Vicentini, Secretária Adjunta de Prêmios e Apostas do Ministério da Fazenda, informou que a pasta solicitou esclarecimentos à Caixa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Juvandia Moreira Leite, presidente da CONTRAF-CUT, destacou a importância social das loterias, que arrecadaram R$ 23,4 bilhões em 2023, com cerca de 40% destinados a programas sociais em áreas como seguridade, esporte e educação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O debate foi marcado por preocupações de parlamentares e representantes de funcionários sobre os riscos de uma futura privatização e a falta de transparência no processo, enquanto representantes de lotéricos defenderam a necessidade de maior agilidade para competir no mercado."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ricardo Amado Costa, vice-presidente da FEBRALOT, afirmou que o mercado de jogos enfrenta um 'tsunâmi' com a regulamentação das apostas esportivas e a criação de loterias estaduais e municipais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 172,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O primeiro resultado preliminar divulgado pelo IBGE aponta 1.327.802 pessoas autodeclaradas quilombolas no Censo 2022, residentes em 1.696 municípios."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta e inicialmente presidida pela deputada Reginete Bispo (PT-RS) e dividida em três mesas com representantes de órgãos federais, movimentos sociais e instituições do sistema de Justiça."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Francinete Pereira da Cruz, chefe de gabinete da Secretaria de Políticas para Quilombolas, Povos e Comunidades Tradicionais do Ministério da Igualdade Racial (MIR), destacou que os quilombolas somam hoje cerca de 0,65% da população brasileira, com maior concentração na Região Nordeste e nos estados da Bahia e do Maranhão."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Denildo “Biko” Rodrigues, da CONAQ, e demais representantes do movimento quilombola ressaltaram a conquista política do Censo, mas pontuaram dificuldades históricas de regularização fundiária, violência contra lideranças (Biko afirmou que, nos últimos 10 anos, 30 lideranças quilombolas foram mortas) e a necessidade de recursos e estrutura institucional para transformar dados em políticas efetivas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O primeiro resultado preliminar divulgado pelo IBGE aponta 1.327.802 pessoas autodeclaradas quilombolas no Censo 2022, residentes em 1.696 municípios."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Reginete Bispo abriu a audiência, fez autodescrição visual no início do evento e solicitou que outros participantes também se autodescrevessem para garantir acessibilidade; apontou que o plenário dispõe de recursos como aro magnético, sistemas FM/Bluetooth e intérpretes de Libras, e informou que a sessão era transmitida pela página da Câmara."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

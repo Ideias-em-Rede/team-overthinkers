@@ -1,0 +1,36 @@
+{
+  "id": 128,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A portaria afeta diretamente setores como supermercados e farmácias, considerados essenciais durante a pandemia."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi solicitada pela presidente da comissão, Deputada Daniela Reinehr (PL-SC), e pelo Deputado Saulo Pedroso (PSD-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A portaria traz uma 'preocupação muito séria' por invadir a economia, especialmente no período que antecede o Natal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de entidades empresariais criticaram a medida."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A portaria foi editada na véspera de um feriado."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O comércio é o maior gerador de emprego e renda do país."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

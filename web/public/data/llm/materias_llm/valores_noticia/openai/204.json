@@ -1,0 +1,36 @@
+{
+  "id": 204,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Dra. Sara citou levantamento do Ministério da Saúde que estima em cerca de 65 mil o número de pessoas com distonia no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pela deputada Meire Serafim (União-AC)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ampliação do acesso no SUS a toxina botulínica, reabilitação especializada, exames diagnósticos (incluindo testes genéticos quando indicados) e a procedimentos de alta complexidade como DBS foram reivindicadas por especialistas e representantes de pacientes"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Especialistas definiram distonia como um transtorno neurológico caracterizado por contrações musculares involuntárias que provocam movimentos repetitivos e posturas anormais, podendo afetar qualquer parte do corpo e causar dor, perda de função e queda da qualidade de vida"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

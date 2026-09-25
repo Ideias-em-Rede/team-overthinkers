@@ -1,0 +1,36 @@
+{
+  "id": 136,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram representantes do movimento indígena, de órgãos federais e de ministérios, entre eles: Kleber Karipuna (APIB); Bruno Potiguara, diretor de Gestão Ambiental, Territorial e Promoção ao Bem Viver Indígena do Ministério dos Povos Indígenas (MPI); Lucas Grisolia, da Coordenação‑Geral de Gestão Ambiental da FUNAI; Jair Schmitt, Diretor de Proteção Ambiental do IBAMA (presente na mesa); Luiz Francisco Ditzel Faraco, coordenador‑geral de Gestão Socioambiental do ICMBio (presente virtualmente); Patrícia Melo, do Ministério do Desenvolvimento Agrário e Agricultura Familiar (virtual); Marciely Tupari, da COIAB (virtual); Representantes da Articulação Nacional das Mulheres Indígenas Guerreiras da Ancestralidade (ANMIGA) e outras organizações indígenas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foi citada a necessidade de alocar recursos no Plano Plurianual (PPA) e prever linhas orçamentárias específicas, além de discutir fundos (por exemplo, menção ao Fundo Biomas Indígenas e ao exemplo de fundos como Fundo Amazônia e Fundo Clima que já financiaram ações no passado)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência foram feitas referências a projetos e propostas consideradas contrapostas aos direitos indígenas: menções ao Projeto de Lei nº 2.903/2023 — qualificado por um dos debatedores como contrário à forma de organização dos povos indígenas — e apelos para manutenção de vetos em tramitação no Congresso."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O objetivo anunciado foi debater a PNGATI — instituída pelo Decreto nº 7.747, de 5 de junho de 2012 — em especial sua tramitação como projeto de lei (mencionado no debate o Projeto de Lei nº 4.347/2021) e medidas para viabilizar a implementação da política nos territórios."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 12,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a violência contra mulheres com deficiência"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes de diversos ministérios e da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "propor soluções"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "debater a violência contra mulheres com deficiência"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a violência contra mulheres com deficiência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

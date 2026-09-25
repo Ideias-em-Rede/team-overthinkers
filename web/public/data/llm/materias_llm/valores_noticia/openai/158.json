@@ -1,0 +1,36 @@
+{
+  "id": 158,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a regulamentação do mercado de carbono"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Airton Faleiro (PT-PA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "necessidade de salvaguardas e repartição clara de benefícios"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "práticas predatórias de comercialização de créditos (os chamados “cowboys do carbono”)"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Projeto de Lei nº 412/2022 — cujo substitutivo tem relatoria da senadora Leila Barros"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a regulamentação do mercado de carbono"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

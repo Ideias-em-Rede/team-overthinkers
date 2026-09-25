@@ -1,0 +1,36 @@
+{
+  "id": 139,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Mato Grosso do Sul concentrava 40,9% do total de pessoas indígenas aprisionadas no país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputada Célia Xakriabá (Bloco/PSOL-MG)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "problemas de subnotificação e de identificação étnico-territorial nas bases de dados estaduais e federais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "criminalização de lideranças, dificuldades na comunicação (intérpretes) e a exigência, por vezes, de que presos indígenas retirem símbolos de liderança (cocar) já na fase policial"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o tratamento de povos indígenas no contexto do encarceramento"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

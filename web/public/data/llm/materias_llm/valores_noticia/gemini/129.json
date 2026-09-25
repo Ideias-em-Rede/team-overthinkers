@@ -1,0 +1,36 @@
+{
+  "id": 129,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A decisão do Ministério da Saúde de incluir a vacina contra a COVID-19 no Programa Nacional de Imunizações (PNI) a partir de 2024."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Ministra da Saúde, Nísia Trindade, compareceu a uma audiência pública na Comissão de Fiscalização Financeira e Controle."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A medida é respaldada por sociedades científicas como a Sociedade Brasileira de Pediatria e a Sociedade Brasileira de Imunizações, e que se baseia em 'evidências científicas' e 'consensos' entre pares."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Parlamentares da oposição contestaram a medida. A Deputada Bia Kicis argumentou que a obrigatoriedade não é adotada em outros países e classificou o imunizante como 'terapia gênica'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A decisão do Ministério da Saúde de incluir a vacina contra a COVID-19 no Programa Nacional de Imunizações (PNI) a partir de 2024."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O tema principal do debate foi a decisão do Ministério da Saúde de incluir a vacina contra a COVID-19 no Programa Nacional de Imunizações (PNI) a partir de 2024."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

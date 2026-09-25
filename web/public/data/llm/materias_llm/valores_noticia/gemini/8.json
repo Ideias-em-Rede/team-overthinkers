@@ -1,0 +1,36 @@
+{
+  "id": 8,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A nova regulação abrangerá temas como prevenção à lavagem de dinheiro, proteção ao consumidor, governança, segurança cibernética e regras prudenciais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "representantes do Banco Central (BC), da Comissão de Valores Mobiliários (CVM) e do Ministério Público Federal (MPF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A nova regulação abrangerá temas como prevenção à lavagem de dinheiro, proteção ao consumidor, governança, segurança cibernética e regras prudenciais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Entre os desafios, o diretor citou a atuação de empresas sediadas no exterior (*offshore*), que operam fora do alcance da jurisdição brasileira"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O BC, designado em junho para regular o setor, planeja lançar uma consulta sobre aspectos específicos da norma no início do quarto trimestre de 2023"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele alertou os investidores para desconfiarem de promessas de ganhos muito elevados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

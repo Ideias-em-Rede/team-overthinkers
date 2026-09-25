@@ -1,0 +1,36 @@
+{
+  "id": 203,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o aumento dos casos de violência contra as mulheres no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta pela presidente da primeira comissão, deputada Luizianne Lins (PT-CE), e conduzida pela deputada Ana Pimentel (PT-MG)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "cerca de 3% em agressões, 7,2% em ameaças, 8,7% em chamadas ao 190, 13,7% em medidas protetivas concedidas e 49,7% em casos de assédio sexual"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "desfinanciamento das políticas de proteção à mulher na gestão anterior, menor alocação orçamentária na última década, impacto da pandemia nos serviços de acolhimento, ascensão de movimentos ultraconservadores e maior circulação de armas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o aumento dos casos de violência contra as mulheres no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

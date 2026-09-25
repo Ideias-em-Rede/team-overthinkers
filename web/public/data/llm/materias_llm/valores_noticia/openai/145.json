@@ -1,0 +1,36 @@
+{
+  "id": 145,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Justiça e Segurança Pública, Flávio Dino, prestou esclarecimentos nesta manhã à Comissão de Fiscalização Financeira e Controle (CFC) da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "cortes orçamentários para 2024 em ações de prevenção e enfrentamento da criminalidade e em políticas de segurança pública"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Autores dos requerimentos e demais deputados fizeram perguntas e críticas, em intervenções frequentemente marcadas por forte calor retórico e diversas interrupções"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "apuração de práticas abusivas de big techs, com menção expressa ao Google"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

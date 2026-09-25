@@ -1,0 +1,36 @@
+{
+  "id": 56,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil foi classificado em 2018 como o quinto país mais sedentário do mundo, com 47% da população inativa."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram como expositores representantes de entidades do setor, profissionais de educação física e um atleta olímpico."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Monica Marques apresentou dados internacionais e ressaltou que, segundo estudos citados por ela, o Brasil foi classificado em 2018 como o quinto país mais sedentário do mundo, com 47% da população inativa."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Monica citou o Global Action Plan on Physical Activity 2018–2030 da Organização Mundial da Saúde (OMS) e defendeu a adoção de políticas públicas de estímulo à atividade física."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

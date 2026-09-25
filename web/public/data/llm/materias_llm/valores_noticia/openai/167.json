@@ -1,0 +1,36 @@
+{
+  "id": 167,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo presidente da sessão, deputado Marcelo Queiroz (PP-RJ), a partir dos requerimentos nº 77/2023 e nº 98/2023, de sua autoria e do deputado Delegado Matheus Laiola (União-PR)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Entre os presentes ou convidados estiveram, entre outros: Renato Simões (Secretário Nacional de Participação Social da Presidência da República), Vanessa Negrini (Diretora do Departamento de Proteção, Defesa e Direitos Animais do Ministério do Meio Ambiente e Mudança do Clima), Camila Costa (Subsecretária de Proteção e Bem-Estar Animal do Estado do Rio de Janeiro), o vereador Wanderley Porto (Belo Horizonte), Andressa Bianchessi (presidente da ONG Paraná contra Maus-Tratos), Luciana Imaculada de Paula (promotora, representando o Ministério Público de Minas Gerais), Ana Paula de Vasconcelos (Comissão de Defesa dos Direitos dos Animais da OAB-DF) e Marçal Fortes Silveira Cavalcanti (presidente da ANAMMA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vanessa citou dados do IBGE, mencionando 54 milhões de cães e 19 milhões de gatos no Brasil e estimativas de emissões associadas: afirmou que a soma das emissões de CO2 desses animais daria 49 milhões de toneladas de CO2 por ano atualmente, com projeção de 112 milhões de animais até 2030 e aumento das emissões para 66 milhões de toneladas por ano se não houver ação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vários parlamentares e representantes manifestaram preocupação com a dotação orçamentária. O deputado Marx Beltrão afirmou que, na avaliação dele, o orçamento federal previsto é insuficiente e defendeu que o Governo Federal lidere uma política nacional, com recursos próprios, para garantir execução uniforme em Estados e Municípios."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Vanessa apresentou o projeto de Manejo Populacional Ético de Cães e Gatos, relatando que um relatório de trabalho técnico foi elaborado com a participação de 604 pessoas e entregue ao Ministério. Ela afirmou que há um piloto desenhado para 2024 que prevê, segundo suas palavras, alcançar 1 milhão de castrações em todo o Brasil, como forma de testar e ajustar o programa."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Diversos expositores defenderam o enquadramento do tema na perspectiva da saúde única (integração de saúde humana, animal e ambiental) e da segurança pública, mencionando zoonoses, controle de fauna de rua e impactos sociais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 87,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "regulamenta a relação de trabalho intermediado por empresas operadoras de aplicativos de transporte"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo presidente da comissão, deputado Josenildo (PDT-AP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "propostas de ganho mínimo por viagem, em vez de por hora, poderiam aumentar o preço para o usuário em até 50% e reduzir a demanda"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Motoristas e representantes de associações criticaram a forma como o projeto foi construído, alegando exclusão do grupo de trabalho original"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A comissão convocou reunião deliberativa para o dia 30 de abril, às 11h, no Plenário 5"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

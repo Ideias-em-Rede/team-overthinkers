@@ -1,0 +1,36 @@
+{
+  "id": 44,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "representantes dos Estados do Norte e Nordeste (incluindo parlamentares do Amapá, Pará, Roraima e Maranhão) manifestaram posições diversas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro reuniu representantes do IBAMA, do Ministério de Minas e Energia (MME), do ICMBio, da Petrobras, de instituições científicas, de entidades do setor de petróleo e de movimentos sociais e locais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "hipótese de ordem de 13 bilhões de barris recuperáveis, o que, segundo ele, poderia gerar grandes investimentos e arrecadação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "IBAMA sustenta indeferimento e Petrobras pede reconsideração"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu a intenção da Petrobras de perfurar um poço exploratório na área conhecida como Foz do Amazonas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 155,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateu os avanços e os desafios para a efetivação dos direitos da população com 60 anos ou mais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "garante direitos em áreas como saúde, educação, trabalho e habitação, além de prioridade em processos judiciais e proteção contra violência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "parte das determinações legais do Estatuto ainda não é obedecida e o pouco conhecimento da sociedade sobre a norma prejudica sua execução"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a comissão recebeu o primeiro exemplar do Estatuto da Pessoa Idosa em braille"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu os avanços e os desafios para a efetivação dos direitos da população com 60 anos ou mais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

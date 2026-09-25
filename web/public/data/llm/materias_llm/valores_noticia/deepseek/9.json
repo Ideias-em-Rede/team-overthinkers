@@ -1,0 +1,36 @@
+{
+  "id": 9,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou uma audiência pública na terça-feira para discutir a exigência de certidão negativa de antecedentes criminais para cuidadores de pessoas idosas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da audiência a juíza Monize Marques, do Tribunal de Justiça do Distrito Federal e Coordenadora da Central Judicial do Idoso; Kenio Costa de Lima, Coordenador-Geral de Políticas de Envelhecimento Saudável da Secretaria Nacional de Defesa do Ministério dos Direitos Humanos e da Cidadania; Patrícia Moreira, Assessora Especial da Frente Parlamentar da Longevidade e do Fórum São Paulo da Longevidade; e a defensora pública federal Olinda Vicente Moreira, Coordenadora do Grupo de Trabalho de Atendimento à Pessoa Idosa e à Pessoa com Deficiência da Defensoria Pública da União."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Marques também alertou para o aumento significativo de demandas judiciais envolvendo idosos, que já representam cerca de 15% dos processos no país."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela questionou se qualquer crime listado na certidão seria impeditivo para a contratação ou apenas aqueles com 'pertinência temática' com a função."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O debate foi convocado pelo deputado Pinheirinho (Bloco/PP - MG), autor do Requerimento nº 9/2024."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Patrícia Moreira compartilhou sua experiência pessoal com o cuidado de sua mãe idosa e destacou a insegurança das famílias ao contratar cuidadores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

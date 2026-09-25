@@ -1,0 +1,36 @@
+{
+  "id": 21,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay abriu as discussões expressando forte preocupação com a medida. Ela afirmou que a transferência para uma subsidiária pode abrir caminho para uma posterior privatização sem a necessidade de aprovação do Congresso Nacional."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Serviços Públicos da Câmara dos Deputados realizou uma audiência pública na tarde desta segunda-feira para discutir a proposta de transferência das operações das loterias federais para uma empresa subsidiária integral da Caixa Econômica Federal."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Juvandia Moreira Leite, presidenta da CONTRAF-CUT, destacou a importância social das loterias, que em 2023 destinaram aproximadamente R$ 9 bilhões a programas sociais, incluindo seguridade social, esporte, educação e cultura."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela afirmou que a transferência para uma subsidiária pode abrir caminho para uma posterior privatização sem a necessidade de aprovação do Congresso Nacional."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ricardo Amado Costa, vice-presidente da FEBRALOT, defendeu a necessidade de modernização e agilidade para que a Caixa e a rede lotérica possam competir em um mercado que inclui now as apostas esportivas (bets), que, segundo ele, movimentaram entre R$ 100 bilhões e R$ 150 bilhões em 2023."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

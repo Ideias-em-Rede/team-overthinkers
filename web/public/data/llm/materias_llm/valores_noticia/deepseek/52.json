@@ -1,0 +1,36 @@
+{
+  "id": 52,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil possui cerca de 32 milhões de idosos e que mais da metade da população tem mais de 30 anos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou uma audiência pública nesta terça-feira para debater o etarismo no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Um em cada seis idosos já sofreu algum tipo de violência, incluindo o etarismo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "50% das violências contra idosos são praticadas por filhos e 10% por netos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Foram abordados temas como a violência financeira por meio de empréstimos consignados, a necessidade de políticas públicas que garantam envelhecimento ativo e a inclusão de idosos no mercado de trabalho."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

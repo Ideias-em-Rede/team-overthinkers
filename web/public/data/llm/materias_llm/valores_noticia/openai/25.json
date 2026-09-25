@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados promoveu nesta terça-feira (19) audiência pública para tratar das consequências da seca no norte de Minas Gerais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Zé Silva (Bloco/Solidariedade-MG), a reunião reuniu parlamentares, representantes de órgãos do governo federal e estadual, técnicos da EMATER, superintendência do Banco do Nordeste, prefeitos, vereadores, presidentes de sindicatos e produtores rurais afetados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "324 mil produtores estão sendo afetados em 192 municípios."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao longo da audiência foram citados números diferentes por distintos participantes — por exemplo, quantidade de municípios em situação de emergência e número de produtores candidatos ao Garantia-Safra — e os oradores registraram diversas demandas administrativas e legislativas para desburocratização de repasses e linhas de crédito."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da comissão informou que o Relatório Agroclimatológico da EMATER está disponível no site da instituição e que a audiência foi transmitida pela internet e pelo canal da Câmara dos Deputados no YouTube."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

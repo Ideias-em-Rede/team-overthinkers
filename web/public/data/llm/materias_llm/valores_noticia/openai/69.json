@@ -1,0 +1,36 @@
+{
+  "id": 69,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A mesa de debatedores reuniu representantes do Tribunal Superior Eleitoral (TSE), da sociedade civil organizada, do meio acadêmico, de organizações estudantis e da Polícia Federal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública extraordinária sobre o engajamento do jovem no processo democrático, presidida pela deputada Lídice da Mata (PSB-BA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela informou que uma “carta aos brasileiros em defesa da democracia” será lançada em 11 de agosto e disse que a carta já contava, segundo sua declaração na audiência, com mais de 100 mil assinaturas de diversos segmentos da sociedade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Afirmou que a mobilização de 2022 teve caráter de campanha para “tirar Bolsonaro” do poder, conforme suas palavras, e destacou o envolvimento de artistas e influenciadores (mencionou a cantora Anitta) nas ações de estímulo ao alistamento."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A audiência teve formato interativo, transmitida ao vivo pela internet com chat para envio e votação de perguntas dos internautas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Entre as questões tratadas estiveram como incluir jovens na compreensão do funcionamento dos Três Poderes e como promover um ambiente de debate em época de polarização."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

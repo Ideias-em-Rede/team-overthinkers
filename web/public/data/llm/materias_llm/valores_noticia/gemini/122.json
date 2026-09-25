@@ -1,0 +1,36 @@
+{
+  "id": 122,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro Carlos Fávaro destacou a implementação do Plano Safra, que, segundo ele, está 18% mais adiantada em comparação ao mesmo período do ano passado."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro da Agricultura, Pecuária e Abastecimento, Carlos Fávaro, participou de uma audiência pública na Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural (CAPADR) da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele mencionou o sucesso de novas linhas de crédito, como a dolarizada, que já liberou R$ 3,07 bilhões em 1.947 contratos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Domingos Sávio (PL-MG) criticou a demora para a vigência do decreto de incentivo ao setor leiteiro, afirmando que a medida gerou um aumento das importações para formação de estoque."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele informou que o ministério solicitou um aporte adicional de R$ 500 milhões para o seguro rural e anunciou a publicação de um decreto para regulamentar o programa de conversão de pastagens."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Um dos temas centrais da audiência foi a crise no setor leiteiro. Fávaro classificou a situação dos produtores como 'dramática' e anunciou o remanejamento de R$ 707 milhões para uma linha de crédito destinada a cooperativas da bacia leiteira."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

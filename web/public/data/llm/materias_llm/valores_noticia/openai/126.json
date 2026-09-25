@@ -1,0 +1,36 @@
+{
+  "id": 126,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Margarete Brito, da APEPI (Rio de Janeiro), relatou que a associação que dirige nasceu do cultivo caseiro para tratar sua filha"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da reunião, deputado Chico Alencar (PSOL‑RJ), declarou aberta na tarde desta quarta‑feira uma audiência pública na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Cariri informou que há 29 projetos de lei sobre o tema em tramitação no Congresso Nacional e que nove estados já aprovaram legislações estaduais que preveem cultivo, aquisição, prescrição e disponibilização de produtos de Cannabis"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eliane Lima Guerra Nunes afirmou prescrever Cannabis desde 2016 e criticou lacunas na regulamentação"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A audiência trouxe relatos de pacientes e familiares sobre benefícios do uso medicinal da Cannabis em condições como autismo, epilepsia, dores crônicas, hidradenite supurativa e consequência de COVID‑19"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Margarete disse que as associações atendem, segundo sua estimativa, cerca de 180 mil famílias no país e que não têm regulamentação específica"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

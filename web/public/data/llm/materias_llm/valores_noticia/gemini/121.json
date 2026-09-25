@@ -1,0 +1,36 @@
+{
+  "id": 121,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O juiz Eldom Stevem Barbosa dos Santos, vice-presidente do Fórum Nacional de Juízas e Juízes de Violência Doméstica (FONAVID), relatou a realidade das comarcas do interior, que sofrem com a falta de estrutura, de juizados especializados e de equipes multidisciplinares."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Mulher da Câmara dos Deputados realizou, em 7 de dezembro de 2023, uma audiência pública para debater os 'Impactos da violência doméstica e familiar no Poder Judiciário brasileiro'."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A desembargadora Evangelina Castilho Duarte, do Tribunal de Justiça de Minas Gerais, apresentou dados do estado que mostram um aumento nos casos. Segundo ela, os processos de feminicídio em andamento passaram de 377 em 2022 para 511 em 2023, e as medidas protetivas concedidas saltaram de 40.677 para 53.255 no mesmo período."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Fernanda Fernandes destacou que, segundo o Fórum Brasileiro de Segurança Pública, todos os crimes contra as mulheres cresceram em 2022. Ela questionou o alto índice de reconciliações e a ausência de ações penais em alguns crimes, além de ressaltar o impacto da violência sobre os filhos, que são vítimas diretas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta pela presidente da comissão, Delegada Ione (Bloco/AVANTE - MG), que destacou a importância do debate para encontrar encaminhamentos práticos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

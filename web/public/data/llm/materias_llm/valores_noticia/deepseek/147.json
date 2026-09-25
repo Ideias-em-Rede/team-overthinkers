@@ -1,0 +1,36 @@
+{
+  "id": 147,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ela também apresentou dados específicos do Rio Grande do Sul, onde as cinco maiores cidades somam mais de 12.600 crianças na fila de espera."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública nesta quarta-feira para debater a falta de vagas no sistema público de creches ou conveniadas da educação infantil no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Em 2017, cerca de 5 milhões e 500 mil crianças entre 0 e 3 anos e 11 meses não estavam matriculadas em creches, o que corresponde a 64% do total do Brasil"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Lucas Sachsida Junqueira Carneiro, coordenador da Comissão Permanente da Educação do Conselho Nacional de Procuradores-Gerais do Ministério Público, criticou a falta de responsabilização no Plano Nacional de Educação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo e contou com a participação presencial e virtual de representantes de diversos órgãos e entidades da sociedade civil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

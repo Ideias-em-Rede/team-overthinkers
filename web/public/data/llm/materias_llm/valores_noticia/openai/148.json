@@ -1,0 +1,36 @@
+{
+  "id": 148,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Manejadores e representantes regionais (entre eles, participantes de Santa Catarina e Roraima) relataram aumento da presença de javalis nas propriedades, prejuízos a pastagens e nascentes e dificuldades logísticas para coleta de amostras e destinação de carcaças."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro teve a presença de representantes do Ministério da Agricultura (MAPA), do Ibama, da Polícia Federal, do Exército, da Frente Parlamentar da Agropecuária, de associações de caçadores e de parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Afirmou que estudos preliminares apontam perdas econômicas significativas em cenários de ocorrência de peste suína clássica em áreas do Sul, Sudeste e Centro‑Oeste, citando estimativas (apresentadas na audiência) de perdas que variaram conforme cenário: R$ 3,5 bilhões (cenário 1), R$ 19,5 bilhões (cenário 2) e R$ 42 bilhões (cenário 3)"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vários participantes ressaltaram que a suspensão temporária ou a demora na operacionalização do SIMAF (Ibama/SERPRO) tem impactado o trabalho de controladores e a entrega de amostras para vigilância sanitária."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da sessão, deputado Marcos Pollon (PL-MS), declarou aberta a 31ª Reunião Extraordinária de Audiência Pública da Comissão e explicou que o objetivo é tratar dos desafios do manejo da fauna invasora e das formas de viabilizar e fomentar essa atividade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

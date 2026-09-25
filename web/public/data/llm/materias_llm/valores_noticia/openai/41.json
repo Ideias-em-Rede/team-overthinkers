@@ -1,0 +1,36 @@
+{
+  "id": 41,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "em 2050, 1 em cada 5 pessoas no mundo terá mais de 60 anos, e no Brasil a proporção pode superar 1 em cada 4"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Adriana Rodrigues Martins (diplomata e assessora do Departamento de Direitos Humanos e Temas Sociais do Ministério das Relações Exteriores)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a convenção incorpora direitos e mecanismos ainda não consagrados na legislação nacional, como reconhecimento da diversidade das velhices, cuidados paliativos e diretivas antecipadas de vontade em saúde"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a população global de 60 anos ou mais cresceu de 200 milhões em 1950 para 1,08 bilhão em 2021, e pode chegar a mais de 2 bilhões em 2050"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

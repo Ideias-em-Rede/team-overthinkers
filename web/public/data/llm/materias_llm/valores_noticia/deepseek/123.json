@@ -1,0 +1,36 @@
+{
+  "id": 123,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "uma doença que registra 80 mil novos casos e mais de 4.500 mortes por ano no país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Deputado Antonio Brito (PSD-BA), presidente da comissão"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "48% das famílias com casos de tuberculose enfrentam 'custos catastróficos', gastando mais de 20% de sua renda com a doença"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O debate focou na necessidade urgente de ampliação do orçamento federal para o combate à doença"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Brasil registrou 5.824 mortes por tuberculose em 2022, o pior número em duas décadas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O lançamento do Plano Nacional de Eliminação da Tuberculose, no Palácio do Planalto, com a presença do Presidente Lula e de autoridades internacionais como o Diretor-Geral da OMS"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 193,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados realizou uma audiência pública para debater a manutenção da taxa de juros e o impacto da inflação para as micro e pequenas empresas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelos deputados Jorge Goetten (PL-SC) e Vitor Lippi (PSDB-SP), reuniu representantes de entidades empresariais, bancos, do Banco Central e do governo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele apresentou dados mostrando que, embora a taxa Selic tenha caído de 13,75% para 13,25%, o juro real subiu de 8,15% em fevereiro para 10,9% em agosto, devido à queda da inflação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes do setor empresarial foram unânimes em criticar as altas taxas de juros."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele propôs a criação de um 'Desenrola da microempresa' para renegociar dívidas fiscais e bancárias, com a retirada de juros e multas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

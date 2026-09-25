@@ -1,0 +1,36 @@
+{
+  "id": 57,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os recursos serão enviados diretamente às escolas para aquisição de equipamentos, reparos na infraestrutura e contratação de serviços de psicologia para palestras e acompanhamentos pontuais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi convocada pela deputada Ana Paula Lima (PT-SC) e pelo deputado Pastor Henrique Vieira (PSOL-RJ)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Yann Evanovick, coordenador do Grupo de Trabalho Interministerial de Enfrentamento à Violência nas Escolas do Ministério da Educação (MEC), anunciou a destinação de R$ 3 bilhões para o Programa Dinheiro Direto na Escola (PDDE) Segurança."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vários participantes alertaram contra a militarização das escolas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Evanovick também apresentou um documento inédito com 'Recomendações para Proteção e Segurança no Ambiente Escolar'."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Bruno Renato Teixeira, Ouvidor Nacional de Direitos Humanos, reforçou que o Disque 100 agora atende também por WhatsApp (61) 99611-0100, 24 horas por dia, com fluxo integrado com polícias civis e militares."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

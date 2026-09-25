@@ -1,0 +1,36 @@
+{
+  "id": 36,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo deputado Coronel Meira (PL-PE), contou com a participação de representantes de entidades do setor portuário e aquaviário, da Marinha do Brasil, da Agência Nacional de Transportes Aquaviários (ANTAQ), do Ministério Público do Trabalho e de especialistas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O debate centrou-se na necessidade de regulação econômica do serviço de praticagem, atualmente regulado apenas tecnicamente pela Marinha do Brasil através da NORMAM-12."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Enquanto usuários do serviço, como armadores, terminais portuários e exportadores, defenderam a implementação de uma regulação econômica para conter abusos de preços, os representantes dos práticos argumentaram que o atual modelo de livre negociação já funciona adequadamente."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate centrou-se na necessidade de regulação econômica do serviço de praticagem, atualmente regulado apenas tecnicamente pela Marinha do Brasil através da NORMAM-12."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

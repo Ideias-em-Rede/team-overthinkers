@@ -1,0 +1,36 @@
+{
+  "id": 149,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou uma audiência pública para debater o planejamento do Estado brasileiro frente às mudanças demográficas do país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Alexandre Lindenmeyer (PT-RS), autor do requerimento, contou com a participação de representantes do governo federal, de institutos de pesquisa e de entidades da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As implicações incluem a demanda por serviços de saúde e cuidado, e o desafio do financiamento da Previdência Social."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Andréa dos Santos criticou o fato de que os planos diretores muitas vezes não contemplam as necessidades dos idosos e defendeu uma agenda propositiva para os municípios em 2024."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Vladimir Milton Pomar, geógrafo, alertou para uma iminente 'crise populacional', comparando a situação do Sul do Brasil à de países da Europa e Ásia."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele listou desafios como a 'feminização da velhice', a mortalidade precoce de homens, o idadismo (discriminação por idade), a necessidade de políticas de cuidado compartilhado, a garantia de trabalho decente, a educação ao longo da vida, o combate à solidão e à violência digital."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

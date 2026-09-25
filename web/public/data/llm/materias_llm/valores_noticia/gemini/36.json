@@ -1,0 +1,36 @@
+{
+  "id": 36,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Administração e Serviço Público da Câmara dos Deputados realizou, em 31 de agosto, uma audiência pública para debater projetos de lei que visam regulamentar o serviço de praticagem no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Representantes de setores como transporte, indústria, portos e agronegócio defenderam a criação de um mecanismo de regulação econômica."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Por outro lado, representantes dos práticos e dos trabalhadores portuários defenderam o modelo atual, baseado na livre negociação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência pública, que contou com a participação de cerca de 20 entidades de forma presencial e remota, serviu para colher subsídios para a elaboração de um relatório sobre os projetos de lei em tramitação na comissão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

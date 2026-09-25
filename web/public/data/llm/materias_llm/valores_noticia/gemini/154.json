@@ -1,0 +1,36 @@
+{
+  "id": 154,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "citando dados do IBGE que apontam a existência de mais de 40 milhões de mulheres entre 35 e 65 anos no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Lêda Borges (PSDB-GO), relatora do projeto"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "aprimorar o Projeto de Lei nº 5.602, de 2019, que cria o Programa de Atenção a Mulheres na Menopausa e Climatério"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Elas destacaram a necessidade de enfrentar mitos e preconceitos relacionados à menopausa, que, segundo ela, levam a violências e dificuldades no mercado de trabalho"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação virtual de médicos especialistas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Esse período precisa deixar de ser visto como um tabu e passar a ser compreendido como determinante para uma longevidade saudável"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 198,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Luizianne Lins abriu o debate destacando a necessidade de uma força-tarefa interministerial para lidar com a chegada de refugiados em portos e aeroportos, citando a recente crise de acolhimento no Aeroporto de Guarulhos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública para debater a situação dos refugiados no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Oscar Sánchez, representante adjunto do ACNUR (Agência da ONU para Refugiados) no Brasil, informou que o número de deslocados forçados no mundo ultrapassou 110 milhões de pessoas e que o Brasil acolhe mais de 650 mil pessoas necessitadas de proteção internacional."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Marina Rongo também pediu a revogação da Portaria 678 de 2022, que permite a deportação sumária, e alertou para a demora na emissão de vistos humanitários para afegãos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência também ouviu representantes da comunidade de refugiados. Tomás Alejandro Guzmán, da Casa Venezuela, agradeceu a resposta humanitária do Brasil, especialmente a Operação Acolhida, que, segundo ele, documenta e garante acesso ao SUS para venezuelanos em menos de 72 horas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

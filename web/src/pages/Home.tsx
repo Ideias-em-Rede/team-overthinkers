@@ -1,46 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import type { MateriaIndex } from "../types";
+import PanoramaHumano from "../components/PanoramaHumano";
 import "./Home.css";
 
-interface Stats {
-  totalMaterias: number;
-  totalEnvolvidos: number;
-  totalOpinioes: number;
-  mediaEnvolvidos: number;
-  primeiraData: string;
-  ultimaData: string;
-}
-
-function computeStats(index: MateriaIndex[]): Stats {
-  const totalEnvolvidos = index.reduce((s, m) => s + m.num_envolvidos, 0);
-  const totalOpinioes = index.reduce((s, m) => s + m.num_opinioes, 0);
-  const datas = index
-    .map((m) => m.data)
-    .filter(Boolean)
-    .map((d) => {
-      const [dd, mm, yyyy] = d.split("/");
-      return { raw: d, ts: new Date(`${yyyy}-${mm}-${dd}`).getTime() };
-    })
-    .sort((a, b) => a.ts - b.ts);
-  return {
-    totalMaterias: index.length,
-    totalEnvolvidos,
-    totalOpinioes,
-    mediaEnvolvidos: index.length ? totalEnvolvidos / index.length : 0,
-    primeiraData: datas[0]?.raw ?? "",
-    ultimaData: datas[datas.length - 1]?.raw ?? "",
-  };
-}
+type Corpus = "transcricao" | "humanos" | "llm";
 
 export default function Home() {
-  const [stats, setStats] = useState<Stats | null>(null);
-
-  useEffect(() => {
-    fetch("/data/index.json")
-      .then((r) => r.json())
-      .then((data: MateriaIndex[]) => setStats(computeStats(data)));
-  }, []);
+  const [corpus, setCorpus] = useState<Corpus>("transcricao");
 
   return (
     <div className="home">
@@ -102,26 +68,42 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="stats">
-        <h2>Panorama do corpus</h2>
-        {!stats ? (
-          <div className="loading">Carregando estatísticas…</div>
-        ) : (
-          <div className="stat-grid">
-            <div className="stat">
-              <span className="stat__value">{stats.totalMaterias}</span>
-              <span className="stat__label">matérias</span>
-            </div>
-            <div className="stat stat--wide">
-              <span className="stat__value stat__value--sm">
-                {stats.primeiraData} → {stats.ultimaData}
-              </span>
-              <span className="stat__label">período coberto</span>
-            </div>
+      <section className="panorama">
+        <div className="panorama__head">
+          <h2>Panorama</h2>
+          <div className="panorama__tabs">
+            <button
+              className={`panorama__tab ${corpus === "transcricao" ? "on" : ""}`}
+              onClick={() => setCorpus("transcricao")}
+            >
+              Transcrições
+            </button>
+            <button
+              className={`panorama__tab ${corpus === "humanos" ? "on" : ""}`}
+              onClick={() => setCorpus("humanos")}
+            >
+              Escritas por Humano
+            </button>
+            <button
+              className={`panorama__tab ${corpus === "llm" ? "on" : ""}`}
+              onClick={() => setCorpus("llm")}
+            >
+              Geradas por LLM
+            </button>
           </div>
+        </div>
+
+        {corpus === "llm" ? (
+          <div className="panorama__empty">
+            <p>
+              Corpus LLM em construção. As matérias geradas pelos modelos
+              (OpenAI, Gemini, DeepSeek) serão sumarizadas aqui.
+            </p>
+          </div>
+        ) : (
+          <PanoramaHumano section={corpus} />
         )}
       </section>
-
     </div>
   );
 }

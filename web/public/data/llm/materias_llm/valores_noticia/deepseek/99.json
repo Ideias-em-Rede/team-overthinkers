@@ -1,0 +1,36 @@
+{
+  "id": 99,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou, nesta quarta-feira, uma audiência pública para debater a crise humanitária na Faixa de Gaza"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vinícius Limongi, do Programa Mundial de Alimentos (WFP), informou que 100% da população de Gaza enfrenta insegurança alimentar grave"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A audiência foi marcada por momentos de tensão quando os deputados Gilvan da Federal (PL-ES), Delegado Éder Mauro (PL-PA) e Abilio Brunini (PL-MT) usaram a palavra no final do evento"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Jamal Naim, que perdeu familiares em um bombardeio, fez um emocionado relato sobre a situação em Gaza"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

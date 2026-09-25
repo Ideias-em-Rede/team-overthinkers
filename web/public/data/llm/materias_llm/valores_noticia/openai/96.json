@@ -1,0 +1,36 @@
+{
+  "id": 96,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debate a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "políticas públicas que garantam o fornecimento gratuito de medicamentos psicoestimulantes utilizados no tratamento do TDAH"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "discussão sobre se o TDAH deve ser classificado como deficiência para efeitos legais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "necessidade de diagnóstico precoce, formação de profissionais e políticas intersetoriais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

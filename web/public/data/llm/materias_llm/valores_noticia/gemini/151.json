@@ -1,0 +1,36 @@
+{
+  "id": 151,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública para debater a inclusão da educação especializada para pessoas privadas de liberdade no novo Plano Nacional de Educação (PNE)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Luiz Couto (PT-PB), contou com a participação de representantes de ministérios, da sociedade civil e de especialistas na área."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Cláudia Bandeira, da Campanha Nacional pelo Direito à Educação, apresentou dados sobre o sistema prisional brasileiro, que ocupa o terceiro lugar no ranking mundial, com mais de 839 mil pessoas presas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou o prejuízo à pedagogia causado por medidas de segurança, como a instalação de grades que separam professores e alunos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi aberto com a fala de Irmã Petra Silvia Pfaller, da Pastoral Carcerária, que destacou a educação como uma medida de desencarceramento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

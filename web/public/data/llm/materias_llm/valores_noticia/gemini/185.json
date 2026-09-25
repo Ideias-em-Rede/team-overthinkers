@@ -1,0 +1,36 @@
+{
+  "id": 185,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, convocada pela deputada Iza Arruda (MDB-PE), discutiu os desafios para a implementação da Lei nº 14.154/2021, que amplia o número de doenças rastreadas pelo exame, e a situação do Programa Nacional de Triagem Neonatal (PNTN)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a presença de parlamentares, representantes do Ministério da Saúde, de sociedades médicas, de institutos de pesquisa e de associações de pacientes e familiares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou a importância do exame para evitar ou diminuir sequelas graves em recém-nascidos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele apontou desafios atuais, como a falta de uniformidade na coleta entre os estados, citando que no Piauí apenas 24% das coletas ocorrem em até 7 dias de vida, enquanto no Distrito Federal o índice é de quase 98%."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Amira Awada, do Instituto Vidas Raras, informou que o diagnóstico de uma doença rara no Brasil leva em média de 4 a 7 anos e que a triagem neonatal é um passo fundamental para prevenir doenças e reduzir custos futuros para o SUS."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

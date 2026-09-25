@@ -1,0 +1,36 @@
+{
+  "id": 69,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública nesta segunda-feira para discutir o engajamento do jovem eleitor no processo democrático."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pela deputada Lídice da Mata (PSB-BA), autora do requerimento que propôs a discussão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela informou que houve um aumento de 2.042.817 jovens na faixa de voto facultativo (16 e 17 anos) alistados entre janeiro e maio de 2022, um crescimento de 47% em relação a 2018."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Eduardo Sobral, da Polícia Federal, abordou o combate à desinformação e as fake news."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A ministra atribuiu esse resultado ao uso de redes sociais, parcerias com influenciadores digitais e clubes de futebol."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante a audiência, foram respondidas perguntas de internautas sobre como incluir os jovens no processo político e como promover debates respeitosos em um cenário de polarização."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

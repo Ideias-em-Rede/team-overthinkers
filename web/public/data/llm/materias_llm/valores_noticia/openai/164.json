@@ -1,0 +1,36 @@
+{
+  "id": 164,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Jamaci detalhou números sobre municípios em situação irregular ou impedidos de acessar recursos federais: citou que, em determinado levantamento, 1.113 municípios tinham contratos em situação de precariedade"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram à mesa, presencialmente e on-line, Jamaci Avelino do Nascimento Júnior (Secretaria Nacional de Saneamento, Ministério das Cidades), Marcelo Trindade Miterhof (BNDES), Felipe Rene Cardoso (Caixa Econômica Federal), Filipe de Mello Sampaio Cunha (ANA), Pedro Damásio e Fábio Giori Smarçaro (Federação Nacional dos Urbanitários) e Percy Soares Neto (ABCON / SINDCON)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Jamaci ressaltou que um dos principais gargalos para o acesso a recursos é a baixa qualidade técnica dos projetos e a ausência de planos de saneamento básicos em muitos municípios"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes da Federação Nacional dos Urbanitários (Pedro Damásio e Fábio Giori) defenderam maior protagonismo do Estado e das empresas públicas na universalização do saneamento, criticaram a ênfase em privatizações"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Jamaci detalhou números sobre municípios em situação irregular ou impedidos de acessar recursos federais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

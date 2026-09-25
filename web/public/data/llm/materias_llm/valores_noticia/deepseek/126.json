@@ -1,0 +1,36 @@
+{
+  "id": 126,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "mais de 700 mil pessoas são tratadas com cannabis no país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "presidida pelo deputado Chico Alencar (PSOL-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "mais de R$ 700 milhões foram movimentados este ano com produtos importados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "criticou a contradição do Parlamento que, segundo ela, facilita a entrada de agrotóxicos mas criminaliza uma planta medicinal"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a audiência é um momento para 'escutatória' do Legislativo"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "defendendo o cultivo doméstico e associativo como formas de acesso democrático"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

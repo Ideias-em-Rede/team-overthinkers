@@ -1,0 +1,36 @@
+{
+  "id": 157,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "discutir a regulação do setor farmacêutico em relação às terapias gênicas, com foco especial na precificação desses produtos e nas formas de garantir acesso à população"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocada pelos deputados Paulão e Antônia Lúcia e pelo ex-deputado Valtenir Pereira, a reunião reuniu representantes do Ministério da Saúde e da Câmara de Regulação do Mercado de Medicamentos (CMED), da indústria farmacêutica, sociedades médicas, associações de pacientes, sindicatos e especialistas em terapia celular e genética"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Esses preços, afirmou, já estão na faixa de milhões de reais — casos citados variam de R$1 milhão a até R$7 milhões — e foram condicionados a monitoramento de dados de segurança/eficácia e da evolução dos preços internacionais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "alertaram que regras de precificação muito restritivas poderiam desincentivar registros e a oferta desses produtos no Brasil"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Daniela Marreco Cerqueira detalhou o fluxo regulatório para que um medicamento esteja disponível no Brasil"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A sessão foi transmitida ao vivo e registrada"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -123,3 +123,40 @@ h4 {
   text-align: center;
   color: var(--text-muted);
 }
+
+/* ---------- Cards de distribuição (reutilizáveis) ---------- */
+
+.dist {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+}
+.dist__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.9rem;
+}
+.dist__title {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--navy);
+}
+.dist-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.dist-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (max-width: 720px) {
+  .dist-row {
+    grid-template-columns: 1fr;
+  }
+}

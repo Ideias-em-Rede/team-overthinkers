@@ -1,0 +1,36 @@
+{
+  "id": 136,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do debate representantes de organizações indígenas, como a Articulação dos Povos Indígenas do Brasil (APIB), a Articulação Nacional das Mulheres Indígenas Guerreiras da Ancestralidade (ANMIGA) e a Coordenação das Organizações Indígenas da Amazônia Brasileira (COIAB), além de membros do Ministério dos Povos Indígenas (MPI), da Fundação Nacional dos Povos Indígenas (FUNAI), do IBAMA, do ICMBio e do Ministério do Desenvolvimento Agrário e Agricultura Familiar (MDA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Kleber Karipuna, da APIB, destacou que a PNGATI foi uma das primeiras políticas públicas construídas com ampla participação indígena. Ele defendeu a aprovação da lei para dar mais estabilidade à política e cobrou a retomada do Comitê Gestor da PNGATI."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Alcebias Constantino, da COIAB, defendeu a PNGATI como uma ferramenta para a autonomia e sustentabilidade econômica dos territórios, contrastando-a com projetos de lei que, segundo ele, retiram direitos indígenas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi motivada por requerimentos da Deputada Célia Xakriabá e do Deputado Amom Mandel (Cidadania-AM), relator do projeto de lei (PL nº 4.347/2021) sobre o tema na Comissão de Meio Ambiente."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 164,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele informou que 1.113 municípios tinham contratos em situação de precariedade, afetando cerca de 30 milhões de habitantes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi presidido pelo deputado Max Lemos (PDT-RJ) e contou com a participação de representantes do Ministério das Cidades, da Agência Nacional de Águas e Saneamento Básico (ANA), do BNDES, da Caixa Econômica Federal, da Federação Nacional dos Urbanitários (FNU) e da Associação e Sindicato Nacional das Concessionárias Privadas de Serviços Públicos de Água e Esgoto (ABCON/SINDCON)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele afirmou que para atingir a universalização até 2033 seriam necessários investimentos de R$ 31,5 bilhões anuais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Pedro Damásio Costa Neto e Fábio Giori Smarçaro, da Federação Nacional dos Urbanitários, criticaram o modelo de privatização do saneamento."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele informou que existem 96 entidades reguladoras infranacionais no país e que a ANA já publicou três normas de referência, com previsão de publicar mais 11 até o final de 2023."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

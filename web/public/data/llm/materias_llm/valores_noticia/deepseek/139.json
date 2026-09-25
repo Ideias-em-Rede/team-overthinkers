@@ -1,0 +1,36 @@
+{
+  "id": 139,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Mato Grosso do Sul concentrava 40,9% do total de pessoas indígenas presas no Brasil naquele ano."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão da Amazônia e dos Povos Originários e Tradicionais da Câmara dos Deputados realizou uma audiência pública nesta terça-feira (7) para debater o tratamento de povos indígenas no contexto de encarceramento."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela criticou a falta de aplicação da Resolução nº 287/2019 do CNJ, que prevê intérprete, laudo antropológico e comunicação da prisão à comunidade, por ser um ato infralegal sem força vinculante."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Viviane Balbuglio, do Conselho Indigenista Missionário (CIMI), relacionou o encarceramento à criminalização da luta pela terra e à falta de políticas públicas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Dados oficiais de 2021, apresentados pela deputada, indicam que Mato Grosso do Sul concentrava 40,9% do total de pessoas indígenas presas no Brasil naquele ano."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A defensora pública Aléssia Bertuleza Tuxá (BA) destacou a subnotificação e a invisibilidade dos indígenas no sistema prisional."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

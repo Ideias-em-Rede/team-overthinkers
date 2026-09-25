@@ -1,0 +1,36 @@
+{
+  "id": 188,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de gestoras, pesquisadoras e representantes de entidades científicas, que apresentaram dados sobre a participação feminina na ciência e propuseram políticas públicas para reduzir as desigualdades de gênero no setor."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pela deputada Ana Pimentel (PT-MG)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela destacou que a situação é mais grave quando considerados recortes regionais, com estados do Norte e Nordeste apresentando representação feminina abaixo da média nacional."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela defendeu a derrubada do Decreto nº 997/1993, que proíbe a criação de novas creches nas universidades, e a extensão da licença-maternidade para seis meses para todas as pós-graduandas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Elas argumentaram que a diversidade de gênero, raça e classe na ciência não é apenas uma questão de justiça social, mas também aumenta a criatividade, a inovação e a qualidade do conhecimento produzido."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

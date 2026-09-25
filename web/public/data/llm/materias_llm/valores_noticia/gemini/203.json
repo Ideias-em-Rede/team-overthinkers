@@ -1,0 +1,36 @@
+{
+  "id": 203,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o aumento dos casos de violência contra as mulheres no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial e a Comissão de Defesa dos Direitos da Mulher da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "os números apontam um aumento em diversas formas de violência, incluindo agressões (cerca de 3%), ameaças (7,2%), feminicídios (61,1% contra mulheres negras) e estupros (8,2%)"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Diversos participantes associaram o aumento da violência ao desmonte de políticas públicas e à redução orçamentária no governo anterior"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a recente decisão do Supremo Tribunal Federal (STF) que considerou inconstitucional o uso da tese de 'legítima defesa da honra' em crimes de feminicídio"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência ocorreu no 'Agosto Lilás', mês de conscientização pelo fim da violência contra a mulher, e às vésperas do 17º aniversário da Lei Maria da Penha"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

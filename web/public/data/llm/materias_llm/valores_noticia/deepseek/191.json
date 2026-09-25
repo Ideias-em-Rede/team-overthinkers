@@ -1,0 +1,36 @@
+{
+  "id": 191,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "citando como exemplo as cláusulas ambientais e de bem-estar animal que impactam negociações como o tratado entre União Europeia e Mercosul"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública realizada na Câmara dos Deputados, especialistas e representantes do governo discutiram a Resolução Nexus entre Bem-Estar Animal, Ambiente e Desenvolvimento Sustentável"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele apresentou dados que mostram o peso da pecuária no planeta e alertou para os riscos de não adaptação a novos modelos de produção, que podem resultar em perda de mercados"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Alysson Soares, do The Good Food Institute, apresentou as proteínas alternativas (plant-based, cultivadas e de fermentação) como ferramentas para mitigar os impactos climáticos e melhorar o bem-estar animal"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela apresentou dados sobre o impacto da pecuária nas emissões de gases de efeito estufa e na segurança alimentar, defendendo uma transformação no sistema alimentar"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

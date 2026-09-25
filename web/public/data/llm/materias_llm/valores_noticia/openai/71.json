@@ -1,0 +1,36 @@
+{
+  "id": 71,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a refinaria abastece aproximadamente 66% do mercado de gasolina e diesel em Minas Gerais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Foram convidados e participaram da audiência: Eric Marcos Futino, gerente‑geral de Planejamento Logístico da Petrobras; Alexandre Finamori França Baptista (o \"Barriga\"), coordenador‑geral do Sindipetro/MG; Deyvid Souza Bacelar da Silva, coordenador‑geral da Federação Única dos Petroleiros (FUP); e o professor Eduardo Costa Pinto, pesquisador do INEEP e da UFRJ"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a venda da REGAP poderia elevar preços dos combustíveis em até 73%"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O debate teve tom conflituoso entre os representantes da Petrobras e os representantes sindicais e acadêmicos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate político sobre projetos em tramitação no Congresso que, segundo interlocutores, poderiam permitir venda antecipada de receitas do pré‑sal e reduzir a destinação de recursos do Fundo Social"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

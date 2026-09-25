@@ -1,0 +1,36 @@
+{
+  "id": 33,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência decorre do Requerimento nº 46/2023, de sua autoria, e tem como objetivo discutir a exigência de diploma para o exercício da profissão de jornalista."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro foi convocado pelo deputado Amaro Neto (Republicanos-ES) e teve a participação de representantes de entidades da categoria, professores e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Todos os expositores defendem a volta da exigência do diploma de nível superior em jornalismo ou, alternativamente, a regulamentação profissional que garanta critérios de acesso e controle da prática jornalística."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Daniel Trzeciak (PSDB-RS), presente entre o público e com experiência prévia na profissão, fez defesa pessoal do valor do diploma e criticou a decisão do STF de 2009."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida pelos canais oficiais da Câmara."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 104,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião foi convocada pelo deputado Hugo Leal e dividida em três painéis com representantes do setor privado, associações de consumidores e órgãos públicos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro contou com 14 expositores e foi organizado em três mesas temáticas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Rodrigo Sauaia (ABSOLAR) alertou que o projeto prevê limitação de 10% para a participação da geração distribuída (GD) na matriz elétrica e reserva de mercado de 70% para distribuidoras, medidas que, segundo ele, seriam um retrocesso, reduziriam investimentos e empregos e conflitam com a Lei nº 14.300/2022."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Hewerton Martins (MSL) e Heber Galarce (INEL) também criticaram a proposta."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Victor Iocca (ABRACE) ressaltou o impacto global da energia sobre preços na economia, afirmou que o custo global da energia para seus associados chega a cerca de R$ 80 bilhões ao ano e manifestou preocupação com eventual limitação do mercado livre a 30%."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

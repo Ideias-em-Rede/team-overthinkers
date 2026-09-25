@@ -1,0 +1,36 @@
+{
+  "id": 166,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro reuniu representantes de órgãos públicos, entidades de controle, o setor privado e especialistas acadêmicos e técnicos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O auditor destacou características da tecnologia — transparência, integridade, rastreabilidade, irrefutabilidade e descentralização — e seus potenciais ganhos para serviços públicos, eficiência administrativa, combate à corrupção e compliance by design"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O TCU apresentou trabalho realizado em 2019/2020 sobre aplicações governamentais de blockchain, propondo um framework para auxiliar gestores públicos a avaliar a necessidade e os riscos do uso da tecnologia"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado Caio Vianna, enfatizou a necessidade de legislar para criar ambiente regulatório e técnico adequado e registrou que já apresentou projeto de lei voltado à transparência e rastreabilidade de dados públicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

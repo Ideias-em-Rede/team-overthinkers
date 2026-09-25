@@ -1,0 +1,36 @@
+{
+  "id": 72,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Rogério Correia (PT-MG), autor do requerimento, contou com a participação de representantes do Ministério Público do Trabalho (MPT), do Ministério do Trabalho e Previdência, de sindicatos, de organizações da sociedade civil e incluiu o depoimento ao vivo de um trabalhador recentemente resgatado."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Trabalho, de Administração e Serviço Público (CTASP) da Câmara dos Deputados realizou, nesta quinta-feira, uma audiência pública para debater a política de combate ao trabalho análogo à escravidão no Brasil, com atenção especial aos casos registrados em lavouras de café em Minas Gerais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou que, em 2021, operações fiscais resgataram aproximadamente 300 pessoas apenas na produção de café e alho no sul de Minas e no Triângulo Mineiro."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele atribuiu o agravamento da situação ao aumento do desemprego e da pobreza, e defendeu a aprovação do PL nº 3.168/2021, que aumenta de três para seis as parcelas do seguro-desemprego para trabalhadores resgatados."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Um dos momentos centrais da audiência foi o depoimento de Adésio de Brito Neto, trabalhador que se identificou como vítima de trabalho escravo, resgatado há duas semanas em uma fazenda de café em Manhumirim (MG), junto com outros sete colegas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Adésio descreveu as condições a que era submetido: 'Lá a gente trabalhava em situação precária, sem equipamento nenhum, de pé no chão, descalço, sem água potável'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

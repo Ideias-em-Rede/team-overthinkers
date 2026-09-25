@@ -1,0 +1,36 @@
+{
+  "id": 5,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ela relatou as dificuldades enfrentadas por famílias no interior do Pará, onde faltam profissionais especializados e centros de referência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido inicialmente pelo deputado Weliton Prado (SOLIDARIEDADE-MG) e depois pela deputada Andreia Siqueira (MDB-PA), autora do requerimento, contou com a participação de representantes do governo, especialistas, parlamentares e membros de associações."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada Andreia Siqueira destacou a necessidade de políticas públicas para garantir inclusão, educação de qualidade, saúde e oportunidades no mercado de trabalho para pessoas com Transtorno do Espectro Autista (TEA)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mandel criticou a falta de cumprimento da legislação: 'Não adianta aprovar leis e mudanças que deem direitos fictícios, direitos que não são cumpridos na prática'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Fernando Cotta, presidente de honra do Movimento Orgulho Autista Brasil, compartilhou sua experiência como pai de um autista de nível 3 e enfatizou a importância de superar os 'gargalos' na saúde e educação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

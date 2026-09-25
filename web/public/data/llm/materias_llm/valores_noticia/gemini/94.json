@@ -1,0 +1,36 @@
+{
+  "id": 94,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Samara Rocha, da Associação Tudo Azul do Gama (DF), fez um apelo ao governo local pela falta de neuropediatras e psiquiatras infantis na rede pública de sua região."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública em comemoração ao Dia do Orgulho Autista."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fernando Cotta, presidente do Movimento Orgulho Autista Brasil, relembrou o início das comemorações da data no país, em 2005, e a luta pela criação de leis como a Berenice Piana."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Telma Sá Nascimento, presidente da AMA do Maranhão, relatou a ausência de assistência para a população autista em seu estado, o que fortaleceu a atuação de organizações não governamentais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A importância do protagonismo autista foi um tema central. Érica Curado, mulher autista e representante da ABRAÇA, afirmou que o orgulho autista combate o capacitismo – o preconceito contra pessoas com deficiência."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

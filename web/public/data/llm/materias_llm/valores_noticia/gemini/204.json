@@ -1,0 +1,36 @@
+{
+  "id": 204,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou, em 11 de julho de 2023, uma audiência pública para discutir a necessidade de ampliar o acesso a recursos e tratamentos para a distonia no sistema público de saúde."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, convocada pela Deputada Meire Serafim (UNIÃO-AC), reuniu neurologistas, representantes de associações e pacientes para expor os desafios enfrentados, desde o diagnóstico tardio até as barreiras para obter terapias adequadas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada, que presidiu a sessão, abriu os trabalhos destacando que a distonia é uma condição neurológica que causa contrações musculares involuntárias, afetando a qualidade de vida dos pacientes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os especialistas foram unânimes em apontar a toxina botulínica como um dos principais tratamentos. No entanto, o acesso é limitado devido ao alto custo, à falta de profissionais capacitados para a aplicação no SUS e à qualidade variável das toxinas disponibilizadas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Casagrande apresentou dados que mostram uma prevalência maior do que se pensava, podendo chegar a 732 casos por 100 mil habitantes."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência contou com os depoimentos de pacientes que também atuam no Instituto Distonia Saúde."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

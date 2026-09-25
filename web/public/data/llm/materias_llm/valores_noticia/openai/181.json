@@ -1,0 +1,36 @@
+{
+  "id": 181,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O tabagismo foi caracterizado como problema de saúde pública, concentrado entre populações de menor renda e menor escolaridade."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram, entre outros: Maria José Giongo (chefe da Divisão do PNCT e outros fatores de risco do INCA), Diogo Alves (OPAS/OMS), Sandra Marques (coordenadora estadual de São Paulo do PNCT), Margareth Dalcolmo (presidente da SBPT), Mônica Andreis (diretora-geral da ACT Promoção da Saúde) e Gustavo San Martin (representante de associação de pacientes)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "No Brasil, o tabagismo mata 443 pessoas por dia, conforme dados trazidos pela expositora."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Registrou problemas de financiamento (PLOA/PPA), dificuldades em licitação e acesso a medicamentos (como bupropiona) e a necessidade de interoperabilidade de dados para vigilância e monitoramento."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O tabagismo foi caracterizado como problema de saúde pública, concentrado entre populações de menor renda e menor escolaridade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 77,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater medidas de socorro ao setor de transporte coletivo urbano"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Elias Vaz, presidente da sessão"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o setor acumulou um desequilíbrio financeiro de quase R$ 28 bilhões até abril de 2022, resultando na perda de quase 90 mil postos de trabalho"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou o veto do Presidente Jair Bolsonaro a uma ajuda de R$ 4 bilhões ao setor"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Também foi discutida a mudança no modelo de remuneração das empresas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

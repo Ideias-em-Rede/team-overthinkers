@@ -1,0 +1,36 @@
+{
+  "id": 125,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pelo deputado Idilvan Alencar (PDT-CE), foi motivada por preocupações com um processo seletivo em andamento no Ceará e buscou discutir o tema em âmbito nacional"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de especialistas e gestores. Adriana Almeida, vereadora em Fortaleza (PT) e ex-diretora escolar, relatou sua experiência no Ceará."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou que o recebimento da complementação VAAR (Valor Aluno Ano por Resultados) está condicionado à adoção desses critérios."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela defendeu o processo de eleição direta, que envolve toda a comunidade escolar, como o mais democrático. No entanto, expressou preocupação com o fato de que, no estado, escolas profissionais e de tempo integral não realizam mais eleições"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A nova lei do FUNDEB, da qual é coautor, torna a seleção de diretores com base em critérios técnicos uma obrigação para estados e municípios."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A pesquisa também mostrou que a indicação política ainda é a forma de seleção mais comum nos municípios."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

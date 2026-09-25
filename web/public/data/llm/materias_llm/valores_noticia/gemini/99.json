@@ -1,0 +1,36 @@
+{
+  "id": 99,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vinícius Limongi, do Programa Mundial de Alimentos, informou que 100% da população de Gaza enfrenta grave insegurança alimentar e que mais de um milhão de pessoas estão em nível de 'catástrofe', com risco de morte iminente por fome"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O momento mais emotivo da audiência foi o depoimento de Jamal Naim, decano da Faculdade de Odontologia da Universidade da Palestina. Ele relatou ter perdido sua mãe, três filhas e três netos em um bombardeio em Gaza"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência mudou de tom em sua parte final. Após as falas dos convidados, parlamentares de esquerda como Fernanda Melchionna (PSOL-RS) e Padre João (PT-MG) retiraram suas inscrições para discursar"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

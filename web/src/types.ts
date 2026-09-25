@@ -108,6 +108,107 @@ export interface ValoresNoticiaFile {
   valores_noticia: ValoresNoticiaMap;
 }
 
+// --- Panorama do corpus humano (estatísticas + testes) ------------------
+
+export interface PanoramaMatching {
+  total_registros_fala: number;
+  pessoas_canonicas_distintas: number;
+  total_envolvidos_em_noticias: number;
+  envolvidos_sem_correspondencia_no_transcript: number;
+  pct_envolvidos_sem_correspondencia: number;
+}
+
+export interface AchadoSelecao {
+  hipotese_testada: string;
+  n_total: number;
+  n_cobertos: number;
+  taxa_cobertura: number;
+  ic95_taxa_cobertura: [number, number];
+  mediana_palavras_cobertos: number;
+  mediana_palavras_nao_cobertos: number;
+  p_valor: number;
+  rejeita_h0_a_5pct: boolean;
+  estatistica_descritiva_adicional: {
+    descricao: string;
+    audiencias_com_2plus_cobertos: number;
+    coincidencia_top_falante_top_citado: number;
+    pct_coincidencia: number;
+  };
+}
+
+export interface AchadoConvidados {
+  hipotese_testada: string;
+  n_deputados_cobertos: number;
+  n_convidados_cobertos: number;
+  media_opinioes_deputados: number;
+  media_opinioes_convidados: number;
+  media_palavras_deputados: number;
+  media_palavras_convidados: number;
+  ols_coef_is_convidado: number;
+  ols_ic95_is_convidado: [number, number];
+  p_valor: number;
+  rejeita_h0_a_5pct: boolean;
+}
+
+export interface AchadoDestaquePartido {
+  hipotese_testada_global: string;
+  partidos_analisados_n15plus: string[];
+  tabela_destaque_por_partido: Record<
+    string,
+    { destaque: number; total: number; pct: number }
+  >;
+  p_valor_global: number;
+  rejeita_h0_global_a_5pct: boolean;
+  pl_pct_destaque: number;
+  resto_pct_destaque: number;
+  p_valor_pl_vs_resto: number;
+  odds_ratio_pl: number;
+  ic95_odds_ratio_pl: [number, number];
+}
+
+export interface AchadoPopulacaoUf {
+  hipotese_testada: string;
+  n_deputados_com_uf: number;
+  n_ufs_analisadas: number;
+  p_valor: number;
+  rejeita_h0_a_5pct: boolean;
+  classificacao: string;
+  tabela_cobertura_por_uf: Record<
+    string,
+    { populacao: number; n: number; pct_cobertura: number }
+  >;
+  observacao: string;
+}
+
+export interface PanoramaFile {
+  matching: PanoramaMatching;
+  achado_1_filtro_de_selecao: AchadoSelecao;
+  achado_2_convidados_vs_deputados: AchadoConvidados;
+  achado_3_destaque_partidario: AchadoDestaquePartido;
+  achado_4_populacao_uf: AchadoPopulacaoUf;
+}
+
+// --- Valores-notícia agregados por matéria ------------------------------
+
+export type ValoresPorMateriaMap = Record<string, string[]>;
+
+// --- Gatekeepers (audiência × cobertura na matéria) ---------------------
+
+export interface GatekeeperRow {
+  hearing_id: number;
+  nome_canon: string;
+  nome_key: string;
+  genero: string;
+  partido: string | null;
+  estado: string | null;
+  quantidade_falas: number;
+  quantidade_palavras: number;
+  covered: boolean;
+  mencoes: number;
+  quantidade_opinioes: number;
+  posicao_no_texto: string | null;
+}
+
 // --- Matéria gerada por LLM (a partir da transcrição) -------------------
 
 export interface MateriaLlmFile {

@@ -1,0 +1,36 @@
+{
+  "id": 137,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A proposta altera o art. 37 da Constituição Federal para permitir a acumulação remunerada de um cargo de professor com outro de qualquer natureza"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi conduzida pelo presidente da comissão, deputado Daniel Agrobom (PL-GO), e contou com a participação de três convidados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele argumentou que a mudança pode 'precarizar a função docente' e 'afetar a qualidade da educação ofertada'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Alessio Costa Lima expressou preocupação com a proposta"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A proposta altera o art. 37 da Constituição Federal para permitir a acumulação remunerada de um cargo de professor com outro de qualquer natureza"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele citou uma enquete informal com 64 professores em que 80% se disseram favoráveis à mudança"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

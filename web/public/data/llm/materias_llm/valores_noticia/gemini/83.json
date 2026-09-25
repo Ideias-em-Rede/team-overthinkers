@@ -1,0 +1,36 @@
+{
+  "id": 83,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O acesso à moradia foi apontado como a questão central."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo Deputado Orlando Silva (PCdoB-SP), reuniu representantes do Poder Judiciário, do Executivo, de organismos internacionais, da Defensoria Pública e de movimentos sociais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ronan Ferreira Figueiredo, Defensor Público do DF, alertou para o fim, em 30 de junho, da proibição de despejos forçados determinada pelo STF, afirmando que, segundo a Campanha Despejo Zero, 142.385 famílias estão ameaçadas, o que pode levar cerca de 570 mil pessoas às ruas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eduardo de Carvalho Mota, do Conselho Nacional de Direitos Humanos, relatou denúncias de violência policial, expulsão de espaços públicos e o uso de 'arquitetura hostil' nas cidades."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Thaís Senra, do UNAIDS, apresentou dados sobre a alta prevalência de problemas de saúde, como HIV, sífilis e tuberculose, na população de rua, muito acima da média nacional."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -61,14 +61,14 @@ load_dotenv(ROOT / ".env")
 
 SOURCES = {
     "humano": {
-        "input_dir": ROOT / "web" / "public" / "data" / "materias",
+        "input_dir": ROOT / "web" / "public" / "data" / "humano" / "materias" / "materias",
         "input_field": "materia_raw",
-        "output_dir": ROOT / "web" / "public" / "data" / "valores_noticia",
+        "output_dir": ROOT / "web" / "public" / "data" / "humano" / "materias" / "valores_noticia",
     },
     "llm": {
-        "input_dir": ROOT / "web" / "public" / "data" / "materia_llm",
+        "input_dir": ROOT / "web" / "public" / "data" / "llm" / "materias_llm",
         "input_field": "materia_llm",
-        "output_dir": ROOT / "web" / "public" / "data" / "valores_noticia_llm",
+        "output_dir": ROOT / "web" / "public" / "data" / "llm" / "materias_llm" / "valores_noticia",
     },
 }
 

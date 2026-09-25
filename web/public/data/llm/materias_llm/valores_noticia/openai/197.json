@@ -1,0 +1,36 @@
+{
+  "id": 197,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou nesta audiência pública a discussão sobre 'impactos e perspectivas de revisão do novo marco legal da inovação'."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Enfatizou que 70% dos pesquisadores brasileiros atuam em entidades públicas e que o marco dá instrumentos (25 instrumentos citados) para parcerias entre academia, setor produtivo e Estado."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Apontou três eixos de atenção: incertezas jurídicas internas (conflito de competências e limites à atuação de pesquisadores que participam de empresas), descentralização de recursos (problemas na operacionalização por convênios e pela integração com instrumentos do MROSC) e integração público-privada."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Anunciou que a AGU prepara decreto para criação de um comitê, a ser enviado à Casa Civil, visando produzir manifestações técnicas padronizadas e acelerar a atuação dos advogados públicos federais (AGU tem cerca de 8 mil advogados) em ciência, tecnologia e inovação; convidou instituições públicas e privadas a participar."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

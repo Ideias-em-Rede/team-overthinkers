@@ -1,0 +1,36 @@
+{
+  "id": 119,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "75% dos feminicídios no Distrito Federal ocorrem dentro de casa"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, presidida pela Deputada Erika Kokay (PT-DF), reuniu peritos, delegados, promotores e representantes dos Ministérios da Justiça e das Mulheres"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "74% dos assassinatos de mulheres no DF em 2023 foram classificados como tal, e a taxa de condenação dos réus chega a 92,5%"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "criticou um protocolo da gestão anterior por ter sido elaborado sem participação social e mantido em sigilo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O evento fez parte dos 21 dias de ativismo pelo fim da violência contra a mulher"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "89 mil mulheres foram assassinadas no mundo em 2022, o maior número em duas décadas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

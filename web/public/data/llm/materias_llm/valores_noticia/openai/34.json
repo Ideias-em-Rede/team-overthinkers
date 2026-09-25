@@ -1,0 +1,36 @@
+{
+  "id": 34,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o impacto das redes sociais na autoestima e na saúde mental de crianças e adolescentes"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Eduardo Velloso (Bloco/UNIÃO‑AC), a reunião foi convocada por requerimento da deputada Rosângela Moro (Bloco/UNIÃO‑SP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "que o Brasil seria “o país mais ansioso do mundo e o quinto mais depressivo”, com 63% da população sofrendo de algum tipo de ansiedade e 59% apresentando quadro depressivo"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o impacto das redes sociais na autoestima e na saúde mental de crianças e adolescentes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

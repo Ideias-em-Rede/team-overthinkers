@@ -1,0 +1,36 @@
+{
+  "id": 196,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O projeto tem como objetivo ampliar o acesso de jovens de baixa renda ao ensino superior por meio da criação de um novo programa de bolsas integrais e parciais, custeadas integralmente pelo governo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa de debates Celso Niskier, presidente da Associação Brasileira de Mantenedoras de Ensino Superior (ABMES); Lúcia Maria Teixeira, presidente do Sindicato das Entidades Mantenedoras de Estabelecimentos de Ensino Superior do Estado de São Paulo (SEMESP); e Rafael Rodrigues Tavares, coordenador-geral de Financiamento Estudantil do Fundo Nacional de Desenvolvimento da Educação (FNDE), que participou via videoconferência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A estimativa é que quase 1 milhão de jovens possam ser beneficiados."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rafael Tavares manifestou preocupação com os impactos orçamentários e financeiros da proposta, explicando que o FNDE havia se posicionado contrariamente ao projeto anteriormente devido à falta de identificação clara de como os impactos seriam sanados."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O PL 2.961/2022 propõe a criação de um programa de bolsas para estudantes com renda familiar de até 1,5 salário mínimo (bolsa integral) e entre 1,5 e 3 salários mínimos (bolsa parcial)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Todos os participantes destacaram a importância do diálogo contínuo entre governo, parlamento e entidades educacionais para desenvolver programas que realmente atendam às necessidades dos estudantes de baixa renda e ampliem o acesso ao ensino superior no país."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O evento cortou cerca de 34% da carga do país naquele momento — aproximadamente 22 mil megawatts"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "participaram da reunião o ministro de Minas e Energia, Alexandre Silveira, e o diretor‑geral do ONS, Luiz Carlos Ciocchi"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O evento cortou cerca de 34% da carga do país naquele momento — aproximadamente 22 mil megawatts"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Parlamentares também levantaram questões sobre a representação do governo em conselhos e a influência de grupos privados na governança do setor"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "ocorreu um fenômeno 'inusitado' que levou à divisão do Sistema Interligado Nacional em três subsistemas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ONS informou que elabora o Relatório de Análise de Perturbações (RAP), com prazo regulamentar de entrega em 45 dias úteis"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

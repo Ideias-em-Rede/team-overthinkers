@@ -1,0 +1,36 @@
+{
+  "id": 27,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Citou exemplos de uso de dados para antecipar situações (referiu-se ao caso público do Walmart nos EUA) e defendeu que a IA pode tanto servir para bem quanto para o mal, comparando-a a uma ferramenta cujo uso determina seu impacto."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Foram convocados para compor a mesa o presidente da Associação dos Profissionais do Marketing Político (APROMAP), Emerson Saraiva; o advogado e membro relator da Comissão de Direito Eleitoral da OAB-PR, Fernando Bueno de Castro; Marcelo Senise, CEO da Comunica 360º; e Melillo Dinis, diretor do Movimento de Combate à Corrupção Eleitoral (MCCE)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Alertou para os danos que deepfakes podem causar e observou que eventuais sanções aplicadas após o pleito podem não reparar o dano já causado."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Manifestou preocupação com declarações do presidente do TSE, ministro Alexandre de Moraes, sobre cassações e inelegibilidade em caso de uso ilegal de IA, e criticou a possibilidade de o próprio TSE contratar big techs para sistemas de IA sem ampla discussão pública."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Afirmou que a IA já está presente no cotidiano (autocompletar, redes sociais) e alertou para o alcance da tecnologia nas eleições municipais de 2024."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da comissão informou que a audiência foi transmitida pela internet, com presença on-line e grande repercussão: a assessoria da comissão informou cerca de 50 pessoas simultâneas no YouTube e centenas na página da comissão; o deputado também mencionou que a audiência teve mais de 200 reproduções e que 214 veículos noticiaram o encontro."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

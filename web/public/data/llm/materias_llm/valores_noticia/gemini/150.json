@@ -1,0 +1,36 @@
+{
+  "id": 150,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou uma audiência pública para discutir os 150 anos de Alberto Santos Dumont e suas contribuições para o desenvolvimento científico e tecnológico."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele conectou o legado do inventor à figura do Marechal Casimiro Montenegro, criador do Instituto Tecnológico de Aeronáutica (ITA) e do Centro Técnico de Aeronáutica (CTA), que deram origem à Embraer."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Cláudio Gomide, coordenador do Museu Casa de Santos Dumont em Petrópolis, falou sobre o grande interesse do público pelo inventor, mas lamentou a falta de conhecimento sobre sua história, especialmente entre estudantes que visitam o museu."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

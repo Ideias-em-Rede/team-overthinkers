@@ -1,0 +1,36 @@
+{
+  "id": 94,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Paula de Luca e representantes da Associação Tudo Azul (Gama, DF) relataram limitações de alcance geográfico de projetos, necessidade de capacitação parental e carência de profissionais e serviços públicos locais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Entre os convidados que compuseram a mesa estiveram Telma Sá Nascimento, presidente da AMA — Associação de Amigos do Autista do Maranhão; Fernando Cotta, presidente do Movimento Orgulho Autista Brasil; Fernanda Santana e Érica Curado, da ABRAÇA — Associação Brasileira para Ação por Direitos das Pessoas Autistas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foram citados problemas em perícias, acesso a tratamentos (incluindo menção ao canabidiol) e dificuldades de inserção ou progressão no emprego após revelação do diagnóstico"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve alerta sobre retrocessos e riscos apontados em gestões passadas, citados por Telma, como propostas que teriam ameaçado a inclusão"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Foi proposto retirar o termo 'transtorno' em referência às pessoas autistas em atos e comunicações oficiais, passando a priorizar expressões como 'pessoas autistas' ou 'pessoas no espectro'"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência registrou diversos depoimentos de pessoas autistas e familiares sobre experiências de vida, discriminação, desafios para o diagnóstico e preocupação com o envelhecimento das pessoas autistas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

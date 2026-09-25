@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import MateriasList from "./pages/MateriasList";
 import MateriaDetail from "./pages/MateriaDetail";
-import Panorama from "./pages/Panorama";
 
 export default function App() {
   return (
@@ -14,7 +13,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/materias" element={<MateriasList />} />
           <Route path="/materias/:id" element={<MateriaDetail />} />
-          <Route path="/panorama" element={<Panorama />} />
         </Routes>
       </main>
       <footer className="footer">

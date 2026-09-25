@@ -1,0 +1,36 @@
+{
+  "id": 185,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o panorama da triagem neonatal obrigatória no Sistema Único de Saúde (SUS) — o teste do pezinho"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Saúde da Câmara dos Deputados realizou uma audiência pública convocada pelo Requerimento nº 156/2023, de iniciativa da deputada Iza Arruda"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a importância do teste do pezinho como ferramenta de triagem — coleta idealmente após 48 horas de vida — e a necessidade de confirmação diagnóstica e de acompanhamento por serviços de referência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "o Brasil convive com desigualdades regionais na cobertura e na qualidade do processo, e listou problemas operacionais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a necessidade de campanhas de conscientização, capacitação de profissionais e interiorização dos serviços"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

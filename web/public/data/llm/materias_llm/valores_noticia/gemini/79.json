@@ -1,0 +1,36 @@
+{
+  "id": 79,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "que visa criar um Código de Defesa do Pagador de Impostos para regular direitos, garantias e deveres na relação com os Fiscos federal, estaduais e municipais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, presidida pelo Deputado Felipe Rigoni (UNIÃO - ES), um dos autores da proposta, contou com a participação de 16 convidados, incluindo representantes de órgãos fiscais, entidades do setor produtivo e especialistas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Deputado Felipe Rigoni abriu a audiência explicando que o objetivo do projeto é garantir ao 'bom contribuinte' um processo de defesa e maior estabilidade, sem retirar a capacidade de fiscalização da Receita"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes das administrações tributárias manifestaram diversas preocupações com o texto original"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Uma audiência pública foi realizada para debater o Projeto de Lei Complementar (PLP) nº 17, de 2022"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou a importância de ouvir as diversas partes para a elaboração do relatório"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou uma audiência pública para discutir as consequências da seca severa em Minas Gerais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, presidido pelo Deputado Zé Silva (SOLIDARIEDADE-MG), reuniu parlamentares, representantes dos governos federal e estadual, prefeitos, vereadores e produtores rurais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O levantamento da EMATER, realizado em 244 municípios, apontou que 324 mil produtores estão sendo afetados."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Prefeitos e produtores rurais descreveram um cenário de perdas e dificuldades."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O climatologista Ruibran Januário dos Reis explicou que a seca severa é influenciada pela combinação do fenômeno El Niño de forte intensidade com o aquecimento global."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "José Delvan Caires da Silva, produtor de São Francisco, fez um apelo emocionado: 'Nós não temos mais nada! (...) Nós estamos precisando de socorro. É questão de sobrevivência'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

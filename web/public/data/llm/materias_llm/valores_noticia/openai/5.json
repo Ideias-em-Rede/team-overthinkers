@@ -1,0 +1,36 @@
+{
+  "id": 5,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "reuniu parlamentares, representantes de ministérios, autores, pesquisadores e dirigentes de organizações da sociedade civil para exposição de demandas e relatos sobre políticas públicas, educação e saúde voltadas a pessoas com Transtorno do Espectro Autista (TEA)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, aberta pelo deputado Weliton Prado e requerida pela deputada Andreia Siqueira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Pediu apoio federal para que municípios menores possam implantar centros de referência e ressaltou a dificuldade de formação e contratação de profissionais especializados no interior"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Críticas à implementação prática de direitos já previstos em leis e apontou falhas na oferta de serviços e na priorização de recursos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Houve relatos pessoais e exemplos de experiências locais (Tucuruí, Uberlândia, Dourados)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 205,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "588 municípios em 11 estados"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputado federal Coronel Ulysses"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "prejuízo estimado de mais de R$ 600 milhões ao crime"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "debate sobre a política nacional de enfrentamento aos crimes transfronteiriços"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "dados sobre os desafios nas regiões de fronteira"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

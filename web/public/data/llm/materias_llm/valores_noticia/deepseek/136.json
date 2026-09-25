@@ -1,0 +1,36 @@
+{
+  "id": 136,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela deputada Célia Xakriabá (PSOL-MG), teve como objetivo principal discutir a tramitação do Projeto de Lei nº 4.347, de 2021, que visa transformar a PNGATI, atualmente regida por decreto presidencial (Decreto nº 7.747/2012), em lei."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compuseram a mesa e fizeram exposições Kleber Karipuna, da Articulação dos Povos Indígenas do Brasil (APIB); Bruno Potiguara, diretor de Gestão Ambiental do Ministério dos Povos Indígenas (MPI); Lucas Grisolia, da Coordenação-Geral de Gestão Ambiental da FUNAI; e Jair Schmitt, diretor de Proteção Ambiental do IBAMA."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Kleber Karipuna enfatizou a importância histórica da PNGATI como a primeira política pública para indígenas construída com ampla participação dos povos originários."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Alcebias Constantino, da COIAB, definiu a PNGATI como uma ferramenta crucial para a autonomia e sustentabilidade econômica dos territórios. Ele fez um apelo para que os deputados mantenham os vetos presidenciais ao PL 2.903/23 (Marco Temporal), alertando para o risco de mais conflitos e mortes nos territórios."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela deputada Célia Xakriabá (PSOL-MG), teve como objetivo principal discutir a tramitação do Projeto de Lei nº 4.347, de 2021, que visa transformar a PNGATI, atualmente regida por decreto presidencial (Decreto nº 7.747/2012), em lei."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Kleber Karipuna enfatizou a importância histórica da PNGATI como a primeira política pública para indígenas construída com ampla participação dos povos originários."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

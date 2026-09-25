@@ -1,0 +1,36 @@
+{
+  "id": 206,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública nesta terça-feira para debater a Lei nº 12.711, de 2012, conhecida como Lei de Cotas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência, declarada aberta pela deputada, foi semipresencial e contou com a participação de representantes do governo federal, do Ministério Público Federal, de entidades do movimento estudantil, do movimento negro, indígena, quilombola, de pessoas com deficiência, de pesquisadores e de gestores universitários"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Nilma Lino Gomes destacou que as cotas 'transformaram a discussão do ensino superior, que antes ficava num campo de privilégio de alguns, num campo de direitos'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Abicalil fez um retrospecto histórico da luta pela lei, lembrando a forte oposição enfrentada no Congresso em 2005"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Dandara saudou a UNE, o movimento estudantil e o movimento negro, definindo as cotas na graduação como 'a maior conquista do movimento negro desde a redemocratização'"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

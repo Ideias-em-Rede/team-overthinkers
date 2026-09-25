@@ -1,0 +1,36 @@
+{
+  "id": 121,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater “Violência doméstica e familiar e seus impactos no Poder Judiciário brasileiro”"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "contou com representantes do Conselho Nacional de Justiça (CNJ), do Poder Judiciário estadual, do Ministério das Mulheres, da Defensoria Pública e de fóruns de magistrados especializados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "apontando crescimento dos crimes contra mulheres em 2022 e que o número de chamados ao 190 por violência doméstica foi de quase 1 milhão em 2022"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "debater a importância da perícia criminal na investigação e prevenção dos crimes de feminicídio"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "apontando que 73% das medidas protetivas de urgência foram decididas em até 48 horas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

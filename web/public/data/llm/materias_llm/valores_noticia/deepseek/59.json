@@ -1,0 +1,36 @@
+{
+  "id": 59,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Externa da Câmara dos Deputados destinada a fiscalizar os rompimentos de barragens realizou uma audiência pública nesta terça-feira para tratar da situação dos pescadores profissionais artesanais de Minas Gerais e Espírito Santo atingidos pelo rompimento da barragem da Samarco em Mariana."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado Padre João (PT-MG), abriu os trabalhos informando que a Fundação Renova, entidade criada para gerir os reparos, e o Ministério Público Federal (MPF) enviaram ofícios declinando do convite e informando a impossibilidade de comparecer."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Quase oito anos depois, a exigência de um documento não previsto em lei revitimiza os pescadores, impactando suas situações social, econômica e de saúde."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Lelis Barreiros, presidente da Colônia Z43 de Conselheiro Pena, denunciou a perseguição da Samarco, Vale e BHP aos pescadores, exigindo fotos de 2015 e negando direitos mesmo àqueles reconhecidos por metodologias próprias."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou que os pescadores são cobrados anualmente para provarem sua condição, enfrentando problemas devido à perda de dados com a redução do Ministério da Pesca para uma superintendência e posteriormente a mudanças de pastas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 22,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O comércio eletrônico representa 22% dos 43 milhões de empregos com carteira assinada no varejo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, convocada pelo Deputado Lucas Ramos (PSB-PE), contou com a participação de parlamentares, representantes do governo e de associações do setor."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele mencionou que o prejuízo à economia pode ultrapassar R$ 52 bilhões."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele estimou que a evasão tributária nessas operações chegou a R$ 70 bilhões em 2022, impulsionada pelo aumento de pacotes de pequeno valor que entram no país sem a devida fiscalização."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Adriana Azevedo, Diretora do Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC), apresentou uma nova ferramenta pública, um 'dashboard' que mapeia o comércio eletrônico nacional com base em dados de notas fiscais eletrônicas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública para debater o crescimento do comércio eletrônico no Brasil e seus impactos na economia, tributação e geração de empregos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

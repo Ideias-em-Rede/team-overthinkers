@@ -1,0 +1,36 @@
+{
+  "id": 84,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A promotora Rosana Viegas traçou o panorama jurídico e histórico do acolhimento no Brasil, citando a doutrina da proteção integral consagrada na Constituição de 1988 e no Estatuto da Criança e do Adolescente (ECA)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pela deputada Érika Kokay (PT-DF) e contou com representantes do Ministério da Cidadania, do Ministério Público do Distrito Federal e Territórios (MPDFT), de movimentos e organizações da sociedade civil e de famílias acolhedoras."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Rosana alertou para a prevalência do acolhimento institucional e para impactos negativos da institucionalização, especialmente nos primeiros anos de vida, e defendeu medidas de política pública e orçamentárias para favorecer a expansão do acolhimento familiar."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "No vídeo exibido, o juiz Iberê de Castro Dias (Vara da Infância e Juventude de Guarulhos) ressaltou que o acolhimento em família é serviço prioritário por lei e apoiado por evidências científicas, listou barreiras à implementação (desconhecimento, baixa oferta de famílias habilitadas, demora e desistência de candidatos durante a habilitação) e criticou projeto de lei estadual (PL 755/20, São Paulo) que, segundo ele, conflitou conceitos entre acolhimento e adoção."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência reuniu vozes do Executivo, do Ministério Público, da sociedade civil, do Judiciário e de famílias acolhedoras para debater avanços, dificuldades e propostas práticas para ampliar o acolhimento em família acolhedora no Brasil, com foco em financiamento, capacitação, regionalização e respeito ao princípio da prioridade da convivência familiar e comunitária."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

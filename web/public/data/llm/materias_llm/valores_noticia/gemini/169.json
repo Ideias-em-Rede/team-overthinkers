@@ -1,0 +1,36 @@
+{
+  "id": 169,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência, solicitada pela deputada, contou com a presença de parlamentares, representantes de movimentos sociais, povos indígenas, comunidades tradicionais e membros do governo federal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão da Amazônia e dos Povos Originários e Tradicionais da Câmara dos Deputados realizou uma audiência pública para debater a proposta de tornar os biomas Cerrado e Caatinga patrimônios nacionais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ro'otsitsina Juruna, do povo xavante, alertou que, sem o aumento de áreas protegidas, o Cerrado pode perder 30% do fluxo de seus rios até 2050."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Silvanete Benedito de Sousa, agricultora e benzedeira, defendeu a união dos povos de todos os biomas e denunciou o que chamou de 'genocídio dos nossos saberes' promovido pelo agronegócio."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela deputada Célia Xakriabá (PSOL-MG), teve como foco a defesa da aprovação da Proposta de Emenda à Constituição (PEC) 504, de 2010."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Lourdes Laureano, da Campanha Nacional em Defesa do Cerrado, argumentou que a aprovação da PEC 504 daria aos biomas a mesma proteção constitucional já garantida à Amazônia, ao Pantanal e à Mata Atlântica."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

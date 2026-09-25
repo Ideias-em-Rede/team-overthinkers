@@ -1,0 +1,36 @@
+{
+  "id": 99,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão contou com a presença de representantes do corpo diplomático acreditado no Brasil — entre os quais foram anunciados em plenário embaixadores e encarregados de negócios da Jordânia, Catar, Síria, Gabão, Líbano, Sérvia, República Árabe Saarauí Democrática, Espanha, Irã, Sudão, Belarus, Nicarágua, Cuba, Venezuela e Bolívia —, além do chefe da Divisão de Oriente Próximo do Itamaraty, Antonio Carlos Antunes Santos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vinícius Limongi, do Programa Mundial de Alimentos (WFP) no Brasil, apresentou dados sobre insegurança alimentar em Gaza e alertou para a impossibilidade de resposta plena diante de limitações de acesso"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A audiência teve momentos de tensão entre parlamentares e participantes. Houve manifestações de aplauso e de gritos favoráveis à Palestina; a presidência registrou e repreendeu provocações na plateia e determinou respeito aos convidados"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O depoimento do dr. Jamal Naim foi um dos momentos mais emotivos da audiência. Naim, que se apresentou como decano de uma faculdade fundada por ele em Gaza, relatou ter perdido familiares — entre eles a mãe, três filhas e dois netos — em ataques na sua residência e descreveu a destruição de universidades, hospitais e infraestrutura fundamental"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

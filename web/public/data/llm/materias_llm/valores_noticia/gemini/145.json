@@ -1,0 +1,36 @@
+{
+  "id": 145,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro da Justiça e Segurança Pública, Flávio Dino, compareceu nesta terça-feira à 47ª Reunião da Comissão de Fiscalização Financeira e Controle (CFFC) da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Sobre os supostos cortes orçamentários, o ministro afirmou ser 'falso que haja redução'. Segundo ele, a proposta orçamentária para a segurança pública em 2024, sem contar as emendas parlamentares, é de R$ 5,170 bilhões, mesmo valor de 2023 e um aumento de 17% em relação a 2022."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A audiência foi marcada por debates regimentais sobre a liberdade dos parlamentares para perguntar sobre temas não previstos nos requerimentos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência, presidida pela Deputada Bia Kicis (PL-DF), foi marcada por debates sobre a exclusão de imagens de câmeras de segurança do ministério no 8 de janeiro, suposta interferência na Polícia Federal e cortes orçamentários para 2024."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

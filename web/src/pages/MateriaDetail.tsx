@@ -1,19 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import {
-  Bar,
-  BarChart,
-  CartesianGrid,
-  Cell,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
 import BrazilMapCount, { type UfCount } from "../components/BrazilMapCount";
+import ColumnBar from "../components/ColumnBar";
+import GatekeepSankey from "../components/GatekeepSankey";
 import type {
+  GatekeeperRow,
   MateriaDetail as MateriaDetailT,
   MateriaEnvolvidosEntry,
+  MateriaLlmFile,
   ResumoTranscricaoEntry,
   ResumoTranscricaoMap,
   TemaEntry,
@@ -21,6 +15,14 @@ import type {
   ValoresNoticiaFile,
 } from "../types";
 import "./MateriaDetail.css";
+
+type LlmProvider = "deepseek" | "gemini" | "openai";
+
+const LLM_PROVIDERS: { key: LlmProvider; label: string }[] = [
+  { key: "deepseek", label: "DeepSeek" },
+  { key: "gemini", label: "Gemini" },
+  { key: "openai", label: "OpenAI" },
+];
 
 const VALOR_LABELS: Record<string, string> = {
   proximidade: "Proximidade",
@@ -57,6 +59,9 @@ interface PageData {
   envolvidos: MateriaEnvolvidosEntry | null;
   resumo: ResumoTranscricaoEntry | null;
   tema: TemaEntry | null;
+  gatekeepers: GatekeeperRow[];
+  llm: Record<LlmProvider, MateriaLlmFile | null>;
+  llmValores: Record<LlmProvider, ValoresNoticiaFile | null>;
 }
 
 export default function MateriaDetail() {
@@ -64,6 +69,8 @@ export default function MateriaDetail() {
   const [data, setData] = useState<PageData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [showTranscricao, setShowTranscricao] = useState(false);
+  const [materiaTab, setMateriaTab] = useState<"humano" | "llm">("humano");
+  const [llmSelected, setLlmSelected] = useState<LlmProvider>("deepseek");
 
   useEffect(() => {
     if (!id) return;
@@ -71,6 +78,18 @@ export default function MateriaDetail() {
     setData(null);
     setError(null);
     setShowTranscricao(false);
+    setMateriaTab("humano");
+    setLlmSelected("deepseek");
+
+    const fetchLlm = (provider: LlmProvider) =>
+      fetch(`/data/llm/materias_llm/${provider}/${id}.json`).then((r) =>
+        r.ok ? (r.json() as Promise<MateriaLlmFile>) : null
+      );
+
+    const fetchLlmValores = (provider: LlmProvider) =>
+      fetch(`/data/llm/materias_llm/valores_noticia/${provider}/${id}.json`).then((r) =>
+        r.ok ? (r.json() as Promise<ValoresNoticiaFile>) : null
+      );
 
     Promise.all([
       fetch(`/data/humano/materias/materias/${id}.json`).then((r) => {
@@ -89,17 +108,48 @@ export default function MateriaDetail() {
       fetch(`/data/humano/transcricoes/temas/temas_audiencias.json`).then((r) =>
         r.ok ? (r.json() as Promise<TemasMap>) : Promise.resolve({} as TemasMap)
       ),
+      fetch(`/data/humano/gatekeepers/gatekeepers.json`).then((r) =>
+        r.ok ? (r.json() as Promise<GatekeeperRow[]>) : Promise.resolve([] as GatekeeperRow[])
+      ),
+      fetchLlm("deepseek").catch(() => null),
+      fetchLlm("gemini").catch(() => null),
+      fetchLlm("openai").catch(() => null),
+      fetchLlmValores("deepseek").catch(() => null),
+      fetchLlmValores("gemini").catch(() => null),
+      fetchLlmValores("openai").catch(() => null),
     ])
-      .then(([materia, valores, envolvidos, resumo, temas]) => {
-        if (cancelled) return;
-        setData({
+      .then(
+        ([
           materia,
           valores,
-          envolvidos: envolvidos.find((e) => e.id === materia.id) ?? null,
-          resumo: resumo[String(materia.id)] ?? null,
-          tema: temas[String(materia.id)] ?? null,
-        });
-      })
+          envolvidos,
+          resumo,
+          temas,
+          gatekeepers,
+          deepseek,
+          gemini,
+          openai,
+          deepseekVal,
+          geminiVal,
+          openaiVal,
+        ]) => {
+          if (cancelled) return;
+          setData({
+            materia,
+            valores,
+            envolvidos: envolvidos.find((e) => e.id === materia.id) ?? null,
+            resumo: resumo[String(materia.id)] ?? null,
+            tema: temas[String(materia.id)] ?? null,
+            gatekeepers: gatekeepers.filter((g) => g.hearing_id === materia.id),
+            llm: { deepseek, gemini, openai },
+            llmValores: {
+              deepseek: deepseekVal,
+              gemini: geminiVal,
+              openai: openaiVal,
+            },
+          });
+        }
+      )
       .catch((e) => !cancelled && setError(e.message));
 
     return () => {
@@ -118,7 +168,7 @@ export default function MateriaDetail() {
 
   if (!data) return <div className="loading">Carregando matéria…</div>;
 
-  const { materia, valores, envolvidos, resumo, tema } = data;
+  const { materia, valores, envolvidos, resumo, tema, gatekeepers, llm, llmValores } = data;
   const totalOpinioes = envolvidos
     ? envolvidos.envolvidos.reduce((a, e) => a + e.quantidade_opinioes, 0)
     : null;
@@ -127,6 +177,35 @@ export default function MateriaDetail() {
     <article className="detail">
       <Link to="/materias" className="btn ghost detail__back">← Voltar para matérias</Link>
 
+      {/* Toggles: humano vs LLM */}
+      <div className="materia-tabs" role="tablist">
+        <button
+          role="tab"
+          aria-selected={materiaTab === "humano"}
+          className={`materia-tab ${materiaTab === "humano" ? "on" : ""}`}
+          onClick={() => setMateriaTab("humano")}
+        >
+          Escrito por humano
+        </button>
+        <button
+          role="tab"
+          aria-selected={materiaTab === "llm"}
+          className={`materia-tab ${materiaTab === "llm" ? "on" : ""}`}
+          onClick={() => setMateriaTab("llm")}
+        >
+          Gerado por LLM
+        </button>
+      </div>
+
+      {materiaTab === "llm" ? (
+        <LlmPage
+          files={llm}
+          valores={llmValores}
+          selected={llmSelected}
+          onSelect={setLlmSelected}
+        />
+      ) : (
+        <>
       {/* 1) Título */}
       <header className="detail__head">
         <div className="detail__meta">
@@ -195,7 +274,7 @@ export default function MateriaDetail() {
       <section className="detail__section">
         <h2 className="detail__section-title">Distribuição na audiência</h2>
         <p className="detail__section-sub muted">
-          Perfil dos participantes na transcrição (regex).
+          Perfil dos participantes na transcrição (extração feita por regex).
         </p>
         {resumo ? (
           <div className="detail__dists-stack">
@@ -218,7 +297,22 @@ export default function MateriaDetail() {
                   .sort((a, b) => b.v - a.v)}
               />
             </div>
-            <MapaEstados data={resumo.resumo.estados} />
+            <div className="dist-row">
+              <MapaEstados data={resumo.resumo.estados} />
+              <div className="dist">
+                <div className="dist__head">
+                  <h3 className="dist__title">Gatekeep - Filtro editorial: quem foi coberto na matéria</h3>
+                  <span className="muted">
+                    audiência × matéria · largura ∝ palavras
+                  </span>
+                </div>
+                {gatekeepers.length > 0 ? (
+                  <GatekeepSankey rows={gatekeepers} />
+                ) : (
+                  <p className="muted">Sem dados de gatekeeping.</p>
+                )}
+              </div>
+            </div>
           </div>
         ) : (
           <p className="muted">Sem dados de resumo para esta audiência.</p>
@@ -255,6 +349,8 @@ export default function MateriaDetail() {
           <pre className="detail__transcricao">{materia.transcricao}</pre>
         )}
       </section>
+        </>
+      )}
     </article>
   );
 }
@@ -302,71 +398,6 @@ function ValoresList({ valores }: { valores: ValoresNoticiaFile }) {
   );
 }
 
-interface ColumnBarDatum {
-  k: string;
-  v: number;
-  color: string;
-}
-
-function ColumnBar({ titulo, data }: { titulo: string; data: ColumnBarDatum[] }) {
-  const total = data.reduce((a, d) => a + d.v, 0);
-  if (!data.length) {
-    return (
-      <div className="dist">
-        <div className="dist__head">
-          <h3 className="dist__title">{titulo}</h3>
-        </div>
-        <p className="muted">Sem dados.</p>
-      </div>
-    );
-  }
-  return (
-    <div className="dist">
-      <div className="dist__head">
-        <h3 className="dist__title">{titulo}</h3>
-        <span className="muted">
-          {total} participantes · {data.length} categorias
-        </span>
-      </div>
-      <ResponsiveContainer width="100%" height={220}>
-        <BarChart data={data} margin={{ top: 8, right: 8, bottom: 4, left: 0 }}>
-          <CartesianGrid stroke="#eef2f7" vertical={false} />
-          <XAxis
-            dataKey="k"
-            stroke="#6b7a8f"
-            fontSize={12}
-            tickLine={false}
-            interval={0}
-            angle={data.length > 5 ? -30 : 0}
-            textAnchor={data.length > 5 ? "end" : "middle"}
-            height={data.length > 5 ? 60 : 24}
-          />
-          <YAxis
-            stroke="#6b7a8f"
-            fontSize={12}
-            tickLine={false}
-            allowDecimals={false}
-          />
-          <Tooltip
-            cursor={{ fill: "rgba(0,119,182,0.06)" }}
-            contentStyle={{
-              border: "1px solid #e1e5ec",
-              borderRadius: 8,
-              fontSize: 12,
-            }}
-            formatter={(v) => [String(v), "participantes"]}
-          />
-          <Bar dataKey="v" radius={[4, 4, 0, 0]}>
-            {data.map((d) => (
-              <Cell key={d.k} fill={d.color} />
-            ))}
-          </Bar>
-        </BarChart>
-      </ResponsiveContainer>
-    </div>
-  );
-}
-
 function MapaEstados({
   data,
 }: {
@@ -400,6 +431,80 @@ function MapaEstados({
   );
 }
 
+function LlmPage({
+  files,
+  valores,
+  selected,
+  onSelect,
+}: {
+  files: Record<LlmProvider, MateriaLlmFile | null>;
+  valores: Record<LlmProvider, ValoresNoticiaFile | null>;
+  selected: LlmProvider;
+  onSelect: (p: LlmProvider) => void;
+}) {
+  const file = files[selected];
+  const val = valores[selected];
+  const label = LLM_PROVIDERS.find((p) => p.key === selected)?.label ?? selected;
+
+  return (
+    <>
+      <div className="llm-page__bar">
+        <label className="llm-select">
+          <span className="llm-select__label">Modelo</span>
+          <select
+            className="llm-select__control"
+            value={selected}
+            onChange={(e) => onSelect(e.target.value as LlmProvider)}
+          >
+            {LLM_PROVIDERS.map(({ key, label }) => (
+              <option key={key} value={key}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
+        {file && (
+          <p className="llm-page__modelo muted">
+            <strong>Modelo:</strong> {file.modelo}
+            {typeof file.temperature === "number" && (
+              <> · <strong>Temperatura:</strong> {file.temperature}</>
+            )}
+          </p>
+        )}
+      </div>
+
+      <section className="detail__section">
+        <h2 className="detail__section-title">Matéria</h2>
+        {file ? (
+          <div className="detail__body">
+            {file.materia_llm.split(/\n\s*\n/).map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
+        ) : (
+          <p className="muted">
+            Matéria gerada por {label} não disponível para esta audiência.
+          </p>
+        )}
+      </section>
+
+      <section className="detail__section">
+        <h2 className="detail__section-title">Valores-notícia</h2>
+        <p className="detail__section-sub muted">
+          Critérios de noticiabilidade identificados na matéria gerada por {label} (DeepSeek-V3).
+        </p>
+        {val ? (
+          <ValoresList valores={val} />
+        ) : (
+          <p className="muted">
+            Valores-notícia ainda não extraídos para a matéria gerada por {label}.
+          </p>
+        )}
+      </section>
+    </>
+  );
+}
+
 function MencionadosAccordion({
   envolvidos,
 }: {
@@ -413,8 +518,8 @@ function MencionadosAccordion({
           <summary className="mencionado__summary">
             <span className="mencionado__nome">{e.nome}</span>
             <span className="mencionado__stats muted">
-              {e.mencoes} menç. · {e.quantidade_opinioes} opinião
-              {e.quantidade_opinioes === 1 ? "" : "ões"} · {e.posicao_no_texto}
+              {e.mencoes} menç. · {e.quantidade_opinioes} opini
+              {e.quantidade_opinioes === 1 ? "ão" : "ões"} · {e.posicao_no_texto}
             </span>
             <span className="mencionado__chev" aria-hidden>▾</span>
           </summary>

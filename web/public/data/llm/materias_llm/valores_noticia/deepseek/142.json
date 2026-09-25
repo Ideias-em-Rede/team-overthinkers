@@ -1,0 +1,36 @@
+{
+  "id": 142,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O projeto é de autoria da deputada Maria do Rosário e tramita nas comissões de Administração e Serviço Público, Finanças e Tributação e Constituição e Justiça e de Cidadania."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi presidido pelo deputado Professor Paulo Fernando (Republicanos-DF), autor do requerimento para a realização da audiência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Pedro Armengol de Souza, da CONDSEF, defendeu o projeto, alertando para o alto endividamento dos servidores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Gerlane Alves da Silva, da ANSA, criticou o cartão de crédito consignado, classificando-o como 'maléfico' e que beneficia apenas os bancos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele citou que cerca de 70% dos servidores de sua base estão com empréstimos consignados, muitos utilizando o cartão de crédito consignado, que considerou uma 'dívida impagável' devido às altas taxas de juros."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

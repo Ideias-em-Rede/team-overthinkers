@@ -1,0 +1,36 @@
+{
+  "id": 192,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa do Consumidor da Câmara dos Deputados realizou uma audiência pública para debater a obsolescência programada em telefones celulares."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, convocada pelo presidente da comissão, Deputado Márcio Marinho (Republicanos-BA), contou com a presença de representantes da Agência Nacional de Telecomunicações (ANATEL), do PROCON-DF, do Instituto Brasileiro de Defesa do Consumidor (IDEC) e da Associação Brasileira da Indústria Elétrica e Eletrônica (ABINEE), que representou as fabricantes Apple, Samsung e Motorola."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ao abrir a sessão, o Deputado Márcio Marinho afirmou que a obsolescência programada, definida como a redução deliberada da vida útil de um produto, gera impactos ambientais, com o aumento de lixo eletrônico, e econômicos, obrigando o consumidor a trocas constantes de aparelhos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Humberto Barbato, presidente executivo da ABINEE, contrapôs a ideia de obsolescência programada. Ele argumentou que a rápida evolução tecnológica, como o aumento da demanda de memória por aplicativos, é o que torna os aparelhos mais antigos menos funcionais, e não uma falha intencional."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante o debate, foram levantadas questões sobre a dificuldade de reparo dos aparelhos, a curta vida útil de baterias que não podem ser substituídas pelo usuário e a venda de celulares sem carregadores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

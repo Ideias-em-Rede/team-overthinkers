@@ -1,0 +1,36 @@
+{
+  "id": 82,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião contou com exposições de representantes de diversos povos, grupos e pontos de cultura de várias regiões do país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay (PT-DF) abriu uma audiência pública extraordinária"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Várias falas defenderam a tramitação e aprovação de propostas de legislação que reconheçam, protejam e valorizem economicamente mestres e mestras da cultura popular"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Diversos participantes denunciaram a invisibilização das manifestações populares pela grande mídia, a perda de espaços tradicionais e o que qualificaram como ataques ou desmonte de políticas culturais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Foram enfatizados o papel dos mestres e mestras como guardiões da oralidade, da memória e da transmissão intergeracional dos saberes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

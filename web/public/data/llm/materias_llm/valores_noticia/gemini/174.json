@@ -1,0 +1,36 @@
+{
+  "id": 174,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "cerca de 96% dos candidatos foram reprovados, o que os impede de obter o registro no Conselho de Medicina (CRM) para atuar no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pelo Deputado Evair Vieira de Melo (PP-ES), contou com a participação de representantes do Ministério da Educação (MEC), do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), do Conselho Federal de Medicina (CFM) e da Associação Nacional das Universidades Particulares (ANUP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "cerca de 96% dos candidatos foram reprovados, o que os impede de obter o registro no Conselho de Medicina (CRM) para atuar no Brasil"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado mencionou que candidatos afirmam que as provas são feitas para reprovar e que muitos acionaram a Justiça para reverter o resultado"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a taxa de aprovação do Revalida no segundo semestre de 2022 foi de apenas 3,75%, a menor na história do exame"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Deputado Coronel Chrisóstomo (PL-RO) interveio na audiência, afirmando que o curso de medicina no Brasil 'é feito para rico', o que leva muitos brasileiros de classe média e baixa a buscarem formação no exterior"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

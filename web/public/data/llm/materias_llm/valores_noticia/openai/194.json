@@ -1,0 +1,36 @@
+{
+  "id": 194,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater mobilidade urbana e segurança no trânsito sob a perspectiva de ciclistas e pedestres"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Jonas Donizette (PSB-SP), a reunião contou com representantes de órgãos federais, vereadores, ativistas e familiares de vítimas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Anunciou que o ministério lançará um programa durante a Semana Nacional de Trânsito focado na redução de mortes e lesões no trânsito"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Denunciou impunidade e insuficiência das respostas judiciais a crimes de trânsito, reivindicando maior rigor nas medidas cautelares e nas penas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O deputado Juninho do Pneu anunciou a criação de uma Frente Parlamentar do Ciclista"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Apresentou dados e análises: estimativas de custo econômico da violência no trânsito em torno de R$ 50–52 bilhões por ano"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

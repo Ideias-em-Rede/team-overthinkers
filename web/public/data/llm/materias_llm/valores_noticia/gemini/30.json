@@ -1,0 +1,36 @@
+{
+  "id": 30,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública para debater o orçamento público destinado à infância e à adolescência, com foco na prevenção e resposta à violência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, presidido pela deputada Ana Paula Lima (PT-SC), reuniu representantes de ministérios, da sociedade civil e de organismos internacionais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Uma das principais propostas é a criação de uma 'marcação orçamentária' para identificar e monitorar de forma transparente quanto é investido na prevenção à violência contra crianças e adolescentes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele destacou a falta de alinhamento entre os planos setoriais de proteção à infância — muitos dos quais estão com prazos vencidos — e o ciclo orçamentário, como o Plano Plurianual (PPA) 2024/2027."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Marinho afirmou que essas ações serão explicitadas na Mensagem Presidencial do PLOA e terão uma 'etiquetagem gerencial' para acompanhamento em tempo real, garantindo maior transparência."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Guimarães citou que o Brasil tem 706 mil crianças e adolescentes nas piores formas de trabalho infantil e que, apenas no ano passado, foram registrados 3 mil acidentes de trabalho graves envolvendo esse público."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

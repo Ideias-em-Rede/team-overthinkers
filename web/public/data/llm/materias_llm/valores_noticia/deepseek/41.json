@@ -1,0 +1,36 @@
+{
+  "id": 41,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Brasil, estima-se que, em 2050, mais de uma em cada quatro pessoas terá mais de 60 anos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da Comissão, deputado Aliel Machado, informou que a audiência integra um processo de articulação para a aprovação da convenção, que já foi assinada pelo Brasil em 2015, mas ainda não ratificada."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou para desafios como discriminação por idade, acesso limitado à saúde, pobreza e insegurança de renda, enfatizando a necessidade de legislações nacionais e instrumentos internacionais para proteger os direitos desse grupo."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A professora Bibiana Graeff, da Universidade de São Paulo (USP), argumentou que a ratificação da convenção é urgente para que o Brasil retome seu protagonismo internacional na área."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

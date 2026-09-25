@@ -1,0 +1,36 @@
+{
+  "id": 84,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou uma audiência pública para debater o tema 'Acolhimento às Famílias Acolhedoras'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, proposto pela deputada Erika Kokay (PT-DF), reuniu representantes do Ministério Público, do Governo Federal, de movimentos sociais e da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo dados apresentados, dos cerca de 30 mil crianças e adolescentes acolhidos no Brasil, apenas 5% estão em famílias acolhedoras, enquanto 95% vivem em instituições."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou o uso do termo 'negligência' como justificativa para o acolhimento, afirmando que, muitas vezes, ele mascara situações de pobreza e falta de políticas públicas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência também contou com a participação de famílias acolhedoras, que relataram dificuldades práticas como atrasos no repasse do subsídio e a necessidade de um processo de desligamento da criança mais cuidadoso e gradual."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

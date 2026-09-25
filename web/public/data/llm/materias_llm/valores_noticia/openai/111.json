@@ -1,0 +1,36 @@
+{
+  "id": 111,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou, na primeira audiência pública do ano, um debate sobre 'Educação Bilíngue de Surdos à Luz da LDB'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta pelo presidente da Comissão, deputado Weliton Prado, atendendo ao Requerimento nº 67/2023, de autoria da deputada Amália Barros e subscrito pelo deputado Zé Haroldo Cathedral."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foi destacado o reconhecimento da educação bilíngue de surdos como modalidade pela Lei nº 14.191/2021, que alterou a LDB, e a recomposição estrutural da SECADI prevista no Decreto nº 11.342/2023."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Diversos palestrantes denunciaram práticas de inclusão que, na avaliação deles, não asseguram aprendizagem efetiva para alunos surdos quando não há professor habilitado em LIBRAS ou quando a LIBRAS não é a língua de instrução no conjunto da escola."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Participantes reivindicaram protagonismo surdo nas decisões e nas bancas de avaliação de intérpretes e profissionais, além de garantias orçamentárias do FNDE e de maior articulação entre MEC, FNDE, CAPES, Estados e Municípios."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

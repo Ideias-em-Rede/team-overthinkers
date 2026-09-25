@@ -1,0 +1,36 @@
+{
+  "id": 113,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "o ministério considera necessária a reformulação dessas normativas para ampliar o alcance do atendimento"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A abertura foi feita pelo presidente interino da sessão, deputado Leo Prates (PDT-BA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "repasse de R$ 20.000 por mês para cada grupo de 50 pessoas acolhidas em alojamentos provisórios"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "possibilidade de quebra do escalonamento do Programa Bolsa Família em situação de emergência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

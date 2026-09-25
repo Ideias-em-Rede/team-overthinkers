@@ -1,0 +1,36 @@
+{
+  "id": 93,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "discutir a educação técnica profissional de nível médio, o novo ensino médio e o potencial de contribuição do projeto de lei para avanços nesse cenário"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pela deputada Flávia Morais (PDT-GO), que declarou a sessão aberta após a aprovação da ata da reunião anterior. Estavam presentes como convidados Getúlio Marques Ferreira (Vice-Presidente do CONSED e Secretário de Educação do RN), Maria Leopoldina Veras Camelo (Vice-Presidente do CONIF e Reitora do IF Sertão Pernambucano), Francisco Aparecido Cordão (especialista em educação profissional) e Antonio Almerico Biondi Lima (Professor da UFRB)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Getúlio Marques Ferreira destacou a importância do projeto para oferecer condições aos jovens ingressarem no mercado de trabalho de forma sustentável"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Francisco Aparecido Cordão fez contribuições técnicas ao texto do projeto, sugerindo ajustes terminológicos para harmonizar com a LDB e a Lei da Aprendizagem. Ele propôs a retirada de artigos que alteram a CLT e a LOAS, argumentando que mudanças nesses dispositivos fogem ao escopo da lei educacional"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes concordaram sobre a importância do projeto para ampliar oportunidades para a juventude e a necessidade de políticas públicas integradas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

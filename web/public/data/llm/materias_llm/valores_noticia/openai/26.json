@@ -1,0 +1,36 @@
+{
+  "id": 26,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência decorreu da aprovação do Requerimento nº 205/2023, de autoria da própria deputada."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa contou com a presença de representantes do governo, da academia, de movimentos sociais e do IBGE."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foi citada também a intenção de incorporar princípios antirracistas e anticapacitistas no marco conceitual."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foi ressaltado que a provisão de cuidados no Brasil recai majoritariamente sobre as famílias e, dentro delas, sobre as mulheres, com forte racialização (maior presença de mulheres negras no trabalho de cuidado)."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O presidente do IBGE, Marcio Pochmann, afirmou que o instituto está pronto para realizar uma pesquisa de uso do tempo, mas que há insuficiência de recursos orçamentários; propôs a realização de testes no ano seguinte e, dependendo de financiamento, uma pesquisa abrangente em 2025."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Foi informado que o marco conceitual da política nacional de cuidados está em consulta pública na plataforma do governo, com escuta prevista até 15 de dezembro, podendo haver prorrogação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

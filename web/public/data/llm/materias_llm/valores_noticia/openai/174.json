@@ -1,0 +1,36 @@
+{
+  "id": 174,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Parlamentares presentes, entre eles o deputado Coronel Chrisóstomo (PL‑RO), destacaram a grave escassez de médicos em regiões como a Amazônia e defenderam atenção às especificidades dessas áreas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo deputado Evair Vieira de Melo (PP‑ES), autor do requerimento, e reuniu representantes do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), do Ministério da Educação (MEC), da Associação Nacional das Universidades Particulares (ANUP) e do Conselho Federal de Medicina (CFM)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O objetivo oficial do encontro foi analisar os índices de aprovação do REVALIDA e as dificuldades operacionais da prova, além de debater implicações do aumento do número de inscritos e da judicialização do processo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve manifestações defendendo respeito aos médicos formados no exterior e a necessidade de esclarecer por que as taxas de aprovação são tão baixas para grande parte dos candidatos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O INEP destacou que a execução completa de uma edição demora, em média, 11 meses, e que as últimas edições têm apresentado grande volume de inscritos, o que tem gerado 'pontos de estresse' operacionais, especialmente na segunda etapa, que exige estrutura de simulação com atores e uso de hospitais e centros clínicos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

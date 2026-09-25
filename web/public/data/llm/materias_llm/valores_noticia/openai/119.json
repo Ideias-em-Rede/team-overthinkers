@@ -1,0 +1,36 @@
+{
+  "id": 119,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência, em formato híbrido, contou com representantes do Ministério da Justiça e Segurança Pública"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pela deputada Erika Kokay (PT-DF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "estimativa da ONU Mulheres de 89.000 mulheres assassinadas no mundo em 2022"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Faltas como dificuldade para realização de concursos e demora no provimento de cargos foram citadas como entrave à atuação plena dos Institutos Médico-Legais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada convocou ainda a próxima audiência pública da comissão, marcada para 12 de dezembro, sobre criação do Dia Nacional das Mulheres na Construção Civil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

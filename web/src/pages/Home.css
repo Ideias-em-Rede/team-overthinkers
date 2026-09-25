@@ -63,12 +63,76 @@
 }
 
 .rqs h2,
-.stats h2 {
+.stats h2,
+.panorama h2 {
   font-size: 1.15rem;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   color: var(--text-muted);
   margin-bottom: 1rem;
+}
+
+.panorama__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.panorama__head h2 {
+  margin: 0;
+}
+.panorama__tabs {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--card);
+}
+.panorama__tab {
+  padding: 0.45rem 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  border-left: 1px solid var(--border);
+  transition: background 0.15s, color 0.15s;
+}
+.panorama__tab:first-child {
+  border-left: none;
+}
+.panorama__tab:hover {
+  background: #f4f6fa;
+  color: var(--text);
+}
+.panorama__tab.on {
+  background: var(--navy);
+  color: #fff;
+}
+
+.panorama__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.panorama__empty {
+  background: var(--card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.panorama__empty p {
+  margin: 0;
+  max-width: 520px;
+  margin-inline: auto;
 }
 
 .rq-grid {

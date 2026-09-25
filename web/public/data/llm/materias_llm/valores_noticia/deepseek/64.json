@@ -1,0 +1,36 @@
+{
+  "id": 64,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Diversos destinos catarinenses foram citados como polos desse turismo, incluindo Nova Trento (Santuário Santa Paulina), Brusque (Santuário Nossa Senhora de Azambuja), Camboriú (Congresso dos Gideões) e Ituporanga (Santuário Nossa Senhora de Lourdes e do Louvor)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo deputado Rodrigo Coelho (PODE-SC), contou com a participação de prefeitos, secretários, representantes de santuários e entidades religiosas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo ele, o turismo religioso movimenta cerca de R$ 15 bilhões por ano no Brasil, com Santa Catarina sendo o quarto estado em faturamento, tendo gerado mais de R$ 834 milhões em 2021."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A Dra. Thayse levantou a questão da cobrança de direitos autorais pelo ECAD durante eventos religiosos, defendendo que festas com motivação de fé deveriam ter tratamento diferenciado."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A obra privada, idealizada pelo empresário Silvio Prim, conta com a maior imagem de Nossa Senhora de Lourdes do mundo (40m), uma cruz de 50 metros com elevador e o maior terço suspenso do mundo."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Prefeito de Ituporanga, Gervásio Maciel, detalhou o novo complexo religioso do município, o Santuário Nossa Senhora de Lourdes e do Louvor."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

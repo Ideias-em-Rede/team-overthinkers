@@ -1,0 +1,36 @@
+{
+  "id": 157,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa do Consumidor da Câmara dos Deputados realizou uma audiência pública na terça-feira (3) para discutir a regulação de preços de terapias gênicas e celulares no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa de trabalhos foi composta por Daniela Marreco Cerqueira, representante do Ministério da Saúde e Secretária Executiva da Câmara de Regulação do Mercado de Medicamentos (CMED); Renato Luiz Guerino Cunha, membro do Comitê Científico de Transplante de Medula Óssea e Terapia Celular da Associação Brasileira de Hematologia, Hemoterapia e Terapia Celular; Antoine Daher, Presidente da Federação Brasileira das Associações de Doenças Raras (FEBRARARAS); Salmo Raskin, representante da Associação Médica Brasileira (AMB); Renato Alencar Porto, Presidente da Associação da Indústria Farmacêutica de Pesquisa (INTERFARMA); e Bruno Cesar Almeida de Abreu, Diretor de Mercados e Assuntos Jurídicos do Sindicato da Indústria de Produtos Farmacêuticos (SINDUSFARMA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele argumentou que é necessário criar critérios diferenciados de precificação que considerem o valor dessas terapias para o sistema de saúde a longo prazo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele citou o exemplo do medicamento Trikafta, para fibrose cística, que teve preço inicial de R$ 112 mil pela CMED, mas foi negociado a R$ 36 mil na etapa de incorporação pelo SUS, questionando a margem de lucro das empresas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ela destacou que a Resolução CMED nº 2/2004, que estabelece os critérios atuais de precificação, não está adequada para produtos inovadores como as terapias gênicas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Antoine Daher defendeu que as terapias gênicas representam esperança para pacientes com doenças raras, muitas vezes crianças, e podem significar a cura ou mudança no curso da doença."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 131,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "melhorar a infraestrutura rodoviária na Bahia"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "presença de representantes da própria concessionária, da Agência Nacional de Transportes Terrestres (ANTT), do Ministério dos Transportes, do Tribunal de Contas da União (TCU) e da Secretaria de Infraestrutura do Estado da Bahia"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "as obras poderiam gerar, conforme parâmetros utilizados pelo BNDES, aproximadamente 30 mil postos de trabalho diretos e indiretos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados solicitaram acesso e maior transparência; representantes do TCU e do Ministério explicaram limitações em função da classificação"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Rogéria Santos (Republicanos-BA) citou números relatados em audiências anteriores sobre mortes no trecho de Vitória da Conquista e questionou garantias contratuais para cumprimento do acordo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

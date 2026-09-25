@@ -1,0 +1,36 @@
+{
+  "id": 11,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "mais de 5 milhões de pessoas já estão potencialmente afetadas pelas condições de seca avaliadas como severa ou extrema"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A diretora-substituta do Centro Nacional de Monitoramento e Alertas de Desastres Naturais (CEMADEN), Regina Célia Santos Alvalá"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "prejuízos econômicos por secas na última década superiores a R$ 150 bilhões na Região Nordeste"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Cobrou também avanço nas políticas estruturantes, citou a atualização do Plano Nacional de Combate à Desertificação em curso"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "2023 foi apontado por ele como o ano mais quente do registro, com aumento de extremos climáticos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "mais de 15 milhões de nordestinos são afetados por ano pela seca"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

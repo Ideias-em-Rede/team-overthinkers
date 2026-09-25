@@ -1,0 +1,36 @@
+{
+  "id": 38,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "fortalecer a vitivinicultura e o enoturismo no Rio Grande do Sul"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "reuniu parlamentares, representantes do governo e de entidades do setor produtivo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a isenção tornaria o produto nacional mais competitivo frente aos importados, estimularia o consumo, geraria empregos e fortaleceria a agroindústria"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "o risco que a atual proposta de reforma tributária pode representar para o setor"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "criação da Zona Franca da Uva e do Vinho"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "o crescimento do consumo de vinho no Brasil e a desvantagem competitiva do produto nacional devido à alta tributação"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

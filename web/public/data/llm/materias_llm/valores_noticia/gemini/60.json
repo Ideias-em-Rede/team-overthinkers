@@ -1,0 +1,36 @@
+{
+  "id": 60,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O envelhecimento da população brasileira levará a um aumento significativo das mortes por doenças cardiovasculares."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo deputado Dr. Zacharias Calil (UNIÃO-GO), reuniu especialistas, representantes da indústria, da sociedade civil e do Ministério da Saúde."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As doenças cardiovasculares são a principal causa de morte no Brasil a partir dos 45 anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Fernando Silveira, presidente da Associação Brasileira da Indústria de Tecnologia para Saúde (ABIMED), criticou o modelo do QualiSUS Cardio por estar atrelado à Tabela SUS, que classificou como defasada."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele apresentou o procedimento TAVI (implante transcateter de válvula aórtica), recentemente incorporado ao SUS, que permite a troca da válvula por cateter, sem a necessidade de cirurgia aberta."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Um terço da população brasileira terá mais de 60 anos até 2060."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

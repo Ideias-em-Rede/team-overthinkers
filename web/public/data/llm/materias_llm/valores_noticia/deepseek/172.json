@@ -1,0 +1,36 @@
+{
+  "id": 172,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Na Região Sul, são 29.056 quilombolas, sendo 17.496 somente no Rio Grande do Sul."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi presidido pela deputada federal Reginete Bispo (PT-RS)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela ressaltou a importância dos dados para superar a invisibilidade histórica dessas comunidades, mas também apontou desafios críticos, como o acesso à terra e o enfrentamento à violência."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Biko cobrou orçamento adequado, estrutura robusta no INCRA e combate ao racismo fundiário."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Censo Quilombola de 2022 foi pioneiro ao revelar que o país possui 1.327.802 quilombolas residentes em 1.696 municípios."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Francinete Pereira da Cruz, do Ministério da Igualdade Racial e quilombola de Alcântara (MA), enfatizou que o censo tira a população quilombola da invisibilidade e permite a elaboração de políticas públicas baseadas em dados reais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

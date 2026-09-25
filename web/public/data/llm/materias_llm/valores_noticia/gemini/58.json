@@ -1,0 +1,36 @@
+{
+  "id": 58,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial que estuda o aumento de denúncias de violência obstétrica e a alta taxa de morte materna no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela deputada Any Ortiz (CIDADANIA-RS) e posteriormente pela deputada Soraya Santos (PL-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a alta taxa de morte materna no Brasil"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Geraldo Resende (PSDB-MS) interveio para pedir que a população indígena também fosse incluída na discussão"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada e Secretária de Saúde de Santa Catarina, Carmen Zanotto, iniciou as exposições afirmando que o aumento das denúncias se deve à maior coragem e informação das mulheres sobre práticas que não devem ser consideradas rotineiras"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

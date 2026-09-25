@@ -1,0 +1,36 @@
+{
+  "id": 29,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Brasil concentra cerca de 20% dos homicídios no mundo, embora tenha menos de 3% da população mundial"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "presidente da comissão, deputada Luizianne Lins"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "num país onde se matam quase 40 mil pessoas negras todos os anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas às recentes leis orgânicas das polícias"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "lançamento do Plano Juventude Negra Viva em dezembro"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o programa Juventude Negra Viva e propostas para a construção de um pacto republicano pela redução dos homicídios de jovens negros no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

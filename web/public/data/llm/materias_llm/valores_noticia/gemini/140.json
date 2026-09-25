@@ -1,0 +1,36 @@
+{
+  "id": 140,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Jarbas Barbosa alertou para o risco de surtos de doenças nas Américas, destacando a queda na cobertura vacinal na região."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública na Comissão de Saúde da Câmara dos Deputados, o diretor da Organização Pan-Americana da Saúde (OPAS), Jarbas Barbosa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele atribuiu a queda na vacinação, que ocorre desde 2015 e foi agravada pela pandemia, a fatores como a diminuição da percepção de risco para doenças como pólio e sarampo e o crescimento de movimentos antivacina e desinformação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Jorge Solla (PT-BA) também participou do debate, criticando a gestão da pandemia pelo governo anterior"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Barbosa apresentou estimativas que apontam uma chance de 22% a 28% de uma nova pandemia ocorrer nos próximos 10 anos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele citou exemplos de sucesso no Brasil e na Argentina, como a vacinação em feiras e o evento 'Noite das Vacinas'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

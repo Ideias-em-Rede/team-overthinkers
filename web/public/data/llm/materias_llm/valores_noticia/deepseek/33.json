@@ -1,0 +1,36 @@
+{
+  "id": 33,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Amaro Neto (REPUBLICANOS-ES), presidente da comissão e autor do requerimento que propôs a audiência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram presentes na mesa de debates Samira de Castro Cunha, presidente da Federação Nacional dos Jornalistas (FENAJ); Armando Sobral Rollemberg, diretor da Associação Brasileira de Imprensa (ABI); Marluce Zacariotti, presidente da Associação Brasileira de Ensino de Jornalismo (ABEJ); e Samuel Pantoja Lima, presidente da Associação Brasileira de Pesquisadores em Jornalismo (SBPJOR)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os participantes defenderam a aprovação da Proposta de Emenda à Constituição (PEC) 206/2012, que restitui a obrigatoriedade do diploma de nível superior em Jornalismo para o exercício da profissão."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Daniel Trzeciak (PSDB-RS), jornalista formado em 2008, criticou a decisão do STF: 'Pergunto ao ministro Gilmar Mendes se ele faria uma cirurgia com um médico sem diploma'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Samira de Castro Cunha (FENAJ) alertou para os riscos da desinformação: 'O jornalismo embasado, feito por profissionais diplomados, é vital para nossa sociedade'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

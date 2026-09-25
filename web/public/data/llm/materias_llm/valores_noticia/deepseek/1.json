@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debate as denúncias de censura à rede social X"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da audiência como expositores o jornalista e escritor Michael Shellenberger, o jornalista Eli Vieira Araujo, o jornalista político David Ágape e o jornalista Glenn Greenwald"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a luta pela liberdade de expressão no Brasil tem importância internacional"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Arlindo Chinaglia (PT-SP) questionou a ausência de contraditório na audiência e defendeu a necessidade de limites à liberdade de expressão"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Glenn Greenwald exibiu um documento que obteve e divulgou, que seria uma ordem sigilosa de janeiro de 2023 determinando que seis grandes plataformas de redes sociais banissem permanentemente perfis de parlamentares e jornalistas em duas horas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate as denúncias de censura à rede social X"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

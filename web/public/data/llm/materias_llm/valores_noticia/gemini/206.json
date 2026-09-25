@@ -1,0 +1,36 @@
+{
+  "id": 206,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública para debater o Projeto de Lei nº 5.384, de 2020, e a avaliação da Lei de Cotas (Lei nº 12.711, de 2012)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Dandara (PT-MG), autora do requerimento, teve como objetivo compilar diagnósticos e propostas para o aperfeiçoamento da legislação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela destacou que as cotas transformaram o ensino superior em um direito, impactaram os currículos universitários e que foram os próprios cotistas que denunciaram e forçaram o debate sobre as fraudes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Maria Páscoa Sarmento, da Coordenação Nacional de Articulação das Comunidades Negras Rurais Quilombolas (CONAQ), denunciou a invisibilidade da população quilombola nas estatísticas e políticas públicas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta com a exibição de um vídeo da campanha 'As cotas abrem portas', da União Nacional dos Estudantes (UNE)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

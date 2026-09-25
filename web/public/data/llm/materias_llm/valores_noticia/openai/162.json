@@ -1,0 +1,36 @@
+{
+  "id": 162,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O objetivo declarado foi debater a inclusão dos riscos psicossociais na legislação trabalhista e colher subsídios para aperfeiçoamento do projeto em tramitação."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram representantes do Ministério Público do Trabalho (MPT), dos Ministérios da Saúde e do Trabalho e Emprego, da Confederação Nacional dos Trabalhadores do Ramo Financeiro (CONTRAF), da FUNDACENTRO, da Universidade de Brasília (UNB), do Sindicato Nacional dos Auditores Fiscais do Trabalho (SINAIT) e de outras organizações."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Pedro Tourinho, presidente da FUNDACENTRO, afirmou que há no Brasil uma “epidemia” de adoecimento psíquico relacionado ao trabalho e citou números globais e nacionais, destacando o aumento dos afastamentos por transtornos mentais segundo dados do INSS (209.124 afastamentos em 2022, por transtornos mentais, citados por ele)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A Procuradora Cirlene Luiza Zimmermann afirmou que os riscos psicossociais são de difícil identificação e medição e ressaltou a importância de evitar distorções legislativas que excluam trabalhadores da proteção."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O objetivo declarado foi debater a inclusão dos riscos psicossociais na legislação trabalhista e colher subsídios para aperfeiçoamento do projeto em tramitação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

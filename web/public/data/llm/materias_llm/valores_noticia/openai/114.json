@@ -1,0 +1,36 @@
+{
+  "id": 114,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Brito citou dados apresentados na audiência: o Brasil tem em média cerca de 80 mil novos casos de tuberculose por ano"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, realizado no mês de março e transmitido pela internet, reuniu integrantes do Executivo, parlamentares, técnicos e representantes da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Brito afirmou que a proposta de foco no Amazonas já havia sido aprovada pela Comissão Externa em reunião anterior."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Brito informou que a quarta reunião da Comissão será uma visita in loco ao Amazonas e defendeu a escolha desse Estado como projeto‑piloto para demonstrar ações que possam contribuir para a eliminação da tuberculose até 2030."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Draurio citou que o Distrito Federal já atingiu a eliminação da tuberculose como problema de saúde pública, com 9,5 casos por 100 mil habitantes, como demonstração de que a eliminação é possível."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

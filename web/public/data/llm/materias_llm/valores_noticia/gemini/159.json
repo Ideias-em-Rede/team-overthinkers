@@ -1,0 +1,36 @@
+{
+  "id": 159,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O câncer de mama é o tumor feminino mais incidente, com uma projeção de 70 mil novos casos anuais para o triênio 2023-2025."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Weliton Prado (SOLIDARIEDADE-MG) e solicitada pela Deputada Silvia Cristina (PL-RO), reuniu parlamentares, representantes do governo, conselhos de saúde, organizações da sociedade civil e pacientes."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A falta de financiamento adequado para o Sistema Único de Saúde (SUS) foi um ponto central levantado pelos conselhos de saúde."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Verônica Savatin, do Conselho Nacional de Secretarias Municipais de Saúde (CONASEMS), afirmou que os municípios enfrentam dificuldades financeiras para manter os serviços."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Luciana Holtz, do Instituto Oncoguia, apresentou dados indicando que, nos últimos 10 anos, a cobertura de mamografia na faixa etária recomendada não ultrapassou 30%."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

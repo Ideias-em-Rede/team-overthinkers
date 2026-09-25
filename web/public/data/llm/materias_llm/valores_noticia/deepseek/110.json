@@ -1,0 +1,36 @@
+{
+  "id": 110,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "83% das pessoas idosas no Brasil dependem exclusivamente do SUS"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da audiência Felipe Hees, diplomata representante do Ministério das Relações Exteriores para o G20; Alexandre da Silva, Secretário Nacional dos Direitos da Pessoa Idosa do Ministério dos Direitos Humanos e da Cidadania; Lígia Gualberto, Coordenadora de Saúde da Pessoa Idosa na Atenção Primária do Ministério da Saúde; Sandra Regina Capana Michellim, Coordenadora Nacional da Pastoral da Pessoa Idosa; Alexandre Kalache, médico epidemiologista e Presidente do Centro Internacional de Longevidade (por vídeo); Marcos Wagner de Sousa Porto, Presidente da Sociedade Nordestina de Neurocirurgia; e Babak Kateb, médico neurocientista e Presidente da Brain Mapping Foundation."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Brasil já possui mais de 32 milhões de pessoas com 60 anos ou mais, representando 15,82% da população"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Luiz Couto (PT-PB), presidente da comissão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 48,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Previdência, Assistência Social, Infância, Adolescência e Família da Câmara dos Deputados realizou uma audiência pública nesta terça-feira (26) para discutir o Projeto de Lei nº 580/2007, que propõe alterações no Código Civil em relação ao contrato civil de união homoafetiva."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram presentes como expositores o deputado distrital Fábio Félix; a presidente da Comissão de Diversidade Sexual da OAB-DF, Cíntia Cecílio; a pastora Adriana Carla, representante do Fórum de Diversidade Sexual e de Gênero da Aliança de Batistas e Evangélicxs pela Diversidade; Simone Feres, da Associação Brasileira de Famílias Homotransafetivas (ABRAFH); o professor Glauco Barreira, da Universidade Federal do Ceará; a psicóloga e escritora Marisa Lobo; o professor Antonio Jorge Pereira Júnior, da Universidade de Fortaleza; e o procurador Rodrigo Pedroso, da Universidade de São Paulo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele relatou ter se casado recentemente e expressou preocupação com possíveis impactos na vida de casais homoafetivos, como questões hospitalares e previdenciárias."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Do outro lado, o professor Antonio Jorge Pereira Júnior argumentou que a competência para legislar sobre o tema é do Parlamento, não do Judiciário."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A presidente da Comissão de Diversidade Sexual da OAB-DF, Cíntia Cecílio, afirmou que o projeto é inconstitucional e que a população LGBTQIA+ 'não vai deixar de existir, PL passando ou não passando'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

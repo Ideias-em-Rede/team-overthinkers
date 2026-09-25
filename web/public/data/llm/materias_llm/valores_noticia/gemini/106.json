@@ -1,0 +1,36 @@
+{
+  "id": 106,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representando os produtores de cebola e agricultores familiares, Jelson Gesser, presidente da Associação dos Produtores de Cebola de Santa Catarina (APROCESC), criticou a nova regra que limita o número de acionamentos do PROAGRO por produtor."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo deputado Pezenti (MDB-SC), colocou em pauta as recentes alterações nas regras do programa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele também apontou a redução da Garantia de Renda Mínima (GRM) de R$ 40 mil para R$ 9 mil anuais por grupo familiar como uma medida prejudicial."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante o debate, os deputados Heitor Schuch (PSB-RS) e Bohn Gass (PT-RS) criticaram duramente as novas resoluções."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele apresentou casos extremos de fraude, como um produtor que recebeu 41 coberturas em cinco anos e uma única propriedade com 202 comunicações de perdas no mesmo período."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural da Câmara dos Deputados realizou uma audiência pública para debater as dificuldades enfrentadas por agricultores para acionar o Programa de Garantia da Atividade Agropecuária (PROAGRO)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

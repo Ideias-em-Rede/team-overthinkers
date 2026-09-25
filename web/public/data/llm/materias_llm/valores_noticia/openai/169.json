@@ -1,0 +1,36 @@
+{
+  "id": 169,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão da Amazônia e dos Povos Originários e Tradicionais da Câmara dos Deputados (CPOVOS) realizou uma audiência pública para debater a inclusão do Cerrado e da Caatinga como patrimônios nacionais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta e conduzida pela deputada Célia Xakriabá (Bloco/PSOL-MG)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Parlamentares, representantes de povos indígenas e comunidades tradicionais, movimentos sociais, pesquisadores e representantes de órgãos do governo defenderam a aprovação da emenda como instrumento de proteção legal para os dois biomas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de fundos e fechos de pasto e comunidades tradicionais relataram conflitos com o agronegócio, mineração, parques solares e outras grandes obras"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O principal objetivo do encontro foi discutir a aprovação da PEC 504/2010, que propõe reconhecer o Cerrado e a Caatinga como patrimônios nacionais à semelhança de outros biomas já previstos na Constituição"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

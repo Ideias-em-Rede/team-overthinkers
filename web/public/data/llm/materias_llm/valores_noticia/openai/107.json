@@ -1,0 +1,36 @@
+{
+  "id": 107,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência pública reuniu coordenadores estaduais e dirigentes municipais de Proteção e Defesa Civil para debater medidas de prevenção, sistemas de alerta, financiamento e a desburocratização dos repasses em situações de emergência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputado Gilson Daniel (PODE-ES) presidiu nesta quarta-feira a 7ª Reunião Extraordinária da Comissão Especial destinada a estudar e analisar formas de prevenção e auxílio a vítimas de desastres e calamidades naturais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os coordenadores reclamaram da dependência frequente de medidas provisórias e destacaram a importância de recursos para prevenção e obras estruturantes, além da agilidade no repasse para pronta resposta."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Foi sugerida pela Comissão a realização de audiência específica sobre a implementação do cell broadcast e a preparação das populações para os novos mecanismos de alerta."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

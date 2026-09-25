@@ -1,0 +1,36 @@
+{
+  "id": 4,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Questionado sobre o 'caladão' (falta de comunicação) em São Paulo após as fortes chuvas, Baigorri informou que 51 municípios ainda apresentavam algum tipo de afetação nos serviços."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública na Comissão de Comunicação da Câmara dos Deputados, o presidente da Agência Nacional de Telecomunicações (Anatel), Carlos Manuel Baigorri, apresentou o Planejamento Estratégico da agência para o quinquênio 2023-2027 e debateu os principais desafios do setor."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou a 'grande assimetria de regras' entre serviços tradicionais, como radiodifusão e telefonia, e os serviços prestados pela internet, como streaming e aplicativos de mensagens."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Segundo o presidente da Anatel, enquanto os setores tradicionais possuem diversas obrigações legais e regulatórias, as novas mídias digitais operam com pouca ou nenhuma responsabilização, o que, em sua visão, distorce a competição."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Anatel aprovou uma nova regulamentação, que aguarda deliberação da Agência Nacional de Energia Elétrica (ANEEL), para criar a figura de um responsável pela organização dos postes, chamado de 'posteiro', a fim de solucionar o problema."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Baigorri detalhou as ações da Anatel contra a pirataria de conteúdo audiovisual, principalmente por meio de aparelhos 'TV Box' e aplicativos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

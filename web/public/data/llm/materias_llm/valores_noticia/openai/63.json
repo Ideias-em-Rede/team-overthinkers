@@ -1,0 +1,36 @@
+{
+  "id": 63,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou, na tarde desta terça‑feira, uma audiência pública para debater a necessidade de fortalecimento das instituições de longa permanência para idosos (ILPIs)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate reuniu representantes da sociedade civil, do Ministério Público e do governo federal: Karla Giacomin (presidente da Frente Nacional de Fortalecimento às ILPI), Vejuse Alencar de Oliveira (presidente da Associação Cearense Pró‑Idosos — ACEPI), Élder Ximenes Filho (promotor de justiça do Ministério Público do Ceará), Renato da Silva Gomes (Coordenador‑Geral de Promoção e Defesa dos Direitos da Pessoa Idosa, do Ministério da Mulher, da Família e dos Direitos Humanos) e Sandro Roberto Poleto (coordenador nacional do Departamento de Normatização e Orientação da Sociedade de São Vicente de Paulo)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Karla Giacomin argumentou pela existência de lacunas significativas no sistema de cuidados de longa duração no Brasil: ausência de política nacional, desconhecimento sobre quantas e onde são as instituições, heterogeneidade da oferta e fiscalização com caráter predominantemente punitivo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vejuse Alencar ressaltou a precariedade estrutural e orçamentária das ILPIs, a invisibilidade das instituições na agenda pública e a insuficiência de vagas públicas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os organizadores convidaram parlamentares e público a visitarem a exposição fotográfica 'Memórias de Permanência', que esteve instalada na Câmara e foi citada pelos expositores como instrumento para mostrar práticas e enfrentar preconceitos contra as ILPIs."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

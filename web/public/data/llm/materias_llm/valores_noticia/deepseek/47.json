@@ -1,0 +1,36 @@
+{
+  "id": 47,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A lei, aprovada no contexto da pandemia, destina R$ 3,8 bilhões para socorrer o setor cultural, um dos mais afetados pelas restrições sanitárias."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou uma audiência pública nesta terça-feira para debater a regulamentação da Lei Paulo Gustavo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O setor cultural responde por mais de 3% do PIB nacional e gera mais empregos que a indústria automobilística."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eneida Soller, presidente do Conselho Brasileiro de Entidades Culturais, alertou para a necessidade de que os editais estaduais e municipais tenham valores acessíveis para pequenas produtoras e artistas independentes, evitando que apenas grandes produtoras de audiovisual sejam beneficiadas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A lei permite a aquisição de equipamentos e reformas de espaços culturais, crucial para difundir o cinema em territórios periféricos que não possuem salas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

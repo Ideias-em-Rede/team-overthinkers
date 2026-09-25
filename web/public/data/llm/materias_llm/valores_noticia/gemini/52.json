@@ -1,0 +1,36 @@
+{
+  "id": 52,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública para debater o etarismo no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, convocada pelo presidente da comissão, Deputado Castro Neto (PSD-PI), reuniu especialistas, representantes do governo e uma vítima de preconceito de idade para discutir as diversas formas de discriminação e violência que afetam a população idosa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou dados da Organização Mundial da Saúde (OMS), segundo os quais um em cada seis idosos já sofreu algum tipo de violência."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A antropóloga e pesquisadora Mirian Goldenberg focou sua fala na violência que ocorre dentro das famílias, afirmando que 50% dos casos de agressão contra idosos são praticados pelos próprios filhos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A assistente social Maria Dulce Silva, de 80 anos, relatou sua experiência pessoal com o preconceito, afirmando que o etarismo afeta as mulheres de forma mais severa, com uma forte pressão social sobre a aparência e o comportamento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

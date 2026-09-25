@@ -1,0 +1,36 @@
+{
+  "id": 96,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública para debater a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta pelo presidente da comissão, Deputado Fábio Trad, que também é o relator do projeto."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Maia propôs três ajustes ao projeto de lei: a inclusão de pessoas com TDAH em cotas de 7% para empresas de grande porte e para concursos e universidades públicas; e a criação de políticas para o fornecimento gratuito de medicamentos psicoestimulantes, cujo custo pode chegar a quase meio salário mínimo mensal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Deputado Eduardo Barbosa (PSDB-MG) argumentou contra a classificação do TDAH como deficiência, temendo que o rótulo pudesse ser restritivo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Yuri Maia, que se apresentou como um adulto com TDAH, relatou suas dificuldades pessoais na vida escolar, social e profissional."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

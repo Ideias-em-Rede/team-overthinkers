@@ -1,0 +1,36 @@
+{
+  "id": 15,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a proposta de tornar obrigatória a vacinação contra a COVID‑19 para crianças de 6 meses a 5 anos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram presencialmente a deputada Bia Kicis e parlamentares; por videoconferência integraram a mesa o diretor do Departamento de Imunização e Doenças Transmissíveis do Ministério da Saúde, Dr. Eder Gatti"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "3.037 hospitalizações por COVID‑19 entre crianças menores de 1 ano no ano citado; e óbitos infantis citados por faixa etária"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os três especialistas convidados expuseram argumentos contrários à obrigatoriedade e manifestaram dúvidas quanto à eficácia e à segurança da vacinação obrigatória na faixa etária em questão"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a proposta de tornar obrigatória a vacinação contra a COVID‑19 para crianças de 6 meses a 5 anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

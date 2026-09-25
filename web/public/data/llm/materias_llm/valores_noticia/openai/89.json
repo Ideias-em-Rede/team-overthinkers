@@ -1,0 +1,36 @@
+{
+  "id": 89,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pela deputada Rejane Dias (PT-PI), a sessão — interativa e transmitida pela internet — reuniu representantes do Ministério Público Federal, da Fundação Nacional do Índio (FUNAI), da Comissão Interamericana de Direitos Humanos (CIDH), da Articulação dos Povos Indígenas do Brasil (APIB), da Secretaria Especial de Saúde Indígena (SESAI) e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Marugal apontou duas vulnerabilidades centrais: a presença do garimpo ilegal e fluxos de indígenas à cidade, que deixam mulheres e crianças em situação de extrema vulnerabilidade. Citou casos de crianças alcoolizadas encontradas nas ruas, óbitos por desnutrição e denúncias de violência sexual, incluindo o caso de estupro de uma criança em Aracaçá."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Guajajara criticou medidas assistencialistas inadequadas e defendeu políticas públicas de longo prazo para educação, saúde e geração de renda nos territórios. Ela citou a existência de invasões e pressão sobre terras demarcadas, afirmou que operações pontuais têm sido insuficientes e pediu investigação e punição dos responsáveis pelo garimpo ilegal e por redes que lucram com a extração."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay (PT-DF) afirmou ser necessário elaborar planos de enfrentamento multissetoriais com recortes de gênero, etário e étnico, participação indígena e previsão orçamentária. Propôs articulação entre comissões da Câmara e a criação de uma comissão parlamentar de inquérito (CPI) para investigar a violência contra crianças e povos indígenas, além de responsabilizar atores envolvidos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

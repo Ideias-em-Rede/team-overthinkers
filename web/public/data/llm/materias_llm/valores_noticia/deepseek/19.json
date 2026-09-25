@@ -1,0 +1,36 @@
+{
+  "id": 19,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os benefícios da adequação de velocidades nas cidades brasileiras"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da audiência representantes do Ministério da Saúde, da Organização Pan-Americana da Saúde (OPAS), da Secretaria Nacional de Trânsito (SENATRAN)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "33 mil mortes por acidentes de trânsito em 2021, com custo de R$ 322 milhões apenas em internações"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "reduções de 5% na velocidade média podem reduzir fatalidades em até 30%"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

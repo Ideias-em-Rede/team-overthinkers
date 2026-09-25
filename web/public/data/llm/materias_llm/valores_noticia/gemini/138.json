@@ -1,0 +1,36 @@
+{
+  "id": 138,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "recentes vazamentos de dados da população brasileira"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "diretor-presidente da Autoridade Nacional de Proteção de Dados (ANPD), Waldemar Gonçalves Ortunho Júnior"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "768 comunicados de incidentes de segurança desde sua criação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputado Caio Vianna contrapôs o argumento, afirmando que a responsabilidade pela segurança dos dados é sempre da empresa ou órgão que os coleta"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "não aplicou nenhuma sanção por vazamento de dados"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "recentes vazamentos de dados da população brasileira"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

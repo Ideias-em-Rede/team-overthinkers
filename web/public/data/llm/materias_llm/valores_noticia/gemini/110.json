@@ -1,0 +1,36 @@
+{
+  "id": 110,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "83% das pessoas idosas no Brasil dependem exclusivamente do SUS"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate contou com a participação de representantes de ministérios, da sociedade civil e de especialistas da área da saúde"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Brasil tem mais de 32 milhões de pessoas com 60 anos ou mais, o que corresponde a 15,8% da população"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a presidência brasileira inovará ao criar uma sessão para que grupos de engajamento da sociedade civil apresentem formalmente suas recomendações aos negociadores do G20"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "promoção do envelhecimento ativo e saudável como pauta prioritária na agenda do G20"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

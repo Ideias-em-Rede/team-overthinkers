@@ -1,0 +1,36 @@
+{
+  "id": 14,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os impactos socioambientais da mineração de sal-gema pela Braskem em Maceió"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados realizou"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a maior tragédia ambiental em curso no Brasil"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Críticas de vítimas e especialistas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater os impactos socioambientais da mineração de sal-gema pela Braskem em Maceió"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

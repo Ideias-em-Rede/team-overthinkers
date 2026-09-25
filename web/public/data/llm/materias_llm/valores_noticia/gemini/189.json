@@ -1,0 +1,36 @@
+{
+  "id": 189,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o Projeto de Lei nº 2.768, de 2022, que trata da competitividade e concorrência nos mercados digitais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "participação de representantes do Spotify, Mercado Livre, Conexis Brasil Digital e do Conselho Administrativo de Defesa Econômica (CADE)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "entender os impactos do projeto de lei em um setor dinâmico da economia"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Luizio Felipe Rocha, representante do Spotify, declarou apoio a uma legislação que restrinja o que chamou de 'conduta abusiva dos legítimos gatekeepers digitais'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate para fomentar a inovação e proteger os direitos de consumidores e empreendedores"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

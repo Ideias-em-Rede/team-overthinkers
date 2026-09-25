@@ -1,0 +1,36 @@
+{
+  "id": 47,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a lei destina R$ 3,8 bilhões de forma descentralizada para todos os estados e municípios do Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Alfredinho (PT-SP), contou com a participação de um representante do Ministério da Cultura (MinC), parlamentares e membros da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a cultura representa mais de 3% do PIB brasileiro e gera mais empregos que a indústria automobilística"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "após vetos do governo anterior que foram derrubados pelo Congresso e pelo Supremo Tribunal Federal"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a lei facilite a comunicação com coletivos da periferia e gere empregos, qualificando projetos locais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

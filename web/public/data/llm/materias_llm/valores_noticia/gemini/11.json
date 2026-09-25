@@ -1,0 +1,36 @@
+{
+  "id": 11,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "afetando potencialmente mais de 5 milhões de pessoas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "gerou um prejuízo de mais de R$ 150 bilhões para os municípios nordestinos nos últimos 10 anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele apontou a dependência da Operação Carro-Pipa e a burocracia para o reconhecimento da situação de emergência como grandes desafios"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "As previsões indicam que a situação crítica deve persistir em dezembro, com uma leve melhora a partir de janeiro"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "especialistas, representantes de governos estaduais, municípios e da sociedade civil para apresentar previsões, dados e propostas de ação"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

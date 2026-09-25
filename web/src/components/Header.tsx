@@ -17,7 +17,6 @@ export default function Header() {
             Início
           </NavLink>
           <NavLink to="/materias">Matérias</NavLink>
-          <NavLink to="/panorama">Panorama</NavLink>
         </nav>
       </div>
     </header>

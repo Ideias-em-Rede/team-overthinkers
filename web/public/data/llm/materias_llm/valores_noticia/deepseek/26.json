@@ -1,0 +1,36 @@
+{
+  "id": 26,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada destacou que a audiência visa dar visibilidade a uma questão que considera 'invisível' e de 'proporções gigantescas' no Brasil, agravada pela dimensão territorial e pelos problemas sociais do país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública nesta terça-feira para debater a economia do cuidado. O evento foi presidido pela deputada Luizianne Lins (PT-CE), autora do requerimento que propôs a discussão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Laís Abramo, Secretária Nacional da Política de Cuidados e Família, explicou que a política tem como objetivo garantir o direito ao cuidado a todas as pessoas, promover trabalho decente para cuidadores remunerados e reconhecer e redistribuir o trabalho não remunerado, historicamente exercido por mulheres."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela afirmou que os anos do governo anterior 'destruíram políticas públicas e políticas sociais conquistadas com dificuldade pelo povo brasileiro' e que agora é necessário reconstruir."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Rosane Silva, Secretária Nacional de Autonomia Econômica e Política de Cuidados do Ministério das Mulheres, apresentou dados da PNAD 2023 que mostram que as mulheres dedicam em média mais de 21 horas semanais ao trabalho doméstico, enquanto os homens dedicam apenas 11 horas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

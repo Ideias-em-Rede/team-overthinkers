@@ -1,0 +1,36 @@
+{
+  "id": 109,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele ressaltou a transversalidade da pasta e a necessidade de interação com outros ministérios para executar as políticas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Integração e do Desenvolvimento Regional, Waldez Góes, apresentou os planos e projetos da pasta em uma audiência pública na Comissão de Integração Nacional e Desenvolvimento Regional da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que a companhia produziu R$ 5,5 bilhões em valor bruto nos seus perímetros de irrigação em 2023 e que está avançando em modelos de concessão, como nos projetos Baixio de Irecê e Iuiú, na Bahia."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele também anunciou a captação de R$ 2,5 bilhões junto ao banco dos BRICS para os fundos de desenvolvimento e o lançamento do Fundo de Desenvolvimento da Infraestrutura Regional Sustentável (FIDRS), com R$ 1 bilhão para estruturar concessões e Parcerias Público-Privadas (PPPs)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os temas incluíram a necessidade de avançar na estruturação de ferrovias no Nordeste, como a Transnordestina (Dep. Pedro Campos); a situação das enchentes em municípios do Espírito Santo, como Mimoso do Sul (Dep. Gilson Daniel); a retomada de estudos para construção de barragens na bacia do Rio São Francisco em Minas Gerais (Dep. Paulo Guedes); e a preocupação com a seca e as enchentes no Amazonas, além de questões sobre a BR-319 e a Rota do Pacífico (Dep. Átila Lins)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 89,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O procurador da República Alisson Marugal, que atua em Roraima, detalhou a situação crítica na Terra Indígena Yanomami, a maior do Brasil, com quase 10 milhões de hectares."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes do Ministério Público Federal, da FUNAI, da Comissão Interamericana de Direitos Humanos, da Articulação dos Povos Indígenas do Brasil (APIB) e da Secretaria Especial de Saúde Indígena (SESAI)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Marugal citou casos de crianças Yanomami encontradas alcoolizadas nas ruas e de um recém-nascido que faleceu sem atendimento de saúde em Boa Vista."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Sonia Guajajara, coordenadora executiva da APIB, enfatizou a dupla vulnerabilidade das mulheres indígenas por serem mulheres e indígenas. Ela criticou a política indigenista do governo Bolsonaro e defendeu a demarcação de terras indígenas e a proteção dos territórios como medidas essenciais para garantir a segurança das comunidades."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Marugal mostrou um mapa com sobreposição entre comunidades indígenas e áreas de exploração mineral. Ele citou denúncias de exploração sexual de mulheres e crianças por garimpeiros e mencionou duas investigações em curso do MPF sobre crimes sexuais na região."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ao final do debate, os participantes reforçaram a urgência de políticas públicas específicas e a necessidade de destinação de recursos orçamentários para implementar ações de proteção às mulheres e crianças indígenas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

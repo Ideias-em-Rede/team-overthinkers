@@ -1,0 +1,36 @@
+{
+  "id": 22,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o crescimento do comércio eletrônico no Brasil e seus impactos sobre emprego e renda, tributação, ambiente de negócios e acesso a bens de consumo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi convocada pelo deputado Lucas Ramos (PSB-PE)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impactos sobre emprego e renda, tributação, ambiente de negócios e acesso a bens de consumo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "preocupação com perda de mercado para produtos importados vendidos em plataformas digitais"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Observatório do Comércio Eletrônico Nacional, um 'dashboard' lançado em 11 de maio"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o crescimento do comércio eletrônico no Brasil e seus impactos sobre emprego e renda"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

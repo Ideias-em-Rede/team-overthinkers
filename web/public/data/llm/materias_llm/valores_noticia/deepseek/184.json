@@ -1,0 +1,36 @@
+{
+  "id": 184,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "promovendo desenvolvimento, empregos e prosperidade"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do debate representantes do Ministério da Ciência, Tecnologia e Inovação (MCTI), Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Financiadora de Estudos e Projetos (FINEP), Confederação Nacional da Indústria (CNI), Associação Nacional de Pesquisa e Desenvolvimento das Empresas Inovadoras (ANPEI), Sociedade Brasileira para o Progresso da Ciência (SBPC) e Conselho Nacional das Fundações Estaduais de Amparo à Pesquisa (CONFAP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "pode transformar conhecimento em riqueza, soluções, inovação e competitividade para as empresas brasileiras"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "defendeu políticas de Estado de médio e longo prazo, segurança jurídica e maior orçamento para CT&I, com investimento de pelo menos 2% do PIB"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 163,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública na manhã desta quinta-feira para debater os desafios para a garantia do direito à educação de meninas e mulheres negras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Mesa foi composta exclusivamente por mulheres negras, incluindo representantes do Ministério da Igualdade Racial (MIR), do Ministério da Educação (MEC), da Escola Nacional de Administração Pública (ENAP), do Geledés — Instituto da Mulher Negra, além de pesquisadoras e ativistas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela ressaltou que a desigualdade se agravou durante a pandemia de COVID-19."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela descreveu episódios de racismo e transfobia desde a infância, a importância do acolhimento em espaços como terreiros de candomblé e a luta pelo direito ao nome e identidade de gênero."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Reginete Bispo abriu a sessão destacando que, apesar de avanços nas últimas décadas, os indicadores educacionais brasileiros ainda apontam para uma 'enorme desigualdade' entre pessoas brancas e negras."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

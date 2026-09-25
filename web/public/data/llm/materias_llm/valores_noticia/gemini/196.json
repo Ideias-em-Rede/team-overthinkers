@@ -1,0 +1,36 @@
+{
+  "id": 196,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "ampliar o acesso de jovens de baixa renda ao ensino superior"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputado Átila Lira (PP-PI), autor do requerimento e relator do projeto"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impacto estimado em R$ 6,5 bilhões"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "FNDE manifestou-se de forma contrária ao projeto de lei"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "criação do Programa de Apoio ao Estudante da Educação Superior"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "ampliar as oportunidades para jovens carentes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

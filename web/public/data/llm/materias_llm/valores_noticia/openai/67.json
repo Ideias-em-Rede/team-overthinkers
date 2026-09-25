@@ -1,0 +1,36 @@
+{
+  "id": 67,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência ouviu relatos pessoais de trabalhadores lesionados."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, fruto do Requerimento nº 86/2022, foi presidida pelo deputado Orlando Silva (PCdoB-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Luís Fabiano citou dados fornecidos pelo Observatório de Segurança e Saúde no Trabalho: entre 2012 e 2021 foram registradas 22.954 mortes no mercado de trabalho formal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os participantes criticaram mudanças normativas recentes e apontaram consequências sociais, como desemprego, problemas de saúde mental e sobrecarga dos serviços públicos de saúde."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência ouviu relatos pessoais de trabalhadores lesionados."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

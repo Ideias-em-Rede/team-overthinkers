@@ -1,0 +1,36 @@
+{
+  "id": 127,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os avanços e as perspectivas do Estatuto da Pessoa Idosa"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "garantir direitos à saúde, educação e segurança"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "está bloqueada na Câmara por partidos de extrema direita"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater os avanços e as perspectivas do Estatuto da Pessoa Idosa"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

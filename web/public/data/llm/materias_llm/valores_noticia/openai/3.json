@@ -1,0 +1,36 @@
+{
+  "id": 3,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro também mencionou a necessidade de fortalecer instituições como a Fundacentro para o estudo de condições de trabalho e doenças ocupacionais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro do Trabalho e Emprego, Luiz Marinho, apresentou nesta manhã, em audiência pública na Comissão de Trabalho da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Marinho apresentou números do mercado de trabalho: segundo ele, o saldo acumulado no CAGED no ano anterior foi de 1,5 milhão de empregos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados da oposição (entre eles Cabo Gilberto Silva e outros) criticaram aspectos da política econômica do Governo e questionaram a proposta de mexer no Saque-Aniversário"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Marinho falou também sobre a proposta de regulamentação do trabalho por aplicativos, construída em mesa tripartite (trabalhadores, empregadores e governo)"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro afirmou que o objetivo é que a legislação garanta proteção e segurança jurídica sem suprimir a autonomia dos trabalhadores de aplicativo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

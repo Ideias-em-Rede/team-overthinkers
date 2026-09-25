@@ -1,0 +1,36 @@
+{
+  "id": 63,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Citou que o Estado do Ceará mantém apenas uma instituição de longa permanência, com capacidade esgotada."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do debate a Dra. Karla Giacomin, Presidente da Frente Nacional de Fortalecimento à ILPI; Vejuse Alencar de Oliveira, Presidente da Associação Cearense Pró-Idosos (ACEPI); Dr. Élder Ximenes Filho, Promotor de Justiça do Ministério Público do Ceará; Renato da Silva Gomes, Coordenador-Geral de Promoção e Defesa dos Direitos da Pessoa Idosa do Ministério da Mulher, da Família e dos Direitos Humanos; e Sandro Roberto Poleto, Coordenador Nacional do Departamento de Normatização e Orientação da Sociedade Vicente de Paulo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Apontou que quase metade dos adultos e idosos brasileiros têm pelo menos uma doença crônica e que 14% dos idosos têm alguma incapacidade, o que representaria cerca de 5 milhões de pessoas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Dra. Karla Giacomin denunciou a 'inexistência de uma política nacional de cuidados de longa duração' e afirmou que o sistema atual é 'cada um por si'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Anunciou uma exposição fotográfica, 'Memórias de Permanência', que mostra o cotidiano positivo dos idosos em ILPIs, em cartaz na Câmara."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Denis Bezerra informou que a CIDOSO aprovou uma emenda de R$ 200 milhões para o fortalecimento das ILPIs no Orçamento da União, mas destacou que a alocação não é impositiva."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

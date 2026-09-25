@@ -1,0 +1,36 @@
+{
+  "id": 140,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os riscos de surtos de doenças nas Américas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Saúde da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Há registros hoje de 2,7 milhões de crianças que não receberam vacinas contra difteria, tétano e coqueluche"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Jorge Solla (PT-BA), que também participou da audiência, destacou o que chamou de 'grande estrago' na cobertura vacinal durante o governo anterior"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "citou estimativas sobre a probabilidade de novas pandemias: de 2,5% a 3,3% em 1 ano, e de 47% a 57% nos próximos 25 anos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele defendeu a necessidade de sistemas de saúde 'mais bem financiados, com mais resiliência, baseados numa atenção primária renovada e fortalecida'"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 75,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os efeitos da Medida Provisória (MP) nº 1.116/2022 — que institui o Programa Emprega + Mulheres e Jovens — sobre o mercado de trabalho feminino e outros direitos das mulheres"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram representantes do governo, do Ministério Público do Trabalho, da Justiça do Trabalho, de sindicatos, do Sistema S, de confederações patronais, de centrais sindicais, de redes da primeira infância e de organizações da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre os pontos citados estão reembolso‑creche a critério do empregador (para filhos de até 5 anos), possibilidade de saque de parcelas do FGTS para despesas com creche"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Entre os participantes houve convergência quanto à necessidade de ações específicas para aumentar a empregabilidade feminina e apoiar a parentalidade, mas divergência sobre meios e garantias"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "considerou inovadora a previsão de licença parental compartilhada no art. 23"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater os efeitos da Medida Provisória (MP) nº 1.116/2022 — que institui o Programa Emprega + Mulheres e Jovens — sobre o mercado de trabalho feminino e outros direitos das mulheres"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

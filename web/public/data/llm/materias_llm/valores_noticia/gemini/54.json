@@ -1,0 +1,36 @@
+{
+  "id": 54,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo ele, o Brasil é o segundo país do mundo onde mais se acessa a tecnologia, com uma média de 10 horas e 19 minutos por dia por usuário"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou uma audiência pública extraordinária para discutir os impactos da dependência tecnológica na sociedade"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Nabuco alertou para os efeitos colaterais do uso excessivo, citando impactos na saúde física, como a síndrome do olho seco e problemas de postura"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência, o presidente da comissão, Aureo Ribeiro, mencionou um caso recente de estupro virtual na plataforma Discord para ressaltar a urgência do debate"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele relatou um caso extremo de um jovem de 15 anos que permaneceu conectado por 55 horas seguidas, sem se alimentar ou ir ao banheiro"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência, motivada por um requerimento do deputado, teve como ponto de partida o debate público sobre a nomofobia, termo que descreve o medo de ficar sem celular"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

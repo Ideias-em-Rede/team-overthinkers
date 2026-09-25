@@ -1,0 +1,36 @@
+{
+  "id": 88,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta e conduzida pela deputada Angela Amin (PP-SC)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A MP desviaria fundos de projetos de pesquisa e inovação essenciais para manutenção e desenvolvimento de capacidades tecnológicas no Brasil, inclusive na exploração do pré-sal, e colocaria em risco laboratórios, programas e contratos já em curso."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os convidados concentraram críticas ao artigo 12 da MP 1.112/2022, que remaneja recurso originalmente previsto em contratos de explotação de petróleo e gás — destinados a PD&I na área — para financiar um programa de renovação da frota rodoviária"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes convocaram parlamentares a rejeitarem ou suprimirem o artigo 12 da MP e a buscarem alternativas de financiamento que não comprometam a base de pesquisa e inovação do país."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

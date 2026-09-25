@@ -1,0 +1,36 @@
+{
+  "id": 21,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião teve como objetivo principal esclarecer os termos da transferência e examinar riscos, especialmente o de eventual privatização indireta por meio de subsidiárias."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram presencialmente e/ou virtualmente representantes do Ministério da Fazenda (Simone Aparecida Vicentini, secretária adjunta de Prêmios e Apostas), de confederações e sindicatos (Juvandia Moreira Leite, presidenta da CONTRAF-CUT; Sergio Takemoto, presidente da FENAE; Fabiana Uehara, coordenadora da Comissão Executiva dos Empregados da Caixa e conselheira representante dos empregados), da FEBRALOT (Ricardo Amado Costa), do sindicato dos lotéricos do DF (Antonio Simoneto) e diversos dirigentes sindicais, lotéricos e empregados da Caixa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Alertaram para o risco de exclusão da rede lotérica do mercado se não houver mudanças que a tornem competitiva, e pediram participação dos lotéricos nas decisões."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputada Erika Kokay e sindicatos: defenderam a suspensão de eventual votação no Conselho de Administração da Caixa sobre a transferência, pediram maior transparência e a abertura de diálogo amplo com lotéricos, empregados e Parlamento."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A transmissão foi feita ao vivo pela página da Comissão e pelo canal oficial da Câmara no YouTube."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

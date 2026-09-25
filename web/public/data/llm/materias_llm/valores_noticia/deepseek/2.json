@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi solicitado por meio de requerimentos para tratar de temas do ministério, com foco no evento de interrupção de energia ocorrido em 15 de agosto."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro de Minas e Energia, Alexandre Silveira, e o Diretor-Geral do Operador Nacional do Sistema Elétrico (ONS), Luiz Carlos Ciocchi, participaram de uma audiência pública conjunta das Comissões de Minas e Energia e de Fiscalização Financeira e Controle da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a terminação 'evento' em vez de 'apagão', argumentando que não houve falta de suprimento energético, ao contrário da crise hídrica de 2021, que custou R$ 60 bilhões aos consumidores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Silveira também abordou a necessidade de reformulação estrutural do setor elétrico, criticando a concentração de encargos na conta dos consumidores regulados (pequenos consumidores e comércio), que pagam preços altos enquanto grandes indústrias acessam o mercado livre a custos menores."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Sobre o evento de 15 de agosto, classificou-o como 'inusitado', sem causas humanas diretas como explosões ou intempéries."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Parlamentares presentes fizeram perguntas sobre investigação de possível intervenção humana no evento, concentração de capital privado no setor elétrico, renovação de concessões de distribuição, expansão de energias renováveis, e questões regionais como altas tarifas no Amapá e Pará."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

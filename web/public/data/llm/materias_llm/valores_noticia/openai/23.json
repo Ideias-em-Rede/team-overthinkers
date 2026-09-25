@@ -1,0 +1,36 @@
+{
+  "id": 23,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Compareceram também representantes do governo do Estado do Rio de Janeiro e do setor produtivo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida inicialmente pelo deputado Júnior Ferrari, a reunião contou com representantes da indústria automobilística, associações do setor de gás, produtores de biometano, transportadores e entidades técnicas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Defendeu a integração do gás natural e do biometano como caminho para ampliar demanda e reduzir preços para o consumidor final por efeito de escala."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Defendeu a criação de corredores sustentáveis e a certificação de origem do biometano."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O objetivo declarado foi debater o papel do biometano na descarbonização do transporte e nas possibilidades de integração com a infraestrutura de gás existente."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

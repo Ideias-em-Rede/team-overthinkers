@@ -1,0 +1,36 @@
+{
+  "id": 54,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo Cristiano, o dado então divulgado indica que o usuário brasileiro passa em média 10 horas e 19 minutos por dia em frente às telas, o que ele traduziu como cerca de 110 dias por ano olhando para telas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou nesta data uma audiência pública extraordinária para debater os impactos da dependência tecnológica na sociedade, com ênfase na nomofobia, conforme o Requerimento nº 9/2023, de autoria do deputado Áureo Ribeiro (Solidariedade-RJ) e subscrito pelos deputados Marcelo Queiroz e Defensor Stélio Dener."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Cristiano relacionou o uso intensivo de tecnologia a impactos na saúde física (síndrome do olho seco, problemas posturais) e citou estudos que, conforme sua apresentação, associariam exposição de gestantes a telefones celulares a maior risco de aborto espontâneo e uso materno de celular na gestação a variedades de déficit de atenção e hiperatividade em crianças."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A psicóloga Aline Paz apresentou uma explanação sobre nomofobia, termo originado na Inglaterra a partir da expressão 'no mobile' e do grego phobos, que significa 'fobia', e que passou a ser usado para designar o medo de ficar sem contato com celular, internet ou computador."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Aline destacou que a nomofobia pode ser sinal de transtornos primários, citando como exemplos pacientes com transtorno de pânico que só se sentem seguros ao sair de casa com o celular, pessoas com fobia social que usam o computador como escudo para relações interpessoais e indivíduos com transtorno obsessivo-compulsivo que passam horas em jogos virtuais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

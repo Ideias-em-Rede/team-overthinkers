@@ -1,0 +1,36 @@
+{
+  "id": 147,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Daiana Santos abriu a audiência destacando a dimensão do desafio. Segundo ela, em 2023, o Brasil tem um déficit de 2,5 milhões de vagas em creches."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão dos Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública para debater a falta de vagas no sistema público de creches e conveniadas da educação infantil no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A parlamentar ressaltou que a meta do Plano Nacional de Educação (PNE) de matricular 50% das crianças dessa faixa etária até o próximo ano está longe de ser alcançada, com o patamar atual em torno de 36%."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Charlene Borges, da Defensoria Pública da União (DPU), afirmou que 'ser mãe é um ato político' e que o problema não é a maternidade, mas 'o sistema patriarcal e opressivo que não prioriza políticas públicas'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência também contou com a participação de Alessandra Gotti, do Instituto Articule, que defendeu a criação de planos de expansão de vagas nos municípios."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

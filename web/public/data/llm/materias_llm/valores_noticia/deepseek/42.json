@@ -1,0 +1,36 @@
+{
+  "id": 42,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos e Minorias e a Comissão de Legislação Participativa da Câmara dos Deputados realizaram uma audiência pública nesta quarta-feira para debater a Proposta de Emenda à Constituição (PEC) 25/23, que propõe a criação do Sistema Único de Mobilidade e a instituição da tarifa zero no transporte público."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência, presidida pelo deputado Glauber Braga (PSOL-RJ), contou com a participação de representantes de movimentos sociais, sindicatos, especialistas em mobilidade urbana e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essas pessoas também pagam impostos e não são tão subsidiadas quanto as pessoas de alta renda"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Neiva Lopes, do Sindicato dos Metroviários do DF (SINDMETRÔ-DF), criticou o subsídio a empresas privadas como 'imoral' e alertou para os riscos de desvios e conluios políticos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele detalhou os três eixos centrais da PEC 25/23: estabelecer a tarifa zero, criar o Sistema Único de Mobilidade (inspirado no SUS) e autorizar municípios a criarem a Contribuição pelo Uso do Sistema Viário (CONUSV)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Millena Nascimento, do Movimento Passe Livre (MPL), celebrou a nacionalização do debate sobre tarifa zero após as jornadas de 2013 e enfatizou que a luta 'não começou em 2013 e não vai terminar em 2023'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

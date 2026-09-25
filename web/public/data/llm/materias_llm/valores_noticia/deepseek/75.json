@@ -1,0 +1,36 @@
+{
+  "id": 75,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A MP tem como objetivo principal incentivar a inserção e manutenção de mulheres e jovens no mercado de trabalho."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate contou com a participação de representantes do governo, do Ministério Público do Trabalho, do judiciário trabalhista, de centrais sindicais e entidades do setor privado."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A MP tem como objetivo principal incentivar a inserção e manutenção de mulheres e jovens no mercado de trabalho."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Adriane Reis de Araújo, procuradora regional do Trabalho e coordenadora da COORDIGUALDADE do Ministério Público do Trabalho, criticou o uso de medida provisória para tratar de relações de trabalho."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Entre as medidas previstas na MP, ela citou: Reembolso-creche (já permitido por portaria, mas agora incluído em lei)"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Corrêa apresentou dados que mostram as disparidades de gênero no mercado de trabalho: as mulheres representam mais de 50% da população, mas ocupam apenas 37% das posições de liderança (contra 62% dos homens)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

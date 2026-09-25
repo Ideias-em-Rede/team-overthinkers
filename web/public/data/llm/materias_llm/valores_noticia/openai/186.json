@@ -1,0 +1,36 @@
+{
+  "id": 186,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "842 mil desalojados por eventos extremos; em dez anos, 41 milhões de pessoas foram atingidas apenas por inundações."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Talíria Petrone (PSOL-RJ), presidente da sessão, abriu os trabalhos e informou que o evento foi transmitido pela internet."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "mais de R$ 300 bilhões em danos materiais por desastres no País"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Falta de clareza no PL sobre critérios de elegibilidade, duração do auxílio, fontes de financiamento e mecanismos de gestão."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência decorreu da aprovação de requerimentos apresentados por comissões e parlamentares, entre eles da deputada Célia Xakriabá (PSOL-MG), e teve por objetivo colher contribuições para aperfeiçoar o PL, elaborado após as enchentes na Bahia no início de 2022."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 193,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a manutenção da taxa de juros e o impacto da inflação sobre as micro e pequenas empresas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou audiência pública convocada pelo Requerimento nº 23/2023, de autoria do deputado Jorge Goetten (PL-SC) e do deputado Vitor Lippi (PSDB-SP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o impacto da inflação sobre as micro e pequenas empresas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "debater a manutenção da taxa de juros e o impacto da inflação sobre as micro e pequenas empresas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a manutenção da taxa de juros e o impacto da inflação sobre as micro e pequenas empresas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

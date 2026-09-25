@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou uma audiência pública nesta terça-feira (19) para discutir as consequências da seca severa que atinge o norte de Minas Gerais e outras regiões do estado."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate, presidido pelo deputado Zé Silva (SOLIDARIEDADE-MG), contou com a participação de parlamentares, representantes dos governos federal e estadual, prefeitos, vereadores e lideranças de associações rurais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre os impactos relatados, 81,9% dos sistemas de irrigação estão comprometidos, 70,9% das áreas cultivadas necessitaram de replantio e 57% dos produtores já esgotaram suas reservas de volumoso para alimentação animal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Prefeitos e representantes de associações rurais relataram cenários críticos em seus municípios, com perda total de lavouras, esgotamento de fontes de água, morte de animais e endividamento crescente dos produtores."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O climatologista Ruibran Januário dos Reis atribuiu a seca severa à combinação do fenômeno El Niño com os efeitos do aquecimento global."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ao final do debate, foi lido e aprovado um documento com 14 propostas prioritárias para enfrentamento da crise."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

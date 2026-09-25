@@ -1,0 +1,36 @@
+{
+  "id": 62,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública nesta quarta-feira para discutir as dificuldades de acesso a tratamentos para amiloidose hereditária no Sistema Único de Saúde (SUS)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi presidido pela deputada Rejane Dias (PT-PI)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela destacou que o transplante de fígado, opção disponível, não é eficaz para todos os pacientes e que o tafamidis, medicamento já incorporado, não funciona para uma parcela dos casos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela afirmou que a não incorporação de alternativas terapêuticas leva os pacientes a judicializar o acesso, onerando ainda mais o sistema"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A coordenadora do Centro de Estudos em Paramiloidose Antônio Rodrigues de Mello, Dra. Marcia Cruz, descreveu a amiloidose hereditária como uma doença rara, grave e multissistêmica que, sem tratamento, leva ao óbito em 2 a 10 anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 74,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "33 milhões de brasileiros em situação de insegurança alimentar e de fome"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou reunião de audiência pública para debater os 'Direitos da Criança e do Adolescente no Brasil: 32 anos do ECA', aberta pela deputada Erika Kokay (PT-DF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "mais de 150 mil crianças ficaram órfãs"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "tentativas de reduzir a idade penal"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "29 crianças e adolescentes são mortos diariamente"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}
