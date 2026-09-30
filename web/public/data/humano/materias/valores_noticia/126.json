@@ -1,0 +1,36 @@
+{
+  "id": 126,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Mais de 700 mil pessoas são tratadas com maconha no País"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "participantes de audiência pública na Comissão de Legislação Participativa da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "democratizar o acesso a tratamentos com cannabis medicinal no Brasil"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "a proibição ao uso medicinal da maconha responde a 'uma pauta moral, de quem usa essa situação para ganhar votos'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "mercado que já movimentou somente esse ano mais de R$ 700 milhões"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

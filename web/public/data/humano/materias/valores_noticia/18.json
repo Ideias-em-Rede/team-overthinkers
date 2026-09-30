@@ -1,0 +1,36 @@
+{
+  "id": 18,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Hoje se estima a necessidade de o Brasil formar um bilhão de novos professores"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A presidente da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes), Mercedes Maria da Cunha Bustamante"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "com os recursos extras seria possível lançar um edital do Programa Institucional de Bolsa de Iniciação à Docência (Pibid) para a oferta de 90 mil bolsas de licenciatura em pedagogia"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O aluno precisa ter essa garantia de continuidade, ele precisa que o programa o acompanhe durante esses quatro anos de sua formação"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 42,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A tarifa zero já é adotada em 74 cidades do País, de diferentes tamanhos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Para a deputada Erika Kokay (PT-DF), o transporte coletivo ainda não é público e as concessões à iniciativa privada resultam em muitos monopólios e pouca transparência nos gastos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Em 2022, os moradores economizaram mais de R$ 161 milhões que gastariam no transporte público."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles reclamaram que o subsídio público oferecido em muitas partes do País às empresas privadas de transporte não resulta em redução de tarifas ou melhoria na qualidade do serviço."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O transporte coletivo hoje, junto com a alimentação, representa quase todo o gasto das famílias de baixa renda."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 58,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial destinada a estudar o aumento de denúncias de violência obstétrica e a alta taxa de morte materna no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pela deputada Soraya Santos (PL-RJ), a audiência contou com a participação de secretários estaduais de Saúde e especialistas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela enfatizou a necessidade de incluir o tema na formação dos profissionais de saúde e citou a importância de comitês de não violência obstétrica nas instituições."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante o debate, parlamentares como o deputado Dr. Luiz Ovando (PP-MS) questionaram como equilibrar a autonomia da paciente com as evidências científicas que favorecem o parto normal."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A presidente Soraya Santos anunciou que a comissão realizará seminários regionais e visitas aos estados para conhecer experiências locais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

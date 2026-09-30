@@ -1,0 +1,36 @@
+{
+  "id": 84,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A maioria dos municípios brasileiros têm até 20 mil habitantes e, segundo ela, não têm necessidade da implementação de um serviço que só é utilizado uma ou duas vezes por ano."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay (PT-DF) destacou a importância de se garantir recursos para que as famílias acolhedoras possam continuar exercendo seu papel."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Apenas 5% das crianças e adolescentes são acolhidas hoje no Brasil, enquanto suas famílias de origem são reestruturadas."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Para mais informações sobre o Serviço de Famílias Acolhedoras você pode acessar o site familiaacolhedora.org.br."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

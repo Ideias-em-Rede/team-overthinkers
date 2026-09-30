@@ -1,0 +1,36 @@
+{
+  "id": 94,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Telma Sá Nascimento, da AMA do Maranhão, relatou a realidade do estado, que possui uma 'população enorme de pessoas autistas sem assistência nenhuma'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay presidiu os trabalhos e fez a abertura da sessão, realizada no Plenário nº 13 da Câmara Federal."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fernanda Santana, também da ABRAÇA e autista, reforçou que o Dia do Orgulho Autista foi criado 'por pessoas autistas, para pessoas autistas, para celebrar a diversidade'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Telma também criticou políticas do governo anterior, como ameaças de retorno da internação compulsória e de escolas especiais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A transmissão foi realizada pela página da Comissão na internet e pelo canal da Câmara no YouTube, com janela de tradução em LIBRAS."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

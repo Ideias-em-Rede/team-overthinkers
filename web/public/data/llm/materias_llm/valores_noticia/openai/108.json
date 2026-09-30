@@ -1,0 +1,36 @@
+{
+  "id": 108,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, convocada pelos deputados Bibo Nunes (PL-RS) e Jorge Goetten (PL-SC), reuniu dirigentes de associações do turismo, operadores, hotéis, parques temáticos e técnicos do Ministério do Turismo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo a Tendências, as 44 CNAEs foram as mais afetadas pela pandemia e tiveram recuperação mais lenta em comparação com o conjunto da economia."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao longo da audiência, representantes das entidades do setor defenderam a manutenção do PERSE em sua abrangência atual e criticaram critérios da proposta de modificação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Fabiano Camargo (BRAZTOA) e Ana Carolina Medeiros (ABAV) destacaram a interdependência entre agências, operadoras, hotelaria e outros elos da cadeia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

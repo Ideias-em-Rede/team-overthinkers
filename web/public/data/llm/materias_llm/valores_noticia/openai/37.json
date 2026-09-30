@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "18,6 milhões de pessoas no País foram classificadas como pessoas com deficiência (cerca de 9% da população de 2 anos ou mais)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, aberto pelo deputado Dr. Zacharias Calil, foi realizado no Plenário 4 do Anexo 2 e atendeu ao Requerimento nº 42/2023, de autoria do parlamentar."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fábio Araujo destacou a missão da SNPAR de democratizar o acesso das pessoas com deficiência ao paradesporto e à atividade física"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Fábio Araujo detalhou interlocuções e acordos em andamento com outros ministérios e instituições para ampliar ações do paradesporto"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate, previsto para durar quatro horas, reuniu parlamentares, ex-ministros, professores, pesquisadores e servidores públicos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "discutir a relação entre as Forças Armadas e a política, o papel constitucional das Forças Armadas e propostas de mudança normativa e institucional"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Criticou o Congresso por não ter desempenhado, segundo ele, o papel previsto na Lei Complementar nº 136/2010 de apreciar a Política Nacional de Defesa"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O seminário foi transmitido e contou com perguntas do plenário, seguindo a programação de debates e intervenções prevista pela presidência da comissão"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

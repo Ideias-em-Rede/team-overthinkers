@@ -1,0 +1,36 @@
+{
+  "id": 118,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "quase metade dos municípios do país (2.797) decretou situação de emergência ou estado de calamidade em algum momento do ano"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública na Câmara dos Deputados, o Secretário Nacional de Proteção e Defesa Civil, Wolnei Wolff"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o governo federal destinou R$ 1,4 bilhão para apoiar municípios brasileiros afetados por desastres, atendendo mais de 14,5 milhões de pessoas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele pediu apoio para a derrubada de um veto presidencial ao Projeto de Lei 920/23"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a maior chuva registrada na história do Brasil"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência também abordou o funcionamento dos sistemas de alerta à população, como o envio de SMS e mensagens por WhatsApp"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

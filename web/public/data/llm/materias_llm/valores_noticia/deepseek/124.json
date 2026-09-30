@@ -1,0 +1,36 @@
+{
+  "id": 124,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Presidente do Instituto Nacional de Colonização e Reforma Agrária (INCRA), César Fernando Schiavon Aldrighi, participou de uma audiência pública na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "destacando seus benefícios para a segurança jurídica, a redução de conflitos no campo, o incentivo à agricultura familiar e a atração de investimentos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A deputada Coronel Fernanda fez uma série de questionamentos diretos ao presidente do INCRA"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "para esclarecer dúvidas sobre o Decreto nº 11.688, de 5 de setembro de 2023"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

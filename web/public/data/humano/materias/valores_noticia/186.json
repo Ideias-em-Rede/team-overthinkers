@@ -1,0 +1,36 @@
+{
+  "id": 186,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "moradores de áreas afetadas por recentes desastres climáticos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Talíria Petrone (Psol-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "auxílio emergencial de um salário mínimo em situações de enchente e seca"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "corrigir lacunas da atual legislação"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "criação de fórum ou comitê para controle social da execução do auxílio"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "enfrentar desastres climáticos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

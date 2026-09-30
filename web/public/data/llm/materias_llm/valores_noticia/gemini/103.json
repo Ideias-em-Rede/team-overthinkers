@@ -1,0 +1,36 @@
+{
+  "id": 103,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Questionado por deputados como Rodolfo Nogueira (PL-MS) e Sargento Gonçalves (PL-RN), Lewandowski atribuiu a fuga no presídio de Mossoró a múltiplas causas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro da Justiça e Segurança Pública, Ricardo Lewandowski, compareceu nesta terça-feira (16) à Comissão de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Lewandowski confirmou um 'corte bastante drástico' no orçamento da Polícia Federal e da Polícia Rodoviária Federal"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Sua presença foi elogiada por parlamentares da oposição, que a contrastaram com a ausência de seu antecessor, Flávio Dino, em convocações anteriores"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Lewandowski atribuiu a fuga no presídio de Mossoró a múltiplas causas, incluindo um 'projeto antiquado, obsoleto', 'fadiga do material', 'relaxamento na vigilância' e 'quebra dos protocolos de segurança'"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Lewandowski debateu temas centrais de sua pasta, como a fuga de presos do presídio federal de Mossoró, o veto parcial ao projeto de lei que restringe as saídas temporárias de presos, os cortes orçamentários na Polícia Federal e a política de controle de armas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

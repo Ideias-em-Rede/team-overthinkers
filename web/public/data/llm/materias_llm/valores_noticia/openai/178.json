@@ -1,0 +1,36 @@
+{
+  "id": 178,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "impactos socioambientais da construção de parques eólicos nas comunidades locais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta pela presidente da Comissão, deputada Talíria Petrone (PSOL-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impactos em biomas como a Caatinga, em dunas, fauna e na vida de povos e comunidades tradicionais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "preocupações sobre instalação de parques em áreas de recifes e corais, interferência em rotas de navegação e em migração de aves"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate os impactos socioambientais da construção de parques eólicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 152,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate focou-se principalmente na situação atual e no futuro do seguro obrigatório DPVAT."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele criticou o congelamento do valor das indenizações há 17 anos e a falta de políticas públicas para vítimas após o acidente."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deodato expressou preocupação com o futuro do DPVAT, já que não há arrecadação de prêmios desde 2020 e o fundo atual se esgota."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele pediu urgência na definição do modelo para 2024 e a revisão dos valores das indenizações."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

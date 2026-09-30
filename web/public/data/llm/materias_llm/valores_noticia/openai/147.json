@@ -1,0 +1,36 @@
+{
+  "id": 147,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Rio Grande do Sul, apenas nas cinco maiores cidades (Porto Alegre, Caxias do Sul, Canoas, Pelotas e Santa Maria) a fila por vaga para crianças de 0 a 5 anos ultrapassou 12.600 em 2023."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa contou com representantes de organizações civis, órgãos públicos e do poder judiciário e ministerial, entre eles Vanja Andréa Santos (presidenta nacional da União Brasileira de Mulheres — UBM), Marina Dermmam e Helen Perrella (Conselho Nacional dos Direitos Humanos — CNDH), Paola Domingues Botelho Reis (Promotora de Justiça do Ministério Público de Minas Gerais), Charlene Borges (Defensoria Pública da União), Thamirys Nunes (entidade Minha Criança Trans), Bruno Tovar (Coordenação-Geral da Educação Infantil do Ministério da Educação), Alessandra Gotti (Instituto Articule/GAEPE-Brasil), Lucas Sachsida Junqueira Carneiro (Comissão Permanente de Educação do Conselho Nacional de Procuradores-Gerais do Ministério Público) e Rodrigo Azambuja (Associação Nacional dos Defensores e Defensoras Públicos)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Durante a audiência, foram enfatizados impactos da falta de vagas sobre as famílias (principalmente mães trabalhadoras e mães solo), sobre segurança alimentar de crianças que dependem da merenda escolar/creche, sobre riscos à proteção infantil (menção a situações de “hoteizinhos” e arranjos informais) e sobre reintegração familiar em casos de acolhimento institucional."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "judicialização da falta de vagas e efeitos das liminares na ordem das filas de espera, com risco de aprofundamento de desigualdades."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Foi sugerida também a construção de uma frente nacional de luta pela creche, com participação de parlamentos, assembleias legislativas, órgãos de controle e movimentos sociais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

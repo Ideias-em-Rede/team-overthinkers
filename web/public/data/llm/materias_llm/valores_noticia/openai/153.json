@@ -1,0 +1,36 @@
+{
+  "id": 153,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Municípios do Rio Grande do Sul"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputados, prefeitos, técnicos e ministros"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "51 vítimas fatais e 7 desaparecidos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "reivindicação de maior rapidez na aprovação de planos e no desembolso de recursos"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "cheia do rio Taquari em setembro foi “extraordinária”"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "pedidos por liberação rápida de recursos, por medidas de mitigação e prevenção de futuras cheias"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

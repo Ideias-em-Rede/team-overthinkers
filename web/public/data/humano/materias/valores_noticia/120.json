@@ -1,0 +1,36 @@
+{
+  "id": 120,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "É um tema que, por vezes, passa à margem do conhecimento da ampla maioria do povo brasileiro, mas é um tema recorrente para quem está vivendo na pele as suas dores e as suas perdas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "As Comissões do Trabalho e de Minas e Energia da Câmara dos Deputados promoveram, nesta quinta-feira (7), audiência conjunta para avaliar as condições de trabalho na mineração brasileira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O setor mineral mata quase três vezes mais do que os outros setores [econômicos]"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Porém, representantes de vários sindicatos se mostraram céticos diante de resistências dos empresários em alguns itens"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "É um tema que, por vezes, passa à margem do conhecimento da ampla maioria do povo brasileiro, mas é um tema recorrente para quem está vivendo na pele as suas dores e as suas perdas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

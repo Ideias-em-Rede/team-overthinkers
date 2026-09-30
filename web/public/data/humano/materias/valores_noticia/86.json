@@ -1,0 +1,36 @@
+{
+  "id": 86,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "93% dos municípios brasileiros foram atingidos por eventos climáticos extremos nos últimos dez anos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da Confederação Nacional das Seguradoras (CNSeg), Dyogo Oliveira, explicou que essa proposta seria subsidiada por cobrança de R$ 3 por mês na conta de energia elétrica."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Uma das novidades sugeridas é o Seguro Social de Catástrofe, que prevê indenização emergencial de R$ 15 mil por moradia, paga no dia seguinte ao desastre ou logo após a decretação do estado de emergência ou de calamidade."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O mercado de seguros apresentou, em audiência pública na Câmara dos Deputados, novas propostas de cobertura para pronta resposta de sinistros diante dos eventos extremos de enchentes e secas agravados pelas mudanças climáticas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "As securadoras também lembraram que 93% dos municípios brasileiros foram atingidos por eventos climáticos extremos nos últimos dez anos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

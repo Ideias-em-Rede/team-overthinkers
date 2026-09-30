@@ -1,0 +1,36 @@
+{
+  "id": 181,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "mais de 20 milhões de usuários de produtos derivados do tabaco no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "participação de representantes do Ministério da Saúde, OPAS/OMS, sociedades médicas e organizações da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "custos dos danos do cigarro ultrapassam R$ 125 bilhões anuais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "defendeu a manutenção da proibição de cigarros eletrônicos e a vedação de aditivos de aroma e sabor"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "avanço dos cigarros eletrônicos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "necessidade de aumentar impostos sobre produtos de tabaco, medida apoiada por 79% da população"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

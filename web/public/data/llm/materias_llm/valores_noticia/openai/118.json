@@ -1,0 +1,36 @@
+{
+  "id": 118,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "2.797 Municípios foram reconhecidos como em situação de emergência ou em estado de calamidade; no País são cerca de 5.400 Municípios — quase 50% já estiveram em situação de emergência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro Waldez Góes, cujo ministério seria inicialmente responsável pela apresentação, não pôde comparecer por ter sido convocado para reunião na Presidência da República; foi representado pelo secretário Wolnei Wolff."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Atlas de Desastres (1991–2022): 4.728 pessoas mortas; prejuízo estimado de 502 bilhões de reais; danos de 128 bilhões de reais; 9 milhões de desabrigados; 214 milhões de pessoas afetadas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O relator da Comissão, deputado Gilson Daniel (PODE-ES), destacou ser necessário derrubar o Veto nº 28 ao Projeto de Lei nº 920/23."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O diretor do CENAD, Armin Braun, detalhou os mecanismos de alertas utilizados: envio por SMS, WhatsApp, Telegram, televisão por assinatura e, em desenvolvimento, tecnologia de cell broadcast em parceria com a Anatel."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

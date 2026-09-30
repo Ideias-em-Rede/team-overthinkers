@@ -1,0 +1,36 @@
+{
+  "id": 141,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O professor da rede municipal de Porto Alegre, Henrique Maffei, relatou ter sido alvo de perseguição em 2021"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação e a Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizaram, nesta segunda-feira, uma audiência pública conjunta"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "64,4% afirmaram já ter sofrido assédio, perseguição ou censura, e 61,9% admitiram já ter repensado uma aula por medo de repercussão negativa (autocensura)"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Uma familiar de um aluno questionou o uso do 'x', associando-o à 'linguagem neutra' e 'ideologia de gênero', e ameaçou tomar providências judiciais"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Juliana Andozio, orientadora educacional em Florianópolis (SC), relatou perseguições que começaram no período eleitoral de 2022"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pelas deputadas Professora Luciene Cavalcante (PSOL-SP), Talíria Petrone (PSOL-RJ) e Erika Hilton (PSOL-SP), contou com depoimentos de educadores que foram alvos de assédio"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

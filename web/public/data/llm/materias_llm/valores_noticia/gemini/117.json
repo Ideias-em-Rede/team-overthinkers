@@ -1,0 +1,36 @@
+{
+  "id": 117,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "o afundamento do solo em Maceió (AL)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão Externa da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "retirada de mais de 60 mil pessoas dos bairros afetados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Gaspar indagou desde quando a agência tinha ciência dos problemas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "recente colapso da mina de sal-gema de número 18"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "combater notícias falsas que geraram pânico na cidade"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

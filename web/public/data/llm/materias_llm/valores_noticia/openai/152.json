@@ -1,0 +1,36 @@
+{
+  "id": 152,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater as políticas de atendimento, apoio e reparação às pessoas com deficiência vítimas de acidentes de trânsito"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo presidente da Comissão, deputado Márcio Jerry"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Congelamento de valores: foi lembrado que os valores das indenizações permanecem em R$ 13.500 e R$ 2.700 há cerca de 17 anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Problemas apontados por entidades de vítimas e procuradores"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi encerrada após registro de presença e foto oficial"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

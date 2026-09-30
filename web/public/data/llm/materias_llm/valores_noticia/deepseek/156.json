@@ -1,0 +1,36 @@
+{
+  "id": 156,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo deputado Pedro Uczai (PT/SC), contou com a presença de representantes do Ministério da Educação (MEC), do Instituto Nacional de Estudos e Pesquisas Educacionais (INEP), da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) e de dirigentes de instituições comunitárias de ensino superior."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo deputado Pedro Uczai (PT/SC), contou com a presença de representantes do Ministério da Educação (MEC), do Instituto Nacional de Estudos e Pesquisas Educacionais (INEP), da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) e de dirigentes de instituições comunitárias de ensino superior."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Uczai fez uma série de questionamentos sobre a necessidade de atualização curricular e a oferta de novas profissões pelas universidades comunitárias."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Henn criticou a expansão desregulada do ensino a distância, citando que em Santa Cruz do Sul (RS) o número de IES saltou de 5 para 36, muitas sem estrutura física visível."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo pelo site da Câmara e pelo YouTube."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

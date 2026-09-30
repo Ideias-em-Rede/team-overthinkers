@@ -1,0 +1,36 @@
+{
+  "id": 199,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "expansão da atenção primária com a criação de 9.600 novas equipes em 4 mil municípios"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A ministra da Saúde, Nísia Trindade Lima, participou de audiência pública na Comissão de Fiscalização Financeira e Controle da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "ampliação do programa Brasil Sorridente"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve também questionamentos sobre pontos específicos da Resolução nº 715 do CNS, com críticas a trechos que tratam de aborto, drogas e questões de gênero"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "retomada de programas como Farmácia Popular e Mais Médicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

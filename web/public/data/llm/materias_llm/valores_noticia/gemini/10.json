@@ -1,0 +1,36 @@
+{
+  "id": 10,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A proposta do Governo Federal para extinguir a modalidade de saque-aniversário do Fundo de Garantia do Tempo de Serviço (FGTS)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Carlos Augusto Simões Gonçalvez Júnior, Secretário de Proteção ao Trabalhador do Ministério do Trabalho e Emprego"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Manter o saque-aniversário como está hoje é pôr em risco a sobrevivência e a sustentabilidade do fundo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "De um lado, o Ministério do Trabalho e Emprego defendeu a medida como essencial para a sustentabilidade do fundo e para a manutenção de seu papel social no financiamento de habitação e saneamento. Do outro, representantes de bancos, do mercado financeiro e de defesa do consumidor argumentaram que a modalidade é uma conquista do trabalhador"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Como alternativa, o governo está desenvolvendo um novo produto de crédito, provisoriamente chamado de 'consignado do E-Social'"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A proposta prevê um sistema acessível pelo aplicativo da carteira de trabalho, com um mecanismo de leilão reverso entre as instituições financeiras para oferecer a menor taxa de juros ao trabalhador"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 106,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "as reclamações de agricultores familiares durante visitas a sua base em Santa Catarina"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou que Santa Catarina teve um volume de chuvas 350% acima da média na última safra, o que tornou o período 'muito desafiador'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes dos produtores expressaram preocupação com as alterações nas regras do programa implementadas no último Plano Safra"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele citou casos extremos de fraude identificados, como um produtor que recebeu 41 coberturas do PROAGRO em 5 anos, totalizando cerca de R$ 1 milhão em indenizações"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi proposto pelo deputado Rafael Pezenti (MDB-SC), presidente da comissão, que destacou a origem das discussões: as reclamações de agricultores familiares durante visitas a sua base em Santa Catarina"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

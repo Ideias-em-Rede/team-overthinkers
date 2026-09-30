@@ -1,0 +1,36 @@
+{
+  "id": 55,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "cerca de 30% dos 2.144 regimes próprios existentes no país fizeram suas reformas locais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de outros parlamentares, como os deputados Guilherme Boulos (PSOL-SP) e Erika Kokay (PT-DF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "600 mil aposentados e pensionistas foram afetados pelo que chamou de 'confisco'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Chegamos, este ano, com esse compromisso de revogar as covardias e as maldades que foram realizadas contra os servidores públicos aposentados e pensionistas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "aposentados se organizaram nas redes sociais durante a pandemia para pressionar os parlamentares, alcançando grande visibilidade"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

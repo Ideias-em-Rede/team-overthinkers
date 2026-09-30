@@ -1,0 +1,36 @@
+{
+  "id": 52,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o etarismo (discriminação por idade) no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Castro Neto abriu a audiência afirmando que o etarismo atinge tanto idosos quanto pessoas jovens"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "um em cada seis idosos já teria sofrido algum tipo de violência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "debater o etarismo (discriminação por idade) no Brasil"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o etarismo (discriminação por idade) no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

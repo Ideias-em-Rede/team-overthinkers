@@ -1,0 +1,36 @@
+{
+  "id": 193,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a manutenção da taxa de juros e o impacto da inflação para as micro e pequenas empresas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelos deputados Jorge Goetten (PL-SC) e Vitor Lippi (PSDB-SP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o impacto devastador dos juros altos, que 'quebram famílias'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou o 'Estado financista' e a lógica que privilegia o rentismo em detrimento da produção"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "enfatizando a necessidade de o Parlamento enfrentar o que chamaram de 'dois monstros' da economia brasileira: o sistema tributário e o custo do crédito"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

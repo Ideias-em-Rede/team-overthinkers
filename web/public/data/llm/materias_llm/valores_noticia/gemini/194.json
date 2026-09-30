@@ -1,0 +1,36 @@
+{
+  "id": 194,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Viação e Transportes da Câmara dos Deputados realizou uma audiência pública para debater a mobilidade urbana e a segurança no trânsito sob a perspectiva de ciclistas e pedestres."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelo deputado Jonas Donizette (PSB-SP), contou com a participação de representantes dos ministérios dos Transportes e das Cidades, além de vereadores e membros de organizações da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ana Luiza Carboni, da União de Ciclistas do Brasil (UCB), apresentou dados sobre a violência no trânsito, que custa cerca de R$ 52 bilhões por ano ao país e é a principal causa de morte de crianças de 1 a 14 anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou a impunidade para crimes de trânsito e defendeu que a legislação seja atualizada para reduzir a subjetividade dos operadores do direito na classificação desses crimes."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Souza anunciou que o Ministério dos Transportes lançará um programa de redução de mortes no trânsito durante a Semana Nacional de Trânsito e planeja um passeio ciclístico nacional simultâneo em 25 de setembro."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Renata Falzoni exibiu dados que correlacionam a velocidade de um veículo com a chance de sobrevivência de um pedestre em caso de atropelamento, defendendo limites de 40 km/h ou menos em centros urbanos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

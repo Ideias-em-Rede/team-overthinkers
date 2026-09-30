@@ -1,0 +1,36 @@
+{
+  "id": 57,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública para debater o aumento dos atos de violência em escolas e creches no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocada pelos deputados Ana Paula Lima (PT-SC) e Pastor Henrique Vieira (PSOL-RJ), a reunião contou com a participação de representantes dos Ministérios da Educação, da Justiça e Segurança Pública, e dos Direitos Humanos, além de dirigentes educacionais e especialistas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Yann Evanovick, Coordenador do Grupo de Trabalho Interministerial de Enfrentamento à Violência nas Escolas, anunciou que o Ministério da Educação (MEC) destinará R$ 3 bilhões para a segurança escolar por meio do Programa Dinheiro Direto na Escola (PDDE)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Josevanda Franco, presidente da União Nacional dos Dirigentes Municipais de Educação (UNDIME), afirmou que o problema atual é a 'violência da sociedade contra a escola' e se posicionou contra soluções como cercas elétricas ou a presença de pessoas armadas nas unidades de ensino"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Romano Costa, representante da Secretaria Nacional de Segurança Pública, detalhou a 'Operação Escola Segura', uma força-tarefa que coordena agências de inteligência e delegacias de cibercrimes."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Letícia Oliveira, especialista em monitoramento online de grupos de extrema-direita, apresentou dados que identificam uma comunidade virtual que glorifica atiradores escolares e supremacistas brancos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

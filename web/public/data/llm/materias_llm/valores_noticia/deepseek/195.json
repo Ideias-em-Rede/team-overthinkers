@@ -1,0 +1,36 @@
+{
+  "id": 195,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Desenvolvimento Econômico da Câmara dos Deputados realizou uma audiência pública na terça-feira para debater experiências internacionais no desenvolvimento e regulamentação dos mercados digitais, no âmbito do Projeto de Lei nº 2.768, de 2022."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi conduzida pela deputada Any Ortiz (Bloco/CIDADANIA - RS), relatora do projeto."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Katona afirmou que é possível que a regulação proposta aumente os preços para os consumidores e reduza a qualidade dos serviços digitais no Brasil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Padilla sugeriu que a escolha do modelo regulatório europeu foi guiada mais por conveniência institucional do que por ser a melhor solução técnica, e recomendou que o Brasil considere uma abordagem mais flexível e *ex post*, como a do Reino Unido ou Alemanha."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Any Ortiz encerrou a audiência agradecendo as contribuições dos especialistas, que, segundo ela, serão fundamentais para a construção do relatório do PL 2.768."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

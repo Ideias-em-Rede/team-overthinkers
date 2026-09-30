@@ -1,0 +1,36 @@
+{
+  "id": 182,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O presidente da sessão, Deputado Márcio Marinho (Republicanos-BA), abriu os trabalhos afirmando que o objetivo da comissão é mediar a relação entre consumidores e empresas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa do Consumidor da Câmara dos Deputados realizou uma audiência pública para debater os reajustes nos preços dos planos de saúde."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele classificou o reajuste de 9,63% para planos individuais, autorizado pela ANS, como 'abusivo' e destacou que as reclamações contra os planos de saúde mais que dobraram desde 2018."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Em contrapartida, Andrey Freitas, da Federação Nacional de Saúde Suplementar (FenaSaúde), e Marcos Paulo Novais, da Associação Brasileira de Planos de Saúde (Abramge), defenderam os reajustes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Deputado Duarte Jr. (PSB-MA) anunciou que apresentará, no dia 11 de setembro, o relatório do Projeto de Lei 7.419/2006, que visa criar uma nova lei para os planos de saúde, com propostas para regular os planos coletivos e proibir a rescisão unilateral de contratos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

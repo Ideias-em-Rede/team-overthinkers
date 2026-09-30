@@ -1,0 +1,36 @@
+{
+  "id": 183,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A ministra do Meio Ambiente e Mudança do Clima, Marina Silva, disse nesta quarta-feira (30) que a decisão do Ibama de indeferir o pedido da Petrobras para realizar atividade de perfuração em um bloco situado na bacia da Foz do Amazonas, no litoral do Amapá, foi baseada em critérios técnicos e será respeitada."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A ministra do Meio Ambiente afirmou que o governo receia o impacto ambiental do empreendimento, que corta área florestal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência pública, vários deputados defenderam a exploração de petróleo na foz do Rio Amazonas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Lafayette de Andrada (Republicanos-MG), um dos proponentes do debate, disse que o pedido da Petrobras se restringe à perfuração de um poço com o objetivo de verificar a existência ou não de jazida petrolífera na Margem Equatorial."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 206,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião foi gravada para posterior transcrição e teve duas mesas de debate com representantes do governo, do movimento estudantil, do movimento negro, de povos indígenas, do Ministério Público e de entidades acadêmicas e sindicais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Nilma Lino Gomes (professora da UFMG, ex-ministra) ressaltou a importância das cotas como “a maior conquista do movimento negro desde a redemocratização”"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Nilma Lino Gomes (professora da UFMG, ex-ministra) ressaltou a importância das cotas como “a maior conquista do movimento negro desde a redemocratização”, destacou as transformações promovidas nas universidades (acesso, currículos, epistemologias) e defendeu a continuidade e o aprimoramento das políticas afirmativas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Abicalil (relator do projeto original da lei) fez um relato histórico da tramitação das cotas no Congresso, celebrou a expansão da aceitação social e listou propostas de aperfeiçoamento citadas ao longo dos debates: inclusão de quilombolas, prioridade de subcotas para PPI (pretos, pardos e indígenas) antes da cota por escola pública, redução do teto de renda familiar per capita e ampliação das ações na pós-graduação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Dandara registrou que, na função de relatora da revisão, já visitou 14 instituições federais e se reuniu com movimentos sociais e órgãos — incluindo o Conselho Nacional de Educação, o Fórum de Pró-Reitores e a ANDIFES — para subsidiar a elaboração do relatório."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

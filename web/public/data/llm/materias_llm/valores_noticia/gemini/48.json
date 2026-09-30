@@ -1,0 +1,36 @@
+{
+  "id": 48,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado distrital Fábio Félix (PSOL-DF) declarou que a tentativa de aprovar o projeto é um ataque ao status de família e aos direitos civis de mais de 100 mil famílias."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Previdência, Assistência Social, Infância, Adolescência e Família da Câmara dos Deputados realizou uma audiência pública para debater o Projeto de Lei nº 580/2007."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele ressaltou que o debate não é sobre casamento religioso, mas sobre direitos civis como herança e acompanhamento hospitalar."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A reunião, convocada a pedido do deputado Pastor Henrique Vieira (PSOL-RJ), foi marcada por discursos emocionados, argumentos jurídicos e momentos de tensão entre os participantes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate não é sobre casamento religioso, mas sobre direitos civis como herança e acompanhamento hospitalar."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

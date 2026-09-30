@@ -1,0 +1,36 @@
+{
+  "id": 154,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Atualmente, cerca de 35 milhões de brasileiras estão entre o climatério e a menopausa."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A relatora da proposta na comissão, deputada Lêda Borges (PSDB-GO), sugeriu a realização do debate com representantes do governo, dos médicos e da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para melhorar a qualidade de vida durante essa fase, as mulheres têm que ter acesso à informação e a um tratamento adequado já na atenção primária à saúde."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A fundadora da Associação Menopausa Feliz, Adriana Ferreira, afirmou que as iniciativas para as mulheres nessa fase da vida não saíram do papel, o que leva a muitos diagnósticos e tratamentos inadequados pela falta de informação também por parte dos médicos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O texto prevê a criação de programa de atenção às mulheres na menopausa e no climatério."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela sugeriu a criação de um dia nacional de conscientização sobre a menopausa para informar e acabar com o tabu que envolve essa fase da vida."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

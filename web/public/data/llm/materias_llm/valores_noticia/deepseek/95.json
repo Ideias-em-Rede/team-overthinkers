@@ -1,0 +1,36 @@
+{
+  "id": 95,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi aberto com a exposição de Patrycia Sato, presidente da Alianima, organização de proteção animal. Ela destacou o bem-estar animal como uma ciência e sua relação direta com pelo menos 11 dos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo deputado Zé Silva (SOLIDARIEDADE-MG), contou com a participação de representantes de organizações da sociedade civil, do setor produtivo e do governo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Karina Rie Ishida, da Proteção Animal Mundial, apresentou um estudo realizado em parceria com a Universidade Federal do Paraná (UFPR) que investigou a resistência antimicrobiana em rios próximos a granjas de suínos no Paraná."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rafael Arantes, do Instituto Brasileiro de Defesa do Consumidor (IDEC), abordou a prática do *greenwashing* ou 'mentira verde'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Karina Rie Ishida, da Proteção Animal Mundial, apresentou um estudo realizado em parceria com a Universidade Federal do Paraná (UFPR) que investigou a resistência antimicrobiana em rios próximos a granjas de suínos no Paraná."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi aberto com a exposição de Patrycia Sato, presidente da Alianima, organização de proteção animal. Ela destacou o bem-estar animal como uma ciência e sua relação direta com pelo menos 11 dos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

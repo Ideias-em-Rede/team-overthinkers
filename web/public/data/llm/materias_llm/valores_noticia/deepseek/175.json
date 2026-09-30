@@ -1,0 +1,36 @@
+{
+  "id": 175,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A MP prevê destinação de 1,63% da arrecadação para entidades esportivas e atletas, e 3% para o Ministério do Esporte investir em esportes de base."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo presidente da comissão, deputado Mauricio do Vôlei (PL-MG), e contou com a participação de José Francisco Manssur, Assessor Especial do Ministério da Fazenda, além de outros convidados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou que a falta de regulamentação nos últimos anos resultou em perda de arrecadação de bilhões de reais, além de impedir ações efetivas contra manipulação de resultados, lavagem de dinheiro e vício em jogo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O advogado Udo Seckelmann expressou preocupação com a possibilidade de operadoras optarem por licenças estaduais, mais baratas, em vez da licença federal."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Governo Federal editou a Medida Provisória nº 1.182, de 24 de julho de 2023, e apresentou um projeto de lei para regulamentar as apostas de cota fixa, previstas na Lei nº 13.756, de 2018."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Manssur afirmou que o mercado de apostas movimenta entre R$ 100 bilhões e R$ 150 bilhões por ano no Brasil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

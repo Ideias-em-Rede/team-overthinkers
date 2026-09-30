@@ -1,0 +1,36 @@
+{
+  "id": 57,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "aumento de atos de violência em escolas e creches no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "representantes do Ministério da Educação (MEC), do Ministério da Justiça e Segurança Pública, do Ministério dos Direitos Humanos, do Conselho Nacional dos Direitos da Criança e do Adolescente (CONANDA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Alocação de R$ 3 bilhões pelo Programa Dinheiro Direto na Escola (PDDE) para segurança nas escolas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas recorrentes a medidas de militarização das escolas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Publicação e entrega aos parlamentares de um documento intitulado Recomendações para Proteção e Segurança no Ambiente Escolar"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Oferta de ações formativas a partir de 24 e 25 de abril, com lives e um curso na plataforma AVAMEC"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

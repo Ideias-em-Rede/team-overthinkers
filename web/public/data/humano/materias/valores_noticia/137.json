@@ -1,0 +1,36 @@
+{
+  "id": 137,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Permitir que o professor tenha um segundo cargo desvinculado da atividade docente, na opinião do dirigente, pode afetar a qualidade da educação e “precarizar cada vez mais a profissionalização docente”."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública na Câmara dos Deputados divergiram sobre a proposta de emenda à Constituição (PEC 169/19) que autoriza professores da rede pública a ter um segundo emprego público de qualquer natureza."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Permitir que o professor tenha um segundo cargo desvinculado da atividade docente, na opinião do dirigente, pode afetar a qualidade da educação e “precarizar cada vez mais a profissionalização docente”."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública na Câmara dos Deputados divergiram sobre a proposta de emenda à Constituição (PEC 169/19) que autoriza professores da rede pública a ter um segundo emprego público de qualquer natureza."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Proposta em análise na Câmara autoriza docentes da rede pública a ter um segundo emprego público de qualquer natureza."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Permitir que o professor tenha um segundo cargo desvinculado da atividade docente, na opinião do dirigente, pode afetar a qualidade da educação e “precarizar cada vez mais a profissionalização docente”."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

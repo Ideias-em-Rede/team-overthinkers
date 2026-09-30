@@ -1,0 +1,36 @@
+{
+  "id": 42,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência pública para debater uma Proposta de Emenda à Constituição (PEC) que visa criar o sistema único de mobilidade e instituir a tarifa zero no transporte público em todo o país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência, presidida pelo Deputado Glauber Braga (PSOL-RJ), foi motivada por requerimentos das deputadas Luiza Erundina (PSOL-SP) e Luizianne Lins (PT-CE), além do próprio Braga."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A proposta se baseia em três pontos: o estabelecimento da tarifa zero em nível nacional, a criação de um Sistema Único de Mobilidade (SUM), inspirado no SUS, e a autorização para que municípios criem a Contribuição pelo Uso do Sistema Viário (CONUSV), uma taxa sobre veículos particulares para financiar o sistema."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Neiva Lopes, do Sindicato dos Metroviários do DF (SINDMETRÔ-DF), alertou contra o modelo de subsídios a empresas privadas. 'Acredito que o Tarifa Zero, com empresas privadas subsidiadas pelo Estado, chega a ser imoral', afirmou, defendendo que o metrô do Distrito Federal permaneça público e se opondo ao processo de privatização em curso."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Celso Haddad Lopes, presidente da Empresa Pública de Transporte de Maricá, apresentou o caso do município fluminense, que implementou a tarifa zero em 2014."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Cleomar Manhas, do Instituto de Estudos Socioeconômicos (INESC), afirmou que a tarifa zero é uma 'pauta das ruas' e uma necessidade para garantir o direito à cidade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 162,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Trabalho da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública para debater o Projeto de Lei nº 3.588, de 2020, que propõe a inclusão de dispositivos na Consolidação das Leis do Trabalho (CLT) sobre a gestão de riscos psicossociais no ambiente de trabalho."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelo deputado Carlos Veras (PT-PE), reuniu representantes do governo, do Ministério Público do Trabalho (MPT), de sindicatos, da academia e de órgãos de pesquisa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Pedro Tourinho de Siqueira, presidente da Fundacentro, classificou o adoecimento psíquico relacionado ao trabalho como uma 'verdadeira epidemia' no Brasil, com altas taxas de subnotificação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Cirlene Luiza Zimmermann, procuradora do Ministério Público do Trabalho, alertou para a necessidade de a legislação focar na prevenção, e não apenas na assistência a trabalhadores já adoecidos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Mauro Salles, da Confederação Nacional dos Trabalhadores do Ramo Financeiro (CONTRAF), relatou que o afastamento por transtornos mentais na categoria bancária subiu de 30% em 2012 para 57% em 2022."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

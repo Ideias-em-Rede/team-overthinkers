@@ -1,0 +1,36 @@
+{
+  "id": 40,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão do Esporte da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública para debater a importância das artes marciais como mecanismo de inclusão social."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pelo Deputado Márcio Marinho (Republicanos-BA), reuniu representantes do Ministério do Esporte, de conselhos de educação física e de federações esportivas para discutir os benefícios da prática e os desafios para sua expansão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a promoção de projetos que levem a prática para comunidades carentes e escolas públicas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele lamentou que, por vezes, egos e disputas por recursos entre federações atrapalhem o desenvolvimento do esporte em prol da comunidade."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ao abrir a sessão, o Deputado Márcio Marinho destacou que as artes marciais promovem valores como disciplina, respeito e autocontrole, além de serem uma alternativa para jovens em situação de vulnerabilidade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

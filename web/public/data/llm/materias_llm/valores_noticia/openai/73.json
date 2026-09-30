@@ -1,0 +1,36 @@
+{
+  "id": 73,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O objetivo anunciado foi avaliar práticas de mercado e eventuais medidas legais para proteger consumidores idosos em contratos de seguro de vida."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Foram chamados a expor representantes de órgãos de defesa do consumidor, de associações de aposentados, do setor segurador e de entidades da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A SENACON elogiou a intenção do Projeto de Lei e apresentou dados dos sistemas de reclamação ao consumidor (ProConsumidor, SINDEC e consumidor.gov.br)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Criticou reajustes abusivos, limites de idade para adesão e cláusulas contratuais que excluem cobertura por determinados eventos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida pela plataforma e-Democracia e seguiu o formato com exposições de 10 minutos para cada convidado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

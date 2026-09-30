@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo Deputado Rui Falcão (PT-SP), contou com a participação de juristas e parlamentares e foi marcado por críticas à atuação do Supremo Tribunal Federal (STF)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou uma série de decisões para ilustrar seu ponto, como a que considerou que interromper a gestação até o terceiro mês não é crime (HC 124306), a proibição de operações policiais em favelas do Rio de Janeiro durante a pandemia (ADPF 635) e as suspensões das nomeações de Alexandre Ramagem para a chefia da Polícia Federal e de Cristiane Brasil para o Ministério do Trabalho."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O seminário foi marcado por críticas à atuação do Supremo Tribunal Federal (STF)."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O seminário foi aberto por Rui Falcão, que apresentou os palestrantes: Eduardo Lycurgo, advogado e Presidente do Instituto dos Advogados do Distrito Federal; Pedro Estevão, professor da PUC de São Paulo; Rodrigo Saraiva, Diretor-Executivo do Instituto Livre Mercado; e Sebastião Coelho, ex-Desembargador do Tribunal de Justiça do Distrito Federal."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

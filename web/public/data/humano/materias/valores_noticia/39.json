@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O seminário “Forças Armadas e a política: limites constitucionais” foi proposto pelo presidente do colegiado, deputado Rui Falcão (PT-SP), em comum acordo com os coordenadores de bancada na CCJ."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ex-deputado federal e ex-ministro da Defesa, Raul Jungmann citou pareceres emitidos pelo Supremo Tribunal Federal (STF) e pela Advocacia-Geral da União (AGU) que concluem que as Forças Armadas não detêm poder de atuação autônoma, estando constitucionalmente subordinadas ao presidente da República."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“Se houvesse essa capacidade autônoma, o Executivo se transformaria em um superpoder e estaria rompido um dos pilares fundamentais da Constituição, que é a harmonia entre os Poderes.”"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Debatedores rechaçaram com veemência nesta quarta-feira (16), em seminário promovido pela Comissão de Constituição e Justiça e de Cidadania (CCJ) da Câmara dos Deputados, a interpretação do texto constitucional que enxerga as Forças Armadas como uma espécie de “poder moderador”, capaz de intervir em conflitos entre os Poderes constituídos: Executivo, Legislativo e Judiciário."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O ex-ministro-chefe do Gabinete de Segurança Institucional da Presidência da República Sérgio Etchegoyen, por outro lado, afirmou que nunca, em 50 anos de vida militar, havia sido convidado a debater sobre o suposto poder moderador das Forças Armadas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Fomos obrigados, talvez no momento mais dramático do povo brasileiro, a elaborar um parecer, que, aliás, foi usado pelo ministro Luiz Fux nessa decisão citada pelo ex-ministro Jungman”, disse."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

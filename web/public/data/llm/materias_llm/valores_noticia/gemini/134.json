@@ -1,0 +1,36 @@
+{
+  "id": 134,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Leônidas Cristino (PDT-CE), atendeu a requerimentos do Deputado Arnaldo Jardim e contou com a participação de especialistas do governo, da academia e do setor privado."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O debate centrou-se na importância de uma metodologia científica para medir as emissões de gases de efeito estufa de diferentes fontes de energia, considerando todo o seu processo produtivo, desde a extração da matéria-prima até o uso final."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Gonçalo Pereira, professor da UNICAMP, fez uma apresentação crítica, afirmando que a ACV pode ser usada de acordo com o interesse de quem a aplica."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate centrou-se na importância de uma metodologia científica para medir as emissões de gases de efeito estufa de diferentes fontes de energia, considerando todo o seu processo produtivo, desde a extração da matéria-prima até o uso final."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

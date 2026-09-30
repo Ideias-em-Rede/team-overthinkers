@@ -1,0 +1,36 @@
+{
+  "id": 141,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "professores denunciaram um ambiente de perseguição a professores, causado pela radicalização política vivida no País"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Audiência realizada pela Comissão de Educação da Câmara do Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "91% gostariam de apoio psicológico e 90,4% demandam apoio jurídico para lidar com essas situações"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "perseguições contra professores são, muitas vezes, movidas por parlamentares federais, estaduais e municipais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "professores e professoras são profissionais que estão sendo perseguidos e atacados no exercício de sua função"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 86,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A proposta prevê uma indenização emergencial de R$ 15 mil para cada residência afetada por desastres como enchentes e deslizamentos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, solicitado pelo deputado Evair Vieira de Melo (PP-ES), reuniu representantes do setor de seguros e resseguros."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O mecanismo seria financiado por uma cobrança estimada em R$ 3 mensais na conta de energia elétrica de cada residência."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Frederico Knapp, presidente da Swiss Re Brasil Resseguros, apontou que cerca de 90% das perdas econômicas por catástrofes no país não possuem seguro."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A proposta, detalhada por Dyogo Oliveira, presidente da Confederação Nacional das Seguradoras (CNSEG), prevê uma indenização emergencial de R$ 15 mil para cada residência afetada."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele apresentou um vídeo sobre a recente tragédia em Mimoso do Sul (ES) e relatou, emocionado, a devastação na cidade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

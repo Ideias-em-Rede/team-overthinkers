@@ -1,0 +1,36 @@
+{
+  "id": 183,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O poço em questão está a cerca de 170 quilômetros da costa do Oiapoque."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Ministra do Meio Ambiente e Mudança do Clima, Marina Silva, e o presidente do Ibama, Rodrigo Agostinho, participaram nesta quarta-feira de uma audiência pública na Comissão de Minas e Energia da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A ministra destacou a necessidade de fortalecer os órgãos ambientais, apontando um déficit de pessoal no Ibama."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados como Ricardo Salles (PL-SP) e Lafayette de Andrada (Republicanos-MG) questionaram a decisão, citando que países vizinhos, como a Guiana, já exploram petróleo na mesma região."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O tema central da audiência foi a negativa do Ibama à licença para a Petrobras realizar testes de exploração de petróleo no bloco FZA-M-59, na bacia da Foz do Amazonas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

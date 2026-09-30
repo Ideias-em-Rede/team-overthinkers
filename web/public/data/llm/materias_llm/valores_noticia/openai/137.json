@@ -1,0 +1,36 @@
+{
+  "id": 137,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "as redes municipais respondem por 49% das matrículas da educação básica (mais de 23 milhões de estudantes)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão Especial criada para emitir parecer à Proposta de Emenda à Constituição (PEC) 169/2019 realizou sua 3ª reunião extraordinária com audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a PEC, ao permitir acumulação com qualquer outra atividade, possa precarizar a docência, dispersar o tempo do professor em funções não correlatas e naturalizar a prática de 'bicos'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados presentes manifestaram posições variadas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a PEC busca preservar a liberdade do profissional de optar por jornadas combinadas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a PEC daria opção aos profissionais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

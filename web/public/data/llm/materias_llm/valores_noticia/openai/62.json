@@ -1,0 +1,36 @@
+{
+  "id": 62,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou, na tarde desta terça-feira, uma audiência pública para debater as dificuldades de acesso, pelo Sistema Único de Saúde (SUS), a tratamentos para a amiloidose hereditária ligada à transtirretina"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocada pela deputada Rejane Dias (PT-PI) a partir do Requerimento nº 32/2022, a reunião reuniu representantes do Ministério da Saúde, especialistas, pacientes, organizações civis e representantes de secretarias estaduais"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ambos destacaram o impacto físico, emocional e econômico da doença sobre pacientes e famílias"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Monica Aderaldo, presidente da Federação das Associações de Doenças Raras do Norte, Nordeste e Centro-Oeste (FEDRANN), criticou a decisão da CONITEC de não recomendar a incorporação"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O evento foi transmitido ao vivo e contou com recursos de audiodescrição e tradução em libras"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

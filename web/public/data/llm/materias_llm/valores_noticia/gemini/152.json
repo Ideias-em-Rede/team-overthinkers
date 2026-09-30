@@ -1,0 +1,36 @@
+{
+  "id": 152,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil é o terceiro país mais violento no trânsito e que 65% das vítimas ganham até um salário mínimo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A urgência de uma definição para o seguro em 2024, uma vez que a autorização para a gestão da Caixa se encerra em 31 de dezembro de 2023"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Duras críticas à atual operacionalização dos pagamentos, a cargo da Caixa Econômica Federal"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Desde 2021, não há arrecadação de prêmios dos proprietários de veículos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O futuro do DPVAT e falhas no atendimento a vítimas de trânsito marcam audiência na Câmara"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

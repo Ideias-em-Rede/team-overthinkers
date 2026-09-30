@@ -1,0 +1,36 @@
+{
+  "id": 49,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a necessidade de obras em áreas de risco no município de Palhoça, em Santa Catarina"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compuseram a mesa representantes da Agência Nacional de Transportes Terrestres (ANTT), da Federação das Empresas de Transporte de Carga e Logística de Santa Catarina (FETRANCESC), da Secretaria de Proteção e Defesa Civil de Santa Catarina"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a obra do Morro dos Cavalos é essencial para a eficiência e segurança do corredor logístico litorâneo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado estadual Carlos Humberto criticou a concessão da BR-101, considerada 'malfeita'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a audiência foi requerida após um grave deslizamento no Morro dos Cavalos, em Santa Catarina, que deixou pessoas presas na rodovia por dias"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 104,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Victor Hugo Iocca, da ABRACE, representando grandes consumidores, alertou que o custo da energia, direta e indiretamente, representa mais de um terço do orçamento de uma família de salário mínimo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Minas e Energia da Câmara dos Deputados realizou uma audiência pública extraordinária nesta terça-feira (16) para debater quatro projetos de lei (PLs 4.831/23, 444/24, 445/24 e 446/24) e a Medida Provisória 1.212/24, que impactam o setor elétrico brasileiro."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Frederico Teles, do Ministério de Minas e Energia, ressaltou que 20 concessões que atendem 60% do mercado brasileiro vencerão entre 2025 e 2031, e que a indefinição sobre as regras de renovação eleva o custo de capital para as empresas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O primeiro painel, focado em energia solar e geração distribuída (GD), foi marcado por críticas ao PL 4.831/23. Rodrigo Sauaia, da ABSOLAR, classificou como um 'grande retrocesso' a proposta de limitar a participação da GD em 10% da matriz elétrica e de criar uma reserva de mercado de 70% para as distribuidoras."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Sandoval Feitosa, Diretor-Geral da ANEEL, destacou o crescimento do setor, mas alertou para o déficit de 32% no quadro de servidores e cortes orçamentários na agência, o que impacta a fiscalização."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

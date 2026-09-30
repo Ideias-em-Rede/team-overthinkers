@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, convocado pelo Requerimento nº 34/2023, de autoria do deputado Rui Falcão (PT-SP) e subscrito pelo deputado Flávio Nogueira (PT-PI), contou com a participação de especialistas, ex-ministros e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Jungmann criticou o Congresso Nacional por não ter assumido a responsabilidade de examinar e debater a Política Nacional de Defesa, a Estratégia Nacional de Defesa e o Livro Branco de Defesa Nacional, documentos enviados em 2016 e que, segundo ele, foram votados de forma simbólica sem audiências públicas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Manuel Domingos Neto criticou veementemente as Forças Armadas, afirmando que possuem 'distúrbio de personalidade funcional' por não saberem se são policiais, militares ou assistentes sociais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O seminário teve duração de quatro horas e foi encerrado pelo presidente Rui Falcão, que agradeceu a participação de todos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

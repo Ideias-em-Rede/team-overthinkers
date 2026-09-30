@@ -1,0 +1,36 @@
+{
+  "id": 50,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A incorporação de novos medicamentos para distribuição gratuita pelo Sistema Único de Saúde (SUS) é importante não apenas para assegurar o tratamento de pessoas que vivem com HIV, mas também como estratégia para evitar o desenvolvimento de resistência por parte do vírus."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência aconteceu na Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A substituição dos remédios também reduz o risco de ocorrência de reações adversas, o que aumenta a aderência aos tratamentos, de acordo com Veriano Terto."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Veriano Terto questionou especificamente o registro do medicamento chamado Dolutegravir que, segundo afirmou, foi obtido de forma irregular."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Brasil se integra à meta internacional de oferecer diagnóstico e tratamento a, pelo menos, 95% das pessoas com HIV."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

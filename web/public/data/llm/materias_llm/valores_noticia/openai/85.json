@@ -1,0 +1,36 @@
+{
+  "id": 85,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A pesquisa analisou políticas públicas dirigidas à população LGBT nos 26 estados e no Distrito Federal"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi convocada pela deputada Erika Kokay (PT-DF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A pesquisa mostrou que nenhum estado atingiu nota máxima em todos os itens do tripé da cidadania e que 16 das 27 unidades federativas obtiveram a nota mínima (1) em pelo menos um dos três pilares"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foi protocolada representação junto ao Ministério Público Federal solicitando abertura de inquéritos descentralizados nas procuradorias para investigar estados com menor implementação de políticas públicas para a comunidade LGBTI+"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A pesquisa analisou políticas públicas dirigidas à população LGBT nos 26 estados e no Distrito Federal, com etapa posterior prevista para as capitais"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A pesquisa oferece diagnóstico útil para negociações com governadores e governos estaduais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

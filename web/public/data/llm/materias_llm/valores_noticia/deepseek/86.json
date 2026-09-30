@@ -1,0 +1,36 @@
+{
+  "id": 86,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate atendeu a requerimento do deputado Evair Vieira de Melo (PP-ES)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes de seguradoras, resseguradoras, institutos de pesquisa e entidades do setor."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Dyogo Oliveira, presidente da CNSEG (Confederação Nacional das Seguradoras), propôs a criação de um seguro de catástrofe com pagamento emergencial de R$ 15 mil por família afetada, via Pix, no dia seguinte à decretação de estado de emergência."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Dyogo Oliveira, presidente da CNSEG (Confederação Nacional das Seguradoras), propôs a criação de um seguro de catástrofe com pagamento emergencial de R$ 15 mil por família afetada, via Pix, no dia seguinte à decretação de estado de emergência."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Frederico Knapp, da Swiss Re, destacou que 75% das catástrofes no mundo não têm cobertura de seguro, percentual que sobe para 90% no Brasil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

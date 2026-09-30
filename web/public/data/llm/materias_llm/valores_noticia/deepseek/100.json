@@ -1,0 +1,36 @@
+{
+  "id": 100,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Comunicação da Câmara dos Deputados realizou uma audiência pública nesta quarta-feira para discutir o uso da internet para a prática de crimes sexuais contra crianças e adolescentes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com representantes de diversos órgãos e empresas. Aristides Moura, da Microsoft, destacou o compromisso da empresa com a segurança online e apresentou o PhotoDNA, tecnologia desenvolvida para identificação de materiais de abuso sexual infantil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada destacou a inadequação dos termos 'pedofilia' e 'pornografia infantojuvenil', optando pela nomenclatura 'abuso sexual infantojuvenil' para melhor refletir a gravidade dos crimes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A delegada da Polícia Federal, Erika Karoline de Castro Sabino de Oliveira, contextualizou o problema, descrevendo a atuação criminosa em aplicativos de mensagem, redes sociais, jogos online e dark web."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A organização atribuiu este crescimento à inteligência artificial generativa para criação de conteúdo e à proliferação da venda de 'packs' com imagens autogeradas por adolescentes."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência teve como objetivo subsidiar a relatoria do PL 2.514/15, originado na CPI da Pedofilia do Senado Federal."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

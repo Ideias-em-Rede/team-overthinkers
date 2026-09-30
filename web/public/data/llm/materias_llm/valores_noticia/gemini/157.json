@@ -1,0 +1,36 @@
+{
+  "id": 157,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "garantir acessibilidade a esses tratamentos, especialmente para as famílias de baixa renda"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa do Consumidor da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A previsão é de um aumento de mais de 1000% na disponibilidade de terapias gênicas no mercado até 2027"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Críticas e Propostas Legislativas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a CMED tem como projeto estratégico a elaboração de uma normativa específica para a precificação de terapias avançadas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "as terapias gênicas representam uma inovação que pode significar a cura, especialmente para crianças"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

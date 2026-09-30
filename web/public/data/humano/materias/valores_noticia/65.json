@@ -1,0 +1,36 @@
+{
+  "id": 65,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Quando a gente fecha uma vara do Trabalho no estado de São Paulo, por exemplo, onde os municípios são muito distantes um dos outros, cria-se uma dificuldade que levará os trabalhadores a não recorrer por seus direitos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O juiz auxiliar Luciano Athayde Chaves negou nesta quinta-feira (1º), na Câmara dos Deputados, que o Conselho Superior da Justiça do Trabalho (CSJT) tenha tido qualquer intenção de extinguir varas da Justiça do Trabalho no País"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A Justiça do Trabalho é fundamental em um país tão desigual. Precisamos fortalecê-la e não enfraquecê-la"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A audiência desta quinta foi solicitada para discutir o artigo da Resolução 296, que provocou uma série de reclamações em todo o País"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes da audiência alegaram, no entanto, que a Justiça do Trabalho não deve se medir por números de casos, mas pela necessidade de estar presente nos locais onde os trabalhadores sejam mais vulneráveis"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

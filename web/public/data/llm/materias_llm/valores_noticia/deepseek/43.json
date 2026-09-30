@@ -1,0 +1,36 @@
+{
+  "id": 43,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o sistema de proteção social dos militares e os efeitos da Lei nº 13.954, de 2019, que reformou a previdência da categoria"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A presidente da Comissão, deputada Fernanda Melchionna"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "pensionista está pegando cesta básica da CUFA"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Críticas e relatos de prejuízos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate foi requerido pela deputada Fernanda Melchionna (PSOL-RS) e pelo deputado Glauber Braga (PSOL-RJ)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 84,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi requerido pela deputada Erika Kokay (PT-DF), presidente da comissão."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes do Ministério da Cidadania, do Ministério Público do Distrito Federal e Territórios, do Movimento Nacional Pró-convivência Familiar e Comunitária, da Coalizão pelo Acolhimento em Família Acolhedora e do Grupo Aconchego do DF."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os principais desafios apontados foram a baixa divulgação do serviço, a dificuldade em captar famílias interessadas em acolher, a necessidade de maior capacitação das equipes técnicas e a insuficiência de recursos financeiros."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Edinalva Severo, do Movimento Nacional, e Débora Vigevani, da Coalizão, enfatizaram a necessidade de cofinanciamento federal contínuo e estável para os serviços, criticando os cortes orçamentários recentes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O evento foi transmitido ao vivo pela internet e recebeu perguntas de cidadãos através do portal e-Democracia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

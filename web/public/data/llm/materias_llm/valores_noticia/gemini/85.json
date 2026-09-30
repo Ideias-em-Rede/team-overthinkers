@@ -1,0 +1,36 @@
+{
+  "id": 85,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A pesquisa analisou a estrutura das políticas estaduais com base no conceito do 'tripé da cidadania', que considera a existência de um órgão gestor, um conselho de direitos e um plano ou programa com orçamento."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa (CLP) da Câmara dos Deputados realizou uma audiência pública para debater os resultados de uma pesquisa que avalia as políticas públicas para a população LGBTQIAPN+ nos 27 estados da federação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A pesquisa concluiu que o Brasil está 'muito longe do mínimo necessário' em políticas públicas para a cidadania LGBTQIAPN+."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Após a apresentação, Cláudio Nascimento informou que a Aliança Nacional LGBTI+ representou ao Ministério Público Federal para que seja aberto um inquérito para apurar a situação dos estados com menor implementação de políticas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O estudo também avaliou o pilar 'justiça e cidadania', analisando a quantidade de leis e normativas estaduais, como as que preveem penalidades administrativas para a LGBTfobia e a aplicação do nome social."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay pontuou a necessidade de se avaliar também a qualidade dos equipamentos públicos, como centros de referência e delegacias."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

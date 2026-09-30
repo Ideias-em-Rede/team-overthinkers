@@ -1,0 +1,36 @@
+{
+  "id": 133,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O blecaute deixou no escuro 4,2 milhões de unidades consumidoras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputados criticaram nesta quarta-feira (22) o presidente da Enel Brasil, Nicola Cotugno, por não comparecer a uma audiência na Câmara"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O blecaute deixou no escuro 4,2 milhões de unidades consumidoras."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados criticaram nesta quarta-feira (22) o presidente da Enel Brasil, Nicola Cotugno, por não comparecer a uma audiência na Câmara"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Alguns parlamentares pediram a criação de uma CPI para apurar a atuação da Enel"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

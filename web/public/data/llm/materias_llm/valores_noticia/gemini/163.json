@@ -1,0 +1,36 @@
+{
+  "id": 163,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Reginete Bispo (PT-RS), atendeu a um requerimento da Deputada Dandara (PT-MG) e foi composta por uma mesa de especialistas, todas mulheres negras, representando ministérios, academia e sociedade civil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública semipresencial para debater os desafios na garantia do direito à educação para meninas e mulheres negras."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela ressaltou que a desigualdade se agravou durante a pandemia de COVID-19 e que o ambiente escolar pode reforçar estereótipos e preconceitos, sendo muitas vezes o primeiro local onde crianças negras vivenciam o racismo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela apresentou o caso de uma adolescente que desenvolveu um quadro de sofrimento psíquico severo após sofrer bullying racial na escola."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A iniciativa, em parceria com o MEC e outros ministérios, oferecerá 40 bolsas de doutorado sanduíche e pós-doutorado no exterior para mulheres cientistas negras, indígenas, quilombolas e ciganas, visando combater a sub-representação desses grupos em programas de fomento à pesquisa."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Suelaine Carneiro, do Geledés – Instituto da Mulher Negra, apresentou dados de uma pesquisa realizada durante a pandemia, que mostrou que as meninas negras foram as que menos conseguiram se dedicar às atividades escolares devido à falta de acesso a plataformas digitais e ao acúmulo de tarefas domésticas e de cuidado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

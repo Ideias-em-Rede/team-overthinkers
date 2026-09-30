@@ -1,0 +1,36 @@
+{
+  "id": 69,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Dados do Tribunal Superior Eleitoral (TSE) mostram que, em comparação com 2018, o número de eleitores com 16 e 17 anos, para os quais o voto é facultativo, cresceu 47%, com mais de 2 milhões de novos cidadãos aptos a irem às urnas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Durante audiência da Comissão de Educação da Câmara nesta segunda-feira (8) sobre o tema, a ministra substituta do TSE, Maria Claudia Bucchianeri, deu o exemplo do programa Eleitor do Futuro"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“A juventude, conseguindo aprender e se desenvolver de forma integral, consegue participar da democracia e isso a coloca mais próxima de tomar as rédeas do seu futuro, e das decisões que vão realmente colocá-la no lugar de protagonismo que merece”"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "“Nós estamos tratando da violência que visa espantar o bom debate democrático, a violência que tende a impedir a fala, impedir a manifestação, impedir a participação das pessoas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“A criança de hoje já nasce conectada e, portanto, rapidamente ela se transforma num 'especialista' das redes sociais, das diversas plataformas e cada vez mais vai se desenvolver nessa dimensão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

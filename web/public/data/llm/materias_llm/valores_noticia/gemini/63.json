@@ -1,0 +1,36 @@
+{
+  "id": 63,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa (CIDOSO) da Câmara dos Deputados realizou uma audiência pública para debater a necessidade de fortalecimento das Instituições de Longa Permanência para Idosos (ILPIs)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Denis Bezerra (PSB-CE), reuniu especialistas, representantes da sociedade civil, do Ministério Público e do Governo Federal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo dados do Censo SUAS de 2021 citados por ela, o Brasil possui 2.047 unidades de acolhimento, sendo 68% delas não governamentais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Karla Giacomin, Presidente da Frente Nacional de Fortalecimento à ILPI, iniciou as exposições afirmando que as instituições permanecem 'invisíveis para o poder público'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ao final da audiência, o Deputado Denis Bezerra informou que a CIDOSO aprovou uma emenda de R$ 200 milhões ao Orçamento da União para o fortalecimento das ILPIs."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

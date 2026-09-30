@@ -1,0 +1,36 @@
+{
+  "id": 51,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Muitas vezes, segundo disse, os alunos precisam se deslocar por longas distâncias porque muitas atividades ocorrem em comunidades no interior do país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Conforme explicaram os participantes da audiência pública da Comissão de Educação na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "De acordo com o vice-reitor, a evasão do ensino superior sempre foi alta, em torno de 30%. Depois da pandemia de Covid-19, no entanto, o problema teria se agravado, e agora metade dos estudantes abandonam os cursos de graduação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Apesar dessa exigência, a extensão nunca contou com orçamento próprio."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Embora a destinação de orçamento permanente para a extensão seja fundamental, o financiamento das atividades pode vir também do trabalho conjunto com outros órgãos da administração pública."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

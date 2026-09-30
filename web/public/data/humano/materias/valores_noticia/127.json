@@ -1,0 +1,36 @@
+{
+  "id": 127,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Dados do governo mostram que 5% dos idosos do País estão acamados e precisam de cuidados intensivos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Debatedores ouvidos pela Comissão de Direitos Humanos da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "é preciso consolidar políticas públicas de cuidados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O País ainda não aderiu à Convenção Interamericana sobre proteção dos direitos das pessoas idosas pactuada pela OEA em 2018, em razão de polêmica sobre trecho que garante o direto de as pessoas idosas conviverem com o gênero de sua escolha"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A expectativa é de que em maio de 2024 seja lançada uma proposta para a Politica Nacional de Cuidados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 68,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "150 mil brasileiros são diagnosticados com retinopatia diabética anualmente"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputado Dr. Zacharias Calil (UNIÃO-GO), que ressaltou a importância do diagnóstico precoce da doença"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "80% dos casos de cegueira poderiam ser evitados com prevenção e tratamento adequados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "questionou a inclusão do medicamento Avastin, de uso *off-label* (fora da indicação da bula), em protocolos sem consulta pública"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a visão é um dos sentidos mais importantes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

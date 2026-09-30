@@ -1,0 +1,36 @@
+{
+  "id": 62,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública para debater a dificuldade de acesso de pacientes com amiloidose hereditária em estágio 2 a tratamentos no Sistema Único de Saúde (SUS)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O seminário, proposto pela presidente da comissão, deputada Rejane Dias (PT-PI), reuniu representantes do Ministério da Saúde, médicos, associações e pacientes."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Liana Ferronato, presidente da Associação Brasileira de Paramiloidose (ABPAR), relatou que atrasos na distribuição do tafamidis pelo SUS comprometem o quadro clínico dos pacientes, fazendo com que a doença evolua para o estágio 2, onde o medicamento já não é indicado."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Monica Aderaldo, presidente da Federação das Associações de Doenças Raras do Norte, Nordeste e Centro-Oeste (FEDRANN), criticou a decisão da CONITEC, afirmando que o órgão reconheceu a segurança e eficácia do medicamento, negando-o apenas por questões financeiras."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Dra. Marcia Cruz, Coordenadora do Centro de Estudos em Paramiloidose Antônio Rodrigues de Mello, descreveu a amiloidose hereditária como uma doença rara, multissistêmica e fatal, que afeta principalmente o sistema nervoso e o coração."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

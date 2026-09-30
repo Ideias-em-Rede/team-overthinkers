@@ -1,0 +1,36 @@
+{
+  "id": 36,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi presidida pelo deputado Coronel Meira (PL-PE) e reuniu representantes da Marinha, de agências reguladoras, do setor produtivo, de armadores, dos práticos e de entidades de trabalhadores, além de técnicos e acadêmicos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A divergência central foi sobre a necessidade e o órgão responsável pela regulação econômica — ou seja, o acompanhamento de preços e a mitigação de abusos decorrentes do caráter monopolista do serviço em algumas zonas de praticagem."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve críticas, por parte dos representantes dos práticos e do CONAPRA, a propostas que poderiam implicar tabelamento de preços."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo pela internet e, conforme informou a Presidência, as apresentações multimídia serão disponibilizadas na página da Comissão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

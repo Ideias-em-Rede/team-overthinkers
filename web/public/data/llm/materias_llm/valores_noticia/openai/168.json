@@ -1,0 +1,36 @@
+{
+  "id": 168,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a situação dos pós‑graduandos no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "presidente da Associação Nacional de Pós‑Graduandos (ANPG), Vinícius Soares; a presidente da CAPES, Mercedes Bustamante; o presidente do CNPq, Ricardo Galvão"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "ampliar modelo de contribuição similar ao das residências (11%) custaria cerca de R$ 500 milhões/ano para mais de 320 mil mestrandos e doutorandos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Alertou contra o uso do FNDCT para financiar demandas que, segundo ele, poderiam prejudicar recursos essenciais ao funcionamento da pesquisa"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Definiu os pós‑graduandos como responsáveis por cerca de 90% da ciência produzida no país"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

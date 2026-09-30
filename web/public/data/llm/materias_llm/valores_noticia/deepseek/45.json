@@ -1,0 +1,36 @@
+{
+  "id": 45,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "há 57 mil famílias acampadas no país, conforme o CadÚnico, vivendo em condições precárias"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira, participou de audiência pública na Comissão Parlamentar de Inquérito (CPI) do MST na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Teixeira anunciou a retomada do programa de reforma agrária, paralisado há oito anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Parlamentares de oposição, como os deputados Kim Kataguiri (União-SP) e Coronel Chrisóstomo (PL-RO), relataram casos de violência e suposta extorsão envolvendo movimentos, cobrando ações do governo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Teixeira anunciou a retomada do programa de reforma agrária, paralisado há oito anos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Teixeira detalhou a atuação de sua pasta, recriada pelo governo Lula, e listou programas implementados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

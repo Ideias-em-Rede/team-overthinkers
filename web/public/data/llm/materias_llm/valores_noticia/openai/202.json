@@ -1,0 +1,36 @@
+{
+  "id": 202,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa de debates contou com representação do Ministério da Saúde (por Paulo Mayall Guilayn, coordenador da Secretaria de Gestão do Trabalho e da Educação na Saúde, e assessoria de Osvaldo Martins de Morais Filho), do Conselho Federal de Medicina (Estevam Rivello), do Conselho Federal de Fisioterapia e Terapia Ocupacional — COFFITO (Marcelo Renato Massahud Junior), da Associação Brasileira de Quiropraxia — ABQ (Daniel Facchini) e do representante da PUC Minas (Evergisto Souto Maior)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Facchini citou um caso publicado (Ramos et al., 2021) de fratura cervical associada a sessão de quiropraxia para ilustrar riscos quando o procedimento é realizado por pessoas sem formação adequada."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O representante do CFM, Estevam Rivello, manifestou preocupação com a criação de nova profissão na área da saúde, destacando a longa duração da formação médica (citou 7.260 horas para a graduação em medicina) e questionando sobre competências de diagnóstico e condutas terapêuticas que puderem coincidir com atribuições médicas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Facchini citou um caso publicado (Ramos et al., 2021) de fratura cervical associada a sessão de quiropraxia para ilustrar riscos quando o procedimento é realizado por pessoas sem formação adequada."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

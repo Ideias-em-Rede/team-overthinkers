@@ -1,0 +1,36 @@
+{
+  "id": 27,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "especialmente com a proximidade das eleições municipais de 2024"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Proposta pelo deputado Professor Paulo Fernando (Republicanos-DF), que presidiu a sessão"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "os riscos para a democracia"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Senise criticou o que considera uma discussão superficial do tema e expressou preocupação com a postura do TSE"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a capacidade da IA de mapear a emoção humana, permitindo uma manipulação em larga escala"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante a audiência, participantes do público e da internet fizeram perguntas sobre a fiscalização do uso da IA"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 77,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "reuniu representantes de órgãos de defesa do consumidor, do setor empresarial e de municípios para expor diagnósticos, impactos da pandemia e propostas legislativas em tramitação"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram para exposições: Rafael Calabria, coordenador de Mobilidade Urbana do Instituto Brasileiro de Defesa do Consumidor (IDEC); Marcos Bicalho dos Santos, diretor administrativo e institucional da Associação Nacional das Empresas de Transportes Urbanos (NTU); e Sebastião Melo, prefeito de Porto Alegre e vice‑presidente de Mobilidade Urbana da Frente Nacional de Prefeitos (FNP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "queda de demanda de até 80% nos primeiros meses de 2020; uma média de desequilíbrio entre oferta e demanda de cerca de 20% ao longo do período; estimativa de quase R$ 28 bilhões de desequilíbrio econômico acumulado até abril de 2022"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputado Elias Vaz e os convidados manifestaram críticas à falta de apoio federal durante a pandemia e à decisão presidencial de vetar auxílio aprovado pelo Congresso"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Elias Vaz abriu a sessão lembrando que o problema do transporte público antecede a pandemia e ressaltou a necessidade de tratar o tema como política pública federal"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

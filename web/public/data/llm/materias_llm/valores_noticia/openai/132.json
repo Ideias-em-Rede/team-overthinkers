@@ -1,0 +1,36 @@
+{
+  "id": 132,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "em 20% dos municípios não há nenhuma rádio FM (comercial ou comunitária); em 42% há somente rádio comunitária"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi presidida pelo deputado Jadyel Alencar (PV-PI) e contou com a participação de representantes de entidades do setor, da Agência Nacional de Telecomunicações (ANATEL) e do Ministério das Comunicações"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a proposta de impedir que rádios comunitárias usem a sigla 'FM' fragiliza a identidade das emissoras e pode ter motivação de restringir seu desenvolvimento econômico e político"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "entidades da sociedade civil se opõem à proibição do uso da sigla 'FM' e criticaram o apensamento de cerca de 40 projetos ao PL 490/2011"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Também foram tratadas questões técnicas de cobertura e potência, critérios de outorga e o uso de canais alternativos e da chamada faixa estendida"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

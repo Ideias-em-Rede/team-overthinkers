@@ -1,0 +1,36 @@
+{
+  "id": 127,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "6.782 registros de violações contra a pessoa idosa no Estado, com 2.548 vítimas identificadas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo deputado Luiz Couto (PT-PB) e decorreu da aprovação dos Requerimentos nº 21 e 114/2023, da deputada Erika Kokay (PT-DF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "aproximadamente 5% das pessoas idosas do Cadastro estão acamadas em domicílio"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "ratificação da Convenção Interamericana sobre a Proteção dos Direitos Humanos dos Idosos (PDL 863/17), cuja tramitação foi mencionada como bloqueada por forças contrárias a menção a 'gênero'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "conclusão, em maio de 2024, do GTI do MDS para propor a Política Nacional de Cuidados"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "ampliação de campanhas e materiais informativos sobre direitos e fluxos de atendimento"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

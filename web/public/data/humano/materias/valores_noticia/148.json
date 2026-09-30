@@ -1,0 +1,36 @@
+{
+  "id": 148,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O javali é considerado responsável por prejuízos à produção agrícola, por riscos sanitários especialmente na suinocultura e por danos à fauna e à flora nativas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Os deputados Marcos Pollon (PL-MS) e Ismael Alexandrino (PSD-GO) pediram ao Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O javali é considerado responsável por prejuízos à produção agrícola, por riscos sanitários especialmente na suinocultura e por danos à fauna e à flora nativas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Isso não existia, e havia atrito entre caçadores e fazendeiros que criticavam eventuais invasões"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O javali é considerado responsável por prejuízos à produção agrícola, por riscos sanitários especialmente na suinocultura e por danos à fauna e à flora nativas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

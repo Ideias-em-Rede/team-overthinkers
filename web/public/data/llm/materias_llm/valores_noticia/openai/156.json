@@ -1,0 +1,36 @@
+{
+  "id": 156,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou, na tarde desta audiência pública presidida pelo deputado Pedro Uczai (PT-SC), uma sessão para debater “o futuro das universidades comunitárias”."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O presidente da sessão, deputado Pedro Uczai, explicou que a audiência busca discutir o papel e os desafios das instituições comunitárias de educação superior, a revisão de currículos e formatos de formação, a relação dessas universidades com políticas públicas e possibilidades de aperfeiçoamento do marco regulatório."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes das associações e consórcios afirmaram a qualidade das universidades comunitárias, mas relataram dificuldades financeiras e regulatórias."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência também registrou pedidos por maior atenção à regulação da EAD, por ações que permitam planejamento e inovação curricular (microcertificações, currículos modulares) e por mecanismos de financiamento e custeio que garantam a sustentabilidade das comunitárias."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

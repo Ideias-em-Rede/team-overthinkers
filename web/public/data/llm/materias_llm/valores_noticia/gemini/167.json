@@ -1,0 +1,36 @@
+{
+  "id": 167,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ponto central do debate foi a necessidade de transformar a política em ações práticas, o que, segundo os participantes, depende da destinação de orçamento federal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocada pelos deputados Marcelo Queiroz (PP-RJ) e Delegado Matheus Laiola (UNIÃO-PR), a reunião juntou parlamentares, representantes do Governo Federal, gestores estaduais e municipais, membros do Ministério Público, da OAB e de organizações não governamentais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ana Paula de Vasconcelos, da OAB-DF, destacou que o descontrole populacional é um problema de segurança e saúde pública, e não apenas de bem-estar animal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Marx Beltrão (PP-AL) fez uma intervenção enfática, afirmando que, com os recursos atualmente previstos, 'não dá para fazer nada'. Ele criticou o que chamou de 'política do lero-lero' e cobrou que o Governo Federal inclua recursos na peça orçamentária para que a política saia do papel."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Vanessa Negrini, Diretora do Departamento de Proteção, Defesa e Direitos Animais do Ministério do Meio Ambiente, informou que a proposta de um programa nacional de manejo populacional foi a política pública mais votada no Plano Plurianual (PPA) Participativo, com quase 40 mil votos."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Representantes da sociedade civil e de outras instituições reforçaram a urgência da pauta."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

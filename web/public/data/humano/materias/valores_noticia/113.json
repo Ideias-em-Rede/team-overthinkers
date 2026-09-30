@@ -1,0 +1,36 @@
+{
+  "id": 113,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O foco está nas áreas de risco e nas populações vulneráveis."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência na Câmara dos Deputados nesta quarta-feira (20), os ministérios das Cidades e de Desenvolvimento e Assistência Social detalharam algumas das ações preventivas e de auxílio à população diante de desastres naturais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As obras de contenção de encostas do Ministério das Cidades são o nosso Minha Casa, Minha Vida, porque a gente qualifica a segurança das moradias e evita a remoção de famílias."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Relator da Comissão Especial de Prevenção e Auxílio a Desastres e Calamidades Naturais, o deputado Gilson Daniel (Podemos-ES) cobrou maior número de contratos no novo PAC Encostas e reforço orçamentário."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "São obras que têm o papel de imitar a natureza, fazendo com que haja maior infiltração de água e mais áreas verdes."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O grande desafio é criar um arcabouço legal que possa dar proteção especialmente aos vulneráveis."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

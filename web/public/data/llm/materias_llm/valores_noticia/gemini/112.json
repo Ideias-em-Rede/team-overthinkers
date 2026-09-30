@@ -1,0 +1,36 @@
+{
+  "id": 112,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Jair Gomes de Almeida, motorista do Distrito Federal, criticou o modelo de remuneração proposto"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Conduzida pelo presidente da comissão, deputado Glauber Braga (PSOL-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O debate, que durou mais de três horas, contou com a participação de dezenas de motoristas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "revelou forte oposição e profundas divergências em relação ao Projeto de Lei Complementar"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A principal queixa foi a falta de consulta à categoria durante a elaboração do texto"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

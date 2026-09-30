@@ -1,0 +1,36 @@
+{
+  "id": 76,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Foi citado que o documento Saúde Mental em Dados, anteriormente produzido pelo Ministério da Saúde, teve a última edição em 2015"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay (PT-DF) presidiu a sessão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foi afirmado que os últimos quatro anos (até 2020) foram o período com menos CAPS implantados desde 2004"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foi denunciada a transferência, via editais e financiamentos, de responsabilidades de atenção à saúde mental para o Ministério da Cidadania"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Foi lembrado que, em maio, o Ministério da Saúde revogou financiamento a equipes de desinstitucionalização"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Diversos participantes relataram experiências pessoais de internação e violências institucionais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

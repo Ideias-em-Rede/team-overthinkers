@@ -1,0 +1,36 @@
+{
+  "id": 197,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou uma audiência pública para discutir os impactos e as perspectivas de revisão do novo marco legal da inovação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou um acórdão do TCU que aponta a baixa implementação da lei nas universidades federais, com 20% delas ainda sem uma política de inovação formalizada."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele apontou a necessidade de uma mudança cultural nos agentes de controle para permitir que instrumentos como a participação minoritária da ICT em empresas e o compartilhamento de infraestrutura sejam efetivamente utilizados."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele propôs a criação de um 'sandbox regulatório geral' para todas as atividades de ciência, tecnologia e inovação por um período de cinco anos, permitindo experimentação com regras flexibilizadas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

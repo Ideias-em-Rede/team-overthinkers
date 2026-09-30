@@ -1,0 +1,36 @@
+{
+  "id": 7,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A regulamentação da reforma tributária cria regras para regimes específicos de tributação, imunidades tributárias, compensações de créditos e alíquotas reduzidas de impostos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da Comissão de Desenvolvimento Econômico, Danilo Forte (União-CE), afirmou: 'O trabalho das frentes parlamentares coloca os pagadores de imposto e consumidores dentro do Parlamento, contribuindo para o debate e o avanço das propostas legislativas.'"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A gente precisa ter a nossa legislação compatível, já que nossa carga tributária é excessiva, principalmente sobre os ombros do setor produtivo, impede o Brasil de crescer, de desenvolver, de gerar emprego, gerar oportunidade e ter crescimento econômico sustentável."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente da Frente Parlamentar Mista do Empreendedorismo, deputado Joaquim Passarinho (PL-PA), ponderou que as propostas de regulamentação apresentadas anteriormente não antagonizam os projetos do governo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O texto permite que governo reduza desde já a alíquota de PIS e Cofins para todos os produtos listados da cesta nacional de alimentos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

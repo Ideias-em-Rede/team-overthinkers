@@ -1,0 +1,36 @@
+{
+  "id": 123,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Em 2022, o Brasil registrou 5.824 mortes por tuberculose, o número mais alto dos últimos 20 anos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro reuniu parlamentares, representantes do Ministério da Saúde, da Organização Pan-Americana da Saúde (OPAS), de conselhos de saúde e da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "48% das pessoas com a doença enfrentam 'custos catastróficos', o que significa que quase metade das famílias fica empobrecida durante o tratamento."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Não se pode imaginar que nós vamos erradicar essa doença, que tem 80 mil casos novos por ano no Brasil, que mata mais de 4.500 pessoas no País, com 14 milhões de reais."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Em 2022, o Brasil registrou 5.824 mortes por tuberculose, o número mais alto dos últimos 20 anos."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência é um desdobramento da participação de uma delegação brasileira na 78ª Assembleia Geral da ONU, que estabeleceu compromissos internacionais para a eliminação da doença como problema de saúde pública até 2030."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

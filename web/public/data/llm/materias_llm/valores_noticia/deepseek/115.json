@@ -1,0 +1,36 @@
+{
+  "id": 115,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Este ano e os dois anos futuros serão extremamente complicados para a Bahia na questão da seca"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram como palestrantes Saulo Rodrigues (Universidade de Brasília), Gustavo Luedemann (IPEA), Luciana Gatti (INPE), Alexandre Araújo Costa (Universidade Estadual do Ceará) e Marcio Astrini (Observatório do Clima)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os especialistas apresentaram dados sobre o aumento de eventos climáticos extremos no Brasil e seus impactos"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Luciana Gatti apresentou pesquisas mostrando que a Amazônia oriental, com desmatamento acima de 37%, já emite carbono em vez de absorvê-lo"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os deputados presentes, incluindo o relator Gilson Daniel (PODE-ES), autor do requerimento Tarcísio Motta (PSOL-RJ) e outros, destacaram a importância do tema para a elaboração do relatório da Comissão"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

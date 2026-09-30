@@ -1,0 +1,36 @@
+{
+  "id": 79,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A proposta, de autoria do deputado Felipe Rigoni (UNIÃO-ES), tem como relator o deputado Pedro Paulo (PSD-RJ)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento contou com a participação de 16 convidados, representando entidades de contribuintes, administrações tributárias federal, estaduais e municipais, além de associações de auditores fiscais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele enfatizou a necessidade de separar o 'bom pagador de impostos' do 'sonegador, fraudador ou devedor contumaz'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Diversos representantes do Fisco expressaram preocupação com dispositivos do projeto original."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O relator, deputado Pedro Paulo, apresentou um panorama das alterações já incorporadas ao substitutivo preliminar."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Felipe Rigoni destacou que o objetivo do projeto é regular a relação entre o Fisco e o contribuinte, garantindo direitos e deveres para ambas as partes."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

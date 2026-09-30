@@ -1,0 +1,36 @@
+{
+  "id": 56,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O aumento do sedentarismo foi um dos impactos da pandemia de Covid-19 no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ex-atleta olímpico Tiago Camilo apontou dados que mostram o Brasil como o quinto país mais sedentário do mundo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Infelizmente, muitos pais terceirizaram a educação dos seus filhos para as telas e isso vai trazer impactos gigantescos na saúde mental e física dessas crianças"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os debatedores reforçaram que a educação física deveria ser considerada política de Saúde, pois é essencial na prevenção de doenças físicas e psicológicas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

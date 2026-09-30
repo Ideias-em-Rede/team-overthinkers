@@ -1,0 +1,36 @@
+{
+  "id": 74,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou uma audiência pública para debater os 32 anos do Estatuto da Criança e do Adolescente (ECA)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, solicitado por um grupo de parlamentares e presidido pela deputada Erika Kokay (PT-DF), reuniu especialistas, representantes da sociedade civil, parlamentares e adolescentes para avaliar as conquistas e os desafios na garantia dos direitos infantojuvenis no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela destacou que, após uma década de esforços para implementar o estatuto nos anos 90, os anos 2000 trouxeram um rechaço aos adolescentes, especialmente os envolvidos em atos infracionais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Costa mencionou o conceito de 'juvenicídio' para descrever o processo de precarização da vida que leva à alta mortalidade de jovens, principalmente negros e de periferia, e defendeu a necessidade de 'novos pactos pela infância'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A participação de adolescentes foi marcada pelas falas de Eric Jonathan, do Conselho dos Direitos da Criança e do Adolescente do DF, e Maria Rita Fernandes Couto, do Conselho Nacional dos Direitos da Criança e do Adolescente (CONANDA)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

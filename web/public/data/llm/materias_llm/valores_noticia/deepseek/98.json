@@ -1,0 +1,36 @@
+{
+  "id": 98,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado Luis Miranda alertou para a gravidade dos crimes cibernéticos, que, segundo ele, evoluíram de delitos patrimoniais para ataques à democracia."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi presidido pelo deputado Luis Miranda (DEM-DF) e contou com a participação de representantes do Ministério Público Federal, das polícias civis, de associações do setor e da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou a manipulação de opinião pública por meio de inteligência artificial, a intimidação de cidadãos e a disseminação de desinformação como ameaças recentes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou propostas legislativas da CPI da Pandemia por uso de termos vagos como 'corromper gravemente a verdade'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele citou alterações recentes na lei eleitoral que criminalizam a divulgação de vídeos adulterados durante campanhas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Thiago Tavares, da SaferNet, destacou que a organização recebeu mais de 1,7 milhão de denúncias em 15 anos, resultando na remoção de 340 mil páginas com conteúdo abusivo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 175,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A regulamentação também prevê a criação de portarias específicas para certificar meios de pagamento em parceria com o Banco Central, a fim de combater a lavagem de dinheiro, e para definir critérios objetivos para a autorização de empresas no país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O convidado principal foi José Francisco Manssur, Assessor Especial do Ministério da Fazenda, que apresentou as diretrizes do governo para o setor."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que o governo estima uma arrecadação de R$ 2 bilhões em 2024, podendo chegar a R$ 12 bilhões anuais quando o mercado estiver consolidado."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Udo Seckelmann, advogado e membro da Academia Nacional de Direito Desportivo, expressou preocupação de que a regulamentação federal possa se tornar 'excludente' devido à alta carga tributária e taxas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Manssur afirmou que o governo federal editou a Medida Provisória (MP) nº 1.182 em 24 de julho de 2023 para regulamentar uma atividade prevista em lei desde 2018, mas que não havia sido normatizada."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A advogada Ayla Santana Soares, representante da OAB, questionou como os recursos seriam distribuídos para modalidades esportivas menos estruturadas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

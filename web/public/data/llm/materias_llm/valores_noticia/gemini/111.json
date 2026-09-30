@@ -1,0 +1,36 @@
+{
+  "id": 111,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa com Deficiência da Câmara dos Deputados realizou uma audiência pública para debater a 'Educação Bilíngue de Surdos à Luz da Lei de Diretrizes e Bases da Educação Nacional (LDB)'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, solicitado pela deputada Amália Barros (PL-MT), reuniu representantes do Ministério da Educação (MEC), acadêmicos e lideranças da comunidade surda para discutir os avanços e desafios na implementação da modalidade de ensino."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela mencionou desafios como o fechamento de escolas bilíngues e a queda no número de matrículas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Magno Prado Gama Prates, Vice-Presidente da Federação Nacional de Educação e Integração dos Surdos (FENEIS), também participou virtualmente e cobrou mais efetividade do governo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Amália Barros criticou a ausência de intérpretes de LIBRAS em pronunciamentos do Governo Federal e informou que o Fundo Nacional de Desenvolvimento da Educação (FNDE) foi convidado para a audiência, mas não enviou representante nem respondeu ao convite."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

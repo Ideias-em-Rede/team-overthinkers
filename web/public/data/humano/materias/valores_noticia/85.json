@@ -1,0 +1,36 @@
+{
+  "id": 85,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Pesquisa feita em 27 estados e no Distrito Federal"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Os dados foram apresentados em audiência pública da Comissão de Legislação Participativa da Câmara"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Dezenove estados não têm um plano ou um programa para tocar políticas públicas voltadas para a comunidade LGBT na educação, no trabalho, na segurança pública, em diversas outras áreas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os planos possibilitam a intersetorialidade e, ao mesmo tempo, a avaliação de especificidades dentro da comunidade LBGTQIA+"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Levantamento foi apresentado na Câmara na semana do Dia Nacional do Orgulho LGBTQIA+"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

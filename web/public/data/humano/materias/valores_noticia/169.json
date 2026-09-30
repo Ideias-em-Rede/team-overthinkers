@@ -1,0 +1,36 @@
+{
+  "id": 169,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Cerrado e Caatinga como patrimônios nacionais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputada Célia Xakriabá (Psol-MG)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "ampliar as políticas públicas de proteção do Cerrado"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "enfrenta resistência das bancadas ligadas ao agronegócio"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "reconhecimento de Cerrado e Caatinga como patrimônios nacionais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

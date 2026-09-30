@@ -1,0 +1,36 @@
+{
+  "id": 198,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "situação de pessoas em irregularidade migratória devido a portarias da pandemia"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "aproximadamente 90 mil pedidos de refúgio no CONARE, com tempo médio de análise de dois anos e meio"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Criticou a Portaria Interministerial nº 678/2022, que impõe medidas excepcionais para entrada no Brasil, e pediu sua revogação"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "mais de 110 milhões de pessoas foram forçadas a se deslocar até maio de 2023"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

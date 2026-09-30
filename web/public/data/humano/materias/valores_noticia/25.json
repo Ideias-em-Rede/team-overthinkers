@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Debatedores ouvidos pela Comissão de Legislação Participativa da Câmara dos Deputados nesta terça-feira (19) confirmaram que a região norte de Minas Gerais vive uma seca sem precedentes"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Zé Silva (Solidariedade-MG), presidente da comissão e idealizador da audiência, disse que vai entregar o documento ao ministro da Agricultura, Carlos Fávaro, e ao Ministro do Desenvolvimento Agrário, Paulo Teixeira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Após o debate, deputados elaboraram um documento com 14 medidas emergenciais para a região. Entre elas estão operações com carros pipa, ampliação de políticas sociais nos municípios atingidos e liberação de crédito rural"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Nunca tivemos uma seca, um evento tão dramático como o que a gente vive agora"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A nossa preocupação é que não seja uma audiência que não gere medidas concretas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

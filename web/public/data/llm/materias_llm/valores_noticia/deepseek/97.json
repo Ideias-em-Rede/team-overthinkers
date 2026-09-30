@@ -1,0 +1,36 @@
+{
+  "id": 97,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Claudio Batista da Silva Júnior, presidente do Sindicato dos Metalúrgicos de Taubaté e Região, destacou o fechamento da Ford no Brasil como um evento devastador, especialmente para Taubaté, que perdeu duas montadoras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Trabalho, Administração e Serviço Público da Câmara dos Deputados realizou uma audiência pública na terça-feira (23) para debater o encerramento ou suspensão de atividades em fábricas do setor automobilístico e a situação geral do segmento no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fausto Augusto Júnior, diretor técnico do DIEESE, apresentou dados sobre o impacto da saída da Ford: mais de 6 mil empregos diretos perdidos e um efeito cascata que eliminou aproximadamente 120 mil postos de trabalho na cadeia."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Claudio citou que ferramentas como lay-off e banco de horas têm sido usadas para evitar demissões, mas a capacidade produtiva da Volkswagen na região está em cerca de 50%."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A reunião, transmitida ao vivo pelas redes sociais e pelo YouTube da Câmara, começou com o deputado Vicentinho informando sobre limitações de tempo devido a compromissos paralelos, incluindo eleições na OAB."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

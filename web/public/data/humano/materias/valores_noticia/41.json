@@ -1,0 +1,36 @@
+{
+  "id": 41,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Brasil, segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), mais de 31 milhões de cidadãos têm mais de 60 anos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O secretário nacional de Promoção e Defesa dos Direitos da Pessoa Idosa, Alexandre da Silva"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A convenção estabelece princípios relacionados ao desenvolvimento de uma nova cultura de envelhecimento ativo em todas as esferas de vida dessa população."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Nós estamos agora em um processo de articulação para a aprovação dessa que é uma necessidade para o nosso país, e nos constrange ter isso na pauta há tanto tempo e ainda não termos conseguido."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O texto inova na definição de conceitos como abuso, abandono, maus-tratos, negligência e discriminação, a partir de consensos internacionais."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A população idosa cresce no Brasil a um ritmo mais acelerado que no resto do mundo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

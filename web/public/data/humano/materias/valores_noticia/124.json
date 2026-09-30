@@ -1,0 +1,36 @@
+{
+  "id": 124,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente do Instituto Nacional de Colonização e Reforma Agrária (Incra), César Aldrighi"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Neste ano, foram emitidos 1.359 títulos em glebas públicas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A audiência pública foi pedida pela deputada Coronel Fernanda (PL-MT). Ela manifestou preocupação com a regularização das ocupações em glebas públicas rurais"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O presidente do Incra afirmou que atualmente existem 23,7 mil processos de regularização no Sigef em diferentes estágios de análise"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O decreto mudou regras do processo de regularização de terras situadas em áreas da União e do Incra"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 80,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo presidente da sessão, deputado Augusto Coutinho (REPUBLICANOS-PE), e transmitida ao vivo via Zoom e pela internet da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vários convidados defenderam a necessidade de regulamentação com transparência, isonomia de acesso e sem criar barreiras excessivas à participação."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "DIAP (Luiz Alberto dos Santos): criticou o PL 4.391 por considerá-lo um modelo 'fracamente regulado' e menos abrangente que outras propostas (citou o PL 1.535/2019), apontando deficiências como definição vaga de lobby, ausência de registro obrigatório e de prestação de contas de despesas, cobertura limitada de atores e penalidades insuficientes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência teve ampla participação de entidades, parlamentares e representantes do Executivo e da sociedade civil, e os documentos e registros do evento foram informados como disponíveis posteriormente nas páginas da Câmara dos Deputados e da própria comissão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

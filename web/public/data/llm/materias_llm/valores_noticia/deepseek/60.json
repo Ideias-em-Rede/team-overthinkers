@@ -1,0 +1,36 @@
+{
+  "id": 60,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo presidente da comissão, deputado Dr. Zacharias Calil (UNIÃO-GO), autor do requerimento que propôs a discussão."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O primeiro a se pronunciar foi o gerontólogo Dr. Alexandre Kalache, presidente do Centro Internacional de Longevidade Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou para o aumento significativo das mortes por doenças cardiovasculares, que já respondem por 30% dos óbitos no Brasil, com projeção de crescimento devido ao envelhecimento populacional."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Kalache criticou a falta de políticas públicas para o envelhecimento e defendeu maior investimento em prevenção, promoção da saúde e educação para um envelhecimento saudável."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele apresentou tecnologias minimamente invasivas para o tratamento de valvopatias, como o implante transcateter de válvula aórtica (TAVI), já incorporado ao SUS, e o MitraClip, ainda não disponível no sistema público."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele defendeu a aprovação do Projeto de Lei nº 3.811/2019, que institui a Semana Nacional de Conscientização sobre a Cardiopatia Isquêmica, e destacou a necessidade de ajustes no SUS para garantir prevenção, diagnóstico e tratamento adequados para a população idosa."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

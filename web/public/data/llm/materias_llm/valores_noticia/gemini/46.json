@@ -1,0 +1,36 @@
+{
+  "id": 46,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O desafio é que essa tecnologia não venha só para os 26% de produtores de grande porte, mas também para os 84% de produtores de pequenas propriedades"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, proposta e presidida pelo Deputado Zé Silva (SOLIDARIEDADE-MG), reuniu representantes do governo, de empresas de telecomunicações e de entidades do agronegócio"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O estudo estima que a ampliação da conexão no campo poderia gerar um incremento de até R$ 101,47 bilhões no Valor Bruto da Produção (VBP) agropecuária"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Com a nova lei, um Conselho Gestor foi instalado em 2022, e há uma previsão de R$ 700 milhões no orçamento deste ano para aplicação em políticas públicas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou que a falta de acesso à internet dificulta a implementação da assistência técnica digital, o acesso a informações de mercado e a capacitação dos produtores"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

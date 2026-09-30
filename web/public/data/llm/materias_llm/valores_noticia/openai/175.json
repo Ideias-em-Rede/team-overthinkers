@@ -1,0 +1,36 @@
+{
+  "id": 175,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Ministério da Fazenda apresentou nesta manhã, em audiência pública na Comissão do Esporte da Câmara dos Deputados, as medidas do governo para regulamentar as apostas esportivas e enfrentar problemas associados ao setor, como manipulação de resultados, lavagem de dinheiro e vício em jogo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocado pelo presidente da reunião, deputado Maurício do Vôlei (PL‑MG), o convidado principal foi José Francisco Manssur, assessor especial do Ministério da Fazenda."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo ele, a falta de regulamentação permitiu o crescimento intenso do mercado fora do arcabouço legal, com perda de arrecadação e fragilidade dos instrumentos estatais de fiscalização."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Udo também questionou a classificação das apostas como atividade lotérica e a tributação incidente sobre o apostador."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Manssur informou que, em 24 de julho de 2023, o governo federal editou a Medida Provisória (MP) nº 1.182 e apresentou projeto de lei (PL) para regulamentar as apostas de cota fixa previstas pela Lei nº 13.756/2018"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Manssur afirmou que a MP mantém destinações previstas anteriormente: 1,63% como contrapartida pelo direito de uso de imagem de entidades esportivas e atletas e 3% ao Ministério do Esporte para fomento do esporte de base."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

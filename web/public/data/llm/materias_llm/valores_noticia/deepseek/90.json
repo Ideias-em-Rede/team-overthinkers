@@ -1,0 +1,36 @@
+{
+  "id": 90,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debate a proteção de jovens contra o assédio e abuso sexual no esporte"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão do Esporte da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "proteção de jovens contra o assédio e abuso sexual no esporte"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "existência de uma 'lei do silêncio' em torno do tema"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate a proteção de jovens contra o assédio e abuso sexual no esporte"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

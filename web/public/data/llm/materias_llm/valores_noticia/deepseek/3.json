@@ -1,0 +1,36 @@
+{
+  "id": 3,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro destacou que o ministério está em processo de 'reconstrução' após ter sido extinto no governo anterior."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro do Trabalho e Emprego, Luiz Marinho, participou de audiência pública na Comissão de Trabalho da Câmara dos Deputados nesta quarta-feira."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou a realização de um concurso público com 900 vagas para auditores fiscais e a necessidade de recompor áreas como a Fundacentro, responsável por estudar condições de trabalho."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados da oposição criticaram as propostas. Capitão Alberto Neto (PL-AM) defendeu o saque-aniversário como '14º salário do trabalhador' e alertou que a regulamentação de aplicativos poderia aumentar preços e reduzir demanda."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Para 2024, Marinho citou números positivos: 180 mil empregos gerados em janeiro (contra 90 mil em 2023) e 306.111 em fevereiro (contra 252 mil no ano anterior)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro abordou três temas que geraram debates acalorados durante a sessão: Trabalho por aplicativos, Saque-aniversário do FGTS, Igualdade salarial."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

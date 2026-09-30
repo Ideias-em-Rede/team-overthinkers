@@ -1,0 +1,36 @@
+{
+  "id": 65,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ponto central da discussão foi a Resolução nº 296/2021 do Conselho Superior da Justiça do Trabalho (CSJT), que estabelece critérios para a reestruturação das varas trabalhistas, incluindo a possibilidade de extinção ou transferência daquelas com movimentação processual inferior a 50% da média regional."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi presidido pelo deputado Paulo Teixeira (PT-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A Deputada Professora Bebel destacou o impacto do fechamento de varas para o acesso à Justiça, especialmente em cidades distantes dos grandes centros."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ivan Bagini, presidente do Sindicato dos Servidores Públicos Federais da Justiça do Trabalho da 15ª Região (SINDIQUINZE), relatou que na região de São Paulo nove varas estiveram na mira dessa resolução."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da audiência, deputado Paulo Teixeira, comprometeu-se a defender a recomposição orçamentária e a revisão das atribuições da Justiça do Trabalho no Congresso, e anunciou a intenção de propor uma subcomissão para tratar de sua valorização em 2023."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

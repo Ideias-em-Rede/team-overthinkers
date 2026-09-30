@@ -1,0 +1,36 @@
+{
+  "id": 57,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil é atualmente o segundo país do mundo com mais casos de ataque a escolas, atrás apenas dos Estados Unidos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O professor de Educação da Universidade de São Paulo Daniel Cara foi enfático ao afirmar que 'a melhor prevenção é que o ambiente escolar seja democrático e saudável'."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Precisamos de ações interdisciplinares que possam enfrentar a cultura do extremismo e valorizar a escola como espaço de diversidade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O aumento da violência nas escolas é reflexo do ambiente político vigente no Brasil nos últimos anos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Educadores e deputados sugeriram foco em ações de inteligência e combate à cultura de ódio."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

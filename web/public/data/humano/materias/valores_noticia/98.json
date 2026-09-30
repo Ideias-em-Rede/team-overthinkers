@@ -1,0 +1,36 @@
+{
+  "id": 98,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado Luis Miranda (DEM-DF), que coordenou o debate, ressaltou o crescimento dos crimes cibernéticos em número e complexidade."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O procurador da República George Lodder e delegados que investigam crimes cibernéticos defenderam, nesta quinta-feira (18), o acesso facilitado a dados de plataformas digitais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Estamos vivendo um dos piores momentos no mundo dos crimes cibernéticos. Cresceu demais. Não é apenas a tentativa de tomar dinheiro das vítimas on-line ou sequestro de informações. Foram agora para um nível muito mais perigoso que são os crimes antidemocráticos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "As plataformas negam informações para autoridades brasileiras e não comunicam crimes a que têm acesso."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Crianças e adolescentes são mais vulneráveis e não entendem a implicação da exposição excessiva nos meios digitais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

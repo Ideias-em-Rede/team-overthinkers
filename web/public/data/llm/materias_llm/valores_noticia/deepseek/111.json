@@ -1,0 +1,36 @@
+{
+  "id": 111,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a Educação Bilíngue de Surdos à luz da Lei de Diretrizes e Bases da Educação Nacional (LDB)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa com Deficiência da Câmara dos Deputados realizou"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "avançar nas políticas de educação bilíngue"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Não adianta forçar as crianças surdas dentro de escolas inclusivas. Isso não funciona"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "garantir a participação efetiva da comunidade surda nas decisões"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

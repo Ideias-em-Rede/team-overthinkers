@@ -1,0 +1,36 @@
+{
+  "id": 173,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "redução de tarifas ao consumidor"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputado Rodrigo de Castro (UNIÃO-MG), e contou com a participação de representantes do Ministério de Minas e Energia (MME), da Agência Nacional de Energia Elétrica (ANEEL)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "segurança do sistema elétrico e redução de tarifas ao consumidor"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "manifestações de movimentos sociais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate a expansão das usinas hidrelétricas e a inclusão de novos reservatórios na matriz energética do Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

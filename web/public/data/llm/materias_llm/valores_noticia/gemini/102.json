@@ -1,0 +1,36 @@
+{
+  "id": 102,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão Especial sobre Transição Energética da Câmara dos Deputados realizou uma audiência pública para debater a descarbonização do setor de navegação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que a Maersk já iniciou a transição com navios movidos a metanol verde e destacou os investimentos de R$ 5 bilhões do grupo no Brasil, incluindo terminais portuários como o de Suape (PE)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência, o Deputado Jorge Goetten (PL - SC) questionou os representantes sobre a paralisação das operações no Porto de Itajaí."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Danilo Veras, Vice-Presidente de Políticas Públicas do Grupo Maersk, apresentou as metas da empresa, que incluem atingir emissões líquidas zero até 2040, dez anos antes do prazo estabelecido pela Organização Marítima Internacional."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A pesquisadora Francielle Carvalho, do International Council on Clean Transportation (ICCT), abordou as diferentes rotas tecnológicas para combustíveis marítimos alternativos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

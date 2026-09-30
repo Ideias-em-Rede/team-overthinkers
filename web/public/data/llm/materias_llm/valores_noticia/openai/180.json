@@ -1,0 +1,36 @@
+{
+  "id": 180,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa presencial contou com a Procuradora Regional da República Raquel Branquinho Pimenta Mamede Nascimento e com o conselheiro seccional e presidente da Comissão de Direito Eleitoral da OAB/SP, Ricardo Vita Porto."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A audiência pública teve por objetivo colher esclarecimentos sobre os impactos da PEC para os partidos políticos e para a sociedade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A Procuradora Raquel Branquinho posicionou‑se contrária à proposta em seus termos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência pública teve por objetivo colher esclarecimentos sobre os impactos da PEC para os partidos políticos e para a sociedade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

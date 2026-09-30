@@ -1,0 +1,36 @@
+{
+  "id": 192,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A redução da vida útil dos telefones móveis, a chamada 'obsolescência programada', gerou divergências entre entidades de defesa do consumidor e representantes da indústria de eletrônicos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O pedido para realização da audiência foi feito pelo deputado Márcio Marinho (Republicanos-BA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O nosso Código de Defesa do Consumidor, muito bem elaborado, muito bem escrito, não é capaz de enfrentar a questão da descartabilidade"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Entidades de defesa do consumidor e representante da indústria divergem sobre redução da vida útil de celulares"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A indústria eletrônica e elétrica deve faturar neste ano mais de R$ 217 bilhões no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

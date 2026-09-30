@@ -1,0 +1,36 @@
+{
+  "id": 138,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ortunho Júnior explicou que as atribuições legais da ANPD estão distribuídas em três eixos: regulamentar, fiscalizar e sancionar."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública realizada na Câmara dos Deputados, o presidente da Agência Nacional de Proteção de Dados (ANPD), Waldemar Gonçalves Ortunho Júnior, detalhou as atribuições, desafios e ações da agência no combate aos vazamentos de dados pessoais no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As sanções aplicáveis incluem advertências, multas de até R$ 50 milhões ou 2% do faturamento da empresa, bloqueio ou eliminação de dados, e publicização da infração."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Questionado pelo deputado Caio Vianna sobre a aplicação de sanções por vazamentos, Ortunho Júnior informou que a ANPD aplicou apenas três sanções em toda a sua existência: duas em órgãos públicos e uma em empresa privada."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Desde a sua criação, a ANPD recebeu 768 comunicados de incidentes de segurança. Foram instaurados 13 processos de fiscalização e 9 processos administrativos sancionadores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

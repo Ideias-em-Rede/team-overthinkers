@@ -1,0 +1,36 @@
+{
+  "id": 44,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Deputados da região Norte, como Acácio Favacho (AP) e Henderson Pinto (PA), defenderam a exploração como vital para o desenvolvimento regional."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa foi composta por Mauro Pires, presidente do ICMBio; Rodrigo Agostinho, presidente do IBAMA; Carlos Agenor Onofre Cabral, do Ministério de Minas e Energia; Daniele Zaneti Puelker, gerente-geral de Licenciamento da Petrobras; Mauro O'de Almeida, secretário de Meio Ambiente do Pará; e Roberto Ardenghy, presidente do Instituto Brasileiro de Petróleo e Gás."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Carlos Agenor (MME) alertou para o risco de o Brasil voltar a ser importador de petróleo a partir de 2029, caso novas reservas não sejam descobertas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rodrigo Agostinho (IBAMA) explicou que a negativa da licença para perfuração do bloco FZA-M-59 foi baseada em critérios técnicos, não políticos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi solicitado pelo deputado Ivan Valente (PSOL-SP) e contou com a participação de representantes do governo, da Petrobras, de especialistas ambientais e de entidades do setor."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

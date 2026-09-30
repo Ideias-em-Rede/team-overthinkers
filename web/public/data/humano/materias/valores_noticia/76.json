@@ -1,0 +1,36 @@
+{
+  "id": 76,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os CAPs são serviços públicos de atendimento para pessoas com sofrimento psíquico ou transtorno mental, incluindo dependentes químicos de álcool e outras drogas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Pesquisadores ouvidos nesta quinta-feira (7) pela Comissão de Direitos Humanos e Minorias da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Presidente da Associação Brasileira de Saúde Mental, Leonardo Pinho disse que a falta de informações compromete a racionalidade dos investimentos no setor."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Assim como outros debatedores, ele criticou a decisão do governo de priorizar investimentos em hospitais psiquiátricos e em comunidades terapêuticas em prejuízo dos Caps."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Pesquisadores ouvidos nesta quinta-feira (7) pela Comissão de Direitos Humanos e Minorias da Câmara dos Deputados apontaram um “apagão de dados” sobre a situação da saúde mental no País."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Não podemos nos dar o luxo de pegar dinheiro público para passar para instituições privadas que operam sem nenhum critério."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 161,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Combustíveis e dólar explicam o aumento dos preços das passagens aéreas no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Jurema Monteiro, da Associação Brasileira das Empresas Aéreas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o que poderia diminuir em até 17% o preço das passagens"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "cobrou mais benefícios para o consumidor em resposta aos incentivos que as empresas têm recebido"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Combustíveis e dólar explicam o aumento dos preços das passagens aéreas no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

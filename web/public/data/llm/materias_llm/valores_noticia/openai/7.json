@@ -1,0 +1,36 @@
+{
+  "id": 7,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Desenvolvimento Econômico da Câmara dos Deputados realizou, nesta segunda-feira, uma audiência pública para dar início às discussões sobre a regulamentação da reforma tributária aprovada em 2023."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, presidida pelo deputado Danilo Forte (UNIÃO-CE), contou com a participação de representantes de frentes parlamentares, procuradores e o relator da PEC, deputado Aguinaldo Ribeiro (PP-PB)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os parlamentares alertaram para a necessidade de coordenação entre os projetos que o governo venha a enviar — houve menções de que poderão ser dois ou quatro projetos — e para a importância de tempo hábil para análise, evitando votações precipitadas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ausência do Executivo e calendário"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A realização da audiência decorreu do Requerimento nº 8/2024, de iniciativa do presidente da comissão."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida pela página da Câmara, pelo YouTube e pelo canal oficial da Casa."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

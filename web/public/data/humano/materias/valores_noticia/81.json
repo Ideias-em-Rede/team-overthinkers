@@ -1,0 +1,36 @@
+{
+  "id": 81,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Com a alta nos preços, o papel dos fertilizantes subiu de 30% para até 43% nos custos de algumas lavouras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O diretor de programa da secretaria executiva do Ministério da Agricultura, Luís Rangel, atribuiu à diplomacia o atual quadro de normalidade no abastecimento de fertilizantes no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Apesar de todos os esforços, o preço dos fertilizantes disparou e isso foi dramático para o que chamamos de custo variável de produção."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Diante do conflito entre Rússia e Ucrânia."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Brasil depende e dependerá, por muito tempo, da importação de fertilizantes."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência na Câmara foi organizada pelo deputado Bosco Costa (PL-SE)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

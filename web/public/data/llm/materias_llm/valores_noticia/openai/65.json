@@ -1,0 +1,36 @@
+{
+  "id": 65,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a possibilidade de readequação ou extinção de varas da Justiça do Trabalho em diferentes regiões do país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Paulo Teixeira (PT-SP), a reunião contou com representantes de sindicatos, magistrados, associações de juízes, do CSJT e da Central Única dos Trabalhadores (CUT), além de parlamentares"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a aplicação dessa norma levou à publicação, em lista inicial, de varas que não atingiram 50% da média trienal de processos, situação que atingiu, em primeira relação mencionada pelos convidados, 69 varas em 19 Tribunais Regionais do Trabalho (TRTs)"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ivan Bagini afirmou que se opõe ao processo de extinção das varas 'não só no Estado de São Paulo, mas também em todo o País'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O presidente do Sindicato dos Servidores Públicos Federais da Justiça do Trabalho da 15ª Região (SINDIQUINZE), Ivan Bagini, citou especificamente um processo administrativo no TRT da 15ª Região que apontou nove varas como sujeitas à readequação"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante as falas foram citados números de movimentação processual e de tipos de ações tramitadas na Justiça do Trabalho, entre eles volumes relacionados a multas do FGTS, horas extras, multas por atraso no pagamento de verbas rescisórias e demais rubricas frequentes nas reclamações trabalhistas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 117,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a Comissão Externa da Câmara dos Deputados que acompanha os danos causados pelo afundamento do solo em Maceió (AL)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado Alfredo Gaspar (UNIÃO-AL)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a gravidade do 'crime ambiental' e o colapso ocorrido nas margens da Lagoa Mundaú"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os deputados Alfredo Gaspar e Marx Beltrão (PP-AL) questionaram veementemente a atuação da ANM e do IMA"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O coronel Moisés Melo, coordenador da Defesa Civil de Alagoas, criticou a divulgação de informações equivocadas que geraram pânico na população"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

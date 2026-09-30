@@ -1,0 +1,36 @@
+{
+  "id": 89,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os debatedores apontaram a vulnerabilidade dessas mulheres afetadas, principalmente, por situações de violência sexual causada por fazendeiros e garimpeiros."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A presidente da Comissão Interamericana dos Direitos Humanos, Julissa Mantilla Falcón, cobrou maior presença do estado brasileiro não apenas para investigar os crimes de violência sexual, mas para prevenir que situações como essa aconteçam."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“Essas agressões são resultado de uma falta de política de proteção territorial mais efetiva. É importante que os órgãos protejam essas mulheres e impeçam que os territórios tradicionais sejam invadidos por milhares de garimpeiros ocasionando uma tragédia humanitária”, disse."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou o governo federal por se omitir nessas questões. “Não vemos ações de impacto deste governo voltadas a essa temática. O que vimos nesses 4 anos é um assistencialismo barato e busca de holofotes. As políticas públicas precisam ser levadas a serio”, criticou."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“No caso da menina ianomâmi, a condição de vulnerabilidade é inconteste, não apenas pela pouca idade ou pela falta de percepção da realidade. Além disso, há um agravante no crime. Além de ser contra uma criança indígena de 12 anos, foi praticado por indivíduo supostamente de outra etnia que adentrou à comunidade, para cometer tal ilícito”, relatou."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

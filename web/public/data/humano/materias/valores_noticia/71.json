@@ -1,0 +1,36 @@
+{
+  "id": 71,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A refinaria faz parte do plano de desinvestimentos da estatal, que inclui a venda de diversos ativos no Brasil e no exterior."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi proposto pelo deputado Rogério Correia (PT-MG)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Há uma preocupação de aumento de preços, que já não estão baixos, da gasolina, do diesel"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes dos petroleiros criticaram nesta sexta-feira (15), em audiência pública na Comissão de Legislação Participativa da Câmara dos Deputados, a privatização da Refinaria Gabriel Passos (Regap), da Petrobras"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Há uma preocupação grande do povo mineiro em relação a esse processo de privatização da Regap."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

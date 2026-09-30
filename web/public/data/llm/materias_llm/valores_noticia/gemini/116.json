@@ -1,0 +1,36 @@
+{
+  "id": 116,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele ressaltou que o Brasil defendeu a libertação dos reféns e pediu a Israel o fim dos bombardeios para permitir a saída de civis e a entrada de ajuda humanitária em Gaza."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro das Relações Exteriores, Mauro Vieira, compareceu nesta quarta-feira à Comissão de Relações Exteriores e de Defesa Nacional (CREDN) da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou dados sobre a crise humanitária, informando que o número de mortos em Gaza ultrapassa 18 mil, com 70% sendo mulheres e crianças, e que 1,8 milhão de pessoas foram deslocadas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados como Glauber Braga (PSOL-RJ) e General Pazuello (PL-RJ) questionaram, por motivos opostos, a designação de terrorismo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro também detalhou a 'Operação Voltando em Paz', que, segundo ele, repatriou 1.524 brasileiros e familiares da região do conflito em 11 voos da Força Aérea Brasileira."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

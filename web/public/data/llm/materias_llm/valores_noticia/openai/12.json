@@ -1,0 +1,36 @@
+{
+  "id": 12,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a violência contra mulheres com deficiência"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes de diferentes ministérios, parlamentares e ativistas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "foram registradas 8.303 notificações de violência contra mulheres com deficiência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "debater a violência contra mulheres com deficiência"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a violência contra mulheres com deficiência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

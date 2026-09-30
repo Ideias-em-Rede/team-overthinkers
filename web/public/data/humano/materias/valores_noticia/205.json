@@ -1,0 +1,36 @@
+{
+  "id": 205,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "São 16.885 km de fronteira, que abrangem 10 dos 12 países que compõem a América do Sul. São 150 km de largura ao longo de fronteiras terrestres, o que corresponde a 27% do território nacional e abrange 588 municípios"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputados defenderam mais recursos e melhorias na política nacional de enfrentamento aos crimes transfronteiriços, em audiência pública na Comissão de Segurança Pública da Câmara dos Deputados nesta terça-feira (11)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Em 2023, as nossas operações Ágatas causaram um prejuízo no montante de mais de R$ 600 milhões ao crime"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele considera que há negligência do governo federal, e as Polícias Militares dos estados tiveram que assumir muitas vezes o papel que caberia à União"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Coronel Ulysses (União-AC), que pediu o debate, ressaltou a dificuldade de se garantir a segurança diante da extensão das fronteiras brasileiras"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

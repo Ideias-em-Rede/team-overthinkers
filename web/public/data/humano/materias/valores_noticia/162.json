@@ -1,0 +1,36 @@
+{
+  "id": 162,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No ano passado, 209 mil pessoas se afastaram do emprego no Brasil por conta de problemas como depressão e ansiedade"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A procuradora do Ministério Público do Trabalho Cirlene Zimmermann ressaltou que o risco psicossocial pode estar presente em qualquer órgão ou empresa e necessita ser combatido"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "além de impactar a saúde mental dos funcionários, os riscos psicossociais prejudicam as relações interpessoais e a produtividade"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "São diferentes formas de assédio, de violência no ambiente de trabalho, de exigências de resultados"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A prevenção aos chamados riscos psicossociais (fatores que podem contribuir ou causar estresse e adoecimento mental nos funcionários) foi tema de debate na Comissão de Trabalho da Câmara dos Deputados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

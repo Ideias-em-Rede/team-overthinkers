@@ -1,0 +1,36 @@
+{
+  "id": 45,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro afirmou que há cerca de 57 mil famílias acampadas no país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "o ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira, prestou esclarecimentos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "correção do Programa Nacional de Alimentação Escolar (PNAE), com um incremento apontado pelo ministro de 1,5 bilhão de reais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vários deputados relataram, com base em depoimentos de testemunhas já ouvidas pela CPI, casos de agressões, extorsão, coação e uso de violência em conflitos no campo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Paulo Teixeira disse que o ministério prepara um programa de reforma agrária com três componentes"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da CPI, deputado Zucco, anunciou que a próxima reunião extraordinária está marcada para 15 de agosto, no Plenário 4 do Anexo II, quando será ouvido o líder do MST, João Pedro Stédile"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

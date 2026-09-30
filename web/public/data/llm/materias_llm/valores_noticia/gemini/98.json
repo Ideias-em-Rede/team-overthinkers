@@ -1,0 +1,36 @@
+{
+  "id": 98,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O evento debateu o panorama geral dos crimes digitais e a proteção de crianças e adolescentes no ambiente virtual."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Com a participação de autoridades, especialistas e representantes do setor privado, a Comissão de Ciência e Tecnologia, Comunicação e Informática da Câmara dos Deputados realizou a primeira parte do seminário."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Deputado Luis Miranda destacou o aumento dos crimes cibernéticos, que, segundo ele, evoluíram de fraudes financeiras para 'crimes antidemocráticos', como a manipulação da opinião pública por meio de bots e a disseminação de *fake news*, representando uma ameaça às eleições de 2022."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Affonso Souza, Diretor do Instituto de Tecnologia e Sociedade do Rio de Janeiro, contrapôs a ideia de flexibilizar o acesso a IPs, defendendo a ordem judicial como uma proteção à privacidade, conforme estabelecido no Marco Civil da Internet."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Dário Junior apresentou dados que mostram um aumento de 805% nos crimes de injúria online e 1.080% nos estelionatos pela internet."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Thiago Tavares Nunes de Oliveira, presidente da SaferNet Brasil, apresentou dados da organização, que em 15 anos recebeu mais de 1,7 milhão de denúncias anônimas de abuso e exploração sexual infantojuvenil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

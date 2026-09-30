@@ -1,0 +1,36 @@
+{
+  "id": 190,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "no País, são 13 milhões de cidadãos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de entidades criticaram a falta de apoio a pesquisas clínicas feitas no Brasil sobre doenças raras"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "No Brasil, há cerca de 13 milhões de pessoas diagnosticadas com alguma doença rara"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Entidades criticam falta de apoio a pesquisas clínicas sobre doenças raras no Brasil"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A gerente de Acesso e Precificação do Sindicato da Indústria de Produtos Farmacêuticos (Sindusfarma), Marcela Pontes, afirmou que, atualmente, o País está fora da rota mundial de pesquisas clínicas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

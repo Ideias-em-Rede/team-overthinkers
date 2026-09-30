@@ -1,0 +1,36 @@
+{
+  "id": 46,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Foi destacado o desafio de garantir acesso a 84% dos produtores de pequenas propriedades"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi presidida pelo deputado Zé Silva (SOLIDARIEDADE-MG) e reuniu representantes dos ministérios, do setor de telecomunicações, do agronegócio, cooperativas e da Agência Nacional de Assistência Técnica e Extensão Rural (ANATER)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Estudo da ESALQ mencionado apontou que uma ampliação de 25% na conexão do campo poderia gerar um aumento de 6,3% no VBP"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foram apontados problemas que dificultam a expansão da cobertura rural, entre eles: carga tributária elevada"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Foi destacado o desafio de garantir acesso a 84% dos produtores de pequenas propriedades"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O objetivo declarado pelo presidente da audiência foi discutir a nova legislação relacionada ao 5G, a universalização da conectividade no campo e a aplicação de recursos do Fundo de Universalização dos Serviços de Telecomunicações (FUST) para projetos de inovação tecnológica no meio rural"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

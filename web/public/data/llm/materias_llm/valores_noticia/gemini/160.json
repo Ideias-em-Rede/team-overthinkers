@@ -1,0 +1,36 @@
+{
+  "id": 160,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública semipresencial para debater os desafios na implementação da inclusão escolar de pessoas com deficiência no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelo deputado Glauber Braga (PSOL-RJ), contou com a participação de representantes do governo, educadores, ativistas e pessoas com deficiência"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Durante as exposições, os participantes foram unânimes na defesa do modelo de educação inclusiva em escolas regulares, em oposição a sistemas segregados."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Luciana Viegas, da Coalizão Brasileira pela Educação Inclusiva, afirmou que o sistema educacional brasileiro está 'falido' e que a educação inclusiva deveria ser o foco central para a sua reestruturação."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Um incidente no início da audiência exemplificou as barreiras enfrentadas: a ausência de um intérprete de Libras."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Vinícius Ergang Streda, autodefensor da Federação Brasileira das Associações de Síndrome de Down, compartilhou sua experiência pessoal de preconceito na escola, onde professores se diziam despreparados para lecionar para ele."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

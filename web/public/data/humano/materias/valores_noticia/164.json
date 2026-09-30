@@ -1,0 +1,36 @@
+{
+  "id": 164,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo o economista, mais da metade dos investimentos em água potável e coleta e tratamento do esgoto entre 2016 e 2020 se concentraram nas três empresas de São Paulo, Minas Gerais e Paraná."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A declaração foi feita em audiência pública da Comissão de Desenvolvimento Urbano da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O economista do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) Marcelo Trindade afirmou que são necessários investimentos de R$ 31,5 bilhões por ano para alcançar a meta de universalização do sistema de saneamento básico até 2033."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Questionado pelo deputado Max Lemos (PDT-RJ) sobre a privatização da Sabesp, companhia de São Paulo, Marcelo Trindade deu a sua opinião pessoal de que a empresa é uma das “joias da coroa” e não deveria ser privatizada agora, sendo essa a decisão do governo estadual."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O economista Marcelo Trindade destacou, porém, que o BNDES está auxiliando as regiões metropolitanas e estados com projetos de concessões, parcerias público-privadas e privatizações, num total de 24, que devem atingir 30% do déficit."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

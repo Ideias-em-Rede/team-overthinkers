@@ -1,0 +1,36 @@
+{
+  "id": 144,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "o ministério informou meta de 2 milhões de unidades habitacionais ao longo dos quatro anos do governo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "o ministro das Cidades, Jader Barbalho Filho, apresentou nesta manhã as prioridades e programas da pasta para 2023"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o ministério informou que o Fundo de Arrendamento Residencial (FAR) tem, para 2023, cerca de 130 mil unidades em carteira"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "o deputado Joseildo Ramos destacou a preocupação de 144 entidades com orientações do BNDES que, segundo ele, favorecem privatizações no saneamento"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "anunciado um programa que integra recursos federais, estaduais e municipais"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "o ministério apresentou um novo PAC com dois eixos — Cidades Sustentáveis e Resilientes e Água para Todos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

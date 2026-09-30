@@ -1,0 +1,36 @@
+{
+  "id": 172,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "o Brasil conta com 1,32 milhão de quilombolas, em 1.696 municípios"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública na Comissão de Direitos Humanos e Minorias da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "utilizar os dados para garantir políticas públicas efetivas para a população negra e quilombola"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "a situação pode ser ainda mais grave, uma vez que o IBGE recenseou apenas as comunidades certificadas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "o primeiro censo das comunidades quilombolas é apenas o primeiro passo na garantia de direitos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "o resultado do censo, realizado pelo Instituto Brasileiro de Geografia e Estatística (IBGE) no ano passado"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

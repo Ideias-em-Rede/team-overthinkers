@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "existiam 18,6 milhões de pessoas com deficiência no Brasil, quase 9% da população"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pelo deputado Dr. Zacharias Calil (UNIÃO-GO), contou com a participação de parlamentares e representantes do poder executivo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "democratizar o acesso das pessoas com deficiência ao paradesporto e à atividade física regular"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a importância do esporte como ferramenta de promoção da saúde e da cidadania plena para pessoas com deficiência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

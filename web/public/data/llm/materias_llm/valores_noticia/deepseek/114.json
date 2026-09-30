@@ -1,0 +1,36 @@
+{
+  "id": 114,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate destacou a proposta de um projeto-piloto no estado do Amazonas, região com a maior taxa de casos proporcionalmente no país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes de seis ministérios"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "parlamentares e representantes do Executivo discutiram planos para eliminar a doença como problema de saúde pública até 2030."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O debate destacou a proposta de um projeto-piloto no estado do Amazonas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O Deputado Antonio Brito (PSD-BA), autor do requerimento da audiência e presidente da comissão, explicou a escolha do Amazonas como foco inicial."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

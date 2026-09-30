@@ -1,0 +1,36 @@
+{
+  "id": 64,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Turismo da Câmara dos Deputados realizou uma audiência pública para discutir o potencial e os desafios do turismo religioso em Santa Catarina."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Rodrigo Coelho (PODE-SC), autor do requerimento para o debate, reuniu de forma presencial e virtual representantes do Ministério do Turismo, do governo catarinense, prefeitos e líderes de importantes destinos religiosos do estado."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo dados do IBGE citados por ele, Santa Catarina foi o quarto estado que mais faturou com o segmento em 2021, com mais de R$ 834 milhões gerados por visitas a cidades catarinenses."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Thayse de Souza levantou a questão da cobrança de direitos autorais pelo ECAD em eventos religiosos, argumentando que a prática pode confrontar o direito constitucional à liberdade de culto."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O prefeito de Ituporanga, Gervásio Maciel, apresentou o recém-inaugurado Santuário de Nossa Senhora de Lourdes e do Louvor, um empreendimento privado que conta com uma imagem da santa de 40 metros de altura e o 'maior Terço Suspenso do mundo'."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Marcos Jaboski, representante do Santuário Santa Paulina, em Nova Trento, apontou que o local é o segundo destino religioso mais visitado do país."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

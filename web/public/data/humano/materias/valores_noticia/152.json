@@ -1,0 +1,36 @@
+{
+  "id": 152,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A partir do ano que vem, o Brasil pode ficar sem o seguro obrigatório que indeniza vítimas de acidente de trânsito."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Autor do pedido para a realização do debate, o deputado Márcio Jerry (PCdoB-MA) anunciou que vai criar uma subcomissão para acompanhar o assunto e negociar uma solução junto ao governo federal."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O vice-presidente da Associação Brasileira de Atendimento às Vítimas de Trânsito, Carlos Ademir Veras Pinheiro, afirmou que 65% das vítimas de trânsito no Brasil ganham entre zero e 1 salário mínimo. Conforme ressaltou, o seguro é fundamental para que possam se reestabelecer."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ministério da Fazenda foi alvo de críticas por não debater novas regras"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A lei que rege o Seguro de Danos Pessoais Causados por Veículos Automotores de Via Terrestre (DPVAT) perde a vigência em dezembro."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes da audiência pública também reclamaram do valor pago a vítimas de acidentes de trânsito, congelado há 17 anos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

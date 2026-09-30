@@ -1,0 +1,36 @@
+{
+  "id": 49,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a necessidade de obras em áreas de risco no município de Palhoça (SC)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa contou com representantes da Agência Nacional de Transportes Terrestres (ANTT), Defesa Civil de Santa Catarina, federações da indústria e do transporte de cargas de Santa Catarina e entidades do setor logístico."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o impacto do estrangulamento da rodovia sobre o escoamento de cargas, a economia regional e o turismo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Departamento Nacional de Infraestrutura de Transportes (DNIT) declinou do convite, apontando tratar‑se de tema de competência da ANTT."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi convocada após um deslizamento ocorrido no Morro dos Cavalos, na BR‑101 em Palhoça, que deixou pessoas retidas na rodovia por vários dias e gerou longas filas e dificuldades de abastecimento e logística."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 165,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes do município de Águas Lindas de Goiás relataram dificuldades práticas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Lêda Borges (PSDB-GO), contou com a participação de parlamentares, representantes do governo, de institutos e da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Renata Gil, do Instituto Nós por Elas e juíza, correlacionou a falta de recursos com o aumento de 45% nos feminicídios no Distrito Federal em 2023"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao final, a Deputada Lêda Borges criticou a proposta orçamentária, afirmando: 'Esse orçamento não me atende como mulher. Antes de ter independência financeira, a mulher tem que parar de morrer'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Elaine de Melo Xavier, Diretora de Temas Transversais da Secretaria de Orçamento Federal, informou que, a partir de 2024, os gastos que beneficiam as mulheres serão identificados já na elaboração do Projeto de Lei Orçamentária Anual (PLOA)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 16,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro dos Direitos Humanos e da Cidadania, Silvio Almeida, participou de uma audiência pública conjunta das Comissões de Fiscalização Financeira e Controle e de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados nesta quarta-feira."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Apontou o aumento de 81% na execução orçamentária do Programa de Proteção a Crianças e Adolescentes Ameaçados de Morte (PPCAAM) em 2023 e a expansão do programa para mais quatro estados."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O ministro Almeida e o deputado Kim Kataguiri trocaram acusações. Almeida acusou Kataguiri e seu grupo de serem 'responsáveis pela desestabilização da democracia brasileira', enquanto Kataguiri cobrou posicionamento do ministro sobre ataques a jornalistas e sobre cortes orçamentários em saúde."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O principal tema dos questionamentos dos parlamentares foi a participação de Luciane Barbosa Farias, esposa de um líder do Comando Vermelho condenada por associação ao tráfico e lavagem de dinheiro, em evento do Comitê Nacional de Prevenção e Combate à Tortura, com passagens custeadas pelo ministério."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

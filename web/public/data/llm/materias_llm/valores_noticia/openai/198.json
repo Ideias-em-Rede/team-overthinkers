@@ -1,0 +1,36 @@
+{
+  "id": 198,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência abordou fluxos de venezuelanos, haitianos e afegãos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compuseram a mesa presencialmente: Bianca Abrahami Pinto da Cunha (Oficial de Mobilização Comunitária e Voluntária — Instituto Migrações e Direitos Humanos, IMDH), Oscar Sánchez (representante adjunto no Brasil do ACNUR), Fernanda Rosas (Chefe da Assessoria de Participação Social e Diversidade do Ministério dos Portos e Aeroportos), Alex André Vargem (Diretor de Promoção dos Direitos Humanos do Ministério dos Direitos Humanos e da Cidadania) e, entre os convidados registrados, Augusto de Arruda Botelho (Secretário Nacional de Justiça)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foram citadas a Lei nº 9.474/1997 (Estatuto dos Refugiados) e a Lei de Migração (Lei nº 13.445/2017) como marcos legais relevantes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foi apontada a necessidade de reforço orçamentário, capacitação de oficiais de elegibilidade e descentralização de escritórios do CONARE (hoje presentes em São Paulo, Rio de Janeiro e Campinas)."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A necessidade de políticas públicas de integração foi ressaltada por diversos participantes, incluindo medidas para facilitar a revalidação de diplomas e a inclusão ao mercado de trabalho e à educação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

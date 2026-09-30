@@ -1,0 +1,36 @@
+{
+  "id": 29,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Dados do Fórum Brasileiro de Segurança Pública mostram que, em 2021, 77% das vítimas de homicídio e 84% dos mortos em ações policiais eram negros."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Na Câmara dos Deputados, a Comissão de Direitos Humanos realizou, na semana da Consciência Negra, audiência pública sobre a construção de um Pacto Republicano Pela Redução dos Homicídios dos Jovens Negros no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O representante do Ministério dos Direitos Humanos Rafael Moreira da Silva disse que em um País que mata quase 40 mil negros por ano, os outros negros são apenas sobreviventes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Para o deputado Paulão (PT-AL) é preciso melhorar a formação dos policiais. 'Enquanto houver polícias militares dependentes da doutrina das Forças Armadas a gente continuará tendo problema.'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O representante do Ministério da Igualdade Racial no debate, Yuri Silva, falou sobre o Plano Juventude Negra Viva, que está para ser lançado pelo governo."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A assessora especial do ministério da Justiça, Tamires Sampaio, falou do Pronasci Juventude, um programa do Poder Executivo de prevenção à morte violenta de jovens."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

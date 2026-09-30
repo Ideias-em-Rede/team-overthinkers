@@ -1,0 +1,36 @@
+{
+  "id": 205,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "cujo contorno terrestre soma 16.885 km, com faixa de fronteira de 150 km que abrange 588 municípios"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram presencialmente e por videoconferência representantes do BPFRON (Paraná), DOF (Mato Grosso do Sul), GEFRON (Acre), Polícia Federal, Exército, Receita Federal, Ministério da Justiça e demais órgãos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "totalizando um prejuízo estimado ao crime superior a R$ 1,3 bilhão e evasão fiscal evitada de cerca de R$ 81 milhões"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "defendeu a ampliação do apoio federal, incluindo compensação financeira aos policiais estaduais que atuam na faixa de fronteira"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Diversos expositores defenderam a inclusão, no âmbito federal, de mecanismos que permitam remunerar e compensar agentes estaduais que atuam na fronteira"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

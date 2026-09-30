@@ -1,0 +1,36 @@
+{
+  "id": 12,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate, requerido pelas deputadas Iza Arruda (MDB-PE), Lêda Borges e Andreia Siqueira, teve como foco a violência contra mulheres com deficiência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes do Governo Federal e da sociedade civil, incluindo a secretária nacional dos Direitos da Pessoa com Deficiência, Anna Paula Feminella; a coordenadora-geral de Prevenção de Violência contra as Mulheres, Pagu Rodrigues; o coordenador-geral de Saúde da Pessoa com Deficiência do Ministério da Saúde, Arthur Medeiros; a coordenadora de Proteção Social Especial do Ministério do Desenvolvimento Social, Monica Silva; o secretário de Acesso à Justiça do Ministério da Justiça, Marivaldo Pereira (por videoconferência); a ex-deputada e secretária nacional de Aquicultura, Tereza Nelma; e as coordenadoras da Frente Nacional de Mulheres com Deficiência, Rosana Lago e Neusa Maria."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Anna Paula Feminella citou o Atlas da Violência 2023, que apontou 8.303 notificações de violência contra mulheres com deficiência em 2021, mais que o dobro do registrado contra homens (3.896)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Tereza Nelma e Rosana Lago reforçaram a invisibilidade do tema. Nelma alertou que a maioria das agressões ocorre em casa, cometida por familiares ou conhecidos, e defendeu a ampla divulgação de projetos de prevenção, como o 'Eu Me Protejo'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Dayany Bittencourt (União-CE) compartilhou um relato pessoal de violência sofrida na infância para alertar sobre a importância de se acreditar nas crianças."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

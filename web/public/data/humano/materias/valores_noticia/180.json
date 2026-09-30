@@ -1,0 +1,36 @@
+{
+  "id": 180,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A nossa representação poderia ser muito superior não fosse o não cumprimento dessas regras, e muitos partidos fazem isso de propósito porque sabem que depois serão anistiadas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão de direito eleitoral da OAB de São Paulo, Ricardo Vita Porto, afirmou que os três artigos da PEC vieram em boa hora para alívio dos partidos que estão sufocados por causa da prestação de contas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essa anistia vai representar um grave problema para campanhas vindouras. O desestímulo e a falta de estrutura dos partidos para financiar essas campanhas como se deve, dá o recado de que não é importante para a vida institucional da nossa democracia a representatividade feminina e a representatividade de raça no nosso parlamento."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Medida prevista em PEC é criticada por movimentos sociais ligados a mulheres e negros, mas defendida como forma de garantir a saúde econômica dos partidos políticos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Sâmia Bomfim (Psol-SP) destacou que as cotas para negros e mulheres foram uma conquista dos movimentos sociais, e mesmo com o aumento da representação política das mulheres no Brasil, o País ainda é o que tem a pior representatividade na América Latina."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

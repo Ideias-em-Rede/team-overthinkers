@@ -1,0 +1,36 @@
+{
+  "id": 144,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro detalhou os programas sob responsabilidade da Secretaria Nacional de Habitação, incluindo o Minha Casa, Minha Vida nas modalidades FAR (urbano), Entidades e Rural."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro das Cidades, Jader Barbalho Filho, participou de audiência pública conjunta das Comissões de Viação e Transportes e de Desenvolvimento Urbano da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Barbalho afirmou que, até a última sexta-feira, o FGTS havia contratado 350 mil unidades em 2023, com expectativa de atingir 450 mil até o final do ano – acima da meta inicial de 430 mil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante o debate, deputados apresentaram questionamentos e sugestões."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Foi apresentado o novo programa 'Minha Casa, Minha Vida Cidades', que prevê a união de esforços entre União, estados e municípios."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro informou que o Fundo de Garantia do Tempo de Serviço (FGTS) contratou 380 mil unidades habitacionais em 2022."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

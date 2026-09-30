@@ -1,0 +1,36 @@
+{
+  "id": 81,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Há uma preocupação muito grande não só de Sergipe, mas de todo o Brasil, porque os preços dos insumos, nesses 2 anos, praticamente triplicaram"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural da Câmara dos Deputados realizou uma audiência pública para debater a instabilidade no fornecimento de fertilizantes no Brasil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "elevando o custo com fertilizantes de uma média de 30% para 43% do custo variável de produção de uma lavoura"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "combinação dos efeitos da pandemia, uma crise logística e conflitos geopolíticos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a instabilidade no fornecimento de fertilizantes no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

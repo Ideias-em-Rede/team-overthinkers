@@ -1,0 +1,36 @@
+{
+  "id": 101,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de torcidas organizadas reivindicaram nesta terça-feira (23), em audiência pública na Câmara dos Deputados, mudanças na Lei Geral do Esporte para individualizar condutas em casos de violência em jogos de futebol."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi realizado pela Comissão do Esporte a pedido do deputado Ismael Alexandrino (PSD-GO), relator do Projeto de Lei 2357/23, do deputado Lincoln Portela (PL-MG)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Atualmente, pela lei geral, quem promove tumultos, pratica ou incita a violência em torno de estádios e arenas esportivas, ou se envolve em brigas entre torcidas está sujeito a pena de reclusão, de 1 a 2 anos, e multa."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O vice-presidente da Associação Nacional das Torcidas Organizadas (Anatorg), Cleomar Marques, criticou a responsabilização dos dirigentes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A torcidas organizadas sugerem ainda a padronização de procedimentos das forças de segurança durante os jogos de futebol e um cadastro nacional delas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

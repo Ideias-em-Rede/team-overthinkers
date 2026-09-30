@@ -1,0 +1,36 @@
+{
+  "id": 122,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Citou programas como 'Nordeste Sustentável' e 'Rural + Conectado', que levam internet a comunidades rurais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Agricultura, Carlos Fávaro, participou de audiência pública na Comissão de Agricultura da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Anunciou a criação de uma linha de crédito emergencial de R$ 707 milhões para cooperativas do setor leiteiro"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados cobraram ações mais enérgicas contra o aumento das importações de leite em pó"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Comemorou a abertura de 72 novos mercados para produtos brasileiros em 2023"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Informou que o Plano Safra 2023/2024 teve desempenho recorde, com 18% mais recursos contratados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

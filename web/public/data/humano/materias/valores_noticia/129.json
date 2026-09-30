@@ -1,0 +1,36 @@
+{
+  "id": 129,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "110 crianças morreram em decorrência da doença"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "ministra da Saúde, Nísia Trindade"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "110 mortes de crianças por Covid em 2023"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Oposição critica vacinação de crianças contra Covid"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "vacinação contra Covid-19 para crianças de 6 meses a 5 anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

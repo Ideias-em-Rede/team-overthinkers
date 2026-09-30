@@ -1,0 +1,36 @@
+{
+  "id": 167,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelos deputados autores do requerimento, Marcelo Queiroz (PP-RJ) e Delegado Matheus Laiola (UNIÃO-PR)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Secretário Nacional de Participação Social da Presidência da República, Renato Simões, destacou que a proposta de controle populacional foi a nona mais votada no processo participativo do Plano Plurianual (PPA), com quase 40 mil votos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Negrini defendeu a necessidade de orçamento para implementar um projeto-piloto em 2024, com a meta de realizar 1 milhão de castrações, e alertou para o impacto ambiental do crescimento populacional desses animais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Deputado Marx Beltrão (PP-AL) expressou preocupação com a falta de orçamento específico para a política de castração no projeto enviado pelo governo federal à Comissão de Orçamento."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Vanessa Negrini, Diretora do Departamento de Proteção, Defesa e Direitos Animais do Ministério do Meio Ambiente, corrigiu a informação, afirmando que, considerando apenas propostas de políticas públicas, a pauta animal foi a mais votada de todo o PPA participativo."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo pelos canais da Câmara dos Deputados."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

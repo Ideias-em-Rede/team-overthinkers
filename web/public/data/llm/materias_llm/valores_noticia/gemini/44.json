@@ -1,0 +1,36 @@
+{
+  "id": 44,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado José Priante (MDB-PA), colocou em pauta o requerimento de licença para a perfuração de um poço no bloco FZA-M-59, recentemente negado pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do governo, da Petrobras, de órgãos ambientais e da sociedade civil apresentaram argumentos distintos sobre a viabilidade e as consequências do projeto."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele apresentou dados que indicam uma tendência de queda na produção nacional de petróleo a partir de 2029 e afirmou que, sem a descoberta de novas fronteiras, o país corre o risco de voltar a ser importador."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rodrigo Agostinho, presidente do IBAMA, enfatizou que a decisão de negar a licença foi técnica e não política."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública para debater a intenção da Petrobras de explorar petróleo e gás na foz do Rio Amazonas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Cabral estimou que o potencial da região poderia gerar R$ 1 trilhão em arrecadação e centenas de milhares de empregos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

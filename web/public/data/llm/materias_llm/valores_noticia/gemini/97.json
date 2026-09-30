@@ -1,0 +1,36 @@
+{
+  "id": 97,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado Vicentinho, autor do requerimento para a audiência, abriu os trabalhos destacando a importância do setor para a economia do país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo deputado Vicentinho (PT-SP), contou com a participação de representantes de sindicatos de trabalhadores, da associação de fabricantes de veículos, do Departamento Intersindical de Estatística e Estudos Socioeconômicos (DIEESE) e do Ministério Público do Trabalho (MPT)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fausto Augusto Júnior, diretor técnico do DIEESE, apresentou dados sobre o impacto da saída da Ford do Brasil, estimando a perda de mais de 6 mil empregos diretos e quase 120 mil postos de trabalho em toda a cadeia produtiva."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ronaldo Lima dos Santos, procurador do Trabalho e coordenador da CONALIS/MPT, questionou por que empresas como a Ford deixam de produzir no Brasil, mas continuam interessadas no mercado consumidor, passando a importar veículos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Moraes projetou que, até 2035, entre 32% e 62% dos veículos novos vendidos no país terão novas tecnologias (híbridos, elétricos), o que exigirá um novo ciclo de investimentos de cerca de R$ 150 bilhões e a criação de um 'Plano Indústria', semelhante ao Plano Safra do agronegócio."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Claudio Batista da Silva Júnior, presidente do Sindicato dos Metalúrgicos de Taubaté, iniciou as exposições afirmando que o setor sofre com a falta de uma política industrial que incentive o conteúdo nacional, como existia no passado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

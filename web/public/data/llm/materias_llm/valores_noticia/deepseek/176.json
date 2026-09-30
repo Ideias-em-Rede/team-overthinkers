@@ -1,0 +1,36 @@
+{
+  "id": 176,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública nesta segunda-feira para debater a educação inclusiva e os avanços decorrentes do Estatuto da Pessoa com Deficiência"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa de debates foi composta por representantes do Ministério da Educação, Ministério dos Direitos Humanos e da Cidadania, Defensoria Pública de São Paulo, Assembleia Legislativa de São Paulo, Câmara Municipal de São Paulo e entidades da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foram apontados desafios como a falta de financiamento, a necessidade de formação de profissionais, acessibilidade nas escolas e o combate ao capacitismo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os representantes do legislativo estadual e municipal de São Paulo, deputado Carlos Giannazi e vereador Celso Giannazi, relataram problemas no cumprimento da legislação inclusiva no estado, incluindo tentativas de terceirização do atendimento educacional especializado"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Luciene Cavalcante enfatizou a necessidade de priorizar a educação inclusiva no orçamento público"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

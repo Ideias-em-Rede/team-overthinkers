@@ -1,0 +1,36 @@
+{
+  "id": 181,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O tabagismo mata 443 pessoas por dia no Brasil e custa ao país mais de R$ 125 bilhões anuais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Dr. Zacharias Calil (UNIÃO-GO), foi motivada pelo Dia Nacional de Combate ao Fumo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O tabagismo mata 443 pessoas por dia no Brasil e custa ao país mais de R$ 125 bilhões anuais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Margareth Dalcolmo, Presidente da Sociedade Brasileira de Pneumologia e Tisiologia (SBPT), classificou a venda livre e sem fiscalização desses produtos como uma forma 'perversa' de criar 'novas legiões de dependentes de nicotina'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "No ano passado, 25% dos jovens de 18 a 24 anos experimentaram o dispositivo pela primeira vez"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O PNCT, coordenado pelo Instituto Nacional de Câncer (INCA), visa prevenir a iniciação, promover a cessação do fumo com tratamento gratuito no SUS e garantir ambientes livres de fumaça"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

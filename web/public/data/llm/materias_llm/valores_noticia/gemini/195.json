@@ -1,0 +1,36 @@
+{
+  "id": 195,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "subsidiar a análise do Projeto de Lei nº 2.768, de 2022, que trata da operação de plataformas digitais no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Desenvolvimento Econômico da Câmara dos Deputados realizou uma audiência pública para debater as experiências internacionais na regulamentação de mercados digitais"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "avaliar os possíveis impactos da medida na economia e nos consumidores brasileiros"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater as experiências internacionais na regulamentação de mercados digitais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 58,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater práticas, protocolos e desafios regionais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputada Soraya Santos (PL‑RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "estudo das razões do aumento de denúncias de violência obstétrica e da alta taxa de morte materna"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Debate sobre autonomia da mulher frente às decisões clínicas no trabalho de parto"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "transmitida pela página da Câmara no YouTube, com possibilidade de envio de perguntas pelo público"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

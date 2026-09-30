@@ -1,0 +1,36 @@
+{
+  "id": 201,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Familiares e advogados dos presos nos atos de 8 de janeiro, quando as sedes dos três poderes da República (Legislativo, Executivo e Judiciário) foram invadidas e depredadas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi debatido nesta quinta-feira (3) na Comissão de Segurança Pública e Combate ao Crime Organizado, a pedido dos deputados Marcel van Hattem (Novo-RS) e Delegado Ramagem (PL-RJ)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Cerca de duas mil pessoas foram levadas pelas forças policiais pelos atos em 8 de janeiro, dos quais 1,4 mil ficaram presas por ordem do ministro Alexandre de Moraes, do STF"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Também criticaram a manutenção das prisões e a postura do STF os deputados Rodrigo Valadares (União-SE), Fred Linhares (Republicanos-DF), José Medeiros (PL-MT) e Sargento Gonçalves (PL-RN), entre outros"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O objetivo é jogar luzes sobre uma situação que muitos ouvem falar apenas pela imprensa"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 88,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A presidente da sessão, deputada Angela Amin (PP-SC), abriu os trabalhos explicando que a audiência foi convocada para discutir a destinação de percentual dos recursos da produção de óleo e gás para projetos de pesquisa e desenvolvimento"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Fernando Peregrino, presidente do CONFIES, foi o primeiro a se manifestar e afirmou que a MP 'despreza o conhecimento e a educação'"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fábio Guedes Gomes, da ICTP.Br, apresentou dados detalhados sobre o impacto financeiro da MP, alertando que os R$ 26 bilhões investidos em PD&I em 22 anos equivalem à produção de petróleo do Brasil em 24 dias"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os participantes foram unânimes em pedir a supressão dos artigos 7º e 12 da MP, especialmente o artigo 12, que trata do redirecionamento dos recursos"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Medida Provisória nº 1.112/2022, que redireciona recursos destinados à pesquisa e desenvolvimento no setor de óleo e gás para financiar o programa de renovação da frota de caminhões"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Fernando Peregrino enfatizou a liderança brasileira na exploração de petróleo em águas profundas, atividade que depende de tecnologia avançada, e criticou o desvio de recursos para outros setores"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

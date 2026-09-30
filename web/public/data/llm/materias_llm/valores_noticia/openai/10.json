@@ -1,0 +1,36 @@
+{
+  "id": 10,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "131 milhões de trabalhadores cadastrados; aproximadamente 39 milhões de trabalhadores ativos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Carlos Augusto Simões Gonçalvez Júnior, Secretário de Proteção ao Trabalhador do Ministério do Trabalho e Emprego; representantes da FEBRABAN e da ABBC; dirigentes da Câmara Brasileira da Indústria da Construção (CBIC) e da Associação Brasileira de Incorporadoras (ABRAINC)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "preservar a sustentabilidade do FGTS para suas duas funções centrais: proteção do trabalhador em caso de demissão sem justa causa e financiamento de políticas públicas de habitação popular, saneamento e infraestrutura"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "representantes defendendo tanto a manutenção da modalidade atual (com ajustes) quanto a adoção da proposta do Governo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "proposta do Executivo de extinguir o saque‑aniversário do FGTS e substituí‑lo por uma linha de crédito consignado baseada no eSocial"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "milhões de cotistas aderiram ao saque‑aniversário (citado em 35 milhões por alguns palestrantes)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

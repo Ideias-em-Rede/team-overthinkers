@@ -1,0 +1,36 @@
+{
+  "id": 61,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo presidente do Grupo de Trabalho, deputado Sidney Leite (PSD-AM)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O objetivo da reunião, conforme explicou o presidente, foi colher contribuições para elaborar um documento que será votado na comissão e encaminhado à equipe de transição do novo governo, às Mesas da Câmara e do Senado, ao BNDES, aos bancos que operam os fundos constitucionais e a instituições de pesquisa."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Alexis Fonteyne (NOVO-SP) criticou a excessiva carga regulatória e tributária que impede a competitividade industrial."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Representantes de quatro entidades industriais compuseram a mesa e expuseram suas visões e propostas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 95,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou uma audiência pública para debater a sustentabilidade na produção e consumo de alimentos de origem animal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Zé Silva (SOLIDARIEDADE-MG), foi motivada por um requerimento de sua autoria e fez parte da 'Virada Parlamentar Sustentável'."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou para dois riscos principais associados à produção intensiva: a resistência antimicrobiana, causada pelo uso excessivo de antibióticos na pecuária, e o potencial de novas pandemias, já que 75% das doenças que afetam humanos têm origem animal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rafael Rioja Arantes, do Instituto Brasileiro de Defesa do Consumidor (IDEC), abordou o 'greenwashing', prática de empresas que enganam consumidores com falsas alegações de sustentabilidade."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Karina Rie Ishida, da Proteção Animal Mundial, apresentou um estudo realizado em parceria com a Universidade Federal do Paraná que identificou um aumento de genes de resistência a antibióticos em rios próximos a granjas de suínos no estado."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele também anunciou a intenção de realizar um esforço concentrado no segundo semestre para votar projetos de lei prioritários sobre sustentabilidade, como o da taxonomia verde, para evitar a 'maquiagem verde' por parte de empresas e agentes financeiros."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

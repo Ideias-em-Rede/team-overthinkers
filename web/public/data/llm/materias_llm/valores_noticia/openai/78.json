@@ -1,0 +1,36 @@
+{
+  "id": 78,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O vereador Omar Picheth afirmou preocupação com a dependência econômica do município em relação à SIX, estimando que a unidade responda por cerca de 40% da arrecadação municipal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram como expositores o vereador Omar Picheth (presidente da Câmara Municipal de São Mateus do Sul), que falou por videoconferência; o economista Henrique Jager, do INEEP (também remoto); Deyvid Souza Bacelar, coordenador-geral da Federação Única dos Petroleiros (FUP); e Mário Alberto Dal Zot, presidente da Associação Nacional dos Petroleiros Acionistas Minoritários da Petrobras (ANAPETRO)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Deyvid Bacelar relacionou a venda da SIX às privatizações em curso das refinarias e destacou riscos que, segundo ele, decorrem dessas operações: risco de desabastecimento de diesel e de gás de cozinha, manutenção da política de preços atrelada à paridade de importação, impactos negativos nas economias locais (redução de empregos e queda na massa salarial) e risco de sonegação fiscal por compradores privados."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele também criticou a nomeação do novo presidente da Petrobras e anunciou que ações seriam levadas à Justiça, além de apontar a necessidade de investigação mais ampla sobre processos de venda, incluindo possível pedido de CPI no Congresso."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "No início da audiência, o deputado Enio Verri afirmou que o debate sobre privatizações tem sido central na Câmara e justificou a realização do encontro para discutir os efeitos econômicos, sociais e tecnológicos da venda da SIX sobre São Mateus do Sul e a região."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

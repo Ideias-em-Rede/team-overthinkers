@@ -1,0 +1,36 @@
+{
+  "id": 20,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Participantes do I Seminário dos Povos Originários no Congresso Nacional chamaram a atenção para o que classificam como uma nova estratégia para aprovar projetos que retiram direitos de povos indígenas e promovem retrocessos ambientais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Mesma opinião tem a presidente da Comissão da Amazônia e de Povos Originários e Tradicionais, deputada Célia Xakriabá (Psol-MG)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Conforme ressaltou a conselheira da Comissão de Anistia Maíra Pankararu, tornou-se comum o emprego de expressões como “mineração sustável” e “uso sustável do solo e de recursos naturais em terras indígenas” em propostas que significam, segundo ela, a legalização do desmatamento ou de invasão de territórios tradicionais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Para a parlamentar, é urgente “superar o racismo da ausência” de indígenas em espaços de poder para acabar com essa política de morte."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes do seminário também ressaltaram a importância de promover alianças entre as diferentes etnias indígenas e os demais povos tradicionais, como quilombolas e extrativistas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

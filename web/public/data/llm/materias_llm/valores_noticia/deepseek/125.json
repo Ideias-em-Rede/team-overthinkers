@@ -1,0 +1,36 @@
+{
+  "id": 125,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a seleção e a formação de diretores das escolas públicas de ensino fundamental e médio do Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa de debates a vereadora de Fortaleza Adriana Almeida (PT), ex-diretora escolar; a professora Ana Cristina Prado de Oliveira, da UNIRIO; Antonio Bresolin, diretor-executivo da Associação Dados para um Debate Democrático na Educação (D3e); Lara Simielli, professora da FGV; e Cássia Silvia Santos Góes, mestre em educação pela UNEB."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou que a Lei do FUNDEB (Lei nº 14.113/2020) tornou obrigatória a seleção técnica de diretores como condição para o recebimento do complemento VAAR, sob pena de perda de recursos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela alertou que diretores indicados politicamente tendem a ter menor reconhecimento de liderança por parte dos professores e piores resultados nas escolas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a seleção e a formação de diretores das escolas públicas de ensino fundamental e médio do Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

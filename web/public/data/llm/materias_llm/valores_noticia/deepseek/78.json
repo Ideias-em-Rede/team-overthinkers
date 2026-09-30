@@ -1,0 +1,36 @@
+{
+  "id": 78,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele expressou grande preocupação com a venda da SIX, afirmando que o município 'é muito dependente da SIX ainda' e calculou que a perda da estatal representaria aproximadamente 40% da arrecadação de impostos municipal."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da sessão, deputado Enio Verri, abriu os trabalhos afirmando que o debate sobre privatizações tem sido forte na Casa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele expressou grande preocupação com a venda da SIX, afirmando que o município 'é muito dependente da SIX ainda' e calculou que a perda da estatal representaria aproximadamente 40% da arrecadação de impostos municipal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente da sessão, deputado Enio Verri, abriu os trabalhos afirmando que o debate sobre privatizações tem sido forte na Casa e que, na sua avaliação, 'os argumentos de que as privatizações melhoram a concorrência e levam o menor preço ao consumidor não mostram a realidade'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele também mencionou um Termo de Cessação de Conduta firmado com o CADE em junho de 2019, que considerou 'extremamente inusitado' por vários motivos, incluindo a velocidade da tramitação e o fato de ser o primeiro processo aberto por questão de preço."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Marco Brasil (PP-PR) manifestou surpresa com as informações apresentadas: 'Confesso que eu não tinha conhecimento. Tenho grandes amigos lá, sabia da existência do xisto, mas não da sua grandiosidade'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

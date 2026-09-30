@@ -1,0 +1,36 @@
+{
+  "id": 88,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A preocupação levantada pelos debatedores é que, pela MP, os recursos aportados ao Renovar vão ser descontados dos que estas empresas serão obrigadas por lei a destinar a pesquisa de desenvolvimento e de inovação (PD&I), entre os anos de 2022 e 2027."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de universidades federais e de servidores da carreira de ciência e tecnologia criticaram nesta quinta-feira (26) a Medida Provisória 1112/22"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que, só em 2020, 3 mil pesquisadores deixaram o País. “As alternativas para os que ficam ou é o desemprego, porque faltam bolsas para os pesquisadores, ou serviços de baixa especialização, como o de motorista de aplicativos, como o Uber”, disse."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de universidades federais e de servidores da carreira de ciência e tecnologia criticaram nesta quinta-feira (26) a Medida Provisória 1112/22 que, segundo eles, põe em risco o financiamento à pesquisa e inovação no País."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele citou levantamento da Agencia Nacional de Petróleo (ANP), pelo qual, em 2021, foram destinados R$ 3 bilhões para a área de PD&I, o que correspondeu a contrapartida de 0,5% a 1% do faturamento da Petrobras e de petroleiras estrangeiras no período."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

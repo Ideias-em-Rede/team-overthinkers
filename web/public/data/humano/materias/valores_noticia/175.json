@@ -1,0 +1,36 @@
+{
+  "id": 175,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A tributação das bets está prevista na Medida Provisória (MP) 1182/23, em tramitação na Câmara dos Deputados."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ele foi ouvido nesta terça-feira (12) na Comissão do Esporte da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“Não é um serviço essencial e precisa contribuir com a arrecadação, para que o governo possa reinvestir em outros segmentos que são prioritários, como saúde e educação”, afirmou."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O assessor especial do Ministério da Fazenda informou aos deputados que o governo pode judicializar a questão das licenças emitidas pelos estados que permitem às bets operar em todo o País."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O governo federal está aberto a rever o percentual de taxação das empresas que operam apostas esportivas (bets) no Brasil."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Se a gente não regulamentar as apostas, elas vão continuar operando normalmente, sem nenhuma contrapartida para o País”, afirmou."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

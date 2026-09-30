@@ -1,0 +1,36 @@
+{
+  "id": 58,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Especialistas ouvidos pela Comissão Especial sobre Violência Obstétrica e Morte Materna afirmaram que as mulheres negras, indígenas e de baixa renda são as maiores vítimas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Para o secretário de Saúde do Rio de Janeiro, o deputado licenciado Luiz Antônio Teixeira Júnior, o maior problema no Brasil nos últimos anos é a falta de investimento na qualificação do pré-natal, que impacta diretamente no número de mortes maternas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“As mulheres negras morrem mais que as brancas, mesmo tendo a mesma escolaridade e o mesmo acesso ao pré-natal. Está comprovado que nós profissionais da enfermagem dedicamos menos tempo na assistência do pré-natal à mulher negra que à mulher branca”, disse."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Teixeira Júnior disse que mulheres de baixa renda são ainda mais afetadas, uma vez que a discriminação faz com que enfermeiros ou obstetras se achem no direito de tomar a decisão por elas sobre qual tipo de parto ter, por exemplo, sem explicar cada procedimento."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“O primeiro ponto de violência é justamente a mulher desconhecer todos esses problemas. É ela não ter durante todo o protocolo de atendimento alguém para dizer se é melhor o parto ou a cesárea, quais são os riscos de um e de outro”, aponta."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

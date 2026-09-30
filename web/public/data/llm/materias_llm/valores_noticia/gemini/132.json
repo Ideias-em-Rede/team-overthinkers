@@ -1,0 +1,36 @@
+{
+  "id": 132,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "42% dos municípios brasileiros possuem apenas rádios comunitárias como serviço de radiodifusão"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Comunicação da Câmara dos Deputados realizou uma audiência pública para discutir o Serviço de Radiodifusão Comunitária"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O debate, presidido pelo Deputado Jadyel Alencar (PV-PI), reuniu representantes de rádios comunitárias, do governo federal e de associações técnicas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou a proposta de proibir o uso da sigla 'FM', questionando a razão da medida"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Projeto de Lei nº 490, de 2011, que propõe proibir essas emissoras de utilizarem a sigla 'FM' em seus nomes"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate, presidido pelo Deputado Jadyel Alencar (PV-PI), reuniu representantes de rádios comunitárias, do governo federal e de associações técnicas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

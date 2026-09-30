@@ -1,0 +1,36 @@
+{
+  "id": 5,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A proponente do requerimento, deputada Andreia Siqueira, relatou os desafios enfrentados por pessoas com TEA no interior do Pará, como a falta de centros de atendimento, a dificuldade para obter laudos e a carência de profissionais especializados, como neuropediatras e terapeutas ocupacionais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública para debater o Dia Mundial de Conscientização sobre o Autismo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A necessidade de transformar leis em ações práticas foi um tema recorrente."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Amom Mandel (CIDADANIA-AM), diagnosticado com TEA, criticou a distância entre o discurso político e a prática."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O evento, solicitado pela deputada Andreia Siqueira (MDB-PA), reuniu parlamentares, representantes de ministérios, associações e pessoas com Transtorno do Espectro Autista (TEA), que cobraram a aplicação efetiva das leis existentes e a criação de políticas públicas para garantir inclusão e atendimento em todo o país."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

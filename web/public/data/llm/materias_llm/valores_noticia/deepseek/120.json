@@ -1,0 +1,36 @@
+{
+  "id": 120,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateu as condições de trabalho, os impactos das mudanças na legislação e a precarização no setor de mineração no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi convocado com base em requerimentos do deputado Airton Faleiro."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele apresentou dados que apontam o setor extrativo mineral como o que mais mata no Brasil, com uma taxa de mortalidade quase três vezes superior à média de todos os outros setores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Criticou veementemente a reforma da Previdência que eliminou a aposentadoria especial"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele apresentou dados que apontam o setor extrativo mineral como o que mais mata no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

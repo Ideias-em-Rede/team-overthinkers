@@ -1,0 +1,36 @@
+{
+  "id": 161,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Deputados das regiões Norte e Nordeste relataram problemas específicos de suas bases, como preços abusivos, falta de voos, horários inadequados e infraestrutura aeroportuária precária."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da audiência representantes do governo, da agência reguladora, das empresas aéreas, de entidades de defesa do consumidor e da academia."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele atribuiu esse crescimento às políticas de desregulação e liberdade tarifária, que permitiram a redução dos preços médios das passagens e a inclusão de novas classes sociais no transporte aéreo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vitor Hugo Ferreira (SENACON) criticou a falta de transparência das empresas aéreas e informou que, apenas em 2023, a plataforma consumidor.gov.br registrou mais de 60 mil reclamações contra o setor, envolvendo desde cancelamentos e atrasos até cobranças indevidas e dificuldade de reembolso."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi motivado pela aprovação de requerimentos de autoria dos deputados Juninho do Pneu (UNIÃO-RJ) e Neto Carletto (PP-BA)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

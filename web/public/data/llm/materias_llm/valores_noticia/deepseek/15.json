@@ -1,0 +1,36 @@
+{
+  "id": 15,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debate a inclusão da vacina contra a Covid-19 no calendário obrigatório do Programa Nacional de Imunizações (PNI) para crianças de 6 meses a 5 anos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate, conduzido pela deputada Bia Kicis (PL-DF), contou com posições divergentes sobre a medida"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou que, em 2023, foram registradas 84 mortes por Covid-19 em crianças menores de 1 ano e 31 óbitos na faixa de 1 a 4 anos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O debate destacou a divisão entre a posição oficial do Ministério da Saúde, que defende a incorporação da vacina com base em critérios legais e epidemiológicos, e os críticos, que pedem mais evidências e respeito à autonomia parental"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate a inclusão da vacina contra a Covid-19 no calendário obrigatório do Programa Nacional de Imunizações (PNI) para crianças de 6 meses a 5 anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

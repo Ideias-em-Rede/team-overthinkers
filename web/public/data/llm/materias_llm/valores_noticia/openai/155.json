@@ -1,0 +1,36 @@
+{
+  "id": 155,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados realizou, na tarde desta terça-feira, uma audiência pública para marcar os 20 anos da promulgação do Estatuto da Pessoa Idosa."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram à mesa parlamentares e representantes de instituições e do governo, entre eles: o secretário nacional dos Direitos da Pessoa Idosa, Alexandre da Silva; o médico e gerontólogo Alexandre Kalache (por videoconferência), presidente do Centro Internacional de Longevidade Brasil (ILC‑BR); o ex‑secretário nacional Antônio Fernandes Toninho Costa; o desembargador Wellington Emanuel Coimbra, presidente do Tribunal Regional Eleitoral do Paraná (TRE‑PR); e Raphael Franco Castelo Branco, presidente do Conselho Nacional dos Direitos da Pessoa Idosa (CNDPI)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Foi lembrado que o Estatuto resulta de projeto apresentado em 1997 pelo então deputado Paulo Paim e sancionado em 2003, no Dia Internacional da Pessoa Idosa."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ex‑secretário Antônio Costa e outros presentes apontaram insuficiência de orçamento para a Secretaria Nacional da Pessoa Idosa, impactos do teto de gastos e necessidade de rever o financiamento das Instituições de Longa Permanência para Idosos (ILPIs), grande parte filantrópicas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Comissão recebeu, da Rede Ibero‑Americana de Associações de Idosos (RIAAM/Brasil), o primeiro exemplar do Estatuto em braille, iniciativa que será divulgada em parceria com outras instituições e parlamentares."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Secretaria e outros participantes relataram aumento da violência, inclusive de natureza financeira, com práticas de empréstimos consignados e vazamento de dados que expõem aposentados."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

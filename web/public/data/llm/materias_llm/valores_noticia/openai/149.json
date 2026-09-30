@@ -1,0 +1,36 @@
+{
+  "id": 149,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado Alexandre Lindenmeyer, abriu a audiência lembrando os 20 anos do Estatuto do Idoso e apontando a necessidade de preparo do Estado para a nova realidade demográfica: queda da natalidade, aumento da proporção de pessoas idosas e alterações na relação entre população em idade ativa e dependentes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram como expositores representantes do governo, de órgãos de pesquisa, entidades profissionais e da sociedade civil, entre eles Alexandre da Silva, Secretário Nacional dos Direitos da Pessoa Idosa (Ministério dos Direitos Humanos e da Cidadania); Danyel Iório de Lima, Diretor Substituto do Departamento de Proteção Social Especial (Ministério do Planejamento e Orçamento); Izabel Guimarães Marri e Cristiane Moutinho, da Coordenação de População e Indicadores Sociais do IBGE; Matheus Guerra Cotta e Andréa dos Santos, da Federação Nacional dos Arquitetos e Urbanistas (FNA); o pesquisador Vladimir Milton Pomar (presente por videoconferência); e representantes da OAB, do Sindicato Nacional dos Aposentados e de outras entidades."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Lindenmeyer citou projeção segundo a qual, em 2060, haveria 'para cada pessoa com mais de 60 anos, 1,6 pessoas na faixa de 14 a 59 anos'."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Izabel informou ainda que o IBGE fará divulgação de novos dados do Censo Demográfico no dia 27 de outubro, e esclareceu que o instituto trabalha com diferentes recortes etários, inclusive o corte a partir de 60 anos previsto no Estatuto do Idoso."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência fez parte de uma agenda de interlocução entre ministérios, pesquisadores e sociedade civil sobre os desafios impostos pelo envelhecimento populacional e pela necessidade de políticas públicas intersetoriais e de planejamento com horizonte de médio e longo prazos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

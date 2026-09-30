@@ -1,0 +1,36 @@
+{
+  "id": 93,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial da Câmara dos Deputados destinada a analisar o Projeto de Lei nº 6.494, de 2019, realizou uma audiência pública nesta terça-feira (8) para debater a educação técnica profissional de nível médio e o novo ensino médio."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Flávia Morais (PDT-GO), teve como objetivo discutir o cenário atual, os desafios do setor e as contribuições que o projeto de lei pode oferecer."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele afirmou que a educação técnica é um dos caminhos mais duradouros para a entrada dos estudantes no mercado de trabalho e elogiou o projeto por articular o ensino com a aprendizagem profissional."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Cordão também sugeriu a remoção de limites de horas para aproveitamento de estudos, defendendo que essa definição caiba ao projeto pedagógico de cada escola."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A presidente da comissão, Flávia Morais, destacou a relevância do tema para oferecer mais oportunidades aos jovens."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

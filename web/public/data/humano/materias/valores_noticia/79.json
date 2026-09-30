@@ -1,0 +1,36 @@
+{
+  "id": 79,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de órgãos públicos e de entidades sindicais ligadas ao Fisco demonstraram preocupação"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputado Felipe Rigoni (União-ES) com outros 31 parlamentares"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o projeto acaba beneficiando indistintamente a todos, incluindo fraudadores e sonegadores"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "a maioria dos participantes sugeriu mudanças no texto a fim de garantir que bons e maus pagadores de impostos sejam tratados de maneira distinta pelo código"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "o projeto impõe limitações ao trabalho de fiscalização, cobrança e autuação de contribuintes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

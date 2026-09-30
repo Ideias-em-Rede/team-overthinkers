@@ -1,0 +1,36 @@
+{
+  "id": 60,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Programa QualiSUS Cardio foi lançado em maio, a fim de monitorar e aperfeiçoar a assistência cardiovascular no âmbito do Sistema Único de Saúde (SUS)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi realizado nesta terça-feira (6) pelas comissões de Defesa dos Direitos da Pessoa Idosa; e de Seguridade Social e Família da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Com o envelhecimento da população brasileira e no contexto da pandemia de Covid-19, que postergou o tratamento de diversas doenças, é preciso estimular os cuidados com a saúde e com as doenças cardíacas complexas relacionadas à idade"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente da Associação Brasileira da Indústria de Tecnologia para Saúde (Abimed), Fernando Silveira, avaliou que a atual defasagem na tabela de preços por produtos e serviços praticada pelo SUS poderá impactar o novo programa."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Programa QualiSUS Cardio foi lançado em maio, a fim de monitorar e aperfeiçoar a assistência cardiovascular no âmbito do Sistema Único de Saúde (SUS)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Todos os debatedores observaram que as pessoas com mais de 60 anos deverão ser a maior parte da população brasileira nos próximos anos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

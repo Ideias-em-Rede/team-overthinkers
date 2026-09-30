@@ -1,0 +1,36 @@
+{
+  "id": 47,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "com 27 estados e 98% dos municípios"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Debatedores ouvidos nesta quarta-feira (16) pela Comissão de Cultura da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essa lei direciona R$ 3,86 bilhões do superávit financeiro do Fundo Nacional de Cultura (FNC) a estados e municípios interessados em fomentar atividades e produtos culturais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rocha lembrou as dificuldades vivenciadas para aprovação da lei na gestão do governo de Jair Bolsonaro e criticou o que chamou de 'criminalização da cultura'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Segundo o Ministério da Cultura, o repasse do dinheiro aos entes que aderiram à política pública foi finalizado hoje"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele informou que cada R$ 1 investido em cultura promove retorno de R$ 1,59, segundo estudo da Fundação Getúlio Vargas (FGV)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

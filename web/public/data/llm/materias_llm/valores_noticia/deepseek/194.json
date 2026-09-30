@@ -1,0 +1,36 @@
+{
+  "id": 194,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a mobilidade urbana e a segurança no trânsito sob a perspectiva de ciclistas e pedestres"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do evento representantes do governo federal, parlamentares e integrantes de organizações da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ana Carboni, da UCB, apresentou dados sobre violência no trânsito: primeira causa de morte de crianças de 1 a 14 anos antes da pandemia"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Renata Falzoni também criticou investimentos em recapeamento sem requalificação de calçadas e a retirada de ciclovias em algumas cidades, como São Paulo"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado Jonas Donizette, encerrou a audiência agradecendo a participação de todos e reforçando a importância do tema para a humanização das cidades e a preservação de vidas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 100,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "95% das pessoas de 9 a 17 anos são usuárias de internet"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputada Silvye Alves (UNIÃO‑GO), abriu a sessão"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "71.867 denúncias novas de imagens de abuso e exploração sexual infantil on‑line em 2023"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "dificuldades nas investigações: demora na resposta de provedores, ausência de identificação de sede e contatos de muitos aplicativos de mensagens ou redes sociais"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "introdução de inteligência artificial generativa e a venda de 'packs' com imagens autogeradas como fatores de crescimento"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o uso da internet na prática de crimes sexuais contra crianças e adolescentes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

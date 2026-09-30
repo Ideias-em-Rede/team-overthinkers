@@ -1,0 +1,36 @@
+{
+  "id": 40,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão do Esporte da Câmara dos Deputados realizou audiência pública requerida pelo deputado Márcio Marinho"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "defendeu a inserção das artes marciais nas escolas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Alertou para conflitos de interesse entre federações"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater “a importância das artes marciais como mecanismo de inclusão social”"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

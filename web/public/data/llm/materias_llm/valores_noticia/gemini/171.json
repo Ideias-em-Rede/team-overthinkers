@@ -1,0 +1,36 @@
+{
+  "id": 171,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A ministra também falou sobre o combate à desinformação, definindo *fake news* como a divulgação 'sistemática e deliberadamente de mentiras que têm efeitos negativos sobre a saúde e sobre a vida das pessoas'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Ministra de Estado da Saúde, Nísia Trindade, participou de uma audiência pública conjunta das comissões de Saúde e de Previdência, Assistência Social, Infância, Adolescência e Família da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A ministra também mencionou o aporte de R$ 30,5 bilhões para a saúde previsto no novo Programa de Aceleração do Crescimento (PAC), que será destinado à construção de unidades básicas, universalização do SAMU e outras iniciativas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência, o debate se intensificou, com parlamentares da oposição e da base do governo trocando acusações."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Outros temas abordados incluíram o financiamento do SUS, a tabela de procedimentos, a redução de filas para cirurgias, a saúde mental e a vacinação contra o HPV."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

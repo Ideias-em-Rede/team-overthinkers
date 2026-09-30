@@ -1,0 +1,36 @@
+{
+  "id": 114,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a proposta de transformar o estado do Amazonas em um projeto-piloto para a erradicação da doença até 2030"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão Externa da Câmara dos Deputados que analisa o enfrentamento da tuberculose realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a meta de eliminar a tuberculose é factível, citando o exemplo do Distrito Federal, que já atingiu o objetivo"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a proposta de transformar o estado do Amazonas em um projeto-piloto para a erradicação da doença até 2030"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a escolha também se deve à visibilidade internacional da Amazônia, o que poderia dar maior impacto aos resultados de um programa-piloto bem-sucedido"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 97,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Foram apresentados números, segundo os debatedores, que apontam aproximadamente 4.600 empregos diretos em Camaçari, 2.350 em São Bernardo do Campo, cerca de 900 em Taubaté e 470 na fábrica da Troller, totalizando algo em torno de mais de 6 mil empregos diretos afetados pela saída da Ford"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Entre os presentes na mesa estiveram: Cláudio Batista da Silva Júnior, presidente do Sindicato dos Metalúrgicos de Taubaté e Região; Aroaldo de Oliveira Silva, presidente da IndustriALL Brasil; Luiz Carlos Moraes, presidente da Associação Nacional dos Fabricantes de Veículos Automotores (ANFAVEA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "com efeito multiplicador, esse impacto chegaria a quase 120 mil postos de trabalho"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os sindicalistas e o DIEESE atribuíram a situação a fatores como a ausência de uma política industrial consistente, o fim de requisitos de conteúdo nacional e a priorização de importações de autopeças, o que teria levado ao desmonte de elos da cadeia produtiva"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Também foi destacado que, historicamente, cada emprego na indústria automobilística movimenta cerca de 16 empregos na cadeia"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

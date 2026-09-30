@@ -1,0 +1,36 @@
+{
+  "id": 24,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de São Paulo relataram exemplos locais de redução de aulas e de adoção de itinerários formativos com conteúdos como 'bricolagem' culinária e ofícios, apontando cortes de disciplinas como filosofia, sociologia e história em alguns anos escolares."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes de entidades de professores e pesquisadores, ministros e servidores de órgãos federais, parlamentares e estudantes."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A ABECS acrescentou que sociologia e filosofia estão presentes no ENEM e em avaliações de larga escala, e que seu apagamento dos currículos tem impactos nas oportunidades de ingresso ao ensino superior."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Parlamentares e sindicalistas também denunciaram tentativas de controle curricular, processos de municipalização, iniciativas de 'escola sem partido' e casos de precarização da carreira docente, com alta presença de contratos temporários e formação a distância em licenciaturas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada explicou os procedimentos da sessão e destacou que a audiência foi convocada a partir de um requerimento de sua autoria. Informou ainda que a reunião foi transmitida ao vivo pela internet e que as apresentações seriam disponibilizadas na página da Comissão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

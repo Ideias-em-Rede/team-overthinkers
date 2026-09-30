@@ -1,0 +1,36 @@
+{
+  "id": 88,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "94 instituições de ciência e tecnologia em diversos estados recebem os recursos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de instituições científicas e acadêmicas criticaram duramente a Medida Provisória (MP) nº 1.112/2022 durante uma audiência pública na Comissão de Ciência e Tecnologia, Comunicação e Informática da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou que a MP pode gerar uma 'judicialização' por quebra de contratos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os participantes foram unânimes em solicitar a supressão do artigo 12 da MP, que autoriza o desvio das verbas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O debate focou no redirecionamento de recursos de pesquisa e desenvolvimento (P&D) do setor de óleo e gás para um programa de desmonte e sucateamento de caminhões"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou que a liderança do Brasil na exploração de petróleo em águas profundas foi conquistada graças à tecnologia desenvolvida com os recursos que agora estão sendo desviados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

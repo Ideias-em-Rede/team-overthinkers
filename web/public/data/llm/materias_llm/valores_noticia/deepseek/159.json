@@ -1,0 +1,36 @@
+{
+  "id": 159,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O câncer de mama é o tumor feminino mais incidente, com projeção de cerca de 70 mil novos casos anuais para o triênio 2023-2025."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência pública, transmitida pela página da Câmara no YouTube, contou com a participação de nove convidados, entre representantes de órgãos de saúde, associações de pacientes e especialistas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela detalhou os eixos de atuação, incluindo prevenção, rastreamento, diagnóstico, tratamento, reabilitação e cuidados paliativos, e reforçou a recomendação atual do Ministério para rastreamento com mamografia em mulheres entre 50 e 69 anos a cada dois anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Cíntia Cerqueira, do grupo Escolhemos Viver, compartilhou sua experiência como paciente oncológica metastática e criticou a demora no acesso a exames e medicamentos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão Especial destinada a acompanhar as ações de combate ao câncer no Brasil realizou, nesta terça-feira, sua 9ª Reunião Extraordinária, que teve como tema central 'Outubro Rosa: Combate ao Câncer de Mama'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

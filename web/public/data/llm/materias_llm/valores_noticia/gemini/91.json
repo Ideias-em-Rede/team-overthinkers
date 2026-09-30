@@ -1,0 +1,36 @@
+{
+  "id": 91,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o reajuste das tarifas de energia elétrica no Ceará"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Minas e Energia da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "aumento médio de 24,8% para o consumidor e de 32% para o consumidor rural"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "parlamentares e representantes de consumidores e produtores fizeram duras críticas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "buscar uma solução que minimize os impactos do aumento"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

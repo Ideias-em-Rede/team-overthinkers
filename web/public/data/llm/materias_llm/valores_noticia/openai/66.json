@@ -1,0 +1,36 @@
+{
+  "id": 66,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O FGTS apresentava ativo de cerca de R$ 613 bilhões, aproximadamente R$ 500 bilhões em saldo de trabalhadores e R$ 118 bilhões de patrimônio líquido e conta reserva; haveria mais de 200 milhões de contas e 106 milhões de trabalhadores com contas vinculadas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Paulo Ramos (PDT-RJ), a reunião teve participação presencial e por videoconferência e reuniu representantes do setor público, da Caixa Econômica Federal, da indústria da construção e do Instituto Fundo de Garantia do Trabalhador."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A soma hipotética dos impactos, segundo a Caixa, poderia chegar a aproximadamente R$ 5 trilhões."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mario Avelino citou matérias jornalísticas e iniciativas defendidas por setores do Governo que teriam ambições de reduzir alíquotas (de 8% para 2%) e a multa rescisória (de 40% para 20%), além de tentativas anteriores de retirar direitos de trabalhadores aposentados que seguem trabalhando."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Caixa informou haver 373 proposições sobre o FGTS em tramitação no Congresso."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

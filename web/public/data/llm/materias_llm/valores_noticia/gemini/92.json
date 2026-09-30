@@ -1,0 +1,36 @@
+{
+  "id": 92,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial da Câmara dos Deputados que analisa o Projeto de Lei nº 6.461/2019, que institui o Estatuto do Aprendiz, realizou uma audiência pública para debater recomendações para o aperfeiçoamento da política de aprendizagem no país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Felipe Rigoni (UNIÃO-ES), teve início com a aprovação da ata da reunião anterior e de um requerimento para a participação de novos convidados em futuras audiências."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a manutenção das cotas obrigatórias para empresas e sugeriu a criação de políticas de incentivo para a contratação de ex-aprendizes como empregados efetivos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Sebastião Estevam dos Santos criticou pontos do projeto, como a proposta de contar em dobro aprendizes em situação de vulnerabilidade para o cumprimento da cota, classificando a medida como 'extremamente discriminatória'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Anna Luiza Calixto Amaral, do Comitê Nacional de Adolescentes pela Prevenção e Erradicação do Trabalho Infantil (CONAPETI), defendeu que o objetivo do estatuto deve ser ampliar o número de vagas, e não apenas facilitar o cumprimento de cotas pelas empresas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

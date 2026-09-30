@@ -1,0 +1,36 @@
+{
+  "id": 56,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo ela, em 2018, o país já era o quinto mais sedentário do mundo, com 47% da população inativa."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate, presidido pelo deputado Diego Garcia (REPUBLICANOS-PR), contou com a participação de especialistas e representantes do setor."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Estima-se que esse índice tenha subido para cerca de 60% após a pandemia."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou a classificação das academias como locais de entretenimento e não como serviços essenciais de saúde e defendeu a aprovação de uma lei que as declare como essenciais."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Citando uma pesquisa, afirmou que crianças sem aulas de educação física tiveram um atraso motor de 2,9 anos em relação à sua idade cronológica."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes foram unânimes em apontar a necessidade de políticas públicas permanentes que incentivem a atividade física e o esporte, tratando-os como investimento em saúde e não como gasto."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

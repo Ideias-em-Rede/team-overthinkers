@@ -1,0 +1,36 @@
+{
+  "id": 135,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater saúde e segurança no ambiente de trabalho dos policiais penais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "a deputada Professora Luciene Cavalcante (PSOL-SP) e o deputado Pastor Henrique Vieira foram os autores dos requerimentos que originaram a sessão"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "problemas como precarização do trabalho, falta de plano de carreira e a atuação de empresas privadas na manutenção de equipamentos — com possível impacto na saúde dos servidores"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "diversos participantes se posicionaram contra projetos de privatização do sistema prisional"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a audiência foi transmitida ao vivo pela página da Comissão e pelo canal oficial da Câmara no YouTube"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

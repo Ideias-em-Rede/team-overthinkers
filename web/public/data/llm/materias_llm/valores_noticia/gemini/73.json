@@ -1,0 +1,36 @@
+{
+  "id": 73,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa realizou uma audiência pública para debater o Projeto de Lei 2.002/2019, que propõe a criação de regras especiais para contratos de seguros de vida celebrados por idosos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelo Deputado Vilson da Fetaemg (PSB-MG), contou com a participação de representantes de órgãos de defesa do consumidor, de associações de aposentados e idosos, e do setor de seguros."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele argumentou que, sem uma solução que equilibre os cálculos atuariais com a necessidade de cobertura, uma grande parcela da sociedade ficará desprotegida."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Renê Patriota, da Associação de Defesa dos Usuários de Seguros (ADUSEPS), criticou duramente as práticas do setor, apresentando o caso de uma consumidora com câncer que teve o plano de saúde reajustado de R$ 2.600 para R$ 6.200 ao completar 59 anos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi aberto pelo presidente da comissão, Deputado Denis Bezerra (PSB-CE), que apresentou os convidados e o tema da audiência."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

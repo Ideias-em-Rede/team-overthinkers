@@ -1,0 +1,36 @@
+{
+  "id": 170,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "discutir os impactos do racismo em crianças de até seis anos e propor políticas públicas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "propor políticas públicas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "o racismo impede que crianças negras sejam vistas como crianças e que a discriminação racial é uma violação de direitos humanos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "discutir os impactos do racismo em crianças de até seis anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

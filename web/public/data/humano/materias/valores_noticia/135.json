@@ -1,0 +1,36 @@
+{
+  "id": 135,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Policial penal em São Paulo, o diretor jurídico do Sindicato dos Agentes de Segurança Penitenciária (Sindcop), Carlos Piotto, manifestou preocupação com os riscos de contaminação radioativa pela obrigatoriedade de uso de scanner corporal, além da pressão diária no trabalho."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de sindicatos da categoria participaram de audiência pública na Câmara nesta quinta"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Sobrecarga de trabalho, pressão diária, baixa remuneração, assédio moral, adoecimento e suicídio compõem o quadro de precarização das atividades dos policiais penais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Sem normas e políticas públicas específicas, a categoria tem sido negligenciada no serviço público"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O País tem mais de 832 mil presos e elevado número de cárceres superlotados e em condições insalubres."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 50,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "mais de 460 mil pessoas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "garantir soberania sanitária, reduzir preços, mitigar risco de desabastecimento"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "pedido de licenciamento compulsório do dolutegravir"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater os Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) de HIV/AIDS e hepatites virais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

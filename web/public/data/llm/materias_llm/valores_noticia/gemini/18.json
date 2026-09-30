@@ -1,0 +1,36 @@
+{
+  "id": 18,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O programa já beneficiou mais de 344 mil estudantes de licenciatura."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A presidente da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Mercedes Maria da Cunha Bustamante, apresentou dados sobre o programa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para ampliar o programa para a meta de 100 mil bolsas, seria necessário um aporte adicional de R$ 200 milhões."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "No entanto, Bustamante alertou para um grave desafio orçamentário."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Deputada Dandara, que presidiu a sessão, relatou sua experiência como ex-bolsista do PIBID, afirmando que o programa foi fundamental para sua formação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

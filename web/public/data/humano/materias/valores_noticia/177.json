@@ -1,0 +1,36 @@
+{
+  "id": 177,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "“Tudo isso que está sendo discutido vai incidir no bolso do consumidor. Esse é o grande problema”"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputados da Comissão de Defesa do Consumidor da Câmara dos Deputados alertaram para os riscos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "prejudicar a concorrência e aumentar os preços para passageiros"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "“O projeto tem um monte de vícios e está aquém do que precisamos para dar segurança jurídica”"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Tudo isso que está sendo discutido vai incidir no bolso do consumidor. Esse é o grande problema”"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

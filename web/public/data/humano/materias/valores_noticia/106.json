@@ -1,0 +1,36 @@
+{
+  "id": 106,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Eles reclamam de limites para o acionamento do seguro por produtores que têm várias culturas em uma mesma propriedade."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidente da Associação dos Produtores de Cebola de Santa Catarina, Jelson Gesser disse que o produtor é incentivado a ter uma produção diversificada."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O objetivo é cair para cinco acionamentos entre 2025 e 2026."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Regras mais restritivas de acesso ao seguro desagradaram produtores rurais, mas governo alega uso indevido do programa."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Outras mudanças no programa foram a redução do faturamento mínimo para enquadramento no Proagro de R$ 335 mil para R$ 270 mil por ano;"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Produtor de Santa Catarina cultiva mais do que uma lavoura na propriedade dele."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

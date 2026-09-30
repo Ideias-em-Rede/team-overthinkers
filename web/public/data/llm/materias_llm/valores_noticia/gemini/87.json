@@ -1,0 +1,36 @@
+{
+  "id": 87,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados realizou uma audiência pública para debater o Projeto de Lei Complementar (PLP) nº 12, de 2024, que propõe a regulamentação do trabalho de motoristas de transporte por aplicativo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, presidido pelo Deputado Josenildo (PDT-AP), reuniu representantes do governo, de empresas como Uber, 99 e inDrive, e de diversas associações e sindicatos de motoristas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele argumentou que o modelo visa trazer para a proteção do Estado uma categoria atualmente à margem, oferecendo cobertura completa para benefícios como aposentadoria, auxílio por incapacidade e licença-maternidade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de associações de motoristas, como Denis Moura (AMPAB) e Paulo Xavier (FANMA), manifestaram forte oposição ao projeto."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência também contou com a participação de diversos deputados e permitiu a fala de motoristas e outros representantes não inscritos na mesa, que reforçaram as críticas ao modelo de remuneração e à exclusão do MEI, além de pedirem mais segurança e transparência por parte das plataformas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

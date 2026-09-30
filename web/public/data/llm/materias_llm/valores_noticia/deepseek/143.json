@@ -1,0 +1,36 @@
+{
+  "id": 143,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os deputados presentes, incluindo o vice-presidente da comissão, Celso Russomanno (REPUBLICANOS-SP), reforçaram a gravidade do problema, especialmente para idosos e vulneráveis."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pela deputada Gisela Simona (UNIÃO-MT), autora do requerimento, contou com a participação de representantes do Banco Central do Brasil (BCB), da Federação Brasileira de Bancos (FEBRABAN), de órgãos de defesa do consumidor, do Ministério Público, da Defensoria Pública e da Polícia Civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Rogério Ferreira, delegado da Delegacia Especializada de Defesa do Consumidor de Mato Grosso, apresentou dados alarmantes: o Brasil registrou 103 bilhões de tentativas de crimes cibernéticos em 2022, uma média de cinco tentativas por brasileiro."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ione Amorim, coordenadora de Serviços Financeiros do Instituto Brasileiro de Defesa do Consumidor (IDEC), classificou a situação como uma 'epidemia' de golpes. Ela criticou a responsabilização excessiva do consumidor e a falta de monitoramento efetivo por parte das instituições financeiras."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Mayara Trindade Yano, do Departamento de Competição e Estrutura do Mercado Financeiro do BCB, detalhou os mecanismos de segurança do Pix, incluindo autenticação segura, rastreabilidade e tráfego criptografado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

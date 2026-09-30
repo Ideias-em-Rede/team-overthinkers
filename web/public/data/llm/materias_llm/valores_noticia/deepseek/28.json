@@ -1,0 +1,36 @@
+{
+  "id": 28,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Jorge Braz (REPUBLICANOS-RJ), presidente da comissão e autor de um dos requerimentos que propuseram a discussão."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram presentes como expositores Thomas Paris Caldellas, coordenador da Secretaria de Desenvolvimento Industrial, Inovação, Comércio e Serviços (SDIC/MDIC); Vitor Hugo do Amaral Ferreira, diretor do Departamento de Proteção e Defesa do Consumidor da Secretaria Nacional do Consumidor (SENACON/MJ); Celso Mattos e Marcelo Luiz Dias da Silva Gabriel, representantes do Sindicato da Indústria de Reparação de Veículos e Acessórios (SINDIREPA); e Gilberto Martins, gerente de Assuntos Técnicos da Associação Nacional dos Fabricantes de Veículos Automotores (ANFAVEA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou que a discussão se baseia nos princípios da economia circular e no Código de Defesa do Consumidor (CDC), especialmente no que diz respeito à liberdade de escolha e à informação adequada."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Celso Mattos (SINDIREPA) defendeu o direito do consumidor de escolher onde reparar seu veículo, citando que as concessionárias não conseguem atender toda a demanda existente."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O presidente Jorge Braz fez uma introdução ao tema, contextualizando o movimento internacional 'right to repair' (direito a reparar), que começou nos Estados Unidos em 2017 e já existe em legislações de alguns estados americanos e países europeus há mais de uma década."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou que a discussão se baseia nos princípios da economia circular e no Código de Defesa do Consumidor (CDC), especialmente no que diz respeito à liberdade de escolha e à informação adequada."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

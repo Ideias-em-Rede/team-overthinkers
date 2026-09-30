@@ -1,0 +1,36 @@
+{
+  "id": 182,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A falta de regulação para o cálculo dos reajustes dos planos de saúde coletivos, que prestam serviços a 80% dos usuários"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Junto com os representantes das operadoras e do governo federal, elas participaram de audiência pública da Comissão de Defesa do Consumidor da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O deputado Márcio Marinho (Republicanos-BA) classificou o aumento de abusivo, salientando que, muitas vezes, o consumidor deixa de comprar comida e roupa para pagar as mensalidades"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Órgãos de defesa do consumidor reclamam que não há poder de barganha nessa negociação e que falta também transparência nas explicações sobre a base de cálculo dos aumentos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi feita a partir de denúncias recebidas pela comissão questionando o reajuste de 9,63% autorizado para os planos individuais a partir de maio deste ano e válido até 2024"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

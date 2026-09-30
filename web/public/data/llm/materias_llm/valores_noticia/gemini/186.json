@@ -1,0 +1,36 @@
+{
+  "id": 186,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "o colapso climático em curso tem consequências duras nas favelas, periferias e no campo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela deputada Talíria Petrone (PSOL-RJ), contou com a participação de parlamentares e representantes da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o colapso climático em curso tem consequências duras nas favelas, periferias e no campo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Maria de Jesus denunciou o desmatamento e as queimadas causadas pelo agronegócio como responsáveis pelos desastres"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o Projeto de Lei nº 83, de 2022, que propõe a criação de um auxílio emergencial para pessoas afetadas por secas e enchentes"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

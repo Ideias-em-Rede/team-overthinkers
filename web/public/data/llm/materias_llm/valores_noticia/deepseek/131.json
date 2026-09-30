@@ -1,0 +1,36 @@
+{
+  "id": 131,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Fiscalização Financeira e Controle da Câmara dos Deputados realizou, nesta terça-feira, audiência pública para debater a renegociação do contrato de concessão das rodovias BR-324 e BR-116, no estado da Bahia"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi presidido pelo deputado Jorge Solla (PT-BA) e contou com a participação de representantes da ViaBahia, do Tribunal de Contas da União (TCU), da Agência Nacional de Transportes Terrestres (ANTT), do Ministério dos Transportes e da Secretaria de Infraestrutura do Estado da Bahia (SEINFRA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O investimento total previsto é de R$ 11,8 bilhões, com geração de aproximadamente 30 mil postos de trabalho diretos e indiretos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os deputados Jorge Solla e Rogéria Santos (Republicanos-BA) questionaram os representantes sobre o grau de consenso já alcançado na proposta, o cronograma de investimentos, as estimativas de reajuste de pedágios, a garantia de cumprimento do novo acordo e a possibilidade de divulgação do documento"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele detalhou o procedimento de solução consensual, estabelecido por norma de dezembro de 2022, que tem prazos de 90 dias, prorrogáveis por mais 30, para que uma comissão designada pelo TCU chegue a uma proposta de solução"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A proposta também contempla um conjunto de obras adicionais para melhorar a fluidez e a segurança do tráfego, como um novo acesso ao Aeroporto de Vitória da Conquista, a duplicação do contorno de Vitória da Conquista, a implantação de um novo anel viário em Feira de Santana, a construção de retornos operacionais em várias localidades, a duplicação de um viaduto na entrada de Salvador, a construção de áreas de escape de segurança para caminhões, três áreas de descanso para caminhoneiros, uma passarela e a substituição da ponte sobre o Rio Pardo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

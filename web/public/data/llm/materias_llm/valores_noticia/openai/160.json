@@ -1,0 +1,36 @@
+{
+  "id": 160,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou, na tarde desta quarta-feira, uma audiência pública semipresencial para debater a inclusão escolar das pessoas com deficiência e os desafios de sua implementação."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Mesa contou com representantes do Executivo, do terceiro setor, movimentos de pessoas com deficiência, pesquisadores e autodefensores: Décio Nascimento Guimarães (Diretor de Políticas de Educação Especial na Perspectiva Inclusiva do MEC), Vinícius Ergang Streda (autodefensor pela Federação Brasileira das Associações de Síndrome de Down), o professor Pedro Lucas Costa, Luciana Viegas (Coalizão Brasileira pela Educação Inclusiva e ABRAÇA), Marinalva Silva Oliveira (LIMDA/UFRJ), Joaquim Emanuel Barbosa (presidente da ABRASSO), Tatiana Sampaio Paixão (Instituto Jô Clemente), Anna Paula Feminella (Secretária Nacional dos Direitos da Pessoa com Deficiência) e Cléo Bohn (Federação Brasileira das Associações de Síndrome de Down)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Citou dados apontados à audiência: em 2022, segundo a PNAD Contínua, o percentual de alunos com deficiência matriculados em classes comuns chegou a 99% em todas as etapas, exceto na educação de jovens e adultos, e o número de crianças com deficiência na educação infantil regular dobrou de 2006 a 2022."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Marinalva Silva Oliveira (pesquisadora e mãe) apresentou análise política: identificou disputa entre projeto segregacionista apoiado por parcerias público-privadas e projeto de inclusão sob responsabilidade do Estado; criticou repasses do setor público a iniciativas que promovem segregação e pediu defesa da escola regular pública como espaço de inclusão."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou, na tarde desta quarta-feira, uma audiência pública semipresencial para debater a inclusão escolar das pessoas com deficiência e os desafios de sua implementação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

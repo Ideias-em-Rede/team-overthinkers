@@ -1,0 +1,36 @@
+{
+  "id": 166,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "todos os cidadãos brasileiros já estão cadastrados em uma blockchain desde 2018"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a tecnologia pode melhorar serviços, aumentar a eficiência administrativa e a confiança no governo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "a imutabilidade da tecnologia, uma de suas principais características, pode entrar em conflito com o direito do cidadão à correção e eliminação de dados"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "pagamento de IPTU com criptoativos e um projeto para utilizar drones com imagens certificadas em blockchain"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a tecnologia oferece uma oportunidade para aumentar a transparência, combater a corrupção e tornar a administração pública mais eficiente"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

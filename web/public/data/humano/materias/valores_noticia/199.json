@@ -1,0 +1,36 @@
+{
+  "id": 199,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A pandemia de Covid-19 mostrou a vulnerabilidade do nosso País frente a tecnologias [de saúde], algumas complexas, como as vacinas, e outras muito simples, como luvas e máscaras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A ministra da Saúde, Nísia Trindade, defendeu nesta quarta-feira (9) a autossuficiência na produção de insumos para a saúde"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os deputados manifestaram preocupação, principalmente, com a compra da insulina."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Carlos Jordy (PL-RJ) reconheceu a situação, mas disse que o governo não quer assumir a sua responsabilidade."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Nísia Trindade informou, após questionamento do deputado Evair Vieira de Melo (PP-ES), que o laboratório japonês Takeda entrou com pedido de incorporação ao SUS da vacina para prevenção da dengue."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Adriana Ventura (Novo-SP) questionou a qualidade do produto adquirido, que veio de uma empresa chinesa (Globalx Technology) que não tem registro junto à Agência Nacional de Vigilância Sanitária (Anvisa)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

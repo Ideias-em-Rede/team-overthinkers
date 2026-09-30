@@ -1,0 +1,36 @@
+{
+  "id": 120,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Minas Gerais e Pará respondendo por 88% dessa produção"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "representantes do Ministério do Trabalho, do Ministério Público do Trabalho, de federações e sindicatos de trabalhadores da mineração"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impactos de mudanças nas legislações trabalhista e previdenciária e a precarização do setor"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas a propostas que poderiam reduzir garantias de saúde e segurança do trabalho na mineração"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater condições de trabalho na mineração brasileira, saúde dos trabalhadores"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

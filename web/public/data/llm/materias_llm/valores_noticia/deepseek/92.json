@@ -1,0 +1,36 @@
+{
+  "id": 92,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O tema do debate foi 'Recomendações para o aperfeiçoamento da política do aprendiz no nosso País'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Felipe Rigoni (UNIÃO-ES), a sessão começou com a aprovação da ata da reunião anterior e de um requerimento do deputado Marco Bertaiolli que pedia a participação de dois convidados na audiência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu que o projeto é de suma importância, mas precisa de ajustes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele alertou que algumas mudanças no projeto podem causar danos ao sistema, como a redução da alíquota de cálculo da cota, o aumento do prazo do contrato e a previsão de contagem em dobro de aprendizes em situação de vulnerabilidade, que classificou como 'discriminatória'."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida pelo portal e-Democracia da Câmara dos Deputados."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

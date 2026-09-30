@@ -1,0 +1,36 @@
+{
+  "id": 24,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de associações de professores e entidades educacionais relataram reduções na carga horária dessas disciplinas em vários estados, como São Paulo, Rio de Janeiro, Paraná e Goiás"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes de associações de professores, entidades educacionais, Ministério da Educação, Ministério dos Direitos Humanos e da Cidadania, Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), além de parlamentares e estudantes"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os participantes destacaram o papel fundamental das disciplinas de filosofia e sociologia na formação crítica dos estudantes e no combate às desigualdades"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A deputada Luciene Cavalcante afirmou que a educação tem um projeto de sociedade e que a disputa curricular reflete a escolha entre uma sociedade emancipatória ou a reprodução do status quo"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Estudantes presentes denunciaram a precarização do ensino e a falta de perspectivas para ingressar no ensino superior, citando a inclusão de itinerários formativos com aulas de 'bolo de pote' e 'origami' em detrimento de conhecimentos científicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 164,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "1.113 municípios, com quase 30 milhões de habitantes, em situação de precariedade contratual"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Desenvolvimento Urbano da Câmara dos Deputados realizou uma audiência pública para debater o marco regulatório do saneamento básico no Brasil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "universalizar o acesso aos serviços"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles criticaram o que consideram um direcionamento do marco legal para a privatização forçada e o uso de recursos de bancos públicos para estruturar concessões privadas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "um novo decreto (nº 11.598/2023) ampliou o prazo para que prestadores de serviço comprovem sua capacidade econômico-financeira"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "discutir os caminhos para acelerar os investimentos e universalizar o acesso aos serviços"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 86,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateu propostas de prevenção, resposta imediata e instrumentos de financiamento para mitigar os impactos de eventos climáticos extremos no País"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência reuniu representantes do setor segurador, ressegurador, institutos de pesquisa e organismos internacionais"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "proposta de um mecanismo de seguro de catástrofe que cobraria um valor estimado de R$ 3 por mês por residência via conta de energia elétrica e pagaria, em caso de decretação de estado de emergência ou calamidade e delimitação da área afetada pelo Município, um valor imediato de R$ 15 mil por unidade residencial atingida, além de R$ 5 mil por vítima fatal"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "proposta de um mecanismo de seguro de catástrofe que cobraria um valor estimado de R$ 3 por mês por residência via conta de energia elétrica"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu propostas de prevenção, resposta imediata e instrumentos de financiamento para mitigar os impactos de eventos climáticos extremos no País"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}
