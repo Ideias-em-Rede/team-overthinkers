@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Frontend build artifacts
+web/vite.config.js
+web/vite.config.d.ts
+web/*.tsbuildinfo
+
 # Distribution / packaging
 .Python
 build/
