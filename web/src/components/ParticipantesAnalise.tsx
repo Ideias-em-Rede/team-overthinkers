@@ -137,8 +137,8 @@ function classifyGroup(
 }
 
 const URL_MATERIA_BY_EDITOR = {
-  humano: (id: number) => `/data/participantes_materia/${id}.json`,
-  llm: (id: number) => `/data/participantes_materia_llm/${id}.json`,
+  humano: (id: number) => `${import.meta.env.BASE_URL}data/participantes_materia/${id}.json`,
+  llm: (id: number) => `${import.meta.env.BASE_URL}data/participantes_materia_llm/${id}.json`,
 };
 
 export default function ParticipantesAnalise({ materiaId, editor, embedded = false }: Props) {
@@ -149,7 +149,7 @@ export default function ParticipantesAnalise({ materiaId, editor, embedded = fal
   useEffect(() => {
     setStatus("loading");
     Promise.all([
-      fetch(`/data/participantes_transcricao/${materiaId}.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/participantes_transcricao/${materiaId}.json`).then((r) =>
         r.ok ? r.json() : null
       ),
       fetch(URL_MATERIA_BY_EDITOR[editor](materiaId)).then((r) =>

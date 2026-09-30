@@ -41,8 +41,8 @@ interface Props {
 }
 
 const BASE_URL_BY_SOURCE = {
-  humano: "/data/valores_noticia",
-  llm: "/data/valores_noticia_llm",
+  humano: import.meta.env.BASE_URL + "data/valores_noticia",
+  llm: import.meta.env.BASE_URL + "data/valores_noticia_llm",
 };
 
 export default function ValoresNoticia({

@@ -19,8 +19,8 @@ export default function MateriasList() {
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/index.json").then((r) => r.json() as Promise<MateriaIndex[]>),
-      fetch("/data/humano/transcricoes/temas/temas_audiencias.json")
+      fetch(import.meta.env.BASE_URL + "data/index.json").then((r) => r.json() as Promise<MateriaIndex[]>),
+      fetch(import.meta.env.BASE_URL + "data/humano/transcricoes/temas/temas_audiencias.json")
         .then((r) => (r.ok ? (r.json() as Promise<TemasMap>) : ({} as TemasMap))),
     ]).then(([base, temas]) => {
       const enriched: EnrichedMateria[] = base.map((m) => {

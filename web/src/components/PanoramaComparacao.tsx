@@ -32,17 +32,17 @@ type GatekeepersBySource = Record<Source, GatekeeperRow[]>;
 type EnvolvidosBySource = Record<Source, MateriaEnvolvidosEntry[]>;
 
 const GK_PATHS: Record<Source, string> = {
-  humano: "/data/humano/gatekeepers/gatekeepers.json",
-  deepseek: "/data/llm/gatekeepers/deepseek/gatekeepers.json",
-  gemini: "/data/llm/gatekeepers/gemini/gatekeepers.json",
-  openai: "/data/llm/gatekeepers/openai/gatekeepers.json",
+  humano: import.meta.env.BASE_URL + "data/humano/gatekeepers/gatekeepers.json",
+  deepseek: import.meta.env.BASE_URL + "data/llm/gatekeepers/deepseek/gatekeepers.json",
+  gemini: import.meta.env.BASE_URL + "data/llm/gatekeepers/gemini/gatekeepers.json",
+  openai: import.meta.env.BASE_URL + "data/llm/gatekeepers/openai/gatekeepers.json",
 };
 
 const ENV_PATHS: Record<Source, string> = {
-  humano: "/data/humano/materias/participantes/participantes.json",
-  deepseek: "/data/llm/materias_llm/participantes/deepseek/participantes.json",
-  gemini: "/data/llm/materias_llm/participantes/gemini/participantes.json",
-  openai: "/data/llm/materias_llm/participantes/openai/participantes.json",
+  humano: import.meta.env.BASE_URL + "data/humano/materias/participantes/participantes.json",
+  deepseek: import.meta.env.BASE_URL + "data/llm/materias_llm/participantes/deepseek/participantes.json",
+  gemini: import.meta.env.BASE_URL + "data/llm/materias_llm/participantes/gemini/participantes.json",
+  openai: import.meta.env.BASE_URL + "data/llm/materias_llm/participantes/openai/participantes.json",
 };
 
 export default function PanoramaComparacao() {
@@ -63,14 +63,14 @@ export default function PanoramaComparacao() {
     );
 
     Promise.all([
-      fetchJson<ValoresPorMateriaMap>("/data/humano/materias/valores_noticia_all.json"),
-      fetchJson<ValoresPorMateriaMap>("/data/llm/materias_llm/valores_noticia_all/deepseek.json"),
-      fetchJson<ValoresPorMateriaMap>("/data/llm/materias_llm/valores_noticia_all/gemini.json"),
-      fetchJson<ValoresPorMateriaMap>("/data/llm/materias_llm/valores_noticia_all/openai.json"),
-      fetchJson<PanoramaFile>("/data/humano/panorama/panorama.json"),
-      fetchJson<PanoramaFile>("/data/llm/panorama/deepseek/panorama.json"),
-      fetchJson<PanoramaFile>("/data/llm/panorama/gemini/panorama.json"),
-      fetchJson<PanoramaFile>("/data/llm/panorama/openai/panorama.json"),
+      fetchJson<ValoresPorMateriaMap>(import.meta.env.BASE_URL + "data/humano/materias/valores_noticia_all.json"),
+      fetchJson<ValoresPorMateriaMap>(import.meta.env.BASE_URL + "data/llm/materias_llm/valores_noticia_all/deepseek.json"),
+      fetchJson<ValoresPorMateriaMap>(import.meta.env.BASE_URL + "data/llm/materias_llm/valores_noticia_all/gemini.json"),
+      fetchJson<ValoresPorMateriaMap>(import.meta.env.BASE_URL + "data/llm/materias_llm/valores_noticia_all/openai.json"),
+      fetchJson<PanoramaFile>(import.meta.env.BASE_URL + "data/humano/panorama/panorama.json"),
+      fetchJson<PanoramaFile>(import.meta.env.BASE_URL + "data/llm/panorama/deepseek/panorama.json"),
+      fetchJson<PanoramaFile>(import.meta.env.BASE_URL + "data/llm/panorama/gemini/panorama.json"),
+      fetchJson<PanoramaFile>(import.meta.env.BASE_URL + "data/llm/panorama/openai/panorama.json"),
       Promise.all(perSourceGk),
       Promise.all(perSourceEnv),
     ]).then(

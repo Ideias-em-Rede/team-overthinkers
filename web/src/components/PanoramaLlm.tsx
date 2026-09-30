@@ -58,19 +58,19 @@ export default function PanoramaLlm() {
   useEffect(() => {
     const fetchOne = async (p: Provider): Promise<ProviderData> => {
       const [gk, pn, env, val] = await Promise.all([
-        fetch(`/data/llm/gatekeepers/${p}/gatekeepers.json`).then((r) =>
+        fetch(`${import.meta.env.BASE_URL}data/llm/gatekeepers/${p}/gatekeepers.json`).then((r) =>
           r.ok ? (r.json() as Promise<GatekeeperRow[]>) : []
         ),
-        fetch(`/data/llm/panorama/${p}/panorama.json`).then((r) =>
+        fetch(`${import.meta.env.BASE_URL}data/llm/panorama/${p}/panorama.json`).then((r) =>
           r.ok ? (r.json() as Promise<PanoramaFile>) : null
         ),
         fetch(
-          `/data/llm/materias_llm/participantes/${p}/participantes.json`
+          `${import.meta.env.BASE_URL}data/llm/materias_llm/participantes/${p}/participantes.json`
         ).then((r) =>
           r.ok ? (r.json() as Promise<MateriaEnvolvidosEntry[]>) : []
         ),
         fetch(
-          `/data/llm/materias_llm/valores_noticia_all/${p}.json`
+          `${import.meta.env.BASE_URL}data/llm/materias_llm/valores_noticia_all/${p}.json`
         ).then((r) =>
           r.ok ? (r.json() as Promise<ValoresPorMateriaMap>) : null
         ),

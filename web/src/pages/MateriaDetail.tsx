@@ -83,38 +83,38 @@ export default function MateriaDetail() {
     setLlmSelected("deepseek");
 
     const fetchLlm = (provider: LlmProvider) =>
-      fetch(`/data/llm/materias_llm/${provider}/${id}.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/llm/materias_llm/${provider}/${id}.json`).then((r) =>
         r.ok ? (r.json() as Promise<MateriaLlmFile>) : null
       );
 
     const fetchLlmValores = (provider: LlmProvider) =>
-      fetch(`/data/llm/materias_llm/valores_noticia/${provider}/${id}.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/llm/materias_llm/valores_noticia/${provider}/${id}.json`).then((r) =>
         r.ok ? (r.json() as Promise<ValoresNoticiaFile>) : null
       );
 
     const fetchLlmGatekeepers = (provider: LlmProvider) =>
-      fetch(`/data/llm/gatekeepers/${provider}/gatekeepers.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/llm/gatekeepers/${provider}/gatekeepers.json`).then((r) =>
         r.ok ? (r.json() as Promise<GatekeeperRow[]>) : []
       );
 
     Promise.all([
-      fetch(`/data/humano/materias/materias/${id}.json`).then((r) => {
+      fetch(`${import.meta.env.BASE_URL}data/humano/materias/materias/${id}.json`).then((r) => {
         if (!r.ok) throw new Error(`Matéria #${id} não encontrada`);
         return r.json() as Promise<MateriaDetailT>;
       }),
-      fetch(`/data/humano/materias/valores_noticia/${id}.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/humano/materias/valores_noticia/${id}.json`).then((r) =>
         r.ok ? (r.json() as Promise<ValoresNoticiaFile>) : Promise.reject(new Error("valores_noticia ausente"))
       ),
-      fetch(`/data/humano/materias/participantes/participantes.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/humano/materias/participantes/participantes.json`).then((r) =>
         r.ok ? (r.json() as Promise<MateriaEnvolvidosEntry[]>) : Promise.resolve([] as MateriaEnvolvidosEntry[])
       ),
-      fetch(`/data/humano/transcricoes/resumo/resumo_transcricao.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/humano/transcricoes/resumo/resumo_transcricao.json`).then((r) =>
         r.ok ? (r.json() as Promise<ResumoTranscricaoMap>) : Promise.resolve({} as ResumoTranscricaoMap)
       ),
-      fetch(`/data/humano/transcricoes/temas/temas_audiencias.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/humano/transcricoes/temas/temas_audiencias.json`).then((r) =>
         r.ok ? (r.json() as Promise<TemasMap>) : Promise.resolve({} as TemasMap)
       ),
-      fetch(`/data/humano/gatekeepers/gatekeepers.json`).then((r) =>
+      fetch(`${import.meta.env.BASE_URL}data/humano/gatekeepers/gatekeepers.json`).then((r) =>
         r.ok ? (r.json() as Promise<GatekeeperRow[]>) : Promise.resolve([] as GatekeeperRow[])
       ),
       fetchLlm("deepseek").catch(() => null),

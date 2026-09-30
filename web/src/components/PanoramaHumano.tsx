@@ -132,16 +132,16 @@ export default function PanoramaHumano({
   const [valoresPorMateria, setValoresPorMateria] = useState<ValoresPorMateriaMap | null>(null);
 
   useEffect(() => {
-    fetch("/data/index.json").then((r) => r.json()).then(setIndex);
-    fetch("/data/humano/transcricoes/temas/temas_audiencias.json")
+    fetch(import.meta.env.BASE_URL + "data/index.json").then((r) => r.json()).then(setIndex);
+    fetch(import.meta.env.BASE_URL + "data/humano/transcricoes/temas/temas_audiencias.json")
       .then((r) => r.json()).then(setTemas);
-    fetch("/data/humano/gatekeepers/gatekeepers.json")
+    fetch(import.meta.env.BASE_URL + "data/humano/gatekeepers/gatekeepers.json")
       .then((r) => r.json()).then(setGatekeepers);
-    fetch("/data/humano/materias/participantes/participantes.json")
+    fetch(import.meta.env.BASE_URL + "data/humano/materias/participantes/participantes.json")
       .then((r) => r.json()).then(setEnvolvidos);
-    fetch("/data/humano/panorama/panorama.json")
+    fetch(import.meta.env.BASE_URL + "data/humano/panorama/panorama.json")
       .then((r) => r.json()).then(setPanorama);
-    fetch("/data/humano/materias/valores_noticia_all.json")
+    fetch(import.meta.env.BASE_URL + "data/humano/materias/valores_noticia_all.json")
       .then((r) => r.json()).then(setValoresPorMateria);
   }, []);
 
