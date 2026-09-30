@@ -31,7 +31,7 @@ git clone [https://github.com/Ideias-em-Rede/team-overthinkers.git](https://gith
 cd team-overthinkers
 ```
 
-**2. Instalar as dependências:**
+**2. Instalar as Dependências:**
 ```bash
 pip install -r requirements.txt
 ```
