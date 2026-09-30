@@ -1,20 +1,15 @@
-import argparse
 import json
 import os
 import re
-import sys
 import time
 from pathlib import Path
 
 from openai import OpenAI
-from dotenv import load_dotenv
 
 
 # ============================================================
 # CONFIGURAÇÕES
 # ============================================================
-
-ROOT = Path(__file__).resolve().parent.parent
 
 DATASET = "dataset/PublicHearingBR_LDS.jsonl"
 CAMPO_TEXTO = "materia"
@@ -22,21 +17,19 @@ MODEL = "deepseek-ai/DeepSeek-V3.2"
 
 OUTPUT_PATH = Path("dataset/noticias_reorganizadas/noticias.json")
 
-GENERATORS = ["openai", "gemini", "deepseek"]
-
 MAX_TENTATIVAS = 5
 TEMPO_ESPERA = 3
 
-load_dotenv()
+
 # ============================================================
 # CLIENTE DEEPINFRA
 # ============================================================
 
-DEEPINFRA_TOKEN = os.getenv("DEEPINFRA_API_KEY")
+DEEPINFRA_TOKEN = os.getenv("DEEPINFRA_TOKEN")
 
 if not DEEPINFRA_TOKEN:
     raise EnvironmentError(
-        "A variável de ambiente DEEPINFRA_API_KEY não foi definida."
+        "A variável de ambiente DEEPINFRA_TOKEN não foi definida."
     )
 
 client = OpenAI(
@@ -348,123 +341,7 @@ def normalizar_estrutura(
 
 
 # ============================================================
-# RESOLUÇÃO DE FONTE (humano / llm)
-# ============================================================
-
-def resolve_pipeline(
-    source: str,
-    generator: str | None,
-) -> tuple[list[dict], Path, str]:
-    """
-    Retorna (entradas, output_path, label) para o pipeline atual.
-
-    Cada entrada é normalizada para {"id": int, "texto": str},
-    independentemente da fonte, para que o loop principal seja o mesmo.
-    """
-
-    if source == "humano":
-
-        cruas = carregar_noticias(DATASET)
-
-        entradas = [
-            {"id": row["id"], "texto": row[CAMPO_TEXTO]}
-            for row in cruas
-        ]
-
-        return entradas, OUTPUT_PATH, "humano"
-
-    if source == "llm":
-
-        if not generator:
-            raise ValueError(
-                "--generator é obrigatório quando --source=llm"
-            )
-
-        entrada_dir = (
-            ROOT
-            / "web"
-            / "public"
-            / "data"
-            / "llm"
-            / "materias_llm"
-            / generator
-        )
-
-        if not entrada_dir.exists():
-            raise FileNotFoundError(
-                f"Diretório de matérias LLM não encontrado: {entrada_dir}"
-            )
-
-        entradas: list[dict] = []
-
-        arquivos = sorted(
-            entrada_dir.glob("*.json"),
-            key=lambda p: int(p.stem),
-        )
-
-        for path in arquivos:
-
-            try:
-                dados = json.loads(
-                    path.read_text(encoding="utf-8")
-                )
-
-            except json.JSONDecodeError as erro:
-
-                print(
-                    f"[AVISO] Arquivo {path} ignorado: "
-                    f"JSON inválido. Erro: {erro}"
-                )
-                continue
-
-            if "id" not in dados or "materia_llm" not in dados:
-
-                print(
-                    f"[AVISO] Arquivo {path} ignorado: "
-                    "não possui campos 'id' e 'materia_llm'."
-                )
-                continue
-
-            entradas.append(
-                {"id": dados["id"], "texto": dados["materia_llm"]}
-            )
-
-        output_path = (
-            ROOT
-            / "web"
-            / "public"
-            / "data"
-            / "llm"
-            / "materias_llm"
-            / "participantes"
-            / generator
-            / "participantes.json"
-        )
-
-        return entradas, output_path, f"llm/{generator}"
-
-    raise ValueError(
-        f"Fonte inválida: {source}. Use 'humano' ou 'llm'."
-    )
-
-
-def resolve_generators(arg: str) -> list[str]:
-    if arg == "all":
-        return list(GENERATORS)
-
-    nomes = [g.strip() for g in arg.split(",") if g.strip()]
-
-    desconhecidos = [n for n in nomes if n not in GENERATORS]
-    if desconhecidos:
-        sys.exit(
-            f"Generator(es) desconhecido(s): {', '.join(desconhecidos)}"
-        )
-
-    return nomes
-
-
-# ============================================================
-# LEITURA DO DATASET (humano)
+# LEITURA DO DATASET
 # ============================================================
 
 def carregar_noticias(path: str) -> list[dict]:
@@ -626,23 +503,22 @@ def salvar_resultado(
 # MAIN
 # ============================================================
 
-def processar_pipeline(source: str, generator: str | None) -> None:
+def main():
 
     print("=" * 70)
-    print(f"ESTRUTURAÇÃO DAS NOTÍCIAS · source={source}"
-          + (f" · generator={generator}" if generator else ""))
+    print("ESTRUTURAÇÃO DAS NOTÍCIAS")
     print("=" * 70)
 
-    noticias, output_path, label = resolve_pipeline(source, generator)
+    noticias = carregar_noticias(DATASET)
 
     print(
-        f"\nTotal de notícias encontradas ({label}): {len(noticias)}"
+        f"\nTotal de notícias encontradas no dataset: {len(noticias)}"
     )
 
     if not noticias:
 
         raise ValueError(
-            f"Nenhuma notícia válida foi encontrada para {label}."
+            "Nenhuma notícia válida foi encontrada no dataset."
         )
 
     # --------------------------------------------------------
@@ -650,7 +526,7 @@ def processar_pipeline(source: str, generator: str | None) -> None:
     # --------------------------------------------------------
 
     resultados, ids_processados = carregar_resultados_existentes(
-        output_path
+        OUTPUT_PATH
     )
 
     if ids_processados:
@@ -677,7 +553,7 @@ def processar_pipeline(source: str, generator: str | None) -> None:
         )
 
         print(
-            f"Arquivo: {output_path}"
+            f"Arquivo: {OUTPUT_PATH}"
         )
 
         return
@@ -691,7 +567,7 @@ def processar_pipeline(source: str, generator: str | None) -> None:
     for indice, row in enumerate(restantes, start=1):
 
         target_id = row["id"]
-        texto_noticia = row["texto"]
+        texto_noticia = row[CAMPO_TEXTO]
 
         print(
             f"\n[{indice}/{total_restante}] "
@@ -727,7 +603,7 @@ def processar_pipeline(source: str, generator: str | None) -> None:
 
             salvar_resultado(
                 resultados,
-                output_path
+                OUTPUT_PATH
             )
 
             print(
@@ -766,7 +642,7 @@ def processar_pipeline(source: str, generator: str | None) -> None:
 
             salvar_resultado(
                 resultados,
-                output_path
+                OUTPUT_PATH
             )
 
             print(
@@ -798,47 +674,13 @@ def processar_pipeline(source: str, generator: str | None) -> None:
     )
 
     print("\n" + "=" * 70)
-    print(f"PROCESSAMENTO FINALIZADO · {label}")
+    print("PROCESSAMENTO FINALIZADO")
     print("=" * 70)
 
     print(f"Total no dataset: {len(noticias)}")
     print(f"Processadas com sucesso: {sucessos}")
     print(f"Com erro: {erros}")
-    print(f"Arquivo salvo em: {output_path}")
-
-
-def main() -> None:
-
-    parser = argparse.ArgumentParser(
-        description="Estrutura notícias em JSON (envolvidos, opiniões, "
-        "posição no texto). Suporta matérias humanas ou geradas por LLM."
-    )
-
-    parser.add_argument(
-        "--source",
-        default="humano",
-        choices=["humano", "llm"],
-        help="Fonte a processar (default: humano)",
-    )
-
-    parser.add_argument(
-        "--generator",
-        default=None,
-        help="Só para --source llm: gerador (openai, gemini, deepseek), "
-        "lista separada por vírgula, ou 'all'.",
-    )
-
-    args = parser.parse_args()
-
-    if args.source == "humano":
-        processar_pipeline("humano", None)
-        return
-
-    if not args.generator:
-        sys.exit("--generator é obrigatório quando --source=llm")
-
-    for gen in resolve_generators(args.generator):
-        processar_pipeline("llm", gen)
+    print(f"Arquivo salvo em: {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1444 @@
+{
+    "1": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X",
+      "quantidade_total_participantes": 17,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 11.76
+    },
+    "2": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Envio de projetos de lei para diminuir custos da energia para o consumidor e tratar da transição energética no setor de transportes",
+      "quantidade_total_participantes": 25,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 4.0
+    },
+    "3": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Discussão sobre a substituição do saque-aniversário do FGTS por uma nova modalidade de crédito consignado",
+      "quantidade_total_participantes": 17,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 17.65
+    },
+    "4": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Trabalho da Anatel com operadoras de telefonia para evitar pane em São Paulo após temporal e discussão sobre a modernização das leis de telecomunicações",
+      "quantidade_total_participantes": 3,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "5": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Cumprimento dos direitos das pessoas com autismo",
+      "quantidade_total_participantes": 17,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 58.82
+    },
+    "6": {
+      "tema": "Economia",
+      "assunto": "Suspensão de passagens promocionais pela 123milhas devido a previsões de preços não cumpridas e recuperação judicial da empresa",
+      "quantidade_total_participantes": 23,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 13.04
+    },
+    "7": {
+      "tema": "Economia",
+      "assunto": "Regulamentação da reforma tributária",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "8": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Regulação do mercado de criptomoedas no Brasil",
+      "quantidade_total_participantes": 4,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "9": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Debate sobre a exigência de certidão negativa de antecedentes criminais para cuidadores de pessoas idosas",
+      "quantidade_total_participantes": 5,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 60.0
+    },
+    "10": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Substituição do saque-aniversário do FGTS por empréstimo consignado com juros mais baixos",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "11": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Alertas de seca severa e riscos de desertificação no Nordeste brasileiro",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 22.22
+    },
+    "12": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Violações de direitos de mulheres com deficiência",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 71.43
+    },
+    "13": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Cobrança à Justiça para destravar a renegociação com mineradoras sobre reparação em Mariana",
+      "quantidade_total_participantes": 18,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 27.78
+    },
+    "14": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Reparações do crime socioambiental da Braskem em Maceió",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 27.27
+    },
+    "15": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Obrigatoriedade da vacinação contra Covid-19 em crianças de 6 meses a 5 anos a partir de 2024",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 13.33
+    },
+    "16": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Debate sobre denúncias envolvendo o custeio de viagem de Luciane Barbosa Farias e questões relacionadas aos direitos humanos",
+      "quantidade_total_participantes": 25,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 12.0
+    },
+    "17": {
+      "tema": "Política e instituições",
+      "assunto": "Debate sobre ativismo judicial na Câmara dos Deputados",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 8.33
+    },
+    "18": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Pedido de aporte adicional de R$ 150 milhões para financiar a formação de professores através do Pibid",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 50.0
+    },
+    "19": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Criação de grupo de trabalho para estudar proposta de redução da velocidade média nas vias urbanas",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 10.0
+    },
+    "20": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "União de povos originários e tradicionais para evitar perda de direitos",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 50.0
+    },
+    "21": {
+      "tema": "Economia",
+      "assunto": "Possível privatização do controle das loterias da Caixa Econômica Federal",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 46.67
+    },
+    "22": {
+      "tema": "Economia",
+      "assunto": "Necessidade de mais regulamentação do e-commerce, especialmente para importações",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "23": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Medidas para incentivar o uso do biometano na matriz energética brasileira",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "24": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Defesa do ensino de filosofia e sociologia na rede pública",
+      "quantidade_total_participantes": 17,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 35.29
+    },
+    "25": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Urgência para socorrer produtores do norte de Minas Gerais devido à seca sem precedentes",
+      "quantidade_total_participantes": 27,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 11.11
+    },
+    "26": {
+      "tema": "Economia",
+      "assunto": "Inclusão da economia do cuidado no cálculo do PIB",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 87.5
+    },
+    "27": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Uso da inteligência artificial no processo eleitoral e suas possíveis consequências",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 9.09
+    },
+    "28": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Reivindicação de uma lei sobre equipamentos e softwares para diagnóstico e reparo de veículos",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 14.29
+    },
+    "29": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Medidas para reduzir mortes violentas de jovens negros",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 31.25
+    },
+    "30": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Inclusão de emendas na LDO para combater violência contra crianças e adolescentes",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 42.86
+    },
+    "31": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Transformação do Plano Nacional de Formação de Professores da Educação Básica (Parfor) em política de Estado",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 9,
+      "porcentagem_mulheres": 64.29
+    },
+    "32": {
+      "tema": "Relações internacionais e migração",
+      "assunto": "Obstáculos para acolhimento de migrantes no Brasil",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 58.33
+    },
+    "33": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Defesa da obrigatoriedade do diploma de jornalismo como medida contra a desinformação e notícias falsas",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 28.57
+    },
+    "34": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Impactos nocivos da alta exposição às redes sociais na saúde mental de jovens",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 63.64
+    },
+    "35": {
+      "tema": "Política e instituições",
+      "assunto": "Sugestões para a minirreforma eleitoral, incluindo prazo maior para registro de candidaturas e regras para campanhas na internet",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 26.67
+    },
+    "36": {
+      "tema": "Economia",
+      "assunto": "Regulação econômica dos serviços de praticagem no Brasil",
+      "quantidade_total_participantes": 19,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 10.53
+    },
+    "37": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Solicitação de mais orçamento e estrutura para atletas com deficiência",
+      "quantidade_total_participantes": 5,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 20.0
+    },
+    "38": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Defesa de tributação especial para a cadeia do vinho no Brasil",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 20.0
+    },
+    "39": {
+      "tema": "Política e instituições",
+      "assunto": "Debate sobre a interpretação do artigo 142 da Constituição e o papel das Forças Armadas como 'poder moderador'",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 12.5
+    },
+    "40": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Políticas públicas para levar artes marciais às escolas brasileiras",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 8.33
+    },
+    "41": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Aprovação da Convenção Interamericana sobre a Proteção dos Direitos Humanos dos Idosos",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 37.5
+    },
+    "42": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Aprovação da PEC 25/23 que estabelece tarifa zero no transporte público",
+      "quantidade_total_participantes": 21,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 33.33
+    },
+    "43": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Debate sobre mudanças no sistema de proteção social dos militares e os efeitos da Lei 13.954/19",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 22.22
+    },
+    "44": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Exploração de petróleo na Margem Equatorial, próxima à foz do Rio Amazonas",
+      "quantidade_total_participantes": 18,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 16.67
+    },
+    "45": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Retomada da reforma agrária pelo governo Lula e discussões na CPI do MST",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 23.08
+    },
+    "46": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Aplicação de recursos do Fust para conectar o meio rural à internet",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 25.0
+    },
+    "47": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Melhoria no cenário cultural com a implantação da Lei Paulo Gustavo",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 22.22
+    },
+    "48": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Discussão sobre o Projeto de Lei 580/07 e a regulamentação da união homoafetiva",
+      "quantidade_total_participantes": 18,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 44.44
+    },
+    "49": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Estudo da ANTT para estender a concessão da BR-101 em Santa Catarina para incluir a construção de túneis e conter deslizamentos",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 25.0
+    },
+    "50": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Atualização de protocolos de tratamento para HIV/aids e hepatites virais",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 44.44
+    },
+    "51": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Financiamento permanente e integração dos programas de extensão universitária com políticas governamentais",
+      "quantidade_total_participantes": 25,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 40.0
+    },
+    "52": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Discussão sobre o preconceito contra idosos e medidas para combatê-lo",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 55.56
+    },
+    "53": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Participação de pessoas com deficiência nos projetos culturais para garantir inclusão",
+      "quantidade_total_participantes": 17,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 47.06
+    },
+    "54": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Dependência tecnológica e propostas legislativas para lidar com o problema",
+      "quantidade_total_participantes": 4,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 25.0
+    },
+    "55": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Críticas à incidência de contribuição previdenciária sobre valores acima do mínimo para servidores públicos aposentados e pensionistas",
+      "quantidade_total_participantes": 20,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 50.0
+    },
+    "56": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Aumento do sedentarismo como reflexo da pandemia de Covid-19 e a defesa da educação física como política de Saúde",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 12.5
+    },
+    "57": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Discussão sobre a eficácia de guardas armados e medidas de segurança nas escolas para combater a violência",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 50.0
+    },
+    "58": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Violência obstétrica e morte materna, com foco nas mulheres negras, indígenas e de baixa renda",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 46.15
+    },
+    "59": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Reparação aos pescadores afetados pelo rompimento da barragem do Fundão em Mariana (MG) em 2015",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 28.57
+    },
+    "60": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Benefícios e desafios do Programa QualiSUS Cardio para o atendimento a idosos no SUS",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 28.57
+    },
+    "61": {
+      "tema": "Economia",
+      "assunto": "Defesa de uma política de retomada do setor industrial por entidades patronais",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 11.11
+    },
+    "62": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Oferta gratuita de novos medicamentos para tratar amiloidose no SUS",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 85.71
+    },
+    "63": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Cobrança de mais atenção do Estado com instituições de longa permanência para idosos",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 55.56
+    },
+    "64": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Fomento e estrutura para o turismo religioso no Brasil",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 33.33
+    },
+    "65": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Discussão sobre a Resolução 296/21 do Conselho Superior da Justiça do Trabalho (CSJT) e a possível extinção de varas da Justiça do Trabalho",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 44.44
+    },
+    "66": {
+      "tema": "Economia",
+      "assunto": "Financiamento de segundo imóvel com recursos do FGTS e seus impactos",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 50.0
+    },
+    "67": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Debate sobre mudanças na legislação para assegurar direitos dos trabalhadores portadores de lesão",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 33.33
+    },
+    "68": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Falhas no protocolo do SUS para o tratamento da retinopatia diabética",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 25.0
+    },
+    "69": {
+      "tema": "Política e instituições",
+      "assunto": "Engajamento de jovens na política para combater ataques à democracia",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 57.14
+    },
+    "70": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Críticas à instalação de termelétricas flutuantes na Baía de Sepetiba, RJ, sem estudos ambientais",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 28.57
+    },
+    "71": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Críticas à venda da Refinaria Gabriel Passos (Regap) da Petrobras em Minas Gerais",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "72": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Responsabilidade de grandes empresas pelo trabalho escravo das subcontratadas",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 23.08
+    },
+    "73": {
+      "tema": "Economia",
+      "assunto": "Debate sobre critérios mais acessíveis nos contratos de seguro de vida para idosos",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 20.0
+    },
+    "74": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Desafios para a implementação plena do Estatuto da Criança e do Adolescente (ECA)",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 35.71
+    },
+    "75": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Críticas à Medida Provisória 1116/22 que prevê o uso do FGTS para financiar creches",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 14,
+      "porcentagem_mulheres": 93.33
+    },
+    "76": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Críticas ao 'apagão de dados' sobre saúde mental no Brasil e à priorização de investimentos em hospitais psiquiátricos e comunidades terapêuticas em detrimento dos Caps",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 35.71
+    },
+    "77": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Financiamento federal do transporte coletivo urbano",
+      "quantidade_total_participantes": 4,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "78": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Venda da Unidade de Industrialização do Xisto (SIX) no Paraná pela Petrobras",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "79": {
+      "tema": "Economia",
+      "assunto": "Falhas apontadas no projeto de código de defesa dos contribuintes (Projeto de Lei Complementar 17/22)",
+      "quantidade_total_participantes": 21,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 14.29
+    },
+    "80": {
+      "tema": "Política e instituições",
+      "assunto": "Regulamentação do lobby junto ao poder público",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 37.5
+    },
+    "81": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Fornecimento e preço de fertilizantes no Brasil em meio ao conflito entre Rússia e Ucrânia",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 14.29
+    },
+    "82": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Aprovação de projetos de lei que valorizam os mestres dos saberes e fazeres populares na cultura brasileira",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 54.55
+    },
+    "83": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Acesso à moradia como condição central para a superação das violações de direitos da população de rua",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 23.08
+    },
+    "84": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Ampliação do Serviço de Famílias Acolhedoras no Brasil",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 11,
+      "porcentagem_mulheres": 91.67
+    },
+    "85": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Dificuldades na implantação de políticas públicas para a população LGBTQIA+",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 14.29
+    },
+    "86": {
+      "tema": "Economia",
+      "assunto": "Propostas de novas coberturas de seguros diante de catástrofes climáticas",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 16.67
+    },
+    "87": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Regulamentação do trabalho de motoristas de aplicativo",
+      "quantidade_total_participantes": 33,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 12.12
+    },
+    "88": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Impacto da Medida Provisória 1112/22 no financiamento de pesquisa e inovação no Brasil",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "89": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Políticas públicas de proteção às mulheres e crianças indígenas",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 71.43
+    },
+    "90": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Medidas para combater o assédio sexual de jovens atletas",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 57.14
+    },
+    "91": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Reajustes nas tarifas de energia elétrica devido ao represamento durante a pandemia e a escassez hídrica",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 6.25
+    },
+    "92": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Defesa do foco do Estatuto do Aprendiz em adolescentes de 14 a 18 anos",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 42.86
+    },
+    "93": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Sugestões de mudanças no projeto de lei sobre ensino superior e formação técnica profissional (PL 6494/19)",
+      "quantidade_total_participantes": 5,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 40.0
+    },
+    "94": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Garantia de oportunidades e respeito às singularidades das pessoas autistas",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 62.5
+    },
+    "95": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Segurança sanitária e sustentabilidade na produção de alimentos de origem animal",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 57.14
+    },
+    "96": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Proposta que enquadra TDAH como deficiência e institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Déficit de Atenção com Hiperatividade",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 37.5
+    },
+    "97": {
+      "tema": "Economia",
+      "assunto": "Críticas à política industrial brasileira no setor automotivo",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "98": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Acesso a dados para combater crimes digitais",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 8.33
+    },
+    "99": {
+      "tema": "Relações internacionais e migração",
+      "assunto": "Impacto da guerra na Faixa de Gaza sobre crianças e mulheres",
+      "quantidade_total_participantes": 22,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 36.36
+    },
+    "100": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Acesso direto a dados de conexão de abusadores de crianças em investigações de crimes sexuais contra crianças e adolescentes",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 9,
+      "porcentagem_mulheres": 56.25
+    },
+    "101": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Mudanças na Lei Geral do Esporte para individualizar condutas em casos de violência em jogos de futebol",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "102": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Redução das emissões de carbono em terminais marítimos e a transição energética no setor de transporte marítimo",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 14.29
+    },
+    "103": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Esclarecimentos do Ministro da Justiça, Ricardo Lewandowski, sobre a fuga de presídio em Mossoró, vetos à saidinha de presos e decreto sobre clubes de atiradores",
+      "quantidade_total_participantes": 28,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 3.57
+    },
+    "104": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Participação da Câmara na definição das regras de renovação das concessões das distribuidoras de energia elétrica",
+      "quantidade_total_participantes": 20,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 10.0
+    },
+    "105": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Atualização do protocolo de tratamento de edema macular diabético no SUS",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 12.5
+    },
+    "106": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Mudanças no seguro rural do Proagro para atender produtores de várias culturas",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "107": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Melhorias na infraestrutura de prevenção a desastres e calamidades naturais",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "108": {
+      "tema": "Economia",
+      "assunto": "Manutenção do Programa Emergencial de Retomada do Setor de Eventos (Perse)",
+      "quantidade_total_participantes": 21,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 19.05
+    },
+    "109": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Plano Nacional de Proteção e Defesa Civil (PNPDC) e outras políticas regionais",
+      "quantidade_total_participantes": 20,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 5.0
+    },
+    "110": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Prioridade para a agenda do envelhecimento saudável no G20",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 20.0
+    },
+    "111": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Educação bilíngue para surdos e suas metodologias específicas",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 53.85
+    },
+    "112": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Regulamentação do trabalho de motoristas de aplicativo",
+      "quantidade_total_participantes": 29,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 17.24
+    },
+    "113": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Ações de prevenção de desastres naturais e auxílio à população detalhadas por ministérios na Câmara dos Deputados",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "114": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Estratégias para a erradicação da tuberculose no Brasil até 2030",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 50.0
+    },
+    "115": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Colapso climático e medidas urgentes para enfrentá-lo",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 26.67
+    },
+    "116": {
+      "tema": "Relações internacionais e migração",
+      "assunto": "Declarações do chanceler brasileiro Mauro Vieira sobre relações internacionais e conflitos globais",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "117": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Acusações contra a Braskem por conduta criminosa em Maceió e a resposta de órgãos de fiscalização",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 10.0
+    },
+    "118": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Impacto dos desastres climáticos no Brasil em 2023 e medidas de prevenção e resposta",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 18.18
+    },
+    "119": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Inclusão de questões de gênero na formação de peritos criminais para melhorar a investigação de feminicídios",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 87.5
+    },
+    "120": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Precarização do trabalho na mineração brasileira",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 22.22
+    },
+    "121": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Melhoria do atendimento a mulheres vítimas de violência doméstica pelo Judiciário",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 71.43
+    },
+    "122": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Negociação de recursos adicionais para o seguro rural e apoio à cadeia de leite",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "123": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Aumento de orçamento para combater a tuberculose no Brasil",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 42.86
+    },
+    "124": {
+      "tema": "Agricultura, produção rural e território",
+      "assunto": "Política de regularização fundiária de terras públicas na Amazônia Legal",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 33.33
+    },
+    "125": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Seleção e formação de diretores escolares no Brasil",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 66.67
+    },
+    "126": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Democratização do uso medicinal da cannabis e regulamentação de associações de produtores",
+      "quantidade_total_participantes": 19,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 42.11
+    },
+    "127": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Política nacional de cuidados para idosos",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 71.43
+    },
+    "128": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Debate sobre a revogação da portaria que autorizava o trabalho aos domingos e feriados e suas implicações",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 25.0
+    },
+    "129": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Debate sobre a vacinação de crianças contra Covid-19",
+      "quantidade_total_participantes": 22,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 22.73
+    },
+    "130": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Medidas sugeridas por representantes do setor audiovisual brasileiro para enfrentar a concorrência do cinema e do streaming norte-americanos",
+      "quantidade_total_participantes": 19,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 31.58
+    },
+    "131": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Acordo para a duplicação da BR-116 na Bahia",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 22.22
+    },
+    "132": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Plano Nacional de Outorga para rádios comunitárias e propostas de alteração na Lei do Serviço de Radiodifusão Comunitária",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 42.86
+    },
+    "133": {
+      "tema": "Economia",
+      "assunto": "Críticas à ausência do presidente da Enel Brasil em audiência na Câmara dos Deputados e discussão sobre a atuação da empresa",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "134": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Descarbonização do setor de combustíveis e transição energética sustentável",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "135": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Precarização do trabalho e regulamentação das atividades dos policiais penais",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 40.0
+    },
+    "136": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Aprovação do Projeto de Lei 4347/21 para tornar permanente a Política Nacional de Gestão Territorial e Ambiental das Terras Indígenas",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 50.0
+    },
+    "137": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Debate sobre a possibilidade de professores da rede pública terem dois cargos públicos em áreas diferentes",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "138": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Pedido de concurso público e fortalecimento da Agência Nacional de Proteção de Dados (ANPD)",
+      "quantidade_total_participantes": 3,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "139": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Racismo e preconceito contra indígenas no sistema prisional brasileiro e a proposta de uma lei prisional específica para indígenas",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 60.0
+    },
+    "140": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Lições da pandemia e providências para futuras emergências sanitárias, com foco na vacinação e combate à desinformação",
+      "quantidade_total_participantes": 3,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 33.33
+    },
+    "141": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Perseguição a professores devido à radicalização política no Brasil",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 63.64
+    },
+    "142": {
+      "tema": "Trabalho, emprego e previdência",
+      "assunto": "Regulamentação do empréstimo consignado para servidores públicos",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 20.0
+    },
+    "143": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Atuação dos bancos no combate aos golpes financeiros e fraudes envolvendo vazamento de dados bancários",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 46.15
+    },
+    "144": {
+      "tema": "Economia",
+      "assunto": "Fim do prazo para prefeituras enviarem propostas para o novo Programa de Aceleração do Crescimento (PAC)",
+      "quantidade_total_participantes": 26,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 7.69
+    },
+    "145": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Desempenho do governo Lula na segurança pública e debate sobre a atuação do Ministério da Justiça",
+      "quantidade_total_participantes": 23,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 21.74
+    },
+    "146": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Liberação da produção de Cannabis para fins medicinais",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 46.67
+    },
+    "147": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Importância das creches públicas para a redução das desigualdades sociais no Brasil",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 12,
+      "porcentagem_mulheres": 75.0
+    },
+    "148": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Cobrança pela retomada das autorizações para caça a javalis pelo Ibama",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 10.0
+    },
+    "149": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Mudança demográfica e a necessidade de reestruturação do Estado para atender ao envelhecimento da população brasileira",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 40.0
+    },
+    "150": {
+      "tema": "Cultura, esporte e turismo",
+      "assunto": "Comemoração dos 150 anos de nascimento de Santos Dumont e suas contribuições para a aviação e outras áreas",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "151": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Defesa da educação profissionalizante nos presídios",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 66.67
+    },
+    "152": {
+      "tema": "Economia",
+      "assunto": "Extinção da lei que regulamenta o seguro obrigatório DPVAT para vítimas de trânsito",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 33.33
+    },
+    "153": {
+      "tema": "Economia",
+      "assunto": "Ampliação da linha de crédito do BNDES para grandes empresas afetadas por enchentes no Rio Grande do Sul",
+      "quantidade_total_participantes": 38,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 18.42
+    },
+    "154": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Políticas públicas voltadas para mulheres no climatério e menopausa",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 12,
+      "porcentagem_mulheres": 92.31
+    },
+    "155": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Consolidação de políticas públicas para idosos no contexto dos 20 anos do Estatuto do Idoso",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 27.27
+    },
+    "156": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Ajustes na legislação para manter a qualidade do ensino em universidades comunitárias",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 22.22
+    },
+    "157": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Desoneração tributária para baratear custo de remédios para doenças raras",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 20.0
+    },
+    "158": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Regulamentação do mercado de carbono no Brasil",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 44.44
+    },
+    "159": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Falta de recursos dificulta acesso a diagnóstico de câncer de mama no SUS",
+      "quantidade_total_participantes": 15,
+      "quantidade_mulheres": 11,
+      "porcentagem_mulheres": 73.33
+    },
+    "160": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Falta de recursos para a educação inclusiva",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 50.0
+    },
+    "161": {
+      "tema": "Economia",
+      "assunto": "Aumento dos preços das passagens aéreas no Brasil",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 23.08
+    },
+    "162": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Prevenção de transtornos mentais no ambiente de trabalho",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 55.56
+    },
+    "163": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Discussão sobre a educação de meninas e mulheres negras na Câmara dos Deputados",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 100.0
+    },
+    "164": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Ritmo de investimentos em saneamento básico e a meta de universalização até 2033",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "165": {
+      "tema": "Economia",
+      "assunto": "Discussão sobre a Lei de Diretrizes Orçamentárias (LDO) de 2024 e suas implicações para o déficit fiscal e políticas voltadas para mulheres",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 11,
+      "porcentagem_mulheres": 84.62
+    },
+    "166": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Uso da tecnologia blockchain no serviço público",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 18.18
+    },
+    "167": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Recursos e política pública para controle populacional de cães e gatos",
+      "quantidade_total_participantes": 19,
+      "quantidade_mulheres": 11,
+      "porcentagem_mulheres": 57.89
+    },
+    "168": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Melhoria das condições da pós-graduação no Brasil",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 50.0
+    },
+    "169": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Reconhecimento dos biomas Cerrado e Caatinga como patrimônios nacionais",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 10,
+      "porcentagem_mulheres": 62.5
+    },
+    "170": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Denúncia do racismo na primeira infância debatida na Comissão de Direitos Humanos da Câmara dos Deputados",
+      "quantidade_total_participantes": 21,
+      "quantidade_mulheres": 16,
+      "porcentagem_mulheres": 76.19
+    },
+    "171": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Esclarecimentos da ministra da Saúde, Nísia Trindade, sobre polêmicas e investimentos do novo PAC na Saúde",
+      "quantidade_total_participantes": 30,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 26.67
+    },
+    "172": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Censo quilombola e a utilização dos dados para garantir direitos e políticas públicas para a população quilombola",
+      "quantidade_total_participantes": 16,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 50.0
+    },
+    "173": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Retomada da construção de usinas hidrelétricas com grandes reservatórios no Brasil",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 44.44
+    },
+    "174": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Debate sobre a baixa taxa de aprovação no Exame Nacional de Revalidação de Diplomas Médicos (Revalida) em 2022",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "175": {
+      "tema": "Economia",
+      "assunto": "Revisão da alíquota de taxação das operadoras de apostas esportivas no Brasil",
+      "quantidade_total_participantes": 5,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 20.0
+    },
+    "176": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Capacitismo como barreira para a educação inclusiva",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 44.44
+    },
+    "177": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Regulamentação de aplicativos de transporte e entrega e seus impactos na concorrência e preços",
+      "quantidade_total_participantes": 19,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 5.26
+    },
+    "178": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Planejamento marinho para reduzir impacto dos parques de energia eólica em alto-mar",
+      "quantidade_total_participantes": 20,
+      "quantidade_mulheres": 9,
+      "porcentagem_mulheres": 45.0
+    },
+    "179": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Riscos e benefícios da regulamentação do mercado digital",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 85.71
+    },
+    "180": {
+      "tema": "Política e instituições",
+      "assunto": "Anistia a partidos que não cumpriram cotas para mulheres e negros",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 38.46
+    },
+    "181": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Combate ao uso de cigarros eletrônicos no Brasil para manter a queda no índice de fumantes",
+      "quantidade_total_participantes": 7,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 57.14
+    },
+    "182": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Regulação dos reajustes dos planos de saúde coletivos",
+      "quantidade_total_participantes": 17,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 23.53
+    },
+    "183": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Veto do Ibama à licença para Petrobras perfurar na Foz do Amazonas e outras questões ambientais",
+      "quantidade_total_participantes": 29,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 13.79
+    },
+    "184": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Discussão sobre mudanças na Lei do Bem para facilitar a colaboração entre universidades, empresas e governo e promover inovações",
+      "quantidade_total_participantes": 13,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 38.46
+    },
+    "185": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Desigualdade na cobertura do teste do pezinho nos estados brasileiros e desafios para a ampliação do exame conforme a Lei 14.154/21",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 9,
+      "porcentagem_mulheres": 90.0
+    },
+    "186": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Debate sobre auxílio emergencial e medidas duradouras para enfrentar desastres climáticos",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 55.56
+    },
+    "187": {
+      "tema": "Direitos humanos, inclusão e diversidade",
+      "assunto": "Discussão sobre o Estatuto do Povo Cigano e a inclusão dos ciganos em políticas públicas e no Censo demográfico brasileiro",
+      "quantidade_total_participantes": 19,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 36.84
+    },
+    "188": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Disparidade de gênero na pós-graduação em ciências exatas e tecnológicas e financiamento menor para mulheres",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 9,
+      "porcentagem_mulheres": 100.0
+    },
+    "189": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Mudanças no projeto de regulamentação dos mercados digitais (PL 2768/22)",
+      "quantidade_total_participantes": 5,
+      "quantidade_mulheres": 2,
+      "porcentagem_mulheres": 40.0
+    },
+    "190": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Falta de apoio a pesquisas clínicas sobre doenças raras no Brasil",
+      "quantidade_total_participantes": 14,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 57.14
+    },
+    "191": {
+      "tema": "Meio ambiente, clima e desastres",
+      "assunto": "Ações de bem-estar animal e seus benefícios para o Brasil",
+      "quantidade_total_participantes": 11,
+      "quantidade_mulheres": 8,
+      "porcentagem_mulheres": 72.73
+    },
+    "192": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Redução da vida útil de celulares e obsolescência programada",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "193": {
+      "tema": "Economia",
+      "assunto": "Microempresários defendem a criação de um programa Desenrola para enfrentar o endividamento agravado por altas taxas de juros",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "194": {
+      "tema": "Energia, infraestrutura e transportes",
+      "assunto": "Diminuição da velocidade das vias para garantir segurança de pedestres e ciclistas",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 4,
+      "porcentagem_mulheres": 44.44
+    },
+    "195": {
+      "tema": "Tecnologia, comunicação e mídia",
+      "assunto": "Regulamentação dos mercados digitais no Brasil",
+      "quantidade_total_participantes": 4,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 25.0
+    },
+    "196": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Financiamento estudantil e a necessidade de políticas públicas para ampliar o acesso ao ensino superior no Brasil",
+      "quantidade_total_participantes": 4,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 25.0
+    },
+    "197": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Revisão do Marco Legal da Inovação para facilitar sua operacionalização",
+      "quantidade_total_participantes": 12,
+      "quantidade_mulheres": 3,
+      "porcentagem_mulheres": 25.0
+    },
+    "198": {
+      "tema": "Relações internacionais e migração",
+      "assunto": "Reconhecimento da liderança do Brasil na proteção a refugiados e desafios na integração socioeconômica dos refugiados no país",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 6,
+      "porcentagem_mulheres": 60.0
+    },
+    "199": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Autossuficiência na produção de insumos para a saúde e questões relacionadas à compra emergencial de medicamentos pelo SUS",
+      "quantidade_total_participantes": 31,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 22.58
+    },
+    "200": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Apoio ao Projeto de Lei 1673/21 que institui a Política Nacional de Saúde Funcional",
+      "quantidade_total_participantes": 10,
+      "quantidade_mulheres": 5,
+      "porcentagem_mulheres": 50.0
+    },
+    "201": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Cobrança pela individualização das condutas dos presos nos atos de 8 de janeiro e negação de tentativa de golpe",
+      "quantidade_total_participantes": 48,
+      "quantidade_mulheres": 15,
+      "porcentagem_mulheres": 31.25
+    },
+    "202": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Regulamentação da profissão de quiropraxista",
+      "quantidade_total_participantes": 6,
+      "quantidade_mulheres": 1,
+      "porcentagem_mulheres": 16.67
+    },
+    "203": {
+      "tema": "Gênero, mulheres e relações familiares",
+      "assunto": "Aumento da violência contra mulheres devido ao desmonte de políticas públicas e ascensão do ultraconservadorismo",
+      "quantidade_total_participantes": 9,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 77.78
+    },
+    "204": {
+      "tema": "Saúde e saúde pública",
+      "assunto": "Melhorias no acesso ao diagnóstico e tratamento da distonia no SUS",
+      "quantidade_total_participantes": 8,
+      "quantidade_mulheres": 7,
+      "porcentagem_mulheres": 87.5
+    },
+    "205": {
+      "tema": "Segurança pública, justiça e sistema prisional",
+      "assunto": "Recursos e melhorias na política de enfrentamento aos crimes nas fronteiras do Brasil",
+      "quantidade_total_participantes": 18,
+      "quantidade_mulheres": 0,
+      "porcentagem_mulheres": 0.0
+    },
+    "206": {
+      "tema": "Educação, ciência e pesquisa",
+      "assunto": "Revisão e aprimoramento da Lei de Cotas (Lei 12.711/12)",
+      "quantidade_total_participantes": 18,
+      "quantidade_mulheres": 11,
+      "porcentagem_mulheres": 61.11
+    }
+  }

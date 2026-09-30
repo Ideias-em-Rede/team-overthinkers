@@ -105,11 +105,9 @@ Saída:   gatekeepers/humano/rows_cruzados.json  (tabela cruzada completa)
          gatekeepers/humano/resultados.json     (os 4 achados com estatísticas)
 """
 
-import argparse
 import json
 import math
 import re
-import sys
 import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -126,64 +124,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 TRANSCRICAO_PATH = REPO_ROOT / "dataset" / "transcricao_reorganizada" / "metadados" / "dados_transcricao.json"
 NOTICIAS_PATH = REPO_ROOT / "dataset" / "noticias_reorganizadas" / "noticias.json"
 OUTPUT_DIR = REPO_ROOT / "gatekeepers" / "humano"
-
-GENERATORS = ["openai", "gemini", "deepseek"]
-
-
-# ---------------------------------------------------------------------------
-# Resolução de fonte (humano / llm)
-# ---------------------------------------------------------------------------
-def resolve_pipeline(source: str, generator: str | None) -> dict:
-    """Retorna os paths de I/O para o pipeline atual."""
-
-    if source == "humano":
-        return {
-            "noticias_path": NOTICIAS_PATH,
-            "rows_output": OUTPUT_DIR / "rows_cruzados.json",
-            "results_output": OUTPUT_DIR / "resultados.json",
-            "label": "humano",
-        }
-
-    if source == "llm":
-        if not generator:
-            raise ValueError("--generator é obrigatório quando --source=llm")
-
-        noticias_path = (
-            REPO_ROOT
-            / "web" / "public" / "data" / "llm" / "materias_llm"
-            / "participantes" / generator / "participantes.json"
-        )
-        if not noticias_path.exists():
-            raise FileNotFoundError(
-                f"Arquivo de participantes LLM não encontrado: {noticias_path}"
-            )
-
-        return {
-            "noticias_path": noticias_path,
-            "rows_output": (
-                REPO_ROOT
-                / "web" / "public" / "data" / "llm" / "gatekeepers"
-                / generator / "gatekeepers.json"
-            ),
-            "results_output": (
-                REPO_ROOT
-                / "web" / "public" / "data" / "llm" / "panorama"
-                / generator / "panorama.json"
-            ),
-            "label": f"llm/{generator}",
-        }
-
-    raise ValueError(f"Fonte inválida: {source}. Use 'humano' ou 'llm'.")
-
-
-def resolve_generators(arg: str) -> list[str]:
-    if arg == "all":
-        return list(GENERATORS)
-    nomes = [g.strip() for g in arg.split(",") if g.strip()]
-    desconhecidos = [n for n in nomes if n not in GENERATORS]
-    if desconhecidos:
-        sys.exit(f"Generator(es) desconhecido(s): {', '.join(desconhecidos)}")
-    return nomes
 
 # População residente por UF — Censo Demográfico IBGE 2022 (resultados
 # oficiais, primeiro apuramento). Fonte: IBGE, divulgação de 28/06/2023.
@@ -248,11 +188,7 @@ def carregar_e_cruzar(transcricao_path: Path, noticias_path: Path):
     with open(transcricao_path, encoding="utf-8") as f:
         trans = json.load(f)
     with open(noticias_path, encoding="utf-8") as f:
-        # Ignora entradas com "erro" (extração falhou) — evita contar como
-        # se a notícia tivesse zero envolvidos.
-        noticias = {
-            n["id"]: n for n in json.load(f) if "erro" not in n
-        }
+        noticias = {n["id"]: n for n in json.load(f)}
 
     # nome canônico por chave normalizada (grafia mais frequente na base)
     raw_names_by_key = defaultdict(Counter)
@@ -513,10 +449,10 @@ def achado_4_populacao_uf(rows: list) -> dict:
 
     return {
         "hipotese_testada": (
-            "Deputados de UFs mais populosas tem maior probabilidade de "
-            "serem citados na materia, mesmo controlando pelo volume de "
-            "fala (regressao logistica: covered ~ log_populacao_uf + "
-            "log_palavras; populacao = Censo IBGE 2022)"
+            "H0: a populacao da UF do deputado nao influencia a "
+            "probabilidade de ele ser citado na materia, controlando pelo "
+            "volume de fala (regressao logistica: covered ~ "
+            "log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)"
         ),
         "n_deputados_com_uf": len(deputados_com_uf),
         "n_ufs_analisadas": len(por_uf),
@@ -542,29 +478,13 @@ def achado_4_populacao_uf(rows: list) -> dict:
 # ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
-def processar_pipeline(
-    source: str,
-    generator: str | None,
-    transcricao_override: Path | None = None,
-    noticias_override: Path | None = None,
-) -> None:
-    cfg = resolve_pipeline(source, generator)
-    transcricao_path = transcricao_override or TRANSCRICAO_PATH
-    noticias_path = noticias_override or cfg["noticias_path"]
-    rows_output = cfg["rows_output"]
-    results_output = cfg["results_output"]
-    label = cfg["label"]
+def main():
+    if not TRANSCRICAO_PATH.exists():
+        raise FileNotFoundError(f"Nao encontrei {TRANSCRICAO_PATH}")
+    if not NOTICIAS_PATH.exists():
+        raise FileNotFoundError(f"Nao encontrei {NOTICIAS_PATH}")
 
-    print("=" * 70)
-    print(f"GATEKEEPING · {label}")
-    print("=" * 70)
-
-    if not transcricao_path.exists():
-        raise FileNotFoundError(f"Nao encontrei {transcricao_path}")
-    if not noticias_path.exists():
-        raise FileNotFoundError(f"Nao encontrei {noticias_path}")
-
-    rows, stats_matching = carregar_e_cruzar(transcricao_path, noticias_path)
+    rows, stats_matching = carregar_e_cruzar(TRANSCRICAO_PATH, NOTICIAS_PATH)
 
     resultados = {
         "matching": stats_matching,
@@ -574,77 +494,19 @@ def processar_pipeline(
         "achado_4_populacao_uf": achado_4_populacao_uf(rows),
     }
 
-    rows_output.parent.mkdir(parents=True, exist_ok=True)
-    results_output.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(rows_output, "w", encoding="utf-8") as f:
+    with open(OUTPUT_DIR / "rows_cruzados.json", "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=1)
 
-    with open(results_output, "w", encoding="utf-8") as f:
+    with open(OUTPUT_DIR / "resultados.json", "w", encoding="utf-8") as f:
         json.dump(resultados, f, ensure_ascii=False, indent=2, default=str)
 
     print(f"OK - {len(rows)} registros processados.")
-    print(f"Salvo em: {rows_output}")
-    print(f"Salvo em: {results_output}")
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Cruza transcrição × notícia e roda os 4 achados de "
-        "gatekeeping. Suporta matérias humanas ou geradas por LLM."
-    )
-    parser.add_argument(
-        "--source",
-        default="humano",
-        choices=["humano", "llm"],
-        help="Fonte a processar (default: humano)",
-    )
-    parser.add_argument(
-        "--generator",
-        default=None,
-        help="Só para --source llm: gerador (openai, gemini, deepseek), "
-        "lista separada por vírgula, ou 'all'.",
-    )
-    parser.add_argument(
-        "--transcricao",
-        type=Path,
-        default=None,
-        help="Override do path do arquivo de transcrição (default: "
-        "dataset/transcricao_reorganizada/metadados/dados_transcricao.json).",
-    )
-    
-    parser.add_argument(
-        "--noticias",
-        type=Path,
-        default=None,
-        help="Override do path do arquivo de notícias. Se passado, ignora "
-        "o path resolvido pela combinação --source/--generator. "
-        "Incompatível com --generator all (que roda vários pipelines).",
-    )
-    args = parser.parse_args()
-
-    if args.noticias and args.generator == "all":
-        sys.exit("--noticias não pode ser combinado com --generator all")
-
-    if args.source == "humano":
-        processar_pipeline(
-            "humano",
-            None,
-            transcricao_override=args.transcricao,
-            noticias_override=args.noticias,
-        )
-        return
-
-    if not args.generator:
-        sys.exit("--generator é obrigatório quando --source=llm")
-
-    for gen in resolve_generators(args.generator):
-        processar_pipeline(
-            "llm",
-            gen,
-            transcricao_override=args.transcricao,
-            noticias_override=args.noticias,
-        )
+    print(f"Salvo em: {OUTPUT_DIR / 'rows_cruzados.json'}")
+    print(f"Salvo em: {OUTPUT_DIR / 'resultados.json'}")
+    print()
+    print(json.dumps(resultados, ensure_ascii=False, indent=2, default=str))
 
 
 if __name__ == "__main__":
