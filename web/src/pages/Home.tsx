@@ -14,7 +14,7 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <span className="hero__eyebrow">ARTIGO</span>
-        <h1>You Shall Not Pass: Usando LLMs para Avaliar Gatekeeping na Agência Câmara de Notícias</h1>
+        <h1>You Shall Not Pass: Gatekeeping na Agência Câmara de Notícias e em Múltiplas LLMs</h1>
         <p className="hero__lead">
           Explorando quais critérios e valores orientam a seleção de dados e participantes nas matérias jornalísticas produzidas pela Agência Câmara sobre
           audiências públicas na Câmara dos Deputados.
@@ -50,21 +50,21 @@ export default function Home() {
             <span className="badge">RQ1</span>
             <h3>Seleção jornalística humana</h3>
             <p>
-              Quais valores-notícia e participantes caracterizam as notícias da Agência Câmara?
+              Quais valores-notícia e que perfil de participantes (gênero, partido e unidade federativa) caracterizam as matérias publicadas pela Agência Câmara de Notícias?
             </p>
           </article>
           <article className="rq-card">
             <span className="badge">RQ2</span>
-            <h3>Seleção jornalística de um modelo</h3>
+            <h3>Seleção jornalística dos modelos</h3>
             <p>
-              Quais valores-notícia e participantes caracterizam as notícias geradas por LLMs?
+              Quais valores-notícia e que perfil de participantes caracterizam as matérias geradas por LLMs a partir das mesmas transcrições?
             </p>
           </article>
           <article className="rq-card">
             <span className="badge">RQ3</span>
             <h3>Padrões de seleção</h3>
             <p>
-              Em que medida os LLMs reproduzem os padrões observados na Agência Câmara?
+              Em que dimensões os LLMs reproduzem ou divergem do padrão de gatekeeping da Agência Câmara?
             </p>
           </article>
         </div>
