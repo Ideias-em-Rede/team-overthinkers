@@ -1,0 +1,36 @@
+{
+  "id": 70,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Baía de Sepetiba, no litoral do Rio de Janeiro"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Câmara dos Deputados, deputada Talíria Petrone, deputado Rodrigo Agostinho, Ministério Público Federal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impactos socioambientais, risco de explosão, aumento projetado de termoelétricas no país"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "manifestações de entidades e movimentos sociais contrários ao projeto"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "contratação de navios geradores de energia elétrica movidos a gás natural"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate sobre impactos ambientais e sociais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

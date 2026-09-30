@@ -1,0 +1,36 @@
+{
+  "id": 54,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O projeto de lei prevê que os provedores de acesso à internet mantenham, em conjunto ou separadamente, pelo menos um centro de atenção a usuários compulsivos em cada estado."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Especialistas ouvidos pela Comissão de Cultura da Câmara dos Deputados nesta terça-feira (27) alertaram para os impactos da dependência tecnológica na sociedade."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O coordenador do grupo de dependências tecnológicas do Hospital das Clínicas da Universidade de São Paulo, Cristiano Nabuco, alertou para os efeitos nocivos das tecnologias não apenas sobre a saúde mental, como sobre o raciocínio, especialmente em crianças pequenas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele lamentou a tramitação lenta da proposta na Casa, atribuindo-a à pressão das big techs."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O médico contou de um caso grave de um menino de 15 anos, que fica conectado a jogos on-line 55 horas ininterruptas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A psicóloga considera importante a adoção de políticas públicas para alertar a população sobre os efeitos nocivos da dependência tecnológica, por exemplo, por meio de campanhas publicitárias do Ministério da Saúde e da educação na escola para uso adequado das tecnologias."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

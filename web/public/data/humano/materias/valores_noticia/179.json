@@ -1,0 +1,36 @@
+{
+  "id": 179,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Brasil, pesquisa feita em 2022 pelo Instituto Datafolha indicou que 92% utilizavam o Whatsapp para mensagens instantâneas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A diretora de Política de Concorrência para América Latina da Meta, Paula Farani"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a regulamentação dos mercados digitais no Brasil poderá beneficiar as micro e pequenas empresas e especialmente os microempreendedores individuais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Paula Farani, questionou o PL 2768/22, que atribui à Agência Nacional de Telecomunicações (Anatel) a regulamentação das plataformas digitais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Especialistas alertam para riscos na regulamentação do mercado digital"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

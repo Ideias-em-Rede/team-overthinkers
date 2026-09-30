@@ -1,0 +1,36 @@
+{
+  "id": 16,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O tema foi debatido em audiência conjunta das Comissões de Segurança Pública e de Fiscalização Financeira e Controle"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Sílvio Almeida participou de debate em audiência pública conjunta das comissões de Segurança Pública e de Fiscalização Financeira e Controle"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Também falou de problemas sistêmicos que levam à média de 60 mortes por dia nos presídios brasileiros"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve vários momentos de bate-boca com outros deputados que pediram a audiência, como Eduardo Bolsonaro (PL-SP) e Kim Kataguiri (União-SP)"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A oposição também questionou o ministro quanto à morte de Cleriston da Cunha, um dos detentos do presídio da Papuda, em Brasília, desde os atos golpistas de 8 de janeiro"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 78,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os efeitos econômicos e sociais da venda da SIX para a cidade de São Mateus do Sul e região"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a venda da SIX representaria uma perda de aproximadamente 40% da arrecadação de impostos da cidade"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas ao processo de privatização"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate sobre privatizações tem sido uma marca na Câmara"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

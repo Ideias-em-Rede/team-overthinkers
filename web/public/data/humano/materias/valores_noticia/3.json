@@ -1,0 +1,36 @@
+{
+  "id": 3,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O saque-aniversário é como se fosse o 14º salário do trabalhador"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro do Trabalho e Emprego, Luiz Marinho"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O trabalhador terá crédito barato, a partir da folha de pagamento, e preservará o FGTS se vier a perder o emprego"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Capitão Alberto Neto criticou a possibilidade de extinção do saque-aniversário"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "nova modalidade de crédito consignado como alternativa ao saque-aniversário"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "57% dos recursos são usados hoje para quitar dívidas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

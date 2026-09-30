@@ -1,0 +1,36 @@
+{
+  "id": 206,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Desde 2012, a Lei de Cotas garante que 50% das matrículas em universidades federais e institutos federais de educação, ciência e tecnologia serão destinadas a alunos que tiverem cursado os três anos do ensino médio em instituições públicas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Nilma Lino enfatizou que as cotas, como modalidade de ação afirmativa, têm como eixo o combate ao racismo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A política de cotas vem mudando radicalmente o País e é preciso garantir a permanência desses estudantes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A revisão da Lei de Cotas (Lei 12.711/12), prevista para ocorrer dez anos após sua criação, deve englobar melhorias na lei e não a sua revogação"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Dandara (PT-MG) vai ser a relatora do projeto que torna a Lei de Cotas permanente (PL 5384/20)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

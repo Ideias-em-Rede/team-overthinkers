@@ -1,0 +1,36 @@
+{
+  "id": 185,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A lei amplia a triagem neonatal para mais de 50 doenças."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pela deputada Iza Arruda (MDB-PE), autora do requerimento que convocou a audiência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A lei amplia a triagem neonatal para mais de 50 doenças."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele enumerou desafios como a necessidade de padronização, logística de transporte de amostras, educação continuada de profissionais e a garantia de acesso a medicamentos e fórmulas especializadas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A lei amplia a triagem neonatal para mais de 50 doenças."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A lei amplia a triagem neonatal para mais de 50 doenças."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

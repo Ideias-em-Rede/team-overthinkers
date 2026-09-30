@@ -1,0 +1,36 @@
+{
+  "id": 204,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A doença afeta pessoas de todas as idades e pode impactar negativamente a qualidade de vida e a funcionalidade diária."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Uma audiência pública na Câmara dos Deputados, realizada em 11 de julho de 2023 e presidida pela deputada Meire Serafim (Bloco/UNIÃO - AC)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O neurologista Heitor Felipe Lima, participando virtualmente, explicou que a distonia é um termo 'guarda-chuva' que abrange uma variedade de doenças e transtornos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Lima apontou como principais gargalos o diagnóstico tardio, devido à falta de capacitação de profissionais de saúde para reconhecer a doença, e o acesso limitado aos tratamentos no SUS"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A neurologista Sara Casagrande, do Hospital das Clínicas da USP, apresentou dados sobre a prevalência da distonia, contestando a classificação como doença raríssima."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

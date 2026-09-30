@@ -1,0 +1,36 @@
+{
+  "id": 116,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro das Relações Exteriores, Mauro Vieira, disse nesta quarta-feira (13) que a reunião entre os presidentes da Venezuela, Nicolás Maduro, e da Guiana, Mohammed Irfaan Ali"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A Venezuela reivindica a região de Essequibo, rica em recursos naturais e que pertence à Guiana"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A disputa Venezuela-Guiana foi um dos assuntos que dominaram o debate"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os deputados também mostraram preocupação com o futuro do acordo comercial Mercosul-União Europeia"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

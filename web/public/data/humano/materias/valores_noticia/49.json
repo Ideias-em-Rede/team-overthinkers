@@ -1,0 +1,36 @@
+{
+  "id": 49,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A rodovia, que liga Santa Catarina ao Rio Grande do Sul e Paraná, ficou totalmente interditada por 50 horas, e seguiu com bloqueios parciais por quatro dias."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Diretor-Geral da ANTT, Rafael Vitale Rodrigues explicou que a agência recebeu proposta de extensão do contrato da Arteris Litoral Sul"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a obra teria forte impacto sobre a tarifa de pedágio."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Presidente da Federação das Empresas de Transporte de Carga e Logística de Santa Catarina, Dagnor Schneider acredita que a obra para a construção dos túneis deveria ser contemplada ainda no atual contrato, e não numa eventual extensão."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Este é um tema que, para nós, é muito caro há bastante tempo, que já esteve em planejamento, estes dois túneis no Morro dos Cavalos, e infelizmente ele foi deixado de fora do contrato de concessão"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

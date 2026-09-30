@@ -1,0 +1,36 @@
+{
+  "id": 179,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A sessão, gravada e transmitida pelo canal oficial da Câmara no YouTube, teve como tema central o empreendedorismo nos mercados digitais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência ocorreu em cumprimento ao Requerimento nº 10/2023, de autoria da deputada Any Ortiz"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada Any Ortiz agradeceu as contribuições e informou que, apesar de aquela ser a última das quatro audiências públicas programadas sobre o PL, o debate continuará em seminário previsto para setembro"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mark Buse (Match Group) apontou Apple e Google como detentoras de posições dominantes no fornecimento de sistemas operacionais móveis e de distribuição de aplicativos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A sessão, gravada e transmitida pelo canal oficial da Câmara no YouTube, teve como tema central o empreendedorismo nos mercados digitais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

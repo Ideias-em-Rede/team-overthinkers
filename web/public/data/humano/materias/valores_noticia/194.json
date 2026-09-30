@@ -1,0 +1,36 @@
+{
+  "id": 194,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes do governo e de entidades ligadas à mobilidade ativa concordam que a principal forma de fazer com que as cidades sejam menos hostis a pedestres e ciclistas é a diminuição da velocidade das vias públicas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O tema foi discutido em audiência pública da Comissão de Viação e Transportes da Câmara dos Deputados nesta terça-feira (15)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo dados do Instituto de Pesquisa Econômica Aplicada (Ipea), os acidentes de trânsito custam ao País anualmente cerca de R$ 50 bilhões."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Jonas Donizette (PSB-SP) afirmou que a redução da velocidade nas vias brasileiras ainda é um desafio para os gestores que enfrentam o descontentamento de parte da população."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Representante do movimento Bike é Legal, Renata Falzoni lembrou que, em acidentes envolvendo pedestres ou ciclistas e carros, se a velocidade for de até 40 km/h as chances de sobrevivência são de 65% contra 15%, se a velocidade for de 60 km/h."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

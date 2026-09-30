@@ -1,0 +1,36 @@
+{
+  "id": 203,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o aumento dos casos de violência contra as mulheres no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "As Comissões de Direitos Humanos, Minorias e Igualdade Racial e de Defesa dos Direitos da Mulher da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "aumentos significativos em agressões (3%), ameaças (7,2%), chamadas ao 190 (8,7%), medidas protetivas (13,7%), assédio sexual (49,7%) e feminicídios de mulheres negras (61,1%)"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "enfrentamento ao machismo estrutural"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o aumento dos casos de violência contra as mulheres no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

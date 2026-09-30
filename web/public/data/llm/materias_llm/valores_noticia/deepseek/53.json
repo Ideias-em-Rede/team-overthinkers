@@ -1,0 +1,36 @@
+{
+  "id": 53,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, que foi transmitida ao vivo pelos canais oficiais da Câmara com janela de tradução em LIBRAS, contou com a participação de representantes do Ministério da Cultura, gestores públicos, ativistas e artistas com deficiência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que todas as secretarias vinculadas realizam políticas afirmativas com reserva de vagas ou cotas para pessoas com deficiência e outros grupos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles criticaram a falta de intérpretes de LIBRAS fluentes em eventos e a não obrigatoriedade de recursos de acessibilidade nos editais do Fundo de Apoio à Cultura (FAC)."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Paula Wenke, coordenadora do MAIS e da GADIM Brasil, compartilhou sua experiência com o 'Teatro dos Sentidos', técnica que explora outros sentidos além da visão."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi encerrada com a sugestão de várias medidas, incluindo a inclusão de acessibilidade na formação acadêmica de artistas, cotas nos editais de fomento para arte inclusiva e a garantia de intérpretes de LIBRAS em todas as manifestações culturais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

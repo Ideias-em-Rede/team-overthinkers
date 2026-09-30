@@ -1,0 +1,36 @@
+{
+  "id": 59,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "problemas enfrentados por pescadores artesanais de Minas Gerais e do Espírito Santo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram presencialmente representantes do Ministério da Pesca e Aquicultura e da Secretaria Nacional de Pesca Artesanal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "muitos trabalhadores vêm sofrendo “desespero” devido à exigência de provar que eram pescadores na época do rompimento"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "a Fundação Renova passou a exigir uma declaração do Ministério da Pesca (MAPA/MPA) sobre o tempo de atividade dos pescadores para fins de reconhecimento e indenização"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "representantes do Ministério e da Secretaria afirmaram que não há, conforme apresentado na audiência, resultados conclusivos favoráveis sobre a qualidade do pescado e da água que permitam garantir a retomada segura da pesca"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

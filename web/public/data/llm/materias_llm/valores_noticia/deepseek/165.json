@@ -1,0 +1,36 @@
+{
+  "id": 165,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes municipais do Entorno do Distrito Federal relataram dificuldades concretas, como o embargo de 830 mil reais para a Casa da Mulher Brasileira de Águas Lindas de Goiás por questões burocráticas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pela deputada Lêda Borges (PSDB-GO), presidente da comissão, e contou com a participação de especialistas em orçamento, representantes de movimentos sociais e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Lia Zanotta Machado, do Consórcio Maria da Penha, apresentou dados mostrando que apenas 0,1% do orçamento federal é destinado ao combate à violência contra mulheres, enquanto os feminicídios aumentam."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputadas presentes na audiência criticaram a distribuição transversal dos recursos. Lêda Borges questionou: 'Cadê o recurso para executar a Lei Maria da Penha?'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O deputado Danilo Forte (UNIÃO-CE), relator da Lei de Diretrizes Orçamentárias (LDO) 2024, anunciou a criação de um capítulo específico para fortalecer o orçamento das mulheres, com foco no empreendedorismo feminino."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A juíza Renata Gil, do Instituto Nós por Elas, alertou para o aumento de 45% nos feminicídios no Distrito Federal em 2023 e afirmou que 'não há como fazer nada em termos de combate à violência sem dinheiro, sem recurso'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

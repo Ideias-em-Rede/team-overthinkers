@@ -1,0 +1,36 @@
+{
+  "id": 42,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater uma proposta de emenda à Constituição (PEC 25/23) que prevê a criação de um Sistema Único de Mobilidade (SUM) e a adoção da tarifa zero no transporte público"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública conjunta da Comissão de Direitos Humanos, Minorias e Igualdade Racial e da Comissão de Legislação Participativa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "discutir mecanismos constitucionais e operacionais para regulamentar o transporte como direito social e viabilizar a tarifa zero"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "criticou processos de privatização em curso no Distrito Federal e advertiu para os riscos de subsídios públicos que preservem lucros privados sem melhorar serviços"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "a criação de um Sistema Único de Mobilidade (SUM) e a adoção da tarifa zero no transporte público"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "defenderam a aprovação da PEC 25, a criação de uma frente parlamentar em defesa da tarifa zero e a construção de um sistema de mobilidade com financiamento público, transparência e controle social"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

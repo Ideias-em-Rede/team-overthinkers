@@ -1,0 +1,36 @@
+{
+  "id": 176,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O vereador de São Paulo, Celso Giannazi (PSOL-SP), focou na realidade da capital paulista"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pela deputada Professora Luciene Cavalcante (PSOL-SP), contou com a participação de representantes do governo federal, da Defensoria Pública, de parlamentares e de membros de associações civis."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela defendeu que o lugar de todas as pessoas é na escola regular e ressaltou a necessidade de financiamento adequado para a implementação de políticas públicas de inclusão."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele denunciou o governo de São Paulo por não cumprir uma lei estadual que autoriza a redução do número de alunos em salas com estudantes com deficiência e por uma medida que visa substituir professores especializados por ONGs terceirizadas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública extraordinária para debater a educação inclusiva e os avanços decorrentes do Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "sobre o apagão que afetou parte do estado de São Paulo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da ANATEL, Carlos Manuel Baigorri, participou da audiência"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "decisão de proibir cobrança integral enquanto houver suspensão parcial do serviço"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "essas assimetrias prejudicam a concorrência e o papel do Estado deve ser garantir condições de disputa justa"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "proposta de criar uma figura responsável pelos postes, chamado informalmente de 'posteiro'"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Segurança cibernética e inteligência artificial"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

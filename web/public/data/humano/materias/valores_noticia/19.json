@@ -1,0 +1,36 @@
+{
+  "id": 19,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O projeto, apresentado pelo deputado Jilmar Tatto (PT-SP), reduz de 80 para 60 km/h a velocidade nas vias urbanas de trânsito rápido e de 60 para 50 km/h nas vias arteriais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O deputado Juninho do Pneu (União-RJ), que presidiu a reunião, propôs a criação do colegiado."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "No Brasil, em 2022, mais de 32 mil pessoas morreram em acidentes de trânsito, e quase 200 mil passaram por internações, o que custou aos cofres públicos R$ 305,3 milhões."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados pode criar um grupo de trabalho para dar agilidade à tramitação do projeto de lei que reduz para 50km/h a velocidade média nas vias urbanas (PL 2789/23)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "No Brasil, de cada cinco vítimas de acidentes de trânsito, três são motociclistas, segundo Pesquisa Nacional de Saúde, de 2019."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

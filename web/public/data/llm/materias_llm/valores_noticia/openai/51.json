@@ -1,0 +1,36 @@
+{
+  "id": 51,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Lídice da Mata (PSB-BA), autora do requerimento que convocou a audiência e presidente dos trabalhos, abriu a reunião e explicou a dinâmica do encontro"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Necessidade de financiamento permanente e estruturado para a extensão, não apenas editais pontuais de fomento"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Hélder (FORPROEX) e outros pró‑reitores enfatizaram que, apesar de a extensão estar prevista desde a Constituição de 1988 como dimensão indissociável do ensino e da pesquisa, ela tem sido sistematicamente subfinanciada"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi encerrada após uma série de manifestações de pró‑reitores, reitores e representantes institucionais que reforçaram a reivindicação por orçamento dedicado, permanente e articulado às políticas públicas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

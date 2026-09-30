@@ -1,0 +1,36 @@
+{
+  "id": 105,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os desafios assistenciais dos pacientes com edema macular diabético (EMD) no Sistema Único de Saúde (SUS)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pelo deputado Dr. Zacharias Calil (Bloco/UNIÃO‑GO)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "uma complicação do diabetes que pode levar à perda permanente da visão se não for tratada precocemente"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foi mencionado que, durante a pactuação, um procedimento de injeção de antiangiogênico foi orçado em R$ 1.090, mas o valor aprovado seria de R$ 627"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a população com diabetes no Brasil é da ordem de 16 milhões"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

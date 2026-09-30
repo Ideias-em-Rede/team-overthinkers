@@ -1,0 +1,36 @@
+{
+  "id": 192,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A obsolescência programada é uma prática que tem despertado preocupação em todo o mundo. Trata-se da redução deliberada da vida útil de um produto, com o intuito de incentivar o consumo e a substituição constante"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes da ANATEL, PROCON-DF, ABINEE (Associação Brasileira da Indústria Elétrica e Eletrônica) e IDEC (Instituto Brasileira de Defesa do Consumidor)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a criação de regras claras sobre a durabilidade de softwares e a obrigatoriedade de fornecimento de peças de reposição"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Humberto Barbato, da ABINEE, defendeu que a substituição de aparelhos ocorre por evolução tecnológica e demanda dos consumidores, não por obsolescência programada"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi encerrada com o compromisso de discutir propostas legislativas para garantir maior durabilidade e direito à reparação de produtos eletroeletrônicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 67,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos e Minorias da Câmara dos Deputados realizou uma audiência pública para debater a situação dos trabalhadores lesionados no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, presidida pelo deputado Orlando Silva (PCdoB-SP), contou com a participação presencial e virtual de trabalhadores, advogados e representantes de associações"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo ele, os dados indicam que um trabalhador é vítima de acidente a cada 40 minutos e que, a cada 4 horas, ocorre um acidente com consequência de morte."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O documento denuncia a exposição dos trabalhadores a assédio moral, jornadas extenuantes e o aumento de acidentes e doenças profissionais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta pelo deputado Orlando Silva, que destacou a presença de alunos do 9º ano do Colégio Castanheiras, de São Paulo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 158,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão da Amazônia e dos Povos Originários e Tradicionais realizou uma audiência pública para debater a regulamentação do mercado de carbono no Brasil, com foco no Projeto de Lei (PL) nº 412, de 2022."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Airton Faleiro (PT-PA), autor do requerimento para o debate, reuniu representantes de povos indígenas e extrativistas, da sociedade civil, do governo e do setor privado."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Deputado Airton Faleiro abriu a audiência destacando a urgência de uma regulamentação federal para o mercado de carbono, argumentando que a ausência de regras fragiliza principalmente as populações mais vulneráveis."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mary Allegretti, do Instituto de Estudos Amazônicos (IEA), focou na experiência das reservas extrativistas, que somam um estoque de carbono de aproximadamente 2,1 bilhões de toneladas. Ela alertou para a existência de 'contratos confusos, em inglês' e projetos que impedem atividades tradicionais, classificando-os como 'armadilhas'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Beatriz Soares Silva, do Ministério do Desenvolvimento, Indústria, Comércio e Serviços, apresentou a estrutura do mercado regulado proposta pelo PL 412. O sistema prevê a criação de um 'orçamento de carbono' para grandes emissores, que receberão 'Cotas Brasileiras de Emissão'."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Natalie Unterstell, do Instituto Talanoa, defendeu a aprovação da matéria como forma de fazer com que 'quem polui pague'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

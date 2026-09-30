@@ -1,0 +1,36 @@
+{
+  "id": 59,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateu a situação dos pescadores profissionais artesanais de Minas Gerais e Espírito Santo afetados pelo rompimento da barragem da Samarco, em Mariana"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública, uma comissão externa da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "dificuldades enfrentadas pela categoria para comprovar sua atividade e garantir direitos de reparação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, Padre João, lamentou a ausência da Renova, afirmando que a fundação tem se comportado dessa maneira recorrentemente"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu a situação dos pescadores profissionais artesanais de Minas Gerais e Espírito Santo afetados pelo rompimento da barragem da Samarco, em Mariana"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

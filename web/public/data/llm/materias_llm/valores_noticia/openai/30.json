@@ -1,0 +1,36 @@
+{
+  "id": 30,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o orçamento público voltado à infância e à adolescência, com foco na prevenção e na resposta à violência"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputada Ana Paula Lima (Bloco/PT–SC), deputado Danilo Forte, Lucas José Ramos Lopes (Secretário-Executivo da Coalizão Brasileira pelo Fim da Violência contra Crianças e Adolescentes), Santiago Falluh Varella (especialista em políticas sociais do UNICEF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "destinação de recursos para projetos de atendimento a mulheres, crianças e adolescentes vítimas ou testemunhas de violência, bem como para despesas relacionadas à primeira infância"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "inovações previstas no PLOA 2024: levantamento e diálogo com órgãos setoriais para mapear ações que financiam a Agenda Transversal Crianças e Adolescentes"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "69.300 denúncias e 397.000 violações de direitos de crianças e adolescentes, das quais 17.500 envolviam violências sexuais físicas e psíquicas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

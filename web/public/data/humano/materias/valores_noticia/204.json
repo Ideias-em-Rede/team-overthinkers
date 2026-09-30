@@ -1,0 +1,36 @@
+{
+  "id": 204,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "há mais de 65 mil distônicos no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública da Comissão de Saúde da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a distonia pode causar dor, deformidade nos ossos, internações frequentes e perda permanente de movimento"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "pacientes sofrem com a falta de diagnóstico ou até com o diagnóstico equivocado"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "é importante o diagnóstico, que é complicado, já que não existem exames específicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 191,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública para debater a 'Resolução Nexus entre Bem‑Estar Animal, Ambiente e Desenvolvimento Sustentável', do Programa das Nações Unidas para o Meio Ambiente (PNUMA)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Negrini também informou que o governo respondeu a consulta do PNUMA sobre o desdobramento da resolução no Brasil"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A sessão foi presidida pelo deputado Bruno Ganem (Bloco/PODE‑SP) e teve transmissão ao vivo pelo portal da Câmara e pelo canal da Casa no YouTube"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

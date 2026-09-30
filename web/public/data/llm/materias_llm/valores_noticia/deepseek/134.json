@@ -1,0 +1,36 @@
+{
+  "id": 134,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo Deputado Leônidas Cristino (Bloco/PDT - CE), contou com a participação de cinco expositores: Alexandre Alonso, Chefe-Geral da Embrapa Agroenergia; Plínio Nastari, Presidente da DATAGRO Consultoria Agrícola; Pietro Adamo Sampaio Mendes, Secretário de Petróleo, Gás Natural e Biocombustíveis do Ministério de Minas e Energia; Gonçalo Pereira, Professor Titular do Instituto de Biologia da UNICAMP; e Valéria Lima, representante do Instituto Brasileiro de Petróleo e Gás (IBP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O debate atendeu aos Requerimentos nºs 171, de 2023, e 35, de 2023, de autoria do Deputado Arnaldo Jardim."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Gonçalo Pereira criticou veementemente a eletrificação pura com baterias, citando estudos que mostram que um Tesla na Alemanha pode emitir mais CO2 no ciclo de vida que um BMW a diesel."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão de Minas e Energia e a Comissão Especial para estudo, avaliação e acompanhamento das iniciativas e medidas adotadas para a transição energética, fontes renováveis e a produção de hidrogênio verde no Brasil realizaram uma audiência pública na quarta-feira para debater a implementação da metodologia de Análise do Ciclo de Vida (ACV) dos combustíveis."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

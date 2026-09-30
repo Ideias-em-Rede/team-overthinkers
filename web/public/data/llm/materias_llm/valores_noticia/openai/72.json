@@ -1,0 +1,36 @@
+{
+  "id": 72,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "um debate sobre a política estatal de combate ao trabalho análogo à escravidão no Brasil, com atenção especial às lavouras de café em Minas Gerais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram representantes do Ministério Público do Trabalho (MPT), do Ministério do Trabalho e Previdência (MTP), do Sindicato Nacional dos Auditores Fiscais do Trabalho (SINAIT), de organizações não governamentais, da pesquisa acadêmica e de movimentos sindicais"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "desde 1995, o Grupo Especial de Fiscalização Móvel já resgatou 58 mil pessoas; só em 2021 foram 1.937 resgatados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Auditores e procuradores alertaram para déficit de pessoal: Italvar citou que 46% dos cargos de auditor fiscal do trabalho estão vagos"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Um trabalhador resgatado, identificado como Adésio de Brito, morador de Caetanos (BA), relatou ter sido resgatado há duas semanas em Manhumirim (MG), na colheita de café"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

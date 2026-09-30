@@ -1,0 +1,36 @@
+{
+  "id": 186,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Talíria Petrone destacou que os eventos climáticos extremos 'deixaram há muito tempo de ser surpresa' e que é necessário mudar o 'modelo de desenvolvimento predatório'. Ela ressaltou as consequências duras do colapso climático, que atingem principalmente favelas, periferias e o campo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi presidida pela deputada Talíria Petrone (PSOL-RJ) e contou com a participação de representantes de organizações da sociedade civil, pesquisadores e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada Talíria Petrone destacou que os eventos climáticos extremos 'deixaram há muito tempo de ser surpresa' e que é necessário mudar o 'modelo de desenvolvimento predatório'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Maria de Jesus, do Movimento dos Trabalhadores Rurais Sem Terra (MST) no Ceará, denunciou o agronegócio como grande causador do desmatamento e das queimadas que levam a desastres."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo pela internet e contou com a participação online de palestrantes."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

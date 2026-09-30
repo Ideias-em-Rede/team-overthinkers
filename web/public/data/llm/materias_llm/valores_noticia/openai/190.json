@@ -1,0 +1,36 @@
+{
+  "id": 190,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O objetivo declarado foi discutir as barreiras ao diagnóstico precoce, acesso a tratamentos e os impactos econômicos e sociais das doenças raras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, requerida pela deputada Erika Kokay (PT-DF), contou com representantes de órgãos reguladores, associações de pacientes, indústria farmacêutica, pesquisadores e advogados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Marina afirmou que existem mais de 400 milhões de pessoas com alguma doença rara no mundo, que entre 50% e 75% dos casos começam na infância, e que o diagnóstico precoce demora em média 7 anos nos EUA e de 10 a 15 anos no Brasil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Marcela citou números distintos sobre a população brasileira acometida por doenças raras — mencionou 'em torno de 3 milhões de pessoas, aproximadamente 6% da população' — e apontou barreiras regulatórias e econômicas: atrasos em autorizações para pesquisas, custo elevado do 'paciente de pesquisa' e problemas no processo de precificação."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Apresentou o caso clínico de um menino com MPS II que participou de estudo com uma nova medicação capaz de atravessar a barreira hematoencefálica, relatando ganhos motores, cognitivos e comportamentais observados ao longo de semanas e meses de tratamento."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Marina afirmou que existem mais de 400 milhões de pessoas com alguma doença rara no mundo, que entre 50% e 75% dos casos começam na infância, e que o diagnóstico precoce demora em média 7 anos nos EUA e de 10 a 15 anos no Brasil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

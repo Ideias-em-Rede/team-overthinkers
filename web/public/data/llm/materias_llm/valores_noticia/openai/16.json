@@ -1,0 +1,36 @@
+{
+  "id": 16,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro dos Direitos Humanos e da Cidadania, Silvio Almeida, compareceu nesta quarta-feira (data não informada na transcrição) a audiência pública conjunta da Comissão de Fiscalização Financeira e Controle e da Comissão de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": false,
+      "evidencia": null
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao longo do debate, houve momentos de forte tensão. O ministro repudiou 'notícias e insinuações maliciosas' que, disse, têm sido feitas sobre sua pessoa e afirmou que tomará medidas legais contra difamadores."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pela presidente da sessão, deputada Bia Kicis (PL-DF), que explicou regras de tempo para as falas. O ministro teve 20 minutos iniciais para exposição — sem apartes — e respondeu, em seguida, a perguntas de deputados requerentes e inscritos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

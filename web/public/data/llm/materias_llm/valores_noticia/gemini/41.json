@@ -1,0 +1,36 @@
+{
+  "id": 41,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "em 2050, mais de uma em cada quatro pessoas no Brasil terá mais de 60 anos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputado Aliel Machado (PV-PR), reuniu especialistas de ministérios, órgãos internacionais, academia e do Ministério Público Federal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a convenção é fundamental para proteger grupos vulneráveis"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "o tratado é o único instrumento internacional vinculante sobre o assunto"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a convenção promove uma mudança de paradigma, focando na cidadania e no envelhecimento ativo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

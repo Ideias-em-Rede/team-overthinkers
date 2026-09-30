@@ -1,0 +1,36 @@
+{
+  "id": 197,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido inicialmente pelo deputado Raimundo Santos (PSD-PA) e posteriormente pela presidente da comissão, deputada Luisa Canziani (PSD-PR)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Bruno Portela destacou que o marco legal atual, composto pela Emenda Constitucional 85/2015, Lei 13.243/2016 e Decreto 9.283/2018, trouxe avanços significativos, como a redução do tempo de análise de patentes de 14 para 4 anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ricardo Galvão relatou dificuldades práticas na implementação do marco, citando casos concretos no INPE onde interpretações restritivas de órgãos de controle impediram a utilização de instrumentos legais disponíveis."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os deputados Vitor Lippi (PSDB-SP) e Raimundo Santos (PSD-PA) destacaram a importância do tema para o desenvolvimento do país e se comprometeram a trabalhar pelo aprimoramento da legislação e pela melhor aplicação das normas existentes."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

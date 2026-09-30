@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele citou dados da PNAD Contínua 2022, que apontam a existência de 18,6 milhões de pessoas com deficiência no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Conduzida pelo deputado Dr. Zacharias Calil (UNIÃO-GO), autor do requerimento para a reunião"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O orçamento discricionário da SNPAR para o ano é de R$ 1.846.000,00, valor que ele classificou como insuficiente"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele fez um apelo aos parlamentares por mais emendas destinadas à Ação Programática 21CK, de Promoção e Desenvolvimento do Paradesporto Nacional"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele citou dados da PNAD Contínua 2022, que apontam a existência de 18,6 milhões de pessoas com deficiência no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

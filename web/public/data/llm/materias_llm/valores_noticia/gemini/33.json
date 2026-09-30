@@ -1,0 +1,36 @@
+{
+  "id": 33,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Comunicação da Câmara dos Deputados realizou uma audiência pública para discutir a importância da formação superior para o exercício da profissão de jornalista."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pelo presidente da comissão, Deputado Amaro Neto (Republicanos-ES), teve como foco a Proposta de Emenda à Constituição (PEC) que visa restabelecer a obrigatoriedade do diploma, derrubada por uma decisão do Supremo Tribunal Federal (STF) em 2009."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a criação de um Conselho Federal de Jornalismo para estabelecer um controle sobre quem pode exercer a profissão, comparando os riscos do mau jornalismo aos da engenharia mal executada."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Deputado Daniel Trzeciak (PSDB-RS), também jornalista, criticou a decisão do STF, personificada no voto do Ministro Gilmar Mendes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele relatou que a falta do diploma desestimulou a procura por cursos de jornalismo e fragilizou a sociedade diante das *fake news*."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

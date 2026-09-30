@@ -1,0 +1,36 @@
+{
+  "id": 40,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Foram relatadas experiências de projetos sociais bem-sucedidos em diversas regiões do país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa Diogo Silva, assessor especial do Ministério do Esporte e ex-atleta olímpico de taekwondo; Antonio da Silva Jesus (Toninho do Judô), presidente da Associação Kamakura de Judô da Bahia; Carlos Magno Paiva Felicio da Silveira, presidente da Federação do Distrito Federal de Muaythai; Nicole Azevedo, presidente do Conselho Regional de Educação Física do DF; Danys Marques Maia Queiroz, representante do Conselho Federal de Educação Física; e Cleiber Pinheiro Maia, presidente da Federação Sul-Americana de Sport Jiu-Jitsu, por videoconferência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os participantes destacaram o papel das artes marciais no desenvolvimento de valores como disciplina, respeito e autocontrole, além de sua função como instrumento de inclusão social para jovens em situação de vulnerabilidade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Danys Queiroz defendeu a necessidade de formação em educação física para os professores, enquanto outros participantes argumentaram sobre a importância de valorizar o conhecimento tradicional transmitido de mestre para discípulo."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate também abordou a questão da qualificação profissional dos instrutores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

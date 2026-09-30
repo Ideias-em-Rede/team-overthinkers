@@ -1,0 +1,36 @@
+{
+  "id": 198,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Brasil, a maioria dos 65 mil refugiados vêm de Venezuela, Haiti, Afeganistão, Ucrânia, Síria e Congo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Alto Comissariado das Nações Unidas para Refugiados (ACNUR) reconheceu o protagonismo histórico do Brasil sobre o tema durante audiência pública da Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados nesta quarta-feira (9)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O relatório “Tendências Globais”, do ACNUR, mostra que, até maio, 110 milhões de pessoas foram forçadas a se deslocar de seus lares por motivos de perseguição, conflitos, violação de direitos humanos e circunstâncias que perturbam a ordem pública."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Outra reivindicação unânime dos especialistas é a revogação de uma portaria interministerial (Portaria 678/22) do governo Bolsonaro, ainda prevendo possibilidades de “repatriação ou deportação imediata” com base nas regras vigentes durante a pandemia de Covid-19."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Especialistas cobram maior integração socioeconômica de refugiados presentes no País"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

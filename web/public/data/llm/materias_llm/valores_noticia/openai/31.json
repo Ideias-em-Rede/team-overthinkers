@@ -1,0 +1,36 @@
+{
+  "id": 31,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O encontro ocorreu em atendimento ao Requerimento nº 173/2023, de autoria da deputada Socorro Neri, e reuniu representantes da CAPES, de associações e de universidades, além de parlamentares."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa contou com a diretora de Formação de Professores da CAPES, Márcia Serra Ferreira; a presidente da ANFOPE, Suzane da Rocha Vieira Gonçalves (participando por Zoom); o presidente do Fórum Nacional de Coordenadores Institucionais do PARFOR (FORPARFOR), Mark Clark Assen de Carvalho; o diretor-executivo da ANPAE, Romilson Martins Siqueira (por Zoom); e Mariana Breim, diretora de Políticas Educacionais do Instituto Península."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Márcia Serra Ferreira, diretora da CAPES, apresentou o PARFOR como política destinada a regularizar a formação em nível superior de professores já em exercício nas redes públicas que não possuem licenciatura adequada à área que lecionam."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes da ANFOPE e da ANPAE criticaram a elaboração, em gabinetes, de uma nova minuta de diretrizes para formação docente sem ampla consulta."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ela informou também o lançamento, em 2023, do PARFOR Equidade — parceria CAPES/SECADI (MEC) — com foco em formação para a educação escolar indígena, quilombola, do campo, educação especial inclusiva e educação bilíngue de surdos."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Socorro Neri e os demais participantes manifestaram compromisso de continuar o diálogo sobre a formação dos professores da educação básica do País."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

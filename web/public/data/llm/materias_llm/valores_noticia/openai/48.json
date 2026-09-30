@@ -1,0 +1,36 @@
+{
+  "id": 48,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O projeto de lei altera o Código Civil para dispor sobre contrato civil de união homoafetiva, impactando diretamente a vida de cidadãos LGBTQIA+."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi presidida pelo deputado Fernando Rodolfo e contou com a participação de deputados, autoridades jurídicas, professores universitários e líderes religiosos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O projeto pode afetar direitos civis como acesso a hospitais, direitos previdenciários e sucessórios, além de impactar a saúde mental e a violência contra a população LGBTQIA+."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve trocas de acusações, pedidos de respeito e manifestações de plateia clamando pelo arquivamento do projeto, além de divergências entre os participantes sobre a constitucionalidade do projeto."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O tema é relevante para a sociedade civil, especialmente para a comunidade LGBTQIA+, e foi transmitido ao vivo, captando a atenção do público."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

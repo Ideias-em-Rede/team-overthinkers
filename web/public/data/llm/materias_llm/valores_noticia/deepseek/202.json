@@ -1,0 +1,36 @@
+{
+  "id": 202,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi conduzida pela deputada Alice Portugal (PCdoB-BA), que preside os trabalhos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Destacou que a quiropraxia é uma profissão autônoma e distinta, com cursos de graduação de 4 a 5 anos reconhecidos pelo MEC em cinco instituições no país. Ele defendeu que a regulamentação é necessária para garantir segurança aos pacientes e coibir o exercício ilegal por pessoas não qualificadas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Ministério da Saúde, representado por Paulo Mayall Guilayn, manifestou-se contra a criação de uma nova profissão regulamentada por lei."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública na manhã desta quinta-feira para discutir o Projeto de Lei nº 114, de 2015, que regulamenta o exercício da profissão de quiropraxista."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

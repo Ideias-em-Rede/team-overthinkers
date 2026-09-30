@@ -1,0 +1,36 @@
+{
+  "id": 5,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Andreia Siqueira (MDB-PA), que solicitou o debate, pediu apoio do governo federal para que os municípios menores tenham centro de reabilitação para pessoas com TEA."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Andreia Siqueira (MDB-PA), que solicitou o debate, pediu apoio do governo federal para que os municípios menores tenham centro de reabilitação para pessoas com TEA."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada Andreia Siqueira (MDB-PA), que solicitou o debate, pediu apoio do governo federal para que os municípios menores tenham centro de reabilitação para pessoas com TEA."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Amom Mandel (Cidadania-AM), que foi diagnosticado com TEA aos 14 anos, acredita que a Casa acena positivamente para os familiares das pessoas com TEA, mas os parlamentares não aprovam de fato os projetos de lei que beneficiam essas pessoas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Andreia Siqueira (MDB-PA), que solicitou o debate, pediu apoio do governo federal para que os municípios menores tenham centro de reabilitação para pessoas com TEA."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

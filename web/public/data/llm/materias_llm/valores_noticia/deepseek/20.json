@@ -1,0 +1,36 @@
+{
+  "id": 20,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada federal Célia Xakriabá (PSOL-MG) presidiu os trabalhos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A abertura da sessão contou com a participação de representantes do Fórum Nacional de Educação Escolar Indígena, da Articulação dos Povos Indígenas do Brasil (APIB), da Articulação Nacional das Mulheres Indígenas e de membros do governo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Tuxá anunciou que o ministro Camilo Santana solicitou a criação de um grupo de trabalho para, em 60 dias, elaborar um relatório técnico para a criação de uma universidade indígena, que será submetido à consulta dos povos originários."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Lucia Alberta, da FUNAI, apontou o ensino médio como o 'maior problema' da educação escolar indígena, com número de matrículas inferior ao do ensino superior."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Tuxá anunciou que o ministro Camilo Santana solicitou a criação de um grupo de trabalho para, em 60 dias, elaborar um relatório técnico para a criação de uma universidade indígena."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Gersem Baniwa, do Fórum Nacional de Educação Escolar Indígena, defendeu que o futuro dos povos indígenas 'necessariamente passa pela educação' para enfrentar um mundo complexo e globalizado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

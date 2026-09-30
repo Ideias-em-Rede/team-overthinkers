@@ -1,0 +1,36 @@
+{
+  "id": 77,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O entendimento de representantes de empresas, consumidores e prefeituras é que, ainda que a mobilidade urbana seja uma responsabilidade do município, o governo federal deve participar do financiamento do setor."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido na Comissão de Viação e Transportes da Câmara dos Deputados nesta quinta-feira (30), a pedido do deputado Elias Vaz (PSB-GO)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Dados da Associação Nacional das Empresas de Transportes Urbanos (NTU) apontam para um desequilíbrio de quase R$ 28 bilhões entre o custo e a receita auferida pelo setor de transporte coletivo urbano, em abril deste ano."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os debatedores relataram décadas de abandono do setor, com cartelização e problemas de fiscalização, além da priorização do transporte individual automotivo e, mais recentemente, da contratação de transporte via aplicativos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Vários projetos de lei em análise no Congresso Nacional sobre o assunto foram citados na audiência."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

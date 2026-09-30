@@ -1,0 +1,36 @@
+{
+  "id": 200,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pela deputada Erika Kokay (Bloco/PT-DF) e transmitida pela internet."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram na mesa e/ou participaram virtualmente representantes do governo, de sociedades científicas, de associações de pacientes e de grupos de pesquisa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Arthur Medeiros informou que, em 10 de abril, o presidente da República assinou decreto reconstituindo um grupo de trabalho interministerial para elaborar e validar um instrumento de avaliação biopsicossocial"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Arthur Medeiros informou que, em 10 de abril, o presidente da República assinou decreto reconstituindo um grupo de trabalho interministerial para elaborar e validar um instrumento de avaliação biopsicossocial"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Vários convidados defenderam a adoção de uma abordagem biopsicossocial e da integração da CIF com a CID (Classificação Internacional de Doenças)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

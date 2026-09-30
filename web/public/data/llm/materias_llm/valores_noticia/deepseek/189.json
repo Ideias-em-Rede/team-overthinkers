@@ -1,0 +1,36 @@
+{
+  "id": 189,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Desenvolvimento Econômico da Câmara dos Deputados realizou, nesta terça-feira, audiência pública para discutir competitividade e concorrência nos mercados digitais"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do debate representantes do Spotify, Mercado Livre, Conexis Brasil Digital (entidade do setor de telecomunicações) e do Conselho Administrativo de Defesa Econômica (CADE)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela destacou a importância do debate para 'criar políticas que garantam a competitividade e a promoção da concorrência' nos mercados digitais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Luizio Felipe Rocha, consultor do Spotify, relatou que a empresa tem 'experiência com abusos nas mãos da Apple, como gatekeeper de dispositivos móveis'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Any Ortiz informou que esta foi a terceira audiência pública sobre o tema e que posteriormente será realizado um seminário para incluir outros players que não puderam participar das audiências"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

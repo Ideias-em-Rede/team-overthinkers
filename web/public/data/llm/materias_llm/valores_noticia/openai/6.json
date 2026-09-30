@@ -1,0 +1,36 @@
+{
+  "id": 6,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "135 mil a 150 mil clientes estariam sem a viagem prometida após a suspensão"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputados da CPI que investiga operações financeiras"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "135 mil a 150 mil clientes estariam sem a viagem prometida após a suspensão"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "trocas acaloradas entre parlamentares, advogados e depoentes"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "pedido de recuperação judicial poucos dias depois"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "135 mil a 150 mil clientes estariam sem a viagem prometida após a suspensão"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

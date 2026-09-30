@@ -1,0 +1,36 @@
+{
+  "id": 187,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "lideranças da comunidade cigana de diversos Estados"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputada Luizianne Lins (PT-CE), representantes do governo federal, organismos internacionais, do Ministério Público"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "garantir igualdade de oportunidades, preservação cultural e direitos coletivos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "denunciaram invisibilidade estatística e institucional e cobraram ações concretas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Projeto de Lei nº 1.387/2022, que institui o Estatuto dos Povos Ciganos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "amplo participação da comunidade cigana e de órgãos públicos e internacionais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

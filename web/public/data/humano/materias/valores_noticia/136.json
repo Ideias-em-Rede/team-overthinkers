@@ -1,0 +1,36 @@
+{
+  "id": 136,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Lideranças indígenas querem rapidez na aprovação do Projeto de Lei 4347/21, que torna permanente a Política Nacional de Gestão Territorial e Ambiental das Terras Indígenas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de vários órgãos do governo se manifestaram favoravelmente a uma lei que substitua o decreto de criação dessa política pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "proteger, conservar e usar de maneira sustentável os recursos naturais das terras indígenas, para promover a melhoria da qualidade de vida respeitando a autonomia sociocultural dos indígenas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Precisamos que o governo entenda que a política é de Estado e precisa dispor dos recursos necessários para sua implementação"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Lideranças indígenas querem rapidez na aprovação do Projeto de Lei 4347/21"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

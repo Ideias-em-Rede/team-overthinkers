@@ -1,0 +1,36 @@
+{
+  "id": 159,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial destinada a acompanhar as ações de combate ao câncer no Brasil realizou a 9ª Reunião Extraordinária com audiência pública sobre “Outubro Rosa: combate ao câncer de mama”."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta pelo deputado Weliton Prado (MG) e teve participação de parlamentares, representantes do Ministério da Saúde, do INCA, da OPAS/OMS, dos conselhos de gestores estaduais e municipais, de federações e de grupos de pacientes."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Suyanne Monteiro citou projeção do INCA de cerca de 70 mil novos casos anuais para o triênio 2023–2025 e informou que a diretriz do Ministério da Saúde recomenda rastreamento por mamografia para mulheres de 50 a 69 anos a cada 2 anos, com possibilidade de antecipação conforme risco individual."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Parlamentares e representantes de entidades mencionaram três quimioterápicos incorporados em 2021 que ainda não chegaram à ponta do SUS e o trastuzumabe entansina incorporado em 2023 com atraso na disponibilização."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "OPAS/OMS anunciou lançamento do Código Latino-Americano e Caribenho contra o Câncer em 17 de outubro, com versão brasileira prevista para 25 de outubro."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Múltiplos depoimentos de pacientes presenciais e representantes de associações (Escolhemos Viver, Recomeçar, FEMAMA, Oncoguia, entre outras) enfatizaram o impacto humano dos atrasos no diagnóstico e no tratamento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

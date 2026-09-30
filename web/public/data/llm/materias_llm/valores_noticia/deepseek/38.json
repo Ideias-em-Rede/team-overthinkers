@@ -1,0 +1,36 @@
+{
+  "id": 38,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A proposta abrangeria mais de 30 municípios gaúchos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do debate representantes do Ministério do Turismo, da Confederação Nacional do Comércio (CNC), da União Brasileira de Vitivinicultura (UVIBRA), da Associação Brasileira da Indústria de Hotéis (ABIH Nacional), da Associação Brasileira de Enologia (ABE) e da Associação dos Produtores de Vinhos Finos do Vale dos Vinhedos (APROVALE)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A isenção de impostos como IPI, PIS e COFINS para vinhos, espumantes e sucos de uva comercializados na zona franca alavancaria o desenvolvimento socioeconômico da região."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Daniel Panizzi (UVIBRA) alertou para os riscos que a reforma tributária em tramitação pode trazer ao setor, caso o vinho seja equiparado a bebidas destiladas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Carlos Gomes (Republicanos-RS), autor do requerimento que deu origem à audiência e do Projeto de Lei nº 1.378, de 2019, que tramita na Comissão de Finanças e Tributação."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A proposta abrangeria mais de 30 municípios gaúchos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

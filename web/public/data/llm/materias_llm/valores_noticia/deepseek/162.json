@@ -1,0 +1,36 @@
+{
+  "id": 162,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "riscos psicossociais no ambiente de trabalho"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Trabalho da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "riscos psicossociais podem estar presentes em qualquer ambiente laboral"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas a exclusões em normas regulamentadoras"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate sobre riscos psicossociais no ambiente de trabalho"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

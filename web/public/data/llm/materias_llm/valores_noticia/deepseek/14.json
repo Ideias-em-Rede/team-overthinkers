@@ -1,0 +1,36 @@
+{
+  "id": 14,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debate impactos socioambientais em Maceió decorrentes das atividades de mineração da Braskem"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Meio Ambiente e Desenvolvimento Sustentável da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a maior tragédia ambiental em curso no Brasil, quiçá no mundo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Críticas e Denúncias dos Movimentos Sociais"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate impactos socioambientais em Maceió decorrentes das atividades de mineração da Braskem"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

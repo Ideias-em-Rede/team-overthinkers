@@ -1,0 +1,36 @@
+{
+  "id": 140,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Iza Arruda informou que a audiência foi convocada pelo Requerimento nº 97/2023 e explicou as regras de participação e registro de presença."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Saúde da Câmara dos Deputados realizou audiência pública para debater o risco de surtos de doenças nas Américas com a presença do diretor da Organização Pan-Americana da Saúde (OPAS), Dr. Jarbas Barbosa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela abriu a sessão agradecendo a presença do diretor da OPAS e ressaltou a gravidade da queda na cobertura vacinal: atualmente, segundo a deputada, há 2,7 milhões de crianças que não receberam vacinas contra difteria, tétano e coqueluche."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele também manifestou preocupação com movimentos antivacina no Parlamento, citando que em outra comissão haveria, no dia seguinte, um evento com profissionais convocados para questionar a incorporação da vacina contra COVID-19 no calendário infantil, e anunciou intenção de participar de contrapontos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele citou dados e achados de pesquisas mencionadas na audiência: estimativas de risco de nova pandemia (2,5%–3,3% num ano; 22%–28% em 10 anos; 47%–57% em 25 anos), recorde regional de casos de dengue (mais de 3,5 milhões no ano citado), e impactos da pandemia sobre a vacinação infantil, com 23% das crianças nascidas durante a pandemia deixando de se vacinar por closure de serviços ou medo de ir aos serviços de saúde."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Jarbas Barbosa iniciou sua exposição destacando a necessidade de implementar lições aprendidas com a pandemia de COVID-19 para fortalecer sistemas de saúde, em especial atenção primária, vigilância, laboratórios, treinamento de pessoal e uso de telessaúde."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

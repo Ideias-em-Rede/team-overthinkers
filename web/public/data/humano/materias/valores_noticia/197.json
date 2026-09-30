@@ -1,0 +1,36 @@
+{
+  "id": 197,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O consultor jurídico do Ministério da Ciência e Tecnologia Leopoldo Muraro afirma que é necessário aprimorar o regime jurídico e as previsões legais das agências de fomento e dos institutos de ciência e tecnologia (ICTs)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A legislação foi aprovada em 2015 e, entre outros pontos, incentiva a pesquisa científica, prevê isenção e redução de impostos para importação de insumos e facilita processos licitatórios, tanto em institutos quanto em empresas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "“Tem muito órgão no Brasil que atrapalha o desenvolvimento científico”, disse Foina."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência pública foi pedida pela deputada Luisa Canziani (PSD-PR), que argumentou que é necessário avaliar os benefícios, as limitações e gargalos na legislação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

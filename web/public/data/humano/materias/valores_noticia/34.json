@@ -1,0 +1,36 @@
+{
+  "id": 34,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os jovens dos 16 aos 24 anos têm os menores índices de qualidade de saúde mental quando comparados a outras faixas etárias"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi tratado em audiência pública da Comissão de Saúde da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A ampla adesão ao ambiente virtual pode endossar um padrão de beleza irreal com impactos no aumento do sofrimento psíquico."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O uso excessivo de redes sociais pode levar não só a problemas de atenção, sono e sentimento de pertencimento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 102,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A empresa investe atualmente R$ 5 bilhões no país, opera 48 navios na costa brasileira e conecta o Brasil a mais de 500 portos no mundo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo deputado Arnaldo Jardim (CIDADANIA-SP), contou com a participação de representantes do governo, de empresas e de instituições de pesquisa."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que a Maersk estabeleceu a meta de ser 'net zero' em emissões de carbono até 2040, antecipando em dez anos o acordo firmado pela Organização Marítima Internacional (IMO) para 2050."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Danilo Veras, Vice-Presidente de Políticas Públicas e Regulação do Grupo Maersk, apresentou os compromissos e investimentos da empresa."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão Especial para Estudo, Avaliação e Acompanhamento das Iniciativas e Medidas Adotadas para Transição Energética - Fontes Renováveis e Produção de Hidrogênio Verde no Brasil realizou uma audiência pública na tarde desta quinta-feira para debater a descarbonização do setor de navegação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

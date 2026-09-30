@@ -1,0 +1,36 @@
+{
+  "id": 120,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateu as condições de trabalho na mineração brasileira"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelo deputado Alexandre Lindenmeyer (PT-RS), foi convocada a partir de requerimentos do deputado Airton Faleiro (PT-PA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "altas taxas de mortalidade, a precarização gerada pela terceirização e os impactos de alterações legislativas na saúde e segurança dos trabalhadores"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou a ausência de representantes do setor empresarial, como o Instituto Brasileiro de Mineração (IBRAM), e de prefeitos de cidades mineradoras na audiência."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "apresentou dados que mostram o setor de extração mineral com a maior taxa de mortalidade por acidente de trabalho no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

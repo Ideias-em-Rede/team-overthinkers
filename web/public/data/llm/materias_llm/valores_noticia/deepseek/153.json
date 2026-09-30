@@ -1,0 +1,36 @@
+{
+  "id": 153,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "foram debatidos os prejuízos causados pelas enchentes nas cidades mais afetadas do Rio Grande do Sul"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram presentes os ministros Paulo Pimenta (Secretaria de Comunicação Social) e Waldez Góes (Integração e Desenvolvimento Regional), prefeitos de municípios atingidos"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Prefeitos presentes detalharam os estragos em suas cidades, com perdas totais de infraestrutura, comércio, indústria e habitações"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Solicitam agilidade na liberação de recursos, flexibilização de linhas de crédito, subsídios para salários, reconstrução de estradas e escolas, e atenção a municípios não incluídos inicialmente nos decretos de emergência"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência serviu para alinhar as demandas locais com as ações em curso do governo federal e estadual, com compromisso de continuidade do diálogo e da assistência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

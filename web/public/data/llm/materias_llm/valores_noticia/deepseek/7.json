@@ -1,0 +1,36 @@
+{
+  "id": 7,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "passo essencial para destravar investimentos a partir da simplificação do sistema tributário e do fortalecimento da segurança jurídica"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião contou com a participação de presidentes de frentes parlamentares e representantes de entidades."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "passo essencial para destravar investimentos a partir da simplificação do sistema tributário e do fortalecimento da segurança jurídica"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou propostas de cashback tributário."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Passarinho ressaltou o caráter inédito da união de 23 frentes parlamentares"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a importância histórica da reforma tributária para o desenvolvimento econômico do país"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

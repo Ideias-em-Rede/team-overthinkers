@@ -1,0 +1,36 @@
+{
+  "id": 178,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "324 comunidades tradicionais no litoral cearense"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "perda da terra, do território e da água, produção de pobreza, agravamento de vulnerabilidades e prejuízos à saúde mental"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Isso é racismo ambiental"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "mapeamento inédito que identificou 324 comunidades tradicionais no litoral cearense"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate foi proposto pela Deputada Talíria Petrone (PSOL-RJ)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

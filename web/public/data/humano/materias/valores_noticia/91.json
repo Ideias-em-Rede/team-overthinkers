@@ -1,0 +1,36 @@
+{
+  "id": 91,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os aumentos variam de 15% a 25%."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O cálculo foi apresentado nesta quinta-feira (12) pelo presidente da Associação Brasileira de Distribuidores de Energia Elétrica (Abradee), Marcos Madureira, em debate na Comissão de Minas e Energia da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "No Brasil, estimou a Abradee, R$ 28,34 bilhões deixaram de ser repassados para as contas de luz em 2020 e 2021."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Na Comissão de Minas e Energia, houve reações à hipótese de cancelamento desses reajustes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate sobre as contas de luz precisa ser ampliado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

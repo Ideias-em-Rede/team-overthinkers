@@ -1,0 +1,36 @@
+{
+  "id": 47,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou nesta sessão uma audiência pública para debater a regulamentação da Lei Paulo Gustavo (Decreto nº 11.525/2023) e sua importância para o setor cultural brasileiro."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O requerimento da audiência foi de autoria do deputado Alfredinho (Bloco/PT-SP), que presidiu a reunião."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele contextualizou a Lei Paulo Gustavo como uma das medidas aprovadas no contexto da pandemia para socorrer o setor cultural, que sofreu forte impacto com a paralisação de espetáculos e atividades presenciais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Thiago relatou que a lei foi inicialmente vetada pelo governo anterior, veto que foi derrubado pelo Congresso, e que uma medida provisória posterior, considerada pelo Ministério inconstitucional, foi analisada pelo Supremo Tribunal Federal."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele afirmou que os recursos já estão nas contas dos Municípios e que, nas próximas semanas, serão publicados os editais locais para aplicação dos recursos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

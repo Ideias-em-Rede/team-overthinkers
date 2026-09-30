@@ -1,0 +1,36 @@
+{
+  "id": 105,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil está na sexta posição entre os países com mais casos de diabetes. Em 2021, estimou-se que 3 a cada 20 pessoas (15,7%) da população adulta entre 20 e 79 anos no Brasil tinha diabetes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "De acordo com o deputado Dr. Zacharias Calil (União-GO), que pediu a audiência pública, o SUS precisa se atualizar para preservar a visão e a qualidade de vida dos pacientes."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A retinopatia diabética é uma complicação do diabetes mellitus e é considerada a principal causa de cegueira em pessoas em idade produtiva."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os pacientes de edema macular diabético (EMD) passam por desafios no Sistema Único de Saúde porque algumas necessidades não são atendidas pelos protocolos clínicos do SUS."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Até 2045, a projeção é de 1 em cada 4 (23,2%) com diabetes."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

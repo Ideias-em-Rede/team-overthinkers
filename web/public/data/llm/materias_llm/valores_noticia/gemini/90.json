@@ -1,0 +1,36 @@
+{
+  "id": 90,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão do Esporte da Câmara dos Deputados realizou, nesta quinta-feira, uma audiência pública para debater a proteção de jovens contra o assédio e o abuso sexual no ambiente esportivo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada e presidida pelo Deputado Roberto Alves (REPUBLICANOS - SP), reuniu especialistas, representantes de entidades e ex-atletas para discutir o tema."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A Procuradora do Trabalho Luísa Carvalho Rodrigues, do Ministério Público do Trabalho (MPT), destacou que, apesar do alto índice de ocorrências, o número de denúncias de abuso no esporte ainda é baixo devido a uma 'lei do silêncio', motivada pelo medo das vítimas de prejudicarem suas carreiras."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Luciana Neder, presidente e fundadora da Comissão de Direitos das Mulheres no Jiu-Jitsu, apresentou dados alarmantes: sua organização já recebeu 103 denúncias de assédio e violência, incluindo três casos de pedofilia."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ex-goleiro Alexandre Montrimas afirmou que 'não existe um atleta ou ex-atleta que não viveu de perto ou não passou pelo abuso sexual no futebol', exceto por raras exceções."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

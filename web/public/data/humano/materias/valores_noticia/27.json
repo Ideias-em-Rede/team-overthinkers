@@ -1,0 +1,36 @@
+{
+  "id": 27,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O entendimento é que a utilização desregulada desse recurso pode afetar o resultado eleitoral e sanções tardias serão inócuas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Os participantes debateram também o anúncio do presidente do Tribunal Superior Eleitoral (TSE), ministro Alexandre de Moraes"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O entendimento é que a utilização desregulada desse recurso pode afetar o resultado eleitoral e sanções tardias serão inócuas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Prof. Paulo Fernando (Republicanos-DF) considerou insuficiente a pena de multa estipulada em projeto de lei que tramita na Câmara."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Nas próximas eleições, dependendo da tecnologia utilizada, das ferramentas, das forças que forem empreendidas, será possível em muitos casos entender, saber qual é o resultado da eleição bem antes da eleição"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O entendimento é que a utilização desregulada desse recurso pode afetar o resultado eleitoral e sanções tardias serão inócuas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 128,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A portaria revogou autorizações permanentes para funcionamento em feriados de atividades como supermercados, farmácias e atacadistas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi convocada pela deputada Daniela Reinehr (PL-SC) a partir do Requerimento nº 50/2023, subscrito pelo deputado Saulo Pedroso (PSD-SP)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela gera insegurança jurídica e pode prejudicar planejamento de empresas, investimentos, arrecadação e empregos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os representantes patronais e entidades do setor de comércio e indústria manifestaram preocupação com a portaria"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A portaria revogou autorizações permanentes para funcionamento em feriados de atividades como supermercados, farmácias e atacadistas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A discussão sobre a portaria e as propostas legislativas relacionadas ao funcionamento do comércio em domingos e feriados deve permanecer no centro do debate"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

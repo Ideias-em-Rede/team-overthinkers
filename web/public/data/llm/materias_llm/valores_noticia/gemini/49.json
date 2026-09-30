@@ -1,0 +1,36 @@
+{
+  "id": 49,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pela deputada Daniela Reinehr (PL-SC), foi motivada por um recente deslizamento que bloqueou a rodovia e deixou pessoas ilhadas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado José Rocha (Bloco/UNIÃO-BA), abriu a sessão destacando a gravidade das enchentes no Rio Grande do Sul."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele apontou que a região cortada pela BR-101 responde por 68% do PIB catarinense e que a baixa velocidade média no trecho gera um prejuízo anual de mais de R$ 540 milhões apenas em consumo de combustível para o setor de transportes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele explicou que o contrato de concessão da Arteris Litoral Sul, de 2008, está desatualizado e que a ANTT trabalha na otimização e modernização dos contratos antigos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A solução proposta é uma repactuação que pode estender o prazo da concessão por até 15 anos, permitindo a inclusão de novos investimentos, como a obra dos túneis, sem um aumento excessivo na tarifa de pedágio."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

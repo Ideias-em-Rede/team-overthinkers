@@ -1,0 +1,36 @@
+{
+  "id": 178,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Talíria Petrone (PSOL-RJ), foi motivada pela tramitação em regime de urgência de um projeto de lei que regulamenta a instalação de usinas eólicas no mar, conhecidas como *offshore*."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou uma audiência pública para debater os impactos socioambientais da construção de parques de energia eólica em comunidades locais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo a pesquisadora, os 23 projetos de parques eólicos *offshore* previstos para a costa cearense se sobrepõem diretamente às áreas de pesca de curta, média e longa distância, além de rotas de navegação das embarcações artesanais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de movimentos sociais e comunidades tradicionais reforçaram as críticas. Carine Santos da Silva, da Articulação Povos de Luta, relatou que os parques em terra (*onshore*) já causam perda de território, pobreza e prejuízos à saúde mental."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Adryane Gorayeb, pesquisadora da Universidade Federal do Ceará, apresentou um estudo de cartografia social que mapeou 324 comunidades tradicionais de pescadores artesanais, quilombolas e indígenas no litoral do Ceará, que até recentemente não constavam nos mapas oficiais do estado."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ao final da audiência, foi apresentada uma carta assinada por mais de cem movimentos e organizações civis contrários à forma como os projetos de energia eólica *offshore* estão sendo conduzidos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

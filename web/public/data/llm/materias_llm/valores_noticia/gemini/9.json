@@ -1,0 +1,36 @@
+{
+  "id": 9,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa realizou uma audiência pública para debater a exigência de certidão de antecedentes criminais para cuidadores de idosos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião contou com a participação de representantes do Judiciário, da Defensoria Pública, do Ministério dos Direitos Humanos e da Cidadania e de organizações da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A juíza também informou que a Central Judicial da Pessoa Idosa do DF realizou 37 mil acolhimentos no último ano, evidenciando a vulnerabilidade desse grupo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela questionou se qualquer crime seria impeditivo para a contratação e destacou que a profissão é majoritariamente exercida por mulheres de baixa renda, que poderiam ser revitimizadas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Monize Marques propôs que, em vez de uma certidão 'negativa', fosse possível solicitar uma certidão de antecedentes, permitindo ao contratante avaliar a pertinência de eventuais crimes com as funções do cuidado."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Kenio Costa de Lima apresentou dados que mostram que o Brasil já é um país envelhecido, com 15,8% da população acima de 60 anos, e que a discussão sobre o cuidado evoluiu de uma necessidade para um direito."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

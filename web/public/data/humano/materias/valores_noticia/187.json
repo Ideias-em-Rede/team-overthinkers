@@ -1,0 +1,36 @@
+{
+  "id": 187,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "os ciganos vivem no Brasil desde o século 16"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "garantir a igualdade de oportunidades e defender a dignidade e os valores religiosos e culturais dos ciganos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Violência policial"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "proposta de Estatuto do Povo Cigano (PL 1387/22)"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "pedem acesso a políticas públicas e reconhecimento pelo Censo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

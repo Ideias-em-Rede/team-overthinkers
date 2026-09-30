@@ -1,0 +1,36 @@
+{
+  "id": 195,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "os mercados digitais têm se expandido de forma exponencial nas últimas décadas com serviços de tecnologia e informação se tornando cada vez mais presentes na vida cotidiana das pessoas e empresas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública citaram modelos adotados em países europeus"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Se você pensar no impacto sobre os consumidores, se a conformidade com a proposta brasileira vai aumentar os custos variados ou fixos, é muito importante destacar que os serviços vão aumentar os custos para os usuários e os das empresas também podem aumentar"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Já o advogado especialista em mercados e serviços digitais do escritório de advocacia White & Case Assimakis Komminos discorda de que se use como modelo a regulação da União Europeia"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Nós estamos aqui tendo uma grande oportunidade de enriquecer o debate, aprendendo com o que já foi construído em outros países"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

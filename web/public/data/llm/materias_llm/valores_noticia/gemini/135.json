@@ -1,0 +1,36 @@
+{
+  "id": 135,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate, proposto pela Deputada Professora Luciene Cavalcante (PSOL-SP) e pelo Deputado Pastor Henrique Vieira (PSOL-RJ), reuniu parlamentares, representantes do governo, sindicatos e especialistas para discutir a falta de regulamentação da profissão, as precárias condições de trabalho e o crescente adoecimento da categoria."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Deputada Luciene Cavalcante, que presidiu a sessão, abriu os trabalhos destacando a essencialidade da função dos policiais penais para a segurança pública e a necessidade de sua valorização."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela apontou um 'quadro de adoecimento em massa' na categoria, causado pela falta de políticas específicas, pela não regulamentação da carreira e pelas condições do cotidiano de trabalho."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Joélia Silveira Lins, presidente do sindicato da categoria no Ceará, relatou um aumento no adoecimento e na evasão de profissionais no estado, além de um alto número de suicídios – oito em uma categoria de 3.555 policiais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Marcelo Kimati Dias, pesquisador da Fundacentro, apresentou dados que indicam que policiais penais têm escores mais altos de ansiedade, depressão e problemas de sono em comparação com a população geral."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

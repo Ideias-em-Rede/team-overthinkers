@@ -1,0 +1,36 @@
+{
+  "id": 13,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "região afetada continua sem o devido reparo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do governo federal, do Ministério Público e da Defensoria Pública se uniram a parlamentares"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "reparação dos danos sociais, econômicos e ambientais causados pelo rompimento da Barragem do Fundão"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "As mineradoras, porém, travaram o novo acordo por divergências quanto ao valor das ações"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Oito anos após o rompimento da Barragem do Fundão, região afetada continua sem o devido reparo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

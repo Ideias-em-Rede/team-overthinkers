@@ -1,0 +1,36 @@
+{
+  "id": 82,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou, nesta segunda-feira, uma audiência pública extraordinária para discutir a importância da valorização dos mestres e mestras dos saberes e fazeres da cultura popular brasileira."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi conduzida pela deputada Erika Kokay (PT-DF), autora do requerimento, juntamente com a deputada Professora Rosa Neide, que preside a comissão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As propostas, que já estão há mais de uma década no Congresso, visam criar mecanismos de proteção e reconhecimento aos mestres da cultura popular."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mãe Beth de Oxum destacou a discrepância de investimento entre os grandes palcos dos festivais, que contratam artistas do entretenimento massivo, e os pequenos palcos destinados às manifestações culturais centenárias."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes relataram a histórica desvalorização e invisibilização das culturas populares tradicionais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

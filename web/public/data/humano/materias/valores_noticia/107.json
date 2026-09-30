@@ -1,0 +1,36 @@
+{
+  "id": 107,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Para que a defesa civil dê respostas rápidas às emergências, cada vez mais comuns com a mudança climática"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em debate realizado na Comissão Especial de Prevenção e Auxílio a Desastres e Calamidades Naturais da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os participantes do debate também pediram que a liberação de recursos para atendimento emergencial à população vítima de desastres seja desburocratizada"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os coordenadores dos serviços de defesa civil também relataram que hoje os alertas de risco chegam à população por meio de mensagens de SMS. E todos concordaram que esse sistema é extremamente ineficiente"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os coordenadores estaduais reivindicam a implantação do sistema de alerta chamado de Céu Broadcast"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

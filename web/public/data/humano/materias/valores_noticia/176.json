@@ -1,0 +1,36 @@
+{
+  "id": 176,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido em audiência pública da Comissão de Educação da Câmara dos Deputados para avaliar como está a implantação da Lei Brasileira de Inclusão para o acesso das pessoas com deficiência ao ambiente escolar."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Para a presidente da Associação G-14, que apoia pacientes de poliomielite, Sandra Ramalhoso, o capacitismo é a principal barreira enfrentada pelas pessoas com deficiência"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Para ela, não adianta garantir infraestrutura se o ambiente escolar não estiver preparado para receber os alunos com necessidades especiais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O capacitismo foi citado por especialistas como uma grande barreira enfrentada pelas pessoas com deficiência para acesso à educação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Professora Luciene Cavalcante (Psol-SP), que propôs a realização da audiência, destacou que é preciso garantir recursos para a implantação do que preconiza a Lei Brasileira de Inclusão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

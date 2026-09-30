@@ -1,0 +1,36 @@
+{
+  "id": 133,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Estado de São Paulo em 3 de novembro de 2023"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "presidente da Enel Brasil, Nicola Cotugno"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "centenas de queixas de consumidores de São Paulo, que ficaram dias sem energia, com prejuízos em alimentos, equipamentos eletrônicos e atividades comerciais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele informou que o convite foi feito há 11 dias e que a justificativa de não comparecimento foi enviada apenas na véspera, o que classificou como 'um desrespeito com toda a Câmara dos Deputados' e 'intolerável'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os deputados Ivan Valente e Celso Russomanno relataram ter centenas de queixas de consumidores de São Paulo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

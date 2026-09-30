@@ -1,0 +1,36 @@
+{
+  "id": 64,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado ressaltou crescimento do turismo religioso após a pandemia e informou que Santa Catarina foi o quarto estado que mais faturou com viagens ligadas ao turismo religioso, com mais de R$ 834 milhões em 2021, conforme dados do IBGE mencionados na audiência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram à mesa o Secretário Nacional de Desenvolvimento e Competitividade do Turismo, Fábio Pinheiro; Ariane Nakamura, da Agência de Desenvolvimento do Turismo de Santa Catarina (SANTUR); o prefeito de Ituporanga (SC), Gervásio Maciel; o padre Flávio Remigio, dos Arautos do Evangelho (Joinville); o representante do Santuário Santa Paulina, Marcos Jaboski (Nova Trento); e os representantes do Congresso dos Gideões Missionários da Última Hora, Dr. Alexandre Márcio de Souza e Dra. Thayse Tristão Rosa de Souza."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Secretário Fábio Pinheiro destacou que o turismo religioso integra o turismo cultural, gera emprego e renda locais e citou iniciativas do ministério, como um boletim de inteligência mercadológica sobre turismo religioso disponível no site do órgão."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A advogada Thayse Tristão trouxe para a audiência a discussão sobre a cobrança de direitos autorais pelo ECAD em eventos religiosos. Ela questionou a aplicação da cobrança em festas e celebrações religiosas, argumentando conflito com a liberdade religiosa garantida na Constituição e citando decisões do Superior Tribunal de Justiça que tratam do tema."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O prefeito de Ituporanga, Gervásio Maciel, descreveu empreendimento privado recentemente inaugurado na cidade, financiado pelo empresário Sílvio Prim (PROAÇO), que, segundo ele, investiu cerca de R$ 15 milhões."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Rodrigo Coelho afirmou que a audiência visa mapear demandas e potencialidades do segmento — que, segundo dados citados por ele, movimenta cerca de R$ 15 bilhões por ano — e ouvir representantes do setor, prefeituras, órgãos estaduais e do Ministério do Turismo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

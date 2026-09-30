@@ -1,0 +1,36 @@
+{
+  "id": 103,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Justiça e Segurança Pública, Ricardo Lewandowski, participou nesta tarde da 7ª reunião da Comissão de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Lewandowski reconheceu cortes drásticos e disse que o ministério enviou ofícios ao Ministério da Economia e ao Ministério do Planejamento e pretende audiência com a ministra Simone Tebet para pleitear reposição de recursos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "deputados cobraram esclarecimentos sobre as causas, responsabilidades e medidas adotadas após a primeira fuga registrada no sistema penitenciário federal"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Lewandowski informou que os fugitivos foram recapturados a cerca de 1.600 km do local e estimou em aproximadamente R$ 6 milhões o custo da operação de recaptura"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

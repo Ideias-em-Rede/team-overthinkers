@@ -1,0 +1,36 @@
+{
+  "id": 23,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelo Deputado Hugo Leal (PSD-RJ), reuniu representantes de montadoras de veículos, associações do setor de gás, produtores de biometano e institutos de pesquisa para discutir o papel do combustível na transição energética e na descarbonização da frota brasileira."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi aberta pelo presidente da comissão, Deputado Júnior Ferrari (PSD-PA), que destacou a relevância do tema."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele classificou o biometano como 'o etanol dos caminhões', ressaltando o potencial de produção nacional, que poderia substituir até 70% do diesel consumido atualmente."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele citou um projeto em parceria com a L'Oréal em São Paulo, onde uma frota de caminhões será 100% movida a biometano."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Segundo Correa, a propulsão a gás reduz em até 95% a emissão de material particulado e, com o uso de biometano, a redução de CO2 também pode chegar a 95%."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

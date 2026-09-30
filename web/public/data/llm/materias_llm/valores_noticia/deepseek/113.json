@@ -1,0 +1,36 @@
+{
+  "id": 113,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate contou com a participação de representantes do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS) e do Ministério das Cidades."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A abertura dos trabalhos foi conduzida pelo presidente da Comissão, deputado Leo Prates (PDT-BA), que, após a aprovação da ata da reunião anterior, passou a presidência ao relator da comissão, deputado Gilson Daniel (PODE-ES), autor dos requerimentos que propuseram a audiência."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou seu projeto de lei, já sancionado, que destinou novas fontes de recursos ao Fundo Nacional para Calamidades Públicas, criado em 1969, mas que até então não possuía fontes específicas de financiamento."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele enfatizou a importância da escuta ativa das comunidades e da participação social na construção das políticas públicas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

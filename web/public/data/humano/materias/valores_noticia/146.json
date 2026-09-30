@@ -1,0 +1,36 @@
+{
+  "id": 146,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "os medicamentos disponíveis, que são importados, têm um preço muito elevado, não sendo acessíveis às famílias mais vulneráveis"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "deputado Padre João (PT-MG)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "os medicamentos reduzem a frequência de convulsões em crianças, de dezenas de eventos por dia para um ou dois por semana"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "acuados por uma hipocrisia religiosa, negando aos pobres um medicamento tão importante"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "o uso de medicamentos produzidos com a substância apresenta resultados positivos no tratamento de epilepsia, Alzheimer, Parkinson, dores crônicas e câncer"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

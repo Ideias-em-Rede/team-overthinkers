@@ -1,0 +1,36 @@
+{
+  "id": 34,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, convocada a requerimento da deputada Rosângela Moro (União-SP) e presidida pelo deputado Eduardo Velloso (União-AC), reuniu especialistas, representantes de empresas, da sociedade civil e do Ministério da Saúde."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada Rosângela Moro participou por meio de um vídeo, no qual afirmou que os padrões de beleza idealizados e inatingíveis promovidos pelas redes sociais podem levar a problemas como baixa autoestima, depressão, ansiedade e transtornos alimentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela citou dados da Organização Mundial da Saúde que apontam o Brasil como o país mais ansioso do mundo e o quinto mais depressivo."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A parlamentar defendeu a inclusão de uma matéria sobre saúde mental na grade curricular da educação básica e questionou os representantes do Poder Executivo sobre a viabilidade da proposta."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Thais Hagge, Vice-Presidente de Beleza e Bem-Estar da Unilever Brasil, apresentou as ações da marca Dove, que promove a 'beleza real' e se comprometeu a não distorcer imagens de corpos em suas comunicações."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela compartilhou dados de pesquisas indicando que uma em cada duas jovens já teve a saúde mental impactada por conteúdos tóxicos de beleza nas redes sociais e que 97% dos jovens já foram expostos a esse tipo de conteúdo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

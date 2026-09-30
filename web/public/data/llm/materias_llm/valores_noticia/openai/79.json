@@ -1,0 +1,36 @@
+{
+  "id": 79,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Câmara realiza audiência pública para debater PLP que cria “Código de Defesa do Pagador de Impostos”"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência pública foi aberta pelo deputado Felipe Rigoni (UNIÃO-ES), autor do requerimento que originou a reunião, e teve como relator o deputado Pedro Paulo (PSD-RJ)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Destacou risco de insegurança jurídica se dispositivos de leis específicas forem alterados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao longo das exposições, surgiram convergências e divergências entre representantes do Fisco, entidades patronais, sindicatos e instituições jurídicas e acadêmicas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Câmara realiza audiência pública para debater PLP que cria “Código de Defesa do Pagador de Impostos”"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Objetivo e rito Rigoni explicou que a audiência integra o processo de instrução do PLP 17/2022 e que o objetivo é ouvir diferentes atores para aprimorar o relatório do relator Pedro Paulo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

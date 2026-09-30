@@ -1,0 +1,36 @@
+{
+  "id": 106,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Gesser citou o impacto sobre a produção de cebola em Santa Catarina"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram Jelson Gesser (presidente da Associação dos Produtores de Cebola de Santa Catarina — APROCESC e vice-presidente da ANACE)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Banco Central informou que, no ano passado, o PROAGRO consumiu cerca de R$ 8 bilhões do Tesouro Nacional para indenizações"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados presentes, entre eles Bohn Gass e Heitor Schuch, manifestaram preocupação com os efeitos das novas normas sobre a agricultura familiar e pediram revisão das normativas publicadas"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A publicação, nesta semana, de quatro normas (Resoluções CMN nºs 5.125, 5.126, 5.127 e 5.128, de 2024) com aperfeiçoamentos operacionais e tecnológicos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Jelson Gesser relatou dificuldades práticas dos agricultores familiares decorrentes das alterações implementadas no Plano Safra vigente"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

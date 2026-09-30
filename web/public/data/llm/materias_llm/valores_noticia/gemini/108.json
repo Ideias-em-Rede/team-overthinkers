@@ -1,0 +1,36 @@
+{
+  "id": 108,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O deputado justificou seu voto contrário ao regime de urgência para o projeto, afirmando que não houve diálogo do Governo Federal com o Congresso e a sociedade."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência, aberta pelo presidente da Comissão de Turismo, Deputado Paulo Litro (PSD-PR), foi solicitada pelos deputados Bibo Nunes (PL-RS) e Jorge Goetten (PL-SC)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Alexandre Sampaio de Abreu, da Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC), citou um estudo da entidade que estima que o fim do programa representaria uma retirada de até R$ 244 bilhões da economia."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes de diversas associações do setor se manifestaram contra as alterações."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ao assumir a presidência dos trabalhos, o Deputado Bibo Nunes reforçou a importância do programa para a recuperação do setor, que foi um dos mais afetados pela pandemia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

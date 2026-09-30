@@ -1,0 +1,36 @@
+{
+  "id": 35,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "minirreforma eleitoral voltada às eleições municipais de 2024"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Rubens Pereira Júnior, relator do grupo, e coordenada pela deputada Dani Cunha"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "simplificar procedimentos e reduzir gargalos verificados nas últimas eleições"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "aprovar a minirreforma eleitoral para aplicação nas eleições municipais de 2024"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

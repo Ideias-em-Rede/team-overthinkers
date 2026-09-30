@@ -1,0 +1,36 @@
+{
+  "id": 9,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Citou que, no último ano, a Central Judicial da Pessoa Idosa do DF registrou 37 mil acolhimentos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram presencialmente e por videoconferência representantes do Judiciário, do Executivo, da Defensoria e do setor da longevidade"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Defendeu ações como formação de agentes nos territórios, educação para o envelhecimento e práticas intergeracionais como medidas preventivas complementares às eventuais medidas punitivas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "tensão quanto à forma e ao alcance da exigência de certidões de antecedentes (obrigatoriedade ou facultatividade, possibilidade de impedir o trabalho de pessoas com antecedentes, risco de discriminação e impactos na ressocialização)"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Mencionou também números citados na audiência: mais de 57 milhões de brasileiros com mais de 50 anos e 37,5 milhões com mais de 60 anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

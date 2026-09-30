@@ -1,0 +1,36 @@
+{
+  "id": 190,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Durante o debate, cidadãos presentes relataram dificuldades, como a falta de atualização da lista de doenças raras para acesso a benefícios do INSS e a ausência de medicamentos e fórmulas para doenças metabólicas, mesmo quando já incorporados ao SUS."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública para debater os desafios econômicos, sociais e de saúde pública relacionados às doenças raras no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela também informou que 90% dos gastos do Sistema Único de Saúde (SUS) com medicamentos obtidos por via judicial, totalizando R$ 1,2 bilhão, são destinados a tratamentos para doenças raras."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência, especialistas e representantes da sociedade civil apontaram a demora no diagnóstico, as barreiras regulatórias e o alto custo dos tratamentos como os principais obstáculos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A médica geneticista Ana Maria Martins, do Instituto de Genética e Erros Inatos do Metabolismo (IGEIM), participou de forma remota e apresentou o caso de um paciente com MPS II que demonstrou melhoras significativas na fala, interação social e habilidades motoras após participar de um estudo clínico com um medicamento inovador."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

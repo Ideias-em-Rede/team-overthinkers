@@ -1,0 +1,36 @@
+{
+  "id": 102,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O diretor de Navegação e Hidrovias do Ministério de Portos e Aeroportos, Dino Antunes Dias Batista"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "os esforços para reduzir essas emissões em toda a cadeia dos transportes são benéficos para a economia brasileira"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O problema é quando entra o jogo pesado, como o Inflation Reduction Act, que é um esforço americano altamente subsidiado, a disputa é pesadíssima"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Precisamos trabalhar isso não porque somos bonzinhos, mas porque dá resultado e vai ser cada vez mais exigido pelos nossos parceiros comerciais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

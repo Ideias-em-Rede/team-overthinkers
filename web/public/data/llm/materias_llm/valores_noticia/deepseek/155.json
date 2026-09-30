@@ -1,0 +1,36 @@
+{
+  "id": 155,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil vive um processo de envelhecimento populacional acelerado, com previsão de que os idosos representem quase 25% da população em 2040."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi presidido pelo deputado Aliel Machado (Bloco/PV-PR)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou que o Brasil vive um processo de envelhecimento populacional acelerado, com previsão de que os idosos representem quase 25% da população em 2040."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele citou a falta de orçamento adequado para a Política Nacional da Pessoa Idosa e a modificação na legislação do Fundo Nacional do Idoso que vetou repasses devido ao teto de gastos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Presidente do Tribunal Regional Eleitoral do Paraná, Desembargador Wellington Coimbra, apresentou o projeto 'Cidadania Plena', que leva urnas eletrônicas para casas de longa permanência e hospitais, permitindo que idosos e internados votem sem precisar se deslocar."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou que o Brasil vive um processo de envelhecimento populacional acelerado, com previsão de que os idosos representem quase 25% da população em 2040."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

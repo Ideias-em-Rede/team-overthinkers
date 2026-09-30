@@ -1,0 +1,36 @@
+{
+  "id": 171,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Destacou ainda a meta de expandir a Atenção Primária para mais de 85 milhões de brasileiros."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Ministra da Saúde, Nísia Trindade, participou de uma audiência pública conjunta das Comissões de Saúde e de Previdência, Assistência Social, Infância, Adolescência e Família da Câmara dos Deputados na tarde desta terça-feira."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela agradeceu à Câmara pela aprovação da Lei do Mais Médicos e informou que o programa já conta com 18.500 médicos em atuação, 'um recorde histórico'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os Deputados Osmar Terra (MDB-RS) e Dr. Luiz Ovando (PP-MS) questionaram a política de vacinação contra COVID-19, criticando mudanças nas recomendações de vacinas e a falta de informações sobre eficácia e eventuais efeitos adversos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Ministra abordou ainda investimentos em saúde mental (200 CAPS e R$ 410 milhões), oncologia e retomada do programa PER-SUS."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

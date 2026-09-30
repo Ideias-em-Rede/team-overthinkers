@@ -1,0 +1,36 @@
+{
+  "id": 26,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Luizianne Lins abriu a sessão destacando que o tema, apesar de ter ganhado visibilidade ao ser abordado no ENEM, ainda é desconhecido por grande parte da população."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de especialistas que abordaram o tema sob diferentes perspectivas. A escritora Raquel Santana, autora do livro 'As cuidadoras na sala de visita', ressaltou a importância de analisar a questão sob o viés de raça e classe, lembrando a luta histórica das trabalhadoras domésticas por direitos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Laís Abramo reforçou que a atual organização social do cuidado no Brasil é 'injusta, inequitativa e insustentável', baseada no trabalho não remunerado das mulheres."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A deputada Luizianne Lins reforçou a urgência de não confundir 'amor e afeto com trabalho não pago' e se comprometeu a dar andamento ao projeto de lei na Câmara."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Marcio Pochmann, presidente do Instituto Brasileiro de Geografia e Estatística (IBGE), destacou a mudança demográfica no Brasil, com o envelhecimento da população, o que torna o tema dos cuidados central."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Rosane da Silva citou dados da PNAD de 2023, que apontam que mulheres dedicam em média 21 horas semanais a tarefas domésticas, contra 11 horas dos homens."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

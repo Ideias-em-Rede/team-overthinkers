@@ -1,0 +1,36 @@
+{
+  "id": 30,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes da sociedade defenderam nesta terça-feira (21) a inclusão de cinco emendas no projeto de Lei de Diretrizes Orçamentárias (LDO) de 2024 para combater a violência contra crianças e adolescentes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Segundo a deputada Ana Paula Lima (PT-SC), que solicitou a audiência, as emendas foram aceitas pelo relator da LDO, deputado Danilo Forte (União-CE), que não compareceu ao evento."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“A emenda é fundamental para ampliar a transparência do orçamento e possibilitar a análise total de investimentos em prevenção e resposta à violência contra crianças e adolescentes”, disse Ana Paula."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“É preciso discutir a capacidade executória dessas ações e principalmente a qualidade executória dessas ações\", disse Lopes. \"Investir em prevenção de violência contra crianças e adolescentes exige o uso de evidências, o que de fato funciona, o que amplia a proteção e o que reduz os fatores de risco”, detalhou."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

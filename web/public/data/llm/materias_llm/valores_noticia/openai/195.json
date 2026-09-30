@@ -1,0 +1,36 @@
+{
+  "id": 195,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "tema diretamente ligado ao Projeto de Lei nº 2.768/2022, que trata da organização, funcionamento e operação de plataformas digitais que oferecem serviços ao público brasileiro"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A relatora do PL é a deputada Any Ortiz (Cidadania-RS), que presidiu a reunião"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "analisar experiências internacionais para subsidiar a elaboração do marco regulatório brasileiro para mercados digitais"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "tema diretamente ligado ao Projeto de Lei nº 2.768/2022, que trata da organização, funcionamento e operação de plataformas digitais que oferecem serviços ao público brasileiro"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 18,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O PIBID já beneficiou mais de 344 mil estudantes e atualmente concede 49 mil bolsas mensais para discentes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa de trabalhos foi composta por Mercedes Maria da Cunha Bustamante, presidente da CAPES; Mariana Breim, do Instituto Península; Cristiane Antonia Hauschild Johann, coordenadora do Fórum Nacional de Coordenadores Institucionais do PIBID e Residência Pedagógica; Hélder Eterno da Silveira, presidente do Fórum de Pró-Reitores de Extensão; Raquel Nery, coordenadora do PIBID da Universidade Federal da Bahia; e Nilson Cardoso, vice-presidente da Associação Nacional pela Formação dos Profissionais da Educação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A ideia é exatamente esta: que este programa agora se torne um programa de Estado."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Foram citados os desafios orçamentários e a necessidade de revogação da Resolução CNE nº 2/2019 (BNC-Formação) e retomada da Resolução CNE nº 2/2015."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Mariana Breim, do Instituto Península, enfatizou a importância do programa para a qualidade da educação, citando pesquisas que indicam que a qualidade do professor é o fator intraescolar que mais explica a diferença de desempenho entre alunos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

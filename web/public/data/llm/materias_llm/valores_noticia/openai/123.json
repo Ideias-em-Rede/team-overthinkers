@@ -1,0 +1,36 @@
+{
+  "id": 123,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil registra cerca de 80 mil casos novos de tuberculose por ano."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta pelo presidente da comissão, deputado Antonio Brito (PSD-BA), que destacou a participação brasileira na Reunião de Alto Nível das Nações Unidas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Em 2022 houve retrocesso: 5.824 mortes por tuberculose, o pior número em 20 anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vários oradores ressaltaram a insuficiência de recursos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Foi anunciado o planejamento do lançamento do Plano Brasil Livre da Tuberculose em evento no Palácio do Planalto."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Do inquérito nacional de 2021, 48% das pessoas com tuberculose enfrentam 'custos catastróficos'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 43,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, presidida por Fernanda Melchionna, contou com a participação do tenente‑brigadeiro Heraldo Luiz Rodrigues (Secretaria de Pessoal, Saúde, Desporto e Projetos Sociais do Ministério da Defesa, em transmissão virtual); do representante dos militares das Forças Armadas no Estado de São Paulo Vanderley Carlos Gonçalves; do advogado Claudio Lino (Instituto Brasileiro de Análise de Legislações Militares); da advogada Jéssica Rocha (especialista em práticas jurídicas envolvendo pensionistas); e do representante dos militares reformados e do SindMil, George Brito."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A audiência teve como objetivo colher informações sobre os impactos da Lei nº 13.954/2019, aprovada durante o governo de 2019, que reformou a carreira e o sistema de proteção social dos militares das Forças Armadas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os representantes de praças, pensionistas e advogados trouxeram críticas contundentes à lei e a seus efeitos práticos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência teve como objetivo colher informações sobre os impactos da Lei nº 13.954/2019, aprovada durante o governo de 2019, que reformou a carreira e o sistema de proteção social dos militares das Forças Armadas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

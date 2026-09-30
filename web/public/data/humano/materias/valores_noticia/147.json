@@ -1,0 +1,36 @@
+{
+  "id": 147,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "64% das crianças ente zero e cinco anos não têm acesso a creches no País"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de entidades em defesa da infância destacaram a importância das creches públicas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essas crianças sem creche representam uma grande dificuldade para as famílias, em especial para as mães que dependem desse serviço para se manter em seus empregos"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O tema foi discutido na quinta-feira (19) em audiência pública da Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

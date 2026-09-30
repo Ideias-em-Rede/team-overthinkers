@@ -1,0 +1,36 @@
+{
+  "id": 70,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelas deputadas Talíria Petrone (PSOL-RJ) e pelo deputado Rodrigo Agostinho (PSB-SP), contou com a participação de especialistas, representantes de organizações ambientais, de comunidades pesqueiras e do Ministério Público Federal, que apontaram irregularidades no licenciamento e graves riscos socioambientais do empreendimento."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pelas deputadas Talíria Petrone (PSOL-RJ) e pelo deputado Rodrigo Agostinho (PSB-SP), contou com a participação de especialistas, representantes de organizações ambientais, de comunidades pesqueiras e do Ministério Público Federal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A professora citou que o empreendimento irá lançar na baía 23 milhões de litros de água por dia a uma temperatura 15 graus acima da normal, causando 'poluição térmica devastadora para a biodiversidade marinha'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante a audiência, foram feitas denúncias sobre o processo de licenciamento ambiental."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O projeto, da empresa turca Karpowership (KPS), prevê a instalação de quatro termelétricas flutuantes e 36 torres de transmissão."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A professora citou que o empreendimento irá lançar na baía 23 milhões de litros de água por dia a uma temperatura 15 graus acima da normal, causando 'poluição térmica devastadora para a biodiversidade marinha'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

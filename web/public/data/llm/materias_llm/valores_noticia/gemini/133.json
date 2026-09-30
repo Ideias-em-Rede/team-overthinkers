@@ -1,0 +1,36 @@
+{
+  "id": 133,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a interrupção do serviço de energia elétrica em São Paulo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "presidente da Enel Brasil, Nicola Cotugno"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "relatando perdas de alimentos, queima de equipamentos e falta de atendimento por parte da empresa"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "deputados criticam 'descaso' e ameaçam com CPI"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Audiência sobre apagão em SP é adiada"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "recebido mais de 600 denúncias de consumidores paulistas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

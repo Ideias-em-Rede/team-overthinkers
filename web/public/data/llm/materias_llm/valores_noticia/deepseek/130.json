@@ -1,0 +1,36 @@
+{
+  "id": 130,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes da Agência Nacional do Cinema (ANCINE), Ministério da Cultura, Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC), além de produtores, distribuidores, exibidores e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Alexandre Messa Peixoto (MDIC) enfatizou a importância econômica do setor, que gerou R$ 26,7 bilhões em valor adicionado em 2018 (dados do IBGE) e 88 mil empregos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes da indústria cinematográfica relataram desafios como a perda de propriedade intelectual para plataformas internacionais, prazos excessivos de exclusividade em streaming e a necessidade de proteger a produção independente."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo pela internet e ficará gravada na página da Comissão de Cultura."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

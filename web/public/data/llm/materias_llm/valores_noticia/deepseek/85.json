@@ -1,0 +1,36 @@
+{
+  "id": 85,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa (CLP) da Câmara dos Deputados realizou uma audiência pública nesta quinta-feira para debater a efetivação da igualdade de direitos e proteção jurídica da população LGBTQIAPN+."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi presidido pela deputada Erika Kokay (PT/DF) e contou com a apresentação de dados do Programa Atena, uma pesquisa da Aliança Nacional LGBTI+ financiada pelo Fundo Positivo."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Toni Reis, da Aliança Nacional, enfatizou a necessidade de políticas de Estado, e não apenas de governo, e defendeu a inclusão da temática LGBTQIAPN+ em políticas globais de educação, saúde, cultura e empregabilidade."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Conforme a pesquisa, o Rio de Janeiro obteve a primeira colocação geral, seguido por Mato Grosso do Sul, Espírito Santo e Distrito Federal. Nenhum estado atingiu a nota máxima (5) em nenhum dos três pilares do tripé."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Erika Kokay encerrou a audiência ressaltando a importância da pesquisa para fornecer um diagnóstico preciso e da participação popular para a consolidação de políticas públicas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

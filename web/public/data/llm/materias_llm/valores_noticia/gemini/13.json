@@ -1,0 +1,36 @@
+{
+  "id": 13,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão Externa da Câmara dos Deputados que fiscaliza os rompimentos de barragem realizou uma audiência pública para debater a paralisação das negociações sobre a repactuação do acordo de Mariana."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O encontro, presidido pelo deputado Rogério Correia (PT-MG), reuniu representantes do Governo Federal, dos governos de Minas Gerais e do Espírito Santo, de Ministérios Públicos, Defensorias Públicas e do Movimento dos Atingidos por Barragens (MAB)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Enquanto o poder público estima a necessidade de R$ 126 bilhões para a reparação, as empresas Vale, BHP Billiton e Samarco ofereceram R$ 42 bilhões."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A contraproposta foi classificada como 'aviltante, vergonhosa e desrespeitosa' por Junior Divino Fideles, Adjunto do Advogado-Geral da União."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "As três mineradoras foram convidadas para a audiência, mas não compareceram."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O documento detalha os riscos em estruturas como as da Indústrias Nucleares do Brasil (INB) em Caldas, da Vale em Barão de Cocais e Ouro Preto, e da CSN em Congonhas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

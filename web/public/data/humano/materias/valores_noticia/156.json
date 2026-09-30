@@ -1,0 +1,36 @@
+{
+  "id": 156,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Sem fins lucrativos e mantidas pela sociedade civil, as universidades comunitárias sugiram na década de 1970, sobretudo em cidades interioranas da região Sul do Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Reitores de universidades comunitárias mostraram os principais desafios do setor e cobraram mudanças na legislação a fim de manter os bons índices oficiais de qualidade do ensino em audiência pública na Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Hoje, segundo o reitor da Universidade de Caxias do Sul, Gelson Rech, existem cerca 70 instituições no País que enfrentam problemas diários de custeio, fechamento de cursos, demissão de professores e concorrência com cursos de educação à distância (EAD)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "“Eu diria que hoje nós estamos totalmente amarrados na questão legal, apertados pelo orçamento e disputando um mercado desleal em que o objetivo é o corte de custos”, ressaltou."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A coordenadora da Secretaria de Regulação e Supervisão da Educação Superior do Ministério da Educação, Giovanna Gamba, informou a intenção de valorizar o papel das universidades comunitárias dentro do “ecossistema educacional” composto por instituições públicas e privadas com fins lucrativos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

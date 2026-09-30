@@ -1,0 +1,36 @@
+{
+  "id": 173,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate atendeu ao Requerimento nº 117, de 2023, de autoria do deputado Geraldo Mendes (Bloco/UNIÃO - PR)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Christiany Salgado Faria, Diretora do Departamento de Planejamento e Outorgas de Geração de Energia Elétrica do Ministério de Minas e Energia (MME), apresentou dados da matriz energética nacional."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela afirmou que 88% da produção de energia elétrica do país é baseada em renováveis, sendo 64% desse total representado pela geração hidrelétrica."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele classificou a demonização do setor como 'uma grande mentira' e parabenizou a iniciativa da audiência pública."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela detalhou os três grandes produtos do planejamento do setor: o Plano Nacional de Energia (PNE 2050), com visão de 50 anos; o Plano Decenal de Expansão de Energia (PDE), de 10 anos; e a execução por meio de leilões."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

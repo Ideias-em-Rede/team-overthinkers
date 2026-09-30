@@ -1,0 +1,36 @@
+{
+  "id": 134,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido nesta segunda-feira (13) em audiência pública conjunta da Comissão de Minas e Energia e da Comissão Especial de Transição Energética da Câmara dos Deputados."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do governo e do setor produtivo apontaram caminhos para a descarbonização do setor de combustíveis em tempos de mudanças climáticas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "É fundamental que o arcabouço legal regulatório ofereça clareza jurídica para direcionar investimentos em maior eficiência energética e menores emissões."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido nesta segunda-feira (13) em audiência pública conjunta da Comissão de Minas e Energia e da Comissão Especial de Transição Energética da Câmara dos Deputados."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

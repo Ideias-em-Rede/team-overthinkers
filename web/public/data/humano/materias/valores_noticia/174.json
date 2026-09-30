@@ -1,0 +1,36 @@
+{
+  "id": 174,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os brasileiros ou estrangeiros formados no exterior devem enfrentar duas etapas para, assim, conseguir revalidar o diploma adquirido fora do País e trabalhar no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes de órgãos e entidades da saúde se reuniram nesta terça-feira (12) para discutir a baixa taxa de aprovação no Exame Nacional de Revalidação de Diplomas Médicos (Revalida) em 2022."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Cerca de 96% dos candidatos que efetuaram a prova reprovaram na primeira ou segunda etapa, não conseguindo validar os diplomas estrangeiros no Brasil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Especialistas discordam sobre nível de dificuldade do exame Revalida."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Taxa de aprovação do último exame foi de apenas 3,75%, considerada a menor em toda a história."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os nossos alunos estão indo para a fronteira estudar Medicina. Ou porque não possuem recursos financeiros para isso ou porque não conseguem ser aprovados nos vestibulares da escola de Medicina no Brasil."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

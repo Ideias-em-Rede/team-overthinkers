@@ -1,0 +1,36 @@
+{
+  "id": 98,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Luis Miranda abriu os trabalhos destacando o aumento dos crimes cibernéticos e a gravidade dos chamados 'crimes antidemocráticos', como manipulação da opinião pública por meio de bots e campanhas coordenadas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da primeira mesa, entre outros, o procurador da República George Lodder (MPF), as delegadas Regilene Siqueira Rozal e o delegado Dário Taciano de Freitas Júnior (Polícia Civil do Distrito Federal), Diogo Rais (diretor do Instituto Liberdade Digital), Carlos Affonso Souza (Instituto de Tecnologia e Sociedade), Aristides Moura (BRASSCOM), Ygor Valério (Motion Picture Association) e Jonas Antunes Couto (ABTA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Dário apresentou dados sobre aumento de ocorrências de crimes contra a honra registradas pela Polícia Civil do DF — 39 ocorrências em 2019 e 353 em 2020 (variação citada de cerca de 805%) — e indicou crescimento expressivo de estelionato pela internet (citado aumento de 1.080%)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Affonso Souza advertiu para os riscos de tipificações penais amplas sobre 'notícia falsa' e chamou atenção a projetos em tramitação, como o PL 2.630/2020 (conhecido como PL das Fake News), cuja formulação, segundo ele, deve ser aperfeiçoada para não abarcar condutas que não seriam o alvo principal."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Dário defendeu que o acesso ao IP pelo investigador seja possível por ofício policial, sem necessidade de ordem judicial em cada caso, citando a sobrecarga que representaria exigir representação e decisão judicial para cada ocorrência."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O evento foi transmitido ao vivo pela internet e contou com apresentações de procuradores, delegados, representantes da indústria de tecnologia, organizações da sociedade civil e especialistas em direito digital."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

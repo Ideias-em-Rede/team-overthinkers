@@ -1,0 +1,129 @@
+.gk {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gk__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.85rem;
+}
+
+.gk__toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.gk__toggle-btn {
+  padding: 0.4rem 0.9rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-left: 1px solid var(--border);
+  transition: background 0.15s, color 0.15s;
+}
+.gk__toggle-btn:first-child {
+  border-left: none;
+}
+.gk__toggle-btn:hover {
+  background: #f4f6fa;
+  color: var(--text);
+}
+.gk__toggle-btn.on {
+  background: var(--navy);
+  color: #fff;
+}
+
+.gk__summary {
+  font-size: 0.85rem;
+}
+
+.gk__stage {
+  width: 100%;
+  overflow-x: auto;
+}
+.gk__svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-family: inherit;
+}
+
+.gk__col-title {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.gk__left {
+  cursor: default;
+}
+.gk__left-label {
+  font-size: 11px;
+  fill: var(--text);
+}
+.gk__left-label.small {
+  font-size: 10px;
+  fill: var(--text-muted);
+}
+
+.gk__right-label {
+  font-size: 12px;
+  font-weight: 600;
+  fill: var(--navy);
+}
+
+.gk__legend {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+}
+.gk__sw {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+}
+.gk__legend-note {
+  margin-left: auto;
+  font-style: italic;
+}
+
+/* ---------- compact (usado no panorama corpus) ---------- */
+
+.gk--compact .gk__col-title {
+  font-size: 8px;
+  letter-spacing: 0.4px;
+}
+.gk--compact .gk__left-label {
+  font-size: 8px;
+}
+.gk--compact .gk__left-label.small {
+  font-size: 7px;
+}
+.gk--compact .gk__right-label {
+  font-size: 9px;
+}
+.gk--compact .gk__toggle-btn {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.78rem;
+}
+.gk--compact .gk__summary,
+.gk--compact .gk__legend {
+  font-size: 0.75rem;
+}

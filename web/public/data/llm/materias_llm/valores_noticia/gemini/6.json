@@ -1,0 +1,36 @@
+{
+  "id": 6,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "pediram desculpas a clientes, ex-colaboradores e fornecedores pelos transtornos causados pela suspensão de pacotes de viagem"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "os sócios e administradores da 123Milhas, Ramiro e Augusto Julio Soares Madureira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a empresa sofreu uma forte queda nas vendas, bancos anteciparam o vencimento de dívidas e fornecedores cortaram limites de crédito"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente da CPI, Aureo Ribeiro, questionou se o modelo de negócio era análogo a uma pirâmide financeira"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O mercado tem se comportado permanentemente como se estivesse em alta temporada, e isso abalou os fundamentos não só do Promo, como de toda a 123Milhas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "os clientes afetados são a 'prioridade' no plano de recuperação judicial"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

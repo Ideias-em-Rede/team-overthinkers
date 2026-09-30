@@ -1,0 +1,36 @@
+{
+  "id": 43,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "praças e pensionistas reclamam de perdas salariais com lei de 2019"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Os deputados Glauber Braga (Psol-RJ) e Fernanda Melchionna (Psol-RS), com apoio dos deputados Albuquerque (Republicanos-RR) e Sargento Portugal (Pode-RJ), cobraram do Ministério da Defesa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "praças – soldados, cabos e sargentos, entre outros – e pensionistas do Exército, da Marinha e da Aeronáutica foram prejudicados pela Lei 13.954/19 e enfrentam perdas na remuneração"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os representantes de militares reformados George Brito e Vanderley Gonçalves fizeram várias críticas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os advogados Jéssica Rocha, representante de algumas pensionistas, e Cláudio Lino, do Instituto Brasileiro de Análise de Legislações Militares, avaliaram que pontos da lei poderiam ser reexaminados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 20,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Parlamentares e lideranças indígenas se reuniram nesta manhã em audiência pública da Comissão da Amazônia e dos Povos Originários e Tradicionais da Câmara dos Deputados para debater políticas de educação escolar indígena"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência, convocada pela deputada Célia Xakriabá por meio do Requerimento nº 52/2023, contou com representantes do Fórum Nacional de Educação Escolar Indígena (FNEEI), da Articulação dos Povos Indígenas do Brasil (APIB) e da Articulação Nacional das Mulheres Indígenas, além de integrantes do Ministério da Educação (MEC) e da Fundação Nacional do Índio (FUNAI)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vários oradores relataram dificuldades de permanência dos estudantes indígenas na universidade: falta de alimentação e condições básicas, relatos de estudantes desmaiando em deslocamentos, e ausência do Bolsa Permanência para muitos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela informou que, no mesmo dia, seria apreciado o veto presidencial relativo ao marco temporal e citou que o Congresso Nacional havia votado, em regime de emergência, o Projeto de Lei nº 2.903/2023"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A representante do MEC anunciou ainda que o ministro Camilo teria anunciado a criação de uma universidade indígena e informou a constituição de um grupo de trabalho interno (GT) no Ministério para elaborar, em 60 dias, um relatório técnico que será submetido a consulta dos povos indígenas para a construção coletiva do modelo dessa universidade"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante a sessão, foi citada a necessidade de transformar em política permanente o Programa Bolsa Permanência, por meio do Projeto de Lei nº 1.375/2020"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

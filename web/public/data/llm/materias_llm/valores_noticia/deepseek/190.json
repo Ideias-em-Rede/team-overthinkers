@@ -1,0 +1,36 @@
+{
+  "id": 190,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "No Brasil, cerca de 3 milhões de pessoas têm algum tipo de doença rara, representando aproximadamente 6% da população."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública nesta quinta-feira para debater os desafios econômicos, sociais e de saúde pública relacionados às doenças raras."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "No Brasil, dos 10 medicamentos mais demandados por ação judicial no SUS, 9 são para doenças raras, com um gasto de R$ 1,3 bilhão, sendo R$ 1,2 bilhão (90% do total) destinado a tratamentos para doenças raras."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Pontes apontou como principais desafios a demora na autorização de estudos clínicos, o ambiente ético regulatório incipiente, o alto custo do paciente de pesquisa devido aos impostos, as barreiras no processo de precificação de medicamentos e a judicialização, que não amplia o acesso de forma equitativa."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A médica geneticista Ana Maria Martins, do Instituto de Genética e Erros Inatos do Metabolismo, apresentou um caso de um paciente com MPS II que participou de um estudo clínico com um medicamento inovador capaz de cruzar a barreira hematoencefálica."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Estima-se que existam mais de 400 milhões de pessoas vivendo com doenças raras no mundo, sendo que de 50% a 75% dos casos começam na infância."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

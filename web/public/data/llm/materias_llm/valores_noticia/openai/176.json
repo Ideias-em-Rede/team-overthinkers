@@ -1,0 +1,36 @@
+{
+  "id": 176,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência tem por objetivo avaliar o direito à educação na perspectiva da inclusão, especialmente em um momento de revisão do Plano Nacional de Educação e de tramitação do projeto do Sistema Nacional de Educação."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pela presidente da comissão, a deputada Professora Luciene Cavalcante (PSOL-SP), que havia apresentado o Requerimento nº 84/2023, aprovado em 26 de abril de 2023."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela ressaltou a importância de financiamento orçamentário para garantir permanência escolar, formação de profissionais e acessibilidade, e citou os impactos agravados da pandemia sobre estudantes com deficiência."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Giannazi (deputado estadual — SP) afirmou que o país já dispõe de legislação ampla sobre inclusão, mas criticou a falta de cumprimento dessas normas."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência tem por objetivo avaliar o direito à educação na perspectiva da inclusão, especialmente em um momento de revisão do Plano Nacional de Educação e de tramitação do projeto do Sistema Nacional de Educação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

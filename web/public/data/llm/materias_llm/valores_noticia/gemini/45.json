@@ -1,0 +1,36 @@
+{
+  "id": 45,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "57 mil famílias vivendo em acampamentos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ministro do Desenvolvimento Agrário e Agricultura Familiar, Paulo Teixeira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "retomada de programas de fortalecimento da agricultura familiar e da reforma agrária"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Teixeira classificou o trabalho do TCU como 'equivocado, malfeito, tecnicamente inaceitável'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "anunciou que o governo deve lançar um novo programa de reforma agrária"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Questionado sobre as invasões de terra ocorridas em 2023"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

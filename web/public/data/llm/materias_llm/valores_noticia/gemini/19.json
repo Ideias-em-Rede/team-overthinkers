@@ -1,0 +1,36 @@
+{
+  "id": 19,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Viação e Transportes da Câmara dos Deputados realizou uma audiência pública para debater os benefícios da adequação de velocidades nas cidades brasileiras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, proposta pelo deputado Juninho do Pneu (UNIÃO-RJ), reuniu parlamentares e especialistas de órgãos como o Ministério da Saúde, a Organização Pan-Americana da Saúde (OPAS), a Secretaria Nacional de Trânsito (SENATRAN) e o Instituto de Pesquisa Econômica Aplicada (IPEA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Cardoso ressaltou que a probabilidade de sobrevivência de um pedestre em um atropelamento a 64 km/h é de apenas 15%, enquanto a 32 km/h sobe para 95%."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele também mencionou a necessidade de combater a ideia de uma 'indústria da multa', afirmando que o problema real é a falta de fiscalização."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O deputado Jilmar Tatto (PT-SP), autor do Projeto de Lei nº 2.789, de 2023, que trata do tema, relatou sua experiência como Secretário de Transportes de São Paulo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

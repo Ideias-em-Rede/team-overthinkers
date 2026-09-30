@@ -1,0 +1,36 @@
+{
+  "id": 130,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou uma audiência pública para debater a política industrial do audiovisual, com participação de parlamentares, representantes do Executivo e do setor audiovisual"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada Jandira afirmou que a intenção foi obter um diagnóstico do “estado da arte” da política industrial do audiovisual e discutir instrumentos de fomento, infraestrutura e regulação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Produtores e exibidores relataram impactos da concentração de poder das plataformas e dificuldades de circulação e de manutenção de janelas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência reuniu vozes de toda a cadeia produtiva e de diferentes esferas do poder público, com reiteradas chamadas à combinação de fomento, regulação e infraestrutura para fortalecer a indústria audiovisual brasileira"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

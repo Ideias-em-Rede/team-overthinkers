@@ -1,0 +1,36 @@
+{
+  "id": 91,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O impacto sobre famílias, comércio, indústria e produção agropecuária é significativo e exigia esclarecimentos e alternativas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião reuniu representantes do Ministério de Minas e Energia, da Agência Nacional de Energia Elétrica (ANEEL), da distribuidora Enel Ceará, associações de consumidores, setor produtivo e empresas do setor elétrico."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O encontro foi motivado pelo anúncio, no dia 19, do aumento tarifário aplicado pela Enel Ceará: 24,85% para o consumidor médio e cerca de 32% para o consumidor rural."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vários expositores contestaram a magnitude do reajuste e pediram maior transparência sobre as planilhas e contratos."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A questão ultrapassa o caso do Ceará e envolve a tarifa de energia em todo o País."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

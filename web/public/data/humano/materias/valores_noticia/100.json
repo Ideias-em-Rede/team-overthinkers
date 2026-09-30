@@ -1,0 +1,36 @@
+{
+  "id": 100,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "95% das crianças e adolescente de 9 a 17 anos são usuários de internet"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do Ministério Público Federal (MPF) e da Polícia Federal (PF)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Precisamos de uma resposta aqui do nosso legislativo para esse tipo de crime"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Hoje em dia esse dados não são considerados dados cadastrais e, por conta disso, são negados com alegação de que invadem a intimidade do indivíduo"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "16% dos usuários de 11 a 17 anos afirmaram ter recebido na internet mensagem de conteúdo sexual"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

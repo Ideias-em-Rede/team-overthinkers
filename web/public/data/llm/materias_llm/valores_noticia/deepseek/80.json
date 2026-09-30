@@ -1,0 +1,36 @@
+{
+  "id": 80,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Trabalho, de Administração e Serviço Público (CTASP) da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O Governo quer o acesso democrático a todos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Luiz Alberto dos Santos, do Departamento Intersindical de Assessoria Parlamentar (DIAP), criticou o projeto do Executivo por optar por um 'sistema fracamente regulado'"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate contou com a participação de representantes de diversas entidades da sociedade civil, setor privado e governo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

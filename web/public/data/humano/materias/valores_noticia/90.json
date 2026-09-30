@@ -1,0 +1,36 @@
+{
+  "id": 90,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O silêncio das vítimas, que deixam de fazer denúncias com medo de perder oportunidades, é um dos entraves ao combate do assédio sexual a crianças e adolescentes no esporte."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública sobre o tema na Comissão do Esporte da Câmara nesta quinta-feira (19), os debatedores mostraram que providências como a disponibilização de canais de denúncias e a responsabilização das entidades esportivas podem melhorar a situação."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Conscientização sobre o que é o assédio sexual e a importância da educação sexual de crianças e adolescentes, no sentido de que eles entendam e identifiquem as situações de abuso e violência"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Quando as meninas fazem a denúncia, vão à delegacia, fazem o registro da ocorrência, há uma demora muito grande na solução desses casos. Então, esses treinadores continuam trabalhando e praticando seus crimes de assédio e violência."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ex-goleiro Alexandre Montrimas, que atuou por 20 anos e encerrou a carreira em 2015, já fez palestras em mais de 60 clubes sobre assédio sexual."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

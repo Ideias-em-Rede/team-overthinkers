@@ -1,0 +1,36 @@
+{
+  "id": 71,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "a importância da Petrobras e da Refinaria Gabriel Passos (REGAP), localizada em Betim (MG)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pelo deputado Rogério Correia (PT-MG), a audiência contou com a participação de Eric Marcos Futino, Gerente-Geral de Planejamento Logístico da Petrobras; Alexandre Finamori França Baptista, coordenador-geral do Sindicato dos Petroleiros de Minas Gerais (Sindpetro/MG); Deyvid Souza Bacelar da Silva, coordenador-geral da Federação Única dos Petroleiros (FUP); e o professor Eduardo Costa Pinto, pesquisador do Instituto de Estudos Estratégicos de Petróleo (INEEP) e da UFRJ"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou para o risco de monopólio regional, aumento de preços e redução de 50% do efetivo de trabalhadores"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os representantes dos trabalhadores e o pesquisador contestaram veementemente o processo de venda das refinarias"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater o preço dos combustíveis e a importância da Petrobras e da Refinaria Gabriel Passos (REGAP)"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

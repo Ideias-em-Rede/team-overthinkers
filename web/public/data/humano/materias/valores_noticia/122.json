@@ -1,0 +1,36 @@
+{
+  "id": 122,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O seguro rural é um auxílio fornecido pelo governo para que o produtor possa contratar uma apólice para cobrir riscos à safra, como estiagens."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro da Agricultura e Pecuária, Carlos Fávaro, disse nesta quarta-feira (6), na Câmara dos Deputados, que está negociando com a equipe econômica do governo mais R$ 500 milhões para o programa de subvenção ao Prêmio do Seguro Rural (PSR)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Não podemos fechar o ano sem aportar, pelo menos, mais 500 milhões para o seguro rural. É prioridade total, e não há nenhuma insensibilidade do governo com relação a isso"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Afonso Hamm (PP-RS) defendeu o fim do contingenciamento dos recursos reservados no Orçamento para o PSR."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O ministro da Agricultura também disse aos deputados, após questionamentos, que o governo está aberto a discutir o trabalho temporário no campo para participantes do Bolsa Família."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 109,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os superintendentes das regionais também apresentaram seus planos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro da Integração e do Desenvolvimento Regional, Waldez Góes, participou de audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele enfatizou a importância dos planos regionais de desenvolvimento e solicitou ao Congresso Nacional celeridade na tramitação da Política Nacional de Desenvolvimento Regional"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "João Mendes da Rocha Neto (Desenvolvimento Regional) apresentou a nova Política Nacional de Desenvolvimento Regional, reinstituída pelo Decreto nº 11.962/2023"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante o debate, deputados representantes de diversas regiões do país apresentaram demandas específicas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

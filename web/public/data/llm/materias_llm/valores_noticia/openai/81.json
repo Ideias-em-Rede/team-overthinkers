@@ -1,0 +1,36 @@
+{
+  "id": 81,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Alertou para o impacto do aumento de preços: o peso dos fertilizantes no custo variável de produção, em média, passou de 30% para 43%, o que pode tornar proibitivo o cultivo de determinadas culturas de hortaliças e provocar perda de produtividade no médio prazo se houver redução do uso de fertilizantes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Confirmaram presença representantes do Ministério da Agricultura, Pecuária e Abastecimento (MAPA); Confederação da Agricultura e Pecuária do Brasil (CNA); Ministério da Economia; Agência Nacional de Mineração (ANM); Empresa Brasileira de Pesquisa Agropecuária (EMBRAPA); e CropLife Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Alertou para o impacto do aumento de preços: o peso dos fertilizantes no custo variável de produção, em média, passou de 30% para 43%, o que pode tornar proibitivo o cultivo de determinadas culturas de hortaliças e provocar perda de produtividade no médio prazo se houver redução do uso de fertilizantes."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Relatou que, apesar do conflito entre Rússia e Ucrânia, as exportações russas para o Brasil continuaram"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência teve caráter informativo e de debate técnico, reunindo dados de importações, resultados de pesquisas e proposições sobre medidas de política pública, regulação, inovação e incentivo à produção doméstica de insumos para mitigação da atual instabilidade no fornecimento de fertilizantes."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

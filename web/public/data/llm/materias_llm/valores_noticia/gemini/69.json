@@ -1,0 +1,36 @@
+{
+  "id": 69,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública para debater o engajamento do jovem eleitor no processo democrático."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Lídice da Mata (PSB-BA), atendeu a requerimentos de sua autoria e da Deputada Professora Rosa Neide (PT-MT), que não pôde comparecer."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Bucchianeri também informou que a presença do TSE em redes sociais como TikTok e Kwai, além de parcerias com influenciadores digitais e clubes de futebol, resultou no alistamento de mais de 2 milhões de jovens entre 16 e 17 anos entre janeiro e maio de 2022, um aumento de 47% no eleitorado dessa faixa etária em relação a 2018."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Carlos Eduardo Miguel Sobral, da Superintendência da Polícia Federal no Ceará, abordou o impacto das *fake news* no processo eleitoral."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Bucchianeri também informou que a presença do TSE em redes sociais como TikTok e Kwai, além de parcerias com influenciadores digitais e clubes de futebol, resultou no alistamento de mais de 2 milhões de jovens entre 16 e 17 anos entre janeiro e maio de 2022, um aumento de 47% no eleitorado dessa faixa etária em relação a 2018."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante o debate com internautas, foram abordados temas como a necessidade de uma educação política mais ampla nas escolas, incluindo o ensino sobre os Três Poderes e as diferentes correntes ideológicas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

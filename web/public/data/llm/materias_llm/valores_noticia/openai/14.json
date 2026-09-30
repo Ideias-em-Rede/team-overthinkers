@@ -1,0 +1,36 @@
+{
+  "id": 14,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Meio Ambiente da Câmara realizou nesta audiência pública um debate sobre os impactos socioambientais em Maceió"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo deputado Ivan Valente (PSOL-SP), autor, junto com a deputada Professora Luciene Cavalcante (PSOL), dos requerimentos que motivaram a sessão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Diego Bruno Martins Alves afirmou que o caso da Braskem é 'a maior tragédia ambiental em curso no Brasil'"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Cássio Araújo criticou a falta de participação direta das vítimas nas decisões e afirmou que os acordos favoreceram a empresa"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Professora Luciene Cavalcante afirmou que o caso é a 'maior tragédia socioambiental em curso no mundo hoje'"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

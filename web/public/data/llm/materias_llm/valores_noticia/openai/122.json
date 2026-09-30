@@ -1,0 +1,36 @@
+{
+  "id": 122,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro da Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural, Carlos Fávaro, prestou contas das ações do Ministério e tratou de perspectivas para 2024 em audiência pública realizada na Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural (CAPADR) da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Fávaro informou que a implementação do Plano Safra de 2023 está 18% superior à do mesmo período do ano anterior e reconheceu dificuldades de distribuição de recursos em razão do modelo de disputa entre instituições financeiras, o que provoca problemas de capilaridade em algumas áreas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados de diferentes bancadas fizeram perguntas e exposições sobre temas regionais e setoriais, entre eles: crise do leite (pedidos por controle das importações e medidas de apoio à produção nacional)"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "anunciou a criação de uma linha específica com R$ 200 milhões do Banco do Brasil e R$ 507 milhões do BNDES, totalizando R$ 707 milhões para cooperativas que atendem agricultores da bacia leiteira"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "registrou a abertura de 72 novos mercados para produtos agropecuários brasileiros no ano"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 146,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateram a cadeia de produção da Cannabis sativa para fins medicinais e estratégias para promover o desenvolvimento regional de comunidades de agricultores familiares"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública presidida pelo deputado Padre João (Bloco/PT-MG), parlamentares, representantes de ministérios, universidades, movimentos sociais e associações de pacientes"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "há evidências científicas sobre usos medicinais da Cannabis em condições como dor crônica, esclerose múltipla e complicações do tratamento do câncer"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Osmar Terra (MDB-RS) expôs posição contrária à liberação do cultivo e generalizou efeitos adversos da maconha"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "debateram a cadeia de produção da Cannabis sativa para fins medicinais"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "há evidências científicas sobre usos medicinais da Cannabis em condições como dor crônica, esclerose múltipla e complicações do tratamento do câncer"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

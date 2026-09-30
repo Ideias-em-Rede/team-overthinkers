@@ -1,0 +1,36 @@
+{
+  "id": 178,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "324 comunidades tradicionais de pescadores artesanais, indígenas e quilombolas ameaçadas por 23 projetos eólicos no litoral cearense"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ibama, Comissão de Direitos Humanos da Câmara dos Deputados, Ministério do Meio Ambiente"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impactos evidentes (ruídos, sombreamento, sobreposição, etc.) sobre ecossistemas marinhos e atividades socioeconômicas, como a pesca e a exploração de petróleo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Há a disputa territorial entre os próprios parques eólicos e os outros usos de exploração de petróleo, pesca artesanal, rotas de navegação, etc."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "busca de soluções urgentes para a crise climática"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

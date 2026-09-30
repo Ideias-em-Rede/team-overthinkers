@@ -1,0 +1,36 @@
+{
+  "id": 110,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O último Censo, em 2022, mostrou que a população idosa no Brasil é de 32,1 milhões de pessoas, o que equivale a mais de 15% da população."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Integrantes da Comissão de Defesa dos Direitos da Pessoa Idosa da Câmara dos Deputados cobraram do governo, nesta terça-feira (9), prioridade para a agenda do envelhecimento ativo e saudável na reunião da cúpula do G20"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O envelhecimento ativo e saudável pode resultar em uma redução da carga sobre o sistema de saúde, além de contribuir para o desenvolvimento econômico e social do País"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O envelhecimento com qualidade de vida está nas prioridades do Brasil para a cúpula do G20"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

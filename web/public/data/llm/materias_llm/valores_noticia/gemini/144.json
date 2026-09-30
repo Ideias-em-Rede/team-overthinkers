@@ -1,0 +1,36 @@
+{
+  "id": 144,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O ministro detalhou os programas de habitação, saneamento, mobilidade urbana e prevenção de desastres."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro de Estado das Cidades, Jader Barbalho Filho, apresentou as prioridades da pasta para 2023 em uma audiência pública conjunta da Comissão de Viação e Transportes e da Comissão de Desenvolvimento Urbano da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele detalhou as modalidades do MCMV, incluindo o FAR (destinado a construtoras), Entidades (gerido por movimentos sociais) e Rural. Para 2023, estão previstas cerca de 130 mil unidades na modalidade FAR."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Joseildo Ramos (PT-BA) manifestou preocupação com uma suposta orientação do BNDES para priorizar a privatização em detrimento do financiamento a empresas públicas de saneamento."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Barbalho Filho anunciou mudanças no financiamento via FGTS, como a ampliação do subsídio para R$ 55 mil, a redução da taxa de juros e a elevação do teto do valor do imóvel para R$ 350 mil na Faixa 3."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele detalhou os recursos disponíveis para seleção em 2023, que totalizam R$ 44,8 bilhões, distribuídos em áreas como Mobilidade Urbana, Urbanização de Favelas, Prevenção de Desastres e Saneamento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

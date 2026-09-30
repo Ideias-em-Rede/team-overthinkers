@@ -1,0 +1,36 @@
+{
+  "id": 90,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "milhares de crianças e adolescentes são vítimas de abuso sexual anualmente"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Esporte da Câmara dos Deputados realizou, na manhã de 19 de maio, uma audiência pública convocada pelo deputado Roberto Alves"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a procuradora destacou que milhares de crianças e adolescentes são vítimas de abuso sexual anualmente"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "defendeu educação sexual, canais de denúncia, ouvidorias, capacitação de profissionais e estruturação de clubes com equipes de apoio"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a proteção de crianças e adolescentes contra o assédio e o abuso sexual no esporte"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

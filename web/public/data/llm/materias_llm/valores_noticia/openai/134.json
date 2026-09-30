@@ -1,0 +1,36 @@
+{
+  "id": 134,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram como expositores o secretário nacional de Petróleo, Gás Natural e Biocombustíveis do Ministério de Minas e Energia, Pietro Adamo Sampaio Mendes; o presidente da DATAGRO, Plínio Nastari; o chefe-geral da Embrapa Agroenergia, Alexandre Alonso; o professor titular do Instituto de Biologia da Unicamp, Gonçalo Pereira; e a representante do Instituto Brasileiro de Petróleo e Gás (IBP), Valéria Lima."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Descreveu elementos do RenovaBio: cálculo da intensidade de carbono, emissão de CBIOs, uso da RenovaCalc, auditoria por firmas inspetoras credenciadas pela ANP, requisitos de rastreabilidade e exigências de elegibilidade (sem desmatamento, conformidade com CAR e zoneamentos agroecológicos)."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Comissão de Minas e Energia, com participação da Comissão Especial sobre transição energética e hidrogênio verde, promoveu audiência pública para debater a implementação da metodologia de Análise do Ciclo de Vida (ACV) dos combustíveis, em atendimento aos requerimentos nº 171/2023 e 35/2023, de autoria do deputado Arnaldo Jardim."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

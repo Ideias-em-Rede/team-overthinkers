@@ -1,0 +1,36 @@
+{
+  "id": 192,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a obsolescência programada na área de telefonia móvel"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram à mesa representantes de órgãos e entidades: Davison Gonzaga da Silva (gerente de Certificação e Numeração da ANATEL), Marcelo de Souza do Nascimento (diretor‑geral do PROCON‑DF), Humberto Barbato (presidente executivo da ABINEE) e Igor Rodrigues Britto (diretor de Relações Institucionais do IDEC)"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a necessidade de aprofundar o debate legislativo, com a Comissão examinando propostas de alteração normativa e o diálogo entre Poder Legislativo, órgãos de defesa do consumidor, agência reguladora e indústria"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Marcelo mencionou julgamentos internacionais em que Apple e Samsung foram condenadas por obsolescência programada na atualização de software e em relação à vida útil de baterias"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "a necessidade de atualização legislativa para enfrentar a alta descartabilidade de produtos eletroeletrônicos no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

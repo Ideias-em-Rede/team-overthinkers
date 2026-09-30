@@ -1,0 +1,36 @@
+{
+  "id": 8,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Citou estimativas levantadas pelo BC de cerca de 2 milhões de CPFs e 70 mil CNPJs operando com criptomoedas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram presencialmente Otávio Ribeiro Damaso, diretor de Regulação do Banco Central, e Alexandre Pinheiro dos Santos, superintendente‑geral da CVM"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Apresentou cronograma: consulta sobre alguns aspectos no início do quarto trimestre, proposta de regulamentação em consulta pública até o fim do quarto trimestre de 2023 e regras definitivas previstas, em caso de tramitação conforme esperado, até o fim do primeiro semestre de 2024"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Enfatizou características dos criptoativos que facilitam fraudes: intangibilidade, volatilidade e ausência de regulação histórica"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Mencionou também a agenda de tokenização de ativos e a interação com o projeto de moeda digital do BC, o Drex"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Thiago Bueno destacou a urgência da regulação para combater esquemas de pirâmide e Ponzi envolvendo criptoativos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

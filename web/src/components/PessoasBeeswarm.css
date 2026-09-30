@@ -1,0 +1,101 @@
+.beeswarm {
+  position: relative;
+  width: 100%;
+}
+.beeswarm__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+.beeswarm__legend {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: var(--text);
+}
+.beeswarm__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+.beeswarm__dot--on {
+  background: #0077b6;
+  border: 1px solid #003366;
+}
+.beeswarm__dot--off {
+  background: #c5cdd8;
+  border: 1px solid #94a3b8;
+}
+.beeswarm__size-hint {
+  margin-left: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.beeswarm__counts {
+  font-size: 0.85rem;
+}
+.beeswarm__svg {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.beeswarm__tick {
+  font-size: 10px;
+  fill: var(--text-muted);
+  font-family: "SFMono-Regular", Consolas, monospace;
+}
+.beeswarm__axis-label {
+  font-size: 11px;
+  fill: var(--text-muted);
+  font-weight: 500;
+}
+.beeswarm__tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: var(--shadow-md);
+  padding: 0.55rem 0.7rem;
+  font-size: 0.82rem;
+  color: var(--text);
+  min-width: 200px;
+  max-width: 280px;
+  z-index: 20;
+}
+.beeswarm__tt-name {
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.1rem;
+}
+.beeswarm__tt-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+.beeswarm__tt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+.beeswarm__tt-table td {
+  padding: 0.12rem 0;
+}
+.beeswarm__tt-table td:first-child {
+  color: var(--text-muted);
+}
+.beeswarm__tt-table td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}

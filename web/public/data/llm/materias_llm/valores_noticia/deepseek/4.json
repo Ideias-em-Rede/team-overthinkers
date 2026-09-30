@@ -1,0 +1,36 @@
+{
+  "id": 4,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ele citou como exemplo as obrigações de conteúdo nacional e recolhimento de impostos que afetam as empresas de TV por assinatura, mas não se aplicam às plataformas de streaming."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pelo deputado Amaro Neto (REPUBLICANOS-ES) e contou com a presença do presidente da ANATEL, Carlos Manuel Baigorri."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que a ANATEL e o Ministério das Comunicações firmaram parceria com a Universidade de Brasília para elaborar uma proposta de atualização do marco legal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele apontou uma 'grande assimetria de regras' entre serviços tradicionais, como radiodifusão e telefonia, e serviços prestados pela internet, como streaming e mensagens instantâneas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele informou que a agência aprovou uma regulamentação para criar uma figura responsável por cuidar dos postes, chamada de 'posteiro', e que aguarda deliberação da Agência Nacional de Energia Elétrica (ANEEL)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Sobre inteligência artificial, o presidente da ANATEL afirmou que a agência participa de debates no âmbito da ONU e defendeu a necessidade de garantir padrões éticos para o uso da tecnologia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

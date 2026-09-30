@@ -1,0 +1,36 @@
+{
+  "id": 165,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "representantes de municípios da Região Metropolitana de Brasília, como Cristalina, Luziânia, Novo Gama, Valparaíso, Planaltina de Goiás e Águas Lindas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão foi aberta pela deputada Lêda Borges (Bloco/PSDB-GO), autora dos requerimentos que motivaram o debate, e reuniu parlamentares, representantes do Executivo federal, organizações da sociedade civil e delegações de municípios do Entorno de Brasília"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Renatho Melo apresentou a perspectiva técnica do INOP sobre a transversalidade de gênero no orçamento público, ressaltando que o orçamento é um processo que envolve elaboração e execução e que “o que não está no orçamento não existe”"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Lia Zanotta Machado (Consórcio Maria da Penha) trouxe diagnóstico sobre a subrepresentação orçamentária das ações de enfrentamento à violência"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência desta tarde também registrou a programação de novas audiências regionais para debate da LDO e do Orçamento até meados de outubro"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

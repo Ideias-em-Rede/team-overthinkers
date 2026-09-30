@@ -1,0 +1,36 @@
+{
+  "id": 82,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Artistas da tradição oral cobram aprovação de projeto que valoriza cultura popular"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Organizadora da audiência, a deputada Erika Kokay (PT-DF) anunciou medidas para tentar acelerar a aprovação dos projetos de lei."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A proposta de “Lei dos Mestres” (PL 1176/11) cria o Programa de Proteção e Promoção dos Mestres e Mestras dos Saberes e Fazeres das Culturas Populares e prevê auxílio financeiro de, pelo menos, dois salários mínimos a pessoas que reconhecidamente representem a cultura brasileira tradicional"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mestre Alcides, presidente do Fórum para as Culturas Populares Tradicionais, reclama que os textos estão em análise há 11 anos no Parlamento"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Artistas da tradição oral cobram aprovação de projeto que valoriza cultura popular"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 141,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O professor Henrique Maffei, da rede municipal de Porto Alegre, relatou ter sido alvo de perseguição em 2021 após utilizar a expressão 'Queridxs alunxs' em uma atividade remota."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, presidido pela deputada Professora Luciene Cavalcante (PSOL-SP) e pela deputada Talíria Petrone (PSOL-RJ), contou com a participação de representantes do Ministério da Educação, do Ministério dos Direitos Humanos e da Cidadania, professores, pesquisadores e representantes de entidades da sociedade civil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Pâmella Passos, pesquisadora do Instituto Federal do Rio de Janeiro (IFRJ), apresentou dados de um estudo com 837 educadores de todas as regiões do Brasil: 64,4% relataram ter sofrido assédio, perseguição ou censura; 63,7% têm medo de retaliações; e 61,9% praticam autocensura."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Juliana Andozio, orientadora educacional de Santa Catarina e conselheira do Sindicato dos Trabalhadores em Educação do estado (SINTE/SC), relatou ter sido afastada por sete meses sob acusações de 'doutrinação ideológica' após promover campanhas pelo Disque 100 e defender os direitos de estudantes trans."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi convocada com base nos Requerimentos nºs 139 e 136 de 2023, de autoria das deputadas Luciene Cavalcante, Talíria Petrone e Erika Hilton, aprovados em junho deste ano."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 168,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública na manhã desta quinta-feira para discutir a situação dos pós-graduandos no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Presidida pela deputada Alice Portugal (PCdoB-BA), a reunião contou com a participação de representantes de agências de fomento, associações científicas e entidades estudantis."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele propôs a criação de uma 'cesta de direitos básicos' e destacou que o Brasil deixou de formar 4 mil doutores entre 2019 e 2020, mesmo com vagas disponíveis."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os participantes também manifestaram preocupação com o orçamento proposto para 2024, que prevê redução de recursos para a CAPES."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante a audiência, foram defendidas propostas como o reconhecimento do tempo de pós-graduação para fins previdenciários, a extensão da licença parental e a ampliação da assistência estudantil para pós-graduandos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 22,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater o crescimento do comércio eletrônico no Brasil e seus impactos na geração de emprego e renda, tributação, ambiente de negócios e acesso a bens de consumo"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da discussão representantes de entidades setoriais e do governo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "movimentação de R$ 400 bilhões em compras online entre 2020 e 2022"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "preocupação com a evasão fiscal no comércio eletrônico internacional"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "criação de um dashboard público para monitoramento do comércio eletrônico"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "necessidade de modernização da legislação tributária para o comércio eletrônico"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

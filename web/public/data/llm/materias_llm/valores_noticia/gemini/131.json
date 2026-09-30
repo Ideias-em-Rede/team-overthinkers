@@ -1,0 +1,36 @@
+{
+  "id": 131,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Obras de melhoria e segurança em trechos urbanos de 27 municípios, como o novo acesso ao aeroporto de Vitória da Conquista, a duplicação do contorno da cidade, e projetos de transição urbana em Jequié, Milagres, Cândido Sales, entre outros."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública na Câmara dos Deputados, representantes da concessionária ViaBahia, do governo federal e de órgãos de controle apresentaram a proposta de renegociação do contrato de concessão das rodovias BR-324 e BR-116 na Bahia."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A proposta prevê a retomada imediata das obras, com um investimento total de R$ 11,8 bilhões, que segundo ele, deve gerar cerca de 30 mil empregos diretos e indiretos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante o debate, parlamentares como a Deputada Rogéria Santos (Republicanos-BA) questionaram sobre as garantias de que o novo acordo será cumprido, lembrando o histórico de descumprimentos e o alto número de acidentes nas rodovias."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O acordo, fruto de um grupo de trabalho entre o Ministério dos Transportes, a Agência Nacional de Transportes Terrestres (ANTT) e a concessionária, foi encaminhado ao Tribunal de Contas da União (TCU) e aguarda uma decisão sobre sua admissibilidade para iniciar um processo de solução consensual."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A proposta prevê a retomada imediata das obras, com um investimento total de R$ 11,8 bilhões, que segundo ele, deve gerar cerca de 30 mil empregos diretos e indiretos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

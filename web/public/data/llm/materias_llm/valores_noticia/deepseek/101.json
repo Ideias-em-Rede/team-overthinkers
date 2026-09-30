@@ -1,0 +1,36 @@
+{
+  "id": 101,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "discute combate à violência em eventos esportivos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão do Esporte da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "debater estratégias de combate à violência em eventos esportivos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "defendeu a diferenciação entre punições a torcedores individuais (CPF) e às torcidas organizadas (CNPJ)"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater estratégias de combate à violência em eventos esportivos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

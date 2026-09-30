@@ -1,0 +1,36 @@
+{
+  "id": 8,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "estimativas apontam que existem aproximadamente 2 milhões de CPFs e 70 mil CNPJs operando com criptomoedas no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram do debate Otávio Ribeiro Damaso, Diretor de Regulação do Banco Central do Brasil; Alexandre Pinheiro dos Santos, Superintendente-Geral da Comissão de Valores Mobiliários (CVM); e Thiago Bueno, Procurador da República e membro do Grupo de Combate aos Crimes Cibernéticos do Ministério Público Federal"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "As regras definitivas devem ser publicadas até o final do primeiro semestre de 2024"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "parte delas deseja a regulamentação, enquanto outra parte prefere permanecer fora do perímetro regulatório"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O cronograma apresentado prevê uma consulta sobre aspectos específicos no início do quarto trimestre de 2023"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "estimativas apontam que existem aproximadamente 2 milhões de CPFs e 70 mil CNPJs operando com criptomoedas no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

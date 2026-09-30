@@ -1,0 +1,36 @@
+{
+  "id": 34,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "impactos das redes sociais na autoestima e na saúde mental de crianças e adolescentes"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Saúde da Câmara dos Deputados, deputado Eduardo Velloso, deputada Rosângela Moro, Ministério da Saúde"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "aumento de casos de doenças mentais no Brasil, citando dados da Organização Mundial da Saúde (OMS)"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "preocupação com o aumento de casos de doenças mentais no Brasil"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 18,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O encontro foi realizado em atendimento ao Requerimento nº 86/2023, de autoria da deputada, registrado como gravado e transmitido pela página da Comissão de Educação na Internet."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputada Dandara (Bloco/PT-MG) presidiu na tarde desta reunião extraordinária da Comissão de Educação da Câmara dos Deputados uma audiência pública semipresencial sobre o Programa Institucional de Bolsa de Iniciação à Docência (PIBID)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A audiência teve como objetivos centrais debater a história, os resultados e os desafios do PIBID, além de mobilizar apoio parlamentar pela transformação do programa em política de Estado — medida que tramita no Projeto de Lei nº 3.970/2021, relatado na Comissão pelo deputado Rogério Correia (Bloco/PT-MG)."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Expositores defenderam a revogação de normas consideradas prejudiciais e a retomada de diretrizes anteriores (mencionou-se a Resolução nº 2/2015 versus a Resolução de 2019 em debate no CNE)."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência teve como objetivos centrais debater a história, os resultados e os desafios do PIBID, além de mobilizar apoio parlamentar pela transformação do programa em política de Estado."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

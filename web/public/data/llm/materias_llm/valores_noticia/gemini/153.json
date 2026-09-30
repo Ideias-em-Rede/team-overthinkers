@@ -1,0 +1,36 @@
+{
+  "id": 153,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião foi proposta pelos deputados Marcel van Hattem (NOVO-RS), Heitor Schuch (PSB-RS) e Padovani (União-PR)."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a presença dos ministros Paulo Pimenta, da Secretaria de Comunicação Social, e Waldez Góes, da Integração e do Desenvolvimento Regional, além de prefeitos das cidades mais atingidas, como Lajeado, Encantado, Roca Sales, Muçum e Santa Tereza."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele relatou o envio de botes e helicópteros para resgate, o restabelecimento da comunicação, a antecipação de pagamentos do Bolsa Família e a liberação de R$ 26,9 milhões para a limpeza das cidades."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os prefeitos das cidades mais afetadas agradeceram o apoio recebido, mas pediram mais agilidade e recursos para a reconstrução."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Alice Castilho, do Serviço Geológico do Brasil, apresentou dados técnicos que classificaram a cheia de setembro como um evento extraordinário, com níveis de água similares aos da enchente de 1941."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Para a retomada econômica, o ministro anunciou uma linha de crédito de R$ 1 bilhão com juro zero para pequenas e médias empresas (PRONAMPE) e agricultores familiares (PRONAF), com dois anos de carência."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 55,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de entidades sindicais, movimentos de aposentados e parlamentares relataram mobilizações e impactos da norma, especialmente no Estado e no Município de São Paulo."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A deputada federal Luciene Cavalcante (PSOL-SP) abriu a sessão e disse que a audiência tem por objetivo buscar a revogação do artigo da emenda que autoriza Estados e Municípios a cobrar dos inativos alíquotas sobre proventos abaixo do teto do INSS."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Carlos Giannazi afirmou que, no Estado de São Paulo, cerca de 600 mil aposentados e pensionistas foram atingidos pelo que classificou de 'confisco'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao longo da audiência, dirigentes sindicais e juristas defenderam a revogação da EC 103 como caminho para evitar novas cobranças sobre proventos abaixo do teto do INSS."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida ao vivo pela internet, conforme anunciado no início da sessão, e a organização informou que materiais multimídia apresentados serão disponibilizados na página da Comissão."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

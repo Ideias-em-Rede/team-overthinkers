@@ -1,0 +1,36 @@
+{
+  "id": 141,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "denúncias de perseguição a profissionais da educação no país"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "representantes do Ministério da Educação (MEC) e do Ministério dos Direitos Humanos e da Cidadania"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "64,4% dos educadores afirmaram já ter sofrido assédio, perseguição ou censura"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "perseguição política e institucional após a eleição de 2022"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "91% dos professores que responderam gostariam de apoio psicológico e 90,4% de apoio jurídico"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

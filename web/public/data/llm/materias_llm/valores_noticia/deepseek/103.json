@@ -1,0 +1,36 @@
+{
+  "id": 103,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro da Justiça e Segurança Pública, Ricardo Lewandowski, compareceu à 7ª Reunião da Comissão de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados nesta terça-feira."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Lewandowski abordou os cortes orçamentários, afirmando que ofícios foram enviados aos ministérios do Planejamento e da Fazenda pedindo a reposição de recursos e que reuniões estão marcadas para discutir o tema."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Delegado Paulo Bilynskyj (PL-SP) focou suas perguntas em aspectos do decreto que regula armas de fogo, criticando regras sobre distância de clubes de tiro de escolas e habitualidade por calibre."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Outros deputados fizeram perguntas sobre temas como a atuação da Polícia Federal, operações contra o crime organizado, milícias, sistema prisional e imigração."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

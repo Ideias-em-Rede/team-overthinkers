@@ -1,0 +1,36 @@
+{
+  "id": 24,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública extraordinária para debater a importância do ensino de filosofia e sociologia na educação básica."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocada pela deputada Professora Luciene Cavalcante (PSOL-SP), a reunião contou com a participação de parlamentares, representantes de ministérios, associações de professores, entidades estudantis e especialistas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela também mencionou que o debate sobre a reformulação do ensino médio, em tramitação no Senado, é uma oportunidade para apresentar contribuições."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou a reforma do ensino médio do governo Temer e relatou que, em São Paulo, o atual governo estadual já reduziu a carga horária de filosofia, sociologia e história, inserindo em seu lugar Educação Financeira e Ensino Religioso."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi motivada por um requerimento da deputada, em articulação com a Associação dos Professores e Professoras de Filosofia e Filósofos do Brasil (APROFFIB), que no início do ano se reuniu com o Ministério da Educação (MEC) para tratar do tema."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 146,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Padre João (PT-MG), autor do requerimento."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compuseram a mesa Diego Ferreira, representante do Ministério da Saúde; Marta Machado, Secretária Nacional de Políticas sobre Drogas e Gestão de Ativos do Ministério da Justiça; Edjane Rodrigues Silva, da Confederação Nacional dos Trabalhadores Rurais Agricultores e Agricultoras Familiares (CONTAG); Christina Maria Grupioni, da Associação Comunitária Liamba Agroecológica da Mata (ACOLHAM); Andrea Donatti Gallassi, da Universidade de Brasília (remota); Angela Aboin Gomes, da Federação das Associações de Cannabis Terapêutica (FACT - remota); e Saulo Lucio Dantas, do setor de direitos humanos do MST."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele destacou que a importação de medicamentos à base de cannabis encarece o produto e exclui os mais pobres, enquanto o país tem condições de produzir."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Osmar Terra (MDB-RS) foi o único a se posicionar contra a liberação do cultivo, argumentando que a maconha causa danos à saúde, como psicoses, e é 'porta de entrada' para outras drogas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Integração Nacional, Desenvolvimento Regional e da Amazônia da Câmara dos Deputados realizou uma audiência pública na terça-feira para debater a cadeia produtiva da Cannabis sativa para fins medicinais e estratégias para promover o desenvolvimento regional de comunidades de agricultores familiares."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele destacou que a importação de medicamentos à base de cannabis encarece o produto e exclui os mais pobres, enquanto o país tem condições de produzir."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

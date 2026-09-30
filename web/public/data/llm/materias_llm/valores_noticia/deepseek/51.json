@@ -1,0 +1,36 @@
+{
+  "id": 51,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A extensão é a dimensão que melhor dialoga com a sociedade e é estratégica para responder ao repto do governo de envolver as universidades com os problemas do Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A mesa de exposição foi composta por representantes do Ministério da Educação (MEC), do Fórum de Pró-Reitores de Extensão das Instituições Públicas de Educação Superior Brasileiras (FORPROEX), da Universidade Federal da Bahia (UFBA), da Associação Brasileira dos Reitores das Universidades Estaduais e Municipais (ABRUEM), do Fórum de Pró-Reitores de Extensão dos Institutos Federais de Educação Tecnológica (FORPROEXT) e da Associação Nacional dos Dirigentes das Instituições Federais de Ensino Superior (ANDIFES)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que o programa chegou a empregar R$ 85 milhões em projetos e atingiu um público de aproximadamente 900 mil pessoas em 13 anos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele citou dados do Censo da Extensão de 2022, que mostram que apenas 1,8% do orçamento discricionário das instituições é destinado à extensão. Silveira argumentou que a ausência de orçamento adequado afronta o artigo 207 da Constituição."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Lídice da Mata agradeceu a participação de todos e se comprometeu a elaborar um relatório com as discussões realizadas, que será apresentado à Comissão de Educação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

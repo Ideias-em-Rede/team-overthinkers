@@ -1,0 +1,36 @@
+{
+  "id": 139,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O estado do Mato Grosso do Sul concentrava 40,9% do total de indígenas presos no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela Deputada Célia Xakriabá (PSOL-MG), reuniu defensores públicos, representantes de ministérios, de organizações da sociedade civil e de associações de antropologia."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada também destacou que mais de 45% das mulheres indígenas presas no país estavam em Mato Grosso do Sul."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela associou o encarceramento aos conflitos fundiários e à violência policial."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A subnotificação de 1.226 indígenas presos, segundo dados de junho de 2023, mascara a realidade e dificulta a criação de uma legislação específica."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada também destacou que mais de 45% das mulheres indígenas presas no país estavam em Mato Grosso do Sul."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

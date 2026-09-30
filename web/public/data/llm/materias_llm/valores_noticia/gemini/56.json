@@ -1,0 +1,36 @@
+{
+  "id": 56,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Deputado Diego Garcia abriu a audiência destacando a importância do debate."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Convocada pelo presidente da comissão, Deputado Diego Garcia (Republicanos-PR), a reunião contou com a participação de atletas, presidentes de conselhos de educação física e representantes de associações de academias."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Monica Marques apresentou dados internacionais, afirmando que o Brasil já era o quinto país mais sedentário do mundo antes da pandemia, com 47% da população inativa, número que pode ter chegado a 60% após a crise sanitária."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Leme criticou a classificação das academias como locais de entretenimento durante a pandemia e defendeu a aprovação de uma lei que reconheça a prática de atividades físicas como serviço essencial à saúde."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele apontou que o custo da inatividade física para o Brasil é de 5,7 bilhões de dólares e que o setor de academias emprega diretamente 185 mil profissionais."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

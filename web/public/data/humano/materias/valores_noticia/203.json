@@ -1,0 +1,36 @@
+{
+  "id": 203,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Dados do Anuário Brasileiro de Segurança Pública, divulgados no final de julho pelo Fórum Brasileiro de Segurança Pública, mostram crescimento de 6,1% dos casos de feminicídio, e 1,2% de homicídios de mulheres em 2022 em relação aos números de 2021."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública na Câmara dos Deputados sustentaram que o aumento da violência contra as mulheres no Brasil decorre do desmonte das políticas de proteção e acolhimento de mulheres nos últimos anos."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "De acordo com a assessora política do Instituto de Estudos Socioeconômicos (Inesc), Carmela Zigoni, a execução orçamentária de ações voltadas ao público feminino sofreu redução de 75% entre 2014 e 2019."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Segundo afirma, esses movimentos colocam a igualdade de gênero como o inimigo principal a ser combatido, o que gera como reação a violência contra mulheres que tentam romper com seus papeis históricos e estereótipos."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ainda houve crescimento de 49,7% dos registros de assédio sexual e de 37% de importunação sexual."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A secretária adiantou que, além do fortalecimento das ações de acolhimento de mulheres, o Ministério da Mulher lança ainda em agosto uma campanha nacional de combate à misoginia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

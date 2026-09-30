@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Constituição e Justiça e de Cidadania (CCJ) da Câmara dos Deputados realizou um seminário para debater o tema 'Forças Armadas e a política: limites constitucionais'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento, convocado por um requerimento do presidente da comissão, deputado Rui Falcão (PT-SP), reuniu ex-ministros, acadêmicos, especialistas e parlamentares para discutir o papel dos militares no Estado Democrático de Direito."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Um dos pontos centrais do debate foi a interpretação do artigo 142 da Constituição e a ideia de um 'poder moderador' das Forças Armadas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A participação de militares na política eleitoral foi outro tema recorrente. Jungmann defendeu que servidores de Estado, incluindo militares, que decidam entrar para a política sejam desligados de suas corporações de origem."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O historiador Manuel Domingos Neto apresentou uma visão crítica, afirmando que as Forças Armadas são 'desconhecidas' pela sociedade e portadoras de um 'distúrbio de personalidade funcional', sem saber se são policiais ou militares."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A atuação das Forças Armadas em áreas como segurança pública, através das operações de Garantia da Lei e da Ordem (GLO), e em outras atividades subsidiárias, foi abordada por diferentes perspectivas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

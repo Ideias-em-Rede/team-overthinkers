@@ -1,0 +1,36 @@
+{
+  "id": 4,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Após temporal no estado, o presidente da agência reconheceu que a falta de energia pode prejudicar os serviços de telecomunicações"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da Agência Nacional de Telecomunicações (Anatel), Carlos Manuel Baigorri"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a falta de energia elétrica pode prejudicar o fornecimento dos serviços no estado"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou, por exemplo, a assimetria entre os clássicos meios de comunicação (rádio e TV) e os novos (streaming e mídias sociais)"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Anatel trabalha com operadoras de telefonia para evitar pane em São Paulo"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

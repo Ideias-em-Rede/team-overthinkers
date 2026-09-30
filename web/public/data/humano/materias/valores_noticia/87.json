@@ -1,0 +1,36 @@
+{
+  "id": 87,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O projeto enviado pelo governo (PLP 12/24), apresentado em março, estabelece a remuneração ao motorista por hora; a remuneração por quilômetro rodado, como preferem muitos motoristas"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A afirmação foi feita pelo relator da proposta na Comissão de Indústria, Comércio e Serviços, deputado Augusto Coutinho (Republicanos-PE), durante a audiência pública que debateu o assunto por cinco horas e que teve a presença do ministro do Trabalho, Luiz Marinho."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O plano oferecido aqui na proposta do projeto garante cobertura completa, não é uma meia cobertura. É o Estado brasileiro reconhecendo a importância dos trabalhadores de aplicativo e o quanto eles têm um alto grau de vulnerabilidade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A proposta do governo é rechaçada pelo presidente da Frente de Apoio Nacional dos Motoristas Autônomos, Paulo Xavier."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O relatório sobre o projeto que regulamenta o trabalho dos motoristas de aplicativo deve ser apresentado na Câmara antes do recesso de julho."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

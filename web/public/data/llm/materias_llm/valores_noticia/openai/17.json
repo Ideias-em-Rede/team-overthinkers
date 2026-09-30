@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Rui Falcão apresentou os quatro convidados que fariam exposições: Rodrigo Saraiva Marinho (Diretor‑Executivo do Instituto Livre Mercado), Sebastião Coelho (ex‑desembargador do Tribunal de Justiça do Distrito Federal), Pedro Estevam (professor da PUC‑SP) e Eduardo Lycurgo (presidente do Instituto dos Advogados do Distrito Federal)."
+    },
+    "impacto": {
+      "presente": false,
+      "evidencia": null
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rodrigo Saraiva abriu as exposições criticando uma série de decisões do Supremo Tribunal Federal (STF) que, segundo ele, configurariam atuações além do papel judicial e em confronto com competência do Parlamento."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O seminário foi encerrado por Rui Falcão, que registrou a realização do encontro, agradeceu participantes e informou a convocação de reunião deliberativa extraordinária da CCJC para quinta‑feira, 7 de dezembro, às 9 horas, para apreciação de pauta."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

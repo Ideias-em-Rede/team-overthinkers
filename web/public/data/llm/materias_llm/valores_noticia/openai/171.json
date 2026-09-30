@@ -1,0 +1,36 @@
+{
+  "id": 171,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Mais Médicos: informou que o programa alcançou 18.500 médicos em atuação no Brasil, abrangendo todas as regiões."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A ministra da Saúde, Nísia Trindade, participou na tarde desta terça-feira de audiência pública conjunta da Comissão de Saúde e da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família (CPASF) da Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Novo PAC: citou um aporte de 30,5 bilhões de reais para investimentos em saúde em diversos eixos, incluindo construção de unidades básicas, universalização do SAMU e policlínicas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A sessão registrou momentos de forte calor verbal e interrupções entre parlamentares. Deputados de oposição criticaram aspectos do governo anterior e políticas do atual governo; deputados de situação defenderam a ministra e as ações do ministério."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Preparação para emergências sanitárias: anunciou implantação de unidades de resposta rápida, Centro de Inteligência Genômica, memorial da pandemia e apoio à construção do primeiro laboratório de biossegurança nível 4 no Brasil (liderança do Ministério da Ciência, Tecnologia e Inovação)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Combate à desinformação: destacou a criação de comissão interministerial e diferenciou dúvidas científicas de desinformação deliberada (“fake news”), citando exemplos que, na avaliação do ministério, teriam efeitos negativos sobre a saúde pública."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

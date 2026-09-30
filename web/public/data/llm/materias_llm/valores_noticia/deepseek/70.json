@@ -1,0 +1,36 @@
+{
+  "id": 70,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Baía de Sepetiba é uma área de relevância biológica extremamente alta, abrigando manguezais, Mata Atlântica e espécies ameaçadas de extinção, além de ser fonte de sustento para milhares de pescadores artesanais e marisqueiras."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência foi conduzida inicialmente pela deputada Talíria Petrone (PSOL-RJ) e, posteriormente, pelo deputado Rodrigo Agostinho (PSB-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele afirmou que a energia gerada por essas termelétricas custaria sete vezes mais que outras fontes, contribuindo para o que chamou de 'racismo energético', onde milhões de brasileiros não conseguem pagar suas contas de luz."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele classificou o processo como 'escabroso' e um dos piores que já viu em 20 anos de carreira, criticando o fracionamento do licenciamento e a falta de cautela do órgão ambiental."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O projeto tem 560 MW e foi licenciado sem a realização do Estudo de Impacto Ambiental (EIA/RIMA), obrigatório para projetos com potência acima de 10 megawatts."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ela destacou que a Baía de Sepetiba é uma área de relevância biológica extremamente alta, abrigando manguezais, Mata Atlântica e espécies ameaçadas de extinção, além de ser fonte de sustento para milhares de pescadores artesanais e marisqueiras."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

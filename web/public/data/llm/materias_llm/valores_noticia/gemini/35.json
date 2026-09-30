@@ -1,0 +1,36 @@
+{
+  "id": 35,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debateu temas como a antecipação do registro de candidaturas, simplificação da prestação de contas, violência política de gênero e regras para propaganda eleitoral"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O grupo de trabalho da Câmara dos Deputados destinado a propor uma minirreforma eleitoral realizou, em sua 6ª Reunião Extraordinária, uma audiência pública para ouvir sugestões de advogados, acadêmicos e representantes de instituições para as eleições municipais de 2024"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "debateu temas como a antecipação do registro de candidaturas, simplificação da prestação de contas, violência política de gênero e regras para propaganda eleitoral"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O tema gerou diferentes visões. Walber Agra criticou o fato de a cassação de toda a chapa punir candidatos eleitos que não tiveram relação com a fraude"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu temas como a antecipação do registro de candidaturas, simplificação da prestação de contas, violência política de gênero e regras para propaganda eleitoral"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

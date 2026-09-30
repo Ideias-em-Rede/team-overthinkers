@@ -1,0 +1,36 @@
+{
+  "id": 92,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Aprendiz é o jovem que estuda e trabalha, recebendo, ao mesmo tempo, formação na profissão para a qual está se capacitando."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente do colegiado é o deputado Felipe Rigoni (União-ES); e o relator, o deputado Marco Bertaiolli (PSD-SP)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Aprendizagem pode combater o trabalho infantil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os debatedores defenderam ainda contratos de aprendizagem com prazos menores que os três anos estipulados pela proposta."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Aprendizagem deve ser tratada pelo Estado como política pública, o que garante benefícios para toda a sociedade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

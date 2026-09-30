@@ -1,0 +1,36 @@
+{
+  "id": 82,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "mestres e mestras da cultura popular de diversas regiões do Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "audiência pública extraordinária realizada pela Comissão de Cultura da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "a aprovação de projetos de lei que tramitam há mais de uma década no Congresso"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Os participantes destacaram a falta de reconhecimento e apoio financeiro, a invisibilidade na grande mídia e a morosidade na tramitação de propostas legislativas"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Maria Elizabeth Santiago de Oliveira, a Beth de Oxum, de Pernambuco, criticou a disparidade de tratamento entre a cultura popular e o entretenimento comercial"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

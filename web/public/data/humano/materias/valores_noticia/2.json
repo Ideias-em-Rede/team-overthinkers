@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Nós estamos chegando perto do colapso do preço da energia elétrica para o consumidor brasileiro regulado."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O ministro de Minas e Energia, Alexandre Silveira, disse que o governo deverá enviar pelo menos dois projetos de lei em breve para o Congresso."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Um, segundo ele, vai 'dividir melhor a conta' entre a energia paga pelos consumidores em geral e os grandes consumidores."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele critica o fato de a União ter 43% das ações, mas pouca influência sobre os destinos de uma empresa considerada estratégica."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O outro projeto vai atuar na transição energética do setor de transporte com projetos como o chamado 'diesel verde'."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Segundo Silveira, devem ser investidos R$ 60 bilhões no produto."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

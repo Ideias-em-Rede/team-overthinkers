@@ -1,0 +1,36 @@
+{
+  "id": 74,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "33 milhões de brasileiros em insegurança alimentar"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou, nesta segunda-feira (11), audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "mais de 150 mil crianças que ficaram órfãs devido à COVID-19"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas à Medida Provisória 1.116/2022, que 'desconstrói a política de aprendizagem profissional'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Plano País para a Infância e a Adolescência com 148 propostas para candidaturas nas eleições de 2022"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "29 crianças e adolescentes são mortos todos os dias"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

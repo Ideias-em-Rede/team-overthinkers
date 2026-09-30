@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi conduzido pelo presidente da comissão, deputado Rui Falcão (PT-SP), e contou com a participação de quatro juristas convidados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele questionou se o termo 'ativismo judicial' ainda seria adequado para descrever tais ações, argumentando que o STF estaria indo além de sua função constitucional."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "José Medeiros (PL-MT) criticou o que chamou de 'superpoder' do STF."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O seminário foi encerrado após três horas de debates, conforme o tempo máximo previsto."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

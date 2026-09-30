@@ -1,0 +1,36 @@
+{
+  "id": 144,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Termina no dia 10 de novembro o prazo para que prefeituras enviem propostas para o Ministério das Cidades"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O alerta foi feito pelo ministro das Cidades, Jader Barbalho Filho"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Estão previstos até 2026, R$ 609,7 bilhões em investimentos para o eixo Cidades Sustentáveis e Resilientes"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Garanto que só com a iniciativa privada não vamos chegar a bom termo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O número de propostas recebidas está muito abaixo do que imaginávamos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Estão previstos para os próximos anos R$ 609,7 bilhões em investimentos para obras de sustentabilidade nas Cidades"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 127,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O evento contou com participações presenciais e remotas, e foi transmitido ao vivo pelo site da Câmara dos Deputados."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados realizou, nesta terça-feira, uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ela destacou que o Estatuto da Pessoa Idosa (Lei nº 10.741/2003) completa 20 anos em 2023 e enfatizou a necessidade de ampla divulgação da lei para que idosos e familiares conheçam seus direitos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele criticou o bloqueio, por partidos de extrema direita, da aprovação da Convenção Interamericana devido à menção ao termo 'gênero' em seu artigo 5º."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O evento foi convocado com base nos Requerimentos nºs 21 e 114 de 2023, de autoria da deputada Erika Kokay (PT-DF)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 119,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "75% dos feminicídios no Distrito Federal ocorrem dentro de casa"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Mulher da Câmara dos Deputados realizou uma audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "estimativa de que 4.603 mulheres foram assassinadas no Brasil em 2021"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas ao protocolo de investigação nacional elaborado na gestão anterior, considerado sigiloso e sem participação social"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "projetos em andamento, incluindo a Rede Integrada de Bancos de Perfis Genéticos e o Sistema Nacional de Análise Balística"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate sobre a importância da perícia criminal na investigação e prevenção dos crimes de feminicídio"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

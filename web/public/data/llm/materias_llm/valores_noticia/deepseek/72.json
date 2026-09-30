@@ -1,0 +1,36 @@
+{
+  "id": 72,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Trabalho, de Administração e Serviço Público (CTASP) da Câmara dos Deputados realizou uma audiência pública na manhã desta quarta-feira para debater a política estatal de combate ao trabalho análogo ao escravo no Brasil, com ênfase nas lavouras de café em Minas Gerais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi presidido pelo deputado Rogério Correia (PT-MG)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele afirmou que o café foi a atividade com o maior número de resgates e citou o agravamento da situação nos últimos anos, atribuído ao aumento do desemprego e da pobreza."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Representantes da indústria e de cooperativas do café, também convidados, não compareceram."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Durante a audiência, o trabalhador rural Adésio de Brito Neto, da Bahia, relatou ter sido resgatado há duas semanas de uma fazenda de café em Manhumirim (MG), junto com outros sete colegas."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele descreveu condições degradantes: retenção de documentos, falta de água potável, alimentação inadequada, alojamentos precários e pagamento em cheque, sem carteira assinada."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

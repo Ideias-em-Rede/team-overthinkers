@@ -1,0 +1,36 @@
+{
+  "id": 89,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Câmara dos Deputados realizou uma audiência pública para debater formas de aumentar a proteção dos direitos de crianças e mulheres indígenas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele descreveu a invasão garimpeira como causa de exploração sexual de mulheres e crianças, além de outros impactos socioambientais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou as políticas do governo federal, classificando-as como 'assistencialismo barato', e apontou a demarcação e a proteção dos territórios como prioridades para garantir a segurança."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os participantes apontaram o garimpo ilegal como um dos principais vetores de violência e defenderam a necessidade de políticas públicas específicas e a demarcação de terras."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 43,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O encontro, requerido pelos deputados Fernanda Melchionna (PSOL-RS) e Glauber Braga (PSOL-RJ), contrapôs a defesa da lei feita pelo Ministério da Defesa a duras críticas de representantes de militares de baixa patente, reformados e pensionistas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Relações Exteriores e de Defesa Nacional da Câmara dos Deputados realizou uma audiência pública para debater o sistema de proteção social dos militares e os efeitos da Lei nº 13.954, de 2019."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Segundo ela, a audiência visava buscar a reparação de injustiças, já que a maioria dos militares passou a trabalhar e contribuir mais, resultando em perdas salariais para financiar gratificações para o 'alto escalão'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Em contraponto, os demais convidados apresentaram argumentos e dados que contestaram a visão do ministério."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Como encaminhamento, os deputados propuseram a criação de um novo grupo de trabalho, com a participação de praças, veteranos e pensionistas, para reavaliar a lei."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

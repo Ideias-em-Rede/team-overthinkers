@@ -1,0 +1,36 @@
+{
+  "id": 111,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Segundo o professor de Libras da Universidade de Santa Catarina Rodrigo Marques, o censo escolar de 2020 mostrou que existiam, na época, 63.106 alunos surdos matriculados na educação básica no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participantes de audiência pública na Câmara dos Deputados defenderam, nesta terça-feira (23), que a educação bilíngue de surdos vai muito além de simplesmente garantir intérpretes de Libras em sala de aula."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Embora considere essas conquistas legais “uma vitória”, a deputada ressalta que é preciso avançar."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "De acordo com o coordenador-substituto do Curso de Língua de Sinais Brasileira, Messias Ramos Costa, há muitas falhas na seleção dos profissionais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O professor informou ainda que a comunidade surda no País corresponde a cerca de 11 milhões de pessoas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

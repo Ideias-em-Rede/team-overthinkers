@@ -1,0 +1,36 @@
+{
+  "id": 161,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Deputados de Estados do Norte e do Nordeste relataram falta de voos regulares, preços altos, horários inadequados e entraves de infraestrutura em aeroportos regionais."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram representantes do Poder Executivo, da indústria aérea, do setor acadêmico e da defesa do consumidor, entre eles: Ricardo Catanant, diretor da Agência Nacional de Aviação Civil (ANAC); Rafael Pereira Scherre, Diretor de Outorgas, Patrimônio e Políticas Regulatórias Aeroportuárias da Secretaria Nacional de Aviação Civil (Ministério de Portos e Aeroportos); Vitor Hugo do Amaral Ferreira, coordenador-geral da Secretaria Nacional do Consumidor (SENACON), vinculada ao Ministério da Justiça; Jurema Monteiro, presidente da Associação Brasileira das Empresas Aéreas (ABEAR); Alberto Fajerman, assessor da presidência da Gol Linhas Aéreas; Camilo Oliveira, gerente de Relações Institucionais da Azul (participou por videoconferência); Elton Fernandes, professor titular do Programa de Engenharia de Produção da UFRJ (por videoconferência); Giovanna Ronzani, professora do ITA e presidente da Sociedade Brasileira de Pesquisa em Transporte Aéreo (SBTA) (por videoconferência)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vitor Hugo, da SENACON, informou que a plataforma consumidor.gov.br registrou mais de 60 mil reclamações relacionadas ao setor no ano de 2023 e listou problemas mais frequentes: dificuldade de contato com SAC, atraso na devolução de valores, cancelamento de voos, extravio de bagagem, cobrança indevida e publicidade/contratação enganosa."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Deputados de Estados do Norte e do Nordeste cobraram dados sobre percentuais de atrasos e cancelamentos por ano, e questionaram a eficácia dos incentivos já concedidos ao setor."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência reuniu parlamentares, autoridades e representantes do setor, com amplo debate sobre causas estruturais da alta de tarifas, distribuição de tarifas, qualidade do serviço e reclamações de passageiros."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

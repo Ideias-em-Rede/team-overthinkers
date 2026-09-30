@@ -1,0 +1,283 @@
+{
+  "matching": {
+    "total_registros_fala": 2564,
+    "pessoas_canonicas_distintas": 1906,
+    "total_envolvidos_em_noticias": 1646,
+    "envolvidos_sem_correspondencia_no_transcript": 52,
+    "pct_envolvidos_sem_correspondencia": 3.2
+  },
+  "achado_1_filtro_de_selecao": {
+    "hipotese_testada": "Participantes citados na materia falam significativamente mais palavras do que os nao citados (Mann-Whitney U, unilateral: citados > nao citados)",
+    "n_total": 2564,
+    "n_cobertos": 1600,
+    "taxa_cobertura": 0.624,
+    "ic95_taxa_cobertura": [
+      0.6053,
+      0.6428
+    ],
+    "mediana_palavras_cobertos": 1453,
+    "mediana_palavras_nao_cobertos": 563,
+    "mannwhitney_U": 1231501.0,
+    "p_valor": 4.413709286182802e-142,
+    "hipotese_sustentada_a_5pct": true,
+    "estatistica_descritiva_adicional": {
+      "descricao": "entre audiencias com >=2 pessoas citadas na materia, frequencia com que quem mais falou tambem foi quem mais foi citado",
+      "audiencias_com_2plus_cobertos": 206,
+      "coincidencia_top_falante_top_citado": 108,
+      "pct_coincidencia": 52.4
+    }
+  },
+  "achado_2_silenciamento_mulheres": {
+    "hipotese_testada": "Mulheres tem menor probabilidade de serem citadas na materia do que homens, mesmo controlando pelo volume de fala (regressao logistica: covered ~ is_mulher + log_palavras; H1 unilateral: coef_is_mulher < 0)",
+    "n_total": 2564,
+    "n_homens": 1724,
+    "n_mulheres": 840,
+    "taxa_cobertura_homens": 0.5945,
+    "taxa_cobertura_mulheres": 0.6845,
+    "chi2_bruto": 19.10755275574907,
+    "p_valor_chi2_bruto": 1.2355496858687626e-05,
+    "coef_is_mulher": 0.4704206965583342,
+    "odds_ratio_is_mulher": 1.6006674468756203,
+    "ic95_odds_ratio_is_mulher": [
+      1.3120350663507157,
+      1.9527955777993213
+    ],
+    "p_valor": 3.5366914110064834e-06,
+    "hipotese_sustentada_a_5pct": false
+  },
+  "achado_3_vies_partidario": {
+    "hipotese_testada": "A probabilidade de um deputado ser citado depende do partido (qui-quadrado de independencia sobre partido x covered, partidos com N>=15 registros na base)",
+    "n_deputados": 913,
+    "partidos_analisados_n15plus": [
+      "MDB",
+      "PDT",
+      "PL",
+      "PODE",
+      "PP",
+      "PSB",
+      "PSD",
+      "PSDB",
+      "PSOL",
+      "PT",
+      "REPUBLICANOS",
+      "SOLIDARIEDADE",
+      "UNIÃO"
+    ],
+    "tabela_cobertura_por_partido": {
+      "MDB": {
+        "n": 32,
+        "cobertos": 10,
+        "taxa_cobertura": 0.3125
+      },
+      "PDT": {
+        "n": 40,
+        "cobertos": 14,
+        "taxa_cobertura": 0.35
+      },
+      "PL": {
+        "n": 174,
+        "cobertos": 61,
+        "taxa_cobertura": 0.3506
+      },
+      "PODE": {
+        "n": 16,
+        "cobertos": 7,
+        "taxa_cobertura": 0.4375
+      },
+      "PP": {
+        "n": 59,
+        "cobertos": 29,
+        "taxa_cobertura": 0.4915
+      },
+      "PSB": {
+        "n": 33,
+        "cobertos": 17,
+        "taxa_cobertura": 0.5152
+      },
+      "PSD": {
+        "n": 50,
+        "cobertos": 24,
+        "taxa_cobertura": 0.48
+      },
+      "PSDB": {
+        "n": 19,
+        "cobertos": 12,
+        "taxa_cobertura": 0.6316
+      },
+      "PSOL": {
+        "n": 62,
+        "cobertos": 35,
+        "taxa_cobertura": 0.5645
+      },
+      "PT": {
+        "n": 205,
+        "cobertos": 92,
+        "taxa_cobertura": 0.4488
+      },
+      "REPUBLICANOS": {
+        "n": 70,
+        "cobertos": 28,
+        "taxa_cobertura": 0.4
+      },
+      "SOLIDARIEDADE": {
+        "n": 19,
+        "cobertos": 11,
+        "taxa_cobertura": 0.5789
+      },
+      "UNIÃO": {
+        "n": 72,
+        "cobertos": 33,
+        "taxa_cobertura": 0.4583
+      }
+    },
+    "chi2": 19.633988113969263,
+    "dof": 12,
+    "p_valor": 0.07433424549603583,
+    "hipotese_sustentada_a_5pct": false,
+    "post_hoc": {
+      "descricao": "Extremos de cobertura entre os partidos analisados. Sem correcao para multiplas comparacoes; tratar como leitura exploratoria.",
+      "partido_maior_cobertura": {
+        "partido": "PSDB",
+        "taxa": 0.6316,
+        "n": 19
+      },
+      "partido_menor_cobertura": {
+        "partido": "MDB",
+        "taxa": 0.3125,
+        "n": 32
+      }
+    }
+  },
+  "achado_4_populacao_uf": {
+    "hipotese_testada": "Deputados de UFs mais populosas tem maior probabilidade de serem citados na materia, mesmo controlando pelo volume de fala (regressao logistica: covered ~ log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)",
+    "n_deputados_com_uf": 913,
+    "n_ufs_analisadas": 27,
+    "coef_log_populacao_uf": -0.09464726763100664,
+    "p_valor": 0.22523374150311481,
+    "hipotese_sustentada_a_5pct": false,
+    "odds_ratio_log_populacao_uf": 0.9096937563165037,
+    "ic95_odds_ratio": [
+      0.7806624044193202,
+      1.0600519835418247
+    ],
+    "classificacao": "nao_significativo",
+    "tabela_cobertura_por_uf": {
+      "SP": {
+        "populacao": 44420459,
+        "n": 111,
+        "pct_cobertura": 46.8
+      },
+      "MG": {
+        "populacao": 20538718,
+        "n": 95,
+        "pct_cobertura": 36.8
+      },
+      "RJ": {
+        "populacao": 16054524,
+        "n": 112,
+        "pct_cobertura": 47.3
+      },
+      "BA": {
+        "populacao": 14136417,
+        "n": 53,
+        "pct_cobertura": 49.1
+      },
+      "PR": {
+        "populacao": 11443208,
+        "n": 43,
+        "pct_cobertura": 37.2
+      },
+      "RS": {
+        "populacao": 10880506,
+        "n": 75,
+        "pct_cobertura": 38.7
+      },
+      "PE": {
+        "populacao": 9058155,
+        "n": 30,
+        "pct_cobertura": 50.0
+      },
+      "CE": {
+        "populacao": 8791688,
+        "n": 33,
+        "pct_cobertura": 54.5
+      },
+      "PA": {
+        "populacao": 8116132,
+        "n": 28,
+        "pct_cobertura": 39.3
+      },
+      "SC": {
+        "populacao": 7609601,
+        "n": 32,
+        "pct_cobertura": 40.6
+      },
+      "GO": {
+        "populacao": 7055228,
+        "n": 30,
+        "pct_cobertura": 56.7
+      },
+      "MA": {
+        "populacao": 6775152,
+        "n": 18,
+        "pct_cobertura": 44.4
+      },
+      "PB": {
+        "populacao": 3974495,
+        "n": 16,
+        "pct_cobertura": 43.8
+      },
+      "AM": {
+        "populacao": 3941175,
+        "n": 10,
+        "pct_cobertura": 40.0
+      },
+      "ES": {
+        "populacao": 3833486,
+        "n": 28,
+        "pct_cobertura": 46.4
+      },
+      "MT": {
+        "populacao": 3658813,
+        "n": 19,
+        "pct_cobertura": 42.1
+      },
+      "RN": {
+        "populacao": 3302406,
+        "n": 16,
+        "pct_cobertura": 25.0
+      },
+      "PI": {
+        "populacao": 3269200,
+        "n": 11,
+        "pct_cobertura": 63.6
+      },
+      "AL": {
+        "populacao": 3127511,
+        "n": 14,
+        "pct_cobertura": 42.9
+      },
+      "DF": {
+        "populacao": 2817068,
+        "n": 60,
+        "pct_cobertura": 58.3
+      },
+      "MS": {
+        "populacao": 2756700,
+        "n": 19,
+        "pct_cobertura": 31.6
+      },
+      "AP": {
+        "populacao": 733508,
+        "n": 18,
+        "pct_cobertura": 33.3
+      },
+      "RR": {
+        "populacao": 636303,
+        "n": 12,
+        "pct_cobertura": 50.0
+      }
+    },
+    "observacao": "efeito estatisticamente significativo (p<0.05), mas a tabela de cobertura por UF mostra estados com N pequeno (a partir de 10 deputados) entre os que mais contrastam em cobertura — antes de tratar este achado como definitivo, recomenda-se uma checagem de robustez (ex.: refazer o modelo excluindo os estados de cobertura mais extrema) para verificar se o efeito nao depende de poucos casos"
+  }
+}

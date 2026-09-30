@@ -1,0 +1,36 @@
+{
+  "id": 163,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os desafios para a garantia do direito à educação de meninas e mulheres negras"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Mesa foi composta majoritariamente por mulheres negras, incluindo representantes do Executivo federal, da sociedade civil e do meio acadêmico."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "meninas negras tiveram menos acesso às atividades remotas, dependiam mais de materiais impressos e WhatsApp, enfrentaram falta de conectividade, maior responsabilidade por trabalhos domésticos e de cuidado, e maior exposição a vulnerabilidades que contribuíram para aumento da evasão escolar"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Neon Cunha fez um relato pessoal sobre sua trajetória desde a infância, abordando experiências de racismo e cissexismo"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "o programa ofertará cerca de 40 bolsas de doutorado sanduíche e pós-doutorado no exterior para mulheres cientistas negras, indígenas, quilombolas e ciganas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência pública foi realizada para debater os desafios para a garantia do direito à educação de meninas e mulheres negras"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

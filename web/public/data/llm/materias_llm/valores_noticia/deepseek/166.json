@@ -1,0 +1,36 @@
+{
+  "id": 166,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Caio Vianna (PSD-RJ), autor do requerimento que propôs a discussão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou exemplos internacionais, como Suíça e Dubai, e enfatizou a importância de evitar o uso da tecnologia por modismo, garantindo aplicações adequadas."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O debate terminou com um consenso sobre o potencial da blockchain para aumentar a transparência, eficiência e confiança na administração pública, mas também sobre a necessidade de enfrentar desafios técnicos e regulatórios."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Representantes de órgãos públicos e do setor privado apresentaram casos de uso, benefícios e desafios da tecnologia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

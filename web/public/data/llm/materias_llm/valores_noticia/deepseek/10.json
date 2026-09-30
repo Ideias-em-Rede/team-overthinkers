@@ -1,0 +1,36 @@
+{
+  "id": 10,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "existem 131 milhões de trabalhadores inscritos no FGTS"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Secretário de Proteção ao Trabalhador do Ministério do Trabalho e Emprego, Carlos Augusto Simões Gonçalvez Júnior"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "o saque-aniversário, instituído em 2020, ameaça a sustentabilidade do fundo no médio e longo prazo"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "representantes de entidades financeiras e de defesa do consumidor contestaram os argumentos do Governo"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "90% consideram muito importante ter a liberdade de escolher como usar seu FGTS"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

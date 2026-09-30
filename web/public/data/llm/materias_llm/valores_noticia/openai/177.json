@@ -1,0 +1,36 @@
+{
+  "id": 177,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a relação de trabalho intermediada por plataformas digitais de transporte e mecanismos de inclusão previdenciária e outros direitos para melhorar as condições de trabalho"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi aberta pelo deputado Gilson Marques e transmitida pela TV Câmara, Infoleg e YouTube. Fizeram parte da mesa expositora representantes do Ministério Público do Trabalho, do Instituto Livre Mercado, das plataformas InDrive e iFood, da AMOBITEC, que representa 99 e Uber, de associações regionais e de motoristas"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "para debater a relação de trabalho intermediada por plataformas digitais de transporte e mecanismos de inclusão previdenciária e outros direitos para melhorar as condições de trabalho"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Renan Bernardi Kalil afirmou que há preocupações estruturais sobre o projeto de lei em discussão, em especial quanto à caracterização das plataformas como “meras intermediárias”"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a relação de trabalho intermediada por plataformas digitais de transporte e mecanismos de inclusão previdenciária e outros direitos para melhorar as condições de trabalho"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

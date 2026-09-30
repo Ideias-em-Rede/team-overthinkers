@@ -1,0 +1,36 @@
+{
+  "id": 200,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Doenças crônicas afetam cerca de 40% da população brasileira."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da audiência pública o coordenador-geral de Saúde da Pessoa com Deficiência do Ministério da Saúde, Arthur Medeiros; o professor e pesquisador da Universidade Federal do Rio Grande do Sul Wolnei Caumo; o reumatologista do Hospital de Base de Brasília Roberto Rodrigues Filho; e os representantes da Associação Nacional de Fibromiálgicos e Doenças Correlacionadas, Genilza Valente; da Associação Nacional de Lúpus, Djane Bento; do Grupo CIF Brasil, Nadja Vilela; e da Sociedade de Dor do Distrito Federal, Carlos Gropen Júnior."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Isso beneficiará pessoas tanto do ponto de vista assistencial quanto do direito social, com a inclusão por meio de cotas ou com auxílio-doença e aposentadoria especial, entre outros."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A CIF é uma ferramenta que pode ajudar na compreensão das necessidades das pessoas com doenças crônicas e na definição de políticas públicas."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

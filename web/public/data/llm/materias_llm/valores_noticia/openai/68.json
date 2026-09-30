@@ -1,0 +1,36 @@
+{
+  "id": 68,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "mais de 16 milhões de pessoas com diabetes"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "participação da Comissão de Seguridade Social e Família da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "150 mil brasileiros por ano diagnosticados com retinopatia diabética"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "posicionamento contrário da Anvisa ao uso desse medicamento para retinopatia diabética"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a implementação do Protocolo Clínico e Diretriz Terapêutica (PCDT) para retinopatia diabética no SUS"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

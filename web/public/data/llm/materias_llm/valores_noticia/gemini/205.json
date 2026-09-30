@@ -1,0 +1,36 @@
+{
+  "id": 205,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A extensão territorial do Brasil, com 16.885 quilômetros de fronteira terrestre que abrangem 10 países sul-americanos."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelo Deputado Coronel Ulysses (UNIÃO-AC) e presidida pelo Deputado Sanderson (PL-RS), contou com a participação de representantes de forças policiais estaduais e federais, das Forças Armadas e da Receita Federal."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O programa Guardiões da Fronteira apreendeu 185 toneladas de drogas e gerou um prejuízo de mais de R$ 1,3 bilhão ao crime no primeiro semestre de 2023."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, Deputado Sanderson, descreveu a fronteira como um 'queijo suíço', destacando a vulnerabilidade do país ao crime organizado, como tráfico de drogas, armas e contrabando."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A importância da integração entre as forças foi um tema recorrente."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

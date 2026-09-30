@@ -1,0 +1,36 @@
+{
+  "id": 53,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos das Pessoas com Deficiência da Câmara dos Deputados realizou uma audiência pública para debater o tema 'A cultura inclusiva e acessível: promoção da inclusão das pessoas com deficiência através da arte'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, solicitada pela Deputada Erika Kokay (PT-DF) e presidida pelos Deputados Márcio Jerry (PCdoB-MA) e pela própria autora, reuniu representantes do governo, artistas, ativistas e parlamentares."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que o Ministério está trabalhando na revisão de normativos para que a acessibilidade seja incluída de forma sistemática em todos os editais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles criticaram a falta de fiscalização em projetos financiados com verba pública, como os do Fundo de Apoio à Cultura (FAC) do DF, que muitas vezes não garantem acessibilidade."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A jornalista Patricia Almeida, representante do Movimento Down e da GADIM Brasil, focou na importância da representação autêntica na mídia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

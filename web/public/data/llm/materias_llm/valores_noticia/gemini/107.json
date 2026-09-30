@@ -1,0 +1,36 @@
+{
+  "id": 107,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A burocracia e a demora na liberação de verbas emergenciais foram temas recorrentes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Coordenadores estaduais e municipais de Defesa Civil apresentaram uma série de demandas para aprimorar a prevenção e a resposta a desastres naturais no Brasil, durante uma audiência pública de uma Comissão Especial na Câmara dos Deputados."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre os principais pontos levantados estão a desburocratização para a liberação de recursos, a necessidade de investimentos em tecnologia, como radares e sistemas de alerta, e a criação de políticas de prevenção, incluindo a educação sobre riscos nas escolas."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A crítica foi reforçada por Luciano Chaves Boeira, do Rio Grande do Sul, que exemplificou que, de R$ 739 milhões liberados pelo Governo Federal para reconstrução em seu estado, apenas R$ 185 milhões foram executados após seis meses devido a entraves processuais."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os gestores defenderam uma mudança de foco da resposta para a prevenção."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

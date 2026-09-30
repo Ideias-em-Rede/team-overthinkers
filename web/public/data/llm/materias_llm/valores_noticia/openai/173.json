@@ -1,0 +1,36 @@
+{
+  "id": 173,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater a expansão de usinas hidrelétricas e a inclusão de novos reservatórios na matriz elétrica brasileira, no contexto da transição energética, da descarbonização, da redução tarifária ao consumidor e da segurança do Sistema Interligado Nacional"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A abertura foi feita pelo presidente em exercício da comissão, deputado Rodrigo de Castro (UNIÃO-MG), que convidou especialistas e representantes do setor para compor a mesa"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "debater a expansão de usinas hidrelétricas e a inclusão de novos reservatórios na matriz elétrica brasileira, no contexto da transição energética, da descarbonização, da redução tarifária ao consumidor e da segurança do Sistema Interligado Nacional"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Mendes afirmou que o setor tem sido “demonizado” e anunciou intenção de promover nova audiência com participação de órgãos ambientais estaduais para aprofundar o debate"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater a expansão de usinas hidrelétricas e a inclusão de novos reservatórios na matriz elétrica brasileira, no contexto da transição energética, da descarbonização, da redução tarifária ao consumidor e da segurança do Sistema Interligado Nacional"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

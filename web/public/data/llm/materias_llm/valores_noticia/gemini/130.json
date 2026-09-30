@@ -1,0 +1,36 @@
+{
+  "id": 130,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do setor audiovisual, de agências governamentais e parlamentares se reuniram em audiência pública na Comissão de Cultura da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O desenvolvimento da indústria audiovisual gera bem-estar social, inclusão e renda"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Produtores e distribuidores expressaram preocupações com o poder econômico das plataformas de streaming e a perda de propriedade intelectual de obras brasileiras"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O encontro, solicitado pela deputada Jandira Feghali (PCdoB-RJ), teve como objetivo diagnosticar o momento atual do setor e discutir medidas legislativas para seu fomento e desenvolvimento"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

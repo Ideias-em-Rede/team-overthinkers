@@ -1,0 +1,36 @@
+{
+  "id": 174,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Evair Vieira de Melo (PP-ES), autor do requerimento que deu origem à reunião."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compuseram a mesa o coordenador-geral de Expansão e Gestão da Educação em Saúde do Ministério da Educação (MEC), Francisco de Assis Rocha Neves, e o diretor de Avaliação da Educação Superior do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), Ulysses Tavares Teixeira."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O presidente da sessão destacou que a taxa de aprovação do último REVALIDA, aplicado no segundo semestre de 2022, foi de 3,75%, a mais baixa desde o início do exame, em 2011."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Jeancarlo Cavalcante, do CFM, defendeu o REVALIDA como um 'filtro de qualidade' e 'instrumento de proteção da sociedade'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele destacou que a lei aprovada em julho de 2023 prevê aplicações quadrimestrais, o que exigirá ajustes no cronograma atual, que leva cerca de 11 meses para ser executado."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Dados apresentados mostraram disparidades nas taxas de aprovação conforme o país de formação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 61,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater propostas e diretrizes para uma política industrial a ser encaminhada ao governo de transição"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Parlamentares e representantes do setor industrial se reuniram nesta quarta-feira em audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "compilar contribuições setoriais para a formulação de um plano de retomada da indústria brasileira"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Projeto de Decreto Legislativo (PDL) 575 — que tramita na Casa e foi citado por vários participantes — motivou divergências"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater propostas e diretrizes para uma política industrial a ser encaminhada ao governo de transição"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

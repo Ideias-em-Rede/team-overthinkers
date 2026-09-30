@@ -1,0 +1,36 @@
+{
+  "id": 177,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate, convocado pelo deputado Gilson Marques (NOVO-SC), focou nos impactos da proposta para os consumidores."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa representantes do Ministério Público do Trabalho (MPT), do Instituto Livre Mercado, das empresas InDrive, iFood, Associação Brasileira de Mobilidade e Tecnologia (AMOBITEC - representante de 99 e Uber), motoristas e aplicativos regionais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os debatedores concordaram que qualquer aumento de custo seria repassado ao consumidor, podendo reduzir a demanda e afetar a economia."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O procurador Renan Bernardi Kalil (MPT) expressou preocupação com três aspectos do projeto: a caracterização das plataformas como meras intermediárias, a definição de trabalhador autônomo por plataforma e a vedação do reconhecimento de vínculo empregatício."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate, convocado pelo deputado Gilson Marques (NOVO-SC), focou nos impactos da proposta para os consumidores."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

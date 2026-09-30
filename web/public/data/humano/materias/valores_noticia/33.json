@@ -1,0 +1,36 @@
+{
+  "id": 33,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Em um cenário onde a gente tem a maioria da população se informando por redes sociais, nós precisamos qualificar cada vez mais o jornalismo praticado no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Deputados, professores, empresários e sindicatos defenderam nesta quinta-feira (26), em audiência pública na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Essas pessoas podem, por exemplo, contribuir para o retorno de doenças que pareciam estar superadas pelo Plano Nacional de Imunização"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Sertesp alega que a exigência do diploma é inconstitucional porque a Constituição garante a todos o direito à liberdade de expressão e ao livre pensamento"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Eu acredito que um grande passo para acelerar o combate às fake news é tornar o diploma de jornalismo obrigatório por meio dessa PEC que está parada aqui na Casa"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 123,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O Brasil registra mais de 80 mil casos de tuberculose por ano."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Antonio Brito relatou que já se reuniu com o relator-geral do Orçamento de 2024, deputado Luiz Carlos Motta (PR-SP), e com o relator da área de saúde, senador Marcelo Castro (MDB-PI), para tratar do assunto."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A meta do governo federal é chegar a 2030 com menos de 10 casos de tuberculose por 100 mil habitantes por ano."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Apesar disso, o deputado destacou que o governo passado deixou apenas R$ 14 milhões para essa finalidade."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O dia 7 de fevereiro é a data provável do lançamento, pelo Governo Federal, do plano nacional de eliminação da tuberculose e das doenças determinadas socialmente, em solenidade no Palácio do Planalto."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A Organização Mundial da Saúde estima que o Brasil diagnostique apenas cerca de 80% das pessoas contaminadas com tuberculose."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

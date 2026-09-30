@@ -1,0 +1,36 @@
+{
+  "id": 191,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Ações de bem-estar animal podem trazer múltiplos benefícios para o Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A diretora-executiva da ONG internacional Mercy for Animals, Cristina Mendonça"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A magnitude dessa mudança é extraordinária e é por isso que se fala em mudanças radicais e mudanças transformacionais"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O fim do uso massivo de antibióticos e da crueldade na criação de animais em cativeiro são algumas das 'mudanças radicais' esperadas"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Tem o termo hoje dos chamados 'flextarianos': são aquelas pessoas que – por motivos nem sempre ligados à causa animal ou à mitigação de impactos climáticos, mas muitas vezes por conta de saúde – têm que reduzir o consumo de carne"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

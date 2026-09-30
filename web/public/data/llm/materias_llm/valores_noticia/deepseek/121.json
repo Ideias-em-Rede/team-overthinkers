@@ -1,0 +1,36 @@
+{
+  "id": 121,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O evento, declarado aberto pela deputada Delegada Ione (AVANTE-MG), presidente da comissão, fez parte da campanha '21 Dias de Ativismo pelo Fim da Violência contra a Mulher'."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Participaram da mesa expositores representando o Conselho Nacional de Justiça (CNJ), tribunais de justiça estaduais, o Ministério das Mulheres e a Defensoria Pública."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A deputada afirmou que o objetivo do debate era buscar um consenso e encaminhamentos para o tema, que impacta o país diariamente."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou o alto índice de reconciliação, perdão e retratação em varas especializadas, além da ausência de ações penais em crimes de ação privada."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Foi convocada uma nova audiência pública para o dia 11 de dezembro, para debater a importância da perícia criminal na investigação e prevenção do feminicídio."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

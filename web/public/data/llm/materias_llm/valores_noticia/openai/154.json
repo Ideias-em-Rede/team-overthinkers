@@ -1,0 +1,36 @@
+{
+  "id": 154,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência decorreu da aprovação do Requerimento nº 76/2023 da Comissão da Mulher e serviu para subsidiar a relatoria da deputada Lêda Borges ao Projeto de Lei nº 5.602/2019, cujo substitutivo cria o Programa de Atenção a Mulheres na Menopausa e Climatério."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A sessão, presidida pela deputada Lêda Borges (PSDB-GO), reuniu representantes dos ministérios da Saúde e das Mulheres, especialistas médicos, integrantes da sociedade civil e parlamentares municipais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os especialistas enfatizaram que o climatério pode afetar grande parcela da vida das mulheres e relacionaram a deficiência estrogênica a riscos aumentados de doenças cardiovasculares, diabetes, osteoporose, sarcopenia, declínio cognitivo e alterações psiquiátricas."
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A audiência foi transmitida pela internet."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

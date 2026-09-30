@@ -1,0 +1,36 @@
+{
+  "id": 196,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Hoje, menos de 18% da população entre 18 e 24 anos frequentam algum curso superior"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Palestrantes de audiência pública na Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Sem programa de financiamento estudantil sustentável, o Brasil não vai atingir a meta de ter 33% dos jovens matriculados no ensino superior"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eu acho que o Fies de hoje só está sendo bom para o banco, que administra. O aluno não está concluindo, ele está ficando inadimplente, porque ele não tem condição de pagar"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Socialmente, eu acho que é um investimento muito positivo para que a gente possa fazer com que o Brasil melhore seus índices educacionais"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

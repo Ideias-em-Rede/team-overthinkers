@@ -1,0 +1,36 @@
+{
+  "id": 50,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião, solicitada pelas deputadas Daiana Santos e Ana Pimentel, contou com a participação de representantes do Ministério da Saúde e da sociedade civil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou uma audiência pública para debater os Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) de HIV/AIDS e hepatites virais, a incorporação de novos medicamentos no Sistema Único de Saúde (SUS) e a situação das patentes."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou exemplos como a rilpivirina, com 12 anos de atraso, e o TAF, com 8 anos. Terto Junior destacou que as patentes farmacêuticas impactam os preços e dificultam o acesso, e defendeu o licenciamento compulsório do medicamento dolutegravir, utilizado por mais de 460 mil pessoas no Brasil, argumentando que a patente concedida é 'indevida' e que a medida garantiria a soberania sanitária e a redução de custos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rodrigo Pinheiro, da Articulação Nacional de Luta Contra a Aids (ANAIDS), questionou a demora da CONITEC na incorporação de fármacos e da Câmara de Regulação do Mercado de Medicamentos (CMED) na fixação de preços."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante a audiência, a deputada Soraya Santos (PL-RJ) fez uma intervenção sobre a importância do investimento em educação e ciência, criticando a inclusão do FUNDEB no novo arcabouço fiscal."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 170,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Representantes de várias organizações da sociedade civil denunciaram, na Câmara dos Deputados, o racismo contra crianças negras e indígenas."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Organizadora do debate, a deputada Erika Kokay (PT-DF) anunciou que, a partir das denúncias e sugestões apresentadas, vai elaborar um projeto de lei de enfrentamento ao racismo na primeira infância."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "A audiência pública na Comissão de Direitos Humanos nesta quinta-feira (29) mostrou que preconceitos e discriminações enfrentados desde a primeira infância, que vai até os seis anos de idade, continuam a provocar reflexos na vida adulta."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Integrante da Ação de Mulheres pela Equidade (AME), Damiana Neto afirmou que, muitas vezes, o ambiente escolar é palco de linguagens verbais e não-verbais preconceituosas e estigmatizantes."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Coordenadora do programa de educação do Geledés Instituto da Mulher Negra, Suelaine Carneiro ressaltou a necessidade de “desconstruir indiferenças” e enfrentar a permanente desigualdade em relação a acesso a serviços de saúde, creche, pré-escola, saneamento básico e condições adequadas de moradia."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

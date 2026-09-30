@@ -1,0 +1,36 @@
+{
+  "id": 158,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão da Amazônia e dos Povos Originários e Tradicionais da Câmara dos Deputados realizou uma audiência pública na tarde desta quarta-feira para debater a regulamentação do mercado de carbono no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo presidente da comissão, deputado Airton Faleiro (PT-PA), autor do requerimento que propôs a discussão."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Faleiro abriu os trabalhos destacando a necessidade urgente de regulamentação nacional para o setor, alertando que a ausência de regras prejudica principalmente os mais vulneráveis, como povos indígenas, populações tradicionais e agricultores familiares."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Kleber Karipuna, da Articulação dos Povos Indígenas do Brasil (APIB), expressou preocupação com o assédio sofrido por comunidades indígenas por parte dos chamados 'caubóis do carbono'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Nathalie Unterstell, do Instituto Talanoa, apresentou dados inéditos mostrando crescimento explosivo de projetos de carbono em terras indígenas: de 23 projetos entre 2012-2020 para 60 projetos apenas entre abril/2021 e setembro/2023."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Mary Allegretti, do Instituto de Estudos Amazônicos, destacou o potencial das reservas extrativistas, que protegem 14 milhões de hectares e armazenam aproximadamente 2,1 bilhões de toneladas de carbono."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

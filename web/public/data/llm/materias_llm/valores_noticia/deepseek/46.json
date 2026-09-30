@@ -1,0 +1,36 @@
+{
+  "id": 46,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Foi destacado que 72% dos produtores rurais ainda não possuem acesso à internet, com maior carência nas regiões Norte e Nordeste e entre pequenos produtores."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural da Câmara dos Deputados realizou, nesta quarta-feira, uma audiência pública para debater conectividade e inovação no meio rural."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Sibelle Silva, do Ministério da Agricultura, reforçou que a conectividade é um meio para impulsionar a inovação no agro, citando estudos que indicam que a ampliação da conexão no campo pode aumentar o valor bruto da produção agropecuária em até 10%."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ao final, os participantes discutiram os desafios das pequenas empresas de telecomunicações, incluindo legislação municipal, tributação e necessidade de políticas públicas que incentivem a expansão da infraestrutura e subsidiem a demanda por conectividade em áreas remotas."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Daniela Martins, da Conexis Brasil Digital, apresentou compromissos do leilão do 5G, incluindo a cobertura de 1.174 municípios com mais de 30 mil habitantes, 4.396 municípios menores e 1.700 localidades não sedes com a tecnologia."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "José Ferreira da Costa Neto, presidente da ANATER, enfatizou que a conectividade é uma questão de justiça social para pequenos e médios produtores, permitindo acesso a informações de mercado, clima e capacitação."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

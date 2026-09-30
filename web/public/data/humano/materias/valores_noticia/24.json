@@ -1,0 +1,36 @@
+{
+  "id": 24,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "“O que está acontecendo nas escolas do nosso estado é um grande absurdo: a galera do 1º ano tem três aulas de filosofia na semana, o 2º ano não tem nenhuma e o terceiro ano, às vezes, tem uma aula”"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Organizadora da audiência, a deputada Professora Luciene Cavalcante (Psol-SP) anunciou a articulação de uma “Carta ao Senado”"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“Essas disciplinas são fundamentais para que os nossos estudantes tenham formação crítica e consigam entender o processo histórico do País”"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Eles também criticaram pontos da nova proposta de reforma (PL 5230/23) aprovada pela Câmara em março e em análise no Senado"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Nós queremos a filosofia desde a creche, porque sem filosofia não há pensamento, não há reflexão, não há como mudar esse mundo”"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

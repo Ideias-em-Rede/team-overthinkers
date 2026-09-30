@@ -1,0 +1,36 @@
+{
+  "id": 193,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Micro e pequenos empresários dizem ter dívida 'impagável' agravada por altas taxas de juros"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da Confederação Nacional das Microempresas e Empresas de Pequeno Porte (Comicro), José Tarcísio da Silva"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "40% dos microempreendedores individuais (MEI) estão endividados"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado Jorge Goetten (PL-SC) se disse defensor da autonomia do Banco Central, mas afirmou que 'a instituição não ficou independente do capital especulativo internacional'"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Microempresários querem programa Desenrola para o setor"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os micro e pequenos empresários ressaltaram a importância do Pronampe, o programa nacional de apoio aprovado pelo Congresso (Lei 13.999/20) durante a pandemia de Covid-19"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

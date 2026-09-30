@@ -1,0 +1,36 @@
+{
+  "id": 27,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "especialmente diante das eleições municipais de 2024"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Legislação Participativa da Câmara dos Deputados realizou, nesta segunda-feira (11), audiência pública"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os convidados alertaram para os riscos e potencialidades da IA nas campanhas eleitorais"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Fernando Bueno de Castro, advogado e membro relator da Comissão de Direito Eleitoral da OAB-PR, abordou a necessidade de regulamentação para combater deepfakes e outras manipulações"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Marcelo Senise, CEO da Comunica 360º e especialista em IA, alertou que o debate sobre deepfakes é apenas 'a ponta do iceberg'"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante o debate, participantes também relataram experiências de uso de IA em campanhas eleitorais no Brasil e no exterior"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

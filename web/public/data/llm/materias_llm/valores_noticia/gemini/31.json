@@ -1,0 +1,36 @@
+{
+  "id": 31,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O programa já matriculou 112 mil professores, dos quais 62 mil se formaram. Atualmente, mais de 17 mil estão em formação."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Educação da Câmara dos Deputados realizou uma audiência pública para debater o Programa Nacional de Formação de Professores da Educação Básica (PARFOR)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ferreira destacou que o investimento para a manutenção das turmas vigentes e a implementação de uma nova modalidade é de R$ 90 milhões anuais."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Suzane da Rocha Vieira Gonçalves, presidente da ANFOPE, criticou a precarização dos contratos de trabalho dos professores, que impacta a efetividade do programa."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A diretora anunciou o lançamento do PARFOR Equidade em 2023, uma parceria com a Secretaria de Educação Continuada, Alfabetização de Jovens e Adultos, Diversidade e Inclusão (SECADI) do MEC."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A iniciativa oferecerá 2 mil vagas para formação de professores em educação escolar indígena, quilombola, do campo, especial inclusiva e bilíngue de surdos."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

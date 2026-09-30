@@ -1,0 +1,36 @@
+{
+  "id": 73,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Denis Bezerra (PSB-CE), presidente da comissão, e atendia a um requerimento do deputado Vilson da Fetaemg (PSB-MG), relator da matéria."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O debate foi conduzido pelo deputado Denis Bezerra (PSB-CE), presidente da comissão, e atendia a um requerimento do deputado Vilson da Fetaemg (PSB-MG), relator da matéria."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele informou que, em 2022, já foram registradas mais de 720 mil reclamações no portal consumidor.gov.br, sendo 4% (28.073) relacionadas ao segmento de seguros, capitalização e previdência."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ele citou que os idosos sofrem discriminação e que as seguradoras muitas vezes se negam a renovar contratos ou aumentam significativamente os valores devido à idade avançada."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A SENACON propõe um substitutivo ao artigo 2º do projeto, sugerindo a internalização de uma resolução do MERCOSUL que define o conceito de 'hipervulnerabilidade'."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

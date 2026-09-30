@@ -1,0 +1,36 @@
+{
+  "id": 188,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Mulher e a Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizaram audiência pública conjunta para debater os desafios e a luta por direitos das mulheres na carreira científica."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Entre as expositoras estiveram Mercedes Bustamante, presidente da CAPES; Luana Bonone, Coordenadora‑Geral de Popularização da Ciência e Tecnologia do MCTI; Dalila Andrade Oliveira, diretora de Cooperação Institucional, Internacional e Inovação do CNPq; Isabela Fernandes Andrade, reitora da UFPel e representante da ANDIFES; Ana Priscila Alves, vice‑presidente da ANPG; Diama Vale, professora da UNICAMP e representante do Observatório do Conhecimento; Letícia de Oliveira, do Parent in Science; e Cristiana Ferreira Alves de Brito, secretária regional da SBPC em Minas Gerais."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Vários dados e análises foram apresentados pelas palestrantes, com ênfase em desigualdades de gênero observadas no sistema acadêmico e científico."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Várias falas lembraram a escala de violência contra as mulheres no Brasil. Isabela citou dados de 2021, mencionando 'um estupro de mulher ou criança a cada 10 minutos' e 'um feminicídio a cada 7 horas'."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Durante a audiência foram mencionadas políticas, programas e medidas já em curso ou em proposta."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A sessão contou com manifestações de agradecimento a reitores e entidades parceiras, e o encerramento destacou a continuidade do diálogo entre Legislativo, Executivo, agências de fomento, universidades e coletivos organizados em torno da temática."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

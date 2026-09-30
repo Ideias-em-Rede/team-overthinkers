@@ -1,0 +1,36 @@
+{
+  "id": 200,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A política de saúde funcional deve prevenir incapacidades e garantir acesso aos serviços de saúde."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O evento foi presidido pela deputada Erika Kokay (PT/DF)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele defendeu a criação de políticas públicas baseadas em dados robustos e mencionou um projeto em desenvolvimento para mapear o atendimento à fibromialgia no Brasil."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou a não aceitação, pelo INSS, de relatórios sem assinatura médica."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "O Projeto de Lei nº 1.673, de 2021, que institui a Política Nacional de Saúde Funcional, baseada na Classificação Internacional de Funcionalidade, Incapacidade e Saúde (CIF)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele defendeu a sincronização de especialidades em um tempo reduzido para evitar a cronificação das doenças e sugeriu a criação de um centro de tratamento de dor na esfera pública no Distrito Federal."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

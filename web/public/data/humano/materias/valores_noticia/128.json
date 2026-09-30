@@ -1,0 +1,36 @@
+{
+  "id": 128,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A preocupação com a insegurança jurídica e o impacto sobre as vendas natalinas dominaram a audiência pública"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Ministério do Trabalho e Emprego (MTE) revogou uma portaria do governo Bolsonaro"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "impacto sobre as vendas natalinas"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Ela criticou o governo por não ter debatido previamente a questão com trabalhadores e empregados"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ministério do Trabalho revogou portaria do governo Bolsonaro que concedia, em caráter permanente, autorização para o trabalho aos domingos"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Preocupação com insegurança jurídica domina debate sobre comércio aos domingos e feriados"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

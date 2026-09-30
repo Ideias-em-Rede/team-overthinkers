@@ -1,0 +1,36 @@
+{
+  "id": 50,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A reunião contou com a participação de três convidados. Priscila Gebrim Louly, coordenadora-geral de Avaliação de Tecnologias em Saúde do Ministério da Saúde e representante da Comissão Nacional de Incorporação de Tecnologias no SUS (CONITEC), explicou o funcionamento e o fluxo do órgão."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Ciência, Tecnologia e Inovação da Câmara dos Deputados realizou, nesta quarta-feira, uma audiência pública para discutir os Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) de HIV/AIDS e hepatites virais, o processo de incorporação de novos medicamentos e a situação das patentes de fármacos para o tratamento dessas doenças."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Veriano de Souza Terto Junior, vice-presidente da Associação Brasileira Interdisciplinar de AIDS (ABIA) e representante do Grupo de Trabalho sobre Propriedade Intelectual (GTPI), alertou para os atrasos na incorporação de medicamentos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Durante o debate, Rodrigo Pinheiro, da Articulação Nacional de Luta Contra a Aids (ANAIDS), questionou a agilidade da CONITEC e da Câmara de Regulação do Mercado de Medicamentos (CMED) nos processos de incorporação e fixação de preços."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida inicialmente pelo deputado Cleber Verde (REPUBLICANOS-MA) e, posteriormente, pela deputada Daiana Santos, autora do requerimento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

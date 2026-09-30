@@ -1,0 +1,73 @@
+.brmap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.brmap__stage {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+}
+
+.brmap__svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.brmap__uf {
+  transition: fill 0.15s, stroke 0.15s;
+  cursor: default;
+}
+.brmap__uf:hover {
+  filter: brightness(0.95);
+}
+
+.brmap__tooltip {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.75rem;
+  box-shadow: var(--shadow-md);
+  font-size: 0.85rem;
+  pointer-events: none;
+  min-width: 140px;
+}
+.brmap__tooltip strong {
+  display: block;
+  color: var(--navy);
+  margin-bottom: 0.2rem;
+}
+.brmap__tooltip .muted {
+  font-size: 0.78rem;
+}
+
+.brmap__legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  max-width: 320px;
+}
+.brmap__legend-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.brmap__legend-scale {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.78rem;
+}
+.brmap__legend-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}

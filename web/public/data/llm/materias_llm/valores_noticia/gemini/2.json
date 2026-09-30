@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O tema mais urgente da reunião foi o evento de 15 de agosto que afetou a maior parte do país."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O Ministro de Minas e Energia, Alexandre Silveira, e o Diretor-Geral do Operador Nacional do Sistema Elétrico (ONS), Luiz Carlos Ciocchi, compareceram a uma audiência pública conjunta das Comissões de Minas e Energia e de Fiscalização Financeira e Controle da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "O tema mais urgente da reunião foi o evento de 15 de agosto que afetou a maior parte do país."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A privatização da Eletrobras foi duramente criticada pelo ministro. 'Fez muito mal ao Brasil a privatização, em especial nos moldes em que ela foi feita', declarou"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Luiz Carlos Ciocchi classificou o ocorrido como 'inusitado', afirmando que não houve falhas humanas ou intempéries que o justificassem."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Diversos parlamentares e o próprio ministro abordaram o alto custo da energia elétrica, especialmente para o consumidor regulado nas regiões Norte e Nordeste."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

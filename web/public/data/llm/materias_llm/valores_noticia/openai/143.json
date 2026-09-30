@@ -1,0 +1,36 @@
+{
+  "id": 143,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A deputada Gisela Simona presidiu a audiência e agradeceu a presença dos convidados."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Compareceram presencialmente, entre outros, Belline Santana (chefe do Departamento de Supervisão Bancária do Banco Central), Mayara Trindade Yano (assessora sênior da equipe de gestão e operação do Pix no Banco Central), Walter Faria (diretor‑adjunto de Serviços da FEBRABAN), Márcia Moro (presidente da Associação Brasileira de PROCONs — PROCONsBrasil), Antônio Carlos Fontes Cintra (coordenador da Comissão de Direitos do Consumidor da ANADEP) e Angélica Anai Angulo (presidente da Comissão Nacional de Direito Bancário da ABA)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Belline Santana afirmou que o combate a fraudes é prioridade do Banco Central e relatou a criação, desde 2021, de um grupo de trabalho transversal envolvendo vários departamentos do BCB."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Walter Faria disse que o crime migrou para o ambiente digital após a pandemia e descreveu as técnicas mais comuns (engenharia social, acesso remoto via instalação de aplicativos, phishing, golpe do “motoboy”, golpe do WhatsApp etc.)."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Mayara Yano detalhou mecanismos de segurança do Pix, que, disse, foi concebido com quatro dimensões de segurança: autenticação (biometria e token), rastreabilidade (identificação das pontas pagadora e recebedora), tráfego seguro de informações (rede do Sistema Financeiro Nacional) e requisitos regulatórios (limites, tempo adicional para transações atípicas, bloqueio cautelar, mecanismo especial de devolução — MED — e exigência de certificados digitais para QR Codes)."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A FEBRABAN lançou uma campanha de conscientização nacional (“Pare e Pense: Pode ser Golpe”), com duração estimada em três meses, e informou ter um comitê permanente de prevenção a fraudes estruturado em três pilares: melhoria da jornada do cliente vítima (com comunicação imediata entre instituições para bloqueios), base centralizada e interoperável de golpistas (referência à resolução que entra em vigor no início de novembro, segundo o representante) e a criação de um selo de prevenção a fraudes, concedido por consultoria a instituições que cumprirem critérios de prevenção."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

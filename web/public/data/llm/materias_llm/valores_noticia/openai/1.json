@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater denúncias de censura na rede social X (antigo Twitter)"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião foi presidida pelo deputado Lucas Redecker (PSDB-RS) e teve como proponentes o deputado Marcel van Hattem (NOVO-RS) e o deputado Eduardo Bolsonaro."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "debater as denúncias trazidas pelos chamados “Twitter Files Brasil”, que, segundo ele e os jornalistas convidados, trouxeram à luz ordens e práticas de remoção de conteúdo e de fornecimento de dados de usuários por parte de provedores de redes sociais em resposta a solicitações do Judiciário e de outros órgãos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Houve menções a episódios internacionais envolvendo a plataforma X e seu proprietário, Elon Musk, e a críticas ao comportamento de Musk por parte de deputados que citaram repercussões comerciais e políticas no exterior."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Glenn Greenwald exibiu, segundo ele, uma ordem judicial que teria sido expedida em 11 de janeiro de 2023 e que, em sua narrativa, determinava a bloqueio de canais, perfis e contas de diversas plataformas (Facebook, Rumble, Telegram, TikTok, Twitter e YouTube), sob sigilo."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debater sobre liberdade de expressão, sigilo de processos e atuação de ministros do STF e do TSE será ampliado no Congresso."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

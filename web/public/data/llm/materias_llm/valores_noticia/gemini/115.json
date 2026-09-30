@@ -1,0 +1,36 @@
+{
+  "id": 115,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Os especialistas convidados, incluindo pesquisadores do IPEA, INPE e da Universidade de Brasília, além do secretário-executivo do Observatório do Clima, apresentaram dados e projeções."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O presidente da comissão, deputado Leo Prates (PDT-BA), abriu a reunião ressaltando a urgência do tema."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele mencionou alertas de seca severa para a Bahia nos próximos anos e os impactos já observados, como a dificuldade de deslocamento de profissionais de saúde durante a seca no Amazonas e o risco à segurança alimentar pelo aumento do preço de alimentos."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O Ministério do Meio Ambiente e Mudança do Clima não enviou representante, fato lamentado pelo presidente da comissão."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Luciana Gatti, pesquisadora do INPE, apresentou estudos que indicam que a Amazônia, especialmente na sua porção leste, já se tornou uma fonte de emissão de carbono."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Marcio Astrini, do Observatório do Clima, enfatizou que a crise climática é uma crise social que aprofunda as desigualdades."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

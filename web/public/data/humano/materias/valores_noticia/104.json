@@ -1,0 +1,36 @@
+{
+  "id": 104,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Essas empresas atendem 55,6 milhões de unidades consumidoras no Brasil."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "O assunto foi discutido a pedido do deputado Hugo Leal (PSD-RJ), que é autor de três projetos que buscam melhorar a qualidade e a transparência dos serviços prestados pelas empresas (PLs 444/24, 445/24 e 446/24)."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Entre 2025 e 2031 vencem os contratos de concessão de 20 distribuidoras privatizadas na década de 1990."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O deputado disse que o Ministério de Minas e Energia ainda não entendeu que o Congresso Nacional quer participar da discussão das regras de prorrogação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Os parlamentares reafirmaram ainda o interesse da Câmara em participar da definição das regras de concessão para melhorar a prestação dos serviços."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 142,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "cerca de 70% dos servidores estariam endividados com consignado"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "representantes de entidades sindicais, associações de correspondentes, do setor financeiro e do governo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "servidores que utilizaram 40% em dezembro ficaram com margem negativa após a derrubada do veto em abril"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "críticas à modalidade de cartão consignado e cartão de crédito consignado"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debate sobre os impactos do Projeto de Lei nº 2.591/2023"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 19,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "debater os benefícios da adequação de velocidades nas cidades brasileiras em relação à saúde, ao meio ambiente e a aspectos socioeconômicos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Foram convidados representantes de órgãos federais, organizações internacionais e da sociedade civil"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "em 2021 houve 33 mil mortes por acidentes de trânsito, cerca de 210 mil internações e custo de R$ 322 milhões apenas com essas internações"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Rejeitou a tese da “indústria da multa” como argumento central e defendeu fiscalização responsiva e maior atenção à fiscalização da Lei Seca"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "citou experiência de São Paulo com limite de 50 km/h e redução imediata de acidente em 35% no ano da implantação"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

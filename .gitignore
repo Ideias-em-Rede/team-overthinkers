@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Frontend build artifacts
+web/vite.config.js
+web/vite.config.d.ts
+web/*.tsbuildinfo
+
 # Distribution / packaging
 .Python
 build/
@@ -143,6 +148,10 @@ rabbitmq-data/
 
 # ActiveMQ
 activemq-data/
+
+# Dataset externo (clonado separadamente).
+# Ver README pra instruções de clone se for rodar a pipeline.
+PublicHearingBR/
 
 # SageMath parsed files
 *.sage.py

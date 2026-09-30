@@ -1,0 +1,36 @@
+{
+  "id": 60,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Defesa dos Direitos da Pessoa Idosa realizou audiência pública convocada para debater a adequação do Programa QualiSUS Cardio ao atendimento da população idosa"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Entre os convidados estiveram o gerontólogo Dr. Alexandre Kalache (presidente do International Longevity Centre Brazil — ILC‑BR); o cardiologista intervencionista Dr. José Mangione (ex‑presidente da SOLACI); o presidente da Associação Brasileira da Indústria de Tecnologia para Saúde (ABIMED), Dr. Fernando Silveira; a Dra. Fernanda de Carvalho, do Instituto Lado a Lado Pela Vida; a secretária de Atenção Especializada à Saúde do Ministério da Saúde, Maíra Batista Botelho; e o presidente do Conselho Administrativo da Sociedade Brasileira de Cardiologia, Dr. João Fernando Monteiro Ferreira."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Kalache abriu as exposições ressaltando a dimensão do problema cardiovascular no Brasil — citou que cerca de 30% das mortes no País decorrem de doenças cardiovasculares — e alertou para o impacto do envelhecimento populacional, com aumento da prevalência de fatores de risco e morbidade."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Silveira abordou o papel da indústria de tecnologia médica e criticou distorções na modelagem e nas bases de preços do QualiSUS Cardio."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Kalache abriu as exposições ressaltando a dimensão do problema cardiovascular no Brasil — citou que cerca de 30% das mortes no País decorrem de doenças cardiovasculares — e alertou para o impacto do envelhecimento populacional, com aumento da prevalência de fatores de risco e morbidade."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

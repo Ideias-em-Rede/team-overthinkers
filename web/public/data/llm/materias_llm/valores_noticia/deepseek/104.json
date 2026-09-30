@@ -1,0 +1,36 @@
+{
+  "id": 104,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "envolvem 20 concessões em 16 estados, atendendo 60% do mercado"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Comissão de Minas e Energia da Câmara dos Deputados"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "prejudicando investimentos e empregos"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "criticou pontos específicos do PL 4.831/2023"
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "debateu os Projetos de Lei nºs 4.831/2023, 444/2024, 445/2024 e 446/2024"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

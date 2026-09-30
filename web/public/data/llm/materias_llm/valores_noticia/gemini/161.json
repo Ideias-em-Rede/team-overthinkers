@@ -1,0 +1,36 @@
+{
+  "id": 161,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Deputados como Nicoletti (UNIÃO-RR) e Silvia Cristina (PL-RO) relataram problemas específicos na região Norte, como a falta de voos, horários inadequados e atendimento deficiente, apesar da alta demanda e dos incentivos fiscais concedidos pelos estados."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Viação e Transportes da Câmara dos Deputados realizou uma audiência pública para debater os preços e a qualidade dos serviços de transporte aéreo regular no Brasil."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Na abertura dos trabalhos, o deputado Juninho do Pneu afirmou que o número de reclamações contra o setor aéreo atingiu um 'ponto insustentável', citando aeroportos lotados, cancelamentos, atrasos e a alta dos preços."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Vitor Hugo do Amaral Ferreira, da Secretaria Nacional do Consumidor (SENACON), apresentou uma visão oposta, informando que a plataforma consumidor.gov.br registrou mais de 60 mil reclamações contra o setor aéreo em 2023."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Durante o debate, Rafael Pereira Scherre, do Ministério de Portos e Aeroportos, detalhou o programa 'Voa, Brasil', que está em fase de estruturação e pretende oferecer passagens a preços mais baixos para públicos específicos, como aposentados, aproveitando a ociosidade em voos de baixa temporada, sem subsídio direto do governo."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

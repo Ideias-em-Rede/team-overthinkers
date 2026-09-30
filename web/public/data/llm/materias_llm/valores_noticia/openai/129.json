@@ -1,0 +1,36 @@
+{
+  "id": 129,
+  "source": "llm",
+  "generator": "openai",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "questionamentos sobre a inclusão da vacina contra a COVID-19 no Calendário Nacional de Vacinação para crianças de 6 meses a 5 anos"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Fiscalização Financeira e Controle da Câmara realizou audiência pública com a ministra da Saúde, Nísia Trindade"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "não há nenhuma morte de criança associada à vacinação"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "O tom da sessão seguiu conflituoso em vários momentos"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "denúncias sobre apresentação erótica em evento de promoção da saúde promovido pelo Ministério"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "questionamentos sobre a inclusão da vacina contra a COVID-19 no Calendário Nacional de Vacinação para crianças de 6 meses a 5 anos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

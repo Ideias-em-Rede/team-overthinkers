@@ -1,0 +1,36 @@
+{
+  "id": 181,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Um quarto dos jovens brasileiros entre 18 e 24 anos diz já ter experimentado vape; índice cresceu 20% neste ano"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Segundo informou a presidente da Sociedade Brasileira de Pneumologia e Tisiologia, Margareth Dalcolmo"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Os especialistas destacaram que o cigarro é responsável por 13% do total de mortes no País"
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Embora a venda dos cigarros eletrônicos seja proibida no País, Margareth Dalcolmo ressaltou a facilidade para comprar o produto em qualquer lugar"
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Um quarto dos jovens brasileiros entre 18 e 24 anos diz já ter experimentado vape; índice cresceu 20% neste ano"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Referência mundial no controle do tabagismo, o Brasil precisa enfrentar uma nova ameaça para manter os índices decrescentes no número de fumantes: os cigarros eletrônicos"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

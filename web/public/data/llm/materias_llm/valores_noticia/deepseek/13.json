@@ -1,0 +1,36 @@
+{
+  "id": 13,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "O desastre completou oito anos em novembro."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão Externa da Câmara dos Deputados destinada a fiscalizar os rompimentos de barragens realizou uma audiência pública nesta terça-feira"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "solicita ao Poder Judiciário que fixe prazos e priorize o julgamento das ações judiciais, incluindo a questão penal."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "devido a uma 'diferença muito grande de valores' oferecidos pelas empresas em contrapartida à expectativa dos governos e Ministério Público."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele leu um requerimento aprovado por unanimidade pela comissão que, diante da proposta considerada 'completamente insatisfatória' das empresas"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

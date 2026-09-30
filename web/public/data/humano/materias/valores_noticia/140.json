@@ -1,0 +1,36 @@
+{
+  "id": 140,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A audiência pública foi convocada para discutir o risco do surto de doenças no continente americano."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Em audiência pública da Comissão de Saúde da Câmara dos Deputados nesta terça-feira (7), o diretor da Organização Pan-Americana da Saúde (Opas), Jarbas Barbosa..."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "“Nós temos hoje registros de 2,7 milhões de crianças que não receberam vacinas contra difteria, tétano, coqueluche."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Debatedores associam baixa taxa de vacinação nas Américas à propagação de fake news."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "“Nós precisamos pensar em como fortalecer as capacidades em cada país, significando capacidade de laboratório, treinamento de pessoal, melhor coordenação, integração entre vigilância e serviços de saúde..."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

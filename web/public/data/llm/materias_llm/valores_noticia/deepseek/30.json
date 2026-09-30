@@ -1,0 +1,36 @@
+{
+  "id": 30,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "destacaram suas duas prioridades atuais: a elaboração de um novo Plano Nacional de Prevenção e Erradicação do Trabalho Infantil e a criação de um fluxo nacional de atendimento"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Estiveram presentes como expositores José Fernando da Silva, do Ministério dos Direitos Humanos e Cidadania; Clara Maria Guimarães Marinho, do Ministério do Planejamento e Orçamento; Lucas José Ramos Lopes, da Coalizão Brasileira pelo Fim da Violência contra Crianças e Adolescentes; e Santiago Varella, do UNICEF"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele citou dados que apontam a existência de 706 mil crianças e adolescentes em situação de trabalho infantil no Brasil e 3 mil acidentes de trabalho graves com esse público notificados no ano anterior"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Clara Marinho (Ministério do Planejamento) explicou as inovações implementadas no processo orçamentário para 2024"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Ele defendeu a necessidade de maior articulação entre os planos, uma governança interministerial e a alocação de recursos baseada em evidências para prevenção da violência"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

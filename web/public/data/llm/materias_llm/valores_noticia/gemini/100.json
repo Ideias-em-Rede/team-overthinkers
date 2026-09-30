@@ -1,0 +1,36 @@
+{
+  "id": 100,
+  "source": "llm",
+  "generator": "gemini",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A Comissão de Comunicação da Câmara dos Deputados realizou uma audiência pública para discutir o uso da internet para a prática de crimes sexuais contra crianças e adolescentes."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A reunião, presidida pela deputada Silvye Alves (UNIÃO-GO), teve como objetivo colher subsídios para a relatoria do Projeto de Lei 2.514/15"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Em 2023, foram 71.867 novas denúncias, um crescimento de 77,13% em relação a 2022."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "A delegada sugeriu a imposição de obrigações legais aos provedores para guarda e fornecimento de dados, incluindo a porta lógica, e a tipificação específica de condutas praticadas na dark web."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Niffinegger anunciou uma nova ferramenta, em fase de testes, que borrará imagens com nudez enviadas para menores de idade, como forma de prevenir a extorsão sexual."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "A deputada Silvye Alves, autora do requerimento para a audiência, abriu os trabalhos destacando a necessidade de atualizar o texto de 2015, que se encontra defasado diante do Marco Civil da Internet (2014) e da Lei Geral de Proteção de Dados (2018)."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

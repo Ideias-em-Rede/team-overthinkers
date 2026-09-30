@@ -1,0 +1,36 @@
+{
+  "id": 180,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "A PEC, que tem sido chamada de 'PEC da Anistia' por setores da sociedade, foi defendida e criticada por especialistas e representantes de entidades durante a audiência."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A audiência contou com a participação de representantes do Ministério Público Federal, OAB, Transparência Internacional, EDUCAFRO, Instituto Marielle Franco e projeto A Tenda das Candidatas."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Guilherme France, da Transparência Internacional, alertou que a PEC é 'uma das maiores ameaças de retrocesso para o sistema eleitoral e político brasileiro desde a redemocratização'."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "Em contraponto, a Procuradora Regional da República Raquel Branquinho Pimenta Nascimento afirmou que a anistia representa um retrocesso grave."
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "A Comissão Especial da Câmara dos Deputados destinada a analisar a Proposta de Emenda à Constituição (PEC) nº 9/2023 realizou uma audiência pública nesta terça-feira para discutir os impactos da proposta."
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Brisa Lima, do Instituto Marielle Franco, e Laura Astrolabio, do projeto A Tenda das Candidatas, destacaram que a subrepresentação de mulheres negras na política é agravada pela falta de financiamento."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

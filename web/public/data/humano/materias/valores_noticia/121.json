@@ -1,0 +1,36 @@
+{
+  "id": 121,
+  "source": "humano",
+  "generator": null,
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Nas cidades pequenas, onde muitas vezes há apenas um juiz, responsável por julgar todos os casos da localidade, essa situação pode levar a dificuldades na solução das demandas das mulheres por justiça."
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "Representantes do Judiciário que participaram de audiência pública na Câmara sobre violência doméstica e familiar reivindicaram ampliação e melhoria das varas especializadas em atendimento às mulheres."
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Devido a essa limitação, 80% dos processos envolvendo violência doméstica e familiar são julgados em juizados comuns."
+    },
+    "conflito": {
+      "presente": true,
+      "evidencia": "De acordo com Aline Yamamoto, muitos dos conflitos familiares debatidos nas varas de família têm relação com violência doméstica e familiar, mas a Justiça continua enfatizando a busca de conciliação e mediação."
+    },
+    "novidade": {
+      "presente": false,
+      "evidencia": null
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "O debate foi realizado a pedido da deputada Delegada Ione (Avante-MG) na Comissão de Defesa dos Direitos da Mulher."
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}

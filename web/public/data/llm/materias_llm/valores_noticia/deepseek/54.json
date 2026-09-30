@@ -1,0 +1,36 @@
+{
+  "id": 54,
+  "source": "llm",
+  "generator": "deepseek",
+  "modelo": "deepseek-ai/DeepSeek-V3",
+  "valores_noticia": {
+    "proximidade": {
+      "presente": true,
+      "evidencia": "Cristiano Nabuco apresentou dados alarmantes sobre o uso de tecnologia no Brasil"
+    },
+    "proeminencia": {
+      "presente": true,
+      "evidencia": "A Comissão de Cultura da Câmara dos Deputados realizou uma audiência pública extraordinária"
+    },
+    "impacto": {
+      "presente": true,
+      "evidencia": "Ele alertou para os efeitos colaterais do uso excessivo, incluindo problemas de saúde física como síndrome do olho seco, questões posturais e possíveis danos à memória devido à radiação dos celulares"
+    },
+    "conflito": {
+      "presente": false,
+      "evidencia": null
+    },
+    "novidade": {
+      "presente": true,
+      "evidencia": "Ele propôs a criação de um 'Dia do Detox Digital' no Brasil e a notificação compulsória de casos de dependência tecnológica aos sistemas de vigilância epidemiológica"
+    },
+    "interesse": {
+      "presente": true,
+      "evidencia": "Aline Paz explicou o conceito de nomofobia, termo que significa 'medo de ficar sem celular'"
+    },
+    "sensacionalismo": {
+      "presente": false,
+      "evidencia": null
+    }
+  }
+}
