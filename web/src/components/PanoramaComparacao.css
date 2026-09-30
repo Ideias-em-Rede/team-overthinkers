@@ -1,0 +1,346 @@
+.cmp {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cmp__section-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+  color: var(--navy);
+}
+.cmp__section-sub {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+}
+
+/* ============ Valores-notícia ============ */
+
+.cmp-valores {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+
+.cmp-valores__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.cmp-valores__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text);
+}
+.cmp-valores__legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.cmp-valores__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem 2rem;
+}
+
+.cmp-valores__group-label {
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.cmp-valores__group-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.cmp-valores__row {
+  display: grid;
+  grid-template-columns: 72px 1fr 48px;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+}
+.cmp-valores__row-label {
+  color: var(--text-muted);
+}
+.cmp-valores__row-track {
+  height: 10px;
+  background: #f1f4f8;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.cmp-valores__row-fill {
+  height: 100%;
+  transition: width 0.2s ease;
+}
+.cmp-valores__row-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* ============ Placar dos achados ============ */
+
+.cmp-achados {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+.cmp-achados__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.cmp-achados__table th,
+.cmp-achados__table td {
+  padding: 0.75rem 0.85rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.cmp-achados__table tbody tr:last-child td {
+  border-bottom: none;
+}
+.cmp-achados__th-hip {
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  width: 34%;
+}
+.cmp-achados__th-src {
+  text-align: left;
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+.cmp-achados__th-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+.cmp-achados__hip-label {
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.15rem;
+}
+.cmp-achados__hip-desc {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.cmp-achados__cell {
+  min-width: 140px;
+}
+.cmp-achados__pval {
+  font-size: 0.78rem;
+  margin-top: 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+.cmp-achados__pill {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+.cmp-achados__pill--yes {
+  background: rgba(16, 129, 62, 0.12);
+  color: #0f6b39;
+  border: 1px solid rgba(16, 129, 62, 0.3);
+}
+.cmp-achados__pill--no {
+  background: #eef1f5;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+.cmp-achados__pill--caution {
+  background: rgba(230, 165, 20, 0.14);
+  color: #916300;
+  border: 1px solid rgba(230, 165, 20, 0.4);
+}
+.cmp-achados__pill--na {
+  background: #f6f8fb;
+  color: #94a3b8;
+  border: 1px dashed var(--border);
+}
+.cmp-achados__pill--opposite {
+  background: rgba(147, 51, 234, 0.12);
+  color: #6b21a8;
+  border: 1px solid rgba(147, 51, 234, 0.35);
+}
+.cmp-achados__opposite {
+  font-style: italic;
+}
+
+/* ============ KPI comparativo ============ */
+
+.cmp-kpi {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+.cmp-kpi__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.cmp-kpi__table th,
+.cmp-kpi__table td {
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+.cmp-kpi__table tbody tr:last-child td {
+  border-bottom: none;
+}
+.cmp-kpi__th-metric {
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  width: 34%;
+}
+.cmp-kpi__th-src {
+  text-align: right;
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+.cmp-kpi__th-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+.cmp-kpi__metric {
+  color: var(--text);
+  font-weight: 500;
+}
+.cmp-kpi__value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+.cmp-kpi__value--max {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+/* ============ Perfil demográfico ============ */
+
+.cmp-perfil {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.cmp-perfil__dim-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  color: var(--navy);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ============ Concordância / Jaccard ============ */
+
+.cmp-conc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+.cmp-conc__grid {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(220px, 300px);
+  gap: 1.5rem;
+  align-items: start;
+}
+@media (max-width: 800px) {
+  .cmp-conc__grid {
+    grid-template-columns: 1fr;
+  }
+}
+.cmp-conc__matrix {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 4px;
+  font-size: 0.88rem;
+}
+.cmp-conc__matrix th {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.78rem;
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+}
+.cmp-conc__row-th {
+  white-space: nowrap;
+}
+.cmp-conc__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+.cmp-conc__cell {
+  text-align: center;
+  padding: 0.7rem 0.5rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  border-radius: 4px;
+  min-width: 56px;
+}
+.cmp-conc__side {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cmp-conc__stat {
+  border-left: 3px solid var(--navy);
+  padding-left: 0.75rem;
+}
+.cmp-conc__stat-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  margin-bottom: 0.15rem;
+}
+.cmp-conc__stat-label {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+.cmp-conc__nota {
+  font-size: 0.78rem;
+  margin-top: 1rem;
+}

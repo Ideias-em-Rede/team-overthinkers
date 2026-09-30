@@ -127,7 +127,7 @@ export interface AchadoSelecao {
   mediana_palavras_cobertos: number;
   mediana_palavras_nao_cobertos: number;
   p_valor: number;
-  rejeita_h0_a_5pct: boolean;
+  hipotese_sustentada_a_5pct: boolean;
   estatistica_descritiva_adicional: {
     descricao: string;
     audiencias_com_2plus_cobertos: number;
@@ -136,42 +136,50 @@ export interface AchadoSelecao {
   };
 }
 
-export interface AchadoConvidados {
+export interface AchadoSilenciamentoMulheres {
   hipotese_testada: string;
-  n_deputados_cobertos: number;
-  n_convidados_cobertos: number;
-  media_opinioes_deputados: number;
-  media_opinioes_convidados: number;
-  media_palavras_deputados: number;
-  media_palavras_convidados: number;
-  ols_coef_is_convidado: number;
-  ols_ic95_is_convidado: [number, number];
+  n_total: number;
+  n_homens: number;
+  n_mulheres: number;
+  taxa_cobertura_homens: number;
+  taxa_cobertura_mulheres: number;
+  chi2_bruto: number;
+  p_valor_chi2_bruto: number;
+  coef_is_mulher: number;
+  odds_ratio_is_mulher: number;
+  ic95_odds_ratio_is_mulher: [number, number];
   p_valor: number;
-  rejeita_h0_a_5pct: boolean;
+  hipotese_sustentada_a_5pct: boolean;
 }
 
-export interface AchadoDestaquePartido {
-  hipotese_testada_global: string;
+export interface AchadoViesPartidario {
+  hipotese_testada: string;
+  n_deputados: number;
   partidos_analisados_n15plus: string[];
-  tabela_destaque_por_partido: Record<
+  tabela_cobertura_por_partido: Record<
     string,
-    { destaque: number; total: number; pct: number }
+    { n: number; cobertos: number; taxa_cobertura: number }
   >;
-  p_valor_global: number;
-  rejeita_h0_global_a_5pct: boolean;
-  pl_pct_destaque: number;
-  resto_pct_destaque: number;
-  p_valor_pl_vs_resto: number;
-  odds_ratio_pl: number;
-  ic95_odds_ratio_pl: [number, number];
+  chi2: number;
+  dof: number;
+  p_valor: number;
+  hipotese_sustentada_a_5pct: boolean;
+  post_hoc: {
+    descricao: string;
+    partido_maior_cobertura: { partido: string; taxa: number; n: number };
+    partido_menor_cobertura: { partido: string; taxa: number; n: number };
+  };
 }
 
 export interface AchadoPopulacaoUf {
   hipotese_testada: string;
   n_deputados_com_uf: number;
   n_ufs_analisadas: number;
+  coef_log_populacao_uf: number;
   p_valor: number;
-  rejeita_h0_a_5pct: boolean;
+  hipotese_sustentada_a_5pct: boolean;
+  odds_ratio_log_populacao_uf: number;
+  ic95_odds_ratio: [number, number];
   classificacao: string;
   tabela_cobertura_por_uf: Record<
     string,
@@ -183,8 +191,8 @@ export interface AchadoPopulacaoUf {
 export interface PanoramaFile {
   matching: PanoramaMatching;
   achado_1_filtro_de_selecao: AchadoSelecao;
-  achado_2_convidados_vs_deputados: AchadoConvidados;
-  achado_3_destaque_partidario: AchadoDestaquePartido;
+  achado_2_silenciamento_mulheres: AchadoSilenciamentoMulheres;
+  achado_3_vies_partidario: AchadoViesPartidario;
   achado_4_populacao_uf: AchadoPopulacaoUf;
 }
 

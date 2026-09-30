@@ -5,10 +5,10 @@ import GatekeepSankey from "./GatekeepSankey";
 import PessoasBeeswarm from "./PessoasBeeswarm";
 import "./PessoasBeeswarm.css";
 import type {
-  AchadoConvidados,
-  AchadoDestaquePartido,
   AchadoPopulacaoUf,
   AchadoSelecao,
+  AchadoSilenciamentoMulheres,
+  AchadoViesPartidario,
   GatekeeperRow,
   MateriaEnvolvidosEntry,
   MateriaIndex,
@@ -75,7 +75,8 @@ interface Aggregates {
   palavras: number;
   pctMulheres: number;
   mencionados: number;
-  opinioes: number;
+  mulheresCitadas: number;
+  pctMulheresCitadas: number;
   taxaCobertura: number;
   temaData: ColumnBarDatum[];
   audiencia: PerfilDist;
@@ -163,10 +164,9 @@ export default function PanoramaHumano({
     const materia = computePerfil(cobertosRows);
 
     const mencionados = envolvidos.reduce((a, e) => a + e.envolvidos.length, 0);
-    const opinioes = envolvidos.reduce(
-      (a, e) => a + e.envolvidos.reduce((b, x) => b + x.quantidade_opinioes, 0),
-      0
-    );
+    const mulheresCitadas = cobertosRows.filter(
+      (g) => g.genero === "feminino"
+    ).length;
 
     const posCounts = new Map<string, number>();
     for (const g of cobertosRows) {
@@ -191,7 +191,11 @@ export default function PanoramaHumano({
       palavras: gatekeepers.reduce((a, g) => a + g.quantidade_palavras, 0),
       pctMulheres: total > 0 ? (audiencia.mulheres / total) * 100 : 0,
       mencionados,
-      opinioes,
+      mulheresCitadas,
+      pctMulheresCitadas:
+        cobertosRows.length > 0
+          ? (mulheresCitadas / cobertosRows.length) * 100
+          : 0,
       taxaCobertura: total > 0 ? (cobertosRows.length / total) * 100 : 0,
       temaData,
       audiencia,
@@ -259,8 +263,9 @@ export default function PanoramaHumano({
               label="mencionados na matéria"
             />
             <StatCard
-              value={agg.opinioes.toLocaleString("pt-BR")}
-              label="opiniões atribuídas"
+              value={`${agg.mulheresCitadas.toLocaleString("pt-BR")} (${agg.pctMulheresCitadas.toFixed(1)}%)`}
+              label="mulheres citadas na matéria"
+              small
             />
             <StatCard
               value={`${agg.taxaCobertura.toFixed(1)}%`}
@@ -352,7 +357,7 @@ function PerfilTriplo({
   );
 }
 
-function StatCard({
+export function StatCard({
   value,
   label,
   small,
@@ -371,21 +376,21 @@ function StatCard({
   );
 }
 
-/* ================== Gatekeeping (achados 1..4) ================== */
+/* ================== Gatekeeping (achados 1..4 v2) ================== */
 
-type Achado = "selecao" | "convidados" | "destaque" | "uf";
+type Achado = "selecao" | "mulheres" | "partido" | "uf";
 
-function GatekeepingAchados({ panorama }: { panorama: PanoramaFile }) {
+export function GatekeepingAchados({ panorama }: { panorama: PanoramaFile }) {
   const [tab, setTab] = useState<Achado>("selecao");
   return (
     <div className="gka">
       <div className="gka__tabs">
         {(
           [
-            ["selecao", "Palavras faladas × Citados"],
-            ["convidados", "Convidados × Deputados"],
-            ["destaque", "Destaque partidário"],
-            ["uf", "Porte da UF"],
+            ["selecao", "H1 · Filtro de fala"],
+            ["mulheres", "H2 · Silenciamento de mulheres"],
+            ["partido", "H3 · Viés partidário"],
+            ["uf", "H4 · População da UF"],
           ] as [Achado, string][]
         ).map(([k, label]) => (
           <button
@@ -400,11 +405,11 @@ function GatekeepingAchados({ panorama }: { panorama: PanoramaFile }) {
       {tab === "selecao" && (
         <AchadoSelecaoCard achado={panorama.achado_1_filtro_de_selecao} />
       )}
-      {tab === "convidados" && (
-        <AchadoConvidadosCard achado={panorama.achado_2_convidados_vs_deputados} />
+      {tab === "mulheres" && (
+        <AchadoMulheresCard achado={panorama.achado_2_silenciamento_mulheres} />
       )}
-      {tab === "destaque" && (
-        <AchadoDestaqueCard achado={panorama.achado_3_destaque_partidario} />
+      {tab === "partido" && (
+        <AchadoPartidoCard achado={panorama.achado_3_vies_partidario} />
       )}
       {tab === "uf" && (
         <AchadoUfCard achado={panorama.achado_4_populacao_uf} />
@@ -414,35 +419,109 @@ function GatekeepingAchados({ panorama }: { panorama: PanoramaFile }) {
 }
 
 function AchadoCard({
-  hipotese,
+  h0,
+  h1,
+  veredito,
   chart,
-  notes,
   footer,
 }: {
-  hipotese: string;
+  h0: string;
+  h1: string;
+  veredito: React.ReactNode;
   chart: React.ReactNode;
-  notes: React.ReactNode;
   footer: React.ReactNode;
 }) {
   return (
     <div className="gka__card">
-      <div className="gka__h0">
-        <span className="gka__h0-tag">Hipótese testada</span>
-        <p>{hipotese}</p>
+      <div className="gka__hipoteses">
+        <div className="gka__hip gka__hip--h0">
+          <span className="gka__hip-tag">H0 · hipótese nula</span>
+          <p>{h0}</p>
+        </div>
+        <div className="gka__hip gka__hip--h1">
+          <span className="gka__hip-tag">H1 · hipótese alternativa</span>
+          <p>{h1}</p>
+        </div>
       </div>
+      <div className="gka__veredito">{veredito}</div>
       {chart}
-      <div className="gka__notes">{notes}</div>
       <div className="gka__footer">{footer}</div>
     </div>
   );
 }
 
+type VereditoKind = "sustained" | "not_sustained" | "sustained_caution";
+
+function Veredito({
+  kind,
+  motivo,
+}: {
+  kind: VereditoKind;
+  motivo: React.ReactNode;
+}) {
+  const label =
+    kind === "sustained"
+      ? "H1 sustentada · H0 rejeitada"
+      : kind === "sustained_caution"
+        ? "H1 sustentada com ressalva"
+        : "H1 não sustentada · H0 não rejeitada";
+  const cls =
+    kind === "sustained"
+      ? "gka__veredito-pill gka__veredito-pill--yes"
+      : kind === "sustained_caution"
+        ? "gka__veredito-pill gka__veredito-pill--caution"
+        : "gka__veredito-pill gka__veredito-pill--no";
+  return (
+    <>
+      <div className="gka__veredito-head">
+        <span className="gka__veredito-tag">Veredito</span>
+        <span className={cls}>{label}</span>
+      </div>
+      <p className="gka__veredito-motivo">{motivo}</p>
+    </>
+  );
+}
+
+/* ---------------- Achado 1: filtro de fala ---------------- */
+
 function AchadoSelecaoCard({ achado }: { achado: AchadoSelecao }) {
-  const max = Math.max(achado.mediana_palavras_cobertos, achado.mediana_palavras_nao_cobertos);
+  const max = Math.max(
+    achado.mediana_palavras_cobertos,
+    achado.mediana_palavras_nao_cobertos
+  );
   const [ic0, ic1] = achado.ic95_taxa_cobertura;
+  const isSustained = sustentada(
+    (achado as any).hipotese_sustentada_a_5pct,
+    (achado as any).rejeita_h0_a_5pct,
+    achado.p_valor
+  );
+  const razao = achado.mediana_palavras_cobertos / Math.max(1, achado.mediana_palavras_nao_cobertos);
+
   return (
     <AchadoCard
-      hipotese={achado.hipotese_testada}
+      h0="A distribuição de palavras faladas na audiência é a mesma entre participantes citados e não citados na matéria."
+      h1="Participantes citados na matéria falam significativamente mais palavras do que os não citados."
+      veredito={
+        <Veredito
+          kind={isSustained ? "sustained" : "not_sustained"}
+          motivo={
+            isSustained ? (
+              <>
+                Mediana de palavras dos citados ({achado.mediana_palavras_cobertos.toLocaleString("pt-BR")}) é{" "}
+                <strong>{razao.toFixed(1)}× a dos não citados</strong> ({achado.mediana_palavras_nao_cobertos.toLocaleString("pt-BR")}).
+                O teste Mann-Whitney U unilateral (citados &gt; não citados) retornou {pValue(achado.p_valor)},
+                rejeitando H0 a 5% (na verdade a 0,0001%).
+              </>
+            ) : (
+              <>
+                O teste Mann-Whitney U unilateral retornou {pValue(achado.p_valor)}, que não é
+                suficiente para rejeitar H0 a 5%. A distribuição de palavras faladas não difere
+                significativamente entre citados e não citados.
+              </>
+            )
+          }
+        />
+      }
       chart={
         <div className="gka__chart">
           <div className="gka__chart-head">
@@ -450,41 +529,30 @@ function AchadoSelecaoCard({ achado }: { achado: AchadoSelecao }) {
             <span />
             <span>Mediana palavras</span>
           </div>
-          <BarRow
-            label="Citados na matéria"
-            value={achado.mediana_palavras_cobertos}
-            max={max}
-          />
-          <BarRow
-            label="Não citados"
-            value={achado.mediana_palavras_nao_cobertos}
-            max={max}
-          />
+          <BarRow label="Citados na matéria" value={achado.mediana_palavras_cobertos} max={max} />
+          <BarRow label="Não citados" value={achado.mediana_palavras_nao_cobertos} max={max} />
           <p className="gka__caption muted">
             Mediana de palavras faladas por participante.
           </p>
           <p className="gka__caption muted">
             Taxa de cobertura geral:{" "}
             <strong>{(achado.taxa_cobertura * 100).toFixed(1)}%</strong>{" "}
-            (IC95% {(ic0 * 100).toFixed(1)}%–{(ic1 * 100).toFixed(1)}%). Em
-            audiências com 2+ pessoas citadas, quem mais falou também foi quem
-            mais apareceu na matéria em{" "}
+            (IC95% {(ic0 * 100).toFixed(1)}%–{(ic1 * 100).toFixed(1)}%). Em audiências com 2+
+            pessoas citadas, quem mais falou também foi quem mais apareceu na matéria em{" "}
             <strong>{achado.estatistica_descritiva_adicional.pct_coincidencia.toFixed(1)}%</strong>{" "}
-            dos casos (
-            {achado.estatistica_descritiva_adicional.coincidencia_top_falante_top_citado}
-            /{achado.estatistica_descritiva_adicional.audiencias_com_2plus_cobertos}
-            ).
+            dos casos ({achado.estatistica_descritiva_adicional.coincidencia_top_falante_top_citado}
+            /{achado.estatistica_descritiva_adicional.audiencias_com_2plus_cobertos}) — sinal
+            de que o filtro <em>não</em> é redutível ao volume de fala.
           </p>
         </div>
       }
-      notes={null}
       footer={
         <StatFooter
           items={[
             [achado.n_total.toLocaleString("pt-BR"), "N total"],
-            [pValue(achado.p_valor), "p-valor"],
+            [pValue(achado.p_valor), "p-valor (Mann-Whitney U)"],
             [
-              <DecisionPill sustained={achado.rejeita_h0_a_5pct} />,
+              <DecisionPill sustained={isSustained} />,
               "no nível de 5%",
             ],
           ]}
@@ -494,60 +562,80 @@ function AchadoSelecaoCard({ achado }: { achado: AchadoSelecao }) {
   );
 }
 
-function AchadoConvidadosCard({ achado }: { achado: AchadoConvidados }) {
-  const max = Math.max(achado.media_opinioes_convidados, achado.media_opinioes_deputados);
-  const [ic0, ic1] = achado.ols_ic95_is_convidado;
+/* ---------------- Achado 2: silenciamento de mulheres ---------------- */
+
+function AchadoMulheresCard({ achado }: { achado: AchadoSilenciamentoMulheres }) {
+  const taxaH = achado.taxa_cobertura_homens * 100;
+  const taxaM = achado.taxa_cobertura_mulheres * 100;
+  const or = achado.odds_ratio_is_mulher;
+  const [icOr0, icOr1] = achado.ic95_odds_ratio_is_mulher;
+  const isSustained = sustentada(
+    (achado as any).hipotese_sustentada_a_5pct,
+    undefined,
+    undefined
+  );
+  const p = achado.p_valor;
+  const coefNeg = achado.coef_is_mulher < 0;
+  const kind: VereditoKind = isSustained ? "sustained" : "not_sustained";
+
   return (
     <AchadoCard
-      hipotese={achado.hipotese_testada}
+      h0="Homens e mulheres têm a mesma probabilidade de serem citados na matéria, controlando pelo volume de fala."
+      h1="Mulheres têm menor probabilidade de serem citadas do que homens, mesmo controlando pelo volume de fala."
+      veredito={
+        <Veredito
+          kind={kind}
+          motivo={
+            isSustained ? (
+              <>
+                Regressão logística <code>covered ~ is_mulher + log_palavras</code> retornou{" "}
+                <strong>OR = {or.toFixed(2)}</strong> (IC95% {icOr0.toFixed(2)}–{icOr1.toFixed(2)},{" "}
+                {pValue(p)}). Ser mulher{" "}
+                {or < 1 ? "reduz" : "aumenta"} a chance de citação em{" "}
+                <strong>{Math.abs((1 - or) * 100).toFixed(1)}%</strong> em relação a homens, controlando pelo
+                volume de fala. A direção {coefNeg ? "negativa" : "positiva"} do coeficiente confirma H1.
+              </>
+            ) : p < 0.05 && !coefNeg ? (
+              <>
+                Há diferença estatisticamente significativa ({pValue(p)}, OR = {or.toFixed(2)}), mas na direção{" "}
+                <strong>oposta</strong> à hipótese: mulheres tenderam a ter <em>maior</em> chance de citação,
+                controlando por fala. H1 (silenciamento) não sustentada.
+              </>
+            ) : (
+              <>
+                Regressão logística retornou {pValue(p)} para o coeficiente de <code>is_mulher</code> —
+                não há evidência de diferença significativa entre gêneros na chance de citação, controlando
+                pelo volume de fala. H0 não rejeitada.
+              </>
+            )
+          }
+        />
+      }
       chart={
         <div className="gka__chart">
           <div className="gka__chart-head">
-            <span>Grupo</span>
+            <span>Gênero</span>
             <span />
-            <span>Média opiniões</span>
+            <span>% cobertura bruta</span>
           </div>
-          <BarRow
-            label="Convidados/especialistas"
-            value={achado.media_opinioes_convidados}
-            max={max}
-            fmt={(v) => v.toFixed(2)}
-          />
-          <BarRow
-            label="Deputados"
-            value={achado.media_opinioes_deputados}
-            max={max}
-            fmt={(v) => v.toFixed(2)}
-          />
+          <BarRow label="Homens" value={taxaH} max={Math.max(taxaH, taxaM)} fmt={(v) => `${v.toFixed(1)}%`} />
+          <BarRow label="Mulheres" value={taxaM} max={Math.max(taxaH, taxaM)} fmt={(v) => `${v.toFixed(1)}%`} warn={taxaM < taxaH} />
           <p className="gka__caption muted">
-            Média de opiniões atribuídas por pessoa citada na matéria.
+            Taxa de cobertura bruta por gênero (sem controlar por fala). N: {achado.n_homens.toLocaleString("pt-BR")} homens · {achado.n_mulheres.toLocaleString("pt-BR")} mulheres.
+            Chi² 2×2 bruto: {pValueLoose(achado.p_valor_chi2_bruto)}.
           </p>
           <p className="gka__caption muted">
-            Efeito controlado por volume de fala (OLS):{" "}
-            <strong>
-              +{achado.ols_coef_is_convidado.toFixed(2)} opiniões
-            </strong>{" "}
-            para convidados (IC95% {ic0.toFixed(2)}–{ic1.toFixed(2)}) — mesmo
-            falando, em média, menos palavras (
-            {Math.round(achado.media_palavras_convidados).toLocaleString("pt-BR")}{" "}
-            vs. {Math.round(achado.media_palavras_deputados).toLocaleString("pt-BR")}
-            ).
+            <strong>Com controle por fala</strong> (regressão logística):
+            OR = {or.toFixed(2)} · IC95% {icOr0.toFixed(2)}–{icOr1.toFixed(2)} · {pValue(p)}.
           </p>
         </div>
       }
-      notes={null}
       footer={
         <StatFooter
           items={[
-            [
-              `${achado.n_deputados_cobertos} / ${achado.n_convidados_cobertos}`,
-              "N (dep. / convid.)",
-            ],
-            [pValue(achado.p_valor), "p-valor (OLS)"],
-            [
-              <DecisionPill sustained={achado.rejeita_h0_a_5pct} />,
-              "no nível de 5%",
-            ],
+            [achado.n_total.toLocaleString("pt-BR"), "N total"],
+            [pValue(p), "p-valor (logística)"],
+            [<DecisionPill sustained={isSustained} />, "no nível de 5%"],
           ]}
         />
       }
@@ -555,87 +643,144 @@ function AchadoConvidadosCard({ achado }: { achado: AchadoConvidados }) {
   );
 }
 
-function AchadoDestaqueCard({ achado }: { achado: AchadoDestaquePartido }) {
-  const rows = Object.entries(achado.tabela_destaque_por_partido)
-    .map(([partido, v]) => ({ partido, ...v }))
+/* ---------------- Achado 3: viés partidário ---------------- */
+
+function AchadoPartidoCard({ achado }: { achado: AchadoViesPartidario }) {
+  const rows = Object.entries(achado.tabela_cobertura_por_partido)
+    .map(([partido, v]) => ({ partido, ...v, pct: v.taxa_cobertura * 100 }))
     .sort((a, b) => b.pct - a.pct);
   const max = Math.max(...rows.map((r) => r.pct));
-  const [ic0, ic1] = achado.ic95_odds_ratio_pl;
-  const marginalSig = achado.rejeita_h0_global_a_5pct && achado.p_valor_global > 0.001;
+  const isSustained = sustentada(
+    (achado as any).hipotese_sustentada_a_5pct,
+    undefined,
+    undefined
+  );
+  const top = achado.post_hoc.partido_maior_cobertura;
+  const bot = achado.post_hoc.partido_menor_cobertura;
+
   return (
     <AchadoCard
-      hipotese={achado.hipotese_testada_global}
+      h0="A probabilidade de um deputado ser citado na matéria é independente do partido."
+      h1="A probabilidade de um deputado ser citado depende do partido."
+      veredito={
+        <Veredito
+          kind={isSustained ? "sustained" : "not_sustained"}
+          motivo={
+            isSustained ? (
+              <>
+                Qui-quadrado de independência (χ² = {achado.chi2.toFixed(2)}, dof = {achado.dof},{" "}
+                {pValue(achado.p_valor)}) rejeita a independência entre partido e cobertura.
+                Post-hoc: <strong>{top.partido}</strong> tem a maior taxa de cobertura ({(top.taxa * 100).toFixed(1)}% · N={top.n})
+                e <strong>{bot.partido}</strong> a menor ({(bot.taxa * 100).toFixed(1)}% · N={bot.n}) entre os partidos analisados.
+              </>
+            ) : (
+              <>
+                Qui-quadrado (χ² = {achado.chi2.toFixed(2)}, dof = {achado.dof}, {pValue(achado.p_valor)})
+                não rejeita a independência. A chance de citação é estatisticamente compatível com ser
+                independente do partido.
+              </>
+            )
+          }
+        />
+      }
       chart={
         <div className="gka__chart">
           <div className="gka__chart-head">
             <span>Partido</span>
             <span />
-            <span>% destaque</span>
+            <span>% cobertura</span>
           </div>
           {rows.map((r) => (
             <BarRow
               key={r.partido}
-              label={r.partido}
+              label={`${r.partido} (N=${r.n})`}
               value={r.pct}
               max={max}
               fmt={(v) => `${v.toFixed(1)}%`}
-              warn={r.partido === "PL"}
+              warn={r.partido === top.partido || r.partido === bot.partido}
             />
           ))}
           <p className="gka__caption muted">
-            % de citações que aparecem em título, subtítulo ou início da
-            matéria, por partido.
+            Taxa de cobertura por partido, entre os {achado.partidos_analisados_n15plus.length} partidos
+            com N ≥ 15 registros na base.
           </p>
           <p className="gka__caption muted">
-            PL isolado vs. restante:{" "}
-            <strong>{achado.pl_pct_destaque.toFixed(1)}%</strong> vs.{" "}
-            <strong>{achado.resto_pct_destaque.toFixed(1)}%</strong> (odds ratio
-            = {achado.odds_ratio_pl.toFixed(2)}; IC95%{" "}
-            {ic0.toFixed(2)}–{ic1.toFixed(2)}; p ={" "}
-            {achado.p_valor_pl_vs_resto.toFixed(3)}).
-          </p>
-          <p className="gka__caption gka__caveat">
-            <strong>Ressalva:</strong> o contraste PL vs. resto foi escolhido
-            após observar os dados, sem correção para múltiplas comparações. As
-            células envolvidas são pequenas (3 casos de destaque no PL). Tratar
-            como hipótese a investigar.
+            <strong>Post-hoc:</strong> {achado.post_hoc.descricao}
           </p>
         </div>
       }
-      notes={null}
       footer={
         <StatFooter
           items={[
-            [
-              `${achado.partidos_analisados_n15plus.length} partidos`,
-              "N ≥ 15 citações",
-            ],
-            [`p = ${achado.p_valor_global.toFixed(4)}`, "p-valor (global)"],
-            [
-              <DecisionPill
-                sustained={achado.rejeita_h0_global_a_5pct}
-                caution={marginalSig}
-                cautionLabel="Não é significativo o suficiente para afirmar"
-              />,
-              "",
-            ],
+            [`${achado.n_deputados.toLocaleString("pt-BR")}`, "N deputados"],
+            [pValue(achado.p_valor), "p-valor (χ²)"],
+            [<DecisionPill sustained={isSustained} />, "no nível de 5%"],
           ]}
         />
       }
     />
   );
 }
+
+/* ---------------- Achado 4: população da UF ---------------- */
 
 function AchadoUfCard({ achado }: { achado: AchadoPopulacaoUf }) {
   const rows = Object.entries(achado.tabela_cobertura_por_uf)
     .map(([uf, v]) => ({ uf, ...v }))
     .sort((a, b) => b.pct_cobertura - a.pct_cobertura);
   const max = Math.max(...rows.map((r) => r.pct_cobertura));
-  const isCaution = achado.classificacao === "nao_significativo_o_suficiente_para_afirmar";
-  const extremes = new Set(["MA", "AP", "RR"]);
+  const isCaution =
+    achado.classificacao === "nao_significativo_o_suficiente_para_afirmar";
+  const isSustained = sustentada(
+    (achado as any).hipotese_sustentada_a_5pct,
+    (achado as any).rejeita_h0_a_5pct,
+    achado.p_valor
+  );
+  const or = achado.odds_ratio_log_populacao_uf;
+  const [icOr0, icOr1] = achado.ic95_odds_ratio;
+  const coefPos = achado.coef_log_populacao_uf > 0;
+  const kind: VereditoKind = !isSustained
+    ? "not_sustained"
+    : isCaution
+      ? "sustained_caution"
+      : "sustained";
+  const extremes = new Set([
+    rows[0]?.uf,
+    rows[rows.length - 1]?.uf,
+  ]);
+
   return (
     <AchadoCard
-      hipotese={achado.hipotese_testada}
+      h0="A probabilidade de um deputado ser citado é independente da população da UF, controlando pelo volume de fala."
+      h1="Deputados de UFs mais populosas têm maior probabilidade de serem citados, mesmo controlando pelo volume de fala."
+      veredito={
+        <Veredito
+          kind={kind}
+          motivo={
+            kind === "sustained_caution" ? (
+              <>
+                Regressão logística <code>covered ~ log_populacao_uf + log_palavras</code> retornou{" "}
+                <strong>OR = {or.toFixed(2)}</strong> (IC95% {icOr0.toFixed(2)}–{icOr1.toFixed(2)},{" "}
+                {pValue(achado.p_valor)}). Estatisticamente H0 rejeitada, mas as UFs extremas na tabela
+                têm N pequeno — o efeito pode depender de poucos casos.{" "}
+                <em>{achado.observacao}</em>
+              </>
+            ) : isSustained ? (
+              <>
+                Regressão logística retornou OR = {or.toFixed(2)} (IC95% {icOr0.toFixed(2)}–{icOr1.toFixed(2)},{" "}
+                {pValue(achado.p_valor)}). Cada aumento em log(população) {coefPos ? "aumenta" : "reduz"} a
+                chance de citação, controlando por fala. H1 sustentada.
+              </>
+            ) : (
+              <>
+                Regressão logística retornou {pValue(achado.p_valor)} para o coeficiente de{" "}
+                <code>log_populacao_uf</code>. Sem evidência de que a população da UF prediz cobertura
+                controlando por fala. H0 não rejeitada.
+              </>
+            )
+          }
+        />
+      }
       chart={
         <div className="gka__chart">
           <div className="gka__chart-head">
@@ -646,7 +791,7 @@ function AchadoUfCard({ achado }: { achado: AchadoPopulacaoUf }) {
           {rows.map((r) => (
             <BarRow
               key={r.uf}
-              label={r.uf}
+              label={`${r.uf} (N=${r.n})`}
               value={r.pct_cobertura}
               max={max}
               fmt={(v) => `${v.toFixed(1)}%`}
@@ -654,14 +799,15 @@ function AchadoUfCard({ achado }: { achado: AchadoPopulacaoUf }) {
             />
           ))}
           <p className="gka__caption muted">
-            % de cobertura por UF, da maior para a menor.
+            % de cobertura por UF, ordenada da maior para a menor.
           </p>
-          <p className="gka__caption gka__caveat">
-            <strong>Ressalva:</strong> {achado.observacao}
-          </p>
+          {achado.observacao && (
+            <p className="gka__caption gka__caveat">
+              <strong>Ressalva:</strong> {achado.observacao}
+            </p>
+          )}
         </div>
       }
-      notes={null}
       footer={
         <StatFooter
           items={[
@@ -669,20 +815,24 @@ function AchadoUfCard({ achado }: { achado: AchadoPopulacaoUf }) {
               `${achado.n_deputados_com_uf} / ${achado.n_ufs_analisadas} UFs`,
               "N deputados / UFs",
             ],
-            [`p = ${achado.p_valor.toFixed(3)}`, "p-valor"],
+            [pValue(achado.p_valor), "p-valor (logística)"],
             [
               <DecisionPill
-                sustained={achado.rejeita_h0_a_5pct}
+                sustained={isSustained}
                 caution={isCaution}
-                cautionLabel="Não é significativo o suficiente para afirmar"
+                cautionLabel="Sustentada com ressalva"
               />,
-              "",
+              "no nível de 5%",
             ],
           ]}
         />
       }
     />
   );
+}
+
+function pValueLoose(p: number): string {
+  return pValue(p);
 }
 
 function BarRow({
@@ -752,6 +902,16 @@ function DecisionPill({
       {sustained ? "Hipótese sustentada" : "Hipótese não sustentada"}
     </span>
   );
+}
+
+function sustentada(
+  ...vals: (boolean | number | null | undefined)[]
+): boolean {
+  for (const v of vals) {
+    if (typeof v === "boolean") return v;
+    if (typeof v === "number" && Number.isFinite(v)) return v < 0.05;
+  }
+  return false;
 }
 
 function pValue(p: number): string {

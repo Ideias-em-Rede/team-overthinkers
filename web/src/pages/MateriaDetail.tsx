@@ -62,6 +62,7 @@ interface PageData {
   gatekeepers: GatekeeperRow[];
   llm: Record<LlmProvider, MateriaLlmFile | null>;
   llmValores: Record<LlmProvider, ValoresNoticiaFile | null>;
+  llmGatekeepers: Record<LlmProvider, GatekeeperRow[]>;
 }
 
 export default function MateriaDetail() {
@@ -91,6 +92,11 @@ export default function MateriaDetail() {
         r.ok ? (r.json() as Promise<ValoresNoticiaFile>) : null
       );
 
+    const fetchLlmGatekeepers = (provider: LlmProvider) =>
+      fetch(`/data/llm/gatekeepers/${provider}/gatekeepers.json`).then((r) =>
+        r.ok ? (r.json() as Promise<GatekeeperRow[]>) : []
+      );
+
     Promise.all([
       fetch(`/data/humano/materias/materias/${id}.json`).then((r) => {
         if (!r.ok) throw new Error(`Matéria #${id} não encontrada`);
@@ -117,6 +123,9 @@ export default function MateriaDetail() {
       fetchLlmValores("deepseek").catch(() => null),
       fetchLlmValores("gemini").catch(() => null),
       fetchLlmValores("openai").catch(() => null),
+      fetchLlmGatekeepers("deepseek").catch(() => [] as GatekeeperRow[]),
+      fetchLlmGatekeepers("gemini").catch(() => [] as GatekeeperRow[]),
+      fetchLlmGatekeepers("openai").catch(() => [] as GatekeeperRow[]),
     ])
       .then(
         ([
@@ -132,6 +141,9 @@ export default function MateriaDetail() {
           deepseekVal,
           geminiVal,
           openaiVal,
+          deepseekGk,
+          geminiGk,
+          openaiGk,
         ]) => {
           if (cancelled) return;
           setData({
@@ -146,6 +158,11 @@ export default function MateriaDetail() {
               deepseek: deepseekVal,
               gemini: geminiVal,
               openai: openaiVal,
+            },
+            llmGatekeepers: {
+              deepseek: deepseekGk.filter((g) => g.hearing_id === materia.id),
+              gemini: geminiGk.filter((g) => g.hearing_id === materia.id),
+              openai: openaiGk.filter((g) => g.hearing_id === materia.id),
             },
           });
         }
@@ -168,10 +185,11 @@ export default function MateriaDetail() {
 
   if (!data) return <div className="loading">Carregando matéria…</div>;
 
-  const { materia, valores, envolvidos, resumo, tema, gatekeepers, llm, llmValores } = data;
-  const totalOpinioes = envolvidos
-    ? envolvidos.envolvidos.reduce((a, e) => a + e.quantidade_opinioes, 0)
-    : null;
+  const { materia, valores, envolvidos, resumo, tema, gatekeepers, llm, llmValores, llmGatekeepers } = data;
+  const cobertos = gatekeepers.filter((g) => g.covered);
+  const mulheresCitadas = cobertos.filter((g) => g.genero === "feminino").length;
+  const pctMulheresCitadas =
+    cobertos.length > 0 ? (mulheresCitadas / cobertos.length) * 100 : null;
 
   return (
     <article className="detail">
@@ -201,6 +219,7 @@ export default function MateriaDetail() {
         <LlmPage
           files={llm}
           valores={llmValores}
+          gatekeepers={llmGatekeepers}
           selected={llmSelected}
           onSelect={setLlmSelected}
         />
@@ -256,8 +275,12 @@ export default function MateriaDetail() {
           }
         />
         <KpiCard
-          label="Opiniões atribuídas"
-          value={totalOpinioes ?? "—"}
+          label="Mulheres citadas na matéria"
+          value={
+            pctMulheresCitadas === null
+              ? "—"
+              : `${mulheresCitadas} (${pctMulheresCitadas.toFixed(1)}%)`
+          }
         />
       </section>
 
@@ -434,16 +457,19 @@ function MapaEstados({
 function LlmPage({
   files,
   valores,
+  gatekeepers,
   selected,
   onSelect,
 }: {
   files: Record<LlmProvider, MateriaLlmFile | null>;
   valores: Record<LlmProvider, ValoresNoticiaFile | null>;
+  gatekeepers: Record<LlmProvider, GatekeeperRow[]>;
   selected: LlmProvider;
   onSelect: (p: LlmProvider) => void;
 }) {
   const file = files[selected];
   const val = valores[selected];
+  const gk = gatekeepers[selected];
   const label = LLM_PROVIDERS.find((p) => p.key === selected)?.label ?? selected;
 
   return (
@@ -500,6 +526,24 @@ function LlmPage({
             Valores-notícia ainda não extraídos para a matéria gerada por {label}.
           </p>
         )}
+      </section>
+
+      <section className="detail__section">
+        <div className="dist detail__sankey-half">
+          <div className="dist__head">
+            <h3 className="dist__title">Gatekeep - Filtro editorial: quem foi coberto na matéria</h3>
+            <span className="muted">
+              audiência × matéria gerada por {label} · largura ∝ palavras
+            </span>
+          </div>
+          {gk.length > 0 ? (
+            <GatekeepSankey rows={gk} />
+          ) : (
+            <p className="muted">
+              Sem dados de gatekeeping para a matéria gerada por {label} nesta audiência.
+            </p>
+          )}
+        </div>
       </section>
     </>
   );

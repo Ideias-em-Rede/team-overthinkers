@@ -7,7 +7,7 @@
     "pct_envolvidos_sem_correspondencia": 5.2
   },
   "achado_1_filtro_de_selecao": {
-    "hipotese_testada": "H0: a quantidade de palavras faladas nao difere entre participantes citados e nao citados na materia (Mann-Whitney U, unilateral: citados > nao citados)",
+    "hipotese_testada": "Participantes citados na materia falam significativamente mais palavras do que os nao citados (Mann-Whitney U, unilateral: citados > nao citados)",
     "n_total": 2564,
     "n_cobertos": 987,
     "taxa_cobertura": 0.3849,
@@ -19,7 +19,7 @@
     "mediana_palavras_nao_cobertos": 759,
     "mannwhitney_U": 1224848.5,
     "p_valor": 1.0822745996743472e-132,
-    "rejeita_h0_a_5pct": true,
+    "hipotese_sustentada_a_5pct": true,
     "estatistica_descritiva_adicional": {
       "descricao": "entre audiencias com >=2 pessoas citadas na materia, frequencia com que quem mais falou tambem foi quem mais foi citado",
       "audiencias_com_2plus_cobertos": 203,
@@ -27,103 +27,138 @@
       "pct_coincidencia": 45.8
     }
   },
-  "achado_2_convidados_vs_deputados": {
-    "hipotese_testada": "H0: a quantidade de opinioes atribuidas na materia nao difere entre convidados/especialistas e deputados, controlando pelo volume de fala (regressao OLS: quantidade_opinioes ~ is_convidado + log_palavras)",
-    "n_deputados_cobertos": 329,
-    "n_convidados_cobertos": 658,
-    "media_opinioes_deputados": 1.9817629179331306,
-    "media_opinioes_convidados": 2.4285714285714284,
-    "media_palavras_deputados": 2183.5896656534956,
-    "media_palavras_convidados": 2062.727963525836,
-    "mannwhitney_U": 128621.0,
-    "mannwhitney_p": 2.1274072429970968e-07,
-    "ols_coef_is_convidado": 0.4635330777400541,
-    "p_valor": 2.0559393516657668e-08,
-    "rejeita_h0_a_5pct": true,
-    "ols_ic95_is_convidado": [
-      0.3026445848628415,
-      0.6244215706172667
-    ]
-  },
-  "achado_3_destaque_partidario": {
-    "hipotese_testada_global": "H0: a posicao de destaque no texto (titulo/subtitulo/inicio vs. corpo) depende do partido (qui-quadrado de independencia, partidos com N>=15 citacoes)",
-    "partidos_analisados_n15plus": [
-      "PT",
-      "PL",
-      "UNIÃO",
-      "REPUBLICANOS",
-      "PSD",
-      "PP",
-      "PSOL"
+  "achado_2_silenciamento_mulheres": {
+    "hipotese_testada": "Mulheres tem menor probabilidade de serem citadas na materia do que homens, mesmo controlando pelo volume de fala (regressao logistica: covered ~ is_mulher + log_palavras; H1 unilateral: coef_is_mulher < 0)",
+    "n_total": 2564,
+    "n_homens": 1724,
+    "n_mulheres": 840,
+    "taxa_cobertura_homens": 0.3788,
+    "taxa_cobertura_mulheres": 0.3976,
+    "chi2_bruto": 0.7697804888679126,
+    "p_valor_chi2_bruto": 0.380284968413373,
+    "coef_is_mulher": 0.08257648612810067,
+    "odds_ratio_is_mulher": 1.086081740449407,
+    "ic95_odds_ratio_is_mulher": [
+      0.897689011171585,
+      1.3140113472015624
     ],
-    "tabela_destaque_por_partido": {
-      "PT": {
-        "destaque": 10,
-        "total": 80,
-        "pct": 12.5
+    "p_valor": 0.3955729606138003,
+    "hipotese_sustentada_a_5pct": false
+  },
+  "achado_3_vies_partidario": {
+    "hipotese_testada": "A probabilidade de um deputado ser citado depende do partido (qui-quadrado de independencia sobre partido x covered, partidos com N>=15 registros na base)",
+    "n_deputados": 913,
+    "partidos_analisados_n15plus": [
+      "MDB",
+      "PDT",
+      "PL",
+      "PODE",
+      "PP",
+      "PSB",
+      "PSD",
+      "PSDB",
+      "PSOL",
+      "PT",
+      "REPUBLICANOS",
+      "SOLIDARIEDADE",
+      "UNIÃO"
+    ],
+    "tabela_cobertura_por_partido": {
+      "MDB": {
+        "n": 32,
+        "cobertos": 7,
+        "taxa_cobertura": 0.2188
+      },
+      "PDT": {
+        "n": 40,
+        "cobertos": 13,
+        "taxa_cobertura": 0.325
       },
       "PL": {
-        "destaque": 3,
-        "total": 51,
-        "pct": 5.9
+        "n": 174,
+        "cobertos": 51,
+        "taxa_cobertura": 0.2931
       },
-      "UNIÃO": {
-        "destaque": 9,
-        "total": 24,
-        "pct": 37.5
-      },
-      "REPUBLICANOS": {
-        "destaque": 5,
-        "total": 22,
-        "pct": 22.7
-      },
-      "PSD": {
-        "destaque": 7,
-        "total": 21,
-        "pct": 33.3
+      "PODE": {
+        "n": 16,
+        "cobertos": 6,
+        "taxa_cobertura": 0.375
       },
       "PP": {
-        "destaque": 2,
-        "total": 17,
-        "pct": 11.8
+        "n": 59,
+        "cobertos": 17,
+        "taxa_cobertura": 0.2881
+      },
+      "PSB": {
+        "n": 33,
+        "cobertos": 10,
+        "taxa_cobertura": 0.303
+      },
+      "PSD": {
+        "n": 50,
+        "cobertos": 21,
+        "taxa_cobertura": 0.42
+      },
+      "PSDB": {
+        "n": 19,
+        "cobertos": 8,
+        "taxa_cobertura": 0.4211
       },
       "PSOL": {
-        "destaque": 7,
-        "total": 32,
-        "pct": 21.9
+        "n": 62,
+        "cobertos": 32,
+        "taxa_cobertura": 0.5161
+      },
+      "PT": {
+        "n": 205,
+        "cobertos": 80,
+        "taxa_cobertura": 0.3902
+      },
+      "REPUBLICANOS": {
+        "n": 70,
+        "cobertos": 22,
+        "taxa_cobertura": 0.3143
+      },
+      "SOLIDARIEDADE": {
+        "n": 19,
+        "cobertos": 6,
+        "taxa_cobertura": 0.3158
+      },
+      "UNIÃO": {
+        "n": 72,
+        "cobertos": 24,
+        "taxa_cobertura": 0.3333
       }
     },
-    "chi2_global": 17.748261698064166,
-    "p_valor_global": 0.006893081057099536,
-    "dof_global": 6,
-    "rejeita_h0_global_a_5pct": true,
-    "hipotese_testada_pl_vs_resto": "H0: a taxa de destaque do PL nao difere da taxa de destaque do restante dos partidos (qui-quadrado 2x2)",
-    "pl_destaque": 3,
-    "pl_total": 51,
-    "pl_pct_destaque": 5.9,
-    "resto_destaque": 53,
-    "resto_total": 278,
-    "resto_pct_destaque": 19.1,
-    "chi2_pl_vs_resto": 4.409854525881555,
-    "p_valor_pl_vs_resto": 0.035731888154362026,
-    "rejeita_h0_pl_vs_resto_a_5pct": true,
-    "odds_ratio_pl": 0.2653301886792453,
-    "ic95_odds_ratio_pl": [
-      0.07958012082304501,
-      0.8846444098910847
-    ]
+    "chi2": 17.442258207649523,
+    "dof": 12,
+    "p_valor": 0.13370459893961278,
+    "hipotese_sustentada_a_5pct": false,
+    "post_hoc": {
+      "descricao": "Extremos de cobertura entre os partidos analisados. Sem correcao para multiplas comparacoes; tratar como leitura exploratoria.",
+      "partido_maior_cobertura": {
+        "partido": "PSOL",
+        "taxa": 0.5161,
+        "n": 62
+      },
+      "partido_menor_cobertura": {
+        "partido": "MDB",
+        "taxa": 0.2188,
+        "n": 32
+      }
+    }
   },
   "achado_4_populacao_uf": {
-    "hipotese_testada": "H0: a populacao da UF do deputado nao influencia a probabilidade de ele ser citado na materia, controlando pelo volume de fala (regressao logistica: covered ~ log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)",
+    "hipotese_testada": "Deputados de UFs mais populosas tem maior probabilidade de serem citados na materia, mesmo controlando pelo volume de fala (regressao logistica: covered ~ log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)",
     "n_deputados_com_uf": 913,
     "n_ufs_analisadas": 27,
-    "coef_log_populacao_uf": 0.21153539660018358,
-    "p_valor": 0.017399787535961088,
-    "rejeita_h0_a_5pct": true,
-    "odds_ratio_log_populacao_uf": 1.235573699962927,
+    "coef_log_populacao_uf": 0.21153539660018028,
+    "p_valor": 0.017399787535961386,
+    "hipotese_sustentada_a_5pct": true,
+    "odds_ratio_log_populacao_uf": 1.235573699962923,
     "ic95_odds_ratio": [
-      1.0378978796466012,
-      1.470898436135057
+      1.0378978796466,
+      1.470898436135049
     ],
     "classificacao": "nao_significativo_o_suficiente_para_afirmar",
     "tabela_cobertura_por_uf": {

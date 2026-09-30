@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import PanoramaComparacao from "../components/PanoramaComparacao";
 import PanoramaHumano from "../components/PanoramaHumano";
+import PanoramaLlm from "../components/PanoramaLlm";
 import "./Home.css";
 
-type Corpus = "transcricao" | "humanos" | "llm";
+type Corpus = "transcricao" | "humanos" | "llm" | "comparacao";
 
 export default function Home() {
   const [corpus, setCorpus] = useState<Corpus>("transcricao");
@@ -90,16 +92,19 @@ export default function Home() {
             >
               Geradas por LLM
             </button>
+            <button
+              className={`panorama__tab ${corpus === "comparacao" ? "on" : ""}`}
+              onClick={() => setCorpus("comparacao")}
+            >
+              Comparação
+            </button>
           </div>
         </div>
 
         {corpus === "llm" ? (
-          <div className="panorama__empty">
-            <p>
-              Corpus LLM em construção. As matérias geradas pelos modelos
-              (OpenAI, Gemini, DeepSeek) serão sumarizadas aqui.
-            </p>
-          </div>
+          <PanoramaLlm />
+        ) : corpus === "comparacao" ? (
+          <PanoramaComparacao />
         ) : (
           <PanoramaHumano section={corpus} />
         )}

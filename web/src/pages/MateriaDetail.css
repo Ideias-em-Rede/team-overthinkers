@@ -270,6 +270,15 @@
   gap: 1rem;
 }
 
+.detail__sankey-half {
+  max-width: 50%;
+}
+@media (max-width: 900px) {
+  .detail__sankey-half {
+    max-width: 100%;
+  }
+}
+
 /* ---------- Mencionados (accordion) ---------- */
 
 .mencionados {

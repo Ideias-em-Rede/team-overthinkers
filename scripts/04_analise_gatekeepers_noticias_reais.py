@@ -513,10 +513,10 @@ def achado_4_populacao_uf(rows: list) -> dict:
 
     return {
         "hipotese_testada": (
-            "H0: a populacao da UF do deputado nao influencia a "
-            "probabilidade de ele ser citado na materia, controlando pelo "
-            "volume de fala (regressao logistica: covered ~ "
-            "log_populacao_uf + log_palavras; populacao = Censo IBGE 2022)"
+            "Deputados de UFs mais populosas tem maior probabilidade de "
+            "serem citados na materia, mesmo controlando pelo volume de "
+            "fala (regressao logistica: covered ~ log_populacao_uf + "
+            "log_palavras; populacao = Censo IBGE 2022)"
         ),
         "n_deputados_com_uf": len(deputados_com_uf),
         "n_ufs_analisadas": len(por_uf),
@@ -612,6 +612,7 @@ def main() -> None:
         help="Override do path do arquivo de transcrição (default: "
         "dataset/transcricao_reorganizada/metadados/dados_transcricao.json).",
     )
+    
     parser.add_argument(
         "--noticias",
         type=Path,
